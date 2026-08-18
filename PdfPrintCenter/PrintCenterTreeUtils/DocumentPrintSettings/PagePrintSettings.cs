@@ -1,8 +1,8 @@
-﻿// Decompiled with JetBrains decompiler
+﻿
 // Type: Intermech.PdfPrintCenter.PrintCenterTreeUtils.DocumentPrintSettings.PagePrintSettings
-// Assembly: PdfPrintCenter, Version=7.0.2.1112, Culture=neutral, PublicKeyToken=null
-// MVID: 78C265CD-C195-45CA-AEC0-1C98D45B3103
-// Assembly location: D:\IPS\Client\PdfPrintCenter\PdfPrintCenter.exe
+
+
+
 
 using Intermech.PdfPrintCenter.PrintCenterTools.LayoutsSettings;
 using Intermech.PdfPrintCenter.PrintCenterTreeUtils.TreeNodes.PrintQueueNodes;
@@ -13,27 +13,27 @@ namespace Intermech.PdfPrintCenter.PrintCenterTreeUtils.DocumentPrintSettings
 {
     internal class PagePrintSettings
     {
-        public PagePrintSettings(string printerName, IPdfPageProducer layout, PrintQueuePagesNode node)
-        {
-            this.PrinterName = printerName;
-            this.Layout = layout;
-            this.Node = new PrintQueuePagesNode(node);
-        }
+      public PagePrintSettings(string printerName, IPdfPageProducer layout, PrintQueuePagesNode node)
+      {
+        this.PrinterName = printerName;
+        this.Layout = layout;
+        this.Node = new PrintQueuePagesNode(node);
+      }
 
-        public IPdfPageProducer Layout { get; set; }
+      public IPdfPageProducer Layout { get; set; }
 
-        public PrintQueuePagesNode Node { get; private set; }
+      public PrintQueuePagesNode Node { get; private set; }
 
-        public string PrinterName { get; set; }
+      public string PrinterName { get; set; }
 
-        public override bool Equals(object obj)
-        {
-            return obj is PagePrintSettings pagePrintSettings && this.PrinterName == pagePrintSettings.PrinterName && this.Layout.ToString() == pagePrintSettings.Layout.ToString() && this.Node.Copies == pagePrintSettings.Node.Copies && this.Node.IgnoreDifferentCopies == pagePrintSettings.Node.IgnoreDifferentCopies;
-        }
+      public override bool Equals(object obj)
+      {
+        return obj is PagePrintSettings pagePrintSettings && this.PrinterName == pagePrintSettings.PrinterName && this.Layout.ToString() == pagePrintSettings.Layout.ToString() && this.Node.Copies == pagePrintSettings.Node.Copies && this.Node.IgnoreDifferentCopies == pagePrintSettings.Node.IgnoreDifferentCopies;
+      }
 
-        public override int GetHashCode()
-        {
-            return ((-1054404960 * -1521134295 + EqualityComparer<string>.Default.GetHashCode(this.PrinterName)) * -1521134295 + EqualityComparer<object>.Default.GetHashCode((object)this.Layout)) * -1521134295 + EqualityComparer<PrintQueuePagesNode>.Default.GetHashCode(this.Node);
-        }
+      public override int GetHashCode()
+      {
+        return ((-1054404960 * -1521134295 + EqualityComparer<string>.Default.GetHashCode(this.PrinterName)) * -1521134295 + EqualityComparer<object>.Default.GetHashCode((object) this.Layout)) * -1521134295 + EqualityComparer<PrintQueuePagesNode>.Default.GetHashCode(this.Node);
+      }
     }
 }

@@ -1,4 +1,10 @@
-﻿using Intermech.PdfPrintCenter.PrintCenterTools.LayoutsSettings;
+﻿
+// Type: Intermech.PdfPrintCenter.Interfaces.IPrintCenterSettingsFactory
+
+
+
+
+using Intermech.PdfPrintCenter.PrintCenterTools.LayoutsSettings;
 using Intermech.PdfPrintCenter.PrintCenterTools.PrintersSettings;
 using Intermech.PdfPrintCenter.PrintCenterTools.WatermarkSettings;
 
@@ -7,10 +13,10 @@ namespace Intermech.PdfPrintCenter.Interfaces
 {
     internal interface IPrintCenterSettingsFactory
     {
-        LayoutEditor CreateLayoutEditor();
+      LayoutEditor CreateLayoutEditor();
 
-        PrintersSettingsForm CreatePrintersSettingsForm();
+      PrintersSettingsForm CreatePrintersSettingsForm();
 
-        WatermarkForm CreateWatermarkForm();
+      WatermarkForm CreateWatermarkForm();
     }
 }

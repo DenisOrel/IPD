@@ -1,11 +1,18 @@
-﻿namespace Intermech.PdfPrintCenter.Interfaces
+﻿
+// Type: Intermech.PdfPrintCenter.Interfaces.IPrintersSettingsService
+
+
+
+
+
+namespace Intermech.PdfPrintCenter.Interfaces
 {
     internal interface IPrintersSettingsService
     {
-        Intermech.PdfPrintCenter.PrintCenterTools.PrintersSettings.PrintersSettings GetDefaultPrintersSettings();
+      Intermech.PdfPrintCenter.PrintCenterTools.PrintersSettings.PrintersSettings GetDefaultPrintersSettings();
 
-        Intermech.PdfPrintCenter.PrintCenterTools.PrintersSettings.PrintersSettings GetPrintersSettings();
+      Intermech.PdfPrintCenter.PrintCenterTools.PrintersSettings.PrintersSettings GetPrintersSettings();
 
-        void PutPrintersSettings(Intermech.PdfPrintCenter.PrintCenterTools.PrintersSettings.PrintersSettings printersSettings);
+      void PutPrintersSettings(Intermech.PdfPrintCenter.PrintCenterTools.PrintersSettings.PrintersSettings printersSettings);
     }
 }

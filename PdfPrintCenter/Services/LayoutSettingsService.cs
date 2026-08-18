@@ -1,8 +1,8 @@
-﻿// Decompiled with JetBrains decompiler
+﻿
 // Type: Intermech.PdfPrintCenter.Services.LayoutSettingsService
-// Assembly: PdfPrintCenter, Version=7.0.2.1112, Culture=neutral, PublicKeyToken=null
-// MVID: 78C265CD-C195-45CA-AEC0-1C98D45B3103
-// Assembly location: D:\IPS\Client\PdfPrintCenter\PdfPrintCenter.exe
+
+
+
 
 using Intermech.PdfPrintCenter.Connector;
 using Intermech.PdfPrintCenter.Interfaces;
@@ -16,64 +16,64 @@ namespace Intermech.PdfPrintCenter.Services
 {
     internal class LayoutSettingsService : ILayoutSettingsService
     {
-        private static readonly string DefaultLayoutExtension = "lxml";
-        private static readonly string LayoutsDirectory = Path.Combine(Path.GetDirectoryName(Process.GetCurrentProcess().MainModule.FileName), "layouts");
-        private readonly object syncRoot = new object();
-        private IPDMSystemService pdmSystemService;
+      private static readonly string DefaultLayoutExtension = "lxml";
+      private static readonly string LayoutsDirectory = Path.Combine(Path.GetDirectoryName(Process.GetCurrentProcess().MainModule.FileName), "layouts");
+      private readonly object syncRoot = new object();
+      private IPDMSystemService pdmSystemService;
 
-        public LayoutSettingsService(IPDMSystemService pdmSystemService)
+      public LayoutSettingsService(IPDMSystemService pdmSystemService)
+      {
+        this.pdmSystemService = pdmSystemService;
+      }
+
+      public object ChooseLayout()
+      {
+        lock (this.syncRoot)
+          return this.pdmSystemService.ChooseLayout();
+      }
+
+      public LayoutDescriptor LoadLayout(object layoutId)
+      {
+        lock (this.syncRoot)
         {
-            this.pdmSystemService = pdmSystemService;
+          PDMLayoutInfo pdmLayoutInfo = this.pdmSystemService.LoadLayout(layoutId);
+          if (pdmLayoutInfo != null)
+          {
+            LayoutDescriptor layoutDescriptor = new LayoutDescriptor(pdmLayoutInfo.Name, pdmLayoutInfo.Content);
+            if (layoutDescriptor.IsLoaded)
+              return layoutDescriptor;
+          }
+          return (LayoutDescriptor) null;
         }
+      }
 
-        public object ChooseLayout()
+      public List<LayoutDescriptor> LoadAllLayouts()
+      {
+        List<LayoutDescriptor> layoutDescriptorList = new List<LayoutDescriptor>();
+        lock (this.syncRoot)
         {
-            lock (this.syncRoot)
-                return this.pdmSystemService.ChooseLayout();
-        }
-
-        public LayoutDescriptor LoadLayout(object layoutId)
-        {
-            lock (this.syncRoot)
+          foreach (object layoutId in this.pdmSystemService.GetLayoutsId())
+          {
+            PDMLayoutInfo pdmLayoutInfo = this.pdmSystemService.LoadLayout(layoutId);
+            if (pdmLayoutInfo != null)
             {
-                PDMLayoutInfo pdmLayoutInfo = this.pdmSystemService.LoadLayout(layoutId);
-                if (pdmLayoutInfo != null)
-                {
-                    LayoutDescriptor layoutDescriptor = new LayoutDescriptor(pdmLayoutInfo.Name, pdmLayoutInfo.Content);
-                    if (layoutDescriptor.IsLoaded)
-                        return layoutDescriptor;
-                }
-                return (LayoutDescriptor)null;
+              LayoutDescriptor layoutDescriptor = new LayoutDescriptor(pdmLayoutInfo.Name, pdmLayoutInfo.Content);
+              if (layoutDescriptor.IsLoaded)
+                layoutDescriptorList.Add(layoutDescriptor);
             }
+          }
+          return layoutDescriptorList;
         }
+      }
 
-        public List<LayoutDescriptor> LoadAllLayouts()
+      public object SaveLayout(LayoutDescriptor layout, object layoutId = null)
+      {
+        lock (this.syncRoot)
         {
-            List<LayoutDescriptor> layoutDescriptorList = new List<LayoutDescriptor>();
-            lock (this.syncRoot)
-            {
-                foreach (object layoutId in this.pdmSystemService.GetLayoutsId())
-                {
-                    PDMLayoutInfo pdmLayoutInfo = this.pdmSystemService.LoadLayout(layoutId);
-                    if (pdmLayoutInfo != null)
-                    {
-                        LayoutDescriptor layoutDescriptor = new LayoutDescriptor(pdmLayoutInfo.Name, pdmLayoutInfo.Content);
-                        if (layoutDescriptor.IsLoaded)
-                            layoutDescriptorList.Add(layoutDescriptor);
-                    }
-                }
-                return layoutDescriptorList;
-            }
+          string xml = layout.CreateXml();
+          layoutId = this.pdmSystemService.SaveLayout(new PDMLayoutInfo(layout.Caption, xml), layoutId);
         }
-
-        public object SaveLayout(LayoutDescriptor layout, object layoutId = null)
-        {
-            lock (this.syncRoot)
-            {
-                string xml = layout.CreateXml();
-                layoutId = this.pdmSystemService.SaveLayout(new PDMLayoutInfo(layout.Caption, xml), layoutId);
-            }
-            return layoutId;
-        }
+        return layoutId;
+      }
     }
 }

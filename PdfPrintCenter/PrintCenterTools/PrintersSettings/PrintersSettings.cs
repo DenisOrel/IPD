@@ -1,8 +1,8 @@
-﻿// Decompiled with JetBrains decompiler
+﻿
 // Type: Intermech.PdfPrintCenter.PrintCenterTools.PrintersSettings.PrintersSettings
-// Assembly: PdfPrintCenter, Version=7.0.2.1112, Culture=neutral, PublicKeyToken=null
-// MVID: 78C265CD-C195-45CA-AEC0-1C98D45B3103
-// Assembly location: D:\IPS\Client\PdfPrintCenter\PdfPrintCenter.exe
+
+
+
 
 using System;
 using System.Collections.Generic;
@@ -16,72 +16,72 @@ namespace Intermech.PdfPrintCenter.PrintCenterTools.PrintersSettings
     [DataContract]
     internal class PrintersSettings : FreezableObject, ICloneable
     {
-        private IDictionary<string, List<string>> _formatsToPrinters;
-        private IList<string> _printersOrder;
+      private IDictionary<string, List<string>> _formatsToPrinters;
+      private IList<string> _printersOrder;
 
-        public PrintersSettings()
-        {
-            this.FormatsToPrinters = (IDictionary<string, List<string>>)new Dictionary<string, List<string>>();
-            this.PrintersOrder = (IList<string>)new List<string>();
-        }
+      public PrintersSettings()
+      {
+        this.FormatsToPrinters = (IDictionary<string, List<string>>) new Dictionary<string, List<string>>();
+        this.PrintersOrder = (IList<string>) new List<string>();
+      }
 
-        [DataMember]
-        public IDictionary<string, List<string>> FormatsToPrinters
+      [DataMember]
+      public IDictionary<string, List<string>> FormatsToPrinters
+      {
+        get => this._formatsToPrinters;
+        set
         {
-            get => this._formatsToPrinters;
-            set
-            {
-                this.RequireNotFrozenBeforePropertyChange(nameof(FormatsToPrinters));
-                this._formatsToPrinters = value;
-            }
+          this.RequireNotFrozenBeforePropertyChange(nameof (FormatsToPrinters));
+          this._formatsToPrinters = value;
         }
+      }
 
-        [DataMember]
-        public IList<string> PrintersOrder
+      [DataMember]
+      public IList<string> PrintersOrder
+      {
+        get => this._printersOrder;
+        set
         {
-            get => this._printersOrder;
-            set
-            {
-                this.RequireNotFrozenBeforePropertyChange(nameof(PrintersOrder));
-                this._printersOrder = value;
-            }
+          this.RequireNotFrozenBeforePropertyChange(nameof (PrintersOrder));
+          this._printersOrder = value;
         }
+      }
 
-        public object Clone()
-        {
-            Intermech.PdfPrintCenter.PrintCenterTools.PrintersSettings.PrintersSettings printersSettings = new Intermech.PdfPrintCenter.PrintCenterTools.PrintersSettings.PrintersSettings();
-            foreach (KeyValuePair<string, List<string>> formatsToPrinter in (IEnumerable<KeyValuePair<string, List<string>>>)this.FormatsToPrinters)
-                printersSettings.FormatsToPrinters.Add(formatsToPrinter.Key, formatsToPrinter.Value);
-            printersSettings.PrintersOrder = (IList<string>)new List<string>((IEnumerable<string>)this.PrintersOrder);
-            return (object)printersSettings;
-        }
+      public object Clone()
+      {
+        Intermech.PdfPrintCenter.PrintCenterTools.PrintersSettings.PrintersSettings printersSettings = new Intermech.PdfPrintCenter.PrintCenterTools.PrintersSettings.PrintersSettings();
+        foreach (KeyValuePair<string, List<string>> formatsToPrinter in (IEnumerable<KeyValuePair<string, List<string>>>) this.FormatsToPrinters)
+          printersSettings.FormatsToPrinters.Add(formatsToPrinter.Key, formatsToPrinter.Value);
+        printersSettings.PrintersOrder = (IList<string>) new List<string>((IEnumerable<string>) this.PrintersOrder);
+        return (object) printersSettings;
+      }
 
-        protected override void DoFreeze()
-        {
-            this.FormatsToPrinters = (IDictionary<string, List<string>>)new ReadOnlyDictionary<string, List<string>>(this.FormatsToPrinters);
-            this.PrintersOrder = (IList<string>)new ReadOnlyCollection<string>(this.PrintersOrder);
-        }
+      protected override void DoFreeze()
+      {
+        this.FormatsToPrinters = (IDictionary<string, List<string>>) new ReadOnlyDictionary<string, List<string>>(this.FormatsToPrinters);
+        this.PrintersOrder = (IList<string>) new ReadOnlyCollection<string>(this.PrintersOrder);
+      }
 
-        public override bool Equals(object obj)
-        {
-            return obj is Intermech.PdfPrintCenter.PrintCenterTools.PrintersSettings.PrintersSettings printersSettings && this.IsFormatsToPrintersEquals(printersSettings.FormatsToPrinters) && this.PrintersOrder.SequenceEqual<string>((IEnumerable<string>)printersSettings.PrintersOrder);
-        }
+      public override bool Equals(object obj)
+      {
+        return obj is Intermech.PdfPrintCenter.PrintCenterTools.PrintersSettings.PrintersSettings printersSettings && this.IsFormatsToPrintersEquals(printersSettings.FormatsToPrinters) && this.PrintersOrder.SequenceEqual<string>((IEnumerable<string>) printersSettings.PrintersOrder);
+      }
 
-        public override int GetHashCode()
-        {
-            return (36686455 * -1521134295 + EqualityComparer<IDictionary<string, List<string>>>.Default.GetHashCode(this.FormatsToPrinters)) * -1521134295 + EqualityComparer<IList<string>>.Default.GetHashCode(this.PrintersOrder);
-        }
+      public override int GetHashCode()
+      {
+        return (36686455 * -1521134295 + EqualityComparer<IDictionary<string, List<string>>>.Default.GetHashCode(this.FormatsToPrinters)) * -1521134295 + EqualityComparer<IList<string>>.Default.GetHashCode(this.PrintersOrder);
+      }
 
-        private bool IsFormatsToPrintersEquals(IDictionary<string, List<string>> obj)
+      private bool IsFormatsToPrintersEquals(IDictionary<string, List<string>> obj)
+      {
+        if (this.FormatsToPrinters.Count != obj.Count || !this.FormatsToPrinters.Keys.All<string>(new Func<string, bool>(obj.Keys.Contains)))
+          return false;
+        foreach (string key in (IEnumerable<string>) this.FormatsToPrinters.Keys)
         {
-            if (this.FormatsToPrinters.Count != obj.Count || !this.FormatsToPrinters.Keys.All<string>(new Func<string, bool>(obj.Keys.Contains)))
-                return false;
-            foreach (string key in (IEnumerable<string>)this.FormatsToPrinters.Keys)
-            {
-                if (this.FormatsToPrinters[key].Count != obj[key].Count || !this.FormatsToPrinters[key].All<string>(new Func<string, bool>(obj[key].Contains)))
-                    return false;
-            }
-            return true;
+          if (this.FormatsToPrinters[key].Count != obj[key].Count || !this.FormatsToPrinters[key].All<string>(new Func<string, bool>(obj[key].Contains)))
+            return false;
         }
+        return true;
+      }
     }
 }

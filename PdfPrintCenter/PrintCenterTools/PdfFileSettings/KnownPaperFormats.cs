@@ -1,8 +1,8 @@
-﻿// Decompiled with JetBrains decompiler
+﻿
 // Type: Intermech.PdfPrintCenter.PrintCenterTools.PdfFileSettings.KnownPaperFormats
-// Assembly: PdfPrintCenter, Version=7.0.2.1112, Culture=neutral, PublicKeyToken=null
-// MVID: 78C265CD-C195-45CA-AEC0-1C98D45B3103
-// Assembly location: D:\IPS\Client\PdfPrintCenter\PdfPrintCenter.exe
+
+
+
 
 using System;
 using System.Collections.Generic;
@@ -14,9 +14,9 @@ namespace Intermech.PdfPrintCenter.PrintCenterTools.PdfFileSettings
 {
     internal static class KnownPaperFormats
     {
-        static KnownPaperFormats()
-        {
-            KnownPaperFormats.Formats = new List<KnownPaperFormat>()
+      static KnownPaperFormats()
+      {
+        KnownPaperFormats.Formats = new List<KnownPaperFormat>()
         {
           new KnownPaperFormat("A0", 841, 1189),
           new KnownPaperFormat("A1", 594, 841),
@@ -97,52 +97,52 @@ namespace Intermech.PdfPrintCenter.PrintCenterTools.PdfFileSettings
           new KnownPaperFormat("ANSI D", 864, 559),
           new KnownPaperFormat("ANSI E", 1121, 864)
         };
-        }
+      }
 
-        public static List<KnownPaperFormat> Formats { get; set; }
+      public static List<KnownPaperFormat> Formats { get; set; }
 
-        public static string AcceptsAllSizesOfFormat(string formatName)
+      public static string AcceptsAllSizesOfFormat(string formatName)
+      {
+        if (formatName.Contains("size sheet"))
         {
-            if (formatName.Contains("size sheet"))
-            {
-                string str = formatName.Replace(" size sheet", "").Replace(" ", "");
-                if (str == "A" || str == "B" || str == "C")
-                    return str;
-            }
-            return (string)null;
+          string str = formatName.Replace(" size sheet", "").Replace(" ", "");
+          if (str == "A" || str == "B" || str == "C")
+            return str;
         }
+        return (string) null;
+      }
 
-        public static KnownPaperFormat GetFormat(string fullFormatName)
-        {
-            string baseFormatName = fullFormatName;
-            bool isPortrait = KnownPaperFormats.IsPortraitFormat(fullFormatName);
-            if (!isPortrait)
-                baseFormatName = baseFormatName.Replace("альбомный", "").Trim();
-            return KnownPaperFormats.GetFormat(baseFormatName, isPortrait);
-        }
+      public static KnownPaperFormat GetFormat(string fullFormatName)
+      {
+        string baseFormatName = fullFormatName;
+        bool isPortrait = KnownPaperFormats.IsPortraitFormat(fullFormatName);
+        if (!isPortrait)
+          baseFormatName = baseFormatName.Replace("альбомный", "").Trim();
+        return KnownPaperFormats.GetFormat(baseFormatName, isPortrait);
+      }
 
-        public static KnownPaperFormat GetFormat(string baseFormatName, bool isPortrait = true)
-        {
-            return KnownPaperFormats.Formats.FirstOrDefault<KnownPaperFormat>((Func<KnownPaperFormat, bool>)(format => format.BaseName.Contains(baseFormatName) && format.IsPortait == isPortrait));
-        }
+      public static KnownPaperFormat GetFormat(string baseFormatName, bool isPortrait = true)
+      {
+        return KnownPaperFormats.Formats.FirstOrDefault<KnownPaperFormat>((Func<KnownPaperFormat, bool>) (format => format.BaseName.Contains(baseFormatName) && format.IsPortait == isPortrait));
+      }
 
-        public static List<KnownPaperFormat> GetSmallerFormats(KnownPaperFormat mainFormat)
-        {
-            return KnownPaperFormats.Formats.Where<KnownPaperFormat>((Func<KnownPaperFormat, bool>)(format => format.Width < mainFormat.Width && format.Height < mainFormat.Height)).ToList<KnownPaperFormat>();
-        }
+      public static List<KnownPaperFormat> GetSmallerFormats(KnownPaperFormat mainFormat)
+      {
+        return KnownPaperFormats.Formats.Where<KnownPaperFormat>((Func<KnownPaperFormat, bool>) (format => format.Width < mainFormat.Width && format.Height < mainFormat.Height)).ToList<KnownPaperFormat>();
+      }
 
-        public static bool IsFormatName(string fullFormatName)
-        {
-            return KnownPaperFormats.GetFormat(fullFormatName) != null;
-        }
+      public static bool IsFormatName(string fullFormatName)
+      {
+        return KnownPaperFormats.GetFormat(fullFormatName) != null;
+      }
 
-        public static bool IsPortraitFormat(string formatName) => !formatName.Contains("альбомный");
+      public static bool IsPortraitFormat(string formatName) => !formatName.Contains("альбомный");
 
-        public static void LoadToComboBox(ComboBox comboBox)
-        {
-            comboBox.Items.Clear();
-            foreach (KnownPaperFormat format in KnownPaperFormats.Formats)
-                comboBox.Items.Add((object)format);
-        }
+      public static void LoadToComboBox(ComboBox comboBox)
+      {
+        comboBox.Items.Clear();
+        foreach (KnownPaperFormat format in KnownPaperFormats.Formats)
+          comboBox.Items.Add((object) format);
+      }
     }
 }

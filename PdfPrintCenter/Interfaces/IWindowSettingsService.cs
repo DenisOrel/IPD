@@ -1,9 +1,16 @@
-﻿namespace Intermech.PdfPrintCenter.Interfaces
+﻿
+// Type: Intermech.PdfPrintCenter.Interfaces.IWindowSettingsService
+
+
+
+
+
+namespace Intermech.PdfPrintCenter.Interfaces
 {
     internal interface IWindowSettingsService
     {
-        Intermech.PdfPrintCenter.PrintCenterTools.WindowSettings.WindowSettings GetWindowSettings();
+      Intermech.PdfPrintCenter.PrintCenterTools.WindowSettings.WindowSettings GetWindowSettings();
 
-        void PutWindowSettings(Intermech.PdfPrintCenter.PrintCenterTools.WindowSettings.WindowSettings windowParameters);
+      void PutWindowSettings(Intermech.PdfPrintCenter.PrintCenterTools.WindowSettings.WindowSettings windowParameters);
     }
 }

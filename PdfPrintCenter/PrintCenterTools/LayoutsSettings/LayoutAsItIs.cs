@@ -1,11 +1,18 @@
-﻿namespace Intermech.PdfPrintCenter.PrintCenterTools.LayoutsSettings
+﻿
+// Type: Intermech.PdfPrintCenter.PrintCenterTools.LayoutsSettings.LayoutAsItIs
+
+
+
+
+
+namespace Intermech.PdfPrintCenter.PrintCenterTools.LayoutsSettings
 {
     internal class LayoutAsItIs : IPdfPageProducer
     {
-        public LayoutAsItIs() => this.Caption = "Как есть";
+      public LayoutAsItIs() => this.Caption = "Как есть";
 
-        public string Caption { get; set; }
+      public string Caption { get; set; }
 
-        public override string ToString() => this.Caption;
+      public override string ToString() => this.Caption;
     }
 }

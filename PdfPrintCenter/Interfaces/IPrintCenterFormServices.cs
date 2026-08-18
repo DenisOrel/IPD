@@ -1,24 +1,30 @@
-﻿using Intermech.PdfPrintCenter.Services;
+﻿
+// Type: Intermech.PdfPrintCenter.Interfaces.IPrintCenterFormServices
+
+
+
+
+using Intermech.PdfPrintCenter.Services;
 
 
 namespace Intermech.PdfPrintCenter.Interfaces
 {
     internal interface IPrintCenterFormServices
     {
-        ILayoutsAnalyzerService LayoutsAnalyzerService { get; }
+      ILayoutsAnalyzerService LayoutsAnalyzerService { get; }
 
-        ILayoutSettingsService LayoutSettingsService { get; }
+      ILayoutSettingsService LayoutSettingsService { get; }
 
-        IPDMSystemService PDMSystemService { get; }
+      IPDMSystemService PDMSystemService { get; }
 
-        IPrintCenterSettingsFactory PrintCenterSettingsFactory { get; }
+      IPrintCenterSettingsFactory PrintCenterSettingsFactory { get; }
 
-        IPrintersSettingsService PrintersSettingsService { get; }
+      IPrintersSettingsService PrintersSettingsService { get; }
 
-        IWatermarkSettingsService WatermarkSettingsService { get; }
+      IWatermarkSettingsService WatermarkSettingsService { get; }
 
-        IWindowSettingsService WindowSettingsService { get; }
+      IWindowSettingsService WindowSettingsService { get; }
 
-        PrintCenterStartupService PrintCenterStartupService { get; }
+      PrintCenterStartupService PrintCenterStartupService { get; }
     }
 }

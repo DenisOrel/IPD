@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BA0F2431-F1EE-4335-A6A0-0EB09773BF61}</ProjectGuid>
+    <ProjectGuid>{AD328E6F-753F-4446-B450-8F402689DACE}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AssemblyName>PdfPrintCenter</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
@@ -43,6 +43,9 @@
     </Reference>
     <Reference Include="Intermech.Bcl">
       <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.PdfPrintCenter.Connector">
+      <HintPath>lib\Intermech.PdfPrintCenter.Connector.dll</HintPath>
     </Reference>
     <Reference Include="Ninject">
       <HintPath>lib\Ninject.dll</HintPath>
@@ -206,12 +209,6 @@
     <EmbeddedResource Include="Utils\AddNodesToLayoutDialog.resx" />
     <EmbeddedResource Include="Utils\DeleteFilesDialog.resx" />
     <EmbeddedResource Include="Utils\ExceptionForm.resx" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Intermech.PdfPrintCenter.Connector\Intermech.PdfPrintCenter.Connector.csproj">
-      <Project>{93bccdaf-b06c-4eb9-98de-923f10a81450}</Project>
-      <Name>Intermech.PdfPrintCenter.Connector</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

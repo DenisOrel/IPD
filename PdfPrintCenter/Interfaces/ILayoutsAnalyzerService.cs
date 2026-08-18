@@ -1,17 +1,24 @@
-﻿using Intermech.PdfPrintCenter.PrintCenterTools.LayoutsSettings;
+﻿
+// Type: Intermech.PdfPrintCenter.Interfaces.ILayoutsAnalyzerService
+
+
+
+
+using Intermech.PdfPrintCenter.PrintCenterTools.LayoutsSettings;
 using Intermech.PdfPrintCenter.PrintCenterTools.PdfFileSettings;
 using System.Collections.Generic;
+
 
 namespace Intermech.PdfPrintCenter.Interfaces
 {
     internal interface ILayoutsAnalyzerService
     {
-        string FindCommonPrinter(List<KnownPaperFormat> formats);
+      string FindCommonPrinter(List<KnownPaperFormat> formats);
 
-        string FindFirstAptPrinter(KnownPaperFormat format);
+      string FindFirstAptPrinter(KnownPaperFormat format);
 
-        string FindMaxAptFormat(List<KnownPaperFormat> formats);
+      string FindMaxAptFormat(List<KnownPaperFormat> formats);
 
-        LayoutDescriptor FindMinAptLayout(KnownPaperFormat format);
+      LayoutDescriptor FindMinAptLayout(KnownPaperFormat format);
     }
 }

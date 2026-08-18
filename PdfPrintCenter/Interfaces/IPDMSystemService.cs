@@ -1,4 +1,10 @@
-﻿using Intermech.PdfPrintCenter.Connector;
+﻿
+// Type: Intermech.PdfPrintCenter.Interfaces.IPDMSystemService
+
+
+
+
+using Intermech.PdfPrintCenter.Connector;
 using Intermech.Remoting.Ipc;
 using System.Collections.Generic;
 
@@ -7,30 +13,30 @@ namespace Intermech.PdfPrintCenter.Interfaces
 {
     internal interface IPDMSystemService
     {
-        bool IsPDMSystemConnected { get; }
+      bool IsPDMSystemConnected { get; }
 
-        object ChooseLayout();
+      object ChooseLayout();
 
-        List<object> GetLayoutsId();
+      List<object> GetLayoutsId();
 
-        PDMLayoutInfo LoadLayout(object layoutId);
+      PDMLayoutInfo LoadLayout(object layoutId);
 
-        object SaveLayout(PDMLayoutInfo layout, object layoutId = null);
+      object SaveLayout(PDMLayoutInfo layout, object layoutId = null);
 
-        string GetPrintersSettings();
+      string GetPrintersSettings();
 
-        void PutPrintersSettings(string xmlPrintersSettings);
+      void PutPrintersSettings(string xmlPrintersSettings);
 
-        string GetWatermarkSettings();
+      string GetWatermarkSettings();
 
-        void PutWatermarkSettings(string xmlWatermarkSettings);
+      void PutWatermarkSettings(string xmlWatermarkSettings);
 
-        string GetCurrentUserName();
+      string GetCurrentUserName();
 
-        string GetWindowSettings();
+      string GetWindowSettings();
 
-        void PutWindowSettings(string xmlWindowSettings);
+      void PutWindowSettings(string xmlWindowSettings);
 
-        void SetPDMSystem(IpcConnectionInfo connectionInfo);
+      void SetPDMSystem(IpcConnectionInfo connectionInfo);
     }
 }
