@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="_scheduler.ExcludedDays" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAEAQAAANICU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuRGljdGlvbmFyeWAyW1tTeXN0ZW0uSW50MzIsIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV0sW1N5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLkxpc3RgMVtbU3lzdGVtLkludDMyLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODldXSwgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XV0DAAAAB1ZlcnNpb24IQ29tcGFyZXIISGFzaFNpemUAAwAIkQFTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5HZW5lcmljRXF1YWxpdHlDb21wYXJlcmAxW1tTeXN0ZW0uSW50MzIsIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV1dCAAAAAAJAgAAAAAAAAAEAgAAAJEBU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuR2VuZXJpY0VxdWFsaXR5Q29tcGFyZXJgMVtbU3lzdGVtLkludDMyLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODldXQAAAAAL</value>
+  </data>
+  <data name="_navBar.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAGgAAAAs=</value>
+  </data>
+  <data name="_viewsManager.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAALACAABoAAAACw==</value>
+  </data>
+  <data name="_viewsManager.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAACAAAACw==</value>
+  </data>
+  <data name="_viewsManager.Font" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAAAZUYWhvbWEAAARBBfz///8YU3lzdGVtLkRyYXdpbmcuRm9udFN0eWxlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAX7////G1N5c3RlbS5EcmF3aW5nLkdyYXBoaWNzVW5pdAEAAAAHdmFsdWVfXwAIAgAAAAMAAAAL</value>
+  </data>
+  <data name="&gt;&gt;_calendarBand.Parent" xml:space="preserve">
+    <value>_navBar</value>
+  </data>
+  <data name="_splitterH.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value>
+  </data>
+  <data name="_viewsManager.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAA5gEAAAs=</value>
+  </data>
+  <data name="_biViewNames.Text" xml:space="preserve">
+    <value>Вид</value>
+  </data>
+  <data name="&gt;&gt;_calendar.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="_biViewNames.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA3gAAAAKJUE5HDQoaCgAAAA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAAgY0hSTQAAeiUAAICDAAD5/wAAgOkAAHUwAADqYAAAOpgAABdvkl/FRgAAAAlwSFlzAAALEgAACxIB0t1+/AAAAGRJREFUOE9j8Ow+9Z8hbR/JGKQPCBgYQJyKZVdJxiB9cAPIxWADMivqQQySAVQfwgAQDcPE8oGATi748+cPCh8mDwRUcgG5GG4AOQDDAJip2PjoGCYPBMPGBeRisAEggnz8nwEAA4MHnsRCn+8AAAAASUVORK5CYIIL</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="_tbViewBar.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="_viewsManager.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="_biViewNames.CommandName" xml:space="preserve">
+    <value>ddViewNames</value>
+  </data>
+  <data name="$this.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAALACAABOAgAACw==</value>
+  </data>
+  <data name="&gt;&gt;_splitterV.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_tbViewBar.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="_biRefresh.CommandName" xml:space="preserve">
+    <value>btRefresh</value>
+  </data>
+  <data name="_splitterV.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAADTAAAAGgAAAAs=</value>
+  </data>
+  <data name="_tbViewBar.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAAAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;_splitterV.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;_biCreateTask.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;_biCreateTask.Name" xml:space="preserve">
+    <value>_biCreateTask</value>
+  </data>
+  <data name="&gt;&gt;_biRefresh.Name" xml:space="preserve">
+    <value>_biRefresh</value>
+  </data>
+  <data name="&gt;&gt;_biRefresh.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="_biHelp.CommandName" xml:space="preserve">
+    <value>btnHelp</value>
+  </data>
+  <data name="_biRefresh.ToolTipText" xml:space="preserve">
+    <value>Обновить содержимое закладки</value>
+  </data>
+  <data name="_navBar.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="_calendar.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;_tbViewBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_splitterH.Name" xml:space="preserve">
+    <value>_splitterH</value>
+  </data>
+  <data name="&gt;&gt;_splitterH.Type" xml:space="preserve">
+    <value>NJFLib.Controls.CollapsibleSplitter, CollapsibleSplitter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="_biHelp.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAtQIAAAKJUE5HDQoaCgAAAA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAAEZ0FNQQAAsY8L/GEFAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAAJcEhZcwAACwwAAAsMAT9AIsgAAAIrSURBVDhPpVJNaxNRFO1PyE+Yn1AUXLjK0uWgDWQZwUUXKsGFBEEcCkIwqBEpGiydsSo2ktrZ1I7R2hFttYh0sFZjGybTEjVtpunTqdIPzfHeedbYphvxweHdd+89537MdAD4L+zpnJgJcKu4jPTtCnr659BbKGPk+UcKtefueLxx15Efb0AvLsGrb+LL2hZEsEn2Bi7mS0jrDoovFil1DwEm37NX4X9rwnYAbRBQ0xJs246Au9rEud5JjDwtE2WXAFde+d6EYQPRFGBYgFjnPMATQPI6+wQqJHIq85jdLYGJt2t4MN0IKzOZk/mYL4FEVt4sFk0JsgV06x1y+VecIgXuPKrjk/gRthpNyrazJtBJttItkMxSC3RUTSCRdjDnBjh6ZohdUiBzdzFcmKpJUme3hEJIEJmr2yUBRbWhxG3U/AAHYldbAudvurTtrbB9SaTkhKBOZGXTpjcRI6pJt4la/Sv2qZc5JAVy9ytY8DdodklU4l6I7KAUiKgOQQqoKRulchVdJwwOSYHRyc+wHD9cEBMjcSY4NJJHe6E3kw+ZIQzLw5A1iws3xloCjMzADOb9n1T1N4HANp9tsmY4+LDs48hxnd0h74/A2FQVPbkpuA36F6iKqjnh3Ay22TdfXUGMWu8v0HfdLcAYfVbB6UvjMB6+x/TsApZo27V6EM7MbXdRZf0vMmOHwDb6Cq9x7OwwDsavYf/hK4idHECm7wmF2nPbHP8GdPwCt3EFtocem4oAAAAASUVORK5CYIIL</value>
+  </data>
+  <data name="_calendar.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAAAAAAAs=</value>
+  </data>
+  <data name="_scheduler.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="_scheduler.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAANoBAADMAQAACw==</value>
+  </data>
+  <data name="_scheduler.Text" xml:space="preserve">
+    <value>calendar1</value>
+  </data>
+  <data name="_splitterH.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAACAAAACw==</value>
+  </data>
+  <data name="_splitterV.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;_navBar.Type" xml:space="preserve">
+    <value>Intermech.Client.Core.Organizer.NavigationBar, Intermech.Client.Core, Version=6.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;_navBar.Name" xml:space="preserve">
+    <value>_navBar</value>
+  </data>
+  <data name="_calendarBand.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="_splitterH.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="_biCreateTask.ToolTipText" xml:space="preserve">
+    <value>Создание новой задачи органайзера</value>
+  </data>
+  <data name="_calendar.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="_calendar.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAANEAAACvAQAACw==</value>
+  </data>
+  <data name="_scheduler.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="_viewsManager.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;_splitterH.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="_navBar.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAANMAAADMAQAACw==</value>
+  </data>
+  <data name="_navBar.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAADAAAACw==</value>
+  </data>
+  <data name="_biHelp.ToolTipText" xml:space="preserve">
+    <value>Справка</value>
+  </data>
+  <data name="_calendarBand.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAABAAAAGwAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;_viewsManager.Type" xml:space="preserve">
+    <value>Intermech.Navigator.Controls.PageViewsManager, Intermech.Client.Core, Version=6.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;_viewsManager.Name" xml:space="preserve">
+    <value>_viewsManager</value>
+  </data>
+  <data name="_calendarBand.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAANEAAACvAQAACw==</value>
+  </data>
+  <data name="_calendarBand.Text" xml:space="preserve">
+    <value>Календарь</value>
+  </data>
+  <data name="&gt;&gt;_tbViewBar.Type" xml:space="preserve">
+    <value>Intermech.Bars.ToolBar, Intermech.Bars, Version=4.0.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;_tbViewBar.Name" xml:space="preserve">
+    <value>_tbViewBar</value>
+  </data>
+  <data name="_viewsManager.Padding" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0B19ib3R0b20AAAAAAAEICAgIAgAAAAAAAAAACgAAAAAAAAAAAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;_splitterH.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_scheduler.Name" xml:space="preserve">
+    <value>_scheduler</value>
+  </data>
+  <data name="&gt;&gt;_scheduler.Type" xml:space="preserve">
+    <value>Intermech.Client.Core.Organizer.Scheduler, Intermech.Client.Core, Version=6.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="_biCreateTask.CommandName" xml:space="preserve">
+    <value>_biCreateTask</value>
+  </data>
+  <data name="&gt;&gt;_splitterV.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Splitter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_splitterV.Name" xml:space="preserve">
+    <value>_splitterV</value>
+  </data>
+  <data name="&gt;&gt;_biViewNames.Name" xml:space="preserve">
+    <value>_biViewNames</value>
+  </data>
+  <data name="&gt;&gt;_biViewNames.Type" xml:space="preserve">
+    <value>Intermech.Bars.DropDownMenuItem, Intermech.Bars, Version=4.0.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="_splitterV.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAMAAADMAQAACw==</value>
+  </data>
+  <data name="&gt;&gt;_navBar.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;_calendar.Name" xml:space="preserve">
+    <value>_calendar</value>
+  </data>
+  <data name="&gt;&gt;_calendar.Type" xml:space="preserve">
+    <value>Intermech.Client.Core.Organizer.CalendarView, Intermech.Client.Core, Version=6.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="_splitterH.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAA4wEAAAs=</value>
+  </data>
+  <data name="_tbViewBar.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="_tbViewBar.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAALACAAAaAAAACw==</value>
+  </data>
+  <data name="_scheduler.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAADWAAAAGgAAAAs=</value>
+  </data>
+  <data name="_biViewNames.ToolTipText" xml:space="preserve">
+    <value>Выбрать активную закладку</value>
+  </data>
+  <data name="&gt;&gt;_scheduler.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_navBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>OrganizerCalendarView</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_viewsManager.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;_biHelp.Name" xml:space="preserve">
+    <value>_biHelp</value>
+  </data>
+  <data name="&gt;&gt;_biHelp.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;_scheduler.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="_splitterH.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;_viewsManager.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_calendarBand.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5TaXplRgIAAAAFd2lkdGgGaGVpZ2h0AAALCwIAAAAAAMBAAABQQQs=</value>
+  </data>
+  <data name="_splitterV.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;_calendarBand.Name" xml:space="preserve">
+    <value>_calendarBand</value>
+  </data>
+  <data name="&gt;&gt;_calendarBand.Type" xml:space="preserve">
+    <value>Intermech.Client.Core.Organizer.NavigationBand, Intermech.Client.Core, Version=6.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="_biCreateTask.Text" xml:space="preserve">
+    <value>Создать задачу</value>
+  </data>
+  <data name="_biCreateTask.Icon" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>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</value>
+  </data>
+  <data name="&gt;&gt;_calendar.Parent" xml:space="preserve">
+    <value>_calendarBand</value>
+  </data>
+</root>

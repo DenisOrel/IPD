@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.Calendars.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8F170A74-3A08-4355-B80D-A91F4CCBC26C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.Calendars</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech.Calendars</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Extensions">
+      <HintPath>lib\Intermech.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Extensions.Interfaces">
+      <HintPath>lib\Intermech.Extensions.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Library.cs" />
+    <Compile Include="Attributes.cs" />
+    <Compile Include="Services.cs" />
+    <Compile Include="CalendarFactory.cs" />
+    <Compile Include="CalendarLoader.cs" />
+    <Compile Include="CalendarBase.cs" />
+    <Compile Include="CalendarInDB.cs" />
+    <Compile Include="Calendar.cs" />
+    <Compile Include="UserCalendar.cs" />
+    <Compile Include="OrganizationUnitCalendar.cs" />
+    <Compile Include="StandardWeek.cs" />
+    <Compile Include="DayBase.cs" />
+    <Compile Include="CalendarWeekDay.cs" />
+    <Compile Include="SpecialDay.cs" />
+    <Compile Include="SpecialPeriodsList.cs" />
+    <Compile Include="WorkTime.cs" />
+    <Compile Include="WorkPeriodsList.cs" />
+    <Compile Include="MetadataLoader.cs" />
+    <Compile Include="CalendarsService.cs" />
+    <Compile Include="CalendarIDs.cs" />
+    <Compile Include="Localization.cs" />
+    <Compile Include="CustomDescription.cs" />
+    <Compile Include="CustomDisplayName.cs" />
+    <Compile Include="CustomCategory.cs" />
+    <Compile Include="Properties\Resources.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

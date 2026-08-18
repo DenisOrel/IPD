@@ -1,0 +1,23 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: Intermech.Interfaces.Pdm.IListInstancesInfo
+// Assembly: Intermech.Interfaces.Pdm, Version=7.0.2.1112, Culture=neutral, PublicKeyToken=null
+// MVID: C981BCB9-CF2A-447D-A8BE-B05ADE22BCE8
+// Assembly location: D:\IPS\Client\Intermech.Interfaces.Pdm.dll
+// XML documentation location: D:\IPS\Client\Intermech.Interfaces.Pdm.xml
+
+using System;
+
+#nullable disable
+namespace Intermech.Interfaces.Pdm;
+
+/// <summary>Информация для построения списка исполнений</summary>
+public interface IListInstancesInfo
+{
+  /// <summary>Значение атрибута "Идентификатор группового изделия"</summary>
+  Guid NumGroupInstance { get; set; }
+
+  /// <summary>
+  /// GUID исполнения с которого захотели открыть список исполнений
+  /// </summary>
+  Guid InitInstanceGUID { get; }
+}

@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AutoSelection.Client_101" xml:space="preserve">
+    <value>Объект для заполнения атрибутов не найден.</value>
+  </data>
+  <data name="AutoSelection.Client_100" xml:space="preserve">
+    <value>Количество подобранных объектов: {0}</value>
+  </data>
+  <data name="AutoSelection.Client_20" xml:space="preserve">
+    <value>Подбор завершен.</value>
+  </data>
+  <data name="AutoSelection.Client_21" xml:space="preserve">
+    <value>Объект ObjID = {0} не найден.</value>
+  </data>
+  <data name="AutoSelection.Client_22" xml:space="preserve">
+    <value>Для объекта ObjID = {0} правила автоподбора не найдены.</value>
+  </data>
+  <data name="AutoSelection.Client_23" xml:space="preserve">
+    <value>Правило автоподбора ObjID = {0} не найдено.</value>
+  </data>
+  <data name="AutoSelection.Client_24" xml:space="preserve">
+    <value>Для объекта ObjID = {0} правила автоподбора не определены.</value>
+  </data>
+  <data name="AutoSelection.Client_25" xml:space="preserve">
+    <value>Подбор объектов</value>
+  </data>
+  <data name="AutoSelection.Client_26" xml:space="preserve">
+    <value>Создание объектов/связей</value>
+  </data>
+  <data name="AutoSelection.Client_27" xml:space="preserve">
+    <value>Типы элементов автоподбора</value>
+  </data>
+  <data name="AutoSelection.Client_28" xml:space="preserve">
+    <value>Настройка атрибутов объекта/связи</value>
+  </data>
+  <data name="AutoSelection.Client_29" xml:space="preserve">
+    <value>&amp;Атрибуты:</value>
+  </data>
+  <data name="AutoSelection.Client_31" xml:space="preserve">
+    <value>&amp;Члены:</value>
+  </data>
+  <data name="AutoSelection.Client_30" xml:space="preserve">
+    <value>&amp;параметры:</value>
+  </data>
+  <data name="AutoSelection.Client_33" xml:space="preserve">
+    <value>&lt; Список... &gt;</value>
+  </data>
+  <data name="AutoSelection.Client_32" xml:space="preserve">
+    <value>&amp;Свойства</value>
+  </data>
+  <data name="AutoSelection.Client_35" xml:space="preserve">
+    <value>Выберите атрибут</value>
+  </data>
+  <data name="AutoSelection.Client_34" xml:space="preserve">
+    <value>Выберите необходимый тип атрибута	</value>
+  </data>
+  <data name="AutoSelection.Client_37" xml:space="preserve">
+    <value>Тип объекта у элемента не определен</value>
+  </data>
+  <data name="AutoSelection.Client_36" xml:space="preserve">
+    <value>&lt;Таблица...&gt;</value>
+  </data>
+  <data name="AutoSelection.Client_39" xml:space="preserve">
+    <value>Выберите объект</value>
+  </data>
+  <data name="AutoSelection.Client_38" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="AutoSelection.Client_64" xml:space="preserve">
+    <value>Вы действительно хотите исключить правило "{0}"?</value>
+  </data>
+  <data name="AutoSelection.Client_65" xml:space="preserve">
+    <value>Выберите тип элемента автоподбора</value>
+  </data>
+  <data name="AutoSelection.Client_66" xml:space="preserve">
+    <value>Дерево автоподбора (New)</value>
+  </data>
+  <data name="AutoSelection.Client_67" xml:space="preserve">
+    <value>Клиентская часть AutoSelection</value>
+  </data>
+  <data name="AutoSelection.Client_60" xml:space="preserve">
+    <value>Тип объектов с GUID={0} не найден.</value>
+  </data>
+  <data name="AutoSelection.Client_61" xml:space="preserve">
+    <value>Объект IMBASE c ID={0} не найден</value>
+  </data>
+  <data name="AutoSelection.Client_62" xml:space="preserve">
+    <value>Для узла "{0}" не найдено доступных правил автоподбора</value>
+  </data>
+  <data name="AutoSelection.Client_63" xml:space="preserve">
+    <value>Для типа объектов "{0}" не найдено доступных правил автоподбора</value>
+  </data>
+  <data name="AutoSelection.Client_68" xml:space="preserve">
+    <value>Настройка автоподбора </value>
+  </data>
+  <data name="AutoSelection.Client_69" xml:space="preserve">
+    <value>Ошибка получения сервиса {0}</value>
+  </data>
+  <data name="AutoSelection.Client_13" xml:space="preserve">
+    <value>Подбор прерван.</value>
+  </data>
+  <data name="AutoSelection.Client_12" xml:space="preserve">
+    <value>Запуск процедуры подбора...</value>
+  </data>
+  <data name="AutoSelection.Client_11" xml:space="preserve">
+    <value>Процедура подбора c Guid={0} не найдена.</value>
+  </data>
+  <data name="AutoSelection.Client_10" xml:space="preserve">
+    <value>Процедура подбора не задана.</value>
+  </data>
+  <data name="AutoSelection.Client_17" xml:space="preserve">
+    <value>Правило автоподбора "{0}"</value>
+  </data>
+  <data name="AutoSelection.Client_16" xml:space="preserve">
+    <value>Подбор был прерван пользователем.</value>
+  </data>
+  <data name="AutoSelection.Client_15" xml:space="preserve">
+    <value>Запрос пользователю</value>
+  </data>
+  <data name="AutoSelection.Client_14" xml:space="preserve">
+    <value>{0} Продолжить подбор?</value>
+  </data>
+  <data name="AutoSelection.Client_19" xml:space="preserve">
+    <value>Подбор начат...</value>
+  </data>
+  <data name="AutoSelection.Client_18" xml:space="preserve">
+    <value>Подбор невозможен. Правило не содержит элементов подбора.</value>
+  </data>
+  <data name="AutoSelection.Client_46" xml:space="preserve">
+    <value>Для текущего узла IMBASE не найдено доступных объектов</value>
+  </data>
+  <data name="AutoSelection.Client_47" xml:space="preserve">
+    <value>Вы действительно хотите удалить элемент "{0}"?</value>
+  </data>
+  <data name="AutoSelection.Client_44" xml:space="preserve">
+    <value>Для типа объекта "{0}" не найдено доступных правил автоподбора</value>
+  </data>
+  <data name="AutoSelection.Client_45" xml:space="preserve">
+    <value>Правила автоподбора</value>
+  </data>
+  <data name="AutoSelection.Client_42" xml:space="preserve">
+    <value>Тип подбираемого объекта</value>
+  </data>
+  <data name="AutoSelection.Client_43" xml:space="preserve">
+    <value>Допустимые типы связей</value>
+  </data>
+  <data name="AutoSelection.Client_40" xml:space="preserve">
+    <value>Правило автоподбора не задано</value>
+  </data>
+  <data name="AutoSelection.Client_41" xml:space="preserve">
+    <value>Тип объекта у правила не определен</value>
+  </data>
+  <data name="AutoSelection.Client_48" xml:space="preserve">
+    <value>Подтверждение</value>
+  </data>
+  <data name="AutoSelection.Client_49" xml:space="preserve">
+    <value>Атрибут</value>
+  </data>
+  <data name="AutoSelection.Client_75" xml:space="preserve">
+    <value>Ошибка ключа защиты для плагина "{0}. ErrorCode = {1}"</value>
+  </data>
+  <data name="AutoSelection.Client_74" xml:space="preserve">
+    <value>Сохранить изменения ? </value>
+  </data>
+  <data name="AutoSelection.Client_77" xml:space="preserve">
+    <value>Проверка условия - {0}</value>
+  </data>
+  <data name="AutoSelection.Client_76" xml:space="preserve">
+    <value>Интерфейс лицензий не найден</value>
+  </data>
+  <data name="AutoSelection.Client_71" xml:space="preserve">
+    <value>Выберите объект </value>
+  </data>
+  <data name="AutoSelection.Client_70" xml:space="preserve">
+    <value>Выберите правило для добавления </value>
+  </data>
+  <data name="AutoSelection.Client_73" xml:space="preserve">
+    <value>Допустимые объекты </value>
+  </data>
+  <data name="AutoSelection.Client_72" xml:space="preserve">
+    <value>Выберите правило для добавления </value>
+  </data>
+  <data name="AutoSelection.Client_79" xml:space="preserve">
+    <value>Родительский объект для автоподбора не определен</value>
+  </data>
+  <data name="AutoSelection.Client_78" xml:space="preserve">
+    <value>Выбор из анкеты '{0}'. Выбрано записей {1}</value>
+  </data>
+  <data name="AutoSelection.Client_57" xml:space="preserve">
+    <value>Вы действительно хотите удалить все автоподборы для типа объекта "{0}" ?</value>
+  </data>
+  <data name="AutoSelection.Client_56" xml:space="preserve">
+    <value>Выберите тип объекта</value>
+  </data>
+  <data name="AutoSelection.Client_55" xml:space="preserve">
+    <value>Таблица</value>
+  </data>
+  <data name="AutoSelection.Client_54" xml:space="preserve">
+    <value>на столбец "{0}"</value>
+  </data>
+  <data name="AutoSelection.Client_53" xml:space="preserve">
+    <value>Редактирование формулы для элемента  "{0}"</value>
+  </data>
+  <data name="AutoSelection.Client_52" xml:space="preserve">
+    <value>Неизвестный атрибут</value>
+  </data>
+  <data name="AutoSelection.Client_51" xml:space="preserve">
+    <value>Модификатор</value>
+  </data>
+  <data name="AutoSelection.Client_50" xml:space="preserve">
+    <value>Условие</value>
+  </data>
+  <data name="AutoSelection.Client_59" xml:space="preserve">
+    <value>Тип объекта с GUID={0} не найден</value>
+  </data>
+  <data name="AutoSelection.Client_58" xml:space="preserve">
+    <value>Вы точно уверены в ваших действиях?</value>
+  </data>
+  <data name="AutoSelection.Client_88" xml:space="preserve">
+    <value>Не допускается использовать абстрактные типы объектов в настройках автоподбора.</value>
+  </data>
+  <data name="AutoSelection.Client_89" xml:space="preserve">
+    <value>Ошибка создания связи типа "{0}" для родительского объекта "{1}" (ObjID = {2}) и дочернего объекта "{3}" (ObjID = {4}). Связь не является допустимой между объектами типа "{5}" и "{6}".</value>
+  </data>
+  <data name="AutoSelection.Client_82" xml:space="preserve">
+    <value>Данный тип связи не является допустимым для указанных типов объектов. Тип связи - "{0}" (ID={1}),
+    тип родительского объекта - "{2}" (ID={3}), тип дочернего объекта - "{4}" (ID={5})</value>
+  </data>
+  <data name="AutoSelection.Client_83" xml:space="preserve">
+    <value>Не допускается использовать рабочие копии объектов в настройках автоподбора. Выбрать архивную копию объекта?</value>
+  </data>
+  <data name="AutoSelection.Client_80" xml:space="preserve">
+    <value>Тип объекта GUID={0} не определен</value>
+  </data>
+  <data name="AutoSelection.Client_81" xml:space="preserve">
+    <value>Тип связи GUID={0} не определен</value>
+  </data>
+  <data name="AutoSelection.Client_86" xml:space="preserve">
+    <value>Ошибка при создании объекта типа "{0}" по прототипу. Объект-прототип с ID = {1} не найден.</value>
+  </data>
+  <data name="AutoSelection.Client_87" xml:space="preserve">
+    <value>Ошибка создания связи типа "{0}" для родительского объекта "{1}" (ObjID = {2}). Дочерний объект типа "{3}" (ObjID = {4}) не найден.</value>
+  </data>
+  <data name="AutoSelection.Client_84" xml:space="preserve">
+    <value>Внимание</value>
+  </data>
+  <data name="AutoSelection.Client_85" xml:space="preserve">
+    <value>Сервис автоподбора</value>
+  </data>
+  <data name="AutoSelection.Client_99" xml:space="preserve">
+    <value>Запустить процедуру автоподбора{0}?</value>
+  </data>
+  <data name="AutoSelection.Client_98" xml:space="preserve">
+    <value>Автоподбор</value>
+  </data>
+  <data name="AutoSelection.Client_93" xml:space="preserve">
+    <value>Сценарий автоподбора не задан.</value>
+  </data>
+  <data name="AutoSelection.Client_92" xml:space="preserve">
+    <value>Сценарии автоподбора</value>
+  </data>
+  <data name="AutoSelection.Client_91" xml:space="preserve">
+    <value>Вызов сценария автоподбора</value>
+  </data>
+  <data name="AutoSelection.Client_90" xml:space="preserve">
+    <value>Папка Imbase не задана</value>
+  </data>
+  <data name="AutoSelection.Client_97" xml:space="preserve">
+    <value>Ошибка выполнения сценария: </value>
+  </data>
+  <data name="AutoSelection.Client_96" xml:space="preserve">
+    <value>Результат выполнения сценария: </value>
+  </data>
+  <data name="AutoSelection.Client_95" xml:space="preserve">
+    <value>Запуск сценария автоподбора...</value>
+  </data>
+  <data name="AutoSelection.Client_94" xml:space="preserve">
+    <value>Сценарий автоподбора c Guid={0} не найден.</value>
+  </data>
+  <data name="AutoSelection.Client_2" xml:space="preserve">
+    <value>Ошибка загрузки</value>
+  </data>
+  <data name="AutoSelection.Client_3" xml:space="preserve">
+    <value>Ошибка загрузки условий</value>
+  </data>
+  <data name="AutoSelection.Client_1" xml:space="preserve">
+    <value>&lt;Пусто...&gt;</value>
+  </data>
+  <data name="AutoSelection.Client_6" xml:space="preserve">
+    <value>Ошибка при загрузке таблиц экспертной системы: </value>
+  </data>
+  <data name="AutoSelection.Client_7" xml:space="preserve">
+    <value>Дочерние элементы не найдены.</value>
+  </data>
+  <data name="AutoSelection.Client_4" xml:space="preserve">
+    <value>Подобрано объектов : {0}</value>
+  </data>
+  <data name="AutoSelection.Client_5" xml:space="preserve">
+    <value>Нет условия</value>
+  </data>
+  <data name="AutoSelection.Client_8" xml:space="preserve">
+    <value>Атрибут не найден</value>
+  </data>
+  <data name="AutoSelection.Client_9" xml:space="preserve">
+    <value>Атрибут не задан</value>
+  </data>
+</root>

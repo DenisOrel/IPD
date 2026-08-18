@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\IPS.Installer.Full\InstServer\Server\Intermech.GTC.Server.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{44DDCAC4-884E-476B-B904-460CE404082C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.GTC.Server</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech.GTC.Server</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>lib\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Expert">
+      <HintPath>lib\Intermech.Expert.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.GTC.Interfaces">
+      <HintPath>lib\Intermech.GTC.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Pdm">
+      <HintPath>lib\Intermech.Interfaces.Pdm.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Server">
+      <HintPath>lib\Intermech.Interfaces.Server.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Kernel">
+      <HintPath>lib\Intermech.Kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GtcServerResources.cs" />
+    <Compile Include="Const.cs" />
+    <Compile Include="FileFolder.cs" />
+    <Compile Include="PackageType.cs" />
+    <Compile Include="FileFolderItem.cs" />
+    <Compile Include="FileFolderPathHolder.cs" />
+    <Compile Include="GtcItemDataHolder.cs" />
+    <Compile Include="GtcPlugin.cs" />
+    <Compile Include="ClassCatalogHierarchyItem.cs" />
+    <Compile Include="ServiceHolder.cs" />
+    <Compile Include="ZipExtractor.cs" />
+    <Compile Include="P21\EntityObjects.cs" />
+    <Compile Include="P21\EntityTypesCashe.cs" />
+    <Compile Include="P21\Factory.cs" />
+    <Compile Include="P21\BaseObject.cs" />
+    <Compile Include="P21\Entities\AliasIdentification.cs" />
+    <Compile Include="P21\Entities\AssemblyAssociation.cs" />
+    <Compile Include="P21\Entities\AssemblyDefinition.cs" />
+    <Compile Include="P21\Entities\CartesianCoordinateSpace2D.cs" />
+    <Compile Include="P21\Entities\CartesianCoordinateSpace3D.cs" />
+    <Compile Include="P21\Entities\CartesianPoint.cs" />
+    <Compile Include="P21\Entities\ClassificationAssociation.cs" />
+    <Compile Include="P21\Entities\ClassificationAssociationRelationship.cs" />
+    <Compile Include="P21\Entities\Coating.cs" />
+    <Compile Include="P21\Entities\CuttingCondition.cs" />
+    <Compile Include="P21\Entities\DateTime.cs" />
+    <Compile Include="P21\Entities\DigitalDocument.cs" />
+    <Compile Include="P21\Entities\DigitalFile.cs" />
+    <Compile Include="P21\Entities\Direction.cs" />
+    <Compile Include="P21\Entities\Document.cs" />
+    <Compile Include="P21\Entities\DocumentAssignment.cs" />
+    <Compile Include="P21\Entities\DocumentContentProperty.cs" />
+    <Compile Include="P21\Entities\DocumentCreationProperty.cs" />
+    <Compile Include="P21\Entities\DocumentFormatProperty.cs" />
+    <Compile Include="P21\Entities\DocumentLocationProperty.cs" />
+    <Compile Include="P21\Entities\DocumentVersion.cs" />
+    <Compile Include="P21\Entities\Duration.cs" />
+    <Compile Include="P21\Entities\Effectivity.cs" />
+    <Compile Include="P21\Entities\EffectivityAssignment.cs" />
+    <Compile Include="P21\Entities\BoolConverter.cs" />
+    <Compile Include="P21\Entities\EffectivityRelationship.cs" />
+    <Compile Include="P21\Entities\ExternalFileIdAndLocation.cs" />
+    <Compile Include="P21\Entities\ExternalGeometricModel.cs" />
+    <Compile Include="P21\Entities\ExternalLibraryReference.cs" />
+    <Compile Include="P21\Entities\ExternalPicture.cs" />
+    <Compile Include="P21\Entities\FittingBounds.cs" />
+    <Compile Include="P21\Entities\GeneralClassification.cs" />
+    <Compile Include="P21\Entities\GeometricModelRelationshipWithTransformation.cs" />
+    <Compile Include="P21\Entities\Grade.cs" />
+    <Compile Include="P21\Entities\ItemCharacteristicAssociation.cs" />
+    <Compile Include="P21\Entities\ItemDefinitionRelationship.cs" />
+    <Compile Include="P21\Entities\ItemInstance.cs" />
+    <Compile Include="P21\Entities\ItemVersionRelationship.cs" />
+    <Compile Include="P21\Entities\LimitsAndFits.cs" />
+    <Compile Include="P21\Entities\Location.cs" />
+    <Compile Include="P21\Entities\MatedItemRelationship.cs" />
+    <Compile Include="P21\Entities\MaterialDesignation.cs" />
+    <Compile Include="P21\Entities\MatingAssociation.cs" />
+    <Compile Include="P21\Entities\MatingDefinition.cs" />
+    <Compile Include="P21\Entities\NumericalValue.cs" />
+    <Compile Include="P21\Entities\Person.cs" />
+    <Compile Include="P21\Entities\PersonInOrganization.cs" />
+    <Compile Include="P21\Entities\PersonOrganizationAssignment.cs" />
+    <Compile Include="P21\Entities\PhysicalItem.cs" />
+    <Compile Include="P21\Entities\PhysicalItemDefinition.cs" />
+    <Compile Include="P21\Entities\PhysicalItemLocationAssociation.cs" />
+    <Compile Include="P21\Entities\PhysicalItemStateAssociation.cs" />
+    <Compile Include="P21\Entities\PhysicalItemStructureAssociation.cs" />
+    <Compile Include="P21\Entities\PhysicalItemVersion.cs" />
+    <Compile Include="P21\Entities\PlibClassReference.cs" />
+    <Compile Include="P21\Entities\PlibPropertyReference.cs" />
+    <Compile Include="P21\Entities\PlusMinusBounds.cs" />
+    <Compile Include="P21\Entities\Property.cs" />
+    <Compile Include="P21\Entities\PropertyRelationship.cs" />
+    <Compile Include="P21\Entities\PropertyValueAssociation.cs" />
+    <Compile Include="P21\Entities\PropertyValueRepresentation.cs" />
+    <Compile Include="P21\Entities\PropertyValueRepresentationRelationship.cs" />
+    <Compile Include="P21\Entities\RealizedItemAssociation.cs" />
+    <Compile Include="P21\Entities\SpecificItemClassification.cs" />
+    <Compile Include="P21\Entities\State.cs" />
+    <Compile Include="P21\Entities\StringValue.cs" />
+    <Compile Include="P21\Entities\StringWithLanguage.cs" />
+    <Compile Include="P21\Entities\Substrate.cs" />
+    <Compile Include="P21\Entities\Transformation2D.cs" />
+    <Compile Include="P21\Entities\Transformation3D.cs" />
+    <Compile Include="P21\Entities\Unit.cs" />
+    <Compile Include="P21\Entities\ValueLimit.cs" />
+    <Compile Include="P21\Entities\ValueLimitation.cs" />
+    <Compile Include="P21\Entities\ValueList.cs" />
+    <Compile Include="P21\Entities\ValueRange.cs" />
+    <Compile Include="P21\Entities\Item.cs" />
+    <Compile Include="P21\Entities\ItemDefinition.cs" />
+    <Compile Include="P21\Entities\ItemVersion.cs" />
+    <Compile Include="P21\Entities\Language.cs" />
+    <Compile Include="P21\Entities\MultiLanguageString.cs" />
+    <Compile Include="P21\Entities\Organization.cs" />
+    <Compile Include="Exceptions\StopTaskException.cs" />
+    <Compile Include="BrowseFileFolderDialog\BrowseFileFolder.cs" />
+    <Compile Include="BrowseFileFolderDialog\IconHolder.cs" />
+    <Compile Include="BrowseFileFolderDialog\FileFolderInfo.cs" />
+    <Compile Include="Processors\GtcItemObjectFactory.cs" />
+    <Compile Include="Processors\FileInfoComparer.cs" />
+    <Compile Include="Processors\GtcProcessor.cs" />
+    <Compile Include="Processors\HierarchyDescriptor.cs" />
+    <Compile Include="Processors\ListItemDescriptor.cs" />
+    <Compile Include="Processors\Gtc10ForAdveonProcessor.cs" />
+    <Compile Include="Processors\HierarchyItemAdveon.cs" />
+    <Compile Include="Processors\DocumentAdveon.cs" />
+    <Compile Include="Processors\LanguageTranslation.cs" />
+    <Compile Include="Processors\ItemAdveon.cs" />
+    <Compile Include="Processors\Gtc10Processor.cs" />
+    <Compile Include="Processors\HierarchyItem.cs" />
+    <Compile Include="Processors\DataItem.cs" />
+    <Compile Include="Processors\Gtc20Processor.cs" />
+    <Compile Include="Processors\GtcItem.cs" />
+    <Compile Include="Processors\GtcClassHierarchy.cs" />
+    <Compile Include="Processors\StringWithLanguage.cs" />
+    <Compile Include="Processors\Document.cs" />
+    <Compile Include="Processors\GtcProcessorFactory.cs" />
+    <Compile Include="BackgroundTask\BackgroundTaskService.cs" />
+    <Compile Include="BackgroundTask\BaseTaskForBackgroundTaskService.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="GtcServerResources.resx" />
+    <EmbeddedResource Include="Resources\GtcClassificatorCatalog.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.AutoCAD.Proxies.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0CCE92D2-D94D-48A3-8385-7763921CBFDB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.AutoCAD.Proxies</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech.AutoCAD.Proxies</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CadVisualStateFlags.cs" />
+    <Compile Include="ICadDocumentProxy.cs" />
+    <Compile Include="ICadProxy.cs" />
+    <Compile Include="DwgLookupMode.cs" />
+    <Compile Include="SatelliteFileType.cs" />
+    <Compile Include="COM\AcadDocumentProxy.cs" />
+    <Compile Include="COM\AcadExternalReferenceEntityProxy.cs" />
+    <Compile Include="COM\BricscadDocumentProxy.cs" />
+    <Compile Include="COM\CadBlockProxy.cs" />
+    <Compile Include="COM\CadEntityProxy.cs" />
+    <Compile Include="COM\AcadProxy.cs" />
+    <Compile Include="COM\CadObjectProxy.cs" />
+    <Compile Include="COM\CadRasterImageEntityProxy.cs" />
+    <Compile Include="COM\CadExternalReferenceEntityProxy.cs" />
+    <Compile Include="COM\CadSelectionSetFilterBuilder.cs" />
+    <Compile Include="COM\CadStateProxy.cs" />
+    <Compile Include="COM\CadUnderlayEntityProxy.cs" />
+    <Compile Include="COM\CadVisualStateBuilder.cs" />
+    <Compile Include="COM\BricscadProxy.cs" />
+    <Compile Include="COM\BricscadSelectionSetFilterBuilder.cs" />
+    <Compile Include="COM\IСadEntityProxyWithFile.cs" />
+    <Compile Include="COM\AcEntityName.cs" />
+    <Compile Include="COM\AcPlotScale.cs" />
+    <Compile Include="COM\AcWindowState.cs" />
+    <Compile Include="COM\AcXRefDemandLoad.cs" />
+    <Compile Include="COM\AcSelect.cs" />
+    <Compile Include="COM\DxfEntityCommonGroupCode.cs" />
+    <Compile Include="COM\DxfEntityType.cs" />
+    <Compile Include="COM\NanocadDocumentProxy.cs" />
+    <Compile Include="COM\NanocadProxy.cs" />
+    <Compile Include="COM\NanocadSelectionSetFilterBuilder.cs" />
+    <Compile Include="COM\PublishFileInfo.cs" />
+    <Compile Include="COM\CadDocumentProxy.cs" />
+    <Compile Include="COM\OpenDocumentsVisualStateItem.cs" />
+    <Compile Include="COM\CadProxy.cs" />
+    <Compile Include="COM\AcadProxyResources.cs" />
+    <Compile Include="COM\CadSelectionSetFilter.cs" />
+    <Compile Include="COM\ActiveDocumentVisualStateItem.cs" />
+    <Compile Include="COM\XRefBlockPath.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="COM\AcadProxyResources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

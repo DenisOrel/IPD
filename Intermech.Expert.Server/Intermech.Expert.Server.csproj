@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\IPS.Installer.Full\InstServer\Server\Intermech.Expert.Server.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{28C3A102-C70A-47F0-8FB5-B3BCD57C0180}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.Expert.Server</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>lib\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Document.DBCore">
+      <HintPath>lib\Intermech.Document.DBCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Expert">
+      <HintPath>lib\Intermech.Expert.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Expert.Scenarios">
+      <HintPath>lib\Intermech.Expert.Scenarios.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Imbase.Server">
+      <HintPath>lib\Intermech.Imbase.Server.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.AVS">
+      <HintPath>lib\Intermech.Interfaces.AVS.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Document">
+      <HintPath>lib\Intermech.Interfaces.Document.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Imbase">
+      <HintPath>lib\Intermech.Interfaces.Imbase.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Pdm">
+      <HintPath>lib\Intermech.Interfaces.Pdm.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Server">
+      <HintPath>lib\Intermech.Interfaces.Server.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Kernel">
+      <HintPath>lib\Intermech.Kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Search.Interfaces">
+      <HintPath>lib\Intermech.Search.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.TechCard.Document.Interfaces">
+      <HintPath>lib\Intermech.TechCard.Document.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Localization\LocalizationHolder.cs" />
+    <Compile Include="Localization\CustomDescription.cs" />
+    <Compile Include="Localization\CustomDisplayName.cs" />
+    <Compile Include="Localization\CustomCategory.cs" />
+    <Compile Include="Expert\Server\ExpObjectExporter.cs" />
+    <Compile Include="Expert\Server\ExpertServer.cs" />
+    <Compile Include="Expert\Server\DBScenario.cs" />
+    <Compile Include="Expert\Server\DBReportScenario.cs" />
+    <Compile Include="Expert\Server\DBDocComplectScenario.cs" />
+    <Compile Include="Expert\Server\DBReportScenarioCreator.cs" />
+    <Compile Include="Expert\Server\DBDocComplectScenarioCreator.cs" />
+    <Compile Include="Expert\Server\ExpertObject.cs" />
+    <Compile Include="Expert\Server\ExpertFormulable.cs" />
+    <Compile Include="Expert\Server\ExpertScriptParms.cs" />
+    <Compile Include="Expert\Server\ExpertScriptable.cs" />
+    <Compile Include="Expert\Server\XMLScripter.cs" />
+    <Compile Include="Expert\Server\ExpertCond.cs" />
+    <Compile Include="Expert\Server\ExpertFormula.cs" />
+    <Compile Include="Expert\Server\ExpertTable.cs" />
+    <Compile Include="Expert\Server\ExpertScript.cs" />
+    <Compile Include="Expert\Server\ExpertFunction.cs" />
+    <Compile Include="Expert\Server\ComplectTemplate.cs" />
+    <Compile Include="Expert\Server\DocScript.cs" />
+    <Compile Include="Expert\Server\ExpertRules.cs" />
+    <Compile Include="Expert\Server\ExpertAttrRules.cs" />
+    <Compile Include="Expert\Server\ExpertObjRules.cs" />
+    <Compile Include="Expert\Server\RecalcScript.cs" />
+    <Compile Include="Expert\Server\CommandScript.cs" />
+    <Compile Include="Expert\Server\SimpleFormula.cs" />
+    <Compile Include="Expert\Server\ExpertFolder.cs" />
+    <Compile Include="Expert\Server\EAbort.cs" />
+    <Compile Include="Expert\Server\EObjectFound.cs" />
+    <Compile Include="Expert\Server\ESFolderInfo.cs" />
+    <Compile Include="Expert\Server\ESFolderKeeper.cs" />
+    <Compile Include="Expert\Server\ExpertServerPlugin.cs" />
+    <Compile Include="Expert\Server\ExpertObjectCreator.cs" />
+    <Compile Include="Expert\Server\ExpertUpdate.cs" />
+    <Compile Include="Expert\Server\ExpertTableProcessor.cs" />
+    <Compile Include="Expert\Server\ExpertTableFoundationEnum.cs" />
+    <Compile Include="Expert\Server\ExpertTableFoundationClass.cs" />
+    <Compile Include="Expert\Server\ExpertTableFoundationCache.cs" />
+    <Compile Include="Expert\Server\ExpServerCache.cs" />
+    <Compile Include="Expert\Server\IExpertServerSynchronizer.cs" />
+    <Compile Include="Expert\Server\ExpServerSynchronizer.cs" />
+    <Compile Include="Expert\Server\IExpertServerEx.cs" />
+    <Compile Include="Expert\Server\IExpertServerTask.cs" />
+    <Compile Include="Expert\Server\IExpertGlobalTable.cs" />
+    <Compile Include="Expert\Server\TaskDataCache.cs" />
+    <Compile Include="Expert\Server\VedomostiSortingCache.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Expert\Server\Resources\CustomAttributesResources.resx" />
+    <EmbeddedResource Include="Expert\Server\Resources\ExpertServerResources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

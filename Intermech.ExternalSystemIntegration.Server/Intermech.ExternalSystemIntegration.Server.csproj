@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\IPS.Installer.Full\InstServer\Server\Intermech.ExternalSystemIntegration.Server.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EA28EC5F-3F26-4387-A7D3-234999242ADF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.ExternalSystemIntegration.Server</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech.ExternalSystemIntegration.Server</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.ExternalSystemIntegration.Interfaces">
+      <HintPath>lib\Intermech.ExternalSystemIntegration.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Server">
+      <HintPath>lib\Intermech.Interfaces.Server.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Kernel">
+      <HintPath>lib\Intermech.Kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Const.cs" />
+    <Compile Include="ExtSysIntPlugin.cs" />
+    <Compile Include="LocalizationHolder.cs" />
+    <Compile Include="CustomDescription.cs" />
+    <Compile Include="CustomCategory.cs" />
+    <Compile Include="CustomDisplayName.cs" />
+    <Compile Include="XmlFileProcessor.cs" />
+    <Compile Include="ResponceObjectCreator.cs" />
+    <Compile Include="ResponceProcessTask.cs" />
+    <Compile Include="ResponceProcessTaskHelper.cs" />
+    <Compile Include="ConfigObject.cs" />
+    <Compile Include="ObjTypeSettingItemObject.cs" />
+    <Compile Include="ObjTypeSettingItemObjectCreator.cs" />
+    <Compile Include="RequestConfigObject.cs" />
+    <Compile Include="RequestConfigObjectCreator.cs" />
+    <Compile Include="RequestObject.cs" />
+    <Compile Include="RequestObjectCreator.cs" />
+    <Compile Include="RequestObjectHelperService.cs" />
+    <Compile Include="RequestProcessTaskHelper.cs" />
+    <Compile Include="RequestProcessTask.cs" />
+    <Compile Include="RequestSchemeObject.cs" />
+    <Compile Include="RequestSchemeObjectCreator.cs" />
+    <Compile Include="RequestXmlDocCreator.cs" />
+    <Compile Include="ResponceConfigObject.cs" />
+    <Compile Include="ResponceConfigObjectCreator.cs" />
+    <Compile Include="ResponceSchemeObject.cs" />
+    <Compile Include="Settings\CommonSettingsSyncronizer.cs" />
+    <Compile Include="Settings\CommonSettingsHolder.cs" />
+    <Compile Include="Settings\ResponceObject.cs" />
+    <Compile Include="Settings\ResponceSchemeObjectCreator.cs" />
+    <Compile Include="Resources\CustomAttributesResources.cs" />
+    <Compile Include="Resources\ExternalIntegrationResources.cs" />
+    <Compile Include="Helpers\HelperMethods.cs" />
+    <Compile Include="Helpers\XmlParserService.cs" />
+    <Compile Include="Helpers\XmlAttributeComparer.cs" />
+    <Compile Include="Helpers\XmlElementComparer.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\CustomAttributesResources.resx" />
+    <EmbeddedResource Include="Resources\ExternalIntegrationResources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

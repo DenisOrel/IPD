@@ -1,0 +1,27 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: Intermech.Kernel.Services.MetadataUpdates.OutsideObjectIDNode
+// Assembly: Intermech.Kernel, Version=7.0.2.1112, Culture=neutral, PublicKeyToken=null
+// MVID: CD05141F-BA24-423B-ACBF-7E9D2BA2BC31
+// Assembly location: D:\IPS\IPS.Installer.Full\InstServer\Server\Intermech.Kernel.dll
+
+using Intermech.Interfaces;
+using System;
+using System.Xml;
+
+
+namespace Intermech.Kernel.Services.MetadataUpdates;
+
+internal class OutsideObjectIDNode(IUserSession session, XmlNode node, string nodeID) : 
+  XMLPropertyNode<long>(session, node, nodeID)
+{
+  protected override long GetValue(IUserSession session, string nodeAttributeValue)
+  {
+    if (nodeAttributeValue != string.Empty && GuidHelper.IsGuid(nodeAttributeValue))
+    {
+      QuickObjectInfo objectInfo = session.GetObjectInfo(new Guid(nodeAttributeValue));
+      if (!objectInfo.Empty)
+        return objectInfo.ObjectID;
+    }
+    return 0;
+  }
+}

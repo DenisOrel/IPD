@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.Bcl.Wpf.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EB23AC97-79E5-4E33-92F7-32E87B55A64D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.Bcl.Wpf</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech.UI.Wpf</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DelayedUserInputHandler.cs" />
+    <Compile Include="UIExceptionHandler.cs" />
+    <Compile Include="ViewModels\ContextMenuUICommand.cs" />
+    <Compile Include="ViewModels\ContextMenuUICommand`1.cs" />
+    <Compile Include="ViewModels\WizardPageChangingEventArgs.cs" />
+    <Compile Include="ViewModels\WizardPageErrorsVM`1.cs" />
+    <Compile Include="ViewModels\WizardPageNavigationEventArgs.cs" />
+    <Compile Include="ViewModels\WizardPageNavigationType.cs" />
+    <Compile Include="ViewModels\WizardPageVM.cs" />
+    <Compile Include="ViewModels\WizardRunState.cs" />
+    <Compile Include="ViewModels\WizardVM.cs" />
+    <Compile Include="Markup\InDesignModeExtension.cs" />
+    <Compile Include="Controls\BoolToInt.cs" />
+    <Compile Include="Controls\FindReplaceTextEditorAdapter.cs" />
+    <Compile Include="Controls\FindReplaceDialog.cs" />
+    <Compile Include="Controls\FindReplaceDialogCommands.cs" />
+    <Compile Include="Controls\FindReplaceManager.cs" />
+    <Compile Include="Controls\FindReplaceSearchScope.cs" />
+    <Compile Include="Controls\FindReplaceSearchScopeToInt.cs" />
+    <Compile Include="Controls\RelativeSizeConverter.cs" />
+    <Compile Include="Controls\RichTextBoxExtender.cs" />
+    <Compile Include="Controls\TextBlockExtender.cs" />
+    <Compile Include="Controls\IFindReplaceTextEditor.cs" />
+    <Compile Include="Controls\IFindReplaceTextEditorWindow.cs" />
+    <Compile Include="Controls\RichTextBoxAdapter.cs" />
+    <Compile Include="Controls\StringIsNullOrEmptyConverter.cs" />
+    <Compile Include="Controls\TextBoxAdapter.cs" />
+    <Compile Include="Controls\MultiValueConverter.cs" />
+    <Compile Include="Controls\SharedResourceDictionary.cs" />
+    <Compile Include="Controls\BooleanToVisibilityConverter.cs" />
+    <Compile Include="Controls\CollectionToVisibilityConverter.cs" />
+    <Compile Include="Controls\ValuePresenceToVisibilityConverter.cs" />
+    <Compile Include="CodeBehaviors\AutoCloseBehavior.cs" />
+    <Compile Include="WinformsInterop\WinformsInteropInitializer.cs" />
+    <Compile Include="WinformsInterop\WpfBitmapSources.cs" />
+    <Compile Include="WinformsInterop\WpfElementHost.cs" />
+    <Compile Include="XamlGeneratedNamespace\GeneratedInternalTypeHelper.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="ui\wpf\controls\findreplacedialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

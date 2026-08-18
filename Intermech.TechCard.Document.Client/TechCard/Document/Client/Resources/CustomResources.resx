@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="TechCard.Document_151" xml:space="preserve">
+    <value>mid(строка,начальная_позиция,количество_знаков)Возвращает заданное число знаков из строки текста, начиная с указанной позиции</value>
+  </data>
+  <data name="TechCard.Document_150" xml:space="preserve">
+    <value>max(значени1,значени2,...)Возвращает максимальное значение из списка аргументов</value>
+  </data>
+  <data name="TechCard.Document_153" xml:space="preserve">
+    <value>minute(дата)Возвращает минуты</value>
+  </data>
+  <data name="TechCard.Document_152" xml:space="preserve">
+    <value>min(значени1,значени2,...) Возвращает минимальное значение из списка аргументов</value>
+  </data>
+  <data name="TechCard.Document_155" xml:space="preserve">
+    <value>neg(число)Возвращает противоположное по знаку число</value>
+  </data>
+  <data name="TechCard.Document_154" xml:space="preserve">
+    <value>month(дата)Возвращает месяц</value>
+  </data>
+  <data name="TechCard.Document_157" xml:space="preserve">
+    <value>pos(подстрока,строка) Возвращает позицию подстроки в строке или -1,если подстрока не найдена</value>
+  </data>
+  <data name="TechCard.Document_156" xml:space="preserve">
+    <value>now()Возвращает текущее время</value>
+  </data>
+  <data name="TechCard.Document_159" xml:space="preserve">
+    <value>rand(число) Возвращает случайное число от 0 до заданного числа</value>
+  </data>
+  <data name="TechCard.Document_158" xml:space="preserve">
+    <value>power(число,степень) Возвращает результат возведения в степень</value>
+  </data>
+  <data name="TechCard.Document_140" xml:space="preserve">
+    <value>int(число)Округляет число до ближайшего меньшего целого</value>
+  </data>
+  <data name="TechCard.Document_141" xml:space="preserve">
+    <value>isdbnull(значение) Проверяет, является ли переданное значение пустым</value>
+  </data>
+  <data name="TechCard.Document_142" xml:space="preserve">
+    <value>isnull(значение) Проверяет, является ли переданное значение пустым</value>
+  </data>
+  <data name="TechCard.Document_143" xml:space="preserve">
+    <value>left(строка,количество_символов) Возвращает указанное количество символов с начала строки текста</value>
+  </data>
+  <data name="TechCard.Document_144" xml:space="preserve">
+    <value>right(строка,позиция) Возвращает подстроку, начиная с указаннй позиции, до конца строки</value>
+  </data>
+  <data name="TechCard.Document_145" xml:space="preserve">
+    <value>len(строка) Возвращает количество символов в текстовой строке</value>
+  </data>
+  <data name="TechCard.Document_146" xml:space="preserve">
+    <value>ln(число) Возвращает натуральный логарифм числа</value>
+  </data>
+  <data name="TechCard.Document_147" xml:space="preserve">
+    <value>log10(число)Возвращает десятичный логарифм числа</value>
+  </data>
+  <data name="TechCard.Document_148" xml:space="preserve">
+    <value>log(число,основание) Возвращает логарифм числа по заданному основанию</value>
+  </data>
+  <data name="TechCard.Document_149" xml:space="preserve">
+    <value>lower(строка)Делает все буквы в строке текста строчными и возвращает как результат</value>
+  </data>
+  <data name="TechCard.Document_173" xml:space="preserve">
+    <value>val(приставка,значение[,окончание]) Возвращает строку, состоящую из аргументов функции, если аргумент 'значение' не пустая строка, иначе возвращает пустую строку</value>
+  </data>
+  <data name="TechCard.Document_172" xml:space="preserve">
+    <value>upper(строка) Делает все буквы в строке текста прописными и возвращает как результат</value>
+  </data>
+  <data name="TechCard.Document_171" xml:space="preserve">
+    <value>trim(строка) Убирает все пробелы из начала и конца строки</value>
+  </data>
+  <data name="TechCard.Document_170" xml:space="preserve">
+    <value>today()Возвращает текущее время</value>
+  </data>
+  <data name="TechCard.Document_177" xml:space="preserve">
+    <value>Не группируется</value>
+  </data>
+  <data name="TechCard.Document_176" xml:space="preserve">
+    <value>or(логическое_значение1,логическое_значение2,...) Проверяет, имеет ли хотя бы один из аргументов значение ИСТИНА, и возвращает значение ИСТИНА или ЛОЖЬ. Значение ЛОЖЬ возвращается только если все аргументы имеют значение ЛОЖЬ</value>
+  </data>
+  <data name="TechCard.Document_175" xml:space="preserve">
+    <value>year(дата) Возвращает год</value>
+  </data>
+  <data name="TechCard.Document_174" xml:space="preserve">
+    <value>weekday(дата) Возвращает день недели</value>
+  </data>
+  <data name="TechCard.Document_179" xml:space="preserve">
+    <value>Извещение</value>
+  </data>
+  <data name="TechCard.Document_178" xml:space="preserve">
+    <value>Ведомость</value>
+  </data>
+  <data name="TechCard.Document_162" xml:space="preserve">
+    <value>second(дата) Возвращает секунды</value>
+  </data>
+  <data name="TechCard.Document_163" xml:space="preserve">
+    <value>sin(число) Возвращает синус числа</value>
+  </data>
+  <data name="TechCard.Document_160" xml:space="preserve">
+    <value>round(число[,число_разрядов]) Округляет число до ближайшего целого или указанного количества десятичных разрядов</value>
+  </data>
+  <data name="TechCard.Document_161" xml:space="preserve">
+    <value>sec(число) Возвращает секанс числа</value>
+  </data>
+  <data name="TechCard.Document_166" xml:space="preserve">
+    <value>str(значение,формат) Преобразует переданный аргумент в строку в соответсвии с форматом</value>
+  </data>
+  <data name="TechCard.Document_167" xml:space="preserve">
+    <value>substitute(строка,старый_текст,новый_текст,регистр)Заменяет все вхождения в строке старого текста на новый с учетом или без учета регистра</value>
+  </data>
+  <data name="TechCard.Document_164" xml:space="preserve">
+    <value>sqr(число) Возвращает квадрат числа</value>
+  </data>
+  <data name="TechCard.Document_165" xml:space="preserve">
+    <value>sqrt(число) Возвращает значение квадратного корня</value>
+  </data>
+  <data name="TechCard.Document_168" xml:space="preserve">
+    <value>sum(число1,число2,...) Суммирует аргументы</value>
+  </data>
+  <data name="TechCard.Document_169" xml:space="preserve">
+    <value>tan(число) Возвращает тангенс числа</value>
+  </data>
+  <data name="TechCard.Document_115" xml:space="preserve">
+    <value>ceil(число) Возвращает наименьшее целое число, большее либо равное аргументу</value>
+  </data>
+  <data name="TechCard.Document_114" xml:space="preserve">
+    <value>caption(guid объекта)\nВозвращает заголовок объекта, GUID версии которого передается в качестве аргумента или текст сообщения об ошибке</value>
+  </data>
+  <data name="TechCard.Document_117" xml:space="preserve">
+    <value>cot(число) Возвращает котангенс числа</value>
+  </data>
+  <data name="TechCard.Document_116" xml:space="preserve">
+    <value>cos(число) Возвращает косинус числа</value>
+  </data>
+  <data name="TechCard.Document_111" xml:space="preserve">
+    <value>asin(число) Возвращает арксинус числа в радианах, в диапазоне от -Пи/2 до Пи/2</value>
+  </data>
+  <data name="TechCard.Document_110" xml:space="preserve">
+    <value>asec(число) Возвращает арксеканс числа в радианах</value>
+  </data>
+  <data name="TechCard.Document_113" xml:space="preserve">
+    <value>average(значение1,значение2,...) Возвращает среднее арифметическое аргументов</value>
+  </data>
+  <data name="TechCard.Document_112" xml:space="preserve">
+    <value>atan(число) Возвращает арктангенс числа в радианах, в диапазоне от -Пи/2 до Пи/2</value>
+  </data>
+  <data name="TechCard.Document_119" xml:space="preserve">
+    <value>csc(число) Возвращает косеканс числа</value>
+  </data>
+  <data name="TechCard.Document_118" xml:space="preserve">
+    <value>count(значение1,значение2,...) Подсчитывает количество передаваемых аргументов</value>
+  </data>
+  <data name="TechCard.Document_104" xml:space="preserve">
+    <value>Используемая переменная "{0}" не определена</value>
+  </data>
+  <data name="TechCard.Document_105" xml:space="preserve">
+    <value>abs(число) Возвращает модуль (абсолютную величину) числа</value>
+  </data>
+  <data name="TechCard.Document_106" xml:space="preserve">
+    <value>and(логическое_значение1,логическое_значение2,...) Проверяет, все ли аргументы имеют значение ИСТИНА, и возвращает значение ИСТИНА, если истинны все аргументы</value>
+  </data>
+  <data name="TechCard.Document_107" xml:space="preserve">
+    <value>acos(число) Возвращает арккосинус числа в радианах, в диапазоне от 0 до Пи. Арккосинус числа есть угол, косинус которого равен числу.</value>
+  </data>
+  <data name="TechCard.Document_100" xml:space="preserve">
+    <value>Отсутствует закрывающий '{0}' символ</value>
+  </data>
+  <data name="TechCard.Document_101" xml:space="preserve">
+    <value>Несбалансированные скобки</value>
+  </data>
+  <data name="TechCard.Document_102" xml:space="preserve">
+    <value>Неправильный символ</value>
+  </data>
+  <data name="TechCard.Document_103" xml:space="preserve">
+    <value>Используется неизвестная функция</value>
+  </data>
+  <data name="TechCard.Document_108" xml:space="preserve">
+    <value>acot(число) Возвращает арккотангенс числа в радианах, в диапазоне от 0 до Пи</value>
+  </data>
+  <data name="TechCard.Document_109" xml:space="preserve">
+    <value>acsс(число) Возвращает арккосеканс числа в радианах</value>
+  </data>
+  <data name="TechCard.Document_137" xml:space="preserve">
+    <value>if(лог_выражение,значение_если_истина,значение_если_ложь) Проверяет, выполняется ли условие, и возвращает одно значение, если оно выполняется, и другое значение, если нет</value>
+  </data>
+  <data name="TechCard.Document_136" xml:space="preserve">
+    <value>tanh(число) Возвращает гиперболический тангенс числа</value>
+  </data>
+  <data name="TechCard.Document_135" xml:space="preserve">
+    <value>sinh(число) Возвращает гиперболический синус числа</value>
+  </data>
+  <data name="TechCard.Document_134" xml:space="preserve">
+    <value>sech(число) Возвращает гиперболический секанс числа</value>
+  </data>
+  <data name="TechCard.Document_133" xml:space="preserve">
+    <value>hour(дата) Возвращает часы в виде числа</value>
+  </data>
+  <data name="TechCard.Document_132" xml:space="preserve">
+    <value>csch(число) Возвращает гиперболический косеканс числа</value>
+  </data>
+  <data name="TechCard.Document_131" xml:space="preserve">
+    <value>coth(число) Возвращает гиперболический котангенс числа</value>
+  </data>
+  <data name="TechCard.Document_130" xml:space="preserve">
+    <value>cosh(число) Возвращает гиперболический косинус числа</value>
+  </data>
+  <data name="TechCard.Document_139" xml:space="preserve">
+    <value>in(искомый_элемент,элемент_1,[элемент_2,...элемент_N]) Проверяет, содержится ли искомый элемент среди перечисленных элементов и возвращает соответствующее логическое значение</value>
+  </data>
+  <data name="TechCard.Document_138" xml:space="preserve">
+    <value>iif(лог_выражение,значение_если_истина,значение_если_ложь) Проверяет, выполняется ли условие, и возвращает одно значение, если оно выполняется, и другое значение, если нет</value>
+  </data>
+  <data name="TechCard.Document_126" xml:space="preserve">
+    <value>exp(число) Возвращает экспоненту заданного числа</value>
+  </data>
+  <data name="TechCard.Document_127" xml:space="preserve">
+    <value>find(искомый_текст,текст,нач_позиция) Возвращает позицию начала искомой строки текста в содержащей ее строке текста</value>
+  </data>
+  <data name="TechCard.Document_124" xml:space="preserve">
+    <value>day(дата) Возвращает число месяца</value>
+  </data>
+  <data name="TechCard.Document_125" xml:space="preserve">
+    <value>dbl(аргумент) Преобразует аргумент в дробный тип</value>
+  </data>
+  <data name="TechCard.Document_122" xml:space="preserve">
+    <value>date(год,месяц,день[,час,минуты,секунды]) Формирует дату на основании аргументов, которые задают год, месяц, день[, час, минуты, секунды] соответственно</value>
+  </data>
+  <data name="TechCard.Document_123" xml:space="preserve">
+    <value>datepart(временной_интервал,дата) Возвращает часть даты, указанную в параметре временной_интервал</value>
+  </data>
+  <data name="TechCard.Document_120" xml:space="preserve">
+    <value>dateadd(временной_интервал,число,дата) Прибавляет к дате количество временных интервалов, заданных параметром число и полученную дату возвращает в качестве результата</value>
+  </data>
+  <data name="TechCard.Document_121" xml:space="preserve">
+    <value>datediff(временной_интервал,дата1,дата2) Вычитает из второй даты первую и возвращает целое число временных интервалов, умещающихся в полученной разности</value>
+  </data>
+  <data name="TechCard.Document_128" xml:space="preserve">
+    <value>floor(число) Возвращает наибольшее целое число, меньшее либо равное аргументу</value>
+  </data>
+  <data name="TechCard.Document_129" xml:space="preserve">
+    <value>format(строка,параметры) Формирует строку, подставляя передаваемые параметры в указанные места в строке</value>
+  </data>
+  <data name="TechCard.Document_191" xml:space="preserve">
+    <value>Невозможно сохранить состояние окна!</value>
+  </data>
+  <data name="TechCard.Document_190" xml:space="preserve">
+    <value>Внимание</value>
+  </data>
+  <data name="TechCard.Document_192" xml:space="preserve">
+    <value>Невозможно восстановить состояние окна!</value>
+  </data>
+  <data name="TechCard.Document_188" xml:space="preserve">
+    <value>Закрыть окно шаблона документа?</value>
+  </data>
+  <data name="TechCard.Document_189" xml:space="preserve">
+    <value>На сервере приложений не загружен плагин "Intermech.TechCard.Document.Server". Работа клиентского плагина "Intermech.TechCard.Document.Client" будет заблокирована</value>
+  </data>
+  <data name="TechCard.Document_184" xml:space="preserve">
+    <value>Условие:</value>
+  </data>
+  <data name="TechCard.Document_185" xml:space="preserve">
+    <value>Значение:</value>
+  </data>
+  <data name="TechCard.Document_186" xml:space="preserve">
+    <value>Настройки были изменены. Сохранить изменения?</value>
+  </data>
+  <data name="TechCard.Document_187" xml:space="preserve">
+    <value>Настройки документа Techcard</value>
+  </data>
+  <data name="TechCard.Document_180" xml:space="preserve">
+    <value>Отсутствуют настройки порядка вывода объектов в документ. Сгенерировать настройки по умолчанию?</value>
+  </data>
+  <data name="TechCard.Document_181" xml:space="preserve">
+    <value>Настройки вывода объектов</value>
+  </data>
+  <data name="TechCard.Document_182" xml:space="preserve">
+    <value>Сбросить настройки вывода по умолчанию?</value>
+  </data>
+  <data name="TechCard.Document_183" xml:space="preserve">
+    <value>Выберите тип объекта</value>
+  </data>
+  <data name="TechCard.Document_050" xml:space="preserve">
+    <value>Нумерация по группам документов</value>
+  </data>
+  <data name="TechCard.Document_051" xml:space="preserve">
+    <value>Принадлежность документа</value>
+  </data>
+  <data name="TechCard.Document_052" xml:space="preserve">
+    <value>Документы Techcard</value>
+  </data>
+  <data name="TechCard.Document_053" xml:space="preserve">
+    <value>Выберите атрибут</value>
+  </data>
+  <data name="TechCard.Document_054" xml:space="preserve">
+    <value>Arc cosine: аргумент находится вне диапазона.</value>
+  </data>
+  <data name="TechCard.Document_055" xml:space="preserve">
+    <value>Arc cotangent имеет нулевое значение.</value>
+  </data>
+  <data name="TechCard.Document_056" xml:space="preserve">
+    <value>Arc cosecant: аргумент находится вне диапазона.</value>
+  </data>
+  <data name="TechCard.Document_057" xml:space="preserve">
+    <value>Аргумент находится вне допустимого диапазона.</value>
+  </data>
+  <data name="TechCard.Document_058" xml:space="preserve">
+    <value>Arc secant: аргумент находится вне диапазона.</value>
+  </data>
+  <data name="TechCard.Document_059" xml:space="preserve">
+    <value>Arc sine: аргумент находится вне диапазона</value>
+  </data>
+  <data name="TechCard.Document_072" xml:space="preserve">
+    <value>Все атрибуты</value>
+  </data>
+  <data name="TechCard.Document_073" xml:space="preserve">
+    <value>Доступные атрибуты</value>
+  </data>
+  <data name="TechCard.Document_070" xml:space="preserve">
+    <value>Другие</value>
+  </data>
+  <data name="TechCard.Document_071" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="TechCard.Document_076" xml:space="preserve">
+    <value>Пустое выражение</value>
+  </data>
+  <data name="TechCard.Document_077" xml:space="preserve">
+    <value>Сotangent: значение имеет бесконечную величину</value>
+  </data>
+  <data name="TechCard.Document_074" xml:space="preserve">
+    <value>Деление на ноль</value>
+  </data>
+  <data name="TechCard.Document_075" xml:space="preserve">
+    <value>Идентификатор используется повторно</value>
+  </data>
+  <data name="TechCard.Document_078" xml:space="preserve">
+    <value>Cosecant: значение имеет бесконечную величину</value>
+  </data>
+  <data name="TechCard.Document_079" xml:space="preserve">
+    <value>Hyperbolic cotangent : значение имеет бесконечную величину</value>
+  </data>
+  <data name="TechCard.Document_041" xml:space="preserve">
+    <value>Вносить в оглавление</value>
+  </data>
+  <data name="TechCard.Document_040" xml:space="preserve">
+    <value>Пустая строка перед операцией</value>
+  </data>
+  <data name="TechCard.Document_043" xml:space="preserve">
+    <value>Не нумеровать страницы</value>
+  </data>
+  <data name="TechCard.Document_042" xml:space="preserve">
+    <value>Документ не в комплекте</value>
+  </data>
+  <data name="TechCard.Document_045" xml:space="preserve">
+    <value>Документ на группу изделий</value>
+  </data>
+  <data name="TechCard.Document_044" xml:space="preserve">
+    <value>Подетальный документ</value>
+  </data>
+  <data name="TechCard.Document_047" xml:space="preserve">
+    <value>Показывать вид оснастки</value>
+  </data>
+  <data name="TechCard.Document_046" xml:space="preserve">
+    <value>Документ с эскизом</value>
+  </data>
+  <data name="TechCard.Document_049" xml:space="preserve">
+    <value>Помещать оснастку в пустые поля</value>
+  </data>
+  <data name="TechCard.Document_048" xml:space="preserve">
+    <value>Не повторять оснастку</value>
+  </data>
+  <data name="TechCard.Document_014" xml:space="preserve">
+    <value>Комплект технологических документов</value>
+  </data>
+  <data name="TechCard.Document_015" xml:space="preserve">
+    <value>Альбом</value>
+  </data>
+  <data name="TechCard.Document_016" xml:space="preserve">
+    <value>Изделие</value>
+  </data>
+  <data name="TechCard.Document_017" xml:space="preserve">
+    <value>Техпроцесс</value>
+  </data>
+  <data name="TechCard.Document_010" xml:space="preserve">
+    <value>Выберите шаблон документа</value>
+  </data>
+  <data name="TechCard.Document_011" xml:space="preserve">
+    <value>Шаблоны документов</value>
+  </data>
+  <data name="TechCard.Document_012" xml:space="preserve">
+    <value>Выбранный документ не является шаблоном</value>
+  </data>
+  <data name="TechCard.Document_013" xml:space="preserve">
+    <value>Модуль генерации документов Techcard</value>
+  </data>
+  <data name="TechCard.Document_018" xml:space="preserve">
+    <value>Группа операций</value>
+  </data>
+  <data name="TechCard.Document_019" xml:space="preserve">
+    <value>Операция</value>
+  </data>
+  <data name="TechCard.Document_063" xml:space="preserve">
+    <value>Дата и время</value>
+  </data>
+  <data name="TechCard.Document_062" xml:space="preserve">
+    <value>Логические</value>
+  </data>
+  <data name="TechCard.Document_061" xml:space="preserve">
+    <value>Строковые</value>
+  </data>
+  <data name="TechCard.Document_060" xml:space="preserve">
+    <value>Числовые</value>
+  </data>
+  <data name="TechCard.Document_067" xml:space="preserve">
+    <value>Строковые</value>
+  </data>
+  <data name="TechCard.Document_066" xml:space="preserve">
+    <value>Арифметические</value>
+  </data>
+  <data name="TechCard.Document_065" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="TechCard.Document_064" xml:space="preserve">
+    <value>Другие</value>
+  </data>
+  <data name="TechCard.Document_069" xml:space="preserve">
+    <value>Дата и время</value>
+  </data>
+  <data name="TechCard.Document_068" xml:space="preserve">
+    <value>Логические</value>
+  </data>
+  <data name="TechCard.Document_036" xml:space="preserve">
+    <value>Поцеховая ведомость оснастки</value>
+  </data>
+  <data name="TechCard.Document_037" xml:space="preserve">
+    <value>Пооперационная ведомость</value>
+  </data>
+  <data name="TechCard.Document_034" xml:space="preserve">
+    <value>Маршрутная карта</value>
+  </data>
+  <data name="TechCard.Document_035" xml:space="preserve">
+    <value>Операционная карта</value>
+  </data>
+  <data name="TechCard.Document_032" xml:space="preserve">
+    <value>Оглавление</value>
+  </data>
+  <data name="TechCard.Document_033" xml:space="preserve">
+    <value>Ведомость технологических документов</value>
+  </data>
+  <data name="TechCard.Document_030" xml:space="preserve">
+    <value>Построчно</value>
+  </data>
+  <data name="TechCard.Document_031" xml:space="preserve">
+    <value>Сплошным текстом</value>
+  </data>
+  <data name="TechCard.Document_038" xml:space="preserve">
+    <value>Комплектовочная карта</value>
+  </data>
+  <data name="TechCard.Document_039" xml:space="preserve">
+    <value>Структура комплектовочной карты</value>
+  </data>
+  <data name="TechCard.Document_005" xml:space="preserve">
+    <value>Введите имя нового объекта</value>
+  </data>
+  <data name="TechCard.Document_004" xml:space="preserve">
+    <value>Имя объекта</value>
+  </data>
+  <data name="TechCard.Document_007" xml:space="preserve">
+    <value>Ошибка загрузки</value>
+  </data>
+  <data name="TechCard.Document_006" xml:space="preserve">
+    <value>Страницы шаблона</value>
+  </data>
+  <data name="TechCard.Document_001" xml:space="preserve">
+    <value>Выберите шаблон документа</value>
+  </data>
+  <data name="TechCard.Document_003" xml:space="preserve">
+    <value>Создать по прототипу</value>
+  </data>
+  <data name="TechCard.Document_002" xml:space="preserve">
+    <value>Выберите шаблон документа, на основе которого будут создаваться документы</value>
+  </data>
+  <data name="TechCard.Document_009" xml:space="preserve">
+    <value>Редактирование формулы для элемента</value>
+  </data>
+  <data name="TechCard.Document_008" xml:space="preserve">
+    <value>Ошибка загрузки условий</value>
+  </data>
+  <data name="TechCard.Document_027" xml:space="preserve">
+    <value>Построчно</value>
+  </data>
+  <data name="TechCard.Document_026" xml:space="preserve">
+    <value>Сплошным текстом</value>
+  </data>
+  <data name="TechCard.Document_025" xml:space="preserve">
+    <value>Без чередования ОТР</value>
+  </data>
+  <data name="TechCard.Document_024" xml:space="preserve">
+    <value>С чередованием ОТР</value>
+  </data>
+  <data name="TechCard.Document_023" xml:space="preserve">
+    <value>С нового заглавного листа</value>
+  </data>
+  <data name="TechCard.Document_022" xml:space="preserve">
+    <value>С нового листа</value>
+  </data>
+  <data name="TechCard.Document_021" xml:space="preserve">
+    <value>На текущем листе</value>
+  </data>
+  <data name="TechCard.Document_020" xml:space="preserve">
+    <value>Инструментальная позиция</value>
+  </data>
+  <data name="TechCard.Document_029" xml:space="preserve">
+    <value>Сплошным текстом</value>
+  </data>
+  <data name="TechCard.Document_028" xml:space="preserve">
+    <value>По видам оснастки</value>
+  </data>
+  <data name="TechCard.Document_098" xml:space="preserve">
+    <value>Logarithm: аргумент должен иметь положительное значение</value>
+  </data>
+  <data name="TechCard.Document_099" xml:space="preserve">
+    <value>Logarithm: аргумент должен быть больше нуля</value>
+  </data>
+  <data name="TechCard.Document_094" xml:space="preserve">
+    <value>Неверное расположение скобок</value>
+  </data>
+  <data name="TechCard.Document_095" xml:space="preserve">
+    <value>Неверное расположение ограничителя</value>
+  </data>
+  <data name="TechCard.Document_096" xml:space="preserve">
+    <value>Natural logarithm: аргумент должен иметь положительное значение</value>
+  </data>
+  <data name="TechCard.Document_097" xml:space="preserve">
+    <value>Natural logarithm: аргумент должен быть больше нуля</value>
+  </data>
+  <data name="TechCard.Document_090" xml:space="preserve">
+    <value>Неверное вхождение функции</value>
+  </data>
+  <data name="TechCard.Document_091" xml:space="preserve">
+    <value>Неверное имя идентификатора</value>
+  </data>
+  <data name="TechCard.Document_092" xml:space="preserve">
+    <value>Неверное использование оператора</value>
+  </data>
+  <data name="TechCard.Document_093" xml:space="preserve">
+    <value>Неверное количество аргументов</value>
+  </data>
+  <data name="TechCard.Document_089" xml:space="preserve">
+    <value>Неверное выражение</value>
+  </data>
+  <data name="TechCard.Document_088" xml:space="preserve">
+    <value>Ошибка при задании даты</value>
+  </data>
+  <data name="TechCard.Document_085" xml:space="preserve">
+    <value>Неверный тип аргумента</value>
+  </data>
+  <data name="TechCard.Document_084" xml:space="preserve">
+    <value>Tangent: значение имеет бесконечную величину</value>
+  </data>
+  <data name="TechCard.Document_087" xml:space="preserve">
+    <value>Неверное положение запятой</value>
+  </data>
+  <data name="TechCard.Document_086" xml:space="preserve">
+    <value>Недопустимый символ в строке</value>
+  </data>
+  <data name="TechCard.Document_081" xml:space="preserve">
+    <value>Hyperbolic secant: значение имеет бесконечную величину</value>
+  </data>
+  <data name="TechCard.Document_080" xml:space="preserve">
+    <value>Hyperbolic cosecant: значение имеет бесконечную величину</value>
+  </data>
+  <data name="TechCard.Document_083" xml:space="preserve">
+    <value>Secant: значение имеет бесконечную величину</value>
+  </data>
+  <data name="TechCard.Document_082" xml:space="preserve">
+    <value>Hyperbolic tangent: значение имеет бесконечную величину</value>
+  </data>
+</root>

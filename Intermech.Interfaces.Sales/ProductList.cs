@@ -1,0 +1,51 @@
+﻿using Intermech.Kernel.Search;
+using System;
+using System.Collections.Generic;
+using System.Data;
+
+
+namespace Intermech.Interfaces.Sales;
+
+/// <summary>список продуктов</summary>
+public class ProductList : List<ProductObject>
+{
+  public bool Loaded;
+
+  public int FindProductByID(long id)
+  {
+    int productById = -1;
+    for (int index = 0; index < this.Count; ++index)
+    {
+      if (this[index].ObjectId == id)
+      {
+        productById = index;
+        break;
+      }
+    }
+    return productById;
+  }
+
+  public void FillData(IUserSession session)
+  {
+    this.Clear();
+    foreach (DataRow row in (InternalDataCollectionBase) session.GetObjectCollection(new Guid("cad0150c-306c-11d8-b4e9-00304f19f545")).Select(new DBRecordSetParams(new ConditionStructure[0], new ColumnDescriptor[8]
+    {
+      new ColumnDescriptor((object) ObligatoryObjectAttributes.F_OBJECT_ID, AttributeSourceTypes.Object, ColumnContents.ID, ColumnNameMapping.Guid, SortOrders.NONE, 0),
+      new ColumnDescriptor((object) ObligatoryObjectAttributes.CAPTION, AttributeSourceTypes.Object, ColumnContents.String, ColumnNameMapping.Guid, SortOrders.NONE, 0),
+      new ColumnDescriptor((object) new Guid("cad0001c-306c-11d8-b4e9-00304f19f545"), AttributeSourceTypes.Object, ColumnContents.String, ColumnNameMapping.Guid, SortOrders.NONE, 0),
+      new ColumnDescriptor((object) new Guid("cad0150b-306c-11d8-b4e9-00304f19f545"), AttributeSourceTypes.Object, ColumnContents.String, ColumnNameMapping.Guid, SortOrders.NONE, 0),
+      new ColumnDescriptor((object) new Guid("cad00020-306c-11d8-b4e9-00304f19f545"), AttributeSourceTypes.Object, ColumnContents.String, ColumnNameMapping.Guid, SortOrders.NONE, 0),
+      new ColumnDescriptor((object) new Guid("cad01554-306c-11d8-b4e9-00304f19f545"), AttributeSourceTypes.Object, ColumnContents.String, ColumnNameMapping.Guid, SortOrders.NONE, 0),
+      new ColumnDescriptor((object) new Guid("cad01512-306c-11d8-b4e9-00304f19f545"), AttributeSourceTypes.Object, ColumnContents.String, ColumnNameMapping.Guid, SortOrders.NONE, 0),
+      new ColumnDescriptor((object) new Guid("cad01525-306c-11d8-b4e9-00304f19f545"), AttributeSourceTypes.Object, ColumnContents.String, ColumnNameMapping.Guid, SortOrders.NONE, 0)
+    })).Rows)
+    {
+      ProductObject productObject = new ProductObject();
+      productObject.ProductDataInit(Convert.ToInt64(row[0]), Convert.ToString(row[1]), Convert.ToString(row[2]), Convert.ToString(row[3]), Convert.ToString(row[4]), Convert.ToString(row[5]), (int) Convert.ToInt16(row[6]), (int) Convert.ToInt16(row[7]));
+      this.Add(productObject);
+    }
+    this.Loaded = true;
+    for (int index = 0; index < this.Count; ++index)
+      this[index].FillCompatibleProducts(session, this);
+  }
+}

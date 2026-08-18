@@ -1,0 +1,464 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.Workflow.Design.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E2809EAA-DF5C-43C5-9CD3-EFA6CF2480CF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.Workflow.Design</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.IM.Utils">
+      <HintPath>lib\DevExpress.IM.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.IM.XtraEditors">
+      <HintPath>lib\DevExpress.IM.XtraEditors.dll</HintPath>
+    </Reference>
+    <Reference Include="Infralution.Controls">
+      <HintPath>lib\Infralution.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Infralution.Controls.VirtualTree">
+      <HintPath>lib\Infralution.Controls.VirtualTree.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bars">
+      <HintPath>lib\Intermech.Bars.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Client.Core">
+      <HintPath>lib\Intermech.Client.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Controls">
+      <HintPath>lib\Intermech.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Docking">
+      <HintPath>lib\Intermech.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Expert">
+      <HintPath>lib\Intermech.Expert.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Expert.Editor">
+      <HintPath>lib\Intermech.Expert.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.FormDesigner">
+      <HintPath>lib\Intermech.FormDesigner.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Client">
+      <HintPath>lib\Intermech.Interfaces.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Workflow">
+      <HintPath>lib\Intermech.Interfaces.Workflow.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Map2">
+      <HintPath>lib\Intermech.Map2.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Scripting">
+      <HintPath>lib\Intermech.Scripting.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Search.Interfaces">
+      <HintPath>lib\Intermech.Search.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Workflow.Base">
+      <HintPath>lib\Intermech.Workflow.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.mshtml">
+      <HintPath>lib\Microsoft.mshtml.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.WinControls">
+      <HintPath>lib\Telerik.WinControls.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.WinControls.RichTextEditor">
+      <HintPath>lib\Telerik.WinControls.RichTextEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.Windows8">
+      <HintPath>lib\Telerik.WinControls.Themes.Windows8.dll</HintPath>
+    </Reference>
+    <Reference Include="iGrid">
+      <HintPath>lib\iGrid.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Intermech\BaseHolder.cs" />
+    <Compile Include="Intermech\EditorInfo.cs" />
+    <Compile Include="Intermech\EditorsList.cs" />
+    <Compile Include="Intermech\AbortableBackgroundWorker.cs" />
+    <Compile Include="Intermech\StatusPopup.cs" />
+    <Compile Include="Intermech\ScrollBarRendererEx.cs" />
+    <Compile Include="Intermech\HtmlUtils.cs" />
+    <Compile Include="Intermech\Navigator\Helpers\UniversalObjectsView.cs" />
+    <Compile Include="Intermech\Navigator\Helpers\UniversalViewsProvider.cs" />
+    <Compile Include="Intermech\Navigator\Helpers\UniversalDescriptor.cs" />
+    <Compile Include="Intermech\Navigator\Helpers\UniversalNode.cs" />
+    <Compile Include="Intermech\Navigator\Helpers\UniversalPart.cs" />
+    <Compile Include="Intermech\Forums\IMessageForCheckingService.cs" />
+    <Compile Include="Intermech\Forums\MessageForChecking.cs" />
+    <Compile Include="Intermech\Forums\MessageNodeId.cs" />
+    <Compile Include="Intermech\Forums\ForumView.cs" />
+    <Compile Include="Intermech\Forums\ForumViewsProvider.cs" />
+    <Compile Include="Intermech\Forums\RefWindow.cs" />
+    <Compile Include="Intermech\Forums\UserMessageDateComparer.cs" />
+    <Compile Include="Intermech\Forums\UserMessageCaptionComparer.cs" />
+    <Compile Include="Intermech\Forums\UserMessageUserComparer.cs" />
+    <Compile Include="Intermech\Forums\UserMessageComparer.cs" />
+    <Compile Include="Intermech\Forums\UserMessageSelectedItems.cs" />
+    <Compile Include="Intermech\Forums\UserMessageSelector.cs" />
+    <Compile Include="Intermech\Forums\SelectedMessageAnalizer.cs" />
+    <Compile Include="Intermech\Forums\SelectedOpenInNewWindowAnalizer.cs" />
+    <Compile Include="Intermech\Workflow\AllowedTypes.cs" />
+    <Compile Include="Intermech\Workflow\SchemeLCStepConverter.cs" />
+    <Compile Include="Intermech\Workflow\Design\ActivitiesDescriptor.cs" />
+    <Compile Include="Intermech\Workflow\Design\ActivitiesListNode.cs" />
+    <Compile Include="Intermech\Workflow\Design\ActivitiesListPart.cs" />
+    <Compile Include="Intermech\Workflow\Design\ActivitiesView.cs" />
+    <Compile Include="Intermech\Workflow\Design\ActivityButtonItem.cs" />
+    <Compile Include="Intermech\Workflow\Design\ProcessFilterButtonItem.cs" />
+    <Compile Include="Intermech\Workflow\Design\ActivityProperty.cs" />
+    <Compile Include="Intermech\Workflow\Design\ActivitySettings.cs" />
+    <Compile Include="Intermech\Workflow\Design\ActivPropForm.cs" />
+    <Compile Include="Intermech\Workflow\Design\AddSignGraphsForm.cs" />
+    <Compile Include="Intermech\Workflow\Design\AddUsersForm.cs" />
+    <Compile Include="Intermech\Workflow\Design\AdvNavigatorTreeView.cs" />
+    <Compile Include="Intermech\Workflow\Design\AllUsersNode.cs" />
+    <Compile Include="Intermech\Workflow\Design\AttachmentsDescriptor.cs" />
+    <Compile Include="Intermech\Workflow\Design\AttachmentsDictNode.cs" />
+    <Compile Include="Intermech\Workflow\Design\AttachmentsListPart.cs" />
+    <Compile Include="Intermech\Workflow\Design\AttachmentsObjectsQuery.cs" />
+    <Compile Include="Intermech\Workflow\Design\AttachmentsView.cs" />
+    <Compile Include="Intermech\Workflow\Design\AttributeNode.cs" />
+    <Compile Include="Intermech\Workflow\Design\AttrTreeViewItemComparer.cs" />
+    <Compile Include="Intermech\Workflow\Design\AutoSizeLabel.cs" />
+    <Compile Include="Intermech\Workflow\Design\BackPort.cs" />
+    <Compile Include="Intermech\Workflow\Design\BaseNode.cs" />
+    <Compile Include="Intermech\Workflow\Design\BaseRecentList.cs" />
+    <Compile Include="Intermech\Workflow\Design\CheckBoxListViewSubItem.cs" />
+    <Compile Include="Intermech\Workflow\Design\ComboBoxExItem.cs" />
+    <Compile Include="Intermech\Workflow\Design\ControlListViewSubItem.cs" />
+    <Compile Include="Intermech\Workflow\Design\CurrentVariableUsedAnotherSchemes.cs" />
+    <Compile Include="Intermech\Workflow\Design\DateTimeWithNull.cs" />
+    <Compile Include="Intermech\Workflow\Design\DrawInfo.cs" />
+    <Compile Include="Intermech\Workflow\Design\CalendarEditor.cs" />
+    <Compile Include="Intermech\Workflow\Design\CalendarPropertyClass.cs" />
+    <Compile Include="Intermech\Workflow\Design\ObjectEditor.cs" />
+    <Compile Include="Intermech\Workflow\Design\UserEditor.cs" />
+    <Compile Include="Intermech\Workflow\Design\UserPropertyClass.cs" />
+    <Compile Include="Intermech\Workflow\Design\EmptyNode.cs" />
+    <Compile Include="Intermech\Workflow\Design\EmptyVarComboItem.cs" />
+    <Compile Include="Intermech\Workflow\Design\EnhListView.cs" />
+    <Compile Include="Intermech\Workflow\Design\CheckUncheckContextMenu.cs" />
+    <Compile Include="Intermech\Workflow\Design\GlobalMailSettingsClient.cs" />
+    <Compile Include="Intermech\Workflow\Design\GraphInfo.cs" />
+    <Compile Include="Intermech\Workflow\Design\GraphInfoList.cs" />
+    <Compile Include="Intermech\Workflow\Design\GraphViewLinkingNewTool.cs" />
+    <Compile Include="Intermech\Workflow\Design\GraphViewRelinkingTool.cs" />
+    <Compile Include="Intermech\Workflow\Design\GroupNode.cs" />
+    <Compile Include="Intermech\Workflow\Design\IClickTarget.cs" />
+    <Compile Include="Intermech\Workflow\Design\IDComboItem.cs" />
+    <Compile Include="Intermech\Workflow\Design\ImageListViewSubItem.cs" />
+    <Compile Include="Intermech\Workflow\Design\ImageSubItem.cs" />
+    <Compile Include="Intermech\Workflow\Design\LocalScriptInfo.cs" />
+    <Compile Include="Intermech\Workflow\Design\LongList.cs" />
+    <Compile Include="Intermech\Workflow\Design\MailRefreshWithoutFormPopupEventArgs.cs" />
+    <Compile Include="Intermech\Workflow\Design\MailRefreshWithoutCountingEventArgs.cs" />
+    <Compile Include="Intermech\Workflow\Design\MailRefreshWithReloadWorkOfferEventArgs.cs" />
+    <Compile Include="Intermech\Workflow\Design\MapDocumentExtensions.cs" />
+    <Compile Include="Intermech\Workflow\Design\NodeListViewItem.cs" />
+    <Compile Include="Intermech\Workflow\Design\ObjTypeNode.cs" />
+    <Compile Include="Intermech\Workflow\Design\OwnerdrawListViewSubitem.cs" />
+    <Compile Include="Intermech\Workflow\Design\ParticipantsEditor.cs" />
+    <Compile Include="Intermech\Workflow\Design\ParticipantsPropertyClass.cs" />
+    <Compile Include="Intermech\Workflow\Design\RadioListViewSubitem.cs" />
+    <Compile Include="Intermech\Workflow\Design\RankNode.cs" />
+    <Compile Include="Intermech\Workflow\Design\RanksNode.cs" />
+    <Compile Include="Intermech\Workflow\Design\ReplaceUserForm.cs" />
+    <Compile Include="Intermech\Workflow\Design\SaveDialogResult.cs" />
+    <Compile Include="Intermech\Workflow\Design\ScriptInfo.cs" />
+    <Compile Include="Intermech\Workflow\Design\SetSchemeName.cs" />
+    <Compile Include="Intermech\Workflow\Design\SignsForType.cs" />
+    <Compile Include="Intermech\Workflow\Design\StateList.cs" />
+    <Compile Include="Intermech\Workflow\Design\StateImageKind.cs" />
+    <Compile Include="Intermech\Workflow\Design\TemplateInfo.cs" />
+    <Compile Include="Intermech\Workflow\Design\TextVariableEditors.cs" />
+    <Compile Include="Intermech\Workflow\Design\TypedObjectSubItem.cs" />
+    <Compile Include="Intermech\Workflow\Design\UserNode.cs" />
+    <Compile Include="Intermech\Workflow\Design\UsersTreeViewItemComparer.cs" />
+    <Compile Include="Intermech\Workflow\Design\ValidSchemesOnlyFlag.cs" />
+    <Compile Include="Intermech\Workflow\Design\VarComboItem.cs" />
+    <Compile Include="Intermech\Workflow\Design\VarCustomEditor.cs" />
+    <Compile Include="Intermech\Workflow\Design\VarCustomEditors.cs" />
+    <Compile Include="Intermech\Workflow\Design\VarTypeImageIndex.cs" />
+    <Compile Include="Intermech\Workflow\Design\WFLinkingNewTool.cs" />
+    <Compile Include="Intermech\Workflow\Design\WorkflowBriefcase.cs" />
+    <Compile Include="Intermech\Workflow\Design\CaseLinkForm.cs" />
+    <Compile Include="Intermech\Workflow\Design\CheckInObjectsForm.cs" />
+    <Compile Include="Intermech\Workflow\Design\CheckListForm.cs" />
+    <Compile Include="Intermech\Workflow\Design\ChooseActivityForm.cs" />
+    <Compile Include="Intermech\Workflow\Design\ChooseAttributeForm.cs" />
+    <Compile Include="Intermech\Workflow\Design\ChooseUsersForm.cs" />
+    <Compile Include="Intermech\Workflow\Design\ClientActivityInfos.cs" />
+    <Compile Include="Intermech\Workflow\Design\ComboBoxEx.cs" />
+    <Compile Include="Intermech\Workflow\Design\ComposeMessageForm.cs" />
+    <Compile Include="Intermech\Workflow\Design\CondLinkForm.cs" />
+    <Compile Include="Intermech\Workflow\Design\DefineUsersForm.cs" />
+    <Compile Include="Intermech\Workflow\Design\EditorSettings.cs" />
+    <Compile Include="Intermech\Workflow\Design\EditorSettingsForm.cs" />
+    <Compile Include="Intermech\Workflow\Design\EditVarForm.cs" />
+    <Compile Include="Intermech\Workflow\Design\OnGetChildrenEventHandler.cs" />
+    <Compile Include="Intermech\Workflow\Design\EnhRadioGroup.cs" />
+    <Compile Include="Intermech\Workflow\Design\EnhRadioGroupWrapper.cs" />
+    <Compile Include="Intermech\Workflow\Design\EnhToolTip.cs" />
+    <Compile Include="Intermech\Workflow\Design\FileFuncs.cs" />
+    <Compile Include="Intermech\Workflow\Design\FloodFill.cs" />
+    <Compile Include="Intermech\Workflow\Design\FormDlg.cs" />
+    <Compile Include="Intermech\Workflow\Design\FormEditorHook.cs" />
+    <Compile Include="Intermech\Workflow\Design\GraphDoc.cs" />
+    <Compile Include="Intermech\Workflow\Design\GraphLink.cs" />
+    <Compile Include="Intermech\Workflow\Design\GraphView.cs" />
+    <Compile Include="Intermech\Workflow\Design\SchemesRootCommandProvider.cs" />
+    <Compile Include="Intermech\Workflow\Design\TextMapImage.cs" />
+    <Compile Include="Intermech\Workflow\Design\Holder.cs" />
+    <Compile Include="Intermech\Workflow\Design\HtmlTemplates.cs" />
+    <Compile Include="Intermech\Workflow\Design\ImageFuncs.cs" />
+    <Compile Include="Intermech\Workflow\Design\LCStepSetupForm.cs" />
+    <Compile Include="Intermech\Workflow\Design\LegendForm.cs" />
+    <Compile Include="Intermech\Workflow\Design\LoadSaveTextHelper.cs" />
+    <Compile Include="Intermech\Workflow\Design\BaseAttachmentsView.cs" />
+    <Compile Include="Intermech\Workflow\Design\MessageForm.cs" />
+    <Compile Include="Intermech\Workflow\Design\MessagesView.cs" />
+    <Compile Include="Intermech\Workflow\Design\NewProcessForm.cs" />
+    <Compile Include="Intermech\Workflow\Design\ObjectRevisionHistoryView.cs" />
+    <Compile Include="Intermech\Workflow\Design\OpenSaveSchemeForm.cs" />
+    <Compile Include="Intermech\Workflow\Design\ParticipantsDescriber.cs" />
+    <Compile Include="Intermech\Workflow\Design\ParticipantsEditorForm.cs" />
+    <Compile Include="Intermech\Workflow\Design\ParticipantsPropertyDescriber.cs" />
+    <Compile Include="Intermech\Workflow\Design\ProcessHistoryForm.cs" />
+    <Compile Include="Intermech\Workflow\Design\RadioGroup.cs" />
+    <Compile Include="Intermech\Workflow\Design\RecentList.cs" />
+    <Compile Include="Intermech\Workflow\Design\RelationshipTool.cs" />
+    <Compile Include="Intermech\Workflow\Design\ResourceFuncs.cs" />
+    <Compile Include="Intermech\Workflow\Design\SchemesNode.cs" />
+    <Compile Include="Intermech\Workflow\Design\SchemesRootNode.cs" />
+    <Compile Include="Intermech\Workflow\Design\SchemesTreeView.cs" />
+    <Compile Include="Intermech\Workflow\Design\SchemesView.cs" />
+    <Compile Include="Intermech\Workflow\Design\SchemesViewsProvider.cs" />
+    <Compile Include="Intermech\Workflow\Design\StringsEditorForm.cs" />
+    <Compile Include="Intermech\Workflow\Design\TimePeriodForm.cs" />
+    <Compile Include="Intermech\Workflow\Design\TimerLinkForm.cs" />
+    <Compile Include="Intermech\Workflow\Design\UsersComboBox.cs" />
+    <Compile Include="Intermech\Workflow\Design\UsersComboBoxWrapper.cs" />
+    <Compile Include="Intermech\Workflow\Design\UsersListView.cs" />
+    <Compile Include="Intermech\Workflow\Design\UsersTreeView.cs" />
+    <Compile Include="Intermech\Workflow\Design\UsersTreeViewWrapper.cs" />
+    <Compile Include="Intermech\Workflow\Design\VariablesForm.cs" />
+    <Compile Include="Intermech\Workflow\Design\IVirtualColumn.cs" />
+    <Compile Include="Intermech\Workflow\Design\VirtualColumnScheme.cs" />
+    <Compile Include="Intermech\Workflow\Design\WaitingForm.cs" />
+    <Compile Include="Intermech\Workflow\Design\wfCommandProvider.cs" />
+    <Compile Include="Intermech\Workflow\Design\wfEditorForm.cs" />
+    <Compile Include="Intermech\Workflow\Design\wfFunx.cs" />
+    <Compile Include="Intermech\Workflow\Design\MapImageEx.cs" />
+    <Compile Include="Intermech\Workflow\Design\WizardHandler.cs" />
+    <Compile Include="Intermech\Workflow\Design\WorkflowErrorFormWithProcessesViewAndDeleting.cs" />
+    <Compile Include="Intermech\Workflow\Design\WorkflowLink.cs" />
+    <Compile Include="Intermech\Workflow\Design\WorkflowLinkContextMenu.cs" />
+    <Compile Include="Intermech\Workflow\Design\WorkflowLinkCreator.cs" />
+    <Compile Include="Intermech\Workflow\Design\WorkflowMapText.cs" />
+    <Compile Include="Intermech\Workflow\Design\WorkflowNode.cs" />
+    <Compile Include="Intermech\Workflow\Design\WorkflowNodeContextMenu.cs" />
+    <Compile Include="Intermech\Workflow\Design\WorkflowPalette.cs" />
+    <Compile Include="Intermech\Workflow\Design\WorkflowParallelBlock.cs" />
+    <Compile Include="Intermech\Workflow\Design\WorkflowParallelBlockImpl.cs" />
+    <Compile Include="Intermech\Workflow\Design\WorkTimeVirtualColumn.cs" />
+    <Compile Include="Intermech\Workflow\Design\WarningControl.cs" />
+    <Compile Include="Intermech\Workflow\Design\Properties\Resources.cs" />
+    <Compile Include="Intermech\Workflow\Design\ScriptPad\WorkflowScriptReplacementBehavior.cs" />
+    <Compile Include="Intermech\Workflow\Design\ScriptPad\WorkflowScriptPadHelper.cs" />
+    <Compile Include="Intermech\Workflow\Design\ScriptPad\WorkflowScriptDebugBehavior.cs" />
+    <Compile Include="Intermech\Workflow\Design\ScriptPad\WorkflowScriptSaveChangesBehavior.cs" />
+    <Compile Include="Intermech\Workflow\Design\ScriptPad\WorkflowScriptProjectInitializer.cs" />
+    <Compile Include="Intermech\Workflow\Design\ActivityPropertyPages\ArchiveSettingPageControl.cs" />
+    <Compile Include="Intermech\Workflow\Design\ActivityPropertyPages\AttachmentSettingPageControl.cs" />
+    <Compile Include="Intermech\Workflow\Design\ActivityPropertyPages\AttachmentTypeSettingPageControl.cs" />
+    <Compile Include="Intermech\Workflow\Design\ActivityPropertyPages\CaseSettingPageControl.cs" />
+    <Compile Include="Intermech\Workflow\Design\ActivityPropertyPages\ConditionSettingPageControl.cs" />
+    <Compile Include="Intermech\Workflow\Design\ActivityPropertyPages\GeneralSettingPageControl.cs" />
+    <Compile Include="Intermech\Workflow\Design\ActivityPropertyPages\MessagesSettingPageControl.cs" />
+    <Compile Include="Intermech\Workflow\Design\ActivityPropertyPages\ParticipantsSettingPageControl.cs" />
+    <Compile Include="Intermech\Workflow\Design\ActivityPropertyPages\RemoteSubProcessSettingPageControl.cs" />
+    <Compile Include="Intermech\Workflow\Design\ActivityPropertyPages\RollbackSettingPageControl.cs" />
+    <Compile Include="Intermech\Workflow\Design\ActivityPropertyPages\ScriptsSettingPageControl.cs" />
+    <Compile Include="Intermech\Workflow\Design\ActivityPropertyPages\SignsGraphsSettingControl.cs" />
+    <Compile Include="Intermech\Workflow\Design\ActivityPropertyPages\SignsSettingPageControl.cs" />
+    <Compile Include="Intermech\Workflow\Design\ActivityPropertyPages\StatusSettingPageControl.cs" />
+    <Compile Include="Intermech\Workflow\Design\ActivityPropertyPages\SubProcessSettingPageControl.cs" />
+    <Compile Include="Intermech\Workflow\Design\ActivityPropertyPages\TermsSettingPageControl.cs" />
+    <Compile Include="Intermech\Workflow\Design\ActivityPropertyPages\TimerSettingPageControl.cs" />
+    <Compile Include="ImSSP\sc_21974.cs" />
+    <Compile Include="ImSSP\sc_21977.cs" />
+    <Compile Include="ImSSP\sc_21982.cs" />
+    <Compile Include="ImSSP\sc_21746.cs" />
+    <Compile Include="ImSSP\sc_21763.cs" />
+    <Compile Include="ImSSP\sc_21885.cs" />
+    <Compile Include="ImSSP\sc_21930.cs" />
+    <Compile Include="ImSSP\sc_21782.cs" />
+    <Compile Include="ImSSP\sc_21802.cs" />
+    <Compile Include="ImSSP\sc_21814.cs" />
+    <Compile Include="ImSSP\sc_21824.cs" />
+    <Compile Include="ImSSP\sc_21836.cs" />
+    <Compile Include="ImSSP\sc_21864.cs" />
+    <Compile Include="ImSSP\sc_21910.cs" />
+    <Compile Include="ImSSP\sc_21919.cs" />
+    <Compile Include="ImSSP\sc_21923.cs" />
+    <Compile Include="ImSSP\sc_21938.cs" />
+    <Compile Include="Media\MediaPlayer.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Intermech\Forums\ForumView.resx" />
+    <EmbeddedResource Include="Intermech\Forums\RefWindow.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\ActivitiesView.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\ActivityProperty.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\ActivityPropertyPages\ArchiveSettingPageControl.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\ActivityPropertyPages\AttachmentSettingPageControl.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\ActivityPropertyPages\AttachmentTypeSettingPageControl.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\ActivityPropertyPages\CaseSettingPageControl.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\ActivityPropertyPages\ConditionSettingPageControl.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\ActivityPropertyPages\GeneralSettingPageControl.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\ActivityPropertyPages\MessagesSettingPageControl.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\ActivityPropertyPages\ParticipantsSettingPageControl.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\ActivityPropertyPages\RemoteSubProcessSettingPageControl.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\ActivityPropertyPages\RollbackSettingPageControl.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\ActivityPropertyPages\ScriptsSettingPageControl.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\ActivityPropertyPages\SignsGraphsSettingControl.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\ActivityPropertyPages\SignsSettingPageControl.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\ActivityPropertyPages\StatusSettingPageControl.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\ActivityPropertyPages\SubProcessSettingPageControl.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\ActivityPropertyPages\TermsSettingPageControl.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\ActivityPropertyPages\TimerSettingPageControl.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\ActivPropForm.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\AddSignGraphsForm.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\AddUsersForm.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\AttachmentsView.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\BaseAttachmentsView.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\CaseLinkForm.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\CheckInObjectsForm.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\CheckListForm.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\ChooseActivityForm.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\ChooseAttributeForm.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\ChooseUsersForm.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\ComposeMessageForm.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\CondLinkForm.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\CurrentVariableUsedAnotherSchemes.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\DateTimeWithNull.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\DefineUsersForm.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\dll.licenses" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\EditorSettingsForm.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\EditVarForm.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\FormDlg.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\GraphView.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\html\blank.gif" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\html\iepngfix.htc" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\img\abort.bmp" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\img\accept.bmp" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\img\answer.ico" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\img\attach.ico" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\img\attach_add.ico" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\img\attach_remove.ico" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\img\back.bmp" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\img\closebtn.bmp" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\img\delete.bmp" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\img\formeditor\radiogroup.bmp" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\img\formeditor\userscombobox.bmp" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\img\formeditor\userstreeview.bmp" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\img\forum.ico" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\img\high.bmp" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\img\launch.bmp" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\img\loading.gif" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\img\low.bmp" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\img\mail_settings.ico" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\img\messages.ico" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\img\next.bmp" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\img\partvar.bmp" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\img\process.bmp" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\img\process_completed.bmp" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\img\process_terminated.bmp" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\img\question.bmp" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\img\reject.bmp" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\img\rejected.bmp" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\img\tv\minus.gif" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\img\tv\plus.gif" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\img\undelete.bmp" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\img\vartypes\archive.bmp" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\img\vartypes\list.bmp" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\img\vartypes\users.bmp" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\img\view.ico" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\img\warning.bmp" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\LCStepSetupForm.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\LegendForm.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\MessageForm.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\MessagesView.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\NewProcessForm.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\ObjectRevisionHistoryView.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\OpenSaveSchemeForm.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\ParticipantsEditorForm.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\ProcessHistoryForm.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\Properties\Resources.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\ReplaceUserForm.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\SetSchemeName.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\SignsForType.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\StringsEditorForm.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\templates\mailmessages\Gray\index.htm" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\templates\mailmessages\Gray\message.htm" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\templates\mailmessages\Gray\messages.htm" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\templates\mailmessages\Gray\nomessages.htm" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\templates\mailmessages\Gray\template.xml" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\templates\mailmessages\Simple\index.htm" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\templates\mailmessages\Simple\message.htm" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\templates\mailmessages\Simple\messages.htm" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\templates\mailmessages\Simple\nomessages.htm" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\templates\mailmessages\Simple\template.xml" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\TextVariableEditors.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\TimePeriodForm.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\TimerLinkForm.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\UsersListView.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\VariablesForm.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\WaitingForm.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\WarningControl.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\wfEditorForm.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\WorkflowErrorFormWithProcessesViewAndDeleting.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Design\WorkflowPalette.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Expert.Server_300" xml:space="preserve">
+    <value>Командный-Скрипт</value>
+  </data>
+  <data name="Expert.Server_197" xml:space="preserve">
+    <value>Удаленный атрибут!</value>
+  </data>
+  <data name="Expert.Server_196" xml:space="preserve">
+    <value>Значение НЕ принято.</value>
+  </data>
+  <data name="Expert.Server_195" xml:space="preserve">
+    <value>Значение принято.</value>
+  </data>
+  <data name="Expert.Server_194" xml:space="preserve">
+    <value>Условие</value>
+  </data>
+  <data name="Expert.Server_193" xml:space="preserve">
+    <value>Проверка_значения</value>
+  </data>
+  <data name="Expert.Server_192" xml:space="preserve">
+    <value>Наименование_атрибута</value>
+  </data>
+  <data name="Expert.Server_191" xml:space="preserve">
+    <value>Расчёт_атрибута</value>
+  </data>
+  <data name="Expert.Server_190" xml:space="preserve">
+    <value> ИЛИ </value>
+  </data>
+  <data name="Expert.Server_199" xml:space="preserve">
+    <value>Дату можно сравнивать только с другой датой или со строкой!</value>
+  </data>
+  <data name="Expert.Server_198" xml:space="preserve">
+    <value>Расчет</value>
+  </data>
+  <data name="Expert.Server_186" xml:space="preserve">
+    <value>Поле не найдено</value>
+  </data>
+  <data name="Expert.Server_187" xml:space="preserve">
+    <value>Поле шаблона </value>
+  </data>
+  <data name="Expert.Server_184" xml:space="preserve">
+    <value>Оператор присваивания нельзя выполнить для нескольких объектов!</value>
+  </data>
+  <data name="Expert.Server_185" xml:space="preserve">
+    <value>не найдено</value>
+  </data>
+  <data name="Expert.Server_180" xml:space="preserve">
+    <value>Ошибка при инициализации службы ISelectionsService</value>
+  </data>
+  <data name="Expert.Server_181" xml:space="preserve">
+    <value>1 шт</value>
+  </data>
+  <data name="Expert.Server_188" xml:space="preserve">
+    <value> не найдено</value>
+  </data>
+  <data name="Expert.Server_189" xml:space="preserve">
+    <value> И </value>
+  </data>
+  <data name="Expert.Server_179" xml:space="preserve">
+    <value>Отсутствует условие модификатора "Если все"</value>
+  </data>
+  <data name="Expert.Server_178" xml:space="preserve">
+    <value>Отсутствует условие модификатора "Если все"</value>
+  </data>
+  <data name="Expert.Server_171" xml:space="preserve">
+    <value>Неверный тип формулы в модификаторе максимума</value>
+  </data>
+  <data name="Expert.Server_170" xml:space="preserve">
+    <value>Неверный тип формулы в модификаторе максимума</value>
+  </data>
+  <data name="Expert.Server_173" xml:space="preserve">
+    <value>Отсутствует условие модификатора "Если существует"</value>
+  </data>
+  <data name="Expert.Server_172" xml:space="preserve">
+    <value>Отсутствует условие в модификаторе "Если все"!</value>
+  </data>
+  <data name="Expert.Server_175" xml:space="preserve">
+    <value>Отсутствует условие модификатора "Если все"</value>
+  </data>
+  <data name="Expert.Server_174" xml:space="preserve">
+    <value>Отсутствует условие цикла ПОКА</value>
+  </data>
+  <data name="Expert.Server_177" xml:space="preserve">
+    <value>Отсутствует контекст для оператора возврата объекта</value>
+  </data>
+  <data name="Expert.Server_176" xml:space="preserve">
+    <value>Отсутствует условие модификатора "Если все"</value>
+  </data>
+  <data name="Expert.Server_168" xml:space="preserve">
+    <value>Отсутствует формула в модификаторе максимума!</value>
+  </data>
+  <data name="Expert.Server_169" xml:space="preserve">
+    <value>яяяяяяяя</value>
+  </data>
+  <data name="Expert.Server_160" xml:space="preserve">
+    <value>Отсутствует условие модификатора "Если существует"</value>
+  </data>
+  <data name="Expert.Server_161" xml:space="preserve">
+    <value>Отсутствует формула в модификаторе максимума!</value>
+  </data>
+  <data name="Expert.Server_162" xml:space="preserve">
+    <value>яяяяяяяя</value>
+  </data>
+  <data name="Expert.Server_163" xml:space="preserve">
+    <value>Неверный тип формулы в модификаторе максимума</value>
+  </data>
+  <data name="Expert.Server_164" xml:space="preserve">
+    <value>Неверный тип формулы в модификаторе максимума</value>
+  </data>
+  <data name="Expert.Server_165" xml:space="preserve">
+    <value>Отсутствует условие в модификаторе "Если все"!</value>
+  </data>
+  <data name="Expert.Server_166" xml:space="preserve">
+    <value>Отсутствует условие модификатора "Если существует"</value>
+  </data>
+  <data name="Expert.Server_167" xml:space="preserve">
+    <value>Отсутствует условие цикла ПОКА</value>
+  </data>
+  <data name="Expert.Server_159" xml:space="preserve">
+    <value>Отсутствует условие модификатора "Если все"</value>
+  </data>
+  <data name="Expert.Server_158" xml:space="preserve">
+    <value>Неверный тип формулы в модификаторе максимума</value>
+  </data>
+  <data name="Expert.Server_153" xml:space="preserve">
+    <value>Эту команду можно применять только в скриптах генерации документов!</value>
+  </data>
+  <data name="Expert.Server_152" xml:space="preserve">
+    <value>Неизвестный оператор!</value>
+  </data>
+  <data name="Expert.Server_151" xml:space="preserve">
+    <value>Отсутствует атрибут, содержащий шаблон документа</value>
+  </data>
+  <data name="Expert.Server_150" xml:space="preserve">
+    <value>Ошибка при обращении к объекту шаблона</value>
+  </data>
+  <data name="Expert.Server_157" xml:space="preserve">
+    <value>Неверный тип формулы в модификаторе максимума</value>
+  </data>
+  <data name="Expert.Server_156" xml:space="preserve">
+    <value>яяяяяяяя</value>
+  </data>
+  <data name="Expert.Server_155" xml:space="preserve">
+    <value>Отсутствует формула в модификаторе максимума!</value>
+  </data>
+  <data name="Expert.Server_154" xml:space="preserve">
+    <value>&lt;ПРОПУЩЕН&gt;</value>
+  </data>
+  <data name="Expert.Server_148" xml:space="preserve">
+    <value>Обновление-правил-расчёта</value>
+  </data>
+  <data name="Expert.Server_149" xml:space="preserve">
+    <value>
+Неизвестные параметры: </value>
+  </data>
+  <data name="Expert.Server_142" xml:space="preserve">
+    <value>для-объекта</value>
+  </data>
+  <data name="Expert.Server_143" xml:space="preserve">
+    <value>Попытка циклического вычисления атрибута</value>
+  </data>
+  <data name="Expert.Server_140" xml:space="preserve">
+    <value>тип-объекта</value>
+  </data>
+  <data name="Expert.Server_141" xml:space="preserve">
+    <value>тип-атрибута</value>
+  </data>
+  <data name="Expert.Server_146" xml:space="preserve">
+    <value>Не могу найти объект с идентификатором {1}</value>
+  </data>
+  <data name="Expert.Server_147" xml:space="preserve">
+    <value>Объект не является объектом экспертной системы</value>
+  </data>
+  <data name="Expert.Server_144" xml:space="preserve">
+    <value>Этот-Объект</value>
+  </data>
+  <data name="Expert.Server_145" xml:space="preserve">
+    <value>Атрибут не найден</value>
+  </data>
+  <data name="Expert.Server_139" xml:space="preserve">
+    <value>Вычисление_значения</value>
+  </data>
+  <data name="Expert.Server_138" xml:space="preserve">
+    <value>Результат</value>
+  </data>
+  <data name="Expert.Server_135" xml:space="preserve">
+    <value>Ид</value>
+  </data>
+  <data name="Expert.Server_134" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="Expert.Server_137" xml:space="preserve">
+    <value>Таблица не вернула результатов</value>
+  </data>
+  <data name="Expert.Server_136" xml:space="preserve">
+    <value>" при распаковке XML-скрипта</value>
+  </data>
+  <data name="Expert.Server_131" xml:space="preserve">
+    <value>Объект экспертной системы </value>
+  </data>
+  <data name="Expert.Server_130" xml:space="preserve">
+    <value>Не соответствует</value>
+  </data>
+  <data name="Expert.Server_133" xml:space="preserve">
+    <value>Объект-Найден</value>
+  </data>
+  <data name="Expert.Server_132" xml:space="preserve">
+    <value> не существует!</value>
+  </data>
+  <data name="Expert.Server_128" xml:space="preserve">
+    <value>Код</value>
+  </data>
+  <data name="Expert.Server_129" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="Expert.Server_124" xml:space="preserve">
+    <value>Расчёт-Атрибута</value>
+  </data>
+  <data name="Expert.Server_125" xml:space="preserve">
+    <value>" при распаковке XML-скрипта</value>
+  </data>
+  <data name="Expert.Server_126" xml:space="preserve">
+    <value>Исключение</value>
+  </data>
+  <data name="Expert.Server_127" xml:space="preserve">
+    <value>Результат</value>
+  </data>
+  <data name="Expert.Server_120" xml:space="preserve">
+    <value>Тип-объекта</value>
+  </data>
+  <data name="Expert.Server_121" xml:space="preserve">
+    <value>Тип-атрибута</value>
+  </data>
+  <data name="Expert.Server_122" xml:space="preserve">
+    <value>ИД-объекта</value>
+  </data>
+  <data name="Expert.Server_123" xml:space="preserve">
+    <value>Найдено</value>
+  </data>
+  <data name="Expert.Server_119" xml:space="preserve">
+    <value>Поиск-объекта</value>
+  </data>
+  <data name="Expert.Server_118" xml:space="preserve">
+    <value>"при распаковке XML-скрипта</value>
+  </data>
+  <data name="Expert.Server_117" xml:space="preserve">
+    <value>Неверный тип операнда (</value>
+  </data>
+  <data name="Expert.Server_116" xml:space="preserve">
+    <value>Требуется два операнда!</value>
+  </data>
+  <data name="Expert.Server_115" xml:space="preserve">
+    <value>Стек не должен быть пустым!</value>
+  </data>
+  <data name="Expert.Server_114" xml:space="preserve">
+    <value>Ошибка при выполнении команды "</value>
+  </data>
+  <data name="Expert.Server_113" xml:space="preserve">
+    <value> 
+Ошибка: функция "{0}" пока не поддерживается</value>
+  </data>
+  <data name="Expert.Server_112" xml:space="preserve">
+    <value>Ошибка при вычислении функции "</value>
+  </data>
+  <data name="Expert.Server_111" xml:space="preserve">
+    <value>Ошибка конверсии типов: </value>
+  </data>
+  <data name="Expert.Server_110" xml:space="preserve">
+    <value>Недостаточно параметров для функции "{0}" - требуется {1} параметров!" </value>
+  </data>
+  <data name="Expert.Server_108" xml:space="preserve">
+    <value>При проверке типа объекта в наборе допускаются только целые числа и диапазоны!</value>
+  </data>
+  <data name="Expert.Server_109" xml:space="preserve">
+    <value>Тип атрибута [{0}] - не целое число, и он не может хранить флаги!</value>
+  </data>
+  <data name="Expert.Server_106" xml:space="preserve">
+    <value>Идентификатор типа объекта должен быть целым числом!</value>
+  </data>
+  <data name="Expert.Server_107" xml:space="preserve">
+    <value>При проверке типа объекта допускаются только целочисленные диапазоны!</value>
+  </data>
+  <data name="Expert.Server_104" xml:space="preserve">
+    <value>Неверный тип второго операнда при сравнении со ссылкой на объект</value>
+  </data>
+  <data name="Expert.Server_105" xml:space="preserve">
+    <value>Идентификатор типа объекта должен быть целым числом!</value>
+  </data>
+  <data name="Expert.Server_102" xml:space="preserve">
+    <value>Ид._Атрибута</value>
+  </data>
+  <data name="Expert.Server_103" xml:space="preserve">
+    <value>Возведение в степень чисел в единицах измерения не поддерживается!</value>
+  </data>
+  <data name="Expert.Server_100" xml:space="preserve">
+    <value>Значение</value>
+  </data>
+  <data name="Expert.Server_101" xml:space="preserve">
+    <value>Ид._Объекта</value>
+  </data>
+  <data name="Expert.Server_294" xml:space="preserve">
+    <value>Ссылка на </value>
+  </data>
+  <data name="Expert.Server_295" xml:space="preserve">
+    <value>Не удалось загрузить службу ITechCardDocumentService!</value>
+  </data>
+  <data name="Expert.Server_296" xml:space="preserve">
+    <value>Не задан тип объекта, для которого надо генерировать документы!</value>
+  </data>
+  <data name="Expert.Server_297" xml:space="preserve">
+    <value>Задача ЭС не запущена! Используйте StartJobForTask() для запуска задачи.</value>
+  </data>
+  <data name="Expert.Server_290" xml:space="preserve">
+    <value>Ошибка загрузки шаблона: первый файл {0} не является шаблоном документа!</value>
+  </data>
+  <data name="Expert.Server_291" xml:space="preserve">
+    <value>Результат вычисления не определен!</value>
+  </data>
+  <data name="Expert.Server_292" xml:space="preserve">
+    <value>Не удалось прочитать шаблон документа из объекта {0}!</value>
+  </data>
+  <data name="Expert.Server_293" xml:space="preserve">
+    <value>Тип объекта {0} не найден!</value>
+  </data>
+  <data name="Expert.Server_298" xml:space="preserve">
+    <value>Не найден идентификатор связи для оператора присваивания!</value>
+  </data>
+  <data name="Expert.Server_299" xml:space="preserve">
+    <value>Циклическое использование объекта {0} при генерации документа или комплекта!</value>
+  </data>
+  <data name="Expert.Server_285" xml:space="preserve">
+    <value>Поиск-объекта-в-кэше</value>
+  </data>
+  <data name="Expert.Server_284" xml:space="preserve">
+    <value>Не найдено поле документа в операторе записи данных {0} в поле {1}!</value>
+  </data>
+  <data name="Expert.Server_287" xml:space="preserve">
+    <value>Вторым операндом оператора "?" должен быть массив или набор!</value>
+  </data>
+  <data name="Expert.Server_286" xml:space="preserve">
+    <value>Неверный GUID в операторе правил расчета "{0}"</value>
+  </data>
+  <data name="Expert.Server_281" xml:space="preserve">
+    <value>Ложное</value>
+  </data>
+  <data name="Expert.Server_280" xml:space="preserve">
+    <value>Условия-Папок-{0}</value>
+  </data>
+  <data name="Expert.Server_283" xml:space="preserve">
+    <value>документ</value>
+  </data>
+  <data name="Expert.Server_282" xml:space="preserve">
+    <value>Документ соисполнителя (не генерировался)</value>
+  </data>
+  <data name="Expert.Server_289" xml:space="preserve">
+    <value>минус</value>
+  </data>
+  <data name="Expert.Server_288" xml:space="preserve">
+    <value>Оператор обращения к массиву должен использоваться после массива!</value>
+  </data>
+  <data name="Expert.Server_258" xml:space="preserve">
+    <value>Уже рассчитано</value>
+  </data>
+  <data name="Expert.Server_259" xml:space="preserve">
+    <value>Предыдущий расчет неудачен</value>
+  </data>
+  <data name="Expert.Server_252" xml:space="preserve">
+    <value>Тип атрибута [</value>
+  </data>
+  <data name="Expert.Server_253" xml:space="preserve">
+    <value>] - не целое число, и он не может хранить флаги!</value>
+  </data>
+  <data name="Expert.Server_254" xml:space="preserve">
+    <value>Недостаточно параметров для функции </value>
+  </data>
+  <data name="Expert.Server_255" xml:space="preserve">
+    <value> - требуется </value>
+  </data>
+  <data name="Expert.Server_256" xml:space="preserve">
+    <value> параметров!</value>
+  </data>
+  <data name="Expert.Server_257" xml:space="preserve">
+    <value>Атрибут {0} в базе не найден!</value>
+  </data>
+  <data name="Expert.Server_278" xml:space="preserve">
+    <value>Классификатор_объекта_{0}</value>
+  </data>
+  <data name="Expert.Server_279" xml:space="preserve">
+    <value>Ид_связи</value>
+  </data>
+  <data name="Expert.Server_272" xml:space="preserve">
+    <value>Объект {0} не может быть изменен!</value>
+  </data>
+  <data name="Expert.Server_273" xml:space="preserve">
+    <value>Неверные параметры для функции СПИС</value>
+  </data>
+  <data name="Expert.Server_270" xml:space="preserve">
+    <value>Вызов-сценария</value>
+  </data>
+  <data name="Expert.Server_271" xml:space="preserve">
+    <value> (ВРЕМЕННЫЙ БЕЗ ОБЪЕКТА)</value>
+  </data>
+  <data name="Expert.Server_276" xml:space="preserve">
+    <value>(ВРЕМЕННЫЙ С ОБЪЕКТОМ)</value>
+  </data>
+  <data name="Expert.Server_277" xml:space="preserve">
+    <value>(!!! ВРЕМЕННЫЙ И С ОБЪЕКТОМ, И БЕЗ !!!)</value>
+  </data>
+  <data name="Expert.Server_274" xml:space="preserve">
+    <value>Неверные параметры для функции СПИС+</value>
+  </data>
+  <data name="Expert.Server_275" xml:space="preserve">
+    <value>Ошибка присвоения значения {0} атрибуту {1} [{2}]</value>
+  </data>
+  <data name="Expert.Server_249" xml:space="preserve">
+    <value> КТД</value>
+  </data>
+  <data name="Expert.Server_248" xml:space="preserve">
+    <value>Отсутствуют столбцы для группировки!</value>
+  </data>
+  <data name="Expert.Server_241" xml:space="preserve">
+    <value>Ошибка: в операторе пустой тип объекта!</value>
+  </data>
+  <data name="Expert.Server_240" xml:space="preserve">
+    <value>Скрипт не связан с шаблоном документа! Генерация невозможна</value>
+  </data>
+  <data name="Expert.Server_243" xml:space="preserve">
+    <value>Задача была прервана или удалена</value>
+  </data>
+  <data name="Expert.Server_242" xml:space="preserve">
+    <value>Ошибка скрипта: незаполненный оператор заполнения поля!</value>
+  </data>
+  <data name="Expert.Server_245" xml:space="preserve">
+    <value>Список_Объектов</value>
+  </data>
+  <data name="Expert.Server_244" xml:space="preserve">
+    <value>Обнаружено_зацикливание</value>
+  </data>
+  <data name="Expert.Server_247" xml:space="preserve">
+    <value>Следующие объекты удалены из контекста</value>
+  </data>
+  <data name="Expert.Server_246" xml:space="preserve">
+    <value>Сообщение</value>
+  </data>
+  <data name="Expert.Server_218" xml:space="preserve">
+    <value>Загрузка-Объекта-ЭС</value>
+  </data>
+  <data name="Expert.Server_219" xml:space="preserve">
+    <value>Элемент-Скрипта</value>
+  </data>
+  <data name="Expert.Server_214" xml:space="preserve">
+    <value>Ид-Загружен</value>
+  </data>
+  <data name="Expert.Server_215" xml:space="preserve">
+    <value>Контекст</value>
+  </data>
+  <data name="Expert.Server_216" xml:space="preserve">
+    <value>количество</value>
+  </data>
+  <data name="Expert.Server_217" xml:space="preserve">
+    <value>Заголовок</value>
+  </data>
+  <data name="Expert.Server_210" xml:space="preserve">
+    <value>Изменен_пользователем</value>
+  </data>
+  <data name="Expert.Server_211" xml:space="preserve">
+    <value>Система</value>
+  </data>
+  <data name="Expert.Server_212" xml:space="preserve">
+    <value>Ид-Атрибута</value>
+  </data>
+  <data name="Expert.Server_213" xml:space="preserve">
+    <value>В-кэше</value>
+  </data>
+  <data name="Expert.Server_269" xml:space="preserve">
+    <value>Ошибка выполнения сценария [{0}]:</value>
+  </data>
+  <data name="Expert.Server_268" xml:space="preserve">
+    <value>Документ {0} для объекта {1}</value>
+  </data>
+  <data name="Expert.Server_263" xml:space="preserve">
+    <value>Объект {0}: Атрибут {1} отсутствует в базе!</value>
+  </data>
+  <data name="Expert.Server_262" xml:space="preserve">
+    <value>Объект {0} не найден</value>
+  </data>
+  <data name="Expert.Server_261" xml:space="preserve">
+    <value>Единицы измерения {0} и {1} относятся к разным физическим величинам!</value>
+  </data>
+  <data name="Expert.Server_260" xml:space="preserve">
+    <value>Единица измерения {0} не найдена!</value>
+  </data>
+  <data name="Expert.Server_267" xml:space="preserve">
+    <value>Генерация_документа</value>
+  </data>
+  <data name="Expert.Server_266" xml:space="preserve">
+    <value>Объект {0}: неверный GUID '{1}'</value>
+  </data>
+  <data name="Expert.Server_265" xml:space="preserve">
+    <value>Объект {0}: Ссылка на объект {1}, который отсутствует в базе!</value>
+  </data>
+  <data name="Expert.Server_264" xml:space="preserve">
+    <value>Объект {0}: Тип объекта {1} отсутствует в базе!</value>
+  </data>
+  <data name="Expert.Server_238" xml:space="preserve">
+    <value>Символ</value>
+  </data>
+  <data name="Expert.Server_239" xml:space="preserve">
+    <value>Содержимое_ячейки</value>
+  </data>
+  <data name="Expert.Server_236" xml:space="preserve">
+    <value>Новый_Ид</value>
+  </data>
+  <data name="Expert.Server_237" xml:space="preserve">
+    <value>Строка-{0}_Столбец-{1}</value>
+  </data>
+  <data name="Expert.Server_234" xml:space="preserve">
+    <value>Заполнить-Поле</value>
+  </data>
+  <data name="Expert.Server_235" xml:space="preserve">
+    <value>поле</value>
+  </data>
+  <data name="Expert.Server_232" xml:space="preserve">
+    <value>Ид-Связи</value>
+  </data>
+  <data name="Expert.Server_233" xml:space="preserve">
+    <value>Формула</value>
+  </data>
+  <data name="Expert.Server_230" xml:space="preserve">
+    <value>Имя-Атрибута</value>
+  </data>
+  <data name="Expert.Server_231" xml:space="preserve">
+    <value>Расчет-Формулы</value>
+  </data>
+  <data name="Expert.Server_209" xml:space="preserve">
+    <value>Тип-Атрибута</value>
+  </data>
+  <data name="Expert.Server_208" xml:space="preserve">
+    <value>Тип-Объекта</value>
+  </data>
+  <data name="Expert.Server_205" xml:space="preserve">
+    <value>ОБЪЕКТ НЕ НАЙДЕН!</value>
+  </data>
+  <data name="Expert.Server_204" xml:space="preserve">
+    <value>Правило поиска НЕ НАЙДЕНО!</value>
+  </data>
+  <data name="Expert.Server_207" xml:space="preserve">
+    <value>Ид-Объекта</value>
+  </data>
+  <data name="Expert.Server_206" xml:space="preserve">
+    <value>Присвоить-атрибут</value>
+  </data>
+  <data name="Expert.Server_201" xml:space="preserve">
+    <value>Документ не существует</value>
+  </data>
+  <data name="Expert.Server_200" xml:space="preserve">
+    <value>Ошибка при получении условий выборки (#{0})</value>
+  </data>
+  <data name="Expert.Server_203" xml:space="preserve">
+    <value>Правило поиска Загружено</value>
+  </data>
+  <data name="Expert.Server_202" xml:space="preserve">
+    <value>Тип объекта = {0}, Тип атрибута = {1}</value>
+  </data>
+  <data name="Expert.Server_229" xml:space="preserve">
+    <value>GUID-Атрибута</value>
+  </data>
+  <data name="Expert.Server_228" xml:space="preserve">
+    <value>&lt;Неизвестно&gt;</value>
+  </data>
+  <data name="Expert.Server_227" xml:space="preserve">
+    <value>Присвоить-Атрибут</value>
+  </data>
+  <data name="Expert.Server_226" xml:space="preserve">
+    <value>Условие-Строки-Базы</value>
+  </data>
+  <data name="Expert.Server_225" xml:space="preserve">
+    <value>скрипт</value>
+  </data>
+  <data name="Expert.Server_224" xml:space="preserve">
+    <value>Генерация-Документа</value>
+  </data>
+  <data name="Expert.Server_223" xml:space="preserve">
+    <value>Ид-Владельца</value>
+  </data>
+  <data name="Expert.Server_222" xml:space="preserve">
+    <value>Опер</value>
+  </data>
+  <data name="Expert.Server_221" xml:space="preserve">
+    <value>Мод</value>
+  </data>
+  <data name="Expert.Server_220" xml:space="preserve">
+    <value>Метка</value>
+  </data>
+  <data name="Expert.Server_96" xml:space="preserve">
+    <value>Расчёт_таблицы</value>
+  </data>
+  <data name="Expert.Server_97" xml:space="preserve">
+    <value>Ид._объекта</value>
+  </data>
+  <data name="Expert.Server_94" xml:space="preserve">
+    <value>Ид._Объекта</value>
+  </data>
+  <data name="Expert.Server_95" xml:space="preserve">
+    <value>Ид._Атрибута</value>
+  </data>
+  <data name="Expert.Server_92" xml:space="preserve">
+    <value>Результат</value>
+  </data>
+  <data name="Expert.Server_93" xml:space="preserve">
+    <value>Значение</value>
+  </data>
+  <data name="Expert.Server_90" xml:space="preserve">
+    <value>Ид._таблицы</value>
+  </data>
+  <data name="Expert.Server_91" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="Expert.Server_98" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="Expert.Server_99" xml:space="preserve">
+    <value>Результат</value>
+  </data>
+  <data name="Expert.Server_78" xml:space="preserve">
+    <value>Успешно загружен</value>
+  </data>
+  <data name="Expert.Server_79" xml:space="preserve">
+    <value>Обработка элемента "</value>
+  </data>
+  <data name="Expert.Server_70" xml:space="preserve">
+    <value>добавлено</value>
+  </data>
+  <data name="Expert.Server_71" xml:space="preserve">
+    <value>Объект уже есть в правилах</value>
+  </data>
+  <data name="Expert.Server_72" xml:space="preserve">
+    <value>Исключение</value>
+  </data>
+  <data name="Expert.Server_73" xml:space="preserve">
+    <value>Исключение</value>
+  </data>
+  <data name="Expert.Server_74" xml:space="preserve">
+    <value>Загрузка_правил_расчёта</value>
+  </data>
+  <data name="Expert.Server_75" xml:space="preserve">
+    <value>из кэша</value>
+  </data>
+  <data name="Expert.Server_76" xml:space="preserve">
+    <value>загружено, Id=</value>
+  </data>
+  <data name="Expert.Server_77" xml:space="preserve">
+    <value>правило расчёта не найдено</value>
+  </data>
+  <data name="Expert.Server_87" xml:space="preserve">
+    <value>Удаление атрибута "{0}" невозможно - он используется в {1} объектах экспертной системы</value>
+  </data>
+  <data name="Expert.Server_86" xml:space="preserve">
+    <value>Ядро экспертной системы</value>
+  </data>
+  <data name="Expert.Server_85" xml:space="preserve">
+    <value>&lt;Число&gt;</value>
+  </data>
+  <data name="Expert.Server_84" xml:space="preserve">
+    <value>Формула не найдена!</value>
+  </data>
+  <data name="Expert.Server_83" xml:space="preserve">
+    <value>Задача не найдена!</value>
+  </data>
+  <data name="Expert.Server_82" xml:space="preserve">
+    <value>Задача не найдена!</value>
+  </data>
+  <data name="Expert.Server_81" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="Expert.Server_80" xml:space="preserve">
+    <value>Правило_подбора</value>
+  </data>
+  <data name="Expert.Server_89" xml:space="preserve">
+    <value>Ид._объекта</value>
+  </data>
+  <data name="Expert.Server_88" xml:space="preserve">
+    <value>Расчёт_таблицы</value>
+  </data>
+  <data name="Expert.Server_58" xml:space="preserve">
+    <value>Код</value>
+  </data>
+  <data name="Expert.Server_59" xml:space="preserve">
+    <value>Исключение</value>
+  </data>
+  <data name="Expert.Server_52" xml:space="preserve">
+    <value>Исключение</value>
+  </data>
+  <data name="Expert.Server_53" xml:space="preserve">
+    <value>Условие</value>
+  </data>
+  <data name="Expert.Server_50" xml:space="preserve">
+    <value>Скрипт пересчёта не найден</value>
+  </data>
+  <data name="Expert.Server_51" xml:space="preserve">
+    <value>" при распаковке XML-скрипта</value>
+  </data>
+  <data name="Expert.Server_56" xml:space="preserve">
+    <value>верно</value>
+  </data>
+  <data name="Expert.Server_57" xml:space="preserve">
+    <value>ложно</value>
+  </data>
+  <data name="Expert.Server_54" xml:space="preserve">
+    <value>Текст</value>
+  </data>
+  <data name="Expert.Server_55" xml:space="preserve">
+    <value>Результат</value>
+  </data>
+  <data name="Expert.Server_69" xml:space="preserve">
+    <value>рез</value>
+  </data>
+  <data name="Expert.Server_68" xml:space="preserve">
+    <value>добавление-ссылки</value>
+  </data>
+  <data name="Expert.Server_61" xml:space="preserve">
+    <value>НЕ </value>
+  </data>
+  <data name="Expert.Server_60" xml:space="preserve">
+    <value>Формула не возвращает однозначного значения!</value>
+  </data>
+  <data name="Expert.Server_63" xml:space="preserve">
+    <value>Отсутствует значение атрибута </value>
+  </data>
+  <data name="Expert.Server_62" xml:space="preserve">
+    <value>Неверный тип атрибута </value>
+  </data>
+  <data name="Expert.Server_65" xml:space="preserve">
+    <value>тип-объекта</value>
+  </data>
+  <data name="Expert.Server_64" xml:space="preserve">
+    <value>обработка-атрибута</value>
+  </data>
+  <data name="Expert.Server_67" xml:space="preserve">
+    <value>новое-правило</value>
+  </data>
+  <data name="Expert.Server_66" xml:space="preserve">
+    <value>тип-атрибута</value>
+  </data>
+  <data name="Expert.Server_38" xml:space="preserve">
+    <value>Вызов-процедуры</value>
+  </data>
+  <data name="Expert.Server_39" xml:space="preserve">
+    <value>Внешняя-процедура</value>
+  </data>
+  <data name="Expert.Server_34" xml:space="preserve">
+    <value>Оператор присваивания, указывающий тип объекта, нельзя выполнить без объекта!</value>
+  </data>
+  <data name="Expert.Server_35" xml:space="preserve">
+    <value>Неудачный расчёт формулы </value>
+  </data>
+  <data name="Expert.Server_36" xml:space="preserve">
+    <value> для объекта [</value>
+  </data>
+  <data name="Expert.Server_37" xml:space="preserve">
+    <value>Неудачный расчёт формулы: </value>
+  </data>
+  <data name="Expert.Server_32" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="Expert.Server_33" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="Expert.Server_49" xml:space="preserve">
+    <value>Пересчёт-Атрибутов</value>
+  </data>
+  <data name="Expert.Server_48" xml:space="preserve">
+    <value>Присваивание значения невозможно</value>
+  </data>
+  <data name="Expert.Server_43" xml:space="preserve">
+    <value>" при распаковке XML-скрипта</value>
+  </data>
+  <data name="Expert.Server_42" xml:space="preserve">
+    <value>Оператор "</value>
+  </data>
+  <data name="Expert.Server_41" xml:space="preserve">
+    <value>Oбъект</value>
+  </data>
+  <data name="Expert.Server_40" xml:space="preserve">
+    <value>Вызов-скрипта</value>
+  </data>
+  <data name="Expert.Server_47" xml:space="preserve">
+    <value>Ид-Oбъекта</value>
+  </data>
+  <data name="Expert.Server_46" xml:space="preserve">
+    <value>Oбъект</value>
+  </data>
+  <data name="Expert.Server_45" xml:space="preserve">
+    <value>Пересчёт-атрибутов</value>
+  </data>
+  <data name="Expert.Server_44" xml:space="preserve">
+    <value>ОШИБКА</value>
+  </data>
+  <data name="Expert.Server_18" xml:space="preserve">
+    <value>Ошибка записи атрибута: атрибут с идентификатором </value>
+  </data>
+  <data name="Expert.Server_19" xml:space="preserve">
+    <value> не найден</value>
+  </data>
+  <data name="Expert.Server_16" xml:space="preserve">
+    <value>Ошибка записи атрибута: объект с идентификатором </value>
+  </data>
+  <data name="Expert.Server_17" xml:space="preserve">
+    <value> не найден</value>
+  </data>
+  <data name="Expert.Server_14" xml:space="preserve">
+    <value>Ошибка записи атрибута: атрибут с идентификатором </value>
+  </data>
+  <data name="Expert.Server_15" xml:space="preserve">
+    <value> не найден</value>
+  </data>
+  <data name="Expert.Server_12" xml:space="preserve">
+    <value>Ошибка записи атрибута: объект или связь с идентификатором </value>
+  </data>
+  <data name="Expert.Server_13" xml:space="preserve">
+    <value> не найдена</value>
+  </data>
+  <data name="Expert.Server_10" xml:space="preserve">
+    <value>В функции SetCalcParms допускаются только значения типа CalculatedAttr</value>
+  </data>
+  <data name="Expert.Server_11" xml:space="preserve">
+    <value>В функции SetCalcParms допускаются только ключи типа CalcAttrPair</value>
+  </data>
+  <data name="Expert.Server_25" xml:space="preserve">
+    <value>1 шт</value>
+  </data>
+  <data name="Expert.Server_24" xml:space="preserve">
+    <value>Шаблон документа пустой</value>
+  </data>
+  <data name="Expert.Server_21" xml:space="preserve">
+    <value>Недостающие_атрибуты</value>
+  </data>
+  <data name="Expert.Server_20" xml:space="preserve">
+    <value>Ошибка применения вычисленного результата (objId = {0}, attrTypeId = {1}) - результат не существует</value>
+  </data>
+  <data name="Expert.Server_23" xml:space="preserve">
+    <value>" при распаковке XML-скрипта</value>
+  </data>
+  <data name="Expert.Server_22" xml:space="preserve">
+    <value>Атрибут</value>
+  </data>
+  <data name="Expert.Server_9" xml:space="preserve">
+    <value>Попытка использовать одну задачу для двух целей!</value>
+  </data>
+  <data name="Expert.Server_8" xml:space="preserve">
+    <value>Ошибка при добавлении отладочной информации</value>
+  </data>
+  <data name="Expert.Server_7" xml:space="preserve">
+    <value>Ошибка при добавлении отладочной информации</value>
+  </data>
+  <data name="Expert.Server_6" xml:space="preserve">
+    <value>Ошибка при добавлении отладочной информации</value>
+  </data>
+  <data name="Expert.Server_5" xml:space="preserve">
+    <value>Неверный идентификатор сессии</value>
+  </data>
+  <data name="Expert.Server_4" xml:space="preserve">
+    <value>Задача не найдена!</value>
+  </data>
+  <data name="Expert.Server_3" xml:space="preserve">
+    <value>Задача не найдена!</value>
+  </data>
+  <data name="Expert.Server_2" xml:space="preserve">
+    <value>Нельзя менять сессию работающей задачи!</value>
+  </data>
+  <data name="Expert.Server_1" xml:space="preserve">
+    <value>Неверный идентификатор задачи</value>
+  </data>
+</root>

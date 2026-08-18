@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.Expert.Editor.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EC18EC69-FDFB-4350-AE6B-1CB13E908E56}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.Expert.Editor</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevAge.Core">
+      <HintPath>lib\DevAge.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevAge.Drawing">
+      <HintPath>lib\DevAge.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="DevAge.SourceGrid3">
+      <HintPath>lib\DevAge.SourceGrid3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevAge.Windows.Forms">
+      <HintPath>lib\DevAge.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.IM.Data">
+      <HintPath>lib\DevExpress.IM.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.IM.Utils">
+      <HintPath>lib\DevExpress.IM.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.IM.XtraEditors">
+      <HintPath>lib\DevExpress.IM.XtraEditors.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.IM.XtraGrid">
+      <HintPath>lib\DevExpress.IM.XtraGrid.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.IM.XtraTreeList">
+      <HintPath>lib\DevExpress.IM.XtraTreeList.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>lib\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.AVS">
+      <HintPath>lib\Intermech.AVS.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bars">
+      <HintPath>lib\Intermech.Bars.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Client.Core">
+      <HintPath>lib\Intermech.Client.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Docking">
+      <HintPath>lib\Intermech.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Document.Client">
+      <HintPath>lib\Intermech.Document.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Document.Model">
+      <HintPath>lib\Intermech.Document.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Expert">
+      <HintPath>lib\Intermech.Expert.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Expert.Scenarios">
+      <HintPath>lib\Intermech.Expert.Scenarios.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Expert.User">
+      <HintPath>lib\Intermech.Expert.User.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Imbase">
+      <HintPath>lib\Intermech.Imbase.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.AVS">
+      <HintPath>lib\Intermech.Interfaces.AVS.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Client">
+      <HintPath>lib\Intermech.Interfaces.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Document">
+      <HintPath>lib\Intermech.Interfaces.Document.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Imbase">
+      <HintPath>lib\Intermech.Interfaces.Imbase.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Localization\LocalizationHolder.cs" />
+    <Compile Include="Localization\CustomDescription.cs" />
+    <Compile Include="Localization\CustomDisplayName.cs" />
+    <Compile Include="Localization\CustomCategory.cs" />
+    <Compile Include="Expert\Editor\AskDocModify.cs" />
+    <Compile Include="Expert\Editor\CalcTestForm.cs" />
+    <Compile Include="Expert\Editor\CellResize.cs" />
+    <Compile Include="Expert\Editor\Resize2.cs" />
+    <Compile Include="Expert\Editor\ClassifierSel.cs" />
+    <Compile Include="Expert\Editor\ComplectTemplateDlg.cs" />
+    <Compile Include="Expert\Editor\AVSAskDocModify.cs" />
+    <Compile Include="Expert\Editor\DemoStend.cs" />
+    <Compile Include="Expert\Editor\DeshifrForm.cs" />
+    <Compile Include="Expert\Editor\DocReport.cs" />
+    <Compile Include="Expert\Editor\ObjSelector.cs" />
+    <Compile Include="Expert\Editor\DoubleValueEditor.cs" />
+    <Compile Include="Expert\Editor\ESApplicability.cs" />
+    <Compile Include="Expert\Editor\ExpertExport.cs" />
+    <Compile Include="Expert\Editor\ExpertValueEditor.cs" />
+    <Compile Include="Expert\Editor\ObjectIDToCaption.cs" />
+    <Compile Include="Expert\Editor\ExpFormView.cs" />
+    <Compile Include="Expert\Editor\ExpertImport.cs" />
+    <Compile Include="Expert\Editor\FormEditor.cs" />
+    <Compile Include="Expert\Editor\SelTypeEventArgs.cs" />
+    <Compile Include="Expert\Editor\FormulaEditPlugin.cs" />
+    <Compile Include="Expert\Editor\ExpFormViewProvider.cs" />
+    <Compile Include="Expert\Editor\ScriptViewProvider.cs" />
+    <Compile Include="Expert\Editor\ExpObjectCreator.cs" />
+    <Compile Include="Expert\Editor\DocScriptForTemplateMenuProvider.cs" />
+    <Compile Include="Expert\Editor\DocScriptCommands.cs" />
+    <Compile Include="Expert\Editor\ExpertObjectsMenuProvider.cs" />
+    <Compile Include="Expert\Editor\ExpertObjectCommands.cs" />
+    <Compile Include="Expert\Editor\FormulaCreator.cs" />
+    <Compile Include="Expert\Editor\GenDocParms.cs" />
+    <Compile Include="Expert\Editor\ImLink.cs" />
+    <Compile Include="Expert\Editor\IMSelector.cs" />
+    <Compile Include="Expert\Editor\ReplaceTemplate.cs" />
+    <Compile Include="Expert\Editor\RuleUpdateReport.cs" />
+    <Compile Include="Expert\Editor\ScriptEdit2.cs" />
+    <Compile Include="Expert\Editor\IListExtension.cs" />
+    <Compile Include="Expert\Editor\TreeNodeExtensions.cs" />
+    <Compile Include="Expert\Editor\CreateEventArgs.cs" />
+    <Compile Include="Expert\Editor\ScriptEditCon.cs" />
+    <Compile Include="Expert\Editor\SelDocScript.cs" />
+    <Compile Include="Expert\Editor\SelectionTabControl.cs" />
+    <Compile Include="Expert\Editor\SelectTree.cs" />
+    <Compile Include="Expert\Editor\SelUserProc.cs" />
+    <Compile Include="Expert\Editor\ShowDoc.cs" />
+    <Compile Include="Expert\Editor\DocTraceInfo.cs" />
+    <Compile Include="Expert\Editor\ShowPostfix.cs" />
+    <Compile Include="Expert\Editor\ShowXml.cs" />
+    <Compile Include="Expert\Editor\SimpleSelector.cs" />
+    <Compile Include="Expert\Editor\SingleValueEditor.cs" />
+    <Compile Include="Expert\Editor\TypedElementInfo.cs" />
+    <Compile Include="Expert\Editor\StringListForm.cs" />
+    <Compile Include="Expert\Editor\ChooseSymbol.cs" />
+    <Compile Include="Expert\Editor\TableEditControl.cs" />
+    <Compile Include="Expert\Editor\TableEditView.cs" />
+    <Compile Include="Expert\Editor\TableEditViewProvider.cs" />
+    <Compile Include="Expert\Editor\eTableObjectCreator.cs" />
+    <Compile Include="Expert\Editor\ModifiedHandler.cs" />
+    <Compile Include="Expert\Editor\SilentGrid.cs" />
+    <Compile Include="Expert\Editor\MeasureTextBox.cs" />
+    <Compile Include="Expert\Editor\MeasureTypeConverter.cs" />
+    <Compile Include="Expert\Editor\TableEditHelper.cs" />
+    <Compile Include="Expert\Editor\GradientFlatHeader.cs" />
+    <Compile Include="Expert\Editor\TableSetup.cs" />
+    <Compile Include="Expert\Editor\TemporaryForm.cs" />
+    <Compile Include="Expert\Editor\TestServer.cs" />
+    <Compile Include="Expert\Editor\UserPrompt.cs" />
+    <Compile Include="Expert\Editor\VListSelect.cs" />
+    <Compile Include="Expert\Editor\Vedomosti\VedomostiSettings.cs" />
+    <Compile Include="Expert\Editor\Table\IExpertTableItemColors.cs" />
+    <Compile Include="Expert\Editor\Table\IExpertTableDestColors.cs" />
+    <Compile Include="Expert\Editor\Table\IExpertTableColorsService.cs" />
+    <Compile Include="Expert\Editor\Table\IExpertTableColors.cs" />
+    <Compile Include="Expert\Editor\Table\ExpertTableItemColors.cs" />
+    <Compile Include="Expert\Editor\Table\ExpertTableItemColorsConverter.cs" />
+    <Compile Include="Expert\Editor\Table\ExpertTableDestColors.cs" />
+    <Compile Include="Expert\Editor\Table\ExpertTableDestColorsConverter.cs" />
+    <Compile Include="Expert\Editor\Table\ExpertTableColors.cs" />
+    <Compile Include="Expert\Editor\Table\ExpertTableColorsService.cs" />
+    <Compile Include="Expert\Editor\Table\ExpertTableColorEditor.cs" />
+    <Compile Include="Expert\Editor\Table\ExpertTableCommands.cs" />
+    <Compile Include="Expert\Editor\Table\IExpertTableProperties.cs" />
+    <Compile Include="Expert\Editor\Table\IExpertTablePropertiesService.cs" />
+    <Compile Include="Expert\Editor\Table\ExpertTableProperties.cs" />
+    <Compile Include="Expert\Editor\Table\ExpertTablePropertiesService.cs" />
+    <Compile Include="Expert\Editor\Table\ExpertTablePropertiesEditor.cs" />
+    <Compile Include="Expert\Editor\Table\TableTest.cs" />
+    <Compile Include="Expert\Editor\Properties\Resources.cs" />
+    <Compile Include="ImSSP\sc_6469.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Expert\Editor\AskDocModify.resx" />
+    <EmbeddedResource Include="Expert\Editor\AVSAskDocModify.resx" />
+    <EmbeddedResource Include="Expert\Editor\CalcTestForm.resx" />
+    <EmbeddedResource Include="Expert\Editor\ChooseSymbol.resx" />
+    <EmbeddedResource Include="Expert\Editor\ClassifierSel.resx" />
+    <EmbeddedResource Include="Expert\Editor\ComplectTemplateDlg.resx" />
+    <EmbeddedResource Include="Expert\Editor\DemoStend.resx" />
+    <EmbeddedResource Include="Expert\Editor\DeshifrForm.resx" />
+    <EmbeddedResource Include="Expert\Editor\DocReport.resx" />
+    <EmbeddedResource Include="Expert\Editor\DoubleValueEditor.resx" />
+    <EmbeddedResource Include="Expert\Editor\ESApplicability.resx" />
+    <EmbeddedResource Include="Expert\Editor\ExpertExport.resx" />
+    <EmbeddedResource Include="Expert\Editor\ExpertImport.resx" />
+    <EmbeddedResource Include="Expert\Editor\ExpertValueEditor.resx" />
+    <EmbeddedResource Include="Expert\Editor\ExpFormView.resx" />
+    <EmbeddedResource Include="Expert\Editor\FormEditor.resx" />
+    <EmbeddedResource Include="Expert\Editor\FormulaCreator.resx" />
+    <EmbeddedResource Include="Expert\Editor\GenDocParms.resx" />
+    <EmbeddedResource Include="Expert\Editor\IMSelector.resx" />
+    <EmbeddedResource Include="Expert\Editor\ObjSelector.resx" />
+    <EmbeddedResource Include="Expert\Editor\Properties\Resources.resx" />
+    <EmbeddedResource Include="Expert\Editor\ReplaceTemplate.resx" />
+    <EmbeddedResource Include="Expert\Editor\Resources\CustomAttributesResources.resx" />
+    <EmbeddedResource Include="Expert\Editor\Resources\ExpertEditorResources.resx" />
+    <EmbeddedResource Include="Expert\Editor\Resources\ExpObject11.ico" />
+    <EmbeddedResource Include="Expert\Editor\RuleUpdateReport.resx" />
+    <EmbeddedResource Include="Expert\Editor\ScriptEdit2.resx" />
+    <EmbeddedResource Include="Expert\Editor\SelDocScript.resx" />
+    <EmbeddedResource Include="Expert\Editor\SelectTree.resx" />
+    <EmbeddedResource Include="Expert\Editor\SelUserProc.resx" />
+    <EmbeddedResource Include="Expert\Editor\ShowDoc.resx" />
+    <EmbeddedResource Include="Expert\Editor\ShowPostfix.resx" />
+    <EmbeddedResource Include="Expert\Editor\ShowXml.resx" />
+    <EmbeddedResource Include="Expert\Editor\SimpleSelector.resx" />
+    <EmbeddedResource Include="Expert\Editor\SingleValueEditor.resx" />
+    <EmbeddedResource Include="Expert\Editor\StringListForm.resx" />
+    <EmbeddedResource Include="Expert\Editor\Table\TableTest.resx" />
+    <EmbeddedResource Include="Expert\Editor\TableEditControl.resx" />
+    <EmbeddedResource Include="Expert\Editor\TableSetup.resx" />
+    <EmbeddedResource Include="Expert\Editor\TemporaryForm.resx" />
+    <EmbeddedResource Include="Expert\Editor\TestServer.resx" />
+    <EmbeddedResource Include="Expert\Editor\UserPrompt.resx" />
+    <EmbeddedResource Include="Expert\Editor\VListSelect.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

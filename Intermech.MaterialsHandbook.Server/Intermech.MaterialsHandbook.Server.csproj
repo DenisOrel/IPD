@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\IPS.Installer.Full\InstServer\Server\Intermech.MaterialsHandbook.Server.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D5B64A04-2800-4789-B4C9-DC5FABE43334}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.MaterialsHandbook.Server</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Imbase">
+      <HintPath>lib\Intermech.Interfaces.Imbase.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.MaterialsHandbook">
+      <HintPath>lib\Intermech.Interfaces.MaterialsHandbook.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Server">
+      <HintPath>lib\Intermech.Interfaces.Server.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Kernel">
+      <HintPath>lib\Intermech.Kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Localization\LocalizationHolder.cs" />
+    <Compile Include="MaterialsHandbook\IMHIndexingService.cs" />
+    <Compile Include="MaterialsHandbook\Server\IMHServerStartup.cs" />
+    <Compile Include="MaterialsHandbook\Server\IMHSystemSettingsService.cs" />
+    <Compile Include="MaterialsHandbook\Server\IMHUserSettingsService.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MaterialsHandbook\Server\IMHServerResources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

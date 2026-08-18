@@ -1,0 +1,659 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.AVS.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0D274BFC-9560-4699-B7C0-D52A14BF9338}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.AVS</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CollapsibleSplitter">
+      <HintPath>lib\CollapsibleSplitter.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.IM.Utils">
+      <HintPath>lib\DevExpress.IM.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.IM.XtraEditors">
+      <HintPath>lib\DevExpress.IM.XtraEditors.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.IM.XtraGrid">
+      <HintPath>lib\DevExpress.IM.XtraGrid.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.IM.XtraTreeList">
+      <HintPath>lib\DevExpress.IM.XtraTreeList.dll</HintPath>
+    </Reference>
+    <Reference Include="Infralution.Controls">
+      <HintPath>lib\Infralution.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Infralution.Controls.VirtualTree">
+      <HintPath>lib\Infralution.Controls.VirtualTree.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Archives">
+      <HintPath>lib\Intermech.Archives.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bars">
+      <HintPath>lib\Intermech.Bars.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Cadmech.Interfaces">
+      <HintPath>lib\Intermech.Cadmech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Client.Core">
+      <HintPath>lib\Intermech.Client.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Controls">
+      <HintPath>lib\Intermech.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Docking">
+      <HintPath>lib\Intermech.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Document.Client">
+      <HintPath>lib\Intermech.Document.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Document.DBCore">
+      <HintPath>lib\Intermech.Document.DBCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Document.Model">
+      <HintPath>lib\Intermech.Document.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Expert">
+      <HintPath>lib\Intermech.Expert.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Extensions">
+      <HintPath>lib\Intermech.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Extensions.Interfaces">
+      <HintPath>lib\Intermech.Extensions.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Extensions.WinForms">
+      <HintPath>lib\Intermech.Extensions.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.AVS">
+      <HintPath>lib\Intermech.Interfaces.AVS.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Client">
+      <HintPath>lib\Intermech.Interfaces.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Document">
+      <HintPath>lib\Intermech.Interfaces.Document.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Imbase">
+      <HintPath>lib\Intermech.Interfaces.Imbase.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Pdm">
+      <HintPath>lib\Intermech.Interfaces.Pdm.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.PdmConfigurator">
+      <HintPath>lib\Intermech.Interfaces.PdmConfigurator.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Map2">
+      <HintPath>lib\Intermech.Map2.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Tools.Components">
+      <HintPath>lib\Intermech.Tools.Components.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.VirtualTreeView">
+      <HintPath>lib\Intermech.VirtualTreeView.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Intermech\AVS\AdditionalChapter.cs" />
+    <Compile Include="Intermech\AVS\AvsConfig.cs" />
+    <Compile Include="Intermech\AVS\AvsConfig_CheckEL.cs" />
+    <Compile Include="Intermech\AVS\AvsConfig_General.cs" />
+    <Compile Include="Intermech\AVS\AvsConfig_CheckSP.cs" />
+    <Compile Include="Intermech\AVS\AvsConfig_Podbor.cs" />
+    <Compile Include="Intermech\AVS\AvsConfig_PositionDesignation.cs" />
+    <Compile Include="Intermech\AVS\AVSDocument.cs" />
+    <Compile Include="Intermech\AVS\AVSDocumentContext.cs" />
+    <Compile Include="Intermech\AVS\AVSRelationAttributeValueBatch.cs" />
+    <Compile Include="Intermech\AVS\AvsRowEventMessageViewer.cs" />
+    <Compile Include="Intermech\AVS\AVSEventType.cs" />
+    <Compile Include="Intermech\AVS\AvsRowEventMessage.cs" />
+    <Compile Include="Intermech\AVS\AVSRowGroup.cs" />
+    <Compile Include="Intermech\AVS\AVSAdditionalComplectRowGroup.cs" />
+    <Compile Include="Intermech\AVS\AVRowGroupPosition.cs" />
+    <Compile Include="Intermech\AVS\AVSSpecification.cs" />
+    <Compile Include="Intermech\AVS\AVSExternalEditor.cs" />
+    <Compile Include="Intermech\AVS\EventUserControl.cs" />
+    <Compile Include="Intermech\AVS\SetupOutputView.cs" />
+    <Compile Include="Intermech\AVS\OldAVSFile.cs" />
+    <Compile Include="Intermech\AVS\SelectAvsAttributeControl.cs" />
+    <Compile Include="Intermech\AVS\SelectElementListProductForm.cs" />
+    <Compile Include="Intermech\AVS\DynamicGroupHeaderSettings.cs" />
+    <Compile Include="Intermech\AVS\DynamicHeaderCaptionSettings.cs" />
+    <Compile Include="Intermech\AVS\DynamicHeaderCaptionSettingsForm.cs" />
+    <Compile Include="Intermech\AVS\PerformActionModeEnum.cs" />
+    <Compile Include="Intermech\AVS\UpdateModeInReadOnlyEnum.cs" />
+    <Compile Include="Intermech\AVS\OutputDelimiterEnum.cs" />
+    <Compile Include="Intermech\AVS\DocumentTreeNodeTypeEnum.cs" />
+    <Compile Include="Intermech\AVS\CreateUndoEnum.cs" />
+    <Compile Include="Intermech\AVS\OutputAttributeMappingScheme.cs" />
+    <Compile Include="Intermech\AVS\GetFieldValueByCellOutputMapping.cs" />
+    <Compile Include="Intermech\AVS\DynamicGroupHeaderSettingsForm.cs" />
+    <Compile Include="Intermech\AVS\UserControlDynamicGroupHeaderSettings.cs" />
+    <Compile Include="Intermech\AVS\Vedomost_VB_Static.cs" />
+    <Compile Include="Intermech\AVS\TypeCreateNastr.cs" />
+    <Compile Include="Intermech\AVS\One_Ved_Nastr.cs" />
+    <Compile Include="Intermech\AVS\ListError_OneError.cs" />
+    <Compile Include="Intermech\AVS\OneError.cs" />
+    <Compile Include="Intermech\AVS\Compare_OneError.cs" />
+    <Compile Include="Intermech\AVS\OneErrorMessage.cs" />
+    <Compile Include="Intermech\AVS\Vedomost_VB.cs" />
+    <Compile Include="Intermech\AVS\SelectAttributeControl.cs" />
+    <Compile Include="Intermech\AVS\ViewType.cs" />
+    <Compile Include="Intermech\AVS\AVSElementList.cs" />
+    <Compile Include="Intermech\AVS\ElementListCreatorService.cs" />
+    <Compile Include="Intermech\AVS\AVSRowExtensions.cs" />
+    <Compile Include="Intermech\AVS\AVSColumnSchemeExtensions.cs" />
+    <Compile Include="Intermech\AVS\AvsMenuHelper.cs" />
+    <Compile Include="Intermech\AVS\FormAVSCommonProperties.cs" />
+    <Compile Include="Intermech\AVS\FormAVSCommonPropertiesTreeList.cs" />
+    <Compile Include="Intermech\AVS\UserControlAVSCommonProperties.cs" />
+    <Compile Include="Intermech\AVS\ArticleWithDocView.cs" />
+    <Compile Include="Intermech\AVS\AVSPartViewsProvider.cs" />
+    <Compile Include="Intermech\AVS\AVSPlugin.cs" />
+    <Compile Include="Intermech\AVS\NewSpecificationFormService.cs" />
+    <Compile Include="Intermech\AVS\AVSClientService.cs" />
+    <Compile Include="Intermech\AVS\AVSPluginExecuteCommand.cs" />
+    <Compile Include="Intermech\AVS\OpenAVSDocArgs.cs" />
+    <Compile Include="Intermech\AVS\OpenAVSDocDelegate.cs" />
+    <Compile Include="Intermech\AVS\SpecRowAttributeInfoClient.cs" />
+    <Compile Include="Intermech\AVS\SpecRowAttributeInfoClientList.cs" />
+    <Compile Include="Intermech\AVS\SpecRowAttributeInfoList.cs" />
+    <Compile Include="Intermech\AVS\AVSViewMode.cs" />
+    <Compile Include="Intermech\AVS\IsSortedItemDelegate.cs" />
+    <Compile Include="Intermech\AVS\AVSViewsService.cs" />
+    <Compile Include="Intermech\AVS\AVSTemplatesViewsProvider.cs" />
+    <Compile Include="Intermech\AVS\IAVSTemplatesViewsService.cs" />
+    <Compile Include="Intermech\AVS\AVSTemplatesViewsService.cs" />
+    <Compile Include="Intermech\AVS\ProductPropsUserControl.cs" />
+    <Compile Include="Intermech\AVS\SetupAVSPropertiesView.cs" />
+    <Compile Include="Intermech\AVS\SetupNumberingView.cs" />
+    <Compile Include="Intermech\AVS\SetupSkipLinesView.cs" />
+    <Compile Include="Intermech\AVS\SetupSortingView.cs" />
+    <Compile Include="Intermech\AVS\SetupKeyWordsView.cs" />
+    <Compile Include="Intermech\AVS\IAVSViewsService.cs" />
+    <Compile Include="Intermech\AVS\AVSWindow.cs" />
+    <Compile Include="Intermech\AVS\DragNotesWrapper.cs" />
+    <Compile Include="Intermech\AVS\AVSDescriptor.cs" />
+    <Compile Include="Intermech\AVS\AVSSelectorFilter.cs" />
+    <Compile Include="Intermech\AVS\AvsNodeSelectorFilter.cs" />
+    <Compile Include="Intermech\AVS\AttributeValueMap.cs" />
+    <Compile Include="Intermech\AVS\AttributeValuesCache.cs" />
+    <Compile Include="Intermech\AVS\MaterialInfo.cs" />
+    <Compile Include="Intermech\AVS\ProductInfo.cs" />
+    <Compile Include="Intermech\AVS\RelationAttributeValuesCache.cs" />
+    <Compile Include="Intermech\AVS\RelationListConverter.cs" />
+    <Compile Include="Intermech\AVS\RelationAttributeValuesCacheDescriptor.cs" />
+    <Compile Include="Intermech\AVS\RelationAttributeValuesCacheConverter.cs" />
+    <Compile Include="Intermech\AVS\RelationPositionInAvsRow.cs" />
+    <Compile Include="Intermech\AVS\AVS_XMLFormat.cs" />
+    <Compile Include="Intermech\AVS\Chapter.cs" />
+    <Compile Include="Intermech\AVS\DocNodesBlock.cs" />
+    <Compile Include="Intermech\AVS\ChapterRowEnumerator.cs" />
+    <Compile Include="Intermech\AVS\ClientSettingsStructure.cs" />
+    <Compile Include="Intermech\AVS\CreateMultiplyProductsForm.cs" />
+    <Compile Include="Intermech\AVS\EditProductCaptionForm.cs" />
+    <Compile Include="Intermech\AVS\ProductsListDialog.cs" />
+    <Compile Include="Intermech\AVS\SelectChapterDlg.cs" />
+    <Compile Include="Intermech\AVS\SelectProductForm.cs" />
+    <Compile Include="Intermech\AVS\SelectSectionForm.cs" />
+    <Compile Include="Intermech\AVS\TemporalySelectCharterForm.cs" />
+    <Compile Include="Intermech\AVS\SetupAdditionalChaptersDlg.cs" />
+    <Compile Include="Intermech\AVS\SetupAdditionalChaptersPanel.cs" />
+    <Compile Include="Intermech\AVS\ProductVariableDataChapter.cs" />
+    <Compile Include="Intermech\AVS\VariableDataChapterFormA.cs" />
+    <Compile Include="Intermech\AVS\VariableDataChapterFormV.cs" />
+    <Compile Include="Intermech\AVS\VedomostVBProvider.cs" />
+    <Compile Include="Intermech\AVS\ListCommonId.cs" />
+    <Compile Include="Intermech\AVS\One_ImsObjectType_With_One_Ved_Nastr.cs" />
+    <Compile Include="Intermech\AVS\ElementSpiskaListov.cs" />
+    <Compile Include="Intermech\AVS\Zagolovki.cs" />
+    <Compile Include="Intermech\AVS\GroupSelectionForm.cs" />
+    <Compile Include="Intermech\AVS\SpecificationSaveService.cs" />
+    <Compile Include="Intermech\AVS\DocFieldsColumnsScheme.cs" />
+    <Compile Include="Intermech\AVS\AvsVirtualAttributeColumnsScheme.cs" />
+    <Compile Include="Intermech\AVS\KeyWordsSchema.cs" />
+    <Compile Include="Intermech\AVS\KeyWordsList.cs" />
+    <Compile Include="Intermech\AVS\FormSetupKeyWords.cs" />
+    <Compile Include="Intermech\AVS\UserControlKeyWords.cs" />
+    <Compile Include="Intermech\AVS\DesignationTrimSchema.cs" />
+    <Compile Include="Intermech\AVS\FormSetupDesignationTrim.cs" />
+    <Compile Include="Intermech\AVS\UserControlDesignationTrim.cs" />
+    <Compile Include="Intermech\AVS\FormFindOrReplaceTextInSpecification.cs" />
+    <Compile Include="Intermech\AVS\AVSColumnScheme.cs" />
+    <Compile Include="Intermech\AVS\ColumnsCache.cs" />
+    <Compile Include="Intermech\AVS\ColumnTag.cs" />
+    <Compile Include="Intermech\AVS\IObjectWithIcon.cs" />
+    <Compile Include="Intermech\AVS\ObjectColumnsScheme.cs" />
+    <Compile Include="Intermech\AVS\RelationColumnsScheme.cs" />
+    <Compile Include="Intermech\AVS\ObjectLinks`1.cs" />
+    <Compile Include="Intermech\AVS\ObjectLinksList`1.cs" />
+    <Compile Include="Intermech\AVS\RelationWithCadGuidDescriptor.cs" />
+    <Compile Include="Intermech\AVS\RelationWithCadGuidDescriptorList.cs" />
+    <Compile Include="Intermech\AVS\MaterialFormulaDlg.cs" />
+    <Compile Include="Intermech\AVS\AvsRowClipboardObject.cs" />
+    <Compile Include="Intermech\AVS\AVSRowClipboardCollection.cs" />
+    <Compile Include="Intermech\AVS\AVSDocRowsClipboardData.cs" />
+    <Compile Include="Intermech\AVS\SelectAttributeDlg.cs" />
+    <Compile Include="Intermech\AVS\DocumentTypesWeightsEditor.cs" />
+    <Compile Include="Intermech\AVS\DocumentTypesWeightsEventArgs.cs" />
+    <Compile Include="Intermech\AVS\DocumentTypesWeightsChangedEventHandler.cs" />
+    <Compile Include="Intermech\AVS\EnabledNodesActions.cs" />
+    <Compile Include="Intermech\AVS\RowsComparer.cs" />
+    <Compile Include="Intermech\AVS\DocumentTypesWeightsEditorForm.cs" />
+    <Compile Include="Intermech\AVS\DocumentTypesWeightsEditorView.cs" />
+    <Compile Include="Intermech\AVS\DocumentTypesWeightsEditorViewProvider.cs" />
+    <Compile Include="Intermech\AVS\ClassificationHelper.cs" />
+    <Compile Include="Intermech\AVS\OldAVSFields.cs" />
+    <Compile Include="Intermech\AVS\OldAVSField.cs" />
+    <Compile Include="Intermech\AVS\ConvertAction.cs" />
+    <Compile Include="Intermech\AVS\ConvertTarget.cs" />
+    <Compile Include="Intermech\AVS\ConvertFullData.cs" />
+    <Compile Include="Intermech\AVS\ConvertField.cs" />
+    <Compile Include="Intermech\AVS\OldFormatIniFiles.cs" />
+    <Compile Include="Intermech\AVS\OldFormatIniFileDescriptor.cs" />
+    <Compile Include="Intermech\AVS\SectionDescriptorsList.cs" />
+    <Compile Include="Intermech\AVS\SectionDescriptor.cs" />
+    <Compile Include="Intermech\AVS\VersionAttributesForm.cs" />
+    <Compile Include="Intermech\AVS\VersionAttributesListFormParams.cs" />
+    <Compile Include="Intermech\AVS\VersionAttributesFormParams.cs" />
+    <Compile Include="Intermech\AVS\VersionAttributesEventArgs.cs" />
+    <Compile Include="Intermech\AVS\VersionAttributesChangedEventHandler.cs" />
+    <Compile Include="Intermech\AVS\CreateNewSpecObjectForm.cs" />
+    <Compile Include="Intermech\AVS\AttributeSource.cs" />
+    <Compile Include="Intermech\AVS\NewSpecObjectParams.cs" />
+    <Compile Include="Intermech\AVS\NewSpecificationFormAdv.cs" />
+    <Compile Include="Intermech\AVS\SpecArticleType.cs" />
+    <Compile Include="Intermech\AVS\RemarkAttributesForm.cs" />
+    <Compile Include="Intermech\AVS\AttributesListFormParams.cs" />
+    <Compile Include="Intermech\AVS\RemarkAttributesFormParams.cs" />
+    <Compile Include="Intermech\AVS\RemarkAttributesEventArgs.cs" />
+    <Compile Include="Intermech\AVS\RemarkAttributesChangedEventHandler.cs" />
+    <Compile Include="Intermech\AVS\EnabledAttributesActions.cs" />
+    <Compile Include="Intermech\AVS\RemarkAttributesView.cs" />
+    <Compile Include="Intermech\AVS\IStructualControl.cs" />
+    <Compile Include="Intermech\AVS\IStructualControlSupport.cs" />
+    <Compile Include="Intermech\AVS\InitDataEventArgs.cs" />
+    <Compile Include="Intermech\AVS\InitDataEventHandler.cs" />
+    <Compile Include="Intermech\AVS\AutoUpdateControlHelper.cs" />
+    <Compile Include="Intermech\AVS\CompareDesignationSchema.cs" />
+    <Compile Include="Intermech\AVS\CompareDesignationSubStr.cs" />
+    <Compile Include="Intermech\AVS\ExcludedRazdels.cs" />
+    <Compile Include="Intermech\AVS\ExtForm.cs" />
+    <Compile Include="Intermech\AVS\ExtUserControl.cs" />
+    <Compile Include="Intermech\AVS\NumberingForSpecifRazdelsForm.cs" />
+    <Compile Include="Intermech\AVS\RowItem.cs" />
+    <Compile Include="Intermech\AVS\NumerationHelper.cs" />
+    <Compile Include="Intermech\AVS\SameDesignationsSetupForm.cs" />
+    <Compile Include="Intermech\AVS\SetupNumberingSchemaControl.cs" />
+    <Compile Include="Intermech\AVS\SetupNumberingSchemaForm.cs" />
+    <Compile Include="Intermech\AVS\SpecifNumbering.cs" />
+    <Compile Include="Intermech\AVS\SpecifNumberingControl.cs" />
+    <Compile Include="Intermech\AVS\SpecifNumberingControlFull.cs" />
+    <Compile Include="Intermech\AVS\SpecifNumberingForRazdelControl.cs" />
+    <Compile Include="Intermech\AVS\SpecifNumberingFull.cs" />
+    <Compile Include="Intermech\AVS\SpecifRazdelNumbering.cs" />
+    <Compile Include="Intermech\AVS\TestSameDesignation.cs" />
+    <Compile Include="Intermech\AVS\ObjectPropertyGridForm.cs" />
+    <Compile Include="Intermech\AVS\ProductPropertiesUserControl.cs" />
+    <Compile Include="Intermech\AVS\RowPropsUserControl.cs" />
+    <Compile Include="Intermech\AVS\SelectAVSDocumentForm.cs" />
+    <Compile Include="Intermech\AVS\FormSetupSkipLines.cs" />
+    <Compile Include="Intermech\AVS\SkipLinesSchema.cs" />
+    <Compile Include="Intermech\AVS\NumberingPositionsEnum.cs" />
+    <Compile Include="Intermech\AVS\UserControlSetupSkipLines.cs" />
+    <Compile Include="Intermech\AVS\FormSetupSorting.cs" />
+    <Compile Include="Intermech\AVS\UserControlSortingSetup.cs" />
+    <Compile Include="Intermech\AVS\AVSCheckMode.cs" />
+    <Compile Include="Intermech\AVS\AVSCheckType.cs" />
+    <Compile Include="Intermech\AVS\SpecRowCheckMessage.cs" />
+    <Compile Include="Intermech\AVS\LoadDataParams.cs" />
+    <Compile Include="Intermech\AVS\DopZamenyGroups.cs" />
+    <Compile Include="Intermech\AVS\DopZamenyGroup.cs" />
+    <Compile Include="Intermech\AVS\NewProductParams.cs" />
+    <Compile Include="Intermech\AVS\RowDictionariesForLoadDocument.cs" />
+    <Compile Include="Intermech\AVS\AVSRow.cs" />
+    <Compile Include="Intermech\AVS\MeasuredValueComparer.cs" />
+    <Compile Include="Intermech\AVS\AttributeEditorInfo.cs" />
+    <Compile Include="Intermech\AVS\SpecificationRowID.cs" />
+    <Compile Include="Intermech\AVS\DocRowAttributePropertyDescriptor.cs" />
+    <Compile Include="Intermech\AVS\SpecRowsClipboardData.cs" />
+    <Compile Include="Intermech\AVS\EmptyRowUpdateMode.cs" />
+    <Compile Include="Intermech\AVS\LimitAndNominalValueMode.cs" />
+    <Compile Include="Intermech\AVS\AttributeForNamePosition.cs" />
+    <Compile Include="Intermech\AVS\FieldContext.cs" />
+    <Compile Include="Intermech\AVS\AvsRowData.cs" />
+    <Compile Include="Intermech\AVS\ConvertToMeasuredValueDelegate.cs" />
+    <Compile Include="Intermech\AVS\SpecificationSection.cs" />
+    <Compile Include="Intermech\AVS\SectionRowEnumerator.cs" />
+    <Compile Include="Intermech\AVS\AVSRowDataComparer.cs" />
+    <Compile Include="Intermech\AVS\RowComparer.cs" />
+    <Compile Include="Intermech\AVS\AvsRowByDocComparer.cs" />
+    <Compile Include="Intermech\AVS\AVSConfig\AVSConfigPropertyDescription.cs" />
+    <Compile Include="Intermech\AVS\AVSConfig\AVSConfigTypeDescriptor.cs" />
+    <Compile Include="Intermech\AVS\Properties\Resources.cs" />
+    <Compile Include="Intermech\AVS\Sorting\AutoPromProductsComparer.cs" />
+    <Compile Include="Intermech\AVS\Sorting\ProductsComparer.cs" />
+    <Compile Include="Intermech\AVS\NumberingPositions\CommonPositionsForm.cs" />
+    <Compile Include="Intermech\AVS\Victor\AddVariable.cs" />
+    <Compile Include="Intermech\AVS\Victor\ElDocList.cs" />
+    <Compile Include="Intermech\AVS\Victor\TypeAvs6Doc.cs" />
+    <Compile Include="Intermech\AVS\Victor\AVS6_File.cs" />
+    <Compile Include="Intermech\AVS\Victor\RecordNew.cs" />
+    <Compile Include="Intermech\AVS\Victor\RecordNewField.cs" />
+    <Compile Include="Intermech\AVS\Victor\OneField.cs" />
+    <Compile Include="Intermech\AVS\Victor\AVS6_From_Avs6Main.cs" />
+    <Compile Include="Intermech\AVS\Victor\Element_Accord_Avs6_Ips.cs" />
+    <Compile Include="Intermech\AVS\Victor\List_Element_Accord_Avs6_Ips.cs" />
+    <Compile Include="Intermech\AVS\Victor\A_NastrTabl.cs" />
+    <Compile Include="Intermech\AVS\Victor\A_NastrVed.cs" />
+    <Compile Include="Intermech\AVS\Victor\A_Nastr_Avs6Compatibility.cs" />
+    <Compile Include="Intermech\AVS\Victor\ChangeDocumentType.cs" />
+    <Compile Include="Intermech\AVS\Victor\CheckListDialog.cs" />
+    <Compile Include="Intermech\AVS\Victor\Espd_Static.cs" />
+    <Compile Include="Intermech\AVS\Victor\Conformity_Template_Nastr.cs" />
+    <Compile Include="Intermech\AVS\Victor\EditGroupForm.cs" />
+    <Compile Include="Intermech\AVS\Victor\AboutDocRow.cs" />
+    <Compile Include="Intermech\AVS\Victor\Espd_VB.cs" />
+    <Compile Include="Intermech\AVS\Victor\ListMessage.cs" />
+    <Compile Include="Intermech\AVS\Victor\Check_In_One_DocRow.cs" />
+    <Compile Include="Intermech\AVS\Victor\Processing_Ved_Static.cs" />
+    <Compile Include="Intermech\AVS\Victor\SborVedTask.cs" />
+    <Compile Include="Intermech\AVS\Victor\VariablesList.cs" />
+    <Compile Include="Intermech\AVS\Victor\Tabl_Static.cs" />
+    <Compile Include="Intermech\AVS\Victor\VyborFromStringList.cs" />
+    <Compile Include="Intermech\AVS\Victor\VyborRazdela.cs" />
+    <Compile Include="Intermech\AVS\Victor\VyborShablona.cs" />
+    <Compile Include="Intermech\AVS\Victor\VyborVedomosti_withIni.cs" />
+    <Compile Include="Intermech\AVS\Victor\VyborVedomosti.cs" />
+    <Compile Include="Intermech\AVS\Victor\VyborZagolovka.cs" />
+    <Compile Include="Intermech\AVS\Victor\VedomostEditorWindow.cs" />
+    <Compile Include="Intermech\AVS\CAD\AVSHelper.cs" />
+    <Compile Include="Intermech\AVS\CAD\CaptureSpecChangesTask.cs" />
+    <Compile Include="Intermech\AVS\CAD\ImportStructureFromCadService.cs" />
+    <Compile Include="Intermech\AVS\Tool\AVSIntegrator.cs" />
+    <Compile Include="Intermech\AVS\Tool\AVSLaunchHandler.cs" />
+    <Compile Include="Intermech\AVS\Controls\CustomTreeList.cs" />
+    <Compile Include="Intermech\AVS\Controls\CustomTreeListViewInfo.cs" />
+    <Compile Include="Intermech\AVS\Controls\CustomTreeListHandler.cs" />
+    <Compile Include="Intermech\AVS\AVSViews\AVSVisualizer.cs" />
+    <Compile Include="Intermech\AVS\AVSViews\RowPropsDockControl.cs" />
+    <Compile Include="Intermech\AVS\AVSViews\SetupObjectTypesView.cs" />
+    <Compile Include="Intermech\AVS\AVSViews\ObjectType.cs" />
+    <Compile Include="Intermech\AVS\AVSViews\DocumentWrapper.cs" />
+    <Compile Include="Intermech\AVS\AVSViews\DocumentFormatWrapper.cs" />
+    <Compile Include="Intermech\AVS\AVSViews\ChapterFormatPorpertiesWrapper.cs" />
+    <Compile Include="Intermech\AVS\AVSViews\SpecificationSectionFormatPorpertiesWrapper.cs" />
+    <Compile Include="Intermech\AVS\AVSViews\AdditionalChapterPropertiesWrapper.cs" />
+    <Compile Include="Intermech\AVS\AVSViews\ExactSpecificationVisualizer.cs" />
+    <Compile Include="Intermech\AVS\AVSProperties\AVSCommonPropertiesSchema.cs" />
+    <Compile Include="Intermech\AVS\ECAD\ECADIntegratorsDocumentService.cs" />
+    <Compile Include="Intermech\AVS\Output\AttributeMapping.cs" />
+    <Compile Include="Intermech\AVS\Output\DelimiterMapping.cs" />
+    <Compile Include="Intermech\AVS\Output\CellOutputMapping.cs" />
+    <Compile Include="Intermech\AVS\Output\OutputMappingBase.cs" />
+    <Compile Include="Intermech\AVS\Output\DelimiterNode.cs" />
+    <Compile Include="Intermech\AVS\Output\ObjTypeNode.cs" />
+    <Compile Include="Intermech\AVS\Output\SectionNode.cs" />
+    <Compile Include="Intermech\AVS\Output\CellNode.cs" />
+    <Compile Include="Intermech\AVS\Output\AttributeNode.cs" />
+    <Compile Include="Intermech\AVS\Output\FormSetupOutput.cs" />
+    <Compile Include="Intermech\AVS\Output\UserControlSetupOutput.cs" />
+    <Compile Include="Intermech\AVS\Output\EditableVirtualTreeView.cs" />
+    <Compile Include="Intermech\AVS\HelperClasses\AVSRowErrorMessage.cs" />
+    <Compile Include="Intermech\AVS\HelperClasses\AVSSelectedItemsHelper.cs" />
+    <Compile Include="Intermech\AVS\HelperClasses\AVSRowDescriptor.cs" />
+    <Compile Include="Intermech\AVS\HelperClasses\DocNodeSelectedItemInfo.cs" />
+    <Compile Include="Intermech\AVS\HelperClasses\DocumentTypeSettingsHelper.cs" />
+    <Compile Include="Intermech\AVS\HelperClasses\SkipLinesStruct.cs" />
+    <Compile Include="Intermech\AVS\HelperClasses\StatusIcons.cs" />
+    <Compile Include="Intermech\AVS\HelperClasses\ObjectSelectorUIeditor.cs" />
+    <Compile Include="Intermech\AVS\GridColumns\VirtualTreeList\AVSTreeCheckBox.cs" />
+    <Compile Include="Intermech\AVS\GridColumns\VirtualTreeList\AVSCellEditor.cs" />
+    <Compile Include="Intermech\AVS\GridColumns\VirtualTreeList\TreeSpecRowEditor.cs" />
+    <Compile Include="Intermech\AVS\GridColumns\VirtualTreeList\TreeSpecRowConverter.cs" />
+    <Compile Include="Intermech\AVS\GridColumns\VirtualTreeList\AVSUniversalEditBox.cs" />
+    <Compile Include="Intermech\AVS\GridColumns\VirtualTreeList\VirtualTreeList.cs" />
+    <Compile Include="Intermech\AVS\GridColumns\VirtualTreeList\AVSColumn.cs" />
+    <Compile Include="Intermech\AVS\GridColumns\VirtualTreeList\IVirtualTreeItem.cs" />
+    <Compile Include="Intermech\AVS\GridColumns\VirtualTreeList\TreeHeaderCellWidget.cs" />
+    <Compile Include="Intermech\AVS\GridColumns\VirtualTreeList\TreeHeaderRowWidget.cs" />
+    <Compile Include="Intermech\AVS\GridColumns\VirtualTreeList\SpecRow_RowWidget.cs" />
+    <Compile Include="Intermech\AVS\GridColumns\VirtualTreeList\SpecRowStatus_CellWidget.cs" />
+    <Compile Include="Intermech\AVS\GridColumns\VirtualTreeList\SpecRow_CellWidget.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\AddKeywordReplacementDlg.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\KeywordReplacementDictForm.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\UCKeywordReplacementDict.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\BaseProductInfoDlg.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\ParentProductListDialog.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\ImbaseCatalogsEditor.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\AddUndoSnapshotDialog.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\AVSDocumentTypesTemplateForm.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\DocumentType.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\Template.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\AVSMeasureForm.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\AVSPropertiesForm.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\CheckOutDialog.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\ChekOutType.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\RightProductDesignationDlg.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\ProductDesignationAndNumberDlg.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\ProductNumberDlg.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\SelectUndoSnapshotForm.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\SpecSectionsEditor.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\SectionEditorInfo.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\SectionItemList.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\SectionItem.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\ArticleWithDocForm\ArticleWithDocControlTabPagesControl.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\ArticleWithDocForm\ArticleControl.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\ArticleWithDocForm\ArticleWithDocControl.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\ArticleWithDocForm\ArticleWithDocForm.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\ArticleWithDocForm\AutoMasterControl.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\ArticleWithDocForm\NonDraftGroupMasterControl.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\ArticleWithDocForm\NonDraftMasterControl.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\ArticleWithDocForm\DocumentControl.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\ArticleWithDocForm\FormType.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\ArticleWithDocForm\OpenModes.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\ArticleWithDocForm\CreatedPair.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\ArticleWithDocForm\IFormCommonData.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\ArticleWithDocForm\CommonDataType.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\ArticleWithDocForm\CommonDataChangedEventArgs.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\ArticleWithDocForm\ClassificatedEventArgs.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\ArticleWithDocForm\CommonDataChangedDelegate.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\ArticleWithDocForm\GetEditorDelegate.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\ArticleWithDocForm\ClassificatedEventHandler.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\ArticleWithDocForm\GetEditorEventArgs.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\ArticleWithDocForm\MaterialInfo.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\ArticleWithDocForm\FormCommonData.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\ArticleWithDocForm\IPageControl.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\ArticleWithDocForm\FormHelper.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\ArticleWithDocForm\DBRelationsEventArgsFromForm.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\ArticleWithDocForm\ClassificatedObjects.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\ArticleWithDocForm\GroupMasterControl.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\ArticleWithDocForm\PageUserControl.cs" />
+    <Compile Include="Intermech\AVS\Common_Dialogs\ArticleWithDocForm\SingleMasterControl.cs" />
+    <Compile Include="ImSSP\sc_967.cs" />
+    <Compile Include="ImSSP\sc_931.cs" />
+    <Compile Include="ImSSP\sc_874.cs" />
+    <Compile Include="ImSSP\sc_886.cs" />
+    <Compile Include="ImSSP\sc_900.cs" />
+    <Compile Include="ImSSP\sc_903.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Intermech\AVS\ArticleWithDocView.resx" />
+    <EmbeddedResource Include="Intermech\AVS\AVSViews\RowPropsDockControl.resx" />
+    <EmbeddedResource Include="Intermech\AVS\AVSViews\SetupObjectTypesView.resx" />
+    <EmbeddedResource Include="Intermech\AVS\AVSWindow.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Common_Dialogs\AddKeywordReplacementDlg.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Common_Dialogs\AddUndoSnapshotDialog.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Common_Dialogs\ArticleWithDocForm\ArticleControl.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Common_Dialogs\ArticleWithDocForm\ArticleWithDocControl.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Common_Dialogs\ArticleWithDocForm\ArticleWithDocControlTabPagesControl.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Common_Dialogs\ArticleWithDocForm\ArticleWithDocForm.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Common_Dialogs\ArticleWithDocForm\AutoMasterControl.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Common_Dialogs\ArticleWithDocForm\DocumentControl.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Common_Dialogs\ArticleWithDocForm\GroupMasterControl.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Common_Dialogs\ArticleWithDocForm\NonDraftGroupMasterControl.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Common_Dialogs\ArticleWithDocForm\NonDraftMasterControl.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Common_Dialogs\ArticleWithDocForm\PageUserControl.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Common_Dialogs\ArticleWithDocForm\SingleMasterControl.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Common_Dialogs\AVSDocumentTypesTemplateForm.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Common_Dialogs\AVSMeasureForm.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Common_Dialogs\AVSPropertiesForm.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Common_Dialogs\CheckOutDialog.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Common_Dialogs\ImbaseCatalogsEditor.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Common_Dialogs\KeywordReplacementDictForm.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Common_Dialogs\ParentProductListDialog.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Common_Dialogs\ProductDesignationAndNumberDlg.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Common_Dialogs\ProductNumberDlg.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Common_Dialogs\RightProductDesignationDlg.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Common_Dialogs\SelectUndoSnapshotForm.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Common_Dialogs\SpecSectionsEditor.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Common_Dialogs\UCKeywordReplacementDict.resx" />
+    <EmbeddedResource Include="Intermech\AVS\CreateMultiplyProductsForm.resx" />
+    <EmbeddedResource Include="Intermech\AVS\CreateNewSpecObjectForm.resx" />
+    <EmbeddedResource Include="Intermech\AVS\DocumentTypesWeightsEditor.resx" />
+    <EmbeddedResource Include="Intermech\AVS\DocumentTypesWeightsEditorForm.resx" />
+    <EmbeddedResource Include="Intermech\AVS\DocumentTypesWeightsEditorView.resx" />
+    <EmbeddedResource Include="Intermech\AVS\DynamicGroupHeaderSettingsForm.resx" />
+    <EmbeddedResource Include="Intermech\AVS\DynamicHeaderCaptionSettingsForm.resx" />
+    <EmbeddedResource Include="Intermech\AVS\EditProductCaptionForm.resx" />
+    <EmbeddedResource Include="Intermech\AVS\EventUserControl.resx" />
+    <EmbeddedResource Include="Intermech\AVS\ExcludedRazdels.resx" />
+    <EmbeddedResource Include="Intermech\AVS\ExtForm.resx" />
+    <EmbeddedResource Include="Intermech\AVS\ExtUserControl.resx" />
+    <EmbeddedResource Include="Intermech\AVS\FormAVSCommonProperties.resx" />
+    <EmbeddedResource Include="Intermech\AVS\FormFindOrReplaceTextInSpecification.resx" />
+    <EmbeddedResource Include="Intermech\AVS\FormSetupDesignationTrim.resx" />
+    <EmbeddedResource Include="Intermech\AVS\FormSetupKeyWords.resx" />
+    <EmbeddedResource Include="Intermech\AVS\FormSetupSkipLines.resx" />
+    <EmbeddedResource Include="Intermech\AVS\FormSetupSorting.resx" />
+    <EmbeddedResource Include="Intermech\AVS\GridColumns\VirtualTreeList\AVSUniversalEditBox.resx" />
+    <EmbeddedResource Include="Intermech\AVS\GroupSelectionForm.resx" />
+    <EmbeddedResource Include="Intermech\AVS\MaterialFormulaDlg.resx" />
+    <EmbeddedResource Include="Intermech\AVS\NewSpecificationFormAdv.resx" />
+    <EmbeddedResource Include="Intermech\AVS\NumberingForSpecifRazdelsForm.resx" />
+    <EmbeddedResource Include="Intermech\AVS\NumberingPositions\CommonPositionsForm.resx" />
+    <EmbeddedResource Include="Intermech\AVS\ObjectPropertyGridForm.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Output\FormSetupOutput.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Output\UserControlSetupOutput.resx" />
+    <EmbeddedResource Include="Intermech\AVS\ProductPropertiesUserControl.resx" />
+    <EmbeddedResource Include="Intermech\AVS\ProductPropsUserControl.resx" />
+    <EmbeddedResource Include="Intermech\AVS\ProductsListDialog.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Properties\Resources.resx" />
+    <EmbeddedResource Include="Intermech\AVS\RemarkAttributesForm.resx" />
+    <EmbeddedResource Include="Intermech\AVS\RemarkAttributesView.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Resources\arrow_bottom_SpecRow_blueStandart.png" />
+    <EmbeddedResource Include="Intermech\AVS\Resources\arrow_bottom_SpecRow_blueStandart_v70.png" />
+    <EmbeddedResource Include="Intermech\AVS\Resources\arrow_up_SpecRow_blueStandart.png" />
+    <EmbeddedResource Include="Intermech\AVS\Resources\arrow_up_SpecRow_blueStandart_v70.png" />
+    <EmbeddedResource Include="Intermech\AVS\Resources\cad_link.png" />
+    <EmbeddedResource Include="Intermech\AVS\Resources\cad_link_v70.png" />
+    <EmbeddedResource Include="Intermech\AVS\Resources\ClearNumberPositions.bmp" />
+    <EmbeddedResource Include="Intermech\AVS\Resources\Edit.png" />
+    <EmbeddedResource Include="Intermech\AVS\Resources\EmptyImage.png" />
+    <EmbeddedResource Include="Intermech\AVS\Resources\HTML\AttributesList.html" />
+    <EmbeddedResource Include="Intermech\AVS\Resources\HTML\EmptyAttributesList.html" />
+    <EmbeddedResource Include="Intermech\AVS\Resources\NumberPositions.bmp" />
+    <EmbeddedResource Include="Intermech\AVS\Resources\NumberPositionsSetup.bmp" />
+    <EmbeddedResource Include="Intermech\AVS\Resources\PropertyGrid.png" />
+    <EmbeddedResource Include="Intermech\AVS\Resources\PropertyGrid_v70.png" />
+    <EmbeddedResource Include="Intermech\AVS\Resources\rsActualSubstitute.png" />
+    <EmbeddedResource Include="Intermech\AVS\Resources\rsSubstitute.png" />
+    <EmbeddedResource Include="Intermech\AVS\Resources\Section.png" />
+    <EmbeddedResource Include="Intermech\AVS\Resources\SortAscend.bmp" />
+    <EmbeddedResource Include="Intermech\AVS\Resources\Specification.png" />
+    <EmbeddedResource Include="Intermech\AVS\RowPropsUserControl.resx" />
+    <EmbeddedResource Include="Intermech\AVS\SameDesignationsSetupForm.resx" />
+    <EmbeddedResource Include="Intermech\AVS\SelectAttributeControl.resx" />
+    <EmbeddedResource Include="Intermech\AVS\SelectAttributeDlg.resx" />
+    <EmbeddedResource Include="Intermech\AVS\SelectAvsAttributeControl.resx" />
+    <EmbeddedResource Include="Intermech\AVS\SelectAVSDocumentForm.resx" />
+    <EmbeddedResource Include="Intermech\AVS\SelectChapterDlg.resx" />
+    <EmbeddedResource Include="Intermech\AVS\SelectElementListProductForm.resx" />
+    <EmbeddedResource Include="Intermech\AVS\SelectProductForm.resx" />
+    <EmbeddedResource Include="Intermech\AVS\SelectSectionForm.resx" />
+    <EmbeddedResource Include="Intermech\AVS\SetupAdditionalChaptersDlg.resx" />
+    <EmbeddedResource Include="Intermech\AVS\SetupAdditionalChaptersPanel.resx" />
+    <EmbeddedResource Include="Intermech\AVS\SetupAVSPropertiesView.resx" />
+    <EmbeddedResource Include="Intermech\AVS\SetupKeyWordsView.resx" />
+    <EmbeddedResource Include="Intermech\AVS\SetupNumberingSchemaControl.resx" />
+    <EmbeddedResource Include="Intermech\AVS\SetupNumberingSchemaForm.resx" />
+    <EmbeddedResource Include="Intermech\AVS\SetupNumberingView.resx" />
+    <EmbeddedResource Include="Intermech\AVS\SetupOutputView.resx" />
+    <EmbeddedResource Include="Intermech\AVS\SetupSkipLinesView.resx" />
+    <EmbeddedResource Include="Intermech\AVS\SetupSortingView.resx" />
+    <EmbeddedResource Include="Intermech\AVS\SpecifNumberingControl.resx" />
+    <EmbeddedResource Include="Intermech\AVS\SpecifNumberingControlFull.resx" />
+    <EmbeddedResource Include="Intermech\AVS\SpecifNumberingForRazdelControl.resx" />
+    <EmbeddedResource Include="Intermech\AVS\TemporalySelectCharterForm.resx" />
+    <EmbeddedResource Include="Intermech\AVS\TestSameDesignation.resx" />
+    <EmbeddedResource Include="Intermech\AVS\UserControlAVSCommonProperties.resx" />
+    <EmbeddedResource Include="Intermech\AVS\UserControlDesignationTrim.resx" />
+    <EmbeddedResource Include="Intermech\AVS\UserControlDynamicGroupHeaderSettings.resx" />
+    <EmbeddedResource Include="Intermech\AVS\UserControlKeyWords.resx" />
+    <EmbeddedResource Include="Intermech\AVS\UserControlSetupSkipLines.resx" />
+    <EmbeddedResource Include="Intermech\AVS\UserControlSortingSetup.resx" />
+    <EmbeddedResource Include="Intermech\AVS\VersionAttributesForm.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Victor\A_Nastr_Avs6Compatibility.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Victor\A_NastrTabl.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Victor\A_NastrVed.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Victor\AboutDocRow.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Victor\AddVariable.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Victor\ChangeDocumentType.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Victor\CheckListDialog.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Victor\Conformity_Template_Nastr.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Victor\EditGroupForm.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Victor\ListMessage.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Victor\SborVedTask.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Victor\VariablesList.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Victor\VedomostEditorWindow.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Victor\VyborFromStringList.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Victor\VyborRazdela.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Victor\VyborShablona.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Victor\VyborVedomosti.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Victor\VyborVedomosti_withIni.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Victor\VyborZagolovka.resx" />
+    <EmbeddedResource Include="Intermech\AVS\Zagolovki.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

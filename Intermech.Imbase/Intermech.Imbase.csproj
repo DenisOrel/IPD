@@ -1,0 +1,687 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.Imbase.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1643334C-6329-43E7-99AE-3AB20175AB5C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.Imbase</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.IM.XtraEditors">
+      <HintPath>lib\DevExpress.IM.XtraEditors.dll</HintPath>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml" />
+    <Reference Include="Infralution.Controls.VirtualTree">
+      <HintPath>lib\Infralution.Controls.VirtualTree.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bars">
+      <HintPath>lib\Intermech.Bars.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Client.Core">
+      <HintPath>lib\Intermech.Client.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Controls">
+      <HintPath>lib\Intermech.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Docking">
+      <HintPath>lib\Intermech.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Expert">
+      <HintPath>lib\Intermech.Expert.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Extensions.WinForms">
+      <HintPath>lib\Intermech.Extensions.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Client">
+      <HintPath>lib\Intermech.Interfaces.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Imbase">
+      <HintPath>lib\Intermech.Interfaces.Imbase.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Pdm">
+      <HintPath>lib\Intermech.Interfaces.Pdm.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfiumViewer">
+      <HintPath>lib\PdfiumViewer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="iGrid">
+      <HintPath>lib\iGrid.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Intermech\Localization\LocalizationHolder.cs" />
+    <Compile Include="Intermech\Localization\CustomDescription.cs" />
+    <Compile Include="Intermech\Localization\CustomDisplayName.cs" />
+    <Compile Include="Intermech\Localization\CustomCategory.cs" />
+    <Compile Include="Intermech\Imbase\ColorizerEvents.cs" />
+    <Compile Include="Intermech\Imbase\ConditionHelper.cs" />
+    <Compile Include="Intermech\Imbase\Condition.cs" />
+    <Compile Include="Intermech\Imbase\ConditionItem.cs" />
+    <Compile Include="Intermech\Imbase\ImbaseClientHelper.cs" />
+    <Compile Include="Intermech\Imbase\ImbaseExtendedClientService.cs" />
+    <Compile Include="Intermech\Imbase\ImbaseTableImporter.cs" />
+    <Compile Include="Intermech\Imbase\ImbaseExtendedObjectsPart.cs" />
+    <Compile Include="Intermech\Imbase\ImbaseExtendedNodeID.cs" />
+    <Compile Include="Intermech\Imbase\ObjectsFromImbaseDescriptor.cs" />
+    <Compile Include="Intermech\Imbase\ObjectsFromImbaseNode.cs" />
+    <Compile Include="Intermech\Imbase\ObjectsFromImbaseRootNode.cs" />
+    <Compile Include="Intermech\Imbase\ObjectsFromImbaseViewProvider.cs" />
+    <Compile Include="Intermech\Imbase\RenameAttributes.cs" />
+    <Compile Include="Intermech\Imbase\BaseSynchObjectsService.cs" />
+    <Compile Include="Intermech\Imbase\InverseSynchObjectsForm.cs" />
+    <Compile Include="Intermech\Imbase\SynchObjectsBaseForm.cs" />
+    <Compile Include="Intermech\Imbase\SynchObjectsResultCtrl.cs" />
+    <Compile Include="Intermech\Imbase\InverseSynchObjectsService.cs" />
+    <Compile Include="Intermech\Imbase\SynchObjectsService.cs" />
+    <Compile Include="Intermech\Imbase\SynchObjectsSettingsCtrl.cs" />
+    <Compile Include="Intermech\Imbase\ImbaseStartup.cs" />
+    <Compile Include="Intermech\Imbase\ResourceHelper.cs" />
+    <Compile Include="Intermech\Imbase\ICatalogsNode.cs" />
+    <Compile Include="Intermech\Imbase\CatalogsNodeDescriptor.cs" />
+    <Compile Include="Intermech\Imbase\CatalogsNodeID.cs" />
+    <Compile Include="Intermech\Imbase\CatalogsNode.cs" />
+    <Compile Include="Intermech\Imbase\FolderNode.cs" />
+    <Compile Include="Intermech\Imbase\DisableImbaseCategory.cs" />
+    <Compile Include="Intermech\Imbase\ImbaseDisableCatalogsComposition.cs" />
+    <Compile Include="Intermech\Imbase\ImbaseCatalogRefAttDescriber.cs" />
+    <Compile Include="Intermech\Imbase\ImbaseCatalogRefAttProxy.cs" />
+    <Compile Include="Intermech\Imbase\ImbaseCatalogRefAttEditor.cs" />
+    <Compile Include="Intermech\Imbase\ImbaseRootNodeDescriptor.cs" />
+    <Compile Include="Intermech\Imbase\ImbaseRootNode.cs" />
+    <Compile Include="Intermech\Imbase\ImbaseDescriptorsPart.cs" />
+    <Compile Include="Intermech\Imbase\ImbaseCatalogsQuery.cs" />
+    <Compile Include="Intermech\Imbase\ImbaseCatalogsPart.cs" />
+    <Compile Include="Intermech\Imbase\TableObjectsPart.cs" />
+    <Compile Include="Intermech\Imbase\TableObjectsQuery.cs" />
+    <Compile Include="Intermech\Imbase\IImbaseTableRecordID.cs" />
+    <Compile Include="Intermech\Imbase\TableReferenceNode.cs" />
+    <Compile Include="Intermech\Imbase\ImbaseTableRecordNodeID.cs" />
+    <Compile Include="Intermech\Imbase\ImbaseTableRecordID.cs" />
+    <Compile Include="Intermech\Imbase\TablesDescriptor.cs" />
+    <Compile Include="Intermech\Imbase\TablesNode.cs" />
+    <Compile Include="Intermech\Imbase\TablesNodeContext.cs" />
+    <Compile Include="Intermech\Imbase\StructureEditorPropGridDescriptor.cs" />
+    <Compile Include="Intermech\Imbase\PropertySetValue.cs" />
+    <Compile Include="Intermech\Imbase\SetValueEventArgs.cs" />
+    <Compile Include="Intermech\Imbase\StructureEditorPropertyDescriptor.cs" />
+    <Compile Include="Intermech\Imbase\BaseTypeConverter.cs" />
+    <Compile Include="Intermech\Imbase\FormulaConverter.cs" />
+    <Compile Include="Intermech\Imbase\KeepConverter.cs" />
+    <Compile Include="Intermech\Imbase\ObjectLinkConverter.cs" />
+    <Compile Include="Intermech\Imbase\OptionsConverter.cs" />
+    <Compile Include="Intermech\Imbase\RequiredConverter.cs" />
+    <Compile Include="Intermech\Imbase\StructureEditorBooleanConverter.cs" />
+    <Compile Include="Intermech\Imbase\StructureEditorDateTimeConverter.cs" />
+    <Compile Include="Intermech\Imbase\StructureEditorDoubleConverter.cs" />
+    <Compile Include="Intermech\Imbase\StructureEditorGUIDConverter.cs" />
+    <Compile Include="Intermech\Imbase\StructureEditorIntegerConverter.cs" />
+    <Compile Include="Intermech\Imbase\UnitsConverter.cs" />
+    <Compile Include="Intermech\Imbase\ValueFromListConverter.cs" />
+    <Compile Include="Intermech\Imbase\PossibleValuesFromListConverter.cs" />
+    <Compile Include="Intermech\Imbase\DependencyListConverter.cs" />
+    <Compile Include="Intermech\Imbase\ModalEditor.cs" />
+    <Compile Include="Intermech\Imbase\DropDownEditor.cs" />
+    <Compile Include="Intermech\Imbase\FormulaEditor.cs" />
+    <Compile Include="Intermech\Imbase\DependencyListEditor.cs" />
+    <Compile Include="Intermech\Imbase\KeepEditor.cs" />
+    <Compile Include="Intermech\Imbase\ObjectLinkEditor.cs" />
+    <Compile Include="Intermech\Imbase\OptionsEditor.cs" />
+    <Compile Include="Intermech\Imbase\RequiredEditor.cs" />
+    <Compile Include="Intermech\Imbase\StructureEditorBooleanEditor.cs" />
+    <Compile Include="Intermech\Imbase\StructureEditorDateTimeEditor.cs" />
+    <Compile Include="Intermech\Imbase\UnitsEditor.cs" />
+    <Compile Include="Intermech\Imbase\ValueFromListEditor.cs" />
+    <Compile Include="Intermech\Imbase\PossibleValuesFromListEditor.cs" />
+    <Compile Include="Intermech\Imbase\StatesRow.cs" />
+    <Compile Include="Intermech\Imbase\SynchObjectsDlg.cs" />
+    <Compile Include="Intermech\Imbase\TablesCacheProxy.cs" />
+    <Compile Include="Intermech\Imbase\IRegistryInImbase.cs" />
+    <Compile Include="Intermech\Imbase\RegistryInImbaseSrv.cs" />
+    <Compile Include="Intermech\Imbase\ImbaseViewsProvider.cs" />
+    <Compile Include="Intermech\Imbase\ImbaseThumbnailView.cs" />
+    <Compile Include="Intermech\Imbase\BaseObjectsInfoProvider.cs" />
+    <Compile Include="Intermech\Imbase\TableWizard\ImbaseTableCreator.cs" />
+    <Compile Include="Intermech\Imbase\TableWizard\ImbaseTableWizardForm.cs" />
+    <Compile Include="Intermech\Imbase\TableWizard\Step1.cs" />
+    <Compile Include="Intermech\Imbase\TableWizard\Step1Params.cs" />
+    <Compile Include="Intermech\Imbase\TableWizard\Step3.cs" />
+    <Compile Include="Intermech\Imbase\TableWizard\Step2.cs" />
+    <Compile Include="Intermech\Imbase\TableWizard\Step2Params.cs" />
+    <Compile Include="Intermech\Imbase\TableWizard\Step4.cs" />
+    <Compile Include="Intermech\Imbase\TableWizard\Step4Params.cs" />
+    <Compile Include="Intermech\Imbase\TableWizard\Interfaces\IImbaseTableStep.cs" />
+    <Compile Include="Intermech\Imbase\Wizards\TableMixWizard\ImbaseTableMixCreator.cs" />
+    <Compile Include="Intermech\Imbase\Views\FindByIndexView.cs" />
+    <Compile Include="Intermech\Imbase\Views\ImbaseAddIndexDialog.cs" />
+    <Compile Include="Intermech\Imbase\Views\UniqueIndexesView.cs" />
+    <Compile Include="Intermech\Imbase\Views\AttrValuesFromTables.cs" />
+    <Compile Include="Intermech\Imbase\Views\BaseObjectsInfoView.cs" />
+    <Compile Include="Intermech\Imbase\Views\ObjsFromRowDescr.cs" />
+    <Compile Include="Intermech\Imbase\Views\CatalogsView.cs" />
+    <Compile Include="Intermech\Imbase\Views\FindByImagesView.cs" />
+    <Compile Include="Intermech\Imbase\Views\ThumbnailItem.cs" />
+    <Compile Include="Intermech\Imbase\Views\ThumbnailsDictionary.cs" />
+    <Compile Include="Intermech\Imbase\Views\Elements.cs" />
+    <Compile Include="Intermech\Imbase\Views\IMBASERender.cs" />
+    <Compile Include="Intermech\Imbase\Views\GetImageHandler.cs" />
+    <Compile Include="Intermech\Imbase\Views\FindByNameView.cs" />
+    <Compile Include="Intermech\Imbase\Views\Wildcard.cs" />
+    <Compile Include="Intermech\Imbase\Views\ImbaseViewForm.cs" />
+    <Compile Include="Intermech\Imbase\Views\FindHelper.cs" />
+    <Compile Include="Intermech\Imbase\Views\IImbaseView.cs" />
+    <Compile Include="Intermech\Imbase\Views\LocateNodeEventArgs.cs" />
+    <Compile Include="Intermech\Imbase\Views\LocateNodeEventHandler.cs" />
+    <Compile Include="Intermech\Imbase\Views\FindInTablesView.cs" />
+    <Compile Include="Intermech\Imbase\Views\FolderFilterSite.cs" />
+    <Compile Include="Intermech\Imbase\Views\ImbaseRootNodeThumbnailView.cs" />
+    <Compile Include="Intermech\Imbase\Views\ImbaseTableContextView.cs" />
+    <Compile Include="Intermech\Imbase\Views\ImageView.cs" />
+    <Compile Include="Intermech\Imbase\Views\ImbaseRootView.cs" />
+    <Compile Include="Intermech\Imbase\Views\ImbaseTableEventsView.cs" />
+    <Compile Include="Intermech\Imbase\Views\ImbaseTableMixView.cs" />
+    <Compile Include="Intermech\Imbase\Views\ImbaseTablePropertiesForm.cs" />
+    <Compile Include="Intermech\Imbase\Views\ImbaseTableView.cs" />
+    <Compile Include="Intermech\Imbase\Views\ILoadDataAsync.cs" />
+    <Compile Include="Intermech\Imbase\Views\ProgressForm.cs" />
+    <Compile Include="Intermech\Imbase\Views\RegistryInImbaseLinkedObjectsDlg.cs" />
+    <Compile Include="Intermech\Imbase\Views\RegistryInImbaseView.cs" />
+    <Compile Include="Intermech\Imbase\Views\ReplaceAttributesView.cs" />
+    <Compile Include="Intermech\Imbase\Views\SecurityTableView.cs" />
+    <Compile Include="Intermech\Imbase\Views\SelectedRecords.cs" />
+    <Compile Include="Intermech\Imbase\Views\CheckedRecords.cs" />
+    <Compile Include="Intermech\Imbase\Views\RecordTypeAttributesView.cs" />
+    <Compile Include="Intermech\Imbase\Views\RecordTypePropertiesView.cs" />
+    <Compile Include="Intermech\Imbase\Views\TableLinkPropertiesView.cs" />
+    <Compile Include="Intermech\Imbase\Views\TableObjectID.cs" />
+    <Compile Include="Intermech\Imbase\Views\TableRefsObjectNode.cs" />
+    <Compile Include="Intermech\Imbase\Views\TableRefsNodeID.cs" />
+    <Compile Include="Intermech\Imbase\Views\TableRefsView.cs" />
+    <Compile Include="Intermech\Imbase\Views\TableRefsObjectPart.cs" />
+    <Compile Include="Intermech\Imbase\Views\TableRefsQuery.cs" />
+    <Compile Include="Intermech\Imbase\Views\TablesView.cs" />
+    <Compile Include="Intermech\Imbase\Views\UserRowSelector.cs" />
+    <Compile Include="Intermech\Imbase\Views\ITableRowSelector.cs" />
+    <Compile Include="Intermech\Imbase\FormDesigner\ImbaseTypeFormLinkProvider.cs" />
+    <Compile Include="Intermech\Imbase\FormDesigner\ImbaseTypeFormLink.cs" />
+    <Compile Include="Intermech\Imbase\Templates\SymbolSelectChBox_Ctrl.cs" />
+    <Compile Include="Intermech\Imbase\Templates\SymbolSelectRB_Ctrl.cs" />
+    <Compile Include="Intermech\Imbase\Templates\SymbolSelectChB_Ctrl.cs" />
+    <Compile Include="Intermech\Imbase\Templates\SymbolSetEditor.cs" />
+    <Compile Include="Intermech\Imbase\Templates\TemplatesObjectsDescriber.cs" />
+    <Compile Include="Intermech\Imbase\Templates\TemplatesTableRefDescriber.cs" />
+    <Compile Include="Intermech\Imbase\Templates\TemplatesObjectsEditor.cs" />
+    <Compile Include="Intermech\Imbase\Templates\TemplatesTableRefsEditor.cs" />
+    <Compile Include="Intermech\Imbase\Templates\TemplatesBody.cs" />
+    <Compile Include="Intermech\Imbase\Templates\UseTemplate.cs" />
+    <Compile Include="Intermech\Imbase\Selection\ImbaseFilterDescriptor.cs" />
+    <Compile Include="Intermech\Imbase\Selection\ImbaseFilterNode.cs" />
+    <Compile Include="Intermech\Imbase\Selection\ImbaseFilterNodeQuery.cs" />
+    <Compile Include="Intermech\Imbase\Selection\ImbaseFilterPart.cs" />
+    <Compile Include="Intermech\Imbase\Selection\ImbaseFilterSelectionBaseWindow.cs" />
+    <Compile Include="Intermech\Imbase\Selection\ImbaseFilterSelectionWindow.cs" />
+    <Compile Include="Intermech\Imbase\Selection\ImbaseFilterSelector.cs" />
+    <Compile Include="Intermech\Imbase\Selection\ImbaseFolderFilterSetupCtrl.cs" />
+    <Compile Include="Intermech\Imbase\Selection\ImbaseFilterSetupForm.cs" />
+    <Compile Include="Intermech\Imbase\Selection\ImbaseObjectCaptionItem.cs" />
+    <Compile Include="Intermech\Imbase\Selection\ImbaseObjectFilterSetupCtrl.cs" />
+    <Compile Include="Intermech\Imbase\Selection\ImbaseObjectInfoItem.cs" />
+    <Compile Include="Intermech\Imbase\Selection\ImbaseObjFilterTune.cs" />
+    <Compile Include="Intermech\Imbase\Selection\ImbaseSelectionParam.cs" />
+    <Compile Include="Intermech\Imbase\Selection\ImbaseUsageHelper.cs" />
+    <Compile Include="Intermech\Imbase\Selection\ImbaseSelector.cs" />
+    <Compile Include="Intermech\Imbase\Selection\SelectedRecordAnalizer.cs" />
+    <Compile Include="Intermech\Imbase\Selection\SelectedImbaseMaterialAnalizer.cs" />
+    <Compile Include="Intermech\Imbase\Selection\DynamicSelectionHelper.cs" />
+    <Compile Include="Intermech\Imbase\Selection\ForCADMechDescriptor.cs" />
+    <Compile Include="Intermech\Imbase\Selection\TableFolders.cs" />
+    <Compile Include="Intermech\Imbase\QuickSearch\ImbaseQuickSearchHelper.cs" />
+    <Compile Include="Intermech\Imbase\QuickSearch\ImbaseQuickSearchItem.cs" />
+    <Compile Include="Intermech\Imbase\QuickSearch\ImbaseQuickSearchProvider.cs" />
+    <Compile Include="Intermech\Imbase\Properties\Resources.cs" />
+    <Compile Include="Intermech\Imbase\Printing\DataGridViewPrinting.cs" />
+    <Compile Include="Intermech\Imbase\PDF\ToolbarPdfViewer.cs" />
+    <Compile Include="Intermech\Imbase\PDF\BordersToolStripRenderer.cs" />
+    <Compile Include="Intermech\Imbase\PDF\FullPDFView.cs" />
+    <Compile Include="Intermech\Imbase\PDF\PDFCache.cs" />
+    <Compile Include="Intermech\Imbase\PDF\PDFPagePreview.cs" />
+    <Compile Include="Intermech\Imbase\Nodes\ImbaseCatalogFavoritesDescriptor.cs" />
+    <Compile Include="Intermech\Imbase\Nodes\ImbaseCatalogFavoritesNode.cs" />
+    <Compile Include="Intermech\Imbase\Nodes\SelectedFavoritesAnalizer.cs" />
+    <Compile Include="Intermech\Imbase\Params\CustomBrowseFolderDialogEditor.cs" />
+    <Compile Include="Intermech\Imbase\Params\AttributeListEditor.cs" />
+    <Compile Include="Intermech\Imbase\Params\ItemProxy.cs" />
+    <Compile Include="Intermech\Imbase\Params\AttributeListTypeConverter.cs" />
+    <Compile Include="Intermech\Imbase\Params\AttributeTypeTypeConverter.cs" />
+    <Compile Include="Intermech\Imbase\Params\AttributeTypeUITypeEditor.cs" />
+    <Compile Include="Intermech\Imbase\Params\ObjectTypeTypeConverter.cs" />
+    <Compile Include="Intermech\Imbase\Params\ObjectTypeUITypeEditor.cs" />
+    <Compile Include="Intermech\Imbase\Params\CustomIconConverter.cs" />
+    <Compile Include="Intermech\Imbase\Params\CustomMeasureEditor.cs" />
+    <Compile Include="Intermech\Imbase\Params\CustomPropertyDescriptor.cs" />
+    <Compile Include="Intermech\Imbase\Params\CustomTypeConverter.cs" />
+    <Compile Include="Intermech\Imbase\Params\CustomYesNoTypeConverter.cs" />
+    <Compile Include="Intermech\Imbase\Params\ImbaseParamsContainer.cs" />
+    <Compile Include="Intermech\Imbase\Params\ImbaseParamsDescriptor.cs" />
+    <Compile Include="Intermech\Imbase\Params\ImbaseParamsEditor.cs" />
+    <Compile Include="Intermech\Imbase\Params\ImbaseParamsHelper.cs" />
+    <Compile Include="Intermech\Imbase\Params\PasswordConverter.cs" />
+    <Compile Include="Intermech\Imbase\Indexes\NotUniqueRecordsCtrl.cs" />
+    <Compile Include="Intermech\Imbase\Indexes\RecordInfo.cs" />
+    <Compile Include="Intermech\Imbase\Indexes\ImbaseIndexesView.cs" />
+    <Compile Include="Intermech\Imbase\Indexes\IndexesHelper.cs" />
+    <Compile Include="Intermech\Imbase\Indexes\IndexesStatus.cs" />
+    <Compile Include="Intermech\Imbase\ImbaseObjectsCreators\ImbaseFolderCreator.cs" />
+    <Compile Include="Intermech\Imbase\ImbaseObjectsCreators\ImbaseCatalogCreator.cs" />
+    <Compile Include="Intermech\Imbase\FileImport\ImportManyDialog.cs" />
+    <Compile Include="Intermech\Imbase\Favorites\ImbaseFavoritesCommands.cs" />
+    <Compile Include="Intermech\Imbase\ExceptionForms\AppicabilityExceptionTempCommandProvider.cs" />
+    <Compile Include="Intermech\Imbase\ExceptionForms\ApplicabilityExceptionForm.cs" />
+    <Compile Include="Intermech\Imbase\Editors\ArrayEditor.cs" />
+    <Compile Include="Intermech\Imbase\Editors\DataGridViewCalendarEditingControl.cs" />
+    <Compile Include="Intermech\Imbase\Editors\DataGridViewCalendarCell.cs" />
+    <Compile Include="Intermech\Imbase\Editors\DataGridViewCalendarColumn.cs" />
+    <Compile Include="Intermech\Imbase\Editors\CopyRecords.cs" />
+    <Compile Include="Intermech\Imbase\Editors\AttributeInfo.cs" />
+    <Compile Include="Intermech\Imbase\Editors\AttributeInfoPair.cs" />
+    <Compile Include="Intermech\Imbase\Editors\CreateCopyTableDialog.cs" />
+    <Compile Include="Intermech\Imbase\Editors\DependencyEditor.cs" />
+    <Compile Include="Intermech\Imbase\Editors\CheckValueItem.cs" />
+    <Compile Include="Intermech\Imbase\Editors\Evaluator.cs" />
+    <Compile Include="Intermech\Imbase\Editors\EditorMixHelper.cs" />
+    <Compile Include="Intermech\Imbase\Editors\FindRecByID.cs" />
+    <Compile Include="Intermech\Imbase\Editors\SelectAttributeForm.cs" />
+    <Compile Include="Intermech\Imbase\Editors\TableEditorMix.cs" />
+    <Compile Include="Intermech\Imbase\Editors\DataTableTransactionException.cs" />
+    <Compile Include="Intermech\Imbase\Editors\TransactionEventArgs.cs" />
+    <Compile Include="Intermech\Imbase\Editors\DataTableTransactionLog.cs" />
+    <Compile Include="Intermech\Imbase\Editors\DataTableTransactionRecord.cs" />
+    <Compile Include="Intermech\Imbase\Editors\EditorHelper.cs" />
+    <Compile Include="Intermech\Imbase\Editors\FilterBuilder.cs" />
+    <Compile Include="Intermech\Imbase\Editors\FindDialog.cs" />
+    <Compile Include="Intermech\Imbase\Editors\FindService.cs" />
+    <Compile Include="Intermech\Imbase\Editors\IFindTarget.cs" />
+    <Compile Include="Intermech\Imbase\Editors\FindReplaceData.cs" />
+    <Compile Include="Intermech\Imbase\Editors\FindReplaceOptions.cs" />
+    <Compile Include="Intermech\Imbase\Editors\ImbaseTableViewEditorForm.cs" />
+    <Compile Include="Intermech\Imbase\Editors\CreateAttributeForm.cs" />
+    <Compile Include="Intermech\Imbase\Editors\ImportOldTableConflictEditor.cs" />
+    <Compile Include="Intermech\Imbase\Editors\ImportTableConflictEditor.cs" />
+    <Compile Include="Intermech\Imbase\Editors\PossibleValuesConverter.cs" />
+    <Compile Include="Intermech\Imbase\Editors\TableAttribute.cs" />
+    <Compile Include="Intermech\Imbase\Editors\PossibleValue.cs" />
+    <Compile Include="Intermech\Imbase\Editors\PossibleValuesCollection.cs" />
+    <Compile Include="Intermech\Imbase\Editors\LabelWithButtonEditingControl.cs" />
+    <Compile Include="Intermech\Imbase\Editors\LabelWithButtonCell.cs" />
+    <Compile Include="Intermech\Imbase\Editors\LabelWithButtonColumn.cs" />
+    <Compile Include="Intermech\Imbase\Editors\MissingAttrsForTableEditorForm.cs" />
+    <Compile Include="Intermech\Imbase\Editors\ObjectAndAttLinkAttDescriber.cs" />
+    <Compile Include="Intermech\Imbase\Editors\MessageForm.cs" />
+    <Compile Include="Intermech\Imbase\Editors\ReplaceAttributeDialog.cs" />
+    <Compile Include="Intermech\Imbase\Editors\SpecifyVariablesForm.cs" />
+    <Compile Include="Intermech\Imbase\Editors\NewAttrsDictionary.cs" />
+    <Compile Include="Intermech\Imbase\Editors\StructureEditor.cs" />
+    <Compile Include="Intermech\Imbase\Editors\StructureEditorCtrl.cs" />
+    <Compile Include="Intermech\Imbase\Editors\ForbiddenAttrs.cs" />
+    <Compile Include="Intermech\Imbase\Editors\ImbaseAttrsTypesConverter.cs" />
+    <Compile Include="Intermech\Imbase\Editors\TransparentTextBox.cs" />
+    <Compile Include="Intermech\Imbase\Editors\UpdateCreatedObjects.cs" />
+    <Compile Include="Intermech\Imbase\Editors\TableEditor.cs" />
+    <Compile Include="Intermech\Imbase\Editors\MasterColDef.cs" />
+    <Compile Include="Intermech\Imbase\Editors\ImbaseTableChangedHandler.cs" />
+    <Compile Include="Intermech\Imbase\Editors\ImbaseTableChangedEventArgs.cs" />
+    <Compile Include="Intermech\Imbase\Editors\CheckOutMode.cs" />
+    <Compile Include="Intermech\Imbase\Editors\DeletedRecord.cs" />
+    <Compile Include="Intermech\Imbase\Editors\TextWithButtonEditingControl.cs" />
+    <Compile Include="Intermech\Imbase\Editors\TextWithButtonColumn.cs" />
+    <Compile Include="Intermech\Imbase\Editors\TextWithButtonCell.cs" />
+    <Compile Include="Intermech\Imbase\Controls\AssingTableAttRights.cs" />
+    <Compile Include="Intermech\Imbase\Controls\ClearImbaseObjectsDlg.cs" />
+    <Compile Include="Intermech\Imbase\Controls\NullCollectionException.cs" />
+    <Compile Include="Intermech\Imbase\Controls\ColumnViewInfo.cs" />
+    <Compile Include="Intermech\Imbase\Controls\FindByRecordCodeForm.cs" />
+    <Compile Include="Intermech\Imbase\Controls\CreateObjectForm.cs" />
+    <Compile Include="Intermech\Imbase\Controls\DoubleBufferedDataGridView.cs" />
+    <Compile Include="Intermech\Imbase\Controls\DataGridComparer.cs" />
+    <Compile Include="Intermech\Imbase\Controls\DoubleBufferedPanel.cs" />
+    <Compile Include="Intermech\Imbase\Controls\FolderFilterTune.cs" />
+    <Compile Include="Intermech\Imbase\Controls\OwnerGuidSelect.cs" />
+    <Compile Include="Intermech\Imbase\Controls\OwnerGuidTune.cs" />
+    <Compile Include="Intermech\Imbase\Controls\ItemData.cs" />
+    <Compile Include="Intermech\Imbase\Controls\ImagePanel.cs" />
+    <Compile Include="Intermech\Imbase\Controls\RestructuringTablesDlg.cs" />
+    <Compile Include="Intermech\Imbase\Controls\RestructuringPropGridDescriptor.cs" />
+    <Compile Include="Intermech\Imbase\Controls\DropDownEditor.cs" />
+    <Compile Include="Intermech\Imbase\Controls\BooleanEditor.cs" />
+    <Compile Include="Intermech\Imbase\Controls\FromListConverter.cs" />
+    <Compile Include="Intermech\Imbase\Controls\FromListEditor.cs" />
+    <Compile Include="Intermech\Imbase\Controls\UnitsEditor1.cs" />
+    <Compile Include="Intermech\Imbase\Controls\TreeBuilder.cs" />
+    <Compile Include="Intermech\Imbase\Controls\SelectEventHandler.cs" />
+    <Compile Include="Intermech\Imbase\Controls\NodeFilterEventHandler.cs" />
+    <Compile Include="Intermech\Imbase\Controls\TreeViewSelectEventArgs.cs" />
+    <Compile Include="Intermech\Imbase\Controls\NodeInfoEventArgs.cs" />
+    <Compile Include="Intermech\Imbase\Controls\NodeInfo.cs" />
+    <Compile Include="Intermech\Imbase\Controls\ImFollowSelectMode.cs" />
+    <Compile Include="Intermech\Imbase\Controls\CreateObjectEventHandler.cs" />
+    <Compile Include="Intermech\Imbase\Controls\CheckEventHandler.cs" />
+    <Compile Include="Intermech\Imbase\Controls\TableView.cs" />
+    <Compile Include="Intermech\Imbase\Controls\NameValuePair.cs" />
+    <Compile Include="Intermech\Imbase\Controls\IComboBoxFiller.cs" />
+    <Compile Include="Intermech\Imbase\Controls\ComboBoxFiller.cs" />
+    <Compile Include="Intermech\Imbase\Controls\ITableViewColorizer.cs" />
+    <Compile Include="Intermech\Imbase\Controls\TableColorizer.cs" />
+    <Compile Include="Intermech\Imbase\Comparers\DoubleComparer.cs" />
+    <Compile Include="Intermech\Imbase\Comparers\IntegerComparer.cs" />
+    <Compile Include="Intermech\Imbase\Comparers\NodeComparer.cs" />
+    <Compile Include="Intermech\Imbase\Comparers\NodeSorter.cs" />
+    <Compile Include="Intermech\Imbase\Common\ImbaseUtils.cs" />
+    <Compile Include="Intermech\Imbase\Commands\CapitalizeFoldersDialog.cs" />
+    <Compile Include="Intermech\Imbase\Commands\ImbaseCommandsProvider.cs" />
+    <Compile Include="Intermech\Imbase\Commands\ImbaseContextCommandProvider.cs" />
+    <Compile Include="Intermech\Imbase\Commands\RegistryInImbaseAnalyzer.cs" />
+    <Compile Include="Intermech\Imbase\Commands\ImbaseSelectFromTreeAnalyzer.cs" />
+    <Compile Include="Intermech\Imbase\Commands\ImbaseCopyPasteProvider.cs" />
+    <Compile Include="Intermech\Imbase\Commands\ImbaseClipboard.cs" />
+    <Compile Include="Intermech\Imbase\Commands\ImbaseCommands.cs" />
+    <Compile Include="Intermech\Imbase\Clipboard\IImbaseTableData.cs" />
+    <Compile Include="Intermech\Imbase\Clipboard\TableData.cs" />
+    <Compile Include="Intermech\Imbase\CategoryProp\Attr4ObjInfo.cs" />
+    <Compile Include="Intermech\Imbase\CategoryProp\ImbaseExtendedCatalogEditor.cs" />
+    <Compile Include="Intermech\Imbase\CategoryProp\ImObj4AttrCatProps.cs" />
+    <Compile Include="Intermech\Imbase\Cache\CatalogTypes.cs" />
+    <Compile Include="Intermech\Imbase\BackgroundTask\BaseBackgroundTask.cs" />
+    <Compile Include="Intermech\Imbase\BackgroundTask\ImbaseIndexesBackgroundTask.cs" />
+    <Compile Include="Intermech\Imbase\BackgroundTask\ImbaseRestructuringTablesBackgroundTask.cs" />
+    <Compile Include="Intermech\Imbase\BackgroundTask\ImbaseSyncBackgroundTask.cs" />
+    <Compile Include="Intermech\Imbase\BackgroundTask\ImbaseTableMixPumpBackGroundTask.cs" />
+    <Compile Include="Intermech\Imbase\BackgroundTask\ReplaceAttributeBackgroundTask.cs" />
+    <Compile Include="Intermech\Imbase\BackgroundTask\TableIndexerBackGroundTask.cs" />
+    <Compile Include="Intermech\Imbase\BackgroundTask\UpdateObjectsFromImbaseBackgroundTask.cs" />
+    <Compile Include="Intermech\Imbase\BackgroundTask\KeyConverterTask.cs" />
+    <Compile Include="Intermech\Imbase\AttributesDescribers\CreatedObjectAttrConverter.cs" />
+    <Compile Include="Intermech\Imbase\AttributesDescribers\TableRecordRefFlagConverter.cs" />
+    <Compile Include="Intermech\Imbase\AttributesDescribers\ComparisonAttributesDescriber.cs" />
+    <Compile Include="Intermech\Imbase\AttributesDescribers\CreatedObjectAttrDescriber.cs" />
+    <Compile Include="Intermech\Imbase\AttributesDescribers\EnterPointDescriber.cs" />
+    <Compile Include="Intermech\Imbase\AttributesDescribers\EnterPoint.cs" />
+    <Compile Include="Intermech\Imbase\AttributesDescribers\SpecificationSectionDescriber.cs" />
+    <Compile Include="Intermech\Imbase\AttributesDescribers\SPSectionInfo.cs" />
+    <Compile Include="Intermech\Imbase\AttributesDescribers\BlankCodeAttrDescriber.cs" />
+    <Compile Include="Intermech\Imbase\AttributesDescribers\BlankCodeAttrProxy.cs" />
+    <Compile Include="Intermech\Imbase\AttributesDescribers\ImbaseLinkAttributesDescriber.cs" />
+    <Compile Include="Intermech\Imbase\AttributesDescribers\AttributesComparisonForm.cs" />
+    <Compile Include="Intermech\Imbase\AttributesDescribers\AttributesComparisonEditor.cs" />
+    <Compile Include="Intermech\Imbase\AttributesDescribers\EnterPointEditor.cs" />
+    <Compile Include="Intermech\Imbase\AttributesDescribers\SpecificationSectionEditor.cs" />
+    <Compile Include="Intermech\Imbase\AttributesDescribers\TableRecordRefFlagEditor.cs" />
+    <Compile Include="Intermech\Imbase\AttributesDescribers\BlankCodeAttrEditor.cs" />
+    <Compile Include="Intermech\Imbase\AttributesDescribers\TableRecordRefEditor.cs" />
+    <Compile Include="Intermech\Imbase\AttributesDescribers\TableRecordRefPropertyClass.cs" />
+    <Compile Include="Intermech\Imbase\AttributesDescribers\TableRecordRefAttributesDescriber.cs" />
+    <Compile Include="Intermech\Imbase\AttributesDescribers\Editors\ImbaseLinkAttributesEditor.cs" />
+    <Compile Include="Intermech\Imbase\API\ContextInfo.cs" />
+    <Compile Include="Intermech\Imbase\API\Logger.cs" />
+    <Compile Include="Intermech\Imbase\API\ImbaseCatalog.cs" />
+    <Compile Include="Intermech\Imbase\API\ImbaseFolders.cs" />
+    <Compile Include="Intermech\Imbase\API\ImbaseFolder.cs" />
+    <Compile Include="Intermech\Imbase\API\ImbaseTable.cs" />
+    <Compile Include="Intermech\Imbase\API\ImbaseRawTable.cs" />
+    <Compile Include="Intermech\Imbase\API\ComImbaseAPI.cs" />
+    <Compile Include="Intermech\Imbase\API\ImMaterial.cs" />
+    <Compile Include="Intermech\Imbase\API\EWorkViewerMode.cs" />
+    <Compile Include="Intermech\Imbase\API\SelectFolder.cs" />
+    <Compile Include="Intermech\Imbase\API\DataPacketProducer.cs" />
+    <Compile Include="Intermech\Imbase\API\FieldInfo.cs" />
+    <Compile Include="Intermech\Imbase\API\FieldKind.cs" />
+    <Compile Include="Intermech\Imbase\API\FieldType.cs" />
+    <Compile Include="Intermech\Imbase\API\IImbaseAPIRem.cs" />
+    <Compile Include="Intermech\Imbase\API\ImbaseAPIRemImplementation.cs" />
+    <Compile Include="Intermech\Imbase\API\CadmechHelper.cs" />
+    <Compile Include="Intermech\Imbase\API\Options.cs" />
+    <Compile Include="Intermech\Imbase\API\MaterialMode.cs" />
+    <Compile Include="Intermech\Imbase\API\ErrorMessage.cs" />
+    <Compile Include="Intermech\Imbase\API\RecordItem.cs" />
+    <Compile Include="Intermech\Imbase\API\Base.cs" />
+    <Compile Include="Intermech\Imbase\API\SelectFolder2.cs" />
+    <Compile Include="Intermech\Imbase\API\SelectTable.cs" />
+    <Compile Include="Intermech\Imbase\API\TableViewForm.cs" />
+    <Compile Include="Intermech\ImbaseExcelUnloader\Client\ExcelWriter.cs" />
+    <Compile Include="Intermech\ImbaseExcelUnloader\Client\ExtendedBackgroundTaskBase.cs" />
+    <Compile Include="Intermech\ImbaseExcelUnloader\Client\ServiceHolder.cs" />
+    <Compile Include="Intermech\ImbaseExcelUnloader\Client\Consts.cs" />
+    <Compile Include="Intermech\ImbaseExcelUnloader\Client\UnloadFlags.cs" />
+    <Compile Include="Intermech\ImbaseExcelUnloader\Client\IExtendedBackgroundTask.cs" />
+    <Compile Include="Intermech\ImbaseExcelUnloader\Client\ImbaseUnloadBackGroundTask.cs" />
+    <Compile Include="Intermech\ImbaseExcelUnloader\Client\OptionsForm.cs" />
+    <Compile Include="Intermech\ImbaseExcelUnloader\Client\SelectorFilter.cs" />
+    <Compile Include="Intermech\ImbaseExcelUnloader\Client\UnloadToExcelHelper.cs" />
+    <Compile Include="ImSSP\sc_7648.cs" />
+    <Compile Include="ImSSP\sc_7671.cs" />
+    <Compile Include="ImSSP\sc_7609.cs" />
+    <Compile Include="ImSSP\sc_7755.cs" />
+    <Compile Include="ImSSP\sc_7779.cs" />
+    <Compile Include="ImSSP\sc_7783.cs" />
+    <Compile Include="ImSSP\sc_7889.cs" />
+    <Compile Include="ImSSP\sc_7892.cs" />
+    <Compile Include="ImSSP\sc_7896.cs" />
+    <Compile Include="ImSSP\sc_7906.cs" />
+    <Compile Include="ImSSP\sc_7937.cs" />
+    <Compile Include="ImSSP\sc_7788.cs" />
+    <Compile Include="ImSSP\sc_7826.cs" />
+    <Compile Include="ImSSP\sc_7833.cs" />
+    <Compile Include="ImSSP\sc_7911.cs" />
+    <Compile Include="ImSSP\sc_7950.cs" />
+    <Compile Include="ImSSP\sc_7952.cs" />
+    <Compile Include="ImSSP\sc_7955.cs" />
+    <Compile Include="ImSSP\sc_7959.cs" />
+    <Compile Include="ImSSP\sc_7988.cs" />
+    <Compile Include="ImSSP\sc_8001.cs" />
+    <Compile Include="ImSSP\sc_8003.cs" />
+    <Compile Include="GridViewExtensions\IFilterTarget.cs" />
+    <Compile Include="GridViewExtensions\BindingListView`1.cs" />
+    <Compile Include="GridViewExtensions\DataFilter.cs" />
+    <Compile Include="GridViewExtensions\FilterPosition.cs" />
+    <Compile Include="GridViewExtensions\DataGridFilterExtender.cs" />
+    <Compile Include="GridViewExtensions\FilterableDataGrid.cs" />
+    <Compile Include="GridViewExtensions\GenericComparer.cs" />
+    <Compile Include="GridViewExtensions\GridFilterCollection.cs" />
+    <Compile Include="GridViewExtensions\GridFilterEventHandler.cs" />
+    <Compile Include="GridViewExtensions\GridFilterEventArgs.cs" />
+    <Compile Include="GridViewExtensions\LogicalOperators.cs" />
+    <Compile Include="GridViewExtensions\FilterErrorModes.cs" />
+    <Compile Include="GridViewExtensions\RefreshMode.cs" />
+    <Compile Include="GridViewExtensions\GridFiltersControl.cs" />
+    <Compile Include="GridViewExtensions\IGridFilter.cs" />
+    <Compile Include="GridViewExtensions\IGridFilterFactory.cs" />
+    <Compile Include="GridViewExtensions\ListBindingConverter`2.cs" />
+    <Compile Include="GridViewExtensions\GridFilterFactories\FullTextSearchGridFilterFactory.cs" />
+    <Compile Include="GridViewExtensions\GridFilterFactories\FullTextSearchGridFilterFactoryTextBox.cs" />
+    <Compile Include="GridViewExtensions\GridFilterFactories\DefaultGridFilterFactory.cs" />
+    <Compile Include="GridViewExtensions\GridFilterFactories\DistinctValuesGridFilterFactory.cs" />
+    <Compile Include="GridViewExtensions\GridFilterFactories\GridFilterFactoryBase.cs" />
+    <Compile Include="GridViewExtensions\GridFilterFactories\LayoutedGridFilterFactoryControl.cs" />
+    <Compile Include="GridViewExtensions\GridFilterFactories\LayoutedPanel.cs" />
+    <Compile Include="GridViewExtensions\GridFilterFactories\NullGridFilterFactory.cs" />
+    <Compile Include="GridViewExtensions\GridFilters\TextGridFilterControl.cs" />
+    <Compile Include="GridViewExtensions\GridFilters\BoolGridFilter.cs" />
+    <Compile Include="GridViewExtensions\GridFilters\DateGridFilter.cs" />
+    <Compile Include="GridViewExtensions\GridFilters\DateGridFilterControl.cs" />
+    <Compile Include="GridViewExtensions\GridFilters\DistinctValuesGridFilter.cs" />
+    <Compile Include="GridViewExtensions\GridFilters\SpecialValueType.cs" />
+    <Compile Include="GridViewExtensions\GridFilters\SpecialValue.cs" />
+    <Compile Include="GridViewExtensions\GridFilters\EmptyGridFilter.cs" />
+    <Compile Include="GridViewExtensions\GridFilters\EnumerationGridFilter.cs" />
+    <Compile Include="GridViewExtensions\GridFilters\GridFilterBase.cs" />
+    <Compile Include="GridViewExtensions\GridFilters\NullGridFilter.cs" />
+    <Compile Include="GridViewExtensions\GridFilters\NumericGridFilter.cs" />
+    <Compile Include="GridViewExtensions\GridFilters\NumericGridFilterControl.cs" />
+    <Compile Include="GridViewExtensions\GridFilters\TextGridFilter.cs" />
+    <Compile Include="GridViewExtensions\GridFilters\TextGridFilterCombo.cs" />
+    <Compile Include="GridViewExtensions\GridFilters\EnumerationSources\ObjectStringMapEnumerationSource.cs" />
+    <Compile Include="GridViewExtensions\GridFilters\EnumerationSources\IEnumerationSource.cs" />
+    <Compile Include="GridViewExtensions\GridFilters\EnumerationSources\IntStringMapEnumerationSource.cs" />
+    <Compile Include="GridViewExtensions\GridFilters\EnumerationSources\TypeEnumerationSource.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="GridViewExtensions\GridFilterFactories\FullTextSearchGridFilterFactoryTextBox.resx" />
+    <EmbeddedResource Include="GridViewExtensions\GridFilterFactories\LayoutedGridFilterFactoryControl.resx" />
+    <EmbeddedResource Include="GridViewExtensions\GridFilterFactories\LayoutedPanel.resx" />
+    <EmbeddedResource Include="GridViewExtensions\GridFilters\DateGridFilterControl.resx" />
+    <EmbeddedResource Include="GridViewExtensions\GridFilters\NumericGridFilterControl.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\API\SelectFolder.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\API\SelectFolder2.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\API\SelectTable.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\API\TableViewForm.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\AttributesDescribers\AttributesComparisonForm.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Commands\CapitalizeFoldersDialog.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Controls\AssingTableAttRights.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Controls\ClearImbaseObjectsDlg.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Controls\CreateObjectForm.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Controls\FindByRecordCodeForm.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Controls\FolderFilterTune.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Controls\GridViewExtensions\GridFilters\TextGridFilterControl.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Controls\OwnerGuidSelect.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Controls\OwnerGuidTune.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Controls\RestructuringTablesDlg.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Controls\TableView.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Controls\TreeBuilder.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Editors\ArrayEditor.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Editors\CopyRecords.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Editors\CreateAttributeForm.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Editors\CreateCopyTableDialog.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Editors\DependencyEditor.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Editors\FilterBuilder.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Editors\FindDialog.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Editors\FindRecByID.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Editors\ImbaseTableViewEditorForm.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Editors\ImportOldTableConflictEditor.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Editors\ImportTableConflictEditor.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Editors\LabelWithButtonEditingControl.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Editors\MessageForm.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Editors\MissingAttrsForTableEditorForm.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Editors\ReplaceAttributeDialog.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Editors\SelectAttributeForm.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Editors\SpecifyVariablesForm.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Editors\StructureEditor.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Editors\StructureEditorCtrl.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Editors\TableEditor.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Editors\TableEditorMix.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Editors\TextWithButtonEditingControl.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Editors\UpdateCreatedObjects.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\ExceptionForms\ApplicabilityExceptionForm.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Indexes\ImbaseIndexesView.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Indexes\NotUniqueRecordsCtrl.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\InverseSynchObjectsForm.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\PDF\FullPDFView.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\PDF\ToolbarPdfViewer.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Properties\Resources.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\RenameAttributes.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Resources\addFavorites.ico" />
+    <EmbeddedResource Include="Intermech\Imbase\Resources\Catalogs.ico" />
+    <EmbeddedResource Include="Intermech\Imbase\Resources\ComplexImbaseObjects.ico" />
+    <EmbeddedResource Include="Intermech\Imbase\Resources\CustomAttributesResources.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Resources\delFavorites.ico" />
+    <EmbeddedResource Include="Intermech\Imbase\Resources\DisabledUserFilter.ico" />
+    <EmbeddedResource Include="Intermech\Imbase\Resources\EnabledUserFilter.ico" />
+    <EmbeddedResource Include="Intermech\Imbase\Resources\Favorites.ico" />
+    <EmbeddedResource Include="Intermech\Imbase\Resources\FindByImage.ico" />
+    <EmbeddedResource Include="Intermech\Imbase\Resources\FindByName.ico" />
+    <EmbeddedResource Include="Intermech\Imbase\Resources\FindInTables.ico" />
+    <EmbeddedResource Include="Intermech\Imbase\Resources\Folder.ico" />
+    <EmbeddedResource Include="Intermech\Imbase\Resources\GrayEmpty.bmp" />
+    <EmbeddedResource Include="Intermech\Imbase\Resources\ImbaseCatalogRecords.ico" />
+    <EmbeddedResource Include="Intermech\Imbase\Resources\ImbaseFolders.ico" />
+    <EmbeddedResource Include="Intermech\Imbase\Resources\ImbaseResources.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Resources\ImbaseRoot.ico" />
+    <EmbeddedResource Include="Intermech\Imbase\Resources\ImbaseTableRefs.ico" />
+    <EmbeddedResource Include="Intermech\Imbase\Resources\Indexes.bmp" />
+    <EmbeddedResource Include="Intermech\Imbase\Resources\IndexesAll.bmp" />
+    <EmbeddedResource Include="Intermech\Imbase\Resources\show.ico" />
+    <EmbeddedResource Include="Intermech\Imbase\Selection\ImbaseFilterSelectionBaseWindow.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Selection\ImbaseFilterSelectionWindow.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Selection\ImbaseFilterSetupForm.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Selection\ImbaseFolderFilterSetupCtrl.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Selection\ImbaseObjectFilterSetupCtrl.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Selection\ImbaseObjFilterTune.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Selection\TableFolders.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\SynchObjectsBaseForm.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\SynchObjectsDlg.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\SynchObjectsResultCtrl.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\SynchObjectsSettingsCtrl.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\TableWizard\ImbaseTableWizardForm.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\TableWizard\Step1.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\TableWizard\Step2.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\TableWizard\Step3.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\TableWizard\Step4.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Templates\SymbolSelectChB_Ctrl.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Templates\SymbolSelectChBox_Ctrl.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Templates\SymbolSelectRB_Ctrl.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Templates\SymbolSetEditor.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Views\AttrValuesFromTables.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Views\BaseObjectsInfoView.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Views\CatalogsView.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Views\FindByImagesView.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Views\FindByIndexView.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Views\FindByNameView.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Views\FindInTablesView.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Views\FolderFilterSite.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Views\ImageView.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Views\ImbaseAddIndexDialog.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Views\ImbaseRootView.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Views\ImbaseTableContextView.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Views\ImbaseTableEventsView.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Views\ImbaseTableMixView.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Views\ImbaseTablePropertiesForm.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Views\ImbaseTableView.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Views\ImbaseViewForm.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Views\ProgressForm.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Views\RecordTypeAttributesView.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Views\RecordTypePropertiesView.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Views\RegistryInImbaseLinkedObjectsDlg.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Views\RegistryInImbaseView.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Views\ReplaceAttributesView.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Views\TablesView.resx" />
+    <EmbeddedResource Include="Intermech\Imbase\Views\UniqueIndexesView.resx" />
+    <EmbeddedResource Include="Intermech\ImbaseExcelUnloader\Client\OptionsForm.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;_btnApply.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_btnApply.Name" xml:space="preserve">
+    <value>_btnApply</value>
+  </data>
+  <data name="&gt;&gt;_btnCancel.Name" xml:space="preserve">
+    <value>_btnCancel</value>
+  </data>
+  <data name="&gt;&gt;_btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_img.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABoGgAAAk1TRnQBSQFMAgEBCAEAAcQBAAHEAQABEAEAARABAAT/ASEBEAj/AUIBTQE2BwABNgMAASgDAAFAAwABMAMAAQEBAAEgBgABMP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8AtgABqQFGAQgB/wGvAUwBCgH/AagBRQEIAf8BoQFDAQYB/wGhAUIBCAH/AaIBPwEJAf8cAAHCAWQBGAH/AcIBZAEYAf8BwgFkARgB/wHCAWQBGAH/AcIBZAEYAf8BwgFkARgB/wHCAWQBGAH/AcIBZAEYAf8BwgFkARgB/wHCAWQBGAH/AcIBZAEYAf8BwgFkARgB/5wAAcIBZAEYAf8B6AGeAUgB/wHcAYEBHAH/AdsBgQEWAf8B1QGBARAB/wGnAUkBAgH/HAAB7AGhAU4C/wHkAcYC/wHkAcYC/wHkAcYC/wHkAcYC/wHkAcYC/wHkAcYC/wHkAcYC/wHkAcYC/wHkAcYC/wHkAcYB/wHCAWQBGAH/HAABqQFDAQUB/wGvAUkBBwH/AagBQgEFAf8BoQFAAQMB/wGhAT8BBQH/AaIBPAEGAf8wAAHDAYEBNQH/AcoBgQEyAf8wAAHFAWUBGgH/AegBqQFkAf8B2QGBASMB/wHZAYEBIAH/AdUBgQEcAf8BpgFLAQUB/xwAAewBoQFOAf8B7AGhAU4B/wHsAaEBTgH/AewBoQFOAf8B7AGhAU4B/wHsAaEBTgH/AewBoQFOAf8B7AGhAU4B/wHsAaEBTgH/AewBoQFOAf8B7AGhAU4B/wHsAaEBTgH/HAABwgFhARUB/wHoAZ4BRQH/AdwBgQEZAf8B2wGBARMB/wHVAYEBDQH/AacBRgEAAf8sAAHeAYUBLAL/AdABmwH/AdMBpwGBAf8BxQFqARwB/ywAAcgBawEfAf8B7AGyAYEB/wHdAYgBLQH/Ad0BhgErAf8B2QGDASYB/wGpAVEBCwH/aAABxQFiARcB/wHoAakBYQH/AdkBgQEgAf8B2QGBAR0B/wHVAYEBGQH/AaYBSAECAf8oAAHTAYEBIAH/Af4ByQGRAf8B9wG6AYEB/wH3AbcBgQH/AckBmAFeAf8BwwFjARYB/ygAAcsBgQEkAf8B8AG6AYEB/wHhAY8BOAH/Ad8BjQE2Af8B3AGKATIB/wGtAVQBDQH/MAABwwGBATgB/wHKAYEBNQH/MAAByAFoARwB/wHsAbIBgQH/Ad0BiAEqAf8B3QGGASgB/wHZAYMBIwH/AakBTgEIAf8kAAHMAYEBHQH/AfoBwgGJAf8B9AG1AYEB/wHwAa8BZgH/AfABqwFhAf8B7gGpAVwB/wHFAYwBSgH/Ab8BYAEXAf8kAAHMAYEBJgH/AfMBwQGPAf8B5AGWAUQB/wHkAZUBQQH/AeABkQE+Af8BrAFXAREB/ywAAd4BhQEvAv8B0AGbAf8B0wGnAYEB/wHFAYEBHwH/LAABywGBASEB/wHwAboBgQH/AeEBjwE1Af8B3wGNATMB/wHcAYoBLwH/Aa0BUQEKAf8gAAHIAYEBJwH/Af0BxQGKAf8B+AHEAY0B/wHwAbUBgQH/AesBpgFaAf8B6gGjAVQB/wHpAZ8BTwH/AesBoAFMAf8BwgGEAToB/wG7AWIBIgH/FAABwQGBATUB/wHNAYEBGQH/Ac4BgQEgAf8B2wGKATwB/wHuAbABagH/AegBnwFSAf8B5gGcAUwB/wHgAZYBRgH/AasBXwEfAf8BtQFYAQ4B/wG8AVoBDAH/AbkBaAEsAf8cAAHTAYEBIwH/Af4ByQGRAf8B9wG6AYEB/wH3AbcBgQH/AckBmAFhAf8BwwFmARkB/ygAAcwBgQEjAf8B8wHBAY8B/wHkAZYBQQH/AeQBlQE+Af8B4AGRATsB/wGsAVQBDgH/HAABwQGBASoB/wHJAWkBGQH/AcoBgQEqAf8B3QGWAVAB/wHyAcEBjQH/AegBnQFNAf8B5gGaAUgB/wHdAZMBQgH/AboBZQEeAf8BtAFUAQsB/wG0AVABBwH/AboBaAEtAf8UAAHKAYEBKwH/Af4B2gG0Af8B+AHHAZQB/wHvAasBYwH/AesBpwFeAf8B6QGiAVcB/wHnAZ4BUQH/AeUBnQFOAf8B7AGhAU4B/wHCAWkBIwH/HAABzAGBASAB/wH6AcIBiQH/AfQBtQGBAf8B8AGvAWkB/wHwAasBZAH/Ae4BqQFfAf8BxQGMAU0B/wG/AWMBGgH/GAABwQGBATIB/wHNAWoBFgH/Ac4BgQEdAf8B2wGKATkB/wHuAbABZwH/AegBnwFPAf8B5gGcAUkB/wHgAZYBQwH/AasBXAEcAf8BtQFVAQsB/wG8AVcBCQH/AbkBZQEpAf8cAAHOAYEBKQH/AfEBuwGEAf8B5AGWAUEB/wHkAZQBPwH/AdwBjwE4Af8BqgFPAQsB/yQAAcwBgQEeAf8B/QHaAbYB/wH1AboBgQH/Ae8BrgFoAf8B7QGpAWIB/wHsAakBXwH/Ae8BqQFeAf8BxgFoARwB/xwAAcgBgQEqAf8B/QHFAYoB/wH4AcQBjQH/AfABtQGBAf8B6wGmAV0B/wHqAaMBVwH/AekBnwFSAf8B6wGgAU8B/wHCAYQBPQH/AbsBZQElAf8YAAHKAYEBKAH/Af4B2gG0Af8B+AHHAZQB/wHvAasBYAH/AesBpwFbAf8B6QGiAVQB/wHnAZ4BTgH/AeUBnQFLAf8B7AGhAUsB/wHCAWYBIAH/IAABzAGBASgB/wHvAbcBgQH/AeABjgE2Af8B4AGOATMB/wHZAYgBLgH/AaoBTgEKAf8oAAHRAYEBIAL/AeEBvwH/AfUBugGBAf8B9AGzAYEB/wH1AbcBgQH/Ac4BgQEdAf8cAAHBAYEBLQH/AckBgQEcAf8BygGBAS0B/wHdAZYBUwH/AfIBwQGNAf8B6AGdAVAB/wHmAZoBSwH/Ad0BkwFFAf8BugFoASEB/wG0AVcBDgH/AbQBUwEKAf8BugFrATAB/xgAAcwBgQEbAf8B/QHaAbYB/wH1AboBgQH/Ae8BrgFlAf8B7QGpAV8B/wHsAakBXAH/Ae8BqQFbAf8BxgFlARkB/yQAAckBawEkAf8B7AGvAWoB/wHdAYYBKgH/AdsBhQEoAf8B1gGCASMB/wGpAUoBBAH/LAAB3AGEASwC/wHkAcYC/wHPAZwB/wHZAYEBJgH/LAABzgGBASwB/wHxAbsBhAH/AeQBlgFEAf8B5AGUAUIB/wHcAY8BOwH/AaoBUgEOAf8oAAHRAYEBHQL/AeEBvwH/AfUBugGBAf8B9AGzAYEB/wH1AbcBgQH/Ac4BgQEaAf8oAAHEAWYBHgH/AecBpwFaAf8B2QGBARsB/wHYAYEBGwH/AdMBgQEWAf8BpwFHAQEB/zAAAekBmAFIAf8B6wGdAU4B/zAAAcwBgQErAf8B7wG3AYEB/wHgAY4BOQH/AeABjgE2Af8B2QGIATEB/wGqAVEBDQH/LAAB3AGEASkC/wHkAcYC/wHPAZwB/wHZAYEBIwH/LAABxAFlARoB/wHwAbwBgQH/AeQBmgFFAf8B4AGLAS0B/wHVAYEBEQH/AacBRAEAAf9oAAHJAYEBJwH/AewBrwGBAf8B3QGGAS0B/wHbAYUBKwH/AdYBggEmAf8BqQFNAQcB/zAAAekBmAFFAf8B6wGdAUsB/zAAAaoBQAEAAf8BrwFGAQQB/wGsAUEBAAH/AakBQwEEAf8BrAFFAQMB/wGjAToBAQH/HAABwgFkARgB/wHCAWQBGAH/AcIBZAEYAf8BwgFkARgB/wHCAWQBGAH/AcIBZAEYAf8BwgFkARgB/wHCAWQBGAH/AcIBZAEYAf8BwgFkARgB/wHCAWQBGAH/AcIBZAEYAf8cAAHEAWkBIQH/AecBpwFdAf8B2QGBAR4B/wHYAYEBHgH/AdMBgQEZAf8BpwFKAQQB/5wAAewBoQFOAv8B5AHGAv8B5AHGAv8B5AHGAv8B5AHGAv8B5AHGAv8B5AHGAv8B5AHGAv8B5AHGAv8B5AHGAv8B5AHGAf8BwgFkARgB/xwAAcQBaAEdAf8B8AG8AYEB/wHkAZoBSAH/AeABiwEwAf8B1QGBARQB/wGnAUcBAAH/nAAB7AGhAU4B/wHsAaEBTgH/AewBoQFOAf8B7AGhAU4B/wHsAaEBTgH/AewBoQFOAf8B7AGhAU4B/wHsAaEBTgH/AewBoQFOAf8B7AGhAU4B/wHsAaEBTgH/AewBoQFOAf8cAAGqAUMBAwH/Aa8BSQEHAf8BrAFEAQMB/wGpAUYBBwH/AawBSAEGAf8BowE9AQQB//8A/wA2AAFcAlkByTgAAcEBZwEnAf84AAFcAlkByRgAAe4BrwFmAf8BwgFhARUB/wHCAWEBFQH/Ae4BrwFmAf8BwgFhARUB/wHCAWEBFQH/GAABwQFnAScB/zgAAV0CTgHwAWECXQHiMAABwgFpAR8B/wHKAWgBGwH/OAABXQJOAfABYQJdAeIUAAHsAaEBSwL/AeQBxgH/AcIBYQEVAf8B7AGhAUsC/wHkAcYB/wHCAWEBFQH/FAABwgFpAR8B/wHKAWgBGwH/OAABZAJTAfEByQGLAUEB/wFkAlkB7CgAAcUBgQEhAf8B8AGlAU0B/wG2AVwBFgH/OAABZAJTAfEByQGLAUEB/wFkAlkB7BAAAewBoQFLAv8B5AHGAf8BwgFhARUB/wHsAaEBSwL/AeQBxgH/AcIBYQEVAf8QAAHFAYEBIQH/AfABpQFNAf8BtgFcARYB/yAAAWECVAHuAasBTQEAAf8BrAFPAQUB/wGsAVIBCQH/AawBVQENAf8BrAFVAQ8B/wG2AWIBHAH/AewBoAFMAf8BzgGUAU8B/wFfAkwB8yAAAc4BgQEpAf8B7wGqAVwB/wHmAZwBSQH/AasBXAEYAf8BrwFWARAB/wGtAVYBDQH/AawBUgEJAf8BqwFOAQUB/wGrAU4BAQH/AacBSAEHAf8IAAFhAlQB7gGrAU0BAAH/AawBTwEFAf8BrAFSAQkB/wGsAVUBDQH/AawBVQEPAf8BtgFiARwB/wHsAaABTAH/Ac4BlAFPAf8BXwJMAfMMAAHsAaEBSwL/AeQBxgH/AcIBYQEVAf8B7AGhAUsC/wHkAcYB/wHCAWEBFQH/DAABzgGBASkB/wHvAaoBXAH/AeYBnAFJAf8BqwFcARgB/wGvAVYBEAH/Aa0BVgENAf8BrAFSAQkB/wGrAU4BBQH/AasBTgEBAf8BpwFIAQcB/wgAAVkCQgH1AdgBgQENAf8B2AGBARYB/wHcAYQBIwH/AeABjAEuAf8B4wGTAToB/wHlAZgBRAH/AekBoAFOAf8B8QGqAVwB/wHVAaABYQH/AVwCPgH4GAAB1gGFATYB/wH0AbYBgQH/AesBpgFaAf8B6AGfAU0B/wHmAZoBRAH/AeMBkwE6Af8B4AGMAS4B/wHcAYQBIwH/AdgBgQEXAf8B2QGBAQsB/wGrAUwBBwH/CAABWQJCAfUB2AGBAQ0B/wHYAYEBFgH/AdwBhAEjAf8B4AGMAS4B/wHjAZMBOgH/AeUBmAFEAf8B6QGgAU4B/wHxAaoBXAH/AdUBoAFhAf8BXAI+AfgIAAHsAaEBSwL/AeQBxgH/AcIBYQEVAf8B7AGhAUsC/wHkAcYB/wHCAWEBFQH/CAAB1gGFATYB/wH0AbYBgQH/AesBpgFaAf8B6AGfAU0B/wHmAZoBRAH/AeMBkwE6Af8B4AGMAS4B/wHcAYQBIwH/AdgBgQEXAf8B2QGBAQsB/wGrAUwBBwH/CAABYgFFAT8B9gHbAYUBJgH/AdcBgQEaAf8B2gGEAScB/wHeAY0BMgH/AeMBkwE+Af8B5QGaAUgB/wHqAaEBUwH/Ae8BqwFeAf8B9gG2AYEB/wHgAa4BgQH/AWYCKwH8EAAB3gGYAVAB/wH8AcYBjwH/AfEBsAFqAf8B7gGpAV8B/wHpAaIBUwH/AeUBmgFIAf8B4wGTAT8B/wHeAY0BNAH/AdoBhAEnAf8B2AGBARwB/wHZAYEBEgH/Aa0BTQEIAf8IAAFiAUUBPwH2AdsBhQEmAf8B1wGBARoB/wHaAYQBJwH/Ad4BjQEyAf8B4wGTAT4B/wHlAZoBSAH/AeoBoQFTAf8B7wGrAV4B/wH2AbYBgQH/AeABrgGBAf8BZgIrAfwEAAHsAaEBSwL/AeQBxgH/AcIBYQEVAf8B7AGhAUsC/wHkAcYB/wHCAWEBFQH/BAAB3gGYAVAB/wH8AcYBjwH/AfEBsAFqAf8B7gGpAV8B/wHpAaIBUwH/AeUBmgFIAf8B4wGTAT8B/wHeAY0BNAH/AdoBhAEnAf8B2AGBARwB/wHZAYEBEgH/Aa0BTQEIAf8IAAFcAj4B+AHhAZMBPQH/AdkBgQEbAf8B3QGHASoB/wHgAY4BNwH/AeQBlwFAAf8B5wGeAUwB/wHrAaYBWAH/Ae8BrgFmAf8B9gG4AYEC/wHNAZYB/wGoAkAB/RAAAeEBnwFaAv8B3gG6Af8B9AG2AYEB/wHvAa4BZgH/AesBpgFbAf8B5wGfAU4B/wHkAZcBQgH/AeABjgE3Af8B3QGIASwB/wHZAYEBIAH/AdkBgQEYAf8BsgFPAQgB/wgAAVwCPgH4AeEBkwE9Af8B2QGBARsB/wHdAYcBKgH/AeABjgE3Af8B5AGXAUAB/wHnAZ4BTAH/AesBpgFYAf8B7wGuAWYB/wH2AbgBgQL/Ac0BlgH/AagCQAH9BAAB7AGhAUsC/wHkAcYB/wHCAWEBFQH/AewBoQFLAv8B5AHGAf8BwgFhARUB/wQAAeEBnwFaAv8B3gG6Af8B9AG2AYEB/wHvAa4BZgH/AesBpgFbAf8B5wGfAU4B/wHkAZcBQgH/AeABjgE3Af8B3QGIASwB/wHZAYEBIAH/AdkBgQEYAf8BsgFPAQgB/wgAAVwCPgH4AesBtAGBAf8B5gGhAVMB/wHpAakBYwH/AesBsQGBAf8B7gG2AYEB/wHwAbwBhgH/AfABtAGBAf8B8gGzAYEB/wH7AcYBjwH/AWoBMQEtAfoYAAHbAZEBRwL/Ad0BvQH/AfMBtAGBAf8B7gGrAWAB/wHtAawBYgH/Ae4BuQGBAf8B6wGxAYEB/wHpAagBYAH/AeUBoAFTAf8B5AGWATwB/wG1AVUBCwH/CAABXAI+AfgB6wG0AYEB/wHmAaEBUwH/AekBqQFjAf8B6wGxAYEB/wHuAbYBgQH/AfABvAGGAf8B8AG0AYEB/wHyAbMBgQH/AfsBxgGPAf8BagExAS0B+ggAAewBoQFLAv8B5AHGAf8BwgFhARUB/wHsAaEBSwL/AeQBxgH/AcIBYQEVAf8IAAHbAZEBRwL/Ad0BvQH/AfMBtAGBAf8B7gGrAWAB/wHtAawBYgH/Ae4BuQGBAf8B6wGxAYEB/wHpAagBYAH/AeUBoAFTAf8B5AGWATwB/wG1AVUBCwH/CAABXQJOAfABxgFrASAB/wHGAYEBIwH/AckBgQEoAf8BywGBAS0B/wHMAYEBLgH/AecBqAFlAf8B9gHDAY4B/wH8AcMBigH/AWUBTAFKAfQgAAHWAYkBPQL/Ad8BvQH/AfQBuwGBAf8B0gGFATgB/wHMAYEBMgH/AcsBgQEuAf8ByQGBASkB/wHHAYEBIwH/AcUBawEgAf8BtQFTAQ4B/wgAAV0CTgHwAcYBawEgAf8BxgGBASMB/wHJAYEBKAH/AcsBgQEtAf8BzAGBAS4B/wHnAagBZQH/AfYBwwGOAf8B/AHDAYoB/wFlAUwBSgH0DAAB7AGhAUsC/wHkAcYB/wHCAWEBFQH/AewBoQFLAv8B5AHGAf8BwgFhARUB/wwAAdYBiQE9Av8B3wG9Af8B9AG7AYEB/wHSAYUBOAH/AcwBgQEyAf8BywGBAS4B/wHJAYEBKQH/AccBgQEjAf8BxQFrASAB/wG1AVMBDgH/IAABZwFTAVEB8gH/AcsBlQH/AWECVAHuKAABzgGBATIC/wHmAccB/wHJAYEBIwH/OAABZwFTAVEB8gH/AcsBlQH/AWECVAHuEAAB7AGhAUsC/wHkAcYB/wHCAWEBFQH/AewBoQFLAv8B5AHGAf8BwgFhARUB/xAAAc4BgQEyAv8B5gHHAf8ByQGBASMB/zgAAV0CTgHwAWECWgHkMAABywGBAS8B/wHXAYMBMAH/OAABXQJOAfABYQJaAeQUAAHsAaEBSwL/AeQBxgH/AcIBYQEVAf8B7AGhAUsC/wHkAcYB/wHCAWEBFQH/FAABywGBAS8B/wHXAYMBMAH/OAABWwJYAcs4AAHJAYEBJQH/OAABWwJYAcsYAAHsAaEBSwH/AewBoQFLAf8B7gGvAWYB/wHsAaEBSwH/AewBoQFLAf8B7gGvAWYB/xgAAckBgQElAf//AP8AGgABQgFNAT4HAAE+AwABKAMAAUADAAEwAwABAQEAAQEFAAGAAQEWAAP/gQAE/wH4AR8BwAEDBP8B+AEfAcABAwH4AR8B/gF/AfgBHwHAAQMB+AEfAfwBPwH4AR8C/wH4AR8B+AEfAfgBHwH+AX8B+AEfAfABDwH4AR8B/AE/AfgBHwHgAQcBwAEDAfgBHwH4AR8BwAEDAeABBwHwAQ8BwAEDAfgBHwHwAQ8B4AEHAeABBwH4AR8B+AEfAcABAwHwAQ8B+AEfAfwBPwH4AR8B+AEfAfgBHwH+AX8B+AEfAfwBPwH4AR8C/wH4AR8B/gF/AfgBHwHAAQMB+AEfBP8BwAEDAfgBHwT/AcABAwH4AR8R/wF/Af4B/wH9AfgBHwG/Af8BPwH8Af8B/AH4AR8BPwH/AR8B+AH/AfwBeAEeAT8BwAEPAfABAwEAATgBHAEAAcABBwHgAQMBAAIYAQABwAEDAcABAwEAAQgBEAEAAcABAwHAAQMBAAEIARABAAHAAQcB4AEDAQACGAEAAcABDwHwAQMBAAE4ARwBAAH/AR8B+AH/AfwBeAEeAT8B/wE/AfwB/wH8AfgBHwE/Af8BfwH+Af8B/QH4AR8BvxD/FgAL</value>
+  </data>
+  <data name="&gt;&gt;_dgv.Parent" xml:space="preserve">
+    <value>_splitContainer.Panel2</value>
+  </data>
+  <data name="pnlBottom.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAGAEAAAs=</value>
+  </data>
+  <data name="&gt;&gt;_colImg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewImageColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_colImg.Name" xml:space="preserve">
+    <value>_colImg</value>
+  </data>
+  <data name="_btnAddAll.ToolTipText" xml:space="preserve">
+    <value>Показывать все колонки</value>
+  </data>
+  <data name="&gt;&gt;_dgv.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;_colSortOrder.Name" xml:space="preserve">
+    <value>_colSortOrder</value>
+  </data>
+  <data name="&gt;&gt;_colSortOrder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewComboBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Сортировка колонок по умолчанию</value>
+  </data>
+  <data name="&gt;&gt;_splitContainer.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="_btnAdd.CommandName" xml:space="preserve">
+    <value>btAdd</value>
+  </data>
+  <data name="&gt;&gt;toolBarRight.Name" xml:space="preserve">
+    <value>toolBarRight</value>
+  </data>
+  <data name="&gt;&gt;toolBarRight.Type" xml:space="preserve">
+    <value>Intermech.Bars.ToolBar, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;_splitContainer.Panel1.Parent" xml:space="preserve">
+    <value>_splitContainer</value>
+  </data>
+  <data name="_btnBottom.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAAQIAAAKJUE5HDQoaCgAAAA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAAEZ0FNQQAAsY8L/GEFAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAGMSURBVDhPY8AG2NxW/efyWf+fzX3Nfy7Plf85vdf8Z3dY/B8qTRgoZB/5X7fnw3/vWU/+G3c/+C9effU/s9dy4g1QyTnyP2H58/+KdTf/K9be+C9Tdfk/uy8JBmgVnvxfsP7Nf4O2u//1Wm//12y69p8rYCXxBuiVnflftf39f5u+B/8tgdik4+Z/gZBVxBugX3Huf8vuj//dpz357zrlyX+7/jv/BUMJGGBQcvC/fP7J/wblp/6HTbv7v/fgp//Bc1/895v17L/H5Lv/VbJ3/ReM2vKfN2zLf+O8XdgN0y078b/r6N//vUd+/K/c+uF/wrLX/6MWv/ofOv/l/6AFr/87tBz6r5GxG79LlIvO/O889Ot/+dYv/3PWf/ifvvrD/6SV7/4H9Bz9L5u2n7hwUKu4/H/iyX//a3d9/1+2/fv/lBkn/8tkHiY+EEHAqPXe/9kX/v+vXH75v1LBUdI0w4B17eH/FvWnyNNMMghc+OY/KRiqDQFAgsee/CcKS6cfwjQAJEgKhuhiYAAAXIUyGj7EW0IAAAAASUVORK5CYIIL</value>
+  </data>
+  <data name="toolBarRight.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAWAQAAAAAAAAs=</value>
+  </data>
+  <data name="dataGridViewCellStyle1.NullValue" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA9gIAAAJCTfYCAAAAAAAANgAAACgAAAAOAAAAEAAAAAEAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAISChMbDxsbDxsbDxsbDxsbDxsbDxsbDxsbDxsbDxsbDxsbDxsbDxgAAAAAAhIKE////////////////////////////////////////////xsPGAAAAAACEgoT////////////////////////////////////////////Gw8YAAAAAAISChP///////////////////////////////////////////8bDxgAAAAAAhIKE////////////////////////////////////////////xsPGAAAAAACEgoT///////////8AAP8AAP////////8AAP8AAP/////////Gw8YAAAAAAISChP///////////////wAA/wAA/wAA/wAA/////////////8bDxgAAAAAAhIKE////////////////////AAD/AAD/////////////////xsPGAAAAAACEgoT///////////////8AAP8AAP8AAP8AAP/////////////Gw8YAAAAAAISChP///////////wAA/wAA/////////wAA/wAA/////////8bDxgAAAAAAhIKE////////////////////////////////////////////xsPGAAAAAACEgoT////////////////////////////////////////////Gw8YAAAAAAISChP///////////////////////////////////////////8bDxgAAAAAAhIKE////////////////////////////////////////////xsPGAAAAAACEgoSEgoSEgoSEgoSEgoSEgoSEgoSEgoSEgoSEgoSEgoSEgoSEgoSEgoQAAAs=</value>
+  </data>
+  <data name="&gt;&gt;_splitContainer.Name" xml:space="preserve">
+    <value>_splitContainer</value>
+  </data>
+  <data name="&gt;&gt;_splitContainer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pnlBottom.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAEgCAAAfAAAACw==</value>
+  </data>
+  <data name="pnlBottom.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAACAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;_splitContainer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.ClientSize" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAEgCAAA3AQAACw==</value>
+  </data>
+  <data name="&gt;&gt;_btnApply.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="_btnTop.ToolTipText" xml:space="preserve">
+    <value>Переместить колонку в начало списка</value>
+  </data>
+  <data name="_btnTop.CommandName" xml:space="preserve">
+    <value>btMoveTop</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn1.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn1</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_btnCancel.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAEsAAAAXAAAACw==</value>
+  </data>
+  <data name="_btnCancel.Text" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="&gt;&gt;_splitContainer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="_btnAdd.ToolTipText" xml:space="preserve">
+    <value>Показывать указанные колонки</value>
+  </data>
+  <data name="_btnDelete.ToolTipText" xml:space="preserve">
+    <value>Спрятать указанные колонки</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="_btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;_btnApply.Parent" xml:space="preserve">
+    <value>pnlBottom</value>
+  </data>
+  <data name="_btnAddAll.CommandName" xml:space="preserve">
+    <value>btAddAll</value>
+  </data>
+  <data name="_btnDown.CommandName" xml:space="preserve">
+    <value>btMoveDown</value>
+  </data>
+  <data name="&gt;&gt;_btnDelete.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;_btnDelete.Name" xml:space="preserve">
+    <value>_btnDelete</value>
+  </data>
+  <data name="&gt;&gt;_lvColCaption.Name" xml:space="preserve">
+    <value>_lvColCaption</value>
+  </data>
+  <data name="&gt;&gt;_lvColCaption.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_splitContainer.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="_splitContainer.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAEgCAAAYAQAACw==</value>
+  </data>
+  <data name="_colImg.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="_splitContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="toolBarLeft.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="_btnTop.Image" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAA9AEAAAKJUE5HDQoaCgAAAA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAAEZ0FNQQAAsY8L/GEFAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAF/SURBVDhPY4CBwIVv/pOCodoQACR47Ml/orB0+iFMA0CCpGCoNhoD7xkv/wfOfU2ebfotd8D+nXP+/3/N+pukGaJccfH//of//9fu+vq/aPOX/5Xbv/5XKD5HnCGKJWf+b7v1938dUHP2uvf/U1e+/Z+08s3/xJXv/8tnH8NviF7lqf9bbv37P+X4j/9pq9//T1z++n/Uopf/Q+Y9B4bFU3D8q+XgiAGLmoP/ZQrO/lcGOtW+6/b/3A3v/ofOf/Hff86z/57THvxXSlr9XzB663/+2D3/9bN34neJZumZ//0HP/93n/bkv8vUJ/8dJz74LxK1hviAVC8+/b9x14f/1v0P/1v23v9v2nXnv0D4WuINUMo78b9405v/Bh13/+u13f2v2XzzP1/ISuINkM04+j995Yv/ao03/yvX3fwvX3P1P4ffMuINAKV173kv/ss33vkvWXv7v3DF1f+sPsuJN4Dbc+V/Xv/1/7k9VvzndFv4n9t14X8ep0VYDGBgAABLBDSHZAFaZQAAAABJRU5ErkJgggs=</value>
+  </data>
+  <data name="&gt;&gt;_btnBottom.Name" xml:space="preserve">
+    <value>_btnBottom</value>
+  </data>
+  <data name="&gt;&gt;_btnBottom.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;toolBarLeft.Type" xml:space="preserve">
+    <value>Intermech.Bars.ToolBar, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;toolBarLeft.Name" xml:space="preserve">
+    <value>toolBarLeft</value>
+  </data>
+  <data name="&gt;&gt;_dgv.Name" xml:space="preserve">
+    <value>_dgv</value>
+  </data>
+  <data name="&gt;&gt;_dgv.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_dgv.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;toolBarRight.Parent" xml:space="preserve">
+    <value>_splitContainer.Panel2</value>
+  </data>
+  <data name="_lvColCaption.Text" xml:space="preserve">
+    <value>Наименование</value>
+  </data>
+  <data name="_colImg.Width" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="_btnDown.ToolTipText" xml:space="preserve">
+    <value>Переместить колонку вниз</value>
+  </data>
+  <data name="_colCaption.HeaderText" xml:space="preserve">
+    <value>Наименование</value>
+  </data>
+  <data name="_btnUp.CommandName" xml:space="preserve">
+    <value>btMoveUp</value>
+  </data>
+  <data name="_dgv.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="_dgv.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABYBAAAYAQAACw==</value>
+  </data>
+  <data name="&gt;&gt;toolBarRight.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="_btnUp.ToolTipText" xml:space="preserve">
+    <value>Переместить колонку вверх</value>
+  </data>
+  <data name="_lv.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="_lv.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAOYAAAAYAQAACw==</value>
+  </data>
+  <data name="&gt;&gt;_btnTop.Name" xml:space="preserve">
+    <value>_btnTop</value>
+  </data>
+  <data name="&gt;&gt;_btnTop.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;_splitContainer.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="_btnCancel.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value>
+  </data>
+  <data name="_colSortOrder.HeaderText" xml:space="preserve">
+    <value>Порядок сортировки</value>
+  </data>
+  <data name="&gt;&gt;_btnAdd.Name" xml:space="preserve">
+    <value>_btnAdd</value>
+  </data>
+  <data name="&gt;&gt;_btnAdd.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;_splitContainer.Panel1.Name" xml:space="preserve">
+    <value>_splitContainer.Panel1</value>
+  </data>
+  <data name="&gt;&gt;_splitContainer.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_splitContainer.Panel2.Name" xml:space="preserve">
+    <value>_splitContainer.Panel2</value>
+  </data>
+  <data name="&gt;&gt;_splitContainer.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_btnApply.Anchor" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BbmNob3JTdHlsZXMBAAAAB3ZhbHVlX18ACAIAAAAKAAAACw==</value>
+  </data>
+  <data name="_lv.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="_btnBottom.CommandName" xml:space="preserve">
+    <value>btMoveBottom</value>
+  </data>
+  <data name="&gt;&gt;toolBarLeft.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;_splitContainer.Panel2.Parent" xml:space="preserve">
+    <value>_splitContainer</value>
+  </data>
+  <data name="_btnCancel.Anchor" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BbmNob3JTdHlsZXMBAAAAB3ZhbHVlX18ACAIAAAAKAAAACw==</value>
+  </data>
+  <data name="toolBarLeft.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAD+AAAAAAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;toolBarLeft.Parent" xml:space="preserve">
+    <value>_splitContainer.Panel1</value>
+  </data>
+  <data name="_btnDeleteAll.ToolTipText" xml:space="preserve">
+    <value>Спрятать все колонки</value>
+  </data>
+  <data name="&gt;&gt;_btnDeleteAll.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;_btnDeleteAll.Name" xml:space="preserve">
+    <value>_btnDeleteAll</value>
+  </data>
+  <data name="_lv.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAYAAAAAAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;_lv.Name" xml:space="preserve">
+    <value>_lv</value>
+  </data>
+  <data name="&gt;&gt;_lv.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_btnApply.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value>
+  </data>
+  <data name="_splitContainer.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAAAAAAAs=</value>
+  </data>
+  <data name="_lvColCaption.Width" type="System.Int32, mscorlib">
+    <value>220</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ColumnsSortingEditorForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.MinimumSize" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAFgCAABeAQAACw==</value>
+  </data>
+  <data name="_dgv.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAAAAAAAs=</value>
+  </data>
+  <data name="toolBarLeft.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABgAAAAYAQAACw==</value>
+  </data>
+  <data name="toolBarLeft.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="toolBarLeft.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAEAAAACw==</value>
+  </data>
+  <data name="_splitContainer.Panel1.Padding" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0B19ib3R0b20AAAAAAAEICAgIAgAAAAAAAAAAGAAAAAAAAAAAAAAACw==</value>
+  </data>
+  <data name="_btnApply.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACUAQAABAAAAAs=</value>
+  </data>
+  <data name="_btnApply.Text" xml:space="preserve">
+    <value>Применить</value>
+  </data>
+  <data name="_btnApply.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAEsAAAAXAAAACw==</value>
+  </data>
+  <data name="_btnApply.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="toolBarRight.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAEAAAACw==</value>
+  </data>
+  <data name="toolBarRight.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABgAAAAYAQAACw==</value>
+  </data>
+  <data name="toolBarRight.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;_colCaption.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_colCaption.Name" xml:space="preserve">
+    <value>_colCaption</value>
+  </data>
+  <data name="$this.StartPosition" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Gb3JtU3RhcnRQb3NpdGlvbgEAAAAHdmFsdWVfXwAIAgAAAAQAAAAL</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>Наименование</value>
+  </data>
+  <data name="pnlBottom.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="_btnDelete.CommandName" xml:space="preserve">
+    <value>btDelete</value>
+  </data>
+  <data name="&gt;&gt;_img.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_img.Name" xml:space="preserve">
+    <value>_img</value>
+  </data>
+  <data name="&gt;&gt;_lv.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;_btnDown.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;_btnDown.Name" xml:space="preserve">
+    <value>_btnDown</value>
+  </data>
+  <data name="&gt;&gt;pnlBottom.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_btnCancel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="toolBarRight.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pnlBottom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlBottom.Name" xml:space="preserve">
+    <value>pnlBottom</value>
+  </data>
+  <data name="&gt;&gt;_btnAddAll.Name" xml:space="preserve">
+    <value>_btnAddAll</value>
+  </data>
+  <data name="&gt;&gt;_btnAddAll.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="_splitContainer.SplitterDistance" type="System.Int32, mscorlib">
+    <value>278</value>
+  </data>
+  <data name="&gt;&gt;_lv.Parent" xml:space="preserve">
+    <value>_splitContainer.Panel1</value>
+  </data>
+  <data name="_btnDeleteAll.CommandName" xml:space="preserve">
+    <value>btDeleteAll</value>
+  </data>
+  <data name="_btnCancel.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAADlAQAABAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;_btnCancel.Parent" xml:space="preserve">
+    <value>pnlBottom</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5TaXplRgIAAAAFd2lkdGgGaGVpZ2h0AAALCwIAAAAAAMBAAABQQQs=</value>
+  </data>
+  <data name="&gt;&gt;pnlBottom.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="_colSortOrder.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="&gt;&gt;_btnUp.Name" xml:space="preserve">
+    <value>_btnUp</value>
+  </data>
+  <data name="&gt;&gt;_btnUp.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="_btnBottom.ToolTipText" xml:space="preserve">
+    <value>Переместить колонку в конец списка</value>
+  </data>
+</root>

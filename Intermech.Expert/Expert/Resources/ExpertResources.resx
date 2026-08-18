@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Expert_51" xml:space="preserve">
+    <value>Дочерн</value>
+  </data>
+  <data name="Expert_50" xml:space="preserve">
+    <value>СТР</value>
+  </data>
+  <data name="Expert_53" xml:space="preserve">
+    <value>Родитл</value>
+  </data>
+  <data name="Expert_52" xml:space="preserve">
+    <value>ДочСВ</value>
+  </data>
+  <data name="Expert_55" xml:space="preserve">
+    <value>СЕЙЧАС</value>
+  </data>
+  <data name="Expert_54" xml:space="preserve">
+    <value>РодСВ</value>
+  </data>
+  <data name="Expert_57" xml:space="preserve">
+    <value>ФЛАГ_А</value>
+  </data>
+  <data name="Expert_56" xml:space="preserve">
+    <value>ФЛАГ</value>
+  </data>
+  <data name="Expert_59" xml:space="preserve">
+    <value>дата</value>
+  </data>
+  <data name="Expert_58" xml:space="preserve">
+    <value>логическое значение</value>
+  </data>
+  <data name="Expert_40" xml:space="preserve">
+    <value>Вещ. число в ед. изм.</value>
+  </data>
+  <data name="Expert_41" xml:space="preserve">
+    <value>Дата</value>
+  </data>
+  <data name="Expert_42" xml:space="preserve">
+    <value>Кор. BLOB</value>
+  </data>
+  <data name="Expert_43" xml:space="preserve">
+    <value>Файл</value>
+  </data>
+  <data name="Expert_44" xml:space="preserve">
+    <value>Внеш. ссылка</value>
+  </data>
+  <data name="Expert_45" xml:space="preserve">
+    <value>*Объект</value>
+  </data>
+  <data name="Expert_46" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="Expert_47" xml:space="preserve">
+    <value>Текст</value>
+  </data>
+  <data name="Expert_48" xml:space="preserve">
+    <value>Логический</value>
+  </data>
+  <data name="Expert_49" xml:space="preserve">
+    <value>Системный</value>
+  </data>
+  <data name="Expert_73" xml:space="preserve">
+    <value>Число с плавающей точкой, выраженное в единицах измерения</value>
+  </data>
+  <data name="Expert_72" xml:space="preserve">
+    <value>Число с плавающей точкой</value>
+  </data>
+  <data name="Expert_71" xml:space="preserve">
+    <value>Целое число</value>
+  </data>
+  <data name="Expert_70" xml:space="preserve">
+    <value>Использован тип атрибута, не поддерживаемый ЭС</value>
+  </data>
+  <data name="Expert_77" xml:space="preserve">
+    <value>Ссылка на объект</value>
+  </data>
+  <data name="Expert_76" xml:space="preserve">
+    <value>Логический</value>
+  </data>
+  <data name="Expert_75" xml:space="preserve">
+    <value>Дата</value>
+  </data>
+  <data name="Expert_74" xml:space="preserve">
+    <value>Строка</value>
+  </data>
+  <data name="Expert_79" xml:space="preserve">
+    <value>Аргумент по горизонтали</value>
+  </data>
+  <data name="Expert_78" xml:space="preserve">
+    <value>Набор</value>
+  </data>
+  <data name="Expert_62" xml:space="preserve">
+    <value>целое число</value>
+  </data>
+  <data name="Expert_63" xml:space="preserve">
+    <value>ссылка на объект</value>
+  </data>
+  <data name="Expert_60" xml:space="preserve">
+    <value>число с плавающей точкой</value>
+  </data>
+  <data name="Expert_61" xml:space="preserve">
+    <value>число с плав. точкой в ед. измерения</value>
+  </data>
+  <data name="Expert_66" xml:space="preserve">
+    <value>диапазон</value>
+  </data>
+  <data name="Expert_67" xml:space="preserve">
+    <value>строка</value>
+  </data>
+  <data name="Expert_64" xml:space="preserve">
+    <value>атрибут</value>
+  </data>
+  <data name="Expert_65" xml:space="preserve">
+    <value>набор</value>
+  </data>
+  <data name="Expert_68" xml:space="preserve">
+    <value>неизвестный тип данных</value>
+  </data>
+  <data name="Expert_69" xml:space="preserve">
+    <value>Неизвестный тип атрибута</value>
+  </data>
+  <data name="Expert_15" xml:space="preserve">
+    <value>НЕ</value>
+  </data>
+  <data name="Expert_14" xml:space="preserve">
+    <value>и</value>
+  </data>
+  <data name="Expert_17" xml:space="preserve">
+    <value>И</value>
+  </data>
+  <data name="Expert_16" xml:space="preserve">
+    <value>ИЛИ</value>
+  </data>
+  <data name="Expert_11" xml:space="preserve">
+    <value>Номер ряда для удаления не может быть больше количества рядов в таблице.</value>
+  </data>
+  <data name="Expert_10" xml:space="preserve">
+    <value>Номер ряда не может быть отрицательным.</value>
+  </data>
+  <data name="Expert_13" xml:space="preserve">
+    <value>или</value>
+  </data>
+  <data name="Expert_12" xml:space="preserve">
+    <value>Любой тип объекта</value>
+  </data>
+  <data name="Expert_19" xml:space="preserve">
+    <value>Функция с идентификатором </value>
+  </data>
+  <data name="Expert_18" xml:space="preserve">
+    <value>Идентификатор пользовательской функции должен быть больше 1000!</value>
+  </data>
+  <data name="Expert_37" xml:space="preserve">
+    <value>Строка</value>
+  </data>
+  <data name="Expert_36" xml:space="preserve">
+    <value>Неизв. тип</value>
+  </data>
+  <data name="Expert_35" xml:space="preserve">
+    <value>Попытка вызова неизвестной пользовательской процедуры (</value>
+  </data>
+  <data name="Expert_34" xml:space="preserve">
+    <value> уже существует!</value>
+  </data>
+  <data name="Expert_33" xml:space="preserve">
+    <value> Пользовательская процедура </value>
+  </data>
+  <data name="Expert_32" xml:space="preserve">
+    <value> уже зарегистрирована!</value>
+  </data>
+  <data name="Expert_31" xml:space="preserve">
+    <value>Процедура с идентификатором </value>
+  </data>
+  <data name="Expert_30" xml:space="preserve">
+    <value>Идентификатор пользовательской процедуры должен быть больше 1000!</value>
+  </data>
+  <data name="Expert_39" xml:space="preserve">
+    <value>Вещ. число</value>
+  </data>
+  <data name="Expert_38" xml:space="preserve">
+    <value>Целое число</value>
+  </data>
+  <data name="Expert_26" xml:space="preserve">
+    <value> уже зарегистрирована!</value>
+  </data>
+  <data name="Expert_27" xml:space="preserve">
+    <value> Функция сравнения </value>
+  </data>
+  <data name="Expert_24" xml:space="preserve">
+    <value>Идентификатор функции сравнения должен быть больше 1000!</value>
+  </data>
+  <data name="Expert_25" xml:space="preserve">
+    <value>Функция сравнения с идентификатором </value>
+  </data>
+  <data name="Expert_22" xml:space="preserve">
+    <value> уже существует!</value>
+  </data>
+  <data name="Expert_23" xml:space="preserve">
+    <value>Попытка вызова неизвестной пользовательской функции (</value>
+  </data>
+  <data name="Expert_20" xml:space="preserve">
+    <value> уже зарегистрирована!</value>
+  </data>
+  <data name="Expert_21" xml:space="preserve">
+    <value> Пользовательская функция </value>
+  </data>
+  <data name="Expert_28" xml:space="preserve">
+    <value> уже существует!</value>
+  </data>
+  <data name="Expert_29" xml:space="preserve">
+    <value>Попытка вызова неизвестной пользовательской функции (</value>
+  </data>
+  <data name="Expert_99" xml:space="preserve">
+    <value>ИЛИ</value>
+  </data>
+  <data name="Expert_98" xml:space="preserve">
+    <value>Этот элемент не может быть последним</value>
+  </data>
+  <data name="Expert_95" xml:space="preserve">
+    <value>Неверный элемент после оператора</value>
+  </data>
+  <data name="Expert_94" xml:space="preserve">
+    <value>Неверный элемент после операнда</value>
+  </data>
+  <data name="Expert_97" xml:space="preserve">
+    <value>Этот элемент должен находиться после операнда</value>
+  </data>
+  <data name="Expert_96" xml:space="preserve">
+    <value>Этот элемент не может быть первым</value>
+  </data>
+  <data name="Expert_91" xml:space="preserve">
+    <value>Отсутствует закрывающая скобка</value>
+  </data>
+  <data name="Expert_90" xml:space="preserve">
+    <value>Оператор диапазона может быть только в наборе</value>
+  </data>
+  <data name="Expert_93" xml:space="preserve">
+    <value>Неверный элемент после открывающей скобки</value>
+  </data>
+  <data name="Expert_92" xml:space="preserve">
+    <value>Неверный элемент после разделителя</value>
+  </data>
+  <data name="Expert_88" xml:space="preserve">
+    <value>Неверная закрывающая скобка</value>
+  </data>
+  <data name="Expert_89" xml:space="preserve">
+    <value>Запятая может быть только внутри скобок</value>
+  </data>
+  <data name="Expert_84" xml:space="preserve">
+    <value>Аргумент по вертикали</value>
+  </data>
+  <data name="Expert_85" xml:space="preserve">
+    <value>Аргумент-результат</value>
+  </data>
+  <data name="Expert_86" xml:space="preserve">
+    <value>Результат</value>
+  </data>
+  <data name="Expert_87" xml:space="preserve">
+    <value>Неверное значение роли атрибута: </value>
+  </data>
+  <data name="Expert_80" xml:space="preserve">
+    <value>Аргумент по вертикали</value>
+  </data>
+  <data name="Expert_81" xml:space="preserve">
+    <value>Аргумент-результат</value>
+  </data>
+  <data name="Expert_82" xml:space="preserve">
+    <value>Результат</value>
+  </data>
+  <data name="Expert_83" xml:space="preserve">
+    <value>Аргумент по горизонтали</value>
+  </data>
+  <data name="Interfaces_15" xml:space="preserve">
+    <value>Ошибка экспертной системы: </value>
+  </data>
+  <data name="Expert_4" xml:space="preserve">
+    <value>Число ячеек в добавляемом столбце должно быть равно числу рядов в существующей таблице.</value>
+  </data>
+  <data name="Expert_5" xml:space="preserve">
+    <value>Позиция вставки столбца не может быть отрицательной.</value>
+  </data>
+  <data name="Expert_6" xml:space="preserve">
+    <value>Номер столбца не может быть отрицательным.</value>
+  </data>
+  <data name="Expert_7" xml:space="preserve">
+    <value>Номер столбца для удаления не может быть больше количества столбцов в таблице.</value>
+  </data>
+  <data name="Expert_1" xml:space="preserve">
+    <value>Ошибка преобразования данных</value>
+  </data>
+  <data name="Expert_2" xml:space="preserve">
+    <value>Ошибка преобразования данных</value>
+  </data>
+  <data name="Expert_3" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="Expert_8" xml:space="preserve">
+    <value>Число ячеек в добавляемом ряду должно быть равно числу столбцов в существующей таблице.</value>
+  </data>
+  <data name="Expert_9" xml:space="preserve">
+    <value>Позиция вставки ряда не может быть отрицательной.</value>
+  </data>
+  <data name="Expert_45id" xml:space="preserve">
+    <value>*Object ID</value>
+  </data>
+  <data name="Expert_141" xml:space="preserve">
+    <value>СОРТ (</value>
+  </data>
+  <data name="Expert_140" xml:space="preserve">
+    <value>СОРТИРОВКА (</value>
+  </data>
+  <data name="Expert_143" xml:space="preserve">
+    <value>&lt;НЕТ&gt;</value>
+  </data>
+  <data name="Expert_142" xml:space="preserve">
+    <value>ГРУПП (</value>
+  </data>
+  <data name="Expert_145" xml:space="preserve">
+    <value>ДОЧЕРНИЕ </value>
+  </data>
+  <data name="Expert_144" xml:space="preserve">
+    <value>РОДИТЕЛЬСКИЕ </value>
+  </data>
+  <data name="Expert_147" xml:space="preserve">
+    <value>ОБЪЕКТЫ ПО ВЫБОРКЕ</value>
+  </data>
+  <data name="Expert_146" xml:space="preserve">
+    <value>РАВНЫЕ </value>
+  </data>
+  <data name="Expert_149" xml:space="preserve">
+    <value>ВЛОЖЕННЫЕ </value>
+  </data>
+  <data name="Expert_148" xml:space="preserve">
+    <value>ВЕРХНЕУР </value>
+  </data>
+  <data name="Expert_150" xml:space="preserve">
+    <value>+ДУБЛ</value>
+  </data>
+  <data name="Expert_151" xml:space="preserve">
+    <value>ВЫХОД </value>
+  </data>
+  <data name="Expert_152" xml:space="preserve">
+    <value>ПАПКА </value>
+  </data>
+  <data name="Expert_153" xml:space="preserve">
+    <value>ПАПКА ВЫБОРА </value>
+  </data>
+  <data name="Expert_154" xml:space="preserve">
+    <value>ВЕРНУТЬ ОБЪЕКТ</value>
+  </data>
+  <data name="Expert_155" xml:space="preserve">
+    <value>если (</value>
+  </data>
+  <data name="Expert_156" xml:space="preserve">
+    <value>ПЕРЕСЧИТАТЬ АТРИБУТЫ </value>
+  </data>
+  <data name="Expert_157" xml:space="preserve">
+    <value>ВЫЗВАТЬ ОПЕРАТОР "</value>
+  </data>
+  <data name="Expert_158" xml:space="preserve">
+    <value>ПОЛЬЗ. ПРОЦ "</value>
+  </data>
+  <data name="Expert_159" xml:space="preserve">
+    <value>ВЫЗВАТЬ СКРИПТ "</value>
+  </data>
+  <data name="Expert_163" xml:space="preserve">
+    <value>СУММА (</value>
+  </data>
+  <data name="Expert_162" xml:space="preserve">
+    <value>ПРИСВОИТЬ </value>
+  </data>
+  <data name="Expert_161" xml:space="preserve">
+    <value>ПОДБОР ВЕРСИЙ</value>
+  </data>
+  <data name="Expert_160" xml:space="preserve">
+    <value>УПРАВЛЕНИЕ ДОКУМЕНТОМ </value>
+  </data>
+  <data name="Expert_167" xml:space="preserve">
+    <value>МАКС ( </value>
+  </data>
+  <data name="Expert_166" xml:space="preserve">
+    <value>МИН (</value>
+  </data>
+  <data name="Expert_165" xml:space="preserve">
+    <value>КОЛИЧЕСТВО</value>
+  </data>
+  <data name="Expert_164" xml:space="preserve">
+    <value>СРЕДНЕЕ (</value>
+  </data>
+  <data name="Expert_169" xml:space="preserve">
+    <value>ПО ТАБЛИЦЕ</value>
+  </data>
+  <data name="Expert_168" xml:space="preserve">
+    <value>СПИСОК (</value>
+  </data>
+  <data name="Expert_172" xml:space="preserve">
+    <value>, ВЫБРАТЬ и ЗАПОЛНИТЬ</value>
+  </data>
+  <data name="Expert_173" xml:space="preserve">
+    <value> и ВЫБРАТЬ</value>
+  </data>
+  <data name="Expert_170" xml:space="preserve">
+    <value>ЗАПИСАТЬ (</value>
+  </data>
+  <data name="Expert_171" xml:space="preserve">
+    <value>СОЗДАТЬ ЭЛЕМЕНТ (</value>
+  </data>
+  <data name="Expert_176" xml:space="preserve">
+    <value>ЕСЛИ </value>
+  </data>
+  <data name="Expert_177" xml:space="preserve">
+    <value>ДЛЯ ТИПА (</value>
+  </data>
+  <data name="Expert_174" xml:space="preserve">
+    <value> и ЗАПОЛНИТЬ</value>
+  </data>
+  <data name="Expert_175" xml:space="preserve">
+    <value>ВЫБРАТЬ ЭЛЕМЕНТ (</value>
+  </data>
+  <data name="Expert_178" xml:space="preserve">
+    <value>ЕСЛИ </value>
+  </data>
+  <data name="Expert_179" xml:space="preserve">
+    <value>СЧИТАТЬ ПО </value>
+  </data>
+  <data name="Expert_105" xml:space="preserve">
+    <value>ИЛИ</value>
+  </data>
+  <data name="Expert_104" xml:space="preserve">
+    <value>Неверные типы аргументов для функции СТР - требуется атрибут!</value>
+  </data>
+  <data name="Expert_107" xml:space="preserve">
+    <value>Недостаточно параметров для функции: требуется {0} параметр(ов)</value>
+  </data>
+  <data name="Expert_106" xml:space="preserve">
+    <value>И</value>
+  </data>
+  <data name="Expert_101" xml:space="preserve">
+    <value>СТР(</value>
+  </data>
+  <data name="Expert_100" xml:space="preserve">
+    <value>И</value>
+  </data>
+  <data name="Expert_103" xml:space="preserve">
+    <value>ФЛАГ_А(</value>
+  </data>
+  <data name="Expert_102" xml:space="preserve">
+    <value>Неверный тип аргумента для функции СТР - требуется атрибут!</value>
+  </data>
+  <data name="Expert_109" xml:space="preserve">
+    <value>Неверный тип первого параметра</value>
+  </data>
+  <data name="Expert_108" xml:space="preserve">
+    <value>Слишком много параметров для функции: требуется {0} параметр(ов)</value>
+  </data>
+  <data name="Expert_114" xml:space="preserve">
+    <value>Неверные типы данных для операции сравнения</value>
+  </data>
+  <data name="Expert_115" xml:space="preserve">
+    <value>Неверный тип нижнего значения диапазона</value>
+  </data>
+  <data name="Expert_116" xml:space="preserve">
+    <value>Неверный тип верхнего значения диапазона</value>
+  </data>
+  <data name="Expert_117" xml:space="preserve">
+    <value>Типы обеих границ диапазона должны совпадать</value>
+  </data>
+  <data name="Expert_110" xml:space="preserve">
+    <value>Неверный тип второго параметра</value>
+  </data>
+  <data name="Expert_111" xml:space="preserve">
+    <value>Неверное количество параметров для бинарного оператора</value>
+  </data>
+  <data name="Expert_112" xml:space="preserve">
+    <value>И</value>
+  </data>
+  <data name="Expert_113" xml:space="preserve">
+    <value>ИЛИ</value>
+  </data>
+  <data name="Expert_118" xml:space="preserve">
+    <value>Неверный тип проверяемого значения</value>
+  </data>
+  <data name="Expert_119" xml:space="preserve">
+    <value>Этот оператор можно использовать только с наборами</value>
+  </data>
+  <data name="Expert_127" xml:space="preserve">
+    <value>Неверный тип возвращаемого значения - требуется </value>
+  </data>
+  <data name="Expert_126" xml:space="preserve">
+    <value>Формула возвращает слишком много значений!</value>
+  </data>
+  <data name="Expert_125" xml:space="preserve">
+    <value>Формула не возвращает значений!</value>
+  </data>
+  <data name="Expert_124" xml:space="preserve">
+    <value>Внутренняя ошибка - неверное количество элементов набора</value>
+  </data>
+  <data name="Expert_123" xml:space="preserve">
+    <value>Требуется логическое выражение</value>
+  </data>
+  <data name="Expert_122" xml:space="preserve">
+    <value>Левая часть выражения отсутствует</value>
+  </data>
+  <data name="Expert_121" xml:space="preserve">
+    <value>Неверный тип {0} параметра - требуется </value>
+  </data>
+  <data name="Expert_120" xml:space="preserve">
+    <value>Функция принимает {0} параметр(ов)</value>
+  </data>
+  <data name="Expert_129" xml:space="preserve">
+    <value>Отсутствует формула, определяющая конечное значение счётчика цикла!</value>
+  </data>
+  <data name="Expert_128" xml:space="preserve">
+    <value>Отсутствует атрибут счётчика цикла!</value>
+  </data>
+  <data name="Expert_136" xml:space="preserve">
+    <value>ПОКА (</value>
+  </data>
+  <data name="Expert_137" xml:space="preserve">
+    <value>ДЛЯ </value>
+  </data>
+  <data name="Expert_134" xml:space="preserve">
+    <value>ЕСЛИ ЕСТЬ (</value>
+  </data>
+  <data name="Expert_135" xml:space="preserve">
+    <value>ЕСЛИ ВСЕ (</value>
+  </data>
+  <data name="Expert_132" xml:space="preserve">
+    <value>ДЛЯ МИНИМУМА (</value>
+  </data>
+  <data name="Expert_133" xml:space="preserve">
+    <value>ДЛЯ МАКСИМУМА (</value>
+  </data>
+  <data name="Expert_130" xml:space="preserve">
+    <value>ДЛЯ КАЖДОГО (</value>
+  </data>
+  <data name="Expert_131" xml:space="preserve">
+    <value>ДЛЯ ПЕРВОГО (</value>
+  </data>
+  <data name="Expert_138" xml:space="preserve">
+    <value> от </value>
+  </data>
+  <data name="Expert_139" xml:space="preserve">
+    <value> до </value>
+  </data>
+  <data name="Expert_189" xml:space="preserve">
+    <value>Дата и время</value>
+  </data>
+  <data name="Expert_188" xml:space="preserve">
+    <value>Вещественное число в единицах измерения</value>
+  </data>
+  <data name="Expert_185" xml:space="preserve">
+    <value>Строка</value>
+  </data>
+  <data name="Expert_184" xml:space="preserve">
+    <value>&lt;Неизвестный тип атрибута&gt;</value>
+  </data>
+  <data name="Expert_187" xml:space="preserve">
+    <value>Вещественное число</value>
+  </data>
+  <data name="Expert_186" xml:space="preserve">
+    <value>Целое число</value>
+  </data>
+  <data name="Expert_181" xml:space="preserve">
+    <value>ТАБЛИЦЕ </value>
+  </data>
+  <data name="Expert_180" xml:space="preserve">
+    <value>ФОРМУЛЕ </value>
+  </data>
+  <data name="Expert_183" xml:space="preserve">
+    <value>При приведении результата формулы к числу с плавающей точкой будет потеряна единица измерения!</value>
+  </data>
+  <data name="Expert_182" xml:space="preserve">
+    <value>СКРИПТУ </value>
+  </data>
+  <data name="Expert_198" xml:space="preserve">
+    <value>Системный</value>
+  </data>
+  <data name="Expert_199" xml:space="preserve">
+    <value>Неверный тип аргумента для функции def - требуется атрибут!</value>
+  </data>
+  <data name="Expert_194" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="Expert_195" xml:space="preserve">
+    <value>Текст (Memo)</value>
+  </data>
+  <data name="Expert_196" xml:space="preserve">
+    <value>Длинные двоичные данные</value>
+  </data>
+  <data name="Expert_197" xml:space="preserve">
+    <value>Логический</value>
+  </data>
+  <data name="Expert_190" xml:space="preserve">
+    <value>Короткие двоичные данные</value>
+  </data>
+  <data name="Expert_191" xml:space="preserve">
+    <value>Файл</value>
+  </data>
+  <data name="Expert_192" xml:space="preserve">
+    <value>Внешняя ссылка</value>
+  </data>
+  <data name="Expert_193" xml:space="preserve">
+    <value>Ссылка на объект</value>
+  </data>
+  <data name="Expert_260" xml:space="preserve">
+    <value>Массивы с размерностью больше двух не поддерживаются!</value>
+  </data>
+  <data name="Expert_261" xml:space="preserve">
+    <value>Массив не инициализирован!</value>
+  </data>
+  <data name="Expert_262" xml:space="preserve">
+    <value>Первый индекс массива неверен!</value>
+  </data>
+  <data name="Expert_263" xml:space="preserve">
+    <value>Второй индекс массива неверен!</value>
+  </data>
+  <data name="Expert_264" xml:space="preserve">
+    <value>Минус</value>
+  </data>
+  <data name="Expert_265" xml:space="preserve">
+    <value>МинусМ</value>
+  </data>
+  <data name="Expert_266" xml:space="preserve">
+    <value>Формт</value>
+  </data>
+  <data name="Expert_267" xml:space="preserve">
+    <value>ССЫЛКА НА "{0}"</value>
+  </data>
+  <data name="Expert_268" xml:space="preserve">
+    <value>ЕИ_Код</value>
+  </data>
+  <data name="Expert_269" xml:space="preserve">
+    <value>ЕИ_Коэф</value>
+  </data>
+  <data name="Expert_242" xml:space="preserve">
+    <value>СПИС+</value>
+  </data>
+  <data name="Expert_243" xml:space="preserve">
+    <value>СПИС(</value>
+  </data>
+  <data name="Expert_240" xml:space="preserve">
+    <value>Б_Бол</value>
+  </data>
+  <data name="Expert_241" xml:space="preserve">
+    <value>СПИС</value>
+  </data>
+  <data name="Expert_246" xml:space="preserve">
+    <value>Неверные типы атрибутов для функции СПИС+ - требуются строка, атрибут ссылки и атрибут объекта!</value>
+  </data>
+  <data name="Expert_247" xml:space="preserve">
+    <value>Первый параметр функции СПИС+ должен быть строкой!</value>
+  </data>
+  <data name="Expert_244" xml:space="preserve">
+    <value>Неверные типы атрибутов для функции СПИС() - требуется строка и атрибут!</value>
+  </data>
+  <data name="Expert_245" xml:space="preserve">
+    <value>Первый параметр функции СПИС должен быть строкой!</value>
+  </data>
+  <data name="Expert_248" xml:space="preserve">
+    <value>НЕОБ1</value>
+  </data>
+  <data name="Expert_249" xml:space="preserve">
+    <value>НЕОБ1(</value>
+  </data>
+  <data name="Expert_270" xml:space="preserve">
+    <value>ЗамС</value>
+  </data>
+  <data name="Expert_273" xml:space="preserve">
+    <value>ВСЕ ВЕРСИИ (</value>
+  </data>
+  <data name="Expert_272" xml:space="preserve">
+    <value>ПЕРВ ВЕРC (</value>
+  </data>
+  <data name="Expert_275" xml:space="preserve">
+    <value>по ИД шага ЖЦ)</value>
+  </data>
+  <data name="Expert_274" xml:space="preserve">
+    <value>по ИД версии)</value>
+  </data>
+  <data name="Expert_277" xml:space="preserve">
+    <value>по дате создания)</value>
+  </data>
+  <data name="Expert_276" xml:space="preserve">
+    <value>по уровню продв)</value>
+  </data>
+  <data name="Expert_279" xml:space="preserve">
+    <value>по ИД группы изм)</value>
+  </data>
+  <data name="Expert_278" xml:space="preserve">
+    <value>по дате модифик)</value>
+  </data>
+  <data name="Expert_224" xml:space="preserve">
+    <value>Неверный тип аргумента для функции НЕОБ0 - требуется атрибут!</value>
+  </data>
+  <data name="Expert_225" xml:space="preserve">
+    <value>Все типы связей</value>
+  </data>
+  <data name="Expert_226" xml:space="preserve">
+    <value>НЕРАЗ</value>
+  </data>
+  <data name="Expert_227" xml:space="preserve">
+    <value>НЕРАЗ(</value>
+  </data>
+  <data name="Expert_220" xml:space="preserve">
+    <value>НЕОБ0</value>
+  </data>
+  <data name="Expert_221" xml:space="preserve">
+    <value>НЕОБ(</value>
+  </data>
+  <data name="Expert_222" xml:space="preserve">
+    <value>Неверный тип аргумента для функции НЕОБ - требуется атрибут!</value>
+  </data>
+  <data name="Expert_223" xml:space="preserve">
+    <value>НЕОБ0(</value>
+  </data>
+  <data name="Expert_228" xml:space="preserve">
+    <value>СБОР ГЛОБАЛЬНОЙ ТАБЛИЦЫ (КОРЕНЬ)</value>
+  </data>
+  <data name="Expert_229" xml:space="preserve">
+    <value>ДЛЯ ТИПОВ: </value>
+  </data>
+  <data name="Expert_253" xml:space="preserve">
+    <value>Класс</value>
+  </data>
+  <data name="Expert_252" xml:space="preserve">
+    <value>ЧРазд</value>
+  </data>
+  <data name="Expert_251" xml:space="preserve">
+    <value>TDiff</value>
+  </data>
+  <data name="Expert_250" xml:space="preserve">
+    <value>Неверный тип аргумента для функции НЕОБ1 - требуется атрибут!</value>
+  </data>
+  <data name="Expert_257" xml:space="preserve">
+    <value>ra2_m</value>
+  </data>
+  <data name="Expert_256" xml:space="preserve">
+    <value>ra_m</value>
+  </data>
+  <data name="Expert_255" xml:space="preserve">
+    <value>ra2</value>
+  </data>
+  <data name="Expert_254" xml:space="preserve">
+    <value>ra</value>
+  </data>
+  <data name="Expert_259" xml:space="preserve">
+    <value>ИМЯ_ТД</value>
+  </data>
+  <data name="Expert_258" xml:space="preserve">
+    <value>КЕИзм</value>
+  </data>
+  <data name="Expert_206" xml:space="preserve">
+    <value>ПЛВ_ЕД</value>
+  </data>
+  <data name="Expert_207" xml:space="preserve">
+    <value>Н_ИСП</value>
+  </data>
+  <data name="Expert_204" xml:space="preserve">
+    <value>ЦЕЛОЕ</value>
+  </data>
+  <data name="Expert_205" xml:space="preserve">
+    <value>ПЛАВ</value>
+  </data>
+  <data name="Expert_202" xml:space="preserve">
+    <value>СОЗДАТЬ_КОМП</value>
+  </data>
+  <data name="Expert_203" xml:space="preserve">
+    <value>ДАТА</value>
+  </data>
+  <data name="Expert_200" xml:space="preserve">
+    <value>Этот элемент должен находиться после атрибута</value>
+  </data>
+  <data name="Expert_201" xml:space="preserve">
+    <value>СОЗДАТЬ_ДОК</value>
+  </data>
+  <data name="Expert_208" xml:space="preserve">
+    <value>поз</value>
+  </data>
+  <data name="Expert_209" xml:space="preserve">
+    <value>подс</value>
+  </data>
+  <data name="Expert_235" xml:space="preserve">
+    <value>изделие {0}: пустой диапазон серий или дат для версии объекта {1}, включенной в извещение!</value>
+  </data>
+  <data name="Expert_234" xml:space="preserve">
+    <value>в изделии {0} найдено пересечение диапазонов у версий объектов {1} и {2}.</value>
+  </data>
+  <data name="Expert_237" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="Expert_236" xml:space="preserve">
+    <value>в изделии {0} обнаружен незаполненный пропуск между сериями и датами для объекта {1} и его версий!</value>
+  </data>
+  <data name="Expert_231" xml:space="preserve">
+    <value>ОРОД</value>
+  </data>
+  <data name="Expert_230" xml:space="preserve">
+    <value>ОДОЧ</value>
+  </data>
+  <data name="Expert_233" xml:space="preserve">
+    <value>в изделии {0} найдено пересечение диапазонов серий/дат для версии объекта {1} </value>
+  </data>
+  <data name="Expert_232" xml:space="preserve">
+    <value>для изделия {0} смешаны серии и даты!</value>
+  </data>
+  <data name="Expert_239" xml:space="preserve">
+    <value>Б_Мен</value>
+  </data>
+  <data name="Expert_238" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="Expert_217" xml:space="preserve">
+    <value>(ФУНКЦИЯ </value>
+  </data>
+  <data name="Expert_216" xml:space="preserve">
+    <value>ВЫЗВАТЬ СЦЕНАРИЙ "</value>
+  </data>
+  <data name="Expert_215" xml:space="preserve">
+    <value>Вызов функции из сценария</value>
+  </data>
+  <data name="Expert_214" xml:space="preserve">
+    <value>К_ЕД</value>
+  </data>
+  <data name="Expert_213" xml:space="preserve">
+    <value>РОД</value>
+  </data>
+  <data name="Expert_212" xml:space="preserve">
+    <value>ДОЧ</value>
+  </data>
+  <data name="Expert_211" xml:space="preserve">
+    <value>ЕИЗМ</value>
+  </data>
+  <data name="Expert_210" xml:space="preserve">
+    <value>ЗНАЧ</value>
+  </data>
+  <data name="Expert_219" xml:space="preserve">
+    <value>НЕОБ</value>
+  </data>
+  <data name="Expert_218" xml:space="preserve">
+    <value>РАСКРЫТ</value>
+  </data>
+  <data name="Expert_280" xml:space="preserve">
+    <value>trim</value>
+  </data>
+  <data name="Expert_281" xml:space="preserve">
+    <value>Ссылка на ИД объекта</value>
+  </data>
+  <data name="Expert_193id" xml:space="preserve">
+    <value>Ссылка на объект без конкретизации версии</value>
+  </data>
+</root>

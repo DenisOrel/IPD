@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.ComparisonPlugins.PDFComparison.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D5A28870-780A-4825-A578-FD09CD9FB8C5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.ComparisonPlugins.PDFComparison</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech.ComparisonPlugins.PDFComparison</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ghostscript.NET">
+      <HintPath>lib\Ghostscript.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Client.Core">
+      <HintPath>lib\Intermech.Client.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Client">
+      <HintPath>lib\Intermech.Interfaces.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CommandProvider.cs" />
+    <Compile Include="ComparisonProvider.cs" />
+    <Compile Include="OpenForComparisonProvider.cs" />
+    <Compile Include="СompareWithBaseVersionProvider.cs" />
+    <Compile Include="CompareAuthenticFilesProvider.cs" />
+    <Compile Include="PDFComporisonPlugin.cs" />
+    <Compile Include="UI\ILayerPresenter.cs" />
+    <Compile Include="UI\ILayerView.cs" />
+    <Compile Include="UI\IMainView.cs" />
+    <Compile Include="UI\LayerPresenter.cs" />
+    <Compile Include="UI\MainPresenter.cs" />
+    <Compile Include="UI\CustomUpDown.cs" />
+    <Compile Include="UI\FormHelper.cs" />
+    <Compile Include="UI\LayerView.cs" />
+    <Compile Include="UI\MainView.cs" />
+    <Compile Include="UI\ZoomPictureBox.cs" />
+    <Compile Include="Properties\Resources.cs" />
+    <Compile Include="ImageProcessing\ImageCombiner.cs" />
+    <Compile Include="ImageProcessing\ViewType.cs" />
+    <Compile Include="ImageProcessing\ImageContainer.cs" />
+    <Compile Include="ImageProcessing\ImageTransformer.cs" />
+    <Compile Include="ImageProcessing\PDFReader.cs" />
+    <Compile Include="ImageProcessing\PositionDescription.cs" />
+    <Compile Include="Common\ClientUtils.cs" />
+    <Compile Include="Common\FileDescription.cs" />
+    <Compile Include="Common\HelperConsts.cs" />
+    <Compile Include="Common\PageList.cs" />
+    <Compile Include="Common\SamplePage.cs" />
+    <Compile Include="Common\SelectFileDialog.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Common\SelectFileDialog.resx" />
+    <EmbeddedResource Include="Properties\Resources.resx" />
+    <EmbeddedResource Include="UI\CustomUpDown.resx" />
+    <EmbeddedResource Include="UI\LayerView.resx" />
+    <EmbeddedResource Include="UI\MainView.resx" />
+    <EmbeddedResource Include="UI\ZoomPictureBox.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.TechCard.Document.Client.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{30E2E8BE-0BCB-4D9D-811E-9DBCED6C56DA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.TechCard.Document.Client</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>lib\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Infralution.Controls">
+      <HintPath>lib\Infralution.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Infralution.Controls.VirtualTree">
+      <HintPath>lib\Infralution.Controls.VirtualTree.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bars">
+      <HintPath>lib\Intermech.Bars.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Client.Core">
+      <HintPath>lib\Intermech.Client.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Docking">
+      <HintPath>lib\Intermech.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Document.Client">
+      <HintPath>lib\Intermech.Document.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Document.DBCore">
+      <HintPath>lib\Intermech.Document.DBCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Document.Model">
+      <HintPath>lib\Intermech.Document.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Expert">
+      <HintPath>lib\Intermech.Expert.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Expert.Editor">
+      <HintPath>lib\Intermech.Expert.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Expert.User">
+      <HintPath>lib\Intermech.Expert.User.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Client">
+      <HintPath>lib\Intermech.Interfaces.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Document">
+      <HintPath>lib\Intermech.Interfaces.Document.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.TechCard">
+      <HintPath>lib\Intermech.Interfaces.TechCard.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.TechCard.Document.Interfaces">
+      <HintPath>lib\Intermech.TechCard.Document.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.VirtualTreeView">
+      <HintPath>lib\Intermech.VirtualTreeView.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Localization\LocalizationHolder.cs" />
+    <Compile Include="Localization\CustomDescription.cs" />
+    <Compile Include="Localization\CustomDisplayName.cs" />
+    <Compile Include="Localization\CustomCategory.cs" />
+    <Compile Include="TechCard\Document\Client\Plugin.cs" />
+    <Compile Include="TechCard\Document\Client\Commands\BlankSetupCommandMode.cs" />
+    <Compile Include="TechCard\Document\Client\Commands\BlankSetupCommand.cs" />
+    <Compile Include="TechCard\Document\Client\Navigator\Commands\BlankSetupCommandProvider.cs" />
+    <Compile Include="TechCard\Document\Client\Navigator\Commands\DocumentTechCardCommandsEnum.cs" />
+    <Compile Include="TechCard\Document\Client\Navigator\Commands\DocumentTechCardCommands.cs" />
+    <Compile Include="TechCard\Document\Client\Navigator\Commands\DocumentTechCardProvider.cs" />
+    <Compile Include="TechCard\Document\Client\Setup\BlankSetup.cs" />
+    <Compile Include="TechCard\Document\Client\Setup\BlankSetupObjectCreator.cs" />
+    <Compile Include="TechCard\Document\Client\Setup\Views\BlankConfigView.cs" />
+    <Compile Include="TechCard\Document\Client\Setup\Views\FieldContentsConfigView.cs" />
+    <Compile Include="TechCard\Document\Client\Setup\Views\ObjectsOrdersConfigsView.cs" />
+    <Compile Include="TechCard\Document\Client\Setup\Views\PictureFieldConfigView.cs" />
+    <Compile Include="TechCard\Document\Client\Setup\Views\TextTemplateConfigView.cs" />
+    <Compile Include="TechCard\Document\Client\Setup\Views\VariantConfigView.cs" />
+    <Compile Include="TechCard\Document\Client\Configs\Visual\BlankSetupPage.cs" />
+    <Compile Include="TechCard\Document\Client\Configs\Visual\VirtualGroupNode.cs" />
+    <Compile Include="TechCard\Document\Client\Configs\Visual\ComboBoxExtension.cs" />
+    <Compile Include="TechCard\Document\Client\Configs\Visual\Dialog\SelectFieldContents\ObjectTypeSelector.cs" />
+    <Compile Include="TechCard\Document\Client\Configs\Visual\Dialog\SelectFieldContents\ObjTypeSelectorFilter.cs" />
+    <Compile Include="TechCard\Document\Client\Configs\Visual\Dialog\SelectFieldContents\SelectFieldContents.cs" />
+    <Compile Include="TechCard\Document\Client\Configs\Visual\ViewControllers\BlankConfigViewController.cs" />
+    <Compile Include="TechCard\Document\Client\Configs\Visual\ViewControllers\FieldContentsConfigViewController.cs" />
+    <Compile Include="TechCard\Document\Client\Configs\Visual\ViewControllers\ObjectsOrdersConfigsViewController.cs" />
+    <Compile Include="TechCard\Document\Client\Configs\Visual\ViewControllers\SetupViewController.cs" />
+    <Compile Include="TechCard\Document\Client\Configs\Visual\ViewControllers\PictureFieldConfigViewController.cs" />
+    <Compile Include="TechCard\Document\Client\Configs\Visual\ViewControllers\TextTemplateConfigViewController.cs" />
+    <Compile Include="TechCard\Document\Client\Configs\Visual\ViewControllers\VariantConfigViewController.cs" />
+    <Compile Include="TechCard\Document\Client\Configs\Visual\Services\ConfigViewService.cs" />
+    <Compile Include="TechCard\Document\Client\Configs\Visual\Interfaces\ConfigViewSettings.cs" />
+    <Compile Include="TechCard\Document\Client\Configs\Visual\Interfaces\FieldContentsConfigViewSettings.cs" />
+    <Compile Include="TechCard\Document\Client\Configs\Visual\Interfaces\IConfigView.cs" />
+    <Compile Include="TechCard\Document\Client\Configs\Visual\Interfaces\IConfigViewController.cs" />
+    <Compile Include="TechCard\Document\Client\Configs\Visual\Interfaces\IConfigViewService.cs" />
+    <Compile Include="TechCard\Document\Client\Configs\Visual\Interfaces\IConfigViewSettings.cs" />
+    <Compile Include="TechCard\Document\Client\Configs\Visual\Editor\FieldContents\AttributeFieldContentsEditor.cs" />
+    <Compile Include="TechCard\Document\Client\Configs\Visual\Editor\FieldContents\FormulaFieldContentsEditor.cs" />
+    <Compile Include="TechCard\Document\Client\Configs\Visual\Editor\FieldContents\TemplateEditor.cs" />
+    <Compile Include="TechCard\Document\Client\Configs\Visual\Editor\FieldContents\ParseEventHandler.cs" />
+    <Compile Include="TechCard\Document\Client\Configs\Visual\Editor\FieldContents\ParseEventArgs.cs" />
+    <Compile Include="TechCard\Document\Client\Configs\Visual\Editor\FieldContents\TemplateFieldContentsEditor.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="TechCard\Document\Client\Configs\Visual\Editor\FieldContents\TemplateEditor.resx" />
+    <EmbeddedResource Include="TechCard\Document\Client\Resources\CustomAttributesResources.resx" />
+    <EmbeddedResource Include="TechCard\Document\Client\Resources\CustomResources.resx" />
+    <EmbeddedResource Include="TechCard\Document\Client\Resources\VirtualGroup.png" />
+    <EmbeddedResource Include="TechCard\Document\Client\Setup\BlankSetup.resx" />
+    <EmbeddedResource Include="TechCard\Document\Client\Setup\Views\BlankConfigView.resx" />
+    <EmbeddedResource Include="TechCard\Document\Client\Setup\Views\FieldContentsConfigView.resx" />
+    <EmbeddedResource Include="TechCard\Document\Client\Setup\Views\ObjectsOrdersConfigsView.resx" />
+    <EmbeddedResource Include="TechCard\Document\Client\Setup\Views\PictureFieldConfigView.resx" />
+    <EmbeddedResource Include="TechCard\Document\Client\Setup\Views\TextTemplateConfigView.resx" />
+    <EmbeddedResource Include="TechCard\Document\Client\Setup\Views\VariantConfigView.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

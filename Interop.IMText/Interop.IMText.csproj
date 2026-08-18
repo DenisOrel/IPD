@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Interop.IMText.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{11E7D37A-577D-42AE-8457-5EE66121F6FB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Interop.IMText</AssemblyName>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <RootNamespace>Interop.Cadmech</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="ICadmech.cs" />
+    <Compile Include="Cadmech_COM.cs" />
+    <Compile Include="Cadmech_COMClass.cs" />
+    <Compile Include="IIMDoc.cs" />
+    <Compile Include="IMDoc_COM.cs" />
+    <Compile Include="IIMDoc2.cs" />
+    <Compile Include="IIMDoc3.cs" />
+    <Compile Include="IMDoc_COMClass.cs" />
+    <Compile Include="IIMAttrManager.cs" />
+    <Compile Include="IIMAttrManagerEvents.cs" />
+    <Compile Include="IIMAttrManagerEvents_Event.cs" />
+    <Compile Include="IMAttrManager_COM.cs" />
+    <Compile Include="IIMAttrManager2.cs" />
+    <Compile Include="IMAttrManager_COMClass.cs" />
+    <Compile Include="IIMFace.cs" />
+    <Compile Include="IMFace_COM.cs" />
+    <Compile Include="IMFace_COMClass.cs" />
+    <Compile Include="IIMFaceAttr.cs" />
+    <Compile Include="IMFaceAttr_COM.cs" />
+    <Compile Include="IIMFaceAttr2.cs" />
+    <Compile Include="IMFaceAttr_COMClass.cs" />
+    <Compile Include="IIMFaceAttrSR2.cs" />
+    <Compile Include="IMFaceAttrSR2_COM.cs" />
+    <Compile Include="IMFaceAttrSR2_COMClass.cs" />
+    <Compile Include="IIMFaceAttrSR.cs" />
+    <Compile Include="IMFaceAttrSR_COM.cs" />
+    <Compile Include="IMFaceAttrSR_COMClass.cs" />
+    <Compile Include="IIMFaceAttrTT2.cs" />
+    <Compile Include="IMFaceAttrTT2_COM.cs" />
+    <Compile Include="IMFaceAttrTT2_COMClass.cs" />
+    <Compile Include="IIMFaceAttrTT.cs" />
+    <Compile Include="IMFaceAttrTT_COM.cs" />
+    <Compile Include="IMFaceAttrTT_COMClass.cs" />
+    <Compile Include="IGeEntity.cs" />
+    <Compile Include="GeEntity_COM.cs" />
+    <Compile Include="GeEntity_COMClass.cs" />
+    <Compile Include="EAttrType.cs" />
+    <Compile Include="IM_EntityId.cs" />
+    <Compile Include="IIMAttrManagerEvents_OnAttributeAddedEventHandler.cs" />
+    <Compile Include="IIMAttrManagerEvents_OnAttributeDeletedEventHandle.cs" />
+    <Compile Include="IIMAttrManagerEvents_OnAttributeChangedEventHandle.cs" />
+    <Compile Include="HandleMode.cs" />
+    <Compile Include="eLeaderStyle.cs" />
+    <Compile Include="ERunMode.cs" />
+    <Compile Include="AttrDlgMode.cs" />
+    <Compile Include="IIMAttrManagerEvents_SinkHelper.cs" />
+    <Compile Include="IIMAttrManagerEvents_EventProvider.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

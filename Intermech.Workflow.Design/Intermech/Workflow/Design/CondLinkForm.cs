@@ -1,0 +1,98 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: Intermech.Workflow.Design.CondLinkForm
+// Assembly: Intermech.Workflow.Design, Version=7.0.2.1112, Culture=neutral, PublicKeyToken=null
+// MVID: AF8177C8-0B57-4C67-8EA5-DF33FBCB2FBD
+// Assembly location: D:\IPS\Client\Intermech.Workflow.Design.dll
+// XML documentation location: D:\IPS\Client\Intermech.Workflow.Design.xml
+
+using Intermech.Interfaces.Client;
+using System.ComponentModel;
+using System.Windows.Forms;
+
+#nullable disable
+namespace Intermech.Workflow.Design;
+
+/// <summary>Summary description for CondLinkForm.</summary>
+public class CondLinkForm : Form
+{
+  private Label label1;
+  private Button button1;
+  private Button button2;
+  private Button button3;
+  private Label label2;
+  /// <summary>Required designer variable.</summary>
+  private System.ComponentModel.Container components;
+
+  public CondLinkForm()
+  {
+    this.InitializeComponent();
+    HelpProvidersClass.SetHelpOptionForControl((Control) this, 1280 /*0x0500*/);
+  }
+
+  /// <summary>Clean up any resources being used.</summary>
+  protected override void Dispose(bool disposing)
+  {
+    if (disposing && this.components != null)
+      this.components.Dispose();
+    base.Dispose(disposing);
+  }
+
+  public static LinkKind QueryLinkKind()
+  {
+    using (CondLinkForm condLinkForm = new CondLinkForm())
+    {
+      switch (condLinkForm.ShowDialog())
+      {
+        case DialogResult.Ignore:
+          return LinkKind.Forward;
+        case DialogResult.Yes:
+          return LinkKind.True;
+        case DialogResult.No:
+          return LinkKind.False;
+        default:
+          return LinkKind.Backward;
+      }
+    }
+  }
+
+  /// <summary>
+  /// Required method for Designer support - do not modify
+  /// the contents of this method with the code editor.
+  /// </summary>
+  private void InitializeComponent()
+  {
+    ComponentResourceManager componentResourceManager = new ComponentResourceManager(typeof (CondLinkForm));
+    this.label1 = new Label();
+    this.button1 = new Button();
+    this.button2 = new Button();
+    this.button3 = new Button();
+    this.label2 = new Label();
+    this.SuspendLayout();
+    componentResourceManager.ApplyResources((object) this.label1, "label1");
+    this.label1.Name = "label1";
+    this.button1.DialogResult = DialogResult.Yes;
+    componentResourceManager.ApplyResources((object) this.button1, "button1");
+    this.button1.Name = "button1";
+    this.button2.DialogResult = DialogResult.No;
+    componentResourceManager.ApplyResources((object) this.button2, "button2");
+    this.button2.Name = "button2";
+    this.button3.DialogResult = DialogResult.Ignore;
+    componentResourceManager.ApplyResources((object) this.button3, "button3");
+    this.button3.Name = "button3";
+    this.label2.BorderStyle = BorderStyle.Fixed3D;
+    componentResourceManager.ApplyResources((object) this.label2, "label2");
+    this.label2.Name = "label2";
+    componentResourceManager.ApplyResources((object) this, "$this");
+    this.Controls.Add((Control) this.label2);
+    this.Controls.Add((Control) this.button3);
+    this.Controls.Add((Control) this.button2);
+    this.Controls.Add((Control) this.button1);
+    this.Controls.Add((Control) this.label1);
+    this.FormBorderStyle = FormBorderStyle.FixedDialog;
+    this.HelpButton = true;
+    this.MaximizeBox = false;
+    this.MinimizeBox = false;
+    this.Name = nameof (CondLinkForm);
+    this.ResumeLayout(false);
+  }
+}

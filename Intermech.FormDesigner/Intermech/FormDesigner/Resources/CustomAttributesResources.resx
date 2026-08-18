@@ -1,0 +1,1137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Attribute.FormDesigner.Sorted.Description" xml:space="preserve">
+    <value>Задаёт значение, показывающее, упорядочены ли позиции в элементе управления по алфавиту.</value>
+  </data>
+  <data name="Attribute_MinimumSize_Description" xml:space="preserve">
+    <value>Задает минимальный размер элемента управления.</value>
+  </data>
+  <data name="Attribute_DropDownAlign_Description" xml:space="preserve">
+    <value>Задает выравнивание для раскрывающегося календаря в элементе управления выбора даты/времени. Может принимать значения СЛЕВА или СПРАВА.</value>
+  </data>
+  <data name="Attribute.FormDesigner.TextMaskFormat" xml:space="preserve">
+    <value>Включение литералов и символов приглашения в форматированную строку</value>
+  </data>
+  <data name="Attribute_DisabledInDesign_Description" xml:space="preserve">
+    <value>Возвращает или задает значение, показывающее, сможет ли элемент управления отвечать на действия пользователя.</value>
+  </data>
+  <data name="Attribute.FormDesigner.MinDate.Description" xml:space="preserve">
+    <value>Задаёт минимальные дату и время, которые могут быть выбраны в элементе управления.</value>
+  </data>
+  <data name="Attribute_FormDesigner_DefautValueProp_Description" xml:space="preserve">
+    <value>Значение атрибута по умолчанию</value>
+  </data>
+  <data name="Attribute.FormDesigner.DropDownStyle.Description" xml:space="preserve">
+    <value>Задаёт значение, указывающее стиль поля со списком.</value>
+  </data>
+  <data name="Attribute_EnableWithoutAttribute_Name" xml:space="preserve">
+    <value>Использовать без атрибута</value>
+  </data>
+  <data name="Attribute_FormDesigner_MeasuredProp_Name" xml:space="preserve">
+    <value>Единица измерения</value>
+  </data>
+  <data name="Attribute.FormDesigner.Checked.Description" xml:space="preserve">
+    <value>Устанавливает для переключателя значение по умолчанию.</value>
+  </data>
+  <data name="Attribute_HorizontalScrollbar_Description" xml:space="preserve">
+    <value>Задает значение, определяющее, отображается ли горизонтальная линейка прокрутки в элементе управления.</value>
+  </data>
+  <data name="Attribute.FormDesigner.CutCopyMaskFormat" xml:space="preserve">
+    <value>Копирование литералов и символов приглашения в буфер</value>
+  </data>
+  <data name="Attribute.FormDesigner.BackgroundImageLayout.Name" xml:space="preserve">
+    <value>Размещение изображения</value>
+  </data>
+  <data name="Attribute.FormDesigner.UseVisualStyleBackColor.Name" xml:space="preserve">
+    <value>Использовать цвет фона</value>
+  </data>
+  <data name="Attribute_AutoSize_Name" xml:space="preserve">
+    <value>Авторазмер</value>
+  </data>
+  <data name="Attribute.FormDesigner.EnableWithoutAttribute.DisplayName" xml:space="preserve">
+    <value>Использовать без атрибута</value>
+  </data>
+  <data name="Attribute.FormDesigner.CalendarForeColor.Name" xml:space="preserve">
+    <value>Цвет текста календаря</value>
+  </data>
+  <data name="Attribute_Hint_Description" xml:space="preserve">
+    <value>Представляет всплывающее окно, с кратким описанием назначения элемента управления, когда пользователь наводит указатель мыши на элемент управления.</value>
+  </data>
+  <data name="Attribute_UseInExpertSystem_Name" xml:space="preserve">
+    <value>Использовать в экспертной системе</value>
+  </data>
+  <data name="Attribute.FormDesigner.Text.Description" xml:space="preserve">
+    <value>Задаёт текст, связанный с элементом управления.</value>
+  </data>
+  <data name="Attribute_Name_Name" xml:space="preserve">
+    <value>Наименование</value>
+  </data>
+  <data name="Attribute_Tag_Name" xml:space="preserve">
+    <value>Тег</value>
+  </data>
+  <data name="Attribute.FormDesigner.HidePromptOnLeave.Description" xml:space="preserve">
+    <value>Получает или задает значение, показывающее, скрываются ли символы приглашения в маске ввода, когда фокус покидает элемент управления "Текстовое поле с маской".</value>
+  </data>
+  <data name="Attribute_DefaultValue_Description" xml:space="preserve">
+    <value>Задает значение атрибута по умолчанию.</value>
+  </data>
+  <data name="SaveTabPageIndicesCaption" xml:space="preserve">
+    <value>Сохранять выбор страниц у компонентов Закладки</value>
+  </data>
+  <data name="Attribute.ContextSelection" xml:space="preserve">
+    <value>Контекстная выборка</value>
+  </data>
+  <data name="Attribute.FormDesigner.TabMultiline.Description" xml:space="preserve">
+    <value>Задаёт значение, которое показывает, можно ли располагать закладки в несколько строк.</value>
+  </data>
+  <data name="Attribute.FormDesigner.PromptChar" xml:space="preserve">
+    <value>Приглашение ввода данных</value>
+  </data>
+  <data name="Attribute.FormDesigner.Font.Description" xml:space="preserve">
+    <value>Задаёт шрифт текста, отображаемого элементом управления.</value>
+  </data>
+  <data name="Attribute.FormDesigner.CalendarTrailingForeColor.Name" xml:space="preserve">
+    <value>Цвет текста для конечных дат</value>
+  </data>
+  <data name="Attribute.FormDesigner.AutoScrollMinSize.Description" xml:space="preserve">
+    <value>Задаёт минимальный размер для автоматической прокрутки.</value>
+  </data>
+  <data name="Attribute_Image_Description" xml:space="preserve">
+    <value>Задает фоновое изображение, выводимое на элементе управления.</value>
+  </data>
+  <data name="Attribute_MaximumSize_Description" xml:space="preserve">
+    <value>Задает максимальный размер элемента управления.</value>
+  </data>
+  <data name="Attribute_AutoSizeMode_Description" xml:space="preserve">
+    <value>Задает режим установки автоматического размера элемента управления.</value>
+  </data>
+  <data name="Attribute.DataSourceName" xml:space="preserve">
+    <value>Наименование источника</value>
+  </data>
+  <data name="Attribute.FormDesigner.SkipLiterals" xml:space="preserve">
+    <value>Повторный ввод литералов</value>
+  </data>
+  <data name="Attribute_FormDesignerActionParams_Name" xml:space="preserve">
+    <value>Параметры действия</value>
+  </data>
+  <data name="Attribute.FormDesigner.AutoScroll.Description" xml:space="preserve">
+    <value>Задаёт значение, указывающее, будет ли контейнер давать возможность пользователю выполнять прокрутку элементов управления, помещённых вне его отображаемых границ.</value>
+  </data>
+  <data name="Attribute.FormDesigner.Format.Description" xml:space="preserve">
+    <value>Задаёт формат даты и времени, отображаемых в элементе управления.</value>
+  </data>
+  <data name="Attribute_FormDesigner_Help_FileName" xml:space="preserve">
+    <value>Наименование файла</value>
+  </data>
+  <data name="Attribute_FormDesigner_DefautValueProp_Name" xml:space="preserve">
+    <value>Значение по умолчанию</value>
+  </data>
+  <data name="Attribute_DetectUrls_Description" xml:space="preserve">
+    <value>Во время просмотра и редактирования текста выполняется поиск и выделение ссылок. Режим выделения ссылок может влиять на производительность при изменении больших объемов данных</value>
+  </data>
+  <data name="Attribute.FormDesigner.TabSizeMode.Description" xml:space="preserve">
+    <value>Задаёт способ установки размера закладки.</value>
+  </data>
+  <data name="Attribute.FormDesigner.AutoScrollMargin.Description" xml:space="preserve">
+    <value>Задаёт размер поля автоматической прокрутки.</value>
+  </data>
+  <data name="Attribute_Padding_Name" xml:space="preserve">
+    <value>Внешние отступы</value>
+  </data>
+  <data name="Attribute.FormDesigner.CustomFormat.Description" xml:space="preserve">
+    <value>Задаёт строку пользовательского формата даты/времени.</value>
+  </data>
+  <data name="Attribute_MaxDropDownItems_Description" xml:space="preserve">
+    <value>Задает максимальное число элементов, отображаемых в раскрывающейся части поля со списком.</value>
+  </data>
+  <data name="Attribute_TextAlign_Description" xml:space="preserve">
+    <value>Задает выравнивание текста в элементе управления.</value>
+  </data>
+  <data name="Attribute.FormDesigner.FormEvents.CategoryName" xml:space="preserve">
+    <value>События</value>
+  </data>
+  <data name="Attribute.FormDesigner.CalendarTitleBackColor.Description" xml:space="preserve">
+    <value>Задаёт цвет фона для заголовка в календаре.</value>
+  </data>
+  <data name="Attribute_Location_Name" xml:space="preserve">
+    <value>Расположение</value>
+  </data>
+  <data name="Attribute.FormDesigner.UseVisualStyleBackColor.Description" xml:space="preserve">
+    <value>Задаёт значение, которое указывает, можно ли использовать цвет фона для текущего стиля.</value>
+  </data>
+  <data name="Attribute_MaximumSize_Name" xml:space="preserve">
+    <value>Максимальный размер</value>
+  </data>
+  <data name="Attribute.FormDesigner.Location.Description" xml:space="preserve">
+    <value>Задаёт координаты левого верхнего угла элемента управления.</value>
+  </data>
+  <data name="Attribute_ForeColor_Name" xml:space="preserve">
+    <value>Цвет текста</value>
+  </data>
+  <data name="Attribute.FormDesigner.MinDate.Name" xml:space="preserve">
+    <value>Минимальная дата</value>
+  </data>
+  <data name="Attribute.FormDesigner.TabAlignment.Description" xml:space="preserve">
+    <value>Задаёт место расположения закладок.</value>
+  </data>
+  <data name="FormDesigner.PropGroupName.Data" xml:space="preserve">
+    <value>Данные</value>
+  </data>
+  <data name="Attribute.FormDesigner.Items.Description" xml:space="preserve">
+    <value>Получает объект, представляющий коллекцию элементов, содержащихся в данном элементе управления.</value>
+  </data>
+  <data name="Attribute_Text_Name" xml:space="preserve">
+    <value>Текст</value>
+  </data>
+  <data name="Attribute_DisabledInDesign_Name" xml:space="preserve">
+    <value>Запретить редактирование</value>
+  </data>
+  <data name="Attribute.FormDesigner_83" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="Attribute.FormDesigner_82" xml:space="preserve">
+    <value>Подчёркнутый</value>
+  </data>
+  <data name="Attribute.FormDesigner_81" xml:space="preserve">
+    <value>Перечёркнутый</value>
+  </data>
+  <data name="Attribute.FormDesigner_80" xml:space="preserve">
+    <value>Наклонный</value>
+  </data>
+  <data name="Attribute.FormDesigner_87" xml:space="preserve">
+    <value>Справа</value>
+  </data>
+  <data name="Attribute.FormDesigner_89" xml:space="preserve">
+    <value>Снизу</value>
+  </data>
+  <data name="Attribute.FormDesigner_92" xml:space="preserve">
+    <value>Разное</value>
+  </data>
+  <data name="Attribute.FormDesigner_93" xml:space="preserve">
+    <value>Устанавливает активный элемент</value>
+  </data>
+  <data name="Attribute.FormDesigner_91" xml:space="preserve">
+    <value>Активный элемент</value>
+  </data>
+  <data name="Attribute.FormDesigner_94" xml:space="preserve">
+    <value>Родительская форма</value>
+  </data>
+  <data name="Attribute.FormDesigner_95" xml:space="preserve">
+    <value>Расположение</value>
+  </data>
+  <data name="Attribute.FormDesigner_98" xml:space="preserve">
+    <value>Положение</value>
+  </data>
+  <data name="Attribute.FormDesigner_23" xml:space="preserve">
+    <value>Авторазмер</value>
+  </data>
+  <data name="Attribute.FormDesigner_25" xml:space="preserve">
+    <value>Выравнивание</value>
+  </data>
+  <data name="Attribute.FormDesigner_32" xml:space="preserve">
+    <value>Выравнивание изображения</value>
+  </data>
+  <data name="Attribute.FormDesigner_35" xml:space="preserve">
+    <value>Выравнивание текста</value>
+  </data>
+  <data name="Attribute.FormDesigner_37" xml:space="preserve">
+    <value>Цвет фона</value>
+  </data>
+  <data name="Attribute.FormDesigner_18" xml:space="preserve">
+    <value>Назначение атрибута</value>
+  </data>
+  <data name="Attribute.FormDesigner_11" xml:space="preserve">
+    <value>Данные</value>
+  </data>
+  <data name="Attribute.FormDesigner_16" xml:space="preserve">
+    <value>Если в объекте/связи нет данного атрибута, то будет добавляться при изменении.</value>
+  </data>
+  <data name="Attribute.FormDesigner_17" xml:space="preserve">
+    <value>Использовать в экспертной системе</value>
+  </data>
+  <data name="Attribute.FormDesigner_14" xml:space="preserve">
+    <value>Атрибут</value>
+  </data>
+  <data name="Attribute.FormDesigner_15" xml:space="preserve">
+    <value>Добавлять атрибут</value>
+  </data>
+  <data name="Attribute.FormDesigner_68" xml:space="preserve">
+    <value>Сортировка</value>
+  </data>
+  <data name="Attribute.FormDesigner_66" xml:space="preserve">
+    <value>К-во строк</value>
+  </data>
+  <data name="Attribute.FormDesigner_60" xml:space="preserve">
+    <value>Стиль</value>
+  </data>
+  <data name="Attribute.FormDesigner_74" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="Attribute.FormDesigner_75" xml:space="preserve">
+    <value>Размер</value>
+  </data>
+  <data name="Attribute.FormDesigner_77" xml:space="preserve">
+    <value>Жирный</value>
+  </data>
+  <data name="Attribute.FormDesigner_70" xml:space="preserve">
+    <value>Ширина</value>
+  </data>
+  <data name="Attribute.FormDesigner_71" xml:space="preserve">
+    <value>Высота</value>
+  </data>
+  <data name="Attribute.FormDesigner_72" xml:space="preserve">
+    <value>коорд. Х</value>
+  </data>
+  <data name="Attribute.FormDesigner_73" xml:space="preserve">
+    <value>коорд. Y</value>
+  </data>
+  <data name="Attribute.FormDesigner_43" xml:space="preserve">
+    <value>Выравнивание окна</value>
+  </data>
+  <data name="Attribute.FormDesigner_58" xml:space="preserve">
+    <value>Список</value>
+  </data>
+  <data name="Attribute.FormDesigner_56" xml:space="preserve">
+    <value>Прицип выделения</value>
+  </data>
+  <data name="Attribute.FormDesigner_55" xml:space="preserve">
+    <value>Выделять при нажатии</value>
+  </data>
+  <data name="Attribute.FormDesigner_50" xml:space="preserve">
+    <value>Внутренние отступы</value>
+  </data>
+  <data name="Attribute.FormDesigner_51" xml:space="preserve">
+    <value>Размещение</value>
+  </data>
+  <data name="Attribute_Format_Description" xml:space="preserve">
+    <value>Задает формат даты и времени, отображаемых в элементе управления.</value>
+  </data>
+  <data name="Attribute_Hint_Name" xml:space="preserve">
+    <value>Подсказка</value>
+  </data>
+  <data name="Attribute_CustomFormat_Name" xml:space="preserve">
+    <value>Формат пользователя</value>
+  </data>
+  <data name="Attribute_SelectFromImbase_Name" xml:space="preserve">
+    <value>Выбирать из IMBASE</value>
+  </data>
+  <data name="FormDesigner_PropName_Tag" xml:space="preserve">
+    <value>Тег</value>
+  </data>
+  <data name="Attribute_ParentPoint_Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Attribute.FormDesigner.Padding.Description" xml:space="preserve">
+    <value>Задаёт величину отступа вокруг текста в элементе управления.</value>
+  </data>
+  <data name="Attribute_TabStop_Name" xml:space="preserve">
+    <value>Переключение</value>
+  </data>
+  <data name="Attribute_AttributeChangingEvents_Name" xml:space="preserve">
+    <value>Изменение атрибута</value>
+  </data>
+  <data name="Attribute.FormDesigner.CustomFormat.Name" xml:space="preserve">
+    <value>Формат пользователя</value>
+  </data>
+  <data name="Attribute.FormDesigner_8" xml:space="preserve">
+    <value>Внешний вид</value>
+  </data>
+  <data name="Attribute.FormDesigner_3" xml:space="preserve">
+    <value>Сверху</value>
+  </data>
+  <data name="Attribute.FormDesigner_2" xml:space="preserve">
+    <value>Слева</value>
+  </data>
+  <data name="Attribute.FormDesigner_1" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="Attribute.FormDesigner_7" xml:space="preserve">
+    <value>Изображение из библиотеки</value>
+  </data>
+  <data name="Attribute.FormDesigner_5" xml:space="preserve">
+    <value>Поведение</value>
+  </data>
+  <data name="Attribute.FormDesigner.AcceptReturn.Description" xml:space="preserve">
+    <value>Если разрешено, то добавляется новая строка, иначе нажимается кнопка &lt;по умолчанию&gt;</value>
+  </data>
+  <data name="Attribute.FormDesigner.ResetOnPrompt" xml:space="preserve">
+    <value>Сброс текущей позиции при вводе знака приглашения</value>
+  </data>
+  <data name="Attribute_ForeColor_Description" xml:space="preserve">
+    <value>Задает основной цвет элемента управления, который используется для отображаемого текста.</value>
+  </data>
+  <data name="Attribute.FormDesigner.ResetOnSpace.Description" xml:space="preserve">
+    <value>Тип вводимых символов определяет, будет ли подсистема обработки маски перемещаться к следующему символу или останется в текущей позиции и будет ожидать ввода символа, удовлетворяющего требованиям. Если вводится пробел, что не совпадает с текущей позицией маски, недоступной для редактирования, то подсистема обработки маски перейдет к следующему символу в маске.</value>
+  </data>
+  <data name="Attribute_ImageAlign_Description" xml:space="preserve">
+    <value>Задает выравнивание изображения, отображаемого в элементе управления.</value>
+  </data>
+  <data name="Attribute_Sorted_Description" xml:space="preserve">
+    <value>Задает значение, показывающее, упорядочены ли позиции в элементе управления по алфавиту.</value>
+  </data>
+  <data name="Attribute_FormDesigner_DisabledProp_Name" xml:space="preserve">
+    <value>Запретить редактирование</value>
+  </data>
+  <data name="Attribute.FormDesigner.ImageAlign.Description" xml:space="preserve">
+    <value>Задаёт выравнивание изображения, отображаемого в элементе управления.</value>
+  </data>
+  <data name="Attribute.FormDesigner.BeepOnError" xml:space="preserve">
+    <value>Сигнал при ошибке</value>
+  </data>
+  <data name="Attribute.FormDesigner.ScrollBars.Description" xml:space="preserve">
+    <value>Указывает отображать ли полосы прокрутки элементе управления.</value>
+  </data>
+  <data name="Attribute.FormDesigner.TabPages.Description" xml:space="preserve">
+    <value>Возвращает коллекцию закладок.</value>
+  </data>
+  <data name="Attribute.FormDesigner.CheckOnClick.Description" xml:space="preserve">
+    <value>Задаёт значение, определяющее, следует ли переключить флажок, когда выбирается элемент.</value>
+  </data>
+  <data name="Attribute.FormDesigner.BackgroundImage.Description" xml:space="preserve">
+    <value>Задаёт фоновое изображение, выводимое на элементе управления.</value>
+  </data>
+  <data name="Attribute.FormDesigner.CalendarFont.Description" xml:space="preserve">
+    <value>Задаёт стиль шрифта, применяемый к календарю.</value>
+  </data>
+  <data name="Attribute.FormDesigner.HideSelection.Description" xml:space="preserve">
+    <value>Задаёт значение, которое показывает, оставлять ли выделенным текст, если элемент управления потерял активность.</value>
+  </data>
+  <data name="Attribute.FormDesigner.ShowUpDown.Name" xml:space="preserve">
+    <value>Использовать элемента управления «вверх и вниз»</value>
+  </data>
+  <data name="Attribute.FormDesigner.MaxDropDownItems.Description" xml:space="preserve">
+    <value>Задаёт максимальное число элементов, отображаемых в раскрывающейся части поля со списком.</value>
+  </data>
+  <data name="Attribute.FormDesigner.TextMaskFormat.Description" xml:space="preserve">
+    <value>Свойство определяет, как обрабатываются литералы и символы приглашения в маске, когда создается форматированная строка. В частности, оно определяет, включаются ли в свойство "Текст" только литералы, только символы приглашения или символы обоих категорий.</value>
+  </data>
+  <data name="Attribute_Name_Description" xml:space="preserve">
+    <value>Задает наименование элемента управления.</value>
+  </data>
+  <data name="Attribute_TabStop_Description" xml:space="preserve">
+    <value>Задает значение, показывающее, можно ли передать фокус данному элементу управления при помощи клавиши TAB.</value>
+  </data>
+  <data name="Attribute.FormDesigner.Margin.Description" xml:space="preserve">
+    <value>Задаёт расстояние между элементами управления.</value>
+  </data>
+  <data name="Attribute.FormDesigner.UseSystemPasswordChar.Name" xml:space="preserve">
+    <value>Использовать системный кодовый символ</value>
+  </data>
+  <data name="Attribute_Anchor_Description" xml:space="preserve">
+    <value>Задает значение, указывающее, какие края элемента управления будут привязаны к краям контейнера.</value>
+  </data>
+  <data name="Attribute_Sorted_Name" xml:space="preserve">
+    <value>Сортировка</value>
+  </data>
+  <data name="SaveTabPageIndicesDescription" xml:space="preserve">
+    <value>При редактировании форм сохраняется выбор страниц у компонентов Закладки, при отключенном параметре по умолчанию выбираются первые страницы</value>
+  </data>
+  <data name="Attribute.FormDesigner.BackgroundImageLayout.Description" xml:space="preserve">
+    <value>Задаёт способ размещения фонового изображения.</value>
+  </data>
+  <data name="Attribute_Category_Behavior" xml:space="preserve">
+    <value>Поведение</value>
+  </data>
+  <data name="Attribute_Anchor_Name" xml:space="preserve">
+    <value>Привязка</value>
+  </data>
+  <data name="Attribute_AutoSizeMode_Name" xml:space="preserve">
+    <value>Режим авторазмера</value>
+  </data>
+  <data name="Attribute.FormDesigner.Text" xml:space="preserve">
+    <value>Текст</value>
+  </data>
+  <data name="Attribute.FormDesigner.ForeColor.Description" xml:space="preserve">
+    <value>Задаёт основной цвет элемента управления, который используется для отображаемого текста.</value>
+  </data>
+  <data name="Attribute.FormDesigner.CutCopyMaskFormat.Description" xml:space="preserve">
+    <value>Получает или задает значение, определяющее, копируются ли литералы и символы приглашения в буфер обмена.
+Свойство "Копирование литералов и символов приглашения в буфер" определяет правила интерпретации текста, выбранного в элементе управления, во время копирования в буфер обмена.</value>
+  </data>
+  <data name="Attribute.FormDesigner.MaxDate.Name" xml:space="preserve">
+    <value>Максимальная дата</value>
+  </data>
+  <data name="Attribute_AttributeChangingEvents_Description" xml:space="preserve">
+    <value>Событие возникает после изменения значения атрибута в элементе управления, до сохранения измененного значения в объекте.</value>
+  </data>
+  <data name="Attribute.FormDesigner.ColumnWidth.Description" xml:space="preserve">
+    <value>Задаёт ширину столбцов в элементе управления с несколькими столбцами.</value>
+  </data>
+  <data name="Attribute_Format_Name" xml:space="preserve">
+    <value>Формат даты и времени</value>
+  </data>
+  <data name="Attribute_MaxCountValue_Name" xml:space="preserve">
+    <value>Максимальное количество значений</value>
+  </data>
+  <data name="Attribute_FormDesigner_Help_PartLabel_Description" xml:space="preserve">
+    <value>Метка раздела в файле справки</value>
+  </data>
+  <data name="Attribute_FormDesigner_Help_CategoryName" xml:space="preserve">
+    <value>Справка</value>
+  </data>
+  <data name="Attribute.FormDesigner.Size.Description" xml:space="preserve">
+    <value>Задаёт высоту и ширину элемента управления.</value>
+  </data>
+  <data name="Attribute_FormDesigner_DisabledProp_Description" xml:space="preserve">
+    <value>Возвращает или задает значение, показывающее, сможет ли элемент управления отвечать на действия пользователя.</value>
+  </data>
+  <data name="Attribute_FormDesigner_Help_PartLabel" xml:space="preserve">
+    <value>Метка раздела</value>
+  </data>
+  <data name="Attribute_TabIndex_Name" xml:space="preserve">
+    <value>Индекс переключения</value>
+  </data>
+  <data name="FormDesigner_PropDescr_Tag" xml:space="preserve">
+    <value>Дополнительное описание.</value>
+  </data>
+  <data name="Attribute.FormDesigner.CalendarForeColor.Description" xml:space="preserve">
+    <value>Задаёт цвет текста календаря.</value>
+  </data>
+  <data name="Attribute_AttributeInfo_Name" xml:space="preserve">
+    <value>Атрибут</value>
+  </data>
+  <data name="Attribute.FormDesigner.MaxDate.Description" xml:space="preserve">
+    <value>Задаёт максимальные дату и время, которые могут быть выбраны в элементе управления.</value>
+  </data>
+  <data name="Attribute_Category_Data" xml:space="preserve">
+    <value>Данные</value>
+  </data>
+  <data name="Attribute.FormDesigner.ImageConverter.RawFormat" xml:space="preserve">
+    <value>Формат изображения</value>
+  </data>
+  <data name="Attribute.FormDesigner.CalendarTitleBackColor.Name" xml:space="preserve">
+    <value>Цвет фона заголовка календаря</value>
+  </data>
+  <data name="Attribute.FormDesigner.ToolTip" xml:space="preserve">
+    <value>Подсказка</value>
+  </data>
+  <data name="Attribute_EnableWithoutAttribute_Description" xml:space="preserve">
+    <value>Разрешить доступ к контролу даже если он не связан с атрибутом</value>
+  </data>
+  <data name="Attribute.FormDesigner.SkipLiterals.Description" xml:space="preserve">
+    <value>Когда пользователь вводит символы в элемент управления "Текстовое поле с маской" во время выполнения, в текущей позиции может оказаться литерал. Свойство "Повторный ввод литералов" описывает, как должен обрабатываться символ, вводимый пользователем для следующей позиции в маске.</value>
+  </data>
+  <data name="Attribute_DetectUrls_Name" xml:space="preserve">
+    <value>Выделение ссылок</value>
+  </data>
+  <data name="Attribute_MaxDropDownItems_Name" xml:space="preserve">
+    <value>Количество строк</value>
+  </data>
+  <data name="Attribute.FormDesigner.TabIndex.Description" xml:space="preserve">
+    <value>Задаёт порядок переключения элементов.</value>
+  </data>
+  <data name="Attribute.FormDesigner.Name.Description" xml:space="preserve">
+    <value>Задаёт имя элемента управления.</value>
+  </data>
+  <data name="Attribute.FormDesigner.FormEvents.DisplayName" xml:space="preserve">
+    <value>Дополнительные события</value>
+  </data>
+  <data name="Attribute.FormDesigner.AllowPromptAsInput" xml:space="preserve">
+    <value>Разрешить приглашение ввода данных как символ</value>
+  </data>
+  <data name="Attribute_TabIndex_Description" xml:space="preserve">
+    <value>Задает порядок переключения элементов.</value>
+  </data>
+  <data name="Attribute_Padding_Description" xml:space="preserve">
+    <value>Задает величину отступа вокруг текста в элементе управления.</value>
+  </data>
+  <data name="Attribute.FormDesigner.WordWrap.Description" xml:space="preserve">
+    <value>Показывает, переносятся ли автоматически в начало следующей строки слова текста по достижении границы многострочного текстового поля.</value>
+  </data>
+  <data name="Attribute.FormDesigner.UseSystemPasswordChar.Description" xml:space="preserve">
+    <value>В качестве кодового символа используется системно-определённый символ.</value>
+  </data>
+  <data name="Attribute_CanAddAttribute_Description" xml:space="preserve">
+    <value>Если в объекте/связи нет данного атрибута, то будет добавляться при изменении.</value>
+  </data>
+  <data name="Attribute_FormDesignerAction_Name" xml:space="preserve">
+    <value>Действие</value>
+  </data>
+  <data name="Attribute_TextAlign_Name" xml:space="preserve">
+    <value>Выравнивание текста</value>
+  </data>
+  <data name="Attribute.FormDesigner.TabAppearance.Description" xml:space="preserve">
+    <value>Задаёт внешний вид закладок.</value>
+  </data>
+  <data name="FormDesigner_PropDescr_PictureSelectMode" xml:space="preserve">
+    <value>Метод выбора изображения: фиксированный при редактировании объекта формы или пользовательский при заполнении формы данными объекта/связи</value>
+  </data>
+  <data name="Attribute_AutoSize_Description" xml:space="preserve">
+    <value>Задает значение, показывающее, изменяет ли элемент управления размеры автоматически для отображения всего содержимого.</value>
+  </data>
+  <data name="Attribute_AlwaysEnabled_Name" xml:space="preserve">
+    <value>Всегда активна</value>
+  </data>
+  <data name="Attribute.FormDesigner.HorizontalScrollbar.Description" xml:space="preserve">
+    <value>Задаёт значение, определяющее, отображается ли горизонтальная линейка прокрутки в элементе управления.</value>
+  </data>
+  <data name="Attribute.FormDesigner.PromptChar.Description" xml:space="preserve">
+    <value>Получает или задает символ, представляющий отсутствие данных, введенных пользователем в элемент управления "Текстовое поле с маской".
+Символ "Приглашение ввода данных" будет отображаться в элементе управления "Текстовое поле с маской" во всех позициях маски, которые еще не заполненных пользователем.</value>
+  </data>
+  <data name="FormDesigner_PropName_PictureSelectMode" xml:space="preserve">
+    <value>Выбор изображения</value>
+  </data>
+  <data name="Attribute_ScrollAlwaysVisible_Name" xml:space="preserve">
+    <value>Прокрутка всегда видна</value>
+  </data>
+  <data name="Attribute.FormDesigner.ResetOnPrompt.Description" xml:space="preserve">
+    <value>Элемент управления "Текстовое поле с маской" поддерживает специальную обработку для двух категорий символов — пробелов и символов приглашения. Обычно каждый вводимый символ проверяется по маске, а затем либо принимается, либо отклоняется. Если свойство "Приглашение ввода данных" имеет значение, отличное от null, то установка данного свойства в значение "Да" вызовет специальную обработку для символа приглашения.</value>
+  </data>
+  <data name="Attribute.FormDesigner.CalendarFont.Name" xml:space="preserve">
+    <value>Шрифт календаря</value>
+  </data>
+  <data name="Attribute.FormDesigner.MultiColumn.Description" xml:space="preserve">
+    <value>Задаёт значение, определяющее, поддерживает ли элемент управления несколько столбцов.</value>
+  </data>
+  <data name="Attribute_FlatStyle_Description" xml:space="preserve">
+    <value>Задает плоский внешний вид для элемента управления.</value>
+  </data>
+  <data name="Attribute.FormDesigner.MinimumSize.Description" xml:space="preserve">
+    <value>Задаёт минимальный размер элемента управления.</value>
+  </data>
+  <data name="Attribute.FormDesigner.CheckAlign.Description" xml:space="preserve">
+    <value>Задаёт выравнивание переключателя по горизонтали и по вертикали в элементе управления.</value>
+  </data>
+  <data name="Attribute.FormDesigner.DropDownAlign.Name" xml:space="preserve">
+    <value>Положение выпадающего календаря</value>
+  </data>
+  <data name="Attribute.FormDesigner.ItemsCollection.Description" xml:space="preserve">
+    <value>Задаёт коллекцию строк для элемента управления.</value>
+  </data>
+  <data name="Attribute_Location_Description" xml:space="preserve">
+    <value>Задает координаты левого верхнего угла элемента управления.</value>
+  </data>
+  <data name="Attribute_BackColor_Description" xml:space="preserve">
+    <value>Задает цвет фона элемента управления.</value>
+  </data>
+  <data name="Attribute_FormDesigner_Help_FileName_Description" xml:space="preserve">
+    <value>Путь к файлу справки</value>
+  </data>
+  <data name="Attribute_AlwaysEnabled_Description" xml:space="preserve">
+    <value>Элемент управления всегда находится в активном состоянии.</value>
+  </data>
+  <data name="Attribute.FormDesigner.EnableWithoutAttribute.Description" xml:space="preserve">
+    <value>Разрешить доступ к контролу даже если он не связан с атрибутом</value>
+  </data>
+  <data name="Attribute_ImageAlign_Name" xml:space="preserve">
+    <value>Выравнивание изображения</value>
+  </data>
+  <data name="Attribute_CheckOnClick_Description" xml:space="preserve">
+    <value>Указывает, следует ли переключать флажок одним щелчком.</value>
+  </data>
+  <data name="Attribute_UseInExpertSystem_Description" xml:space="preserve">
+    <value>Атрибут может быть рассчитан экспертной системой.</value>
+  </data>
+  <data name="Attribute.FormDesigner.ShowUpDown.Description" xml:space="preserve">
+    <value>Задаёт значение, которое указывает на использование элемента управления «вверх и вниз» для настройки значения даты и времени.</value>
+  </data>
+  <data name="Attribute_CanAddAttribute_Name" xml:space="preserve">
+    <value>Добавлять атрибут</value>
+  </data>
+  <data name="Attribute_BorderStyle_Description" xml:space="preserve">
+    <value>Задает вид обрамления для элемента управления.</value>
+  </data>
+  <data name="Attribute_MinimumSize_Name" xml:space="preserve">
+    <value>Минимальный размер</value>
+  </data>
+  <data name="Attribute_DefaultValue_Name" xml:space="preserve">
+    <value>Значение по умолчанию</value>
+  </data>
+  <data name="Attribute.FormDesigner.AllowPromptAsInput.Description" xml:space="preserve">
+    <value>Получает или задает значение, показывающее, может ли символ "Приглашение ввода данных" вводиться пользователем в качестве допустимых данных.
+Даже если значение этого свойства равно "Да", символ приглашения, чтобы быть принятым, должен быть допустим для текущей позиции маски.</value>
+  </data>
+  <data name="Attribute.FormDesigner.AutoSizeMode.Description" xml:space="preserve">
+    <value>Задаёт режим установки автоматического размера элемента управления.</value>
+  </data>
+  <data name="Attribute_FormDesignerActionParams_Description" xml:space="preserve">
+    <value>Задает параметры действия.</value>
+  </data>
+  <data name="Attribute_Font_Description" xml:space="preserve">
+    <value>Задает шрифт текста, отображаемого элементом управления.</value>
+  </data>
+  <data name="Attribute.FormDesigner.Image.Description" xml:space="preserve">
+    <value>Задаёт изображение, отображаемое в элементе управления.</value>
+  </data>
+  <data name="Attribute.FormDesigner.UseTabStops.Description" xml:space="preserve">
+    <value>Задаёт значение, указывающее, может ли элемент управления распознавать знаки табуляции и превращать их в отступы при рисовании строк списка.</value>
+  </data>
+  <data name="Attribute.FormDesigner.HotTrack.Description" xml:space="preserve">
+    <value>Задаёт возможность быстрого переключения между закладками.</value>
+  </data>
+  <data name="Attribute_HorizontalScrollbar_Name" xml:space="preserve">
+    <value>Горизонтальная прокрутка</value>
+  </data>
+  <data name="Attribute_Margin_Description" xml:space="preserve">
+    <value>Задает расстояние между элементами управления.</value>
+  </data>
+  <data name="Attribute.FormDesigner.Dock.Description" xml:space="preserve">
+    <value>Задаёт край родительского контейнера, к которому прикрепляется элемент управления.</value>
+  </data>
+  <data name="Attribute_DefaultMeasured_Description" xml:space="preserve">
+    <value>Задает единицу измерения по умолчанию.</value>
+  </data>
+  <data name="Attribute_MaxCountValue_Description" xml:space="preserve">
+    <value>Ограничение на количество значений атрибута. 0 - ограничение не задано.</value>
+  </data>
+  <data name="Attribute.FormDesigner.DockPadding.Description" xml:space="preserve">
+    <value>Возвращает параметры для заполнения стыковки на всех краях элемента управления.</value>
+  </data>
+  <data name="Attribute.FormDesigner.AcceptsTab.Description" xml:space="preserve">
+    <value>Задаёт возможность вводить символ табуляции по нажатию на клавишу Tab.</value>
+  </data>
+  <data name="Attribute_BackColor_Name" xml:space="preserve">
+    <value>Цвет фона</value>
+  </data>
+  <data name="Attribute.FormDesigner.AutoSizeMode.Name" xml:space="preserve">
+    <value>Режим авторазмера</value>
+  </data>
+  <data name="Attribute.FormDesigner_208" xml:space="preserve">
+    <value>Размер закладки</value>
+  </data>
+  <data name="Attribute.FormDesigner_206" xml:space="preserve">
+    <value>Быстрое переключение</value>
+  </data>
+  <data name="Attribute.FormDesigner_218" xml:space="preserve">
+    <value>Список страниц</value>
+  </data>
+  <data name="Attribute.FormDesigner_210" xml:space="preserve">
+    <value>Многострочный</value>
+  </data>
+  <data name="Attribute.FormDesigner_214" xml:space="preserve">
+    <value>Отображать подсказки</value>
+  </data>
+  <data name="Attribute.FormDesigner_228" xml:space="preserve">
+    <value>Принимать Tab</value>
+  </data>
+  <data name="Attribute.FormDesigner_223" xml:space="preserve">
+    <value>Многострочность</value>
+  </data>
+  <data name="Attribute.FormDesigner_222" xml:space="preserve">
+    <value>Задаёт тект подсказки, которая появляется при наведении курсора на элемент управления.</value>
+  </data>
+  <data name="Attribute.FormDesigner_221" xml:space="preserve">
+    <value>Текст подсказки</value>
+  </data>
+  <data name="Attribute.FormDesigner_226" xml:space="preserve">
+    <value>Принимать ввод</value>
+  </data>
+  <data name="Attribute.FormDesigner_225" xml:space="preserve">
+    <value>Строки</value>
+  </data>
+  <data name="Attribute.FormDesigner_238" xml:space="preserve">
+    <value>Только чтение</value>
+  </data>
+  <data name="Attribute.FormDesigner_232" xml:space="preserve">
+    <value>Длина текста</value>
+  </data>
+  <data name="Attribute.FormDesigner_230" xml:space="preserve">
+    <value>Слова целиком</value>
+  </data>
+  <data name="Attribute.FormDesigner_236" xml:space="preserve">
+    <value>Скрыть выделение</value>
+  </data>
+  <data name="Attribute.FormDesigner_234" xml:space="preserve">
+    <value>Кодовый символ</value>
+  </data>
+  <data name="Attribute.FormDesigner_249" xml:space="preserve">
+    <value>АвтоЗадержка</value>
+  </data>
+  <data name="Attribute.FormDesigner_248" xml:space="preserve">
+    <value>Определяет, активен ли компонент</value>
+  </data>
+  <data name="Attribute.FormDesigner_245" xml:space="preserve">
+    <value>Полосы прокрутки</value>
+  </data>
+  <data name="Attribute.FormDesigner_247" xml:space="preserve">
+    <value>Активно</value>
+  </data>
+  <data name="Attribute.FormDesigner_243" xml:space="preserve">
+    <value>Кодовый символ</value>
+  </data>
+  <data name="Attribute.FormDesigner_254" xml:space="preserve">
+    <value>Задержка перерисовки</value>
+  </data>
+  <data name="Attribute.FormDesigner_255" xml:space="preserve">
+    <value>Определяет задержку, при наведении с одного совета на другой</value>
+  </data>
+  <data name="Attribute.FormDesigner_256" xml:space="preserve">
+    <value>Отображать всегда</value>
+  </data>
+  <data name="Attribute.FormDesigner_257" xml:space="preserve">
+    <value>Если установлено, то совет будет показываться всегда (даже при неактивном элементе)</value>
+  </data>
+  <data name="Attribute.FormDesigner_250" xml:space="preserve">
+    <value>АвтоЗадержка Отображения</value>
+  </data>
+  <data name="Attribute.FormDesigner_251" xml:space="preserve">
+    <value>Определяет задержку, как долго будет виден совет</value>
+  </data>
+  <data name="Attribute.FormDesigner_252" xml:space="preserve">
+    <value>Начальная Задержка</value>
+  </data>
+  <data name="Attribute.FormDesigner_253" xml:space="preserve">
+    <value>Определяет задержку, как долго указатель должен быть неподвижен перед появлением совета</value>
+  </data>
+  <data name="Attribute.FormDesigner_183" xml:space="preserve">
+    <value>Изображение с диска</value>
+  </data>
+  <data name="Attribute.FormDesigner_180" xml:space="preserve">
+    <value>Использовать TAB</value>
+  </data>
+  <data name="Attribute.FormDesigner_186" xml:space="preserve">
+    <value>Стиль размеров</value>
+  </data>
+  <data name="Attribute.FormDesigner_188" xml:space="preserve">
+    <value>АвтоПрокрутка</value>
+  </data>
+  <data name="Attribute.FormDesigner_192" xml:space="preserve">
+    <value>АвтоПрокрутка мин.размеры</value>
+  </data>
+  <data name="Attribute.FormDesigner_190" xml:space="preserve">
+    <value>АвтоПрокрутка размеры</value>
+  </data>
+  <data name="Attribute.FormDesigner_196" xml:space="preserve">
+    <value>Шаблон привязки</value>
+  </data>
+  <data name="Attribute.FormDesigner_121" xml:space="preserve">
+    <value>Внешние отступы</value>
+  </data>
+  <data name="Attribute.FormDesigner_123" xml:space="preserve">
+    <value>Связи с объектами</value>
+  </data>
+  <data name="Attribute.FormDesigner_109" xml:space="preserve">
+    <value>Индекс переключения</value>
+  </data>
+  <data name="Attribute.FormDesigner_102" xml:space="preserve">
+    <value>(Имя)</value>
+  </data>
+  <data name="Attribute.FormDesigner_103" xml:space="preserve">
+    <value>Проектирование</value>
+  </data>
+  <data name="Attribute.FormDesigner_100" xml:space="preserve">
+    <value>Привязка</value>
+  </data>
+  <data name="Attribute.FormDesigner_107" xml:space="preserve">
+    <value>Переключение</value>
+  </data>
+  <data name="Attribute.FormDesigner_134" xml:space="preserve">
+    <value>Стиль границ</value>
+  </data>
+  <data name="Attribute.FormDesigner_136" xml:space="preserve">
+    <value>Курсор</value>
+  </data>
+  <data name="Attribute.FormDesigner_168" xml:space="preserve">
+    <value>Размер изображения</value>
+  </data>
+  <data name="Attribute.FormDesigner_169" xml:space="preserve">
+    <value>Ширина колонки</value>
+  </data>
+  <data name="Attribute.FormDesigner_166" xml:space="preserve">
+    <value>Глубина цвета</value>
+  </data>
+  <data name="Attribute.FormDesigner_167" xml:space="preserve">
+    <value>Изображения</value>
+  </data>
+  <data name="Attribute.FormDesigner_161" xml:space="preserve">
+    <value>Цвет прозрачности</value>
+  </data>
+  <data name="Attribute.FormDesigner_119" xml:space="preserve">
+    <value>Максимальный размер</value>
+  </data>
+  <data name="Attribute.FormDesigner_113" xml:space="preserve">
+    <value>Цвет текста</value>
+  </data>
+  <data name="Attribute.FormDesigner_111" xml:space="preserve">
+    <value>Шрифт</value>
+  </data>
+  <data name="Attribute.FormDesigner_117" xml:space="preserve">
+    <value>Минимальный размер</value>
+  </data>
+  <data name="Attribute.FormDesigner_175" xml:space="preserve">
+    <value>Несколько колонок</value>
+  </data>
+  <data name="Attribute.FormDesigner_177" xml:space="preserve">
+    <value>Прокрутка всегда видна</value>
+  </data>
+  <data name="Attribute.FormDesigner_173" xml:space="preserve">
+    <value>Горизонтальная прокрутка</value>
+  </data>
+  <data name="Attribute.FormDesigner.ShowToolTips.Description" xml:space="preserve">
+    <value>Задаёт значение, которое позволяет отображать подсказку при наведении курсора на элемент управления.</value>
+  </data>
+  <data name="Attribute.FormDesigner.CalendarTitleForeColor.Description" xml:space="preserve">
+    <value>Задаёт основной цвет для заголовка календаря.</value>
+  </data>
+  <data name="Attribute_Margin_Name" xml:space="preserve">
+    <value>Внешние отступы</value>
+  </data>
+  <data name="Attribute_Dock_Description" xml:space="preserve">
+    <value>Задает край родительского контейнера, к которому прикрепляется элемент управления.</value>
+  </data>
+  <data name="Attribute_Text_Description" xml:space="preserve">
+    <value>Задает текст, связанный с элементом управления.</value>
+  </data>
+  <data name="Attribute.FormDesigner.ImageConverter.Size" xml:space="preserve">
+    <value>Размер</value>
+  </data>
+  <data name="Attribute_FormDesigner_MeasuredProp_Description" xml:space="preserve">
+    <value>Единица измерения по умолчанию</value>
+  </data>
+  <data name="Attribute.FormDesigner.Format.Name" xml:space="preserve">
+    <value>Формат даты и времени</value>
+  </data>
+  <data name="Attribute.FormDesigner.MaximumSize.Description" xml:space="preserve">
+    <value>Задаёт максимальный размер элемента управления.</value>
+  </data>
+  <data name="Attribute_Size_Description" xml:space="preserve">
+    <value>Задает высоту и ширину элемента управления.</value>
+  </data>
+  <data name="Attribute.FormDesigner.DropDownAlign.Description" xml:space="preserve">
+    <value>Задаёт выравнивание для раскрывающегося календаря элементе управления выбора даты/времени. Может принимать значения СЛЕВА или СПРАВА.</value>
+  </data>
+  <data name="Attribute_SelectFromImbase_Description" xml:space="preserve">
+    <value>Объекты будут выбираться с помощью окны выбора IMBASE.</value>
+  </data>
+  <data name="Attribute.FormDesigner.BeepOnError.Description" xml:space="preserve">
+    <value>Получает или задает значение, показывающее, подает ли элемент управления "Текстовое поле с маской" звуковой сигнал для каждого неверного нажатия клавиши.</value>
+  </data>
+  <data name="Attribute.FormDesigner.Checked" xml:space="preserve">
+    <value>Отмечено</value>
+  </data>
+  <data name="Attribute_CustomFormat_Description" xml:space="preserve">
+    <value>Задает строку пользовательского формата даты/времени.</value>
+  </data>
+  <data name="Attribute_ParentPoint_Name" xml:space="preserve">
+    <value>Назначение атрибута</value>
+  </data>
+  <data name="Attribute.FormDesigner.ResetOnSpace" xml:space="preserve">
+    <value>Сброс текущей позиции при вводе знака пробела</value>
+  </data>
+  <data name="Attribute.FormDesigner.TextMaxLength.Description" xml:space="preserve">
+    <value>Максимальная длина текста.</value>
+  </data>
+  <data name="Attribute_Image_Name" xml:space="preserve">
+    <value>Изображение с диска</value>
+  </data>
+  <data name="Attribute.FormDesigner.TabStop.Description" xml:space="preserve">
+    <value>Задаёт значение, показывающее, можно ли передать фокус данному элементу управления при помощи клавиши TAB.</value>
+  </data>
+  <data name="Attribute_Category_Layout" xml:space="preserve">
+    <value>Размещение</value>
+  </data>
+  <data name="Attribute.FormDesigner.ScrollAlwaysVisible.Description" xml:space="preserve">
+    <value>Задаёт значение, указывающее, что полосы прокрутки будут постоянно видны в элементе управления.</value>
+  </data>
+  <data name="Attribute.FormDesigner.CalendarMonthBackground.Description" xml:space="preserve">
+    <value>Задаёт цвет фона для месяца в календаре.</value>
+  </data>
+  <data name="Attribute_Size_Name" xml:space="preserve">
+    <value>Размер</value>
+  </data>
+  <data name="Attribute.FormDesigner.TextMultiline.Description" xml:space="preserve">
+    <value>Задаёт возможность использования многострочного режима для элемента управления.</value>
+  </data>
+  <data name="Attribute_CheckOnClick_Name" xml:space="preserve">
+    <value>Выделять при нажатии</value>
+  </data>
+  <data name="Attribute.FormDesigner.Anchor.Description" xml:space="preserve">
+    <value>Задаёт значение, указывающее, какие края элемента управления будут привязаны к краям контейнера.</value>
+  </data>
+  <data name="Attribute_Category_Appearance" xml:space="preserve">
+    <value>Внешний вид</value>
+  </data>
+  <data name="Attribute_DefaultMeasured_Name" xml:space="preserve">
+    <value>Единица измерения</value>
+  </data>
+  <data name="Attribute_DropDownAlign_Name" xml:space="preserve">
+    <value>Положение выпадающего календаря</value>
+  </data>
+  <data name="Attribute.FormDesigner.CalendarTitleForeColor.Name" xml:space="preserve">
+    <value>Цвет текста заголовка календаря</value>
+  </data>
+  <data name="Attribute.FormDesigner.BackColor.Description" xml:space="preserve">
+    <value>Задаёт цвет фона элемента управления.</value>
+  </data>
+  <data name="Attribute_FormDesignerAction_Description" xml:space="preserve">
+    <value>Задает действие, выполняемое при нажатии на кнопку.</value>
+  </data>
+  <data name="Attribute_BorderStyle_Name" xml:space="preserve">
+    <value>Стиль границ</value>
+  </data>
+  <data name="Attribute.FormDesigner.HidePromptOnLeave" xml:space="preserve">
+    <value>Скрывать символы приглашения при потере фокуса</value>
+  </data>
+  <data name="Attribute.FormDesigner.ToolTip.Description" xml:space="preserve">
+    <value>Представляет всплывающее окно, с кратким описанием назначения элемента управления, когда пользователь наводит указатель мыши на элемент управления.</value>
+  </data>
+  <data name="Attribute.FormDesigner.TextAlign.Description" xml:space="preserve">
+    <value>Задаёт выравнивание текста в элементе управления.</value>
+  </data>
+  <data name="Attribute.FormDesigner.PasswordChar.Description" xml:space="preserve">
+    <value>Если символ задан, то текст будет скрыт этим символом.</value>
+  </data>
+  <data name="Attribute.FormDesigner.ItemSize.Description" xml:space="preserve">
+    <value>Задаёт размер закладок.</value>
+  </data>
+  <data name="Attribute.FormDesigner.ReadOnly.Description" xml:space="preserve">
+    <value>Возвращает или задаёт значение, указывающее, является ли текст в текстовом поле доступным только для чтения.</value>
+  </data>
+  <data name="Attribute_Category_Design" xml:space="preserve">
+    <value>Проектирование</value>
+  </data>
+  <data name="Attribute_Dock_Name" xml:space="preserve">
+    <value>Положение</value>
+  </data>
+  <data name="Attribute_AttributeInfo_Description" xml:space="preserve">
+    <value>Задает атрибут, значение которого необходимо отобразить в элементе управления.</value>
+  </data>
+  <data name="Attribute_Category_Events" xml:space="preserve">
+    <value>События</value>
+  </data>
+  <data name="Attribute.FormDesigner.Appearance.Description" xml:space="preserve">
+    <value>Задаёт внешний вид элемента управления.</value>
+  </data>
+  <data name="Attribute_Font_Name" xml:space="preserve">
+    <value>Шрифт</value>
+  </data>
+  <data name="Attribute_ScrollAlwaysVisible_Description" xml:space="preserve">
+    <value>Указывает на то, что полоса прокрутки всегда видна, независимо от количества элементов в ней.</value>
+  </data>
+  <data name="Attribute_Tag_Description" xml:space="preserve">
+    <value>Дополнительное описание.</value>
+  </data>
+  <data name="Attribute.FormDesigner.AutoSize.Description" xml:space="preserve">
+    <value>Задаёт значение, показывающее, изменяет ли элемент управления размеры автоматически для отображения всего содержимого.</value>
+  </data>
+  <data name="Attribute_FlatStyle_Name" xml:space="preserve">
+    <value>Плоский стиль</value>
+  </data>
+  <data name="Attribute.FormDesigner.CalendarMonthBackground.Name" xml:space="preserve">
+    <value>Цвет фона для месяца</value>
+  </data>
+  <data name="Attribute.FormDesigner.CalendarTrailingForeColor.Description" xml:space="preserve">
+    <value>Задаёт основной цвет для конечных дат календаря.</value>
+  </data>
+  <data name="Attribute.FormDesigner.SelectionMode.Description" xml:space="preserve">
+    <value>Задаёт метод выделения позиций в элементе управления.</value>
+  </data>
+</root>

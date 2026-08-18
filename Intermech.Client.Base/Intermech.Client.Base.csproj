@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.Client.Base.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{107A0AA4-A9F9-4476-BD10-EDF6A13ACF10}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.Client.Base</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Client">
+      <HintPath>lib\Intermech.Interfaces.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Scripting">
+      <HintPath>lib\Intermech.Scripting.dll</HintPath>
+    </Reference>
+    <Reference Include="Ninject">
+      <HintPath>lib\Ninject.dll</HintPath>
+    </Reference>
+    <Reference Include="Ninject.Extensions.Factory">
+      <HintPath>lib\Ninject.Extensions.Factory.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Client\ClientRemotingDynamicSettings.cs" />
+    <Compile Include="Client\ClientSessionPoolBase.cs" />
+    <Compile Include="Client\DBHelpersInitializationModule.cs" />
+    <Compile Include="Client\UserSessionExceptionsReporter.cs" />
+    <Compile Include="Client\ForgottenTransactionsSessionValidator.cs" />
+    <Compile Include="Client\UserSessionPoolModule.cs" />
+    <Compile Include="Client\UserSessionValidatorsModule.cs" />
+    <Compile Include="Client\UserSessionExceptionsModule.cs" />
+    <Compile Include="Client\BinaryClientFormatterSinkPatcher.cs" />
+    <Compile Include="Client\BinaryClientFormatterSinkPatcherProvider.cs" />
+    <Compile Include="Client\ClientRemotingConfigurator.cs" />
+    <Compile Include="Client\UserSessionGuardServices.cs" />
+    <Compile Include="Client\Specialized\ClientApplicationLifecycleHandler.cs" />
+    <Compile Include="Client\Specialized\EmptyMetadataChangeMonitor.cs" />
+    <Compile Include="Client\Specialized\IClientApplicationHost.cs" />
+    <Compile Include="Client\Specialized\SimpleSessionPool.cs" />
+    <Compile Include="Client\Specialized\SimpleSessionPoolLoginInfo.cs" />
+    <Compile Include="Client\Scripting\CSharpScriptClientContext.cs" />
+    <Compile Include="Client\Scripting\CSharpScriptExecutor.cs" />
+    <Compile Include="Client\Scripting\CSharpScriptExecutorOptionsProvider.cs" />
+    <Compile Include="Client\Scripting\CSharpScriptsNinjectModule.cs" />
+    <Compile Include="Client\Scripting\GenericScriptClientContext.cs" />
+    <Compile Include="Services\CustomServicesSpeedupService.cs" />
+    <Compile Include="Services\ServerEventLogService.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

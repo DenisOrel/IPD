@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="panel2.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="panel2.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAMUBAACVAQAACw==</value>
+  </data>
+  <data name="&gt;&gt;headerControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;propertyGrid.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="toolBar1.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAALACAAAoAAAACw==</value>
+  </data>
+  <data name="toolBar1.Text" xml:space="preserve">
+    <value>toolBar1</value>
+  </data>
+  <data name="panel1.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAADAAAACw==</value>
+  </data>
+  <data name="panel1.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAOgAAACVAQAACw==</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Parent" xml:space="preserve">
+    <value>propertiesControl</value>
+  </data>
+  <data name="bCrcAll.Text" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="addAttrToolBtn.CommandName" xml:space="preserve">
+    <value>addAttrToolBtn</value>
+  </data>
+  <data name="delValToolBtn.CommandName" xml:space="preserve">
+    <value>delValToolBtn</value>
+  </data>
+  <data name="tabPage1.Padding" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0B19ib3R0b20AAAAAAAEICAgIAgAAAAEDAAAAAwAAAAMAAAADAAAACw==</value>
+  </data>
+  <data name="tabPage2.Padding" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0B19ib3R0b20AAAAAAAEICAgIAgAAAAEDAAAAAwAAAAMAAAADAAAACw==</value>
+  </data>
+  <data name="splitter1.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAMAAACVAQAACw==</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="propertiesControl.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="cbCrcAlgorithm.Text" xml:space="preserve">
+    <value>Контрольная сумма</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Атрибуты</value>
+  </data>
+  <data name="upValToolBtn.ToolTipText" xml:space="preserve">
+    <value>Заменить</value>
+  </data>
+  <data name="headerControl3.Padding" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0B19ib3R0b20AAAAAAAEICAgIAgAAAAAaAAAAAQAAAAEAAAABAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;cbCrcAlgorithm.Type" xml:space="preserve">
+    <value>Intermech.Bars.ComboBoxItem, Intermech.Bars, Version=4.0.14.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cbCrcAlgorithm.Name" xml:space="preserve">
+    <value>cbCrcAlgorithm</value>
+  </data>
+  <data name="saveFileDialog.Title" xml:space="preserve">
+    <value>Сохранение в файл</value>
+  </data>
+  <data name="tabPage1.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAEAAAAFgAAAAs=</value>
+  </data>
+  <data name="bCrcAll.CommandName" xml:space="preserve">
+    <value>cbCrcAll</value>
+  </data>
+  <data name="tabPage2.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAEAAAAFgAAAAs=</value>
+  </data>
+  <data name="headerControl1.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAACAAAAAgAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;delAttrToolBtn.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.14.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;delAttrToolBtn.Name" xml:space="preserve">
+    <value>delAttrToolBtn</value>
+  </data>
+  <data name="&gt;&gt;splitter1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="historyView.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="$this.ClientSize" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAALACAAC9AQAACw==</value>
+  </data>
+  <data name="&gt;&gt;toolBar1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tabPage1.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAALkBAAB3AQAACw==</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>Свойства</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Parent" xml:space="preserve">
+    <value>propertiesControl</value>
+  </data>
+  <data name="delAttrToolBtn.CommandName" xml:space="preserve">
+    <value>delAttrToolBtn</value>
+  </data>
+  <data name="headerControl3.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="toolBar1.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAAAAAAAs=</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>История изменения</value>
+  </data>
+  <data name="tabPage2.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAALkBAAB3AQAACw==</value>
+  </data>
+  <data name="propertyGrid.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAALMBAABbAQAACw==</value>
+  </data>
+  <data name="propertyGrid.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;historyView.Name" xml:space="preserve">
+    <value>historyView</value>
+  </data>
+  <data name="&gt;&gt;historyView.Type" xml:space="preserve">
+    <value>Intermech.Client.Core.Navigator.Classes.ObjectNode.FilesHistoryView, Intermech.Client.Core, Version=7.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="headerControl1.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAABAAAACw==</value>
+  </data>
+  <data name="headerControl1.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAOQAAAAWAAAACw==</value>
+  </data>
+  <data name="headerControl1.Text" xml:space="preserve">
+    <value>Список атрибутов</value>
+  </data>
+  <data name="headerControl2.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAABAAAACw==</value>
+  </data>
+  <data name="headerControl2.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAALMBAAAWAAAACw==</value>
+  </data>
+  <data name="headerControl2.Text" xml:space="preserve">
+    <value>Свойства</value>
+  </data>
+  <data name="&gt;&gt;splitter1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="headerControl3.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAABAAAACw==</value>
+  </data>
+  <data name="headerControl3.Text" xml:space="preserve">
+    <value>История изменения файла</value>
+  </data>
+  <data name="headerControl3.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAALMBAAAWAAAACw==</value>
+  </data>
+  <data name="addValToolBtn.ToolTipText" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="&gt;&gt;toolBar1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="historyView.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAADAAAAGQAAAAs=</value>
+  </data>
+  <data name="$this.AutoScaleBaseSize" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAUAAAANAAAACw==</value>
+  </data>
+  <data name="addValToolBtn.CommandName" xml:space="preserve">
+    <value>addValToolBtn</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;headerControl2.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="editValToolBtn.ToolTipText" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
+  <data name="bCrc.CommandName" xml:space="preserve">
+    <value>cbCrc</value>
+  </data>
+  <data name="openFileDialog.Title" xml:space="preserve">
+    <value>Загрузка файла</value>
+  </data>
+  <data name="&gt;&gt;imageList.Name" xml:space="preserve">
+    <value>imageList</value>
+  </data>
+  <data name="&gt;&gt;imageList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="viewValToolBtn.ToolTipText" xml:space="preserve">
+    <value>Смотреть</value>
+  </data>
+  <data name="addAttrToolBtn.ToolTipText" xml:space="preserve">
+    <value>Добавить атрибут</value>
+  </data>
+  <data name="&gt;&gt;headerControl2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="propertyGrid.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="downValToolBtn.CommandName" xml:space="preserve">
+    <value>downValToolBtn</value>
+  </data>
+  <data name="&gt;&gt;updateToolBtn.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.14.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;updateToolBtn.Name" xml:space="preserve">
+    <value>updateToolBtn</value>
+  </data>
+  <data name="treeView.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="treeView.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAOQAAAB7AQAACw==</value>
+  </data>
+  <data name="toolBar1.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="treeView.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAACAAAAGAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;downValToolBtn.Name" xml:space="preserve">
+    <value>downValToolBtn</value>
+  </data>
+  <data name="&gt;&gt;downValToolBtn.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.14.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;treeView.Name" xml:space="preserve">
+    <value>treeView</value>
+  </data>
+  <data name="&gt;&gt;treeView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="imageList.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAA0HwAAAk1TRnQBSQFMAgEBCgEAAbQBAAG0AQABEAEAARABAAT/ARkBEAj/AUIBTQE2BwABNgMAASgDAAFAAwABMAMAAQEBAAEYBgABJC0AARoBWAEcARoBWAEcKgABGgFYARwBGgFYARyHAAEdAXEBHQEgAc8BPAEMAawBFAEaAVgBHCQAAR0BcQEdASABzwE8AQwBrAEUARoBWAEchAABHQFxAR0BaAH/AaMBaAH/AaMBDAGsARQBJAFfASkhAAEdAXEBHQFoAf8BowFoAf8BowEMAawBFAEkAV8BKYEAAR0BcQEdAWgB/wGjASwBlQE8AVEB5wGBAQwBrAEUATUBbwE7HgABHQFxAR0BaAH/AaMBLAGVATwBUQHnAYEBDAGsARQBNQFvATt+AAEiAXoBIwFGAekBdAE7AWABLwE4Aa8BUwFRAecBgQEMAawBFAE1AW8BOxsAASIBegEjAUYB6QF0ATsBYAEvATgBrwFTAVEB5wGBAQwBrAEUATUBbwE7ewABdgGcAXoBHgFxASAGAAEkAX4BKwFRAecBgQEMAawBFAE1AW8BOxgAAXYBnAF6AR4BcQEgBgABJAF+ASsBUQHnAYEBDAGsARQBNQFvATuHAAEmAYEBLAFRAecBgQEMAawBFCcAASYBgQEsAVEB5wGBAQwBrAEUigABJgGAASoBZgGSAWoqAAEmAYABKgFmAZIBav8AIQABlgFiATgBlgFiATgBlgFiATgBlgFiATgBlgFiATgBlgFiATgBlgFiATgbAAGWAWIBOAGWAWIBOAGWAWIBOAGWAWIBOAGWAWIBOAGWAWIBOAGWAWIBOAYAAZYBYgE4AZYBYgE4CQABlgFiATgBlgFiAThjAAGWAWIBOAGWAWIBOAkAAZYBYgE4HgABlgFiATgBlgFiATgJAAGWAWIBOAYAAZYBYgE4DwABlgFiAThmAAGWAWIBOAGWAWIBOCoAAZYBYgE4AZYBYgE4DwABlgFiATgDAAGWAWIBOAMAAZYBYgE4AwABlgFiAThpAAGWAWIBOAGWAWIBOCoAAZYBYgE4AZYBYgE4DAABlgFiATgPAAGWAWIBOGYAAZYBYgE4AZYBYgE4KgABlgFiATgBlgFiATgPAAGWAWIBOA8AAZYBYgE4YwABlgFiATgBlgFiATgJAAGWAWIBOB4AAZYBYgE4AZYBYgE4CQABlgFiATgGAAGWAWIBOA8AAZYBYgE4YAABlgFiATgBlgFiATgBlgFiATgBlgFiATgBlgFiATgBlgFiATgBlgFiATgbAAGWAWIBOAGWAWIBOAGWAWIBOAGWAWIBOAGWAWIBOAGWAWIBOAGWAWIBOAYAAZYBYgE4AZYBYgE4CQABlgFiATgBlgFiATh+AAGXAW8BPwGXAW8BPwGXAW8BPwGXAW8BPwGXAW8BPwGXAW8BPxIAAWoBcgF2AWcBbwFzAWUBbQFxAV8BZwFrAVUBXQFhAVIBWgFeAU8BVwFbAUwBVAFYAUkBUQFVAUcBTwFTPAABMwFgAbcBJQFJAXABrgG0AbckAAFsAXQBeAFsAXQBeAFsAXQBeAFsAXQBeAFsAXQBeAFsAXQBeAFsAXQBeAGXAW8BPwHzAesB4QHzAesB4QHzAesB4QHzAesB4QGXAW8BPxIAAX4BhgGKAd8B5wHrAd8B5wHrAd4B5gHqAdsB4wHnAdsB4wHnAdoB4gHmAdkB4QHlAdgB4AHkAUkBUQFVAwABnAGMAY4BhQFEASYBhQFEASYBhQFEASYBhQFEASYBhQFEASYBhQFEASYBhQFEASYBhQFEASYBhQFEASYBhQFEASYBhQFEASYBhQFEASYBlQFpAV8PAAE6AaQB/gEzAWABtwElAUkBcAGuAbQBtyEAAWwBdAF4EgABlwFvAT8BlwFvAT8BlwFvAT8BlwFvAT8BlwFvAT8BlwFvAT8SAAGBAYkBjQHgAegB7AF/AYcBiwF/AYcBiwF/AYcBiwF/AYcBiwF/AYcBiwF/AYcBiwHaAeIB5gFNAVUBWQMAAb4BZgEAAfkB3wG5Ab4BZgEAAf4B+AHrAcgBdgEkAcgBdgEkAf4B+AHrAf4B+AHrAf4B+AHrAf4B+AHrAf4B+AHrAb4BZgEAAfkB3wG5Ab4BZhMAAToBpAH+ATMBYAG3ASUBSQFwAcIBwAG7HgABbAF0AXg2AAGaAaIBpgHtAfUB+QGzAbsBvwGwAbgBvAGpAbEBtQGoAbABtAGoAbABtAF/AYcBiwHdAeUB6QFbAWMBZwMAAb4BZgEAAfkB3wG5Ab4BZgEAA/8BjwFsAUkBjwFsAUkD/wHIAXYBJAHIAXYBJAb/Ab4BZgEAAfkB3wG5Ab4BZgcAAb8BmQFwAb8BmQFwAb8BmQFwAb8BmQFwAb8BmQFwAToBpAH+ATMBYAG3AYMBgAF8AW8BWwFHAWEBVwFOAWEBWAFPAYoBjgGQEgABbAF0AXgPAAECARUBlQ8AAQIBFQGVAZgBcgFCAZcBbwE/AZYBbAE7AZMBZwEzAY0BXAEiAYoBWQEeAYkBVgEaAYcBUwEWAYUBUAESAYUBTgENAakBsQG1AakBsQG1AagBsAG0AX8BhwGLAd0B5QHpAV4BZgFqAwABvgFmAQAB+QHfAbkBvgFmAQAY/wG+AWYBAAH5Ad8BuQG+AWYHAAHNAasBgwH3AfMB7QHzAe0B5AHvAecB2wHrAeEB0gH3AfMB7QGQAY0BiAF1AXQBcgHGAbsBjgHRAcIBrQHgAdIBdgGjAaQBpgF9AX8BgQ8AAWwBdAF4EAABHQHPAQIBFQGVCQABAgEVAZUBAAEdAc8BuQGKAVIB8wHrAeEB8wHrAeEB8gHqAd8B8QHnAdwB8QHnAdsB8AHmAdoB8AHmAdkB8AHlAdgBhQFQARIBsAG4AbwBrwG3AbsBqAGwAbQBfwGHAYsB1QHdAeEBYQFpAW0DAAG+AWYBAAH5Ad8BuQG+AWYBAAG+AWYBAAG+AWYBAAG+AWYBAAG+AWYBAAG+AWYBAAG+AWYBAAG+AWYBAAG+AWYBAAG+AWYBAAH5Ad8BuQG+AWYHAAHNAasBgwP/AeABxwGhAeABxwGhAeABxwGhAeABxwGhAWoBaQFmAakBpgGhAf8B5QFoAf8B5wHIAv8BnQP9AqUBpwGKAY4BkAwAAWwBdAF4EwABHQHPAQIBFQGVAwABAgEVAZUBAAEdAc8DAAG6AYwBVQH0Ae0B5AHJAaUBdgHJAaUBdgHJAaUBdQHJAaUBdQHJAaUBdQHJAaUBdQHwAeYB2gGJAVUBGAGxAbkBvQGxAbkBvQGoAbABtAGnAa8BswHVAd0B4QFhAWkBbQMAAb4BZgEAAfkB3wG5AfkB3wG5AfkB3wG5AfkB3wG5AfkB3wG5AfkB3wG5AfkB3wG5AfkB3wG5AfkB3wG5AfkB3wG5AfkB3wG5AfkB3wG5Ab4BZgcAAc0BqwGDA/8B4AHHAaEB4AHHAaEB4AHHAaEB4AHHAaEBXwFeAV0ByQHGAcAB/wHeAc0B/wHvAcgC/wGjAvoB4wGyAbMBtAFtAW8BcAwAAWwBdAF4AWwBdAF4AwABbAF0AXgDAAFsAXQBeAcAAR0BzwECARUBlQEAAR0BzwYAAbkBiwFTAfwB+QH3AdkBwQGeAdcBvQGaAdIBtgGQAdEBtQGQAdEBtAGPAckBpQF1AfEB6QHeAZABYwEsAbMBuwG/AbMBuwG/AY4BlgGaAWoBcgF2AVwBZAFoAU4BVgFaAwABvgFmAQAB+QHfAbkBvgFmAQABvgFmAQABvgFmAQABvgFmAQABvgFmAQABvgFmAQABvgFmAQABvgFmAQABvgFmAQABvgFmAQAB+QHfAbkBvgFmBwABzQGrAYMB/wH+Af8B4AHHAaEB4AHHAaEB4AHHAaEB4AHHAaEBZQFkAWMB4AHHAagB/wHBAVQB/wHfAcgC/wF+AuUBxwHCAbsBtgFtAm8MAAFsAXQBeBUAAQIBFQGVAQABHQHPAQIBFQGVBgABuQGLAVMB/QH7AfkB2QHCAaAB2AG/AZ0B0wG2AZIB0gG2AZAB0QG1AZAByQGlAXYB8gHpAd8BkgFlATABtAG8AcABtAG8AcABkQGZAZ0B4gHqAe4BzwHXAdsBhAGMAZADAAG+AWYBAAH5Ad8BuQG+AWYBABj/Ab4BZgEAAfkB3wG5Ab4BZgcAAc0BqwGDA/8B4AHHAaEB4AHHAaEB4AHHAaEB4AHHAaEChgGFAX8BewF5A/8B/AHtAdIB6QHOAX8BxgG9AbgBpAGlAacBigGOAZAMAAFsAXQBeBIAAQIBFQGVAQABHQHPBAABHQHPAQIBFQGVAwABuQGLAVMB/QH8AfsB2gHEAaIB2QHBAZ8B1gG9AZkB1QG8AZcBzwG1AZIByQGlAXYB5wHgAdcBkwFpATQB8gH4AfsB8gH4AfsBsQG5Ab0BzwHXAdsBsAG4AbwGAAG+AWYBAAH5Ad8BuQG+AWYBAAP/AbQBhgFfAacBdwFDAacBdwFDAacBdwFDAacBdwFDAbQBhgFfA/8BvgFmAQAB+QHfAbkBvgFmBwABzQGrAYMD/wHgAccBoQHgAccBoQHgAccBoQHgAccBoQHgAccBoQF2AngBjgFoAUcBxwHBAbcBxgG7AY4BpAGlAacBewF9AX8PAAFsAXQBeA8AAQIBFQGVAQABHQHPCgABHQHPAQIBFQGVAbkBiwFTAf4C/QHbAcQBowHaAcMBoQHYAb8BnAHYAb8BnAHPAbUBkgHJAaUBdgHnAeAB1wGTAWkBNAGfAacBqwGfAacBqwHHAc8B0wGMAWEBNgkAAb4BZgEAAfkB3wG5Ab4BZgEAGP8BvgFmAQAB+QHfAbkBvgFmBwABzQGrAYMD/wHgAccBoQHgAccBoQHgAccBoQHgAccBoQHgAccBoQHgAccBoQGdAZoBlAF2AXQBcQFhAVgBTwGKAY4BkBIAAWwBdAF4EAABHQHPEAABHQHPAboBiwFTAf8C/gHbAcUBpAHaAcQBogHZAcEBngHZAcEBngG4AZkBcQGFAW8BTwF2AV8BQAFtAVEBLQYAAYwBYQE2AYwBYQE2AYwBYQE2BgABvgFmAQAB+QHfAbkBvgFmAQAD/wG0AYYBXwGnAXcBQwGnAXcBQwGnAXcBQwGnAXcBQwG0AYYBXwP/Ab4BZgEAAfkB3wG5Ab4BZgcAAc0BqwGDA/8B4AHHAaEB4AHHAaEB4AHHAaEB4AHHAaEB4AHHAaEB4AHHAaEB4AHHAaEB4AHHAaEB8wHvAeQBvwGZAXAJAAGXAW8BPwGXAW8BPwGXAW8BPwGXAW8BPwGXAW8BPwGXAW8BPwGXAW8BPxsAAboBiwFTAv8B/gHcAcUBpAHbAcUBowHZAcIBoAHZAcIBoAG5AZsBdAPtA9gBqQGMAWkDAAGMAWEBNgGMAWEBNgGMAWEBNgGMAWEBNgGMAWEBNgMAAb4BZgEAAfkB3wG5Ab4BZgEAGP8BvgFmAQAB+QHfAbkBvgFmBwABzQGrAYMD/wHgAccBoQHgAccBoQHgAccBoQHgAccBoQHgAccBoQHgAccBoQHgAccBoQHgAccBoQP/Ab8BmQFwCQABlwFvAT8B8wHrAeEB8wHrAeEB8wHrAeEB8wHrAeEB8wHrAeEBlwFvAT8bAAG9AZUBZgb/A/4B/QH8AfoB/QH8AfoBxQG6Aa0D2AGpAYwBaQwAAYwBYQE2CQABvgFmAQABywGbAWcBvgFmAQAB/gH4AesB/gH4AesB/gH4AesB/gH4AesB/gH4AesB/gH4AesB/gH4AesB/gH4AesBvgFmAQAB1AGbAVkBvgFmBwABzQGrAYMD/wHgAccBoQHgAccBoQHgAccBoQHgAccBoQHgAccBoQHgAccBoQHgAccBoQHgAccBoQP/Ab8BmQFwCQABlwFvAT8B8wHrAeEB8wHrAeEB8wHrAeEB8wHrAeEB8wHrAeEBlwFvAT8bAAG9AZUBZgG+AZYBZwG9AZYBZwG9AZYBZwG9AZUBZwG9AZUBZwGpAYwBaQGpAYwBaQ8AAYwBYQE2CQABnAGMAY4BvgFmAQABvgFmAQABvgFmAQABvgFmAQABvgFmAQABvgFmAQABvgFmAQABvgFmAQABvgFmAQABvgFmAQABvgFmAQABvgFmAQABnAGMAY4GAAHNAasBgx7/Ab8BmQFwCQABlwFvAT8BlwFvAT8BlwFvAT8BlwFvAT8BlwFvAT8BlwFvAT8BlwFvAT82AAGNAWMBOQGNAWMBOQGNAWMBOQGNAWMBOTwAAc0BqwGDAc0BqwGDAc0BqwGDAc0BqwGDAc0BqwGDAc0BqwGDAc0BqwGDAc0BqwGDAc0BqwGDAc0BqwGDAc0BqwGDAc0BqwGDTwABFAGTAQABFAGTAQABFAGTAQABFAGTBAABSQFjAQABSQFjAQABSQFjAQABSQFjPAABjQFjATgBjQFjATgBjQFjATgBjQFjATgBjgFfAScBjQFcASIBigFZAR4BiQFWARoBhwFTARYBhQFQARIBhQFOAQ0SAAHmAdMBvgHNAZEBSwG+AWYBAQG+AWYBAQG+AWYBAQHSAZ0BYAHmAdUBwSIAARQBkwEPATMB/QEPATMB/QEAARQBkwQAAUkBYwEIAfwB/QEIAfwB/QEAAUkBYzwAAZoBcgFIAfMB6wHhAfMB6wHhAfIB6gHfAfEB6AHdAfEB5wHcAfEB5wHbAfAB5gHaAfAB5gHZAfAB5QHYAYUBUAESDwAB3wHBAZ4BvgFmAQEB1wGrAXkB6AHbAcsDAAHoAdoBygHUAaQBbAG+AWYBAQHeAb4BmR8AARQBkwEPATMB/QEPATMB/QEAARQBkwQAAUkBYwEIAfwB/QEIAfwB/QEAAUkBYwMAAQIBFQGVAQIBFQGVGwABAgEVAZUBAgEVAZUSAAGaAXIBSAH0Ae0B5AG7AZoBcwG7AZoBcwG6AZgBcQG4AZcBbwG2AZQBawGyAY8BZwGuAYsBYQHwAeYB2gGJAVUBGAwAAegB2gHKAb4BZgEBAeMBzQG0DwAB4QHFAaYBvgFmAQEfAAEUAZMBAAEUAZMBAAEUAZMBAAEUAZMEAAFJAWMBAAFJAWMBAAFJAWMBAAFJAWMDAAEVAS4BsgEAASEB7wECARUBlRUAAQIBFQGVAQIBEQHhAQUBIAG3EgABmgFyAUgB+AH0Ae4BwQGjAX0BxAGkAX4BwwGkAX0BwgGiAXsBwAGgAXgBvAGaAXQBuAGXAW4B8QHoAdwBjQFdASUMAAHRAZoBXAHWAakBdVcAARUBLgGyAQABIQHvAQIBFQGVDwABAgEVAZUBAgERAeEBBQEgAbcVAAGaAXIBSAH6AfcB8wHIAa0BhwHJAawBhwHJAawBhQHJAaoBhAHHAakBggHEAaQBfgHAAaABeQHxAegB3QGOAWABKQkAAewB5QHcAb4BZgEBAekB3AHNNgABegFEAQ4BegFEAQ4BegFEAQ4BegFEAQ4EAAFUAQgBAAFUAQgBAAFUAQgBAAFUAQgJAAEVAS4BsgEAASEB7wECARUBlQkAAQIBFQGVAQIBEQHhAQUBIAG3GAABmgFyAUgB/AH5AfcBzgGzAY8B0AG1AZIBzgGxAYwBzgGwAYoBzAGvAYoBygGsAYYBxwGoAYEB8QHpAd4BkAFjASwJAAHtAecB4QG+AWYBAQHpAdwBzRUAAdUBpAFtHgABegFEAQ4B4gG2AX0B4gG2AX0BegFEAQ4EAAFUAQgBKQGoAUIBKQGoAUIBAAFUAQgMAAEVAS4BsgEAASEB7wECARUBlQMAAQIBFQGVAQIBEQHhAQUBIAG3GwABmgFyAUgB/QH7AfkB0gG5AZYB0wG5AZcB0QG2AZEB0gG1AZEB0AG0AY4BzQGxAYwBywGtAYcB8gHpAd8BkgFlATADAAHdAbsBlQG+AWYBAQHhAcYBpwG+AWYBAQHeAb0BmAG+AWYBAQHdAbsBlQwAAdUBpAFtAb4BZgEBAdUBpAFtGwABegFEAQ4B4gG2AX0B4gG2AX0BegFEAQ4EAAFUAQgBKQGoAUIBKQGoAUIBAAFUAQgPAAEVAS4BsgEAASEB7wECARUBlQECAREB4QEFASABtx4AAakBgAFXAf0B/AH7AdUBvgGbAdcBvgGcAdUBvAGYAdUBvAGXAc8BtQGSAcsBsQGOAcoBrwGKAecB4AHXAZMBaQE0BgAB1QGkAW0BvgFmAQEBvgFmAQEBvgFmAQEB1QGkAW0MAAHVAaQBbQG+AWYBAQG+AWYBAQG+AWYBAQHVAaQBbRgAAXoBRAEOAXoBRAEOAXoBRAEOAXoBRAEOBAABVAEIAQABVAEIAQABVAEIAQABVAEIEgABAgEVAZUBAAEhAe8BAgEVAZUhAAHQAbEBjAH+Av0B2AHBAZ8B2QHBAZ8B2AG/AZwB2AG/AZwBuAGZAXEBhQFvAU8BdgFfAUABdgFfAUABbQFRAS0JAAHVAaQBbQG+AWYBAQHVAaQBbQwAAd0BuwGVAb4BZgEBAd4BvQGYAb4BZgEBAeEBxgGnAb4BZgEBAd0BuwGVBgABHAFwAhwBcAIcAXABHDAAAQIBFQGVARABNAH/AQABEwHFAQABIQHvAQIBFQGVGwABHAFwAhwBcAIcAXABHAHaAcMBogHaAcQBogHZAcEBngHZAcEBngG5AZsBdATtAuwD2AGOAWQBOQwAAdUBpAFtFQAB6QHcAc0BvgFmAQEB7QHnAeEMAAEcAXABHAFfAe4BjgEcAXABHC0AAQIBFQGVARABNAH/ARUBLgGyAwABFQEuAbIBAAEhAe8BAgEVAZUYAAEcAXABHAFfAe4BjgEcAXABHAHcAcUBpAHbAcUBowHZAcIBoAHZAcIBoAG6AZ0BeAPxA9gBjgFkATknAAHpAdwBzQG+AWYBAQHsAeUB3AYAARwBcAIcAXACHAFwARwBXwHuAY4BHAFwAhwBcAIcAXABHCQAAQIBFQGVARABNAH/ARUBLgGyCQABFQEuAbIBAAEhAe8BAgEVAZUPAAEcAXACHAFwAhwBcAEcAV8B7gGOARwBcAIcAXACHAFwARwB/QH8AfoB/QH8AfoBxQG6Aa0D2AGOAWQBOSoAAdYBqQF1AdEBmgFcCQABHAFwARwBXwHuAY4BXwHuAY4BXwHuAY4BXwHuAY4BXwHuAY4BHAFwARwhAAECARUBlQEQATQB/wEVAS4Bsg8AARUBLgGyAQABIQHvAQIBFQGVDAABHAFwARwBXwHuAY4BXwHuAY4BXwHuAY4BXwHuAY4BXwHuAY4BHAFwARwBzQGrAYMBjgFkATkBjgFkATkBjgFkATkVAAG+AWYBAQHhAcUBpg8AAeMBzQG0Ab4BZgEBAegB2gHKCQABHAFwAhwBcAIcAXABHAFfAe4BjgEcAXACHAFwAhwBcAEcHgABAgEVAZUBEAE0Af8BFQEuAbIVAAEVAS4BsgEAASEB7wECARUBlQkAARwBcAIcAXACHAFwARwBXwHuAY4BHAFwAhwBcAIcAXABHCEAAd4BvgGZAb4BZgEBAdQBpAFsAegB2gHKAwAB6AHbAcsB1wGrAXkBvgFmAQEB3wHBAZ4SAAEcAXABHAFfAe4BjgEcAXABHCQAAQUBIAG3ARUBLgGyGwABFQEuAbIBFQEuAbIPAAEcAXABHAFfAe4BjgEcAXABHCoAAeYB1QHBAdIBnQFgAb4BZgEBAb4BZgEBAb4BZgEBAc0BkQFLAeYB0wG+FQABHAFwAhwBcAIcAXABHFoAARwBcAIcAXACHAFwARweAAFCAU0BPgcAAT4DAAEoAwABQAMAATADAAEBAQABAQUAAYABARYAA/8BAAH/AZ8B/wGfBAAB/wEPAf8BDwQAAf8BBwH/AQcEAAH/AQMB/wEDBAAB/wEBAf8BAQQAAf8BMAH/ATAEAAH/AfgB/wH4BAAB/wH8Af8B/AQABP8EAAEBAf8BAQGcBAABnQH/AZ0BvgQAAc8B/wHPAaoEAAHnAf8B5wG+BAABzwH/Ac8BvgQAAZ0B/wGdAb4EAAEBAf8BAQGcBAAB/wHAAfwBAAL/AfEB/wHgAQAB/AEAAYABAQHwAf8B7wHAAfwBAAGAAQEB+AF/Ae8B/wH8AQABgAEBAYABBwHvAb4CAAGAAQEBgAEDAe8BnAIAAYABAQGAAQEB7wHJAgABgAEBAYABAQHlAWMCAAGAAQEBgAEBAe8B4wIAAYABAQGAAQEB7wHJAQABAQGAAQEBgAEDAe8BnAEAAQMBgAEBAYABBwHvAb4BAAExAYABAQGAAQcBAQH/AQABIAGAAQEBgAEHAQEB/wEAAXsBgAEBAYABBwEBAf8BAAH7AYABAQGAAQcBAQL/AYcC/wGAAQcC/wH+ARAC/wHwAQEB+AEPAf4BEAL/AfABAQHwAYcB/gEQAZ8B8wHwAQEB4wHnAf4BEAGPAeMB8AEBAecD/wLHAfABAQHHAf8B/gEQAeMBjwHwAQEBxwH3Af4BEAHxAR8B8AIBAeMB/gEQAfgBPwHwAQEBgwHBAf4BEAH8AX8B8AEBAccBgAHHAf8B+AE/AeABAQHvAeMBxwH/AfEBHwHgAQMB/wHjAQEB/wHjAY8BgAEHAf8B5wEBAf8CxwGAAQ8B5wHHAQEB/wGPAeMBgAH/AeEBDwHHAf8BnwHzAeMB/wHwAR8BxwP/AeMB/xYACw==</value>
+  </data>
+  <data name="splitter1.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAADoAAAAKAAAAAs=</value>
+  </data>
+  <data name="bCrc.Text" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="headerControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="tabPage1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;historyView.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;addValToolBtn.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.14.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;addValToolBtn.Name" xml:space="preserve">
+    <value>addValToolBtn</value>
+  </data>
+  <data name="editValToolBtn.CommandName" xml:space="preserve">
+    <value>editValToolBtn</value>
+  </data>
+  <data name="headerControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;historyView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="splitter1.ImeMode" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWVNb2RlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="propertyGrid.HelpVisible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;propertyGrid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PropertyGrid, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;propertyGrid.Name" xml:space="preserve">
+    <value>propertyGrid</value>
+  </data>
+  <data name="&gt;&gt;headerControl3.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;bCrcAll.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.14.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bCrcAll.Name" xml:space="preserve">
+    <value>bCrcAll</value>
+  </data>
+  <data name="&gt;&gt;propertiesControl.Name" xml:space="preserve">
+    <value>propertiesControl</value>
+  </data>
+  <data name="&gt;&gt;propertiesControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="delValToolBtn.ToolTipText" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="buttonHeightSet.CommandName" xml:space="preserve">
+    <value>buttonHeightSet</value>
+  </data>
+  <data name="&gt;&gt;bCrc.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.14.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bCrc.Name" xml:space="preserve">
+    <value>bCrc</value>
+  </data>
+  <data name="&gt;&gt;viewValToolBtn.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.14.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;viewValToolBtn.Name" xml:space="preserve">
+    <value>viewValToolBtn</value>
+  </data>
+  <data name="&gt;&gt;toolBar1.Type" xml:space="preserve">
+    <value>Intermech.Bars.ToolBar, Intermech.Bars, Version=4.0.14.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;toolBar1.Name" xml:space="preserve">
+    <value>toolBar1</value>
+  </data>
+  <data name="cbCrcAlgorithm.ToolTipText" xml:space="preserve">
+    <value>Контрольная сумма</value>
+  </data>
+  <data name="&gt;&gt;treeView.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="upValToolBtn.CommandName" xml:space="preserve">
+    <value>upValToolBtn</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Name" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="delAttrToolBtn.ToolTipText" xml:space="preserve">
+    <value>Удалить атрибут</value>
+  </data>
+  <data name="headerControl1.Padding" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0B19ib3R0b20AAAAAAAEICAgIAgAAAAAaAAAAAQAAAAEAAAABAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;treeView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;headerControl3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;editValToolBtn.Name" xml:space="preserve">
+    <value>editValToolBtn</value>
+  </data>
+  <data name="&gt;&gt;editValToolBtn.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.14.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="propertyGrid.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAADAAAAGQAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Name" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="tabPage2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="treeView.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="panel2.Padding" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0B19ib3R0b20AAAAAAAEICAgIAgAAAAECAAAAAgAAAAIAAAACAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FileAttributeEditForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;splitter1.Name" xml:space="preserve">
+    <value>splitter1</value>
+  </data>
+  <data name="&gt;&gt;splitter1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Splitter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog.Name" xml:space="preserve">
+    <value>openFileDialog</value>
+  </data>
+  <data name="&gt;&gt;propertiesControl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="headerControl3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;upValToolBtn.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.14.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;upValToolBtn.Name" xml:space="preserve">
+    <value>upValToolBtn</value>
+  </data>
+  <data name="splitter1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="historyView.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="historyView.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAALMBAABbAQAACw==</value>
+  </data>
+  <data name="&gt;&gt;delValToolBtn.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.14.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;delValToolBtn.Name" xml:space="preserve">
+    <value>delValToolBtn</value>
+  </data>
+  <data name="bCrcAll.ToolTipText" xml:space="preserve">
+    <value>Расчет контрольных сумм всех файлов объекта</value>
+  </data>
+  <data name="headerControl2.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAADAAAAAwAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;propertiesControl.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;contextMenu1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenu, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;contextMenu1.Name" xml:space="preserve">
+    <value>contextMenu1</value>
+  </data>
+  <data name="&gt;&gt;propertyGrid.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;addAttrToolBtn.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.14.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;addAttrToolBtn.Name" xml:space="preserve">
+    <value>addAttrToolBtn</value>
+  </data>
+  <data name="headerControl2.Padding" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0B19ib3R0b20AAAAAAAEICAgIAgAAAAAaAAAAAQAAAAEAAAABAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;headerControl1.Name" xml:space="preserve">
+    <value>headerControl1</value>
+  </data>
+  <data name="&gt;&gt;headerControl1.Type" xml:space="preserve">
+    <value>Intermech.NavBars.HeaderControl, Intermech.Bars, Version=4.0.14.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;saveFileDialog.Name" xml:space="preserve">
+    <value>saveFileDialog</value>
+  </data>
+  <data name="propertiesControl.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAACAAAAAgAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;saveFileDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;headerControl2.Name" xml:space="preserve">
+    <value>headerControl2</value>
+  </data>
+  <data name="&gt;&gt;headerControl2.Type" xml:space="preserve">
+    <value>Intermech.NavBars.HeaderControl, Intermech.Bars, Version=4.0.14.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="bCrc.ToolTipText" xml:space="preserve">
+    <value>Расчет контрольной суммы файла объекта</value>
+  </data>
+  <data name="&gt;&gt;headerControl3.Name" xml:space="preserve">
+    <value>headerControl3</value>
+  </data>
+  <data name="&gt;&gt;headerControl3.Type" xml:space="preserve">
+    <value>Intermech.NavBars.HeaderControl, Intermech.Bars, Version=4.0.14.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="updateToolBtn.ToolTipText" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="viewValToolBtn.CommandName" xml:space="preserve">
+    <value>viewValToolBtn</value>
+  </data>
+  <data name="panel2.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAADrAAAAKAAAAAs=</value>
+  </data>
+  <data name="panel1.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAKAAAAAs=</value>
+  </data>
+  <data name="headerControl3.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAADAAAAAwAAAAs=</value>
+  </data>
+  <data name="headerControl2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="downValToolBtn.ToolTipText" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="&gt;&gt;buttonHeightSet.Name" xml:space="preserve">
+    <value>buttonHeightSet</value>
+  </data>
+  <data name="&gt;&gt;buttonHeightSet.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.14.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="panel1.Padding" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0B19ib3R0b20AAAAAAAEICAgIAgAAAAECAAAAAgAAAAIAAAACAAAACw==</value>
+  </data>
+  <data name="updateToolBtn.CommandName" xml:space="preserve">
+    <value>updateToolBtn</value>
+  </data>
+  <data name="propertiesControl.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="propertiesControl.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAMEBAACRAQAACw==</value>
+  </data>
+  <data name="&gt;&gt;headerControl1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="cbCrcAlgorithm.CommandName" xml:space="preserve">
+    <value>cbCrcAlgorithm</value>
+  </data>
+</root>

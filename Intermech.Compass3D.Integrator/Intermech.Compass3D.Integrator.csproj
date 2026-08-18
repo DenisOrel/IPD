@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.Compass3D.Integrator.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1EEBF609-0FD1-4E2E-8900-611570BAFCDD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.Compass3D.Integrator</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech.Compass3D.Integrator</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Client.Core">
+      <HintPath>lib\Intermech.Client.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Client">
+      <HintPath>lib\Intermech.Interfaces.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Tools.Components">
+      <HintPath>lib\Intermech.Tools.Components.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.CADInterface">
+      <HintPath>lib\Interop.CADInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CompassConsts.cs" />
+    <Compile Include="K3DInstallation.cs" />
+    <Compile Include="IArticleMaterialParameterReader.cs" />
+    <Compile Include="K3DArticleMaterialHandler.cs" />
+    <Compile Include="Drawing2DComponentConfigurationFastDetector.cs" />
+    <Compile Include="IInMemoryConfigurationFeatureDetector.cs" />
+    <Compile Include="InMemoryConfigurationFeatureDetector.cs" />
+    <Compile Include="IDrawing2DFeatureDetector.cs" />
+    <Compile Include="InMemoryDocuments.cs" />
+    <Compile Include="K3DProxyBuilder.cs" />
+    <Compile Include="K3DAncillaryDrawingsService.cs" />
+    <Compile Include="K3DEmbedAttributesDriver.cs" />
+    <Compile Include="K3DEmbedAttributesService.cs" />
+    <Compile Include="K3DLibraryComponentConfigurationDetector.cs" />
+    <Compile Include="K3DDocument.cs" />
+    <Compile Include="K3DModelConfiguration.cs" />
+    <Compile Include="Drawing2DComponentConfigurationSlowDetector.cs" />
+    <Compile Include="K3DConsts.cs" />
+    <Compile Include="Drawing2DArticleAttributesGuard.cs" />
+    <Compile Include="Drawing2DArticleAttributesGuardModule.cs" />
+    <Compile Include="Drawing2DArticleAttributesProcessingService.cs" />
+    <Compile Include="Drawing2DComponentArticleLocatorService.cs" />
+    <Compile Include="Drawing2DComponentArticleCodec.cs" />
+    <Compile Include="Drawing2DComponentArticleApiService.cs" />
+    <Compile Include="Drawing2DArticleKind.cs" />
+    <Compile Include="Drawing2DArticleSection.cs" />
+    <Compile Include="Drawing2DDocumentKind.cs" />
+    <Compile Include="Drawing2DHeadArticleStructureService.cs" />
+    <Compile Include="Drawing2DAssemblyDocumentApiService.cs" />
+    <Compile Include="Drawing2DFormatter.cs" />
+    <Compile Include="Drawing2DHeadArticleCodec.cs" />
+    <Compile Include="Drawing2DDocumentSection.cs" />
+    <Compile Include="Drawing2DDocumentCodec.cs" />
+    <Compile Include="Drawing2DGenericDocumentApiService.cs" />
+    <Compile Include="Drawing2DHeadArticleApiService.cs" />
+    <Compile Include="Drawing2DOperations.cs" />
+    <Compile Include="Drawing2DDetectorService.cs" />
+    <Compile Include="Drawing2DDocumentHandler.cs" />
+    <Compile Include="Drawing2DExternalKeysService.cs" />
+    <Compile Include="K3DExtendedSaveService.cs" />
+    <Compile Include="K3DFileTypeService.cs" />
+    <Compile Include="K3DCaptureChangesDriver.cs" />
+    <Compile Include="K3DCaptureChangesFactory.cs" />
+    <Compile Include="K3DIntegrator.cs" />
+    <Compile Include="K3DCADInterfaceService.cs" />
+    <Compile Include="K3DModelDocumentHandler.cs" />
+    <Compile Include="K3DNormalArticleHandler.cs" />
+    <Compile Include="K3DPDMBrowserService.cs" />
+    <Compile Include="K3DLicenseService.cs" />
+    <Compile Include="K3DPrepareNewObjectsService.cs" />
+    <Compile Include="K3DArticleMaterialParameterReader.cs" />
+    <Compile Include="Localization.cs" />
+    <Compile Include="CustomDescription.cs" />
+    <Compile Include="CustomCategory.cs" />
+    <Compile Include="CustomDisplayName.cs" />
+    <Compile Include="Plugin.cs" />
+    <Compile Include="Drawing2DDocumentGroupsCheck.cs" />
+    <Compile Include="Drawing2DGroups.cs" />
+    <Compile Include="Drawing2DArticleRootsCheck.cs" />
+    <Compile Include="K3DIntegratorSettings.cs" />
+    <Compile Include="K3DIntegratorSettingsCodec.cs" />
+    <Compile Include="K3DIntegratorSettingsFactory.cs" />
+    <Compile Include="K3DSettingsService.cs" />
+    <Compile Include="K3DSettingsViewModel.cs" />
+    <Compile Include="Drawing2DDocumentRootsCheck.cs" />
+    <Compile Include="Properties\Resources.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx" />
+    <EmbeddedResource Include="Resources\CustomAttributesResources.resx" />
+    <EmbeddedResource Include="Resources\Integrator template.xml" />
+    <EmbeddedResource Include="Resources\Resources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

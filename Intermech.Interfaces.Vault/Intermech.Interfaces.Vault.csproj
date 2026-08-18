@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.Interfaces.Vault.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4624F84B-78A0-4D7F-86EC-D9B3410E78BD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.Interfaces.Vault</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech.Vault.Interfaces</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="log4net">
+      <HintPath>lib\log4net.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CommonVariables.cs" />
+    <Compile Include="XMLConsts.cs" />
+    <Compile Include="XMLSettingsStorage.cs" />
+    <Compile Include="CopierState.cs" />
+    <Compile Include="ICopierRootDirectory.cs" />
+    <Compile Include="FilesCopierEventArgs.cs" />
+    <Compile Include="MoveCompleteEventArgs.cs" />
+    <Compile Include="IndexCompleteEventArgs.cs" />
+    <Compile Include="ItemMovedEventArgs.cs" />
+    <Compile Include="MoveErrorEventArgs.cs" />
+    <Compile Include="FileInformation.cs" />
+    <Compile Include="IDiskFileStorage.cs" />
+    <Compile Include="IReadWorker.cs" />
+    <Compile Include="IFileProcReader2.cs" />
+    <Compile Include="IWriteWorker.cs" />
+    <Compile Include="IFileProcWriter2.cs" />
+    <Compile Include="IIntermechVault.cs" />
+    <Compile Include="IVaultSettings.cs" />
+    <Compile Include="IShellLinkW.cs" />
+    <Compile Include="SLGP_FLAGS.cs" />
+    <Compile Include="WIN32_FIND_DATA.cs" />
+    <Compile Include="SLR_FLAGS.cs" />
+    <Compile Include="LocalizationHolder.cs" />
+    <Compile Include="RootDirectory.cs" />
+    <Compile Include="ShellLinks.cs" />
+    <Compile Include="Server\EventStringMessage.cs" />
+    <Compile Include="Server\ApplicationEventLog.cs" />
+    <Compile Include="Server\VaultException.cs" />
+    <Compile Include="Client\EventsWrapper.cs" />
+    <Compile Include="Client\ProxyClass.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\InterfacesVaultResources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

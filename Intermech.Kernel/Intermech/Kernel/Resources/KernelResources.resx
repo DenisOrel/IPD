@@ -1,0 +1,4502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SyncEndEvent" xml:space="preserve">
+    <value>Закончена синхронизация со службой каталогов</value>
+  </data>
+  <data name="SnapshotFieldName" xml:space="preserve">
+    <value>Наименование итерации</value>
+  </data>
+  <data name="EmptyBaseCancelChanges" xml:space="preserve">
+    <value>Ошибка отмены изменений в объекте N{0}: {1}</value>
+  </data>
+  <data name="Intermech.Briefcase_WorkCopyNotExported" xml:space="preserve">
+    <value>Рабочая копия не экспортируется, подготовка к экспорту архивной копии: id='{0}', guid='{1}', artid='{2}', artguid='{3}'</value>
+  </data>
+  <data name="SyncConfigNotFoundEvent" xml:space="preserve">
+    <value>Не найдена конфигурация для синхронизации со службой каталогов</value>
+  </data>
+  <data name="AttributeTypeNameNotFound" xml:space="preserve">
+    <value>Атрибут с наименованием "{0}" не найден.</value>
+  </data>
+  <data name="SyncCantReadDBUsersListEvent" xml:space="preserve">
+    <value>Невозможно получить список пользователей IPS</value>
+  </data>
+  <data name="Intermech.EndMetadataPreprocess" xml:space="preserve">
+    <value>Предварительная обработка метаданных закончена.</value>
+  </data>
+  <data name="ReplacePartObject" xml:space="preserve">
+    <value>Замена объекта на "{0}"</value>
+  </data>
+  <data name="Kernel_111" xml:space="preserve">
+    <value>нет</value>
+  </data>
+  <data name="Kernel_110" xml:space="preserve">
+    <value>Ошибка изменения атрибута-источника: </value>
+  </data>
+  <data name="Kernel_113" xml:space="preserve">
+    <value>Ошибка изменения мастер-атрибута: </value>
+  </data>
+  <data name="Kernel_112" xml:space="preserve">
+    <value>Присвоение мастер-атрибута: '{0}'</value>
+  </data>
+  <data name="Kernel_115" xml:space="preserve">
+    <value>Присвоение уровня продвижения: </value>
+  </data>
+  <data name="Kernel_114" xml:space="preserve">
+    <value>все уровни</value>
+  </data>
+  <data name="Kernel_117" xml:space="preserve">
+    <value>Указанный объект не является полем внешней базы данных.</value>
+  </data>
+  <data name="Kernel_116" xml:space="preserve">
+    <value>Ошибка изменения уровня продвижения: </value>
+  </data>
+  <data name="Kernel_119" xml:space="preserve">
+    <value>Объекты любого типа</value>
+  </data>
+  <data name="Kernel_118" xml:space="preserve">
+    <value>Объект должен иметь тип {0}</value>
+  </data>
+  <data name="Kernel_100" xml:space="preserve">
+    <value>Нельзя удалить атрибут '{0}', т.к. у объектов в базе данных существуют {1} значений данного атрибута.</value>
+  </data>
+  <data name="Kernel_101" xml:space="preserve">
+    <value>Нельзя удалить атрибут '{0}', т.к. в базе данных существуют {1} связи(ей) с этим атрибутом.</value>
+  </data>
+  <data name="Kernel_102" xml:space="preserve">
+    <value>Ощибка удаления индекса {0}: {1}</value>
+  </data>
+  <data name="Kernel_103" xml:space="preserve">
+    <value>Ощибка удаления индекса {0}: {1}</value>
+  </data>
+  <data name="Kernel_104" xml:space="preserve">
+    <value>Нельзя удалить атрибут '{0}', т.к. он используется в формулах вычисления или проверки значений других атрибутов.</value>
+  </data>
+  <data name="Kernel_105" xml:space="preserve">
+    <value>Нельзя удалить атрибут '{0}', т.к. он используется в формулах вычисления или проверки значений следующих атрибутов:
+</value>
+  </data>
+  <data name="Kernel_106" xml:space="preserve">
+    <value> для типа объектов '{0}'</value>
+  </data>
+  <data name="Kernel_107" xml:space="preserve">
+    <value>Ошибка удаления атрибута {0}: {1}</value>
+  </data>
+  <data name="Kernel_108" xml:space="preserve">
+    <value>нет</value>
+  </data>
+  <data name="Kernel_109" xml:space="preserve">
+    <value>Присвоение атрибута-источника: '{0}'</value>
+  </data>
+  <data name="Kernel_133" xml:space="preserve">
+    <value>Указанный объект не является физической величиной.</value>
+  </data>
+  <data name="Kernel_132" xml:space="preserve">
+    <value>Любая единица измерения</value>
+  </data>
+  <data name="Kernel_130" xml:space="preserve">
+    <value>) AND ((UPPER(F_STRING_VALUE) = 'ЛОЖЬ') OR (UPPER(F_STRING_VALUE) = 'FALSE') OR (UPPER(F_STRING_VALUE) = 'НЕТ'))</value>
+  </data>
+  <data name="Kernel_137" xml:space="preserve">
+    <value>Ошибка создания атрибута: </value>
+  </data>
+  <data name="Kernel_136" xml:space="preserve">
+    <value>Наименование атрибута</value>
+  </data>
+  <data name="Kernel_135" xml:space="preserve">
+    <value>Неизвестный идентификатор группы атрибутов: </value>
+  </data>
+  <data name="Kernel_134" xml:space="preserve">
+    <value>Список атрибутов</value>
+  </data>
+  <data name="Kernel_139" xml:space="preserve">
+    <value>Создание атрибута с именем '{0}'</value>
+  </data>
+  <data name="Kernel_138" xml:space="preserve">
+    <value>Атрибут '{0}' уже существует.</value>
+  </data>
+  <data name="Kernel_120" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="Kernel_121" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="Kernel_126" xml:space="preserve">
+    <value>объекты</value>
+  </data>
+  <data name="Kernel_127" xml:space="preserve">
+    <value>связи</value>
+  </data>
+  <data name="Kernel_124" xml:space="preserve">
+    <value>Длина значения по умолчанию не должна превышать {0} символов.</value>
+  </data>
+  <data name="Kernel_125" xml:space="preserve">
+    <value>Нельзя уменьшить максимальную длину строки, т.к. в базе данных содержатся {0}, у которых значение атрибута {1} имеет бОльшую длину.</value>
+  </data>
+  <data name="Kernel_128" xml:space="preserve">
+    <value>) AND ((UPPER(F_STRING_VALUE) = 'ИСТИНА') OR (UPPER(F_STRING_VALUE) = 'TRUE') OR (UPPER(F_STRING_VALUE) = 'ДА'))</value>
+  </data>
+  <data name="Kernel_155" xml:space="preserve">
+    <value>Изменение списка допустимых значений для атрибута '{0}'</value>
+  </data>
+  <data name="Kernel_154" xml:space="preserve">
+    <value>Ошибка удаления атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_157" xml:space="preserve">
+    <value>Атрибут '{0}' для типа объектов '{1}'</value>
+  </data>
+  <data name="Kernel_156" xml:space="preserve">
+    <value>Ошибка изменения списка допустимых значений для атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_151" xml:space="preserve">
+    <value>Атрибут '{0}' уже добавлен к типу связей '{1}'.</value>
+  </data>
+  <data name="Kernel_150" xml:space="preserve">
+    <value>Добавление атрибута '{0}'</value>
+  </data>
+  <data name="Kernel_153" xml:space="preserve">
+    <value>Удаление атрибута '{0}'</value>
+  </data>
+  <data name="Kernel_152" xml:space="preserve">
+    <value>Ошибка добавления атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_159" xml:space="preserve">
+    <value>Ошибка удаления индекса {0}: {1}</value>
+  </data>
+  <data name="Kernel_158" xml:space="preserve">
+    <value>Ошибка удаления индекса {0}: {1}</value>
+  </data>
+  <data name="Kernel_144" xml:space="preserve">
+    <value>Список допустимых атрибутов для объектов '{0}'</value>
+  </data>
+  <data name="Kernel_145" xml:space="preserve">
+    <value>Неизвестный идентификатор типа объектов: </value>
+  </data>
+  <data name="Kernel_146" xml:space="preserve">
+    <value>Добавление атрибута '{0}'</value>
+  </data>
+  <data name="Kernel_147" xml:space="preserve">
+    <value>Атрибут '{0}' уже добавлен к типу объектов '{1}'.</value>
+  </data>
+  <data name="Kernel_140" xml:space="preserve">
+    <value>Наименование атрибута</value>
+  </data>
+  <data name="Kernel_141" xml:space="preserve">
+    <value>Атрибут '{0}'</value>
+  </data>
+  <data name="Kernel_142" xml:space="preserve">
+    <value>Ошибка создания атрибута: </value>
+  </data>
+  <data name="Kernel_143" xml:space="preserve">
+    <value>Атрибут '{0}' уже существует.</value>
+  </data>
+  <data name="Kernel_148" xml:space="preserve">
+    <value>Ошибка добавления атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_149" xml:space="preserve">
+    <value>У типа связей '{0}' атрибут '{1}' не найден.</value>
+  </data>
+  <data name="Kernel_177" xml:space="preserve">
+    <value>Присвоение пустого значения по умолчанию для атрибута '{0}'</value>
+  </data>
+  <data name="Kernel_176" xml:space="preserve">
+    <value>Присвоение значения по умолчанию для атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_175" xml:space="preserve">
+    <value>Ошибка изменения атрибута-источника для атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_174" xml:space="preserve">
+    <value>Присвоение атрибута-источника для атрибута '{0}': '{1}'</value>
+  </data>
+  <data name="Kernel_173" xml:space="preserve">
+    <value>не назначен</value>
+  </data>
+  <data name="Kernel_172" xml:space="preserve">
+    <value>Ошибка изменения мастер-атрибута для атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_171" xml:space="preserve">
+    <value>Присвоение мастер-атрибута для атрибута '{0}': '{1}'</value>
+  </data>
+  <data name="Kernel_170" xml:space="preserve">
+    <value>не назначен</value>
+  </data>
+  <data name="Kernel_179" xml:space="preserve">
+    <value>Атрибут '{0}' хранит содержимое объектов: {1}</value>
+  </data>
+  <data name="Kernel_178" xml:space="preserve">
+    <value>Ошибка изменения значения по умолчанию для атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_166" xml:space="preserve">
+    <value>Нельзя удалить атрибут '{0}' у типа '{1}', т.к. в базе данных существуют {2} экземпляр(ов) объектов данного или дочернего типа, у которых существует этот атрибут.{3}</value>
+  </data>
+  <data name="Kernel_167" xml:space="preserve">
+    <value>все уровни</value>
+  </data>
+  <data name="Kernel_164" xml:space="preserve">
+    <value>У типа объектов '{0}' атрибут '{1}' не найден.</value>
+  </data>
+  <data name="Kernel_165" xml:space="preserve">
+    <value>Нельзя изменять или удалять атрибут '{0}', т.к. он унаследован от другого типа объектов.</value>
+  </data>
+  <data name="Kernel_162" xml:space="preserve">
+    <value>Присвоение значения оптимизации атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_163" xml:space="preserve">
+    <value>Ошибка изменения способа оптимизации атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_160" xml:space="preserve">
+    <value>Атрибут '{0}' типа объектов '{1}'</value>
+  </data>
+  <data name="Kernel_161" xml:space="preserve">
+    <value>Ошибка при обновлении атрибута в таблице {0}: {1}</value>
+  </data>
+  <data name="Kernel_168" xml:space="preserve">
+    <value>Присвоение значения уровня продвижения атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_169" xml:space="preserve">
+    <value>Ошибка изменения уровня продвижения атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_199" xml:space="preserve">
+    <value>Атрибут типа '{0}' не может быть вычисляемым.</value>
+  </data>
+  <data name="Kernel_198" xml:space="preserve">
+    <value>Присвоение способа вычисления атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_191" xml:space="preserve">
+    <value>Ошибка изменения маски ввода значения для атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_190" xml:space="preserve">
+    <value>Присвоение пустой маски ввода значения для атрибута '{0}'</value>
+  </data>
+  <data name="Kernel_193" xml:space="preserve">
+    <value>Присвоение пустого правила проверки значения для атрибута '{0}'</value>
+  </data>
+  <data name="Kernel_192" xml:space="preserve">
+    <value>Присвоение правила проверки значения для атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_195" xml:space="preserve">
+    <value>Присвоение формулы вычисления значения атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_194" xml:space="preserve">
+    <value>Ошибка изменения правила проверки значения для атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_197" xml:space="preserve">
+    <value>Ошибка изменения формулы вычисления значения для атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_196" xml:space="preserve">
+    <value>Присвоение пустой формулы вычисления значения атрибута '{0}'</value>
+  </data>
+  <data name="Kernel_188" xml:space="preserve">
+    <value>Ошибка изменения опций атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_189" xml:space="preserve">
+    <value>Присвоение маски ввода значения для атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_180" xml:space="preserve">
+    <value>Присвоение значения контроля уникальности для атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_181" xml:space="preserve">
+    <value>Для атрибута типа {0} нельзя контролировать уникальность значения.</value>
+  </data>
+  <data name="Kernel_182" xml:space="preserve">
+    <value>Ошибка изменения контроля уникальности для атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_183" xml:space="preserve">
+    <value>Присвоение значения свойства наследования атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_184" xml:space="preserve">
+    <value>Ошибка изменения свойства наследования для атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_185" xml:space="preserve">
+    <value>Присвоение состояния контроля принадлежности атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_186" xml:space="preserve">
+    <value>Ошибка изменения контроля принадлежности для атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_187" xml:space="preserve">
+    <value>Присвоение опций атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_331" xml:space="preserve">
+    <value> от (GUID): {{{0}}}</value>
+  </data>
+  <data name="Kernel_330" xml:space="preserve">
+    <value> от: "{0}"</value>
+  </data>
+  <data name="Kernel_333" xml:space="preserve">
+    <value> к (GUID в портфеле): {{{0}}}</value>
+  </data>
+  <data name="Kernel_332" xml:space="preserve">
+    <value> к (ID): {0}</value>
+  </data>
+  <data name="Kernel_335" xml:space="preserve">
+    <value>Тип объекта {0} из {1}</value>
+  </data>
+  <data name="Kernel_334" xml:space="preserve">
+    <value>Ошибка извлечения портфеля из архива на сервере</value>
+  </data>
+  <data name="Kernel_337" xml:space="preserve">
+    <value>Ошибка при импорте метаданных: </value>
+  </data>
+  <data name="Kernel_336" xml:space="preserve">
+    <value>Ошибка при импорте метаданных</value>
+  </data>
+  <data name="Kernel_339" xml:space="preserve">
+    <value>Атрибут "{1}" у связи с ID {0}.</value>
+  </data>
+  <data name="Kernel_338" xml:space="preserve">
+    <value>Объект {{{0}}} не импортирован</value>
+  </data>
+  <data name="Kernel_320" xml:space="preserve">
+    <value>Все языковые варианты</value>
+  </data>
+  <data name="Kernel_321" xml:space="preserve">
+    <value>Все предметные области</value>
+  </data>
+  <data name="Kernel_322" xml:space="preserve">
+    <value>ID в портфеле </value>
+  </data>
+  <data name="Kernel_323" xml:space="preserve">
+    <value>Предметная область "{0}"</value>
+  </data>
+  <data name="Kernel_324" xml:space="preserve">
+    <value>Тип связи ID = </value>
+  </data>
+  <data name="Kernel_325" xml:space="preserve">
+    <value> от версии объекта ID = </value>
+  </data>
+  <data name="Kernel_326" xml:space="preserve">
+    <value> к объекту ID = </value>
+  </data>
+  <data name="Kernel_327" xml:space="preserve">
+    <value>ID связи </value>
+  </data>
+  <data name="Kernel_328" xml:space="preserve">
+    <value>Тип связи {{{0}}}</value>
+  </data>
+  <data name="Kernel_329" xml:space="preserve">
+    <value>Тип связи (ID в портфеле) {0}</value>
+  </data>
+  <data name="Kernel_313" xml:space="preserve">
+    <value>Ошибка при генерации нового ключа для блоба для атрибута </value>
+  </data>
+  <data name="Kernel_312" xml:space="preserve">
+    <value>Ошибка при генерации нового ключа для блоба</value>
+  </data>
+  <data name="Kernel_311" xml:space="preserve">
+    <value>Успешно импортирована</value>
+  </data>
+  <data name="Kernel_310" xml:space="preserve">
+    <value>Не найден(ы) участники связи</value>
+  </data>
+  <data name="Kernel_317" xml:space="preserve">
+    <value>Все языковые варианты</value>
+  </data>
+  <data name="Kernel_316" xml:space="preserve">
+    <value>Шаг ЖЦ "{0}" для типа объектов "{1}"</value>
+  </data>
+  <data name="Kernel_315" xml:space="preserve">
+    <value>Тип связи "{0}"</value>
+  </data>
+  <data name="Kernel_314" xml:space="preserve">
+    <value>Атрибут {0} связи {1} не импортирован : {2}</value>
+  </data>
+  <data name="Kernel_319" xml:space="preserve">
+    <value>ID в портфеле </value>
+  </data>
+  <data name="Kernel_318" xml:space="preserve">
+    <value>Все предметные области</value>
+  </data>
+  <data name="Kernel_302" xml:space="preserve">
+    <value>Объект {0} не был импортирован. Обновление ObjectRecordKind прервано.</value>
+  </data>
+  <data name="Kernel_303" xml:space="preserve">
+    <value>###SQL: {0} для {1} не прошёл !</value>
+  </data>
+  <data name="Kernel_300" xml:space="preserve">
+    <value>Объект {0} не был импортирован. Обновление атрибутов, ссылающихся на него, прервано.</value>
+  </data>
+  <data name="Kernel_301" xml:space="preserve">
+    <value>Ошибка при обновлении значения-ссылки на объект атрибута {2} связи {0}: {1}</value>
+  </data>
+  <data name="Kernel_306" xml:space="preserve">
+    <value>Ошибка при обновлении связей между импортированными метаданными</value>
+  </data>
+  <data name="Kernel_307" xml:space="preserve">
+    <value>Тип объектов "{0}"</value>
+  </data>
+  <data name="Kernel_304" xml:space="preserve">
+    <value>###SQL: TABLE:{0} , F_OBJECT_VER_TYPE = {1} для {2} </value>
+  </data>
+  <data name="Kernel_305" xml:space="preserve">
+    <value>Ошибка при обновлении ObjectRecordKind объекта {0}: {1}</value>
+  </data>
+  <data name="Kernel_308" xml:space="preserve">
+    <value>Ошибка обновления связи.</value>
+  </data>
+  <data name="Kernel_309" xml:space="preserve">
+    <value>Ошибка создания связи.</value>
+  </data>
+  <data name="Kernel_375" xml:space="preserve">
+    <value>Присвоение пустого описания</value>
+  </data>
+  <data name="Kernel_374" xml:space="preserve">
+    <value>Присвоение описания: </value>
+  </data>
+  <data name="Kernel_377" xml:space="preserve">
+    <value>Присвоение глобального идентификатора: </value>
+  </data>
+  <data name="Kernel_376" xml:space="preserve">
+    <value>Ошибка изменения описания схемы ЖЦ: </value>
+  </data>
+  <data name="Kernel_371" xml:space="preserve">
+    <value>Наименование схемы жизненного цикла объектов</value>
+  </data>
+  <data name="Kernel_370" xml:space="preserve">
+    <value>Присвоение наименования: </value>
+  </data>
+  <data name="Kernel_373" xml:space="preserve">
+    <value>Схема жизненного цикла '{0}' уже существует.</value>
+  </data>
+  <data name="Kernel_372" xml:space="preserve">
+    <value>Ошибка изменения наименования схемы ЖЦ: </value>
+  </data>
+  <data name="Kernel_379" xml:space="preserve">
+    <value>Включение статуса 'Схема по умолчанию'</value>
+  </data>
+  <data name="Kernel_378" xml:space="preserve">
+    <value>Ошибка изменения глобального идентификатора схемы ЖЦ: </value>
+  </data>
+  <data name="Kernel_364" xml:space="preserve">
+    <value>Файла номер {0} в файловом шкафу '{1}' не найдено.</value>
+  </data>
+  <data name="Kernel_365" xml:space="preserve">
+    <value>Список файлов файлового шкафа </value>
+  </data>
+  <data name="Kernel_366" xml:space="preserve">
+    <value>Нельзя удалить {0}, т.к. в базе данных находятся двоичные объекты, хранящиеся в этом файловом шкафу.</value>
+  </data>
+  <data name="Kernel_360" xml:space="preserve">
+    <value>Пустое значение</value>
+  </data>
+  <data name="Kernel_361" xml:space="preserve">
+    <value>Только числовые атрибуты можно использовать в атрибутах с подстановкой окончаний.</value>
+  </data>
+  <data name="Kernel_362" xml:space="preserve">
+    <value>Только атрибуты строкового типа могут использовать подстановку окончаний.</value>
+  </data>
+  <data name="Kernel_363" xml:space="preserve">
+    <value>Ошибка подключения к файловому шкафу '{0}': {1}</value>
+  </data>
+  <data name="Kernel_368" xml:space="preserve">
+    <value>Ошибка записи статистики запросов!</value>
+  </data>
+  <data name="Kernel_369" xml:space="preserve">
+    <value>Схема жизненного цикла '{0}'</value>
+  </data>
+  <data name="Kernel_357" xml:space="preserve">
+    <value>Не найден языковой вариант по умолчанию в базе назначения</value>
+  </data>
+  <data name="Kernel_356" xml:space="preserve">
+    <value>Не найден языковой вариант по умолчанию в портфеле</value>
+  </data>
+  <data name="Kernel_355" xml:space="preserve">
+    <value>Локализация</value>
+  </data>
+  <data name="Kernel_354" xml:space="preserve">
+    <value>В портфеле отсутствует информация о локализации</value>
+  </data>
+  <data name="Kernel_353" xml:space="preserve">
+    <value>Ошибка при обновлении допустимого значения для атрибута {0}: {1}</value>
+  </data>
+  <data name="Kernel_352" xml:space="preserve">
+    <value>Ошибка при обновлении допустимого значения-ссылки для атрибута {0}</value>
+  </data>
+  <data name="Kernel_351" xml:space="preserve">
+    <value>Ошибка при обновлении значения "Оптимизация операций" для атрибута {0} типа связей {1}: {2}</value>
+  </data>
+  <data name="Kernel_350" xml:space="preserve">
+    <value>Ошибка при обновлении значения "Оптимизация операций" для атрибута {0} типа объектов {1}: {2}</value>
+  </data>
+  <data name="Kernel_359" xml:space="preserve">
+    <value>По умолчанию назначены несколько языковых вариантов в базе назначения</value>
+  </data>
+  <data name="Kernel_358" xml:space="preserve">
+    <value>По умолчанию назначены несколько языковых вариантов в портфеле</value>
+  </data>
+  <data name="Kernel_346" xml:space="preserve">
+    <value>Ошибка при обновлении значения SizeType для атрибута {0}: {1}</value>
+  </data>
+  <data name="Kernel_347" xml:space="preserve">
+    <value>Ошибка при обновлении значения SizeType для атрибута {0} типа объектов {1}: {2}</value>
+  </data>
+  <data name="Kernel_344" xml:space="preserve">
+    <value>Ошибка при обновлении значения по умолчанию для атрибута {0} типа объектов {1}: {2}</value>
+  </data>
+  <data name="Kernel_345" xml:space="preserve">
+    <value>Ошибка при обновлении значения по умолчанию для атрибута {0} типа связей {1}: {2}</value>
+  </data>
+  <data name="Kernel_342" xml:space="preserve">
+    <value> Атрибут (ID в портфеле) = </value>
+  </data>
+  <data name="Kernel_343" xml:space="preserve">
+    <value>Ошибка при обновлении значения по умолчанию для атрибута {0}: {1}</value>
+  </data>
+  <data name="Kernel_340" xml:space="preserve">
+    <value>Связь (ID в портфеле) = {0}  Атрибут (ID в портфеле) = {1}</value>
+  </data>
+  <data name="Kernel_341" xml:space="preserve">
+    <value>Объект "{0}" атрибут "{1}"
+</value>
+  </data>
+  <data name="Kernel_348" xml:space="preserve">
+    <value>Ошибка при обновлении значения SizeType для атрибута {0} типа связей {1}: {2}</value>
+  </data>
+  <data name="Kernel_349" xml:space="preserve">
+    <value>Ошибка при обновлении значения "Оптимизация операций" для атрибута {0} : {1}</value>
+  </data>
+  <data name="Kernel_399" xml:space="preserve">
+    <value>Присвоение пустого заголовка</value>
+  </data>
+  <data name="Kernel_398" xml:space="preserve">
+    <value>Присвоение заголовка: </value>
+  </data>
+  <data name="Kernel_393" xml:space="preserve">
+    <value>Удаление объекта</value>
+  </data>
+  <data name="Kernel_392" xml:space="preserve">
+    <value>Создание объекта</value>
+  </data>
+  <data name="Kernel_391" xml:space="preserve">
+    <value>Наименование схемы жизненных циклов</value>
+  </data>
+  <data name="Kernel_390" xml:space="preserve">
+    <value>Создание схемы жизненных циклов '{0}'</value>
+  </data>
+  <data name="Kernel_397" xml:space="preserve">
+    <value>Попытка присвоить объекту заголовок </value>
+  </data>
+  <data name="Kernel_396" xml:space="preserve">
+    <value>Схема жизненного цикла '{0}' уже существует.</value>
+  </data>
+  <data name="Kernel_395" xml:space="preserve">
+    <value>Ошибка создания схемы жизненного цикла '{0}': {1}</value>
+  </data>
+  <data name="Kernel_394" xml:space="preserve">
+    <value>Схема жизненного цикла '{0}'</value>
+  </data>
+  <data name="Kernel_388" xml:space="preserve">
+    <value>Ошибка изменения предметной области: </value>
+  </data>
+  <data name="Kernel_389" xml:space="preserve">
+    <value>Список схем жизненных циклов</value>
+  </data>
+  <data name="Kernel_382" xml:space="preserve">
+    <value>Ошибка изменения визуальных данных: </value>
+  </data>
+  <data name="Kernel_383" xml:space="preserve">
+    <value>Изменение опций: </value>
+  </data>
+  <data name="Kernel_380" xml:space="preserve">
+    <value>Ошибка изменения статуса схемы ЖЦ: </value>
+  </data>
+  <data name="Kernel_381" xml:space="preserve">
+    <value>Изменение визуальных данных</value>
+  </data>
+  <data name="Kernel_386" xml:space="preserve">
+    <value>Нельзя удалять схему жизненного цикла, назначенную в системе схемой по умолчанию.</value>
+  </data>
+  <data name="Kernel_387" xml:space="preserve">
+    <value>Присвоение предметных областей: </value>
+  </data>
+  <data name="Kernel_384" xml:space="preserve">
+    <value>Ошибка изменения опций: </value>
+  </data>
+  <data name="Kernel_385" xml:space="preserve">
+    <value>Нельзя удалять системную схему жизненного цикла</value>
+  </data>
+  <data name="Kernel_551" xml:space="preserve">
+    <value>Ошибка изменения глобального идентификатора типа связей: </value>
+  </data>
+  <data name="Kernel_550" xml:space="preserve">
+    <value>Присвоение guid: </value>
+  </data>
+  <data name="Kernel_553" xml:space="preserve">
+    <value>Ошибка изменения предметной области: </value>
+  </data>
+  <data name="Kernel_552" xml:space="preserve">
+    <value>Присвоение предметных областей: </value>
+  </data>
+  <data name="Kernel_555" xml:space="preserve">
+    <value>связи данного типа могут содержать только разрешённые атрибуты.</value>
+  </data>
+  <data name="Kernel_554" xml:space="preserve">
+    <value>связи данного типа могут содержать любые атрибуты.</value>
+  </data>
+  <data name="Kernel_557" xml:space="preserve">
+    <value>Ошибка изменения контроля разрешённости атрибутов: </value>
+  </data>
+  <data name="Kernel_556" xml:space="preserve">
+    <value>Предыдущее значение: {0}</value>
+  </data>
+  <data name="Kernel_559" xml:space="preserve">
+    <value>Присвоение пустого краткого наименования</value>
+  </data>
+  <data name="Kernel_558" xml:space="preserve">
+    <value>Присвоение краткого наименования: </value>
+  </data>
+  <data name="Kernel_540" xml:space="preserve">
+    <value>Ошибка изменения обратного наименования типа связей: </value>
+  </data>
+  <data name="Kernel_541" xml:space="preserve">
+    <value>Присвоение комментария: </value>
+  </data>
+  <data name="Kernel_542" xml:space="preserve">
+    <value>Присвоение пустого комментария</value>
+  </data>
+  <data name="Kernel_543" xml:space="preserve">
+    <value>Ошибка изменения комментариев: </value>
+  </data>
+  <data name="Kernel_544" xml:space="preserve">
+    <value>Присвоение статуса извлечения файлов: </value>
+  </data>
+  <data name="Kernel_545" xml:space="preserve">
+    <value>Ошибка изменения статуса извлечения файлов: </value>
+  </data>
+  <data name="Kernel_546" xml:space="preserve">
+    <value>Изменение пиктограммы</value>
+  </data>
+  <data name="Kernel_547" xml:space="preserve">
+    <value>Ошибка изменения пиктограммы: </value>
+  </data>
+  <data name="Kernel_548" xml:space="preserve">
+    <value>Присвоение статуса сохранения истории изменения связей: </value>
+  </data>
+  <data name="Kernel_549" xml:space="preserve">
+    <value>Ошибка изменения статуса истории связей: </value>
+  </data>
+  <data name="Kernel_573" xml:space="preserve">
+    <value>Не удалось создать сессию для службы инструментов!</value>
+  </data>
+  <data name="Kernel_572" xml:space="preserve">
+    <value>Нет доступа к службе временных событий!
+Возможно, она не инициализирована или не зарегистрирована.</value>
+  </data>
+  <data name="Kernel_571" xml:space="preserve">
+    <value>Имя группы инструментов не задано!</value>
+  </data>
+  <data name="Kernel_570" xml:space="preserve">
+    <value>Инструмент "{0}" не назначен типу объектов "{1}" !</value>
+  </data>
+  <data name="Kernel_577" xml:space="preserve">
+    <value>Возникли ошибки при чтении пользовательских настроек инструментов из базы данных!</value>
+  </data>
+  <data name="Kernel_576" xml:space="preserve">
+    <value>В инструменте "{0}" нет файла с его настройками!</value>
+  </data>
+  <data name="Kernel_575" xml:space="preserve">
+    <value>Серверная часть для инструментов типа {0} не найдена!</value>
+  </data>
+  <data name="Kernel_574" xml:space="preserve">
+    <value>Возникли ошибки при чтении списка инструментов из базы данных!</value>
+  </data>
+  <data name="Kernel_579" xml:space="preserve">
+    <value>Не удалось найти в базе данных конфигурацию пользователя #{0}!</value>
+  </data>
+  <data name="Kernel_578" xml:space="preserve">
+    <value>Пользователь не известен службе инструментов!</value>
+  </data>
+  <data name="Kernel_562" xml:space="preserve">
+    <value>Тип связей номер {0} не найден.</value>
+  </data>
+  <data name="Kernel_563" xml:space="preserve">
+    <value>Не задан объект, реализующий тип инструментов!</value>
+  </data>
+  <data name="Kernel_560" xml:space="preserve">
+    <value>Ошибка изменения краткого наименования типа связей: </value>
+  </data>
+  <data name="Kernel_561" xml:space="preserve">
+    <value>Список типов связей</value>
+  </data>
+  <data name="Kernel_566" xml:space="preserve">
+    <value>Не удалось удалить инструмент с идентификатором {0}. Возможно, он был удалён в обход службы инструментов.</value>
+  </data>
+  <data name="Kernel_567" xml:space="preserve">
+    <value>Не удалось удалить инструмент с идентификатором {0}. Возможно, он был удалён другим пользователем.</value>
+  </data>
+  <data name="Kernel_564" xml:space="preserve">
+    <value>Служба инструментов приступила к работе.</value>
+  </data>
+  <data name="Kernel_565" xml:space="preserve">
+    <value>Тип объектов {0}</value>
+  </data>
+  <data name="Kernel_568" xml:space="preserve">
+    <value>Тип инструментов '{0}' не позволяет создавать новые инструменты!</value>
+  </data>
+  <data name="Kernel_569" xml:space="preserve">
+    <value>Инструменты типа '{0}' не имеют настроек!</value>
+  </data>
+  <data name="Kernel_515" xml:space="preserve">
+    <value>Ошибка изменения максимально допустимого количества связей: {0}</value>
+  </data>
+  <data name="Kernel_514" xml:space="preserve">
+    <value>Присвоение значения максимально допустимого количества связей: {0}</value>
+  </data>
+  <data name="Kernel_517" xml:space="preserve">
+    <value>Ошибка изменения способа контроля удаления связанных объектов: {0}</value>
+  </data>
+  <data name="Kernel_516" xml:space="preserve">
+    <value>Присвоение способа контроля удаления связанных объектов: {0}</value>
+  </data>
+  <data name="Kernel_511" xml:space="preserve">
+    <value>Выключение</value>
+  </data>
+  <data name="Kernel_510" xml:space="preserve">
+    <value>Включение</value>
+  </data>
+  <data name="Kernel_513" xml:space="preserve">
+    <value>Ошибка во время операции '{0}': {1}</value>
+  </data>
+  <data name="Kernel_512" xml:space="preserve">
+    <value>{0} режима извлечения файлов дочерних объектов</value>
+  </data>
+  <data name="Kernel_519" xml:space="preserve">
+    <value>Ошибка изменения контроля существования связей: {0}</value>
+  </data>
+  <data name="Kernel_518" xml:space="preserve">
+    <value>Присвоение значения контроля существования связей: {0}</value>
+  </data>
+  <data name="Kernel_504" xml:space="preserve">
+    <value>Удаляется связь номер </value>
+  </data>
+  <data name="Kernel_505" xml:space="preserve">
+    <value>Свойства входимости объектов '{0}' в объекты '{1}' связью '{2}'.</value>
+  </data>
+  <data name="Kernel_506" xml:space="preserve">
+    <value>Включение</value>
+  </data>
+  <data name="Kernel_507" xml:space="preserve">
+    <value>Выключение</value>
+  </data>
+  <data name="Kernel_500" xml:space="preserve">
+    <value>Ошибка изменения глобального идентификатора связи: </value>
+  </data>
+  <data name="Kernel_501" xml:space="preserve">
+    <value>Список связей</value>
+  </data>
+  <data name="Kernel_502" xml:space="preserve">
+    <value>Список связей типа '{0}'</value>
+  </data>
+  <data name="Kernel_503" xml:space="preserve">
+    <value>Ошибка включения объекта '{0}' (идентификатор версии '{1}') в объект '{2}' (идентификатор версии '{3}') связью '{4}': {5}</value>
+  </data>
+  <data name="Kernel_508" xml:space="preserve">
+    <value>{0} режима копирования связей при создании нового объекта по прототипу родительского объекта</value>
+  </data>
+  <data name="Kernel_509" xml:space="preserve">
+    <value>Ошибка во время операции '{0}': {1}</value>
+  </data>
+  <data name="Kernel_537" xml:space="preserve">
+    <value>Ошибка изменения наименования типа связей: </value>
+  </data>
+  <data name="Kernel_536" xml:space="preserve">
+    <value>Присвоение пустого наименования</value>
+  </data>
+  <data name="Kernel_535" xml:space="preserve">
+    <value>Присвоение наименования: </value>
+  </data>
+  <data name="Kernel_534" xml:space="preserve">
+    <value>Тип связей '{0}' уже существует.</value>
+  </data>
+  <data name="Kernel_533" xml:space="preserve">
+    <value>Ошибка изменения описания типа связей: </value>
+  </data>
+  <data name="Kernel_532" xml:space="preserve">
+    <value>Описание типа связей</value>
+  </data>
+  <data name="Kernel_531" xml:space="preserve">
+    <value>Присвоение пустого описания</value>
+  </data>
+  <data name="Kernel_530" xml:space="preserve">
+    <value>Присвоение описания: </value>
+  </data>
+  <data name="Kernel_539" xml:space="preserve">
+    <value>Присвоение пустого обратного наименования</value>
+  </data>
+  <data name="Kernel_538" xml:space="preserve">
+    <value>Присвоение обратного наименования: </value>
+  </data>
+  <data name="Kernel_526" xml:space="preserve">
+    <value>Описания связей между типами объектов</value>
+  </data>
+  <data name="Kernel_527" xml:space="preserve">
+    <value>Создание описания входимости объектов типа '{0}' в объекты типа '{1}' связью '{2}'</value>
+  </data>
+  <data name="Kernel_524" xml:space="preserve">
+    <value>Удаление связи</value>
+  </data>
+  <data name="Kernel_525" xml:space="preserve">
+    <value>Ошибка удаления связи: '{0}'</value>
+  </data>
+  <data name="Kernel_522" xml:space="preserve">
+    <value>Опции связи между типами объектов: </value>
+  </data>
+  <data name="Kernel_523" xml:space="preserve">
+    <value>Ошибка изменения опций связи между типами объектов: {0}</value>
+  </data>
+  <data name="Kernel_520" xml:space="preserve">
+    <value>Влияние связи на содержимое родительского объекта: </value>
+  </data>
+  <data name="Kernel_521" xml:space="preserve">
+    <value>Ошибка изменения влияние связи на содержимое родительского объекта: {0}</value>
+  </data>
+  <data name="Kernel_528" xml:space="preserve">
+    <value>Ошибка во время выполнения операции '{0}': {1}</value>
+  </data>
+  <data name="Kernel_529" xml:space="preserve">
+    <value>Неверный идентификатор типа связей: {0}</value>
+  </data>
+  <data name="Kernel_599" xml:space="preserve">
+    <value>Процесс очистки базы прерван пользователем {0} с компьютера {1}.</value>
+  </data>
+  <data name="Kernel_598" xml:space="preserve">
+    <value>Ошибка проверки формулы вычисления значения атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_595" xml:space="preserve">
+    <value>Слов: {0}, букв: {1}</value>
+  </data>
+  <data name="Kernel_594" xml:space="preserve">
+    <value>Ошибка перестройки данных в IMS_OBJECTS_VIEW: </value>
+  </data>
+  <data name="Kernel_597" xml:space="preserve">
+    <value>Ошибка проверки формулы вычисления значения атрибута '{0}' для типа связей N{1}: {2}</value>
+  </data>
+  <data name="Kernel_596" xml:space="preserve">
+    <value>Ошибка проверки формулы вычисления значения атрибута '{0}' для типа объектов N{1}: {2}</value>
+  </data>
+  <data name="Kernel_591" xml:space="preserve">
+    <value>Идентификатор пользователя не задан!</value>
+  </data>
+  <data name="Kernel_590" xml:space="preserve">
+    <value>Глобальный идентификатор пользователя не задан!</value>
+  </data>
+  <data name="Kernel_593" xml:space="preserve">
+    <value>Пользователь #{0}</value>
+  </data>
+  <data name="Kernel_592" xml:space="preserve">
+    <value>Идентификатор конфигурации пользователя не задан!</value>
+  </data>
+  <data name="Kernel_588" xml:space="preserve">
+    <value>Коллекция уже содержит элемент с такими идентификаторами (Id = {0}, Guid = {1})!</value>
+  </data>
+  <data name="Kernel_589" xml:space="preserve">
+    <value>Элемент таблицы не задан!</value>
+  </data>
+  <data name="Kernel_584" xml:space="preserve">
+    <value>Тип инструментов '{0}' не поддерживает комплекты настроек типа {1}!</value>
+  </data>
+  <data name="Kernel_585" xml:space="preserve">
+    <value>Служба инструментов</value>
+  </data>
+  <data name="Kernel_586" xml:space="preserve">
+    <value>Идентификатор версии объекта не задан!</value>
+  </data>
+  <data name="Kernel_587" xml:space="preserve">
+    <value>Глобальный идентификатор объекта не задан!</value>
+  </data>
+  <data name="Kernel_580" xml:space="preserve">
+    <value>Возникли ошибки при записи настроек инструментов в базу данных!</value>
+  </data>
+  <data name="Kernel_581" xml:space="preserve">
+    <value>Служба инструментов завершила работу.</value>
+  </data>
+  <data name="Kernel_582" xml:space="preserve">
+    <value>Глобальный идентификатор типа инструментов не может быть пустым!</value>
+  </data>
+  <data name="Kernel_583" xml:space="preserve">
+    <value>Инструмент с идентификатором {0} не существует!</value>
+  </data>
+  <data name="Kernel_230" xml:space="preserve">
+    <value>Ошибка изменения значения по умолчанию для атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_231" xml:space="preserve">
+    <value>Ошибка удаления индекса {0}: {1}</value>
+  </data>
+  <data name="Kernel_232" xml:space="preserve">
+    <value>Ошибка удаления индекса {0}: {1}</value>
+  </data>
+  <data name="Kernel_233" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="Kernel_234" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="Kernel_235" xml:space="preserve">
+    <value>ИСТИНА</value>
+  </data>
+  <data name="Kernel_236" xml:space="preserve">
+    <value>ДА</value>
+  </data>
+  <data name="Kernel_237" xml:space="preserve">
+    <value>ЛОЖЬ</value>
+  </data>
+  <data name="Kernel_238" xml:space="preserve">
+    <value>НЕТ</value>
+  </data>
+  <data name="Kernel_239" xml:space="preserve">
+    <value>Неверное значение {0} для логического атрибута {1}.</value>
+  </data>
+  <data name="Kernel_212" xml:space="preserve">
+    <value>Присвоение пустой маски ввода значения для атрибута '{0}'</value>
+  </data>
+  <data name="Kernel_213" xml:space="preserve">
+    <value>Ошибка изменения маски ввода значения для атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_210" xml:space="preserve">
+    <value>Ошибка изменения опций атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_211" xml:space="preserve">
+    <value>Присвоение маски ввода значения для атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_216" xml:space="preserve">
+    <value>Ошибка изменения правила проверки значения для атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_217" xml:space="preserve">
+    <value>Присвоение формулы вычисления значения атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_214" xml:space="preserve">
+    <value>Присвоение правила проверки значения для атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_215" xml:space="preserve">
+    <value>Присвоение пустого правила проверки значения для атрибута '{0}'</value>
+  </data>
+  <data name="Kernel_218" xml:space="preserve">
+    <value>Присвоение пустой формулы  вычисления значения атрибута '{0}'</value>
+  </data>
+  <data name="Kernel_219" xml:space="preserve">
+    <value>Ошибка изменения формулы вычисления значения для атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_221" xml:space="preserve">
+    <value>Присвоение способа вычисления атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_220" xml:space="preserve">
+    <value>Атрибут '{0}' хранит содержимое объектов: {1}</value>
+  </data>
+  <data name="Kernel_223" xml:space="preserve">
+    <value>Ошибка изменения способа вычисления атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_222" xml:space="preserve">
+    <value>Атрибут типа '{0}' не может быть вычисляемым.</value>
+  </data>
+  <data name="Kernel_225" xml:space="preserve">
+    <value>Ошибка удаления индекса {0}: {1}</value>
+  </data>
+  <data name="Kernel_224" xml:space="preserve">
+    <value>Присвоение значения оптимизации атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_227" xml:space="preserve">
+    <value>Ошибка изменения способа оптимизации атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_226" xml:space="preserve">
+    <value>Ошибка удаления индекса {0}: {1}</value>
+  </data>
+  <data name="Kernel_229" xml:space="preserve">
+    <value>Присвоение пустого значения по умолчанию для атрибута '{0}'</value>
+  </data>
+  <data name="Kernel_228" xml:space="preserve">
+    <value>Присвоение значения по умолчанию для атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_274" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="Kernel_275" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="Kernel_276" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="Kernel_277" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="Kernel_270" xml:space="preserve">
+    <value>Запрещена</value>
+  </data>
+  <data name="Kernel_271" xml:space="preserve">
+    <value>Разрешена</value>
+  </data>
+  <data name="Kernel_272" xml:space="preserve">
+    <value>Запрещена</value>
+  </data>
+  <data name="Kernel_273" xml:space="preserve">
+    <value>Разрешена</value>
+  </data>
+  <data name="Kernel_278" xml:space="preserve">
+    <value>Объекты</value>
+  </data>
+  <data name="Kernel_279" xml:space="preserve">
+    <value>типа объекта</value>
+  </data>
+  <data name="Kernel_203" xml:space="preserve">
+    <value>Ошибка изменения мастер-атрибута для атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_202" xml:space="preserve">
+    <value>Присвоение мастер-атрибута для атрибута '{0}': '{1}'</value>
+  </data>
+  <data name="Kernel_201" xml:space="preserve">
+    <value>не назначен</value>
+  </data>
+  <data name="Kernel_200" xml:space="preserve">
+    <value>Ошибка изменения способа вычисления атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_207" xml:space="preserve">
+    <value>Присвоение состояния контроля принадлежности атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_206" xml:space="preserve">
+    <value>Ошибка изменения атрибута-источника для атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_205" xml:space="preserve">
+    <value>Присвоение атрибута-источника для атрибута '{0}': '{1}'</value>
+  </data>
+  <data name="Kernel_204" xml:space="preserve">
+    <value>не назначен</value>
+  </data>
+  <data name="Kernel_209" xml:space="preserve">
+    <value>Присвоение опций атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_208" xml:space="preserve">
+    <value>Ошибка изменения контроля принадлежности атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_256" xml:space="preserve">
+    <value>Удаляется {0}...</value>
+  </data>
+  <data name="Kernel_257" xml:space="preserve">
+    <value> и </value>
+  </data>
+  <data name="Kernel_254" xml:space="preserve">
+    <value> (файловый шкаф)</value>
+  </data>
+  <data name="Kernel_255" xml:space="preserve">
+    <value> (в базовых единицах измерения)</value>
+  </data>
+  <data name="Kernel_252" xml:space="preserve">
+    <value> (идентификатор)</value>
+  </data>
+  <data name="Kernel_253" xml:space="preserve">
+    <value> (дата модификации)</value>
+  </data>
+  <data name="Kernel_250" xml:space="preserve">
+    <value>Ложь</value>
+  </data>
+  <data name="Kernel_251" xml:space="preserve">
+    <value>'{0}' не может содержать строку длиной более {1} символов.</value>
+  </data>
+  <data name="Kernel_258" xml:space="preserve">
+    <value>Тип связи: </value>
+  </data>
+  <data name="Kernel_259" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="Kernel_265" xml:space="preserve">
+    <value>Запрещена</value>
+  </data>
+  <data name="Kernel_264" xml:space="preserve">
+    <value>Разрешена</value>
+  </data>
+  <data name="Kernel_267" xml:space="preserve">
+    <value>Запрещена</value>
+  </data>
+  <data name="Kernel_266" xml:space="preserve">
+    <value>Разрешена</value>
+  </data>
+  <data name="Kernel_261" xml:space="preserve">
+    <value>Запрещена</value>
+  </data>
+  <data name="Kernel_260" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="Kernel_263" xml:space="preserve">
+    <value>Запрещена</value>
+  </data>
+  <data name="Kernel_262" xml:space="preserve">
+    <value>Разрешена</value>
+  </data>
+  <data name="Kernel_269" xml:space="preserve">
+    <value>атрибута</value>
+  </data>
+  <data name="Kernel_268" xml:space="preserve">
+    <value>Разрешена</value>
+  </data>
+  <data name="Kernel_247" xml:space="preserve">
+    <value>Атрибут '{0}' уже открыт для {1} данных.</value>
+  </data>
+  <data name="Kernel_246" xml:space="preserve">
+    <value>записи</value>
+  </data>
+  <data name="Kernel_245" xml:space="preserve">
+    <value>чтения</value>
+  </data>
+  <data name="Kernel_244" xml:space="preserve">
+    <value>Нельзя присвоить атрибуту '{0}' объект типа '{1}', т.к. допускается присваивать только объекты типа '{2}' (или унаследованные от этого типа объекты).</value>
+  </data>
+  <data name="Kernel_243" xml:space="preserve">
+    <value>Атрибуту {0} нельзя присваивать единицу измерения номер {1}</value>
+  </data>
+  <data name="Kernel_242" xml:space="preserve">
+    <value>Атрибут '{0}' уже открыт для {1} данных.</value>
+  </data>
+  <data name="Kernel_241" xml:space="preserve">
+    <value>записи</value>
+  </data>
+  <data name="Kernel_240" xml:space="preserve">
+    <value>чтения</value>
+  </data>
+  <data name="Kernel_249" xml:space="preserve">
+    <value>Истина</value>
+  </data>
+  <data name="Kernel_248" xml:space="preserve">
+    <value>Атрибут не открыт для чтения двоичных данных. Используйте функцию IBlobReader.OpenBlob.</value>
+  </data>
+  <data name="Kernel_298" xml:space="preserve">
+    <value>Объект {0} не был импортирован. Обновление атрибутов, ссылающихся на него прервано.</value>
+  </data>
+  <data name="Kernel_299" xml:space="preserve">
+    <value>Ошибка при обновлении значения-ссылки на объект атрибута {2} объекта {0}: {1}</value>
+  </data>
+  <data name="Kernel_292" xml:space="preserve">
+    <value>Атрибут {0} объекта {1} не импортирован : {2}</value>
+  </data>
+  <data name="Kernel_293" xml:space="preserve">
+    <value>Объект {0} не был импортирован. Обновление ссылки на владельца прервано.</value>
+  </data>
+  <data name="Kernel_290" xml:space="preserve">
+    <value>Шаг жизненного цикла "{0}"</value>
+  </data>
+  <data name="Kernel_291" xml:space="preserve">
+    <value>### Начинаем импорт "{0}" : {1} атрибутов</value>
+  </data>
+  <data name="Kernel_296" xml:space="preserve">
+    <value>###SQL: TABLE:{0} , F_OBJECT_VER_TYPE = {1} для {2} </value>
+  </data>
+  <data name="Kernel_297" xml:space="preserve">
+    <value>Ошибка при обновлении ссылки на владельца и проект объекта {0}: {1}</value>
+  </data>
+  <data name="Kernel_294" xml:space="preserve">
+    <value>Объект {0} не был импортирован. Обновление ссылки на проект прервано.</value>
+  </data>
+  <data name="Kernel_295" xml:space="preserve">
+    <value>###SQL: {0} для {1} не прошёл !</value>
+  </data>
+  <data name="Kernel_289" xml:space="preserve">
+    <value>Замена GUIDа у шага ЖЦ "{0}" для схемы ЖЦ "{1}"</value>
+  </data>
+  <data name="Kernel_288" xml:space="preserve">
+    <value>Замена GUIDа у шага ЖЦ "{0}" для схемы ЖЦ "{1}"</value>
+  </data>
+  <data name="Kernel_283" xml:space="preserve">
+    <value>Группа атрибутов "{0}"</value>
+  </data>
+  <data name="Kernel_282" xml:space="preserve">
+    <value>типа связи</value>
+  </data>
+  <data name="Kernel_281" xml:space="preserve">
+    <value>Находится на верхнем уровне иерархии</value>
+  </data>
+  <data name="Kernel_280" xml:space="preserve">
+    <value>типа объекта</value>
+  </data>
+  <data name="Kernel_287" xml:space="preserve">
+    <value>Схема ЖЦ "{0}</value>
+  </data>
+  <data name="Kernel_286" xml:space="preserve">
+    <value>Уровень продвижения "{0}"</value>
+  </data>
+  <data name="Kernel_285" xml:space="preserve">
+    <value>Языковой вариант "{0}"</value>
+  </data>
+  <data name="Kernel_284" xml:space="preserve">
+    <value>Атрибут "{0}"</value>
+  </data>
+  <data name="Kernel_771" xml:space="preserve">
+    <value>Уровень продвижения '{0}' уже существует.</value>
+  </data>
+  <data name="Kernel_770" xml:space="preserve">
+    <value>Ошибка создания уровня продвижения '{0}': {1}</value>
+  </data>
+  <data name="Kernel_773" xml:space="preserve">
+    <value>Удаление этапа '{0}' схемы жизненного цикла.</value>
+  </data>
+  <data name="Kernel_772" xml:space="preserve">
+    <value>Этап '{0}' схемы жизненного цикла '{1}'</value>
+  </data>
+  <data name="Kernel_775" xml:space="preserve">
+    <value>Присвоение наименования: </value>
+  </data>
+  <data name="Kernel_774" xml:space="preserve">
+    <value>Изменение этапа '{0}' схемы жизненного цикла: {1}</value>
+  </data>
+  <data name="Kernel_777" xml:space="preserve">
+    <value>Наименование этапа жизненного цикла</value>
+  </data>
+  <data name="Kernel_776" xml:space="preserve">
+    <value>Присвоение пустого наименования</value>
+  </data>
+  <data name="Kernel_779" xml:space="preserve">
+    <value>Присвоение примечания: </value>
+  </data>
+  <data name="Kernel_778" xml:space="preserve">
+    <value>Ошибка изменения наименования: </value>
+  </data>
+  <data name="Kernel_760" xml:space="preserve">
+    <value>В базе данных имеется {1} жизненных циклов с таким уровнем продвижения.</value>
+  </data>
+  <data name="Kernel_761" xml:space="preserve">
+    <value>Присвоение предметных областей: </value>
+  </data>
+  <data name="Kernel_762" xml:space="preserve">
+    <value>Ошибка изменения предметной области: </value>
+  </data>
+  <data name="Kernel_763" xml:space="preserve">
+    <value>Присвоение guid: </value>
+  </data>
+  <data name="Kernel_764" xml:space="preserve">
+    <value>Ошибка изменения глобального идентификатора уровня продвижения: </value>
+  </data>
+  <data name="Kernel_765" xml:space="preserve">
+    <value>Список уровней продвижения объектов</value>
+  </data>
+  <data name="Kernel_766" xml:space="preserve">
+    <value>Создание уровня продвижения '{0}'</value>
+  </data>
+  <data name="Kernel_767" xml:space="preserve">
+    <value>Наименование уровня продвижения</value>
+  </data>
+  <data name="Kernel_768" xml:space="preserve">
+    <value>Уровень продвижения номер {0} не найден.</value>
+  </data>
+  <data name="Kernel_769" xml:space="preserve">
+    <value>Уровень продвижения '{0}'</value>
+  </data>
+  <data name="Kernel_753" xml:space="preserve">
+    <value>Ошибка изменения статуса уровня продвижения: </value>
+  </data>
+  <data name="Kernel_752" xml:space="preserve">
+    <value>Уровень продвижения '{0}' должен являться уровнем продвижения по умолчанию, т.к. в системе не зарегистрировано других уровней продвижения, относящихся ко всем предметным областям.</value>
+  </data>
+  <data name="Kernel_751" xml:space="preserve">
+    <value>Данный уровень продвижения не может быть назначен по умолчанию.</value>
+  </data>
+  <data name="Kernel_750" xml:space="preserve">
+    <value>Изменение статуса</value>
+  </data>
+  <data name="Kernel_757" xml:space="preserve">
+    <value>В базе данных имеется {1} атрибут(ов), которые могут существовать только на данном уровне продвижения.</value>
+  </data>
+  <data name="Kernel_756" xml:space="preserve">
+    <value>Нельзя удалять уровень продвижения, назначенный в системе по умолчанию.</value>
+  </data>
+  <data name="Kernel_755" xml:space="preserve">
+    <value>Нельзя удалять системный уровень продвижения</value>
+  </data>
+  <data name="Kernel_754" xml:space="preserve">
+    <value>Нельзя удалять уровень продвижения '{0}'.
+</value>
+  </data>
+  <data name="Kernel_759" xml:space="preserve">
+    <value>В базе данных имеется {1} объект(ов), которые находятся на данном уровне продвижения.</value>
+  </data>
+  <data name="Kernel_758" xml:space="preserve">
+    <value>В базе данных имеется {1} атрибут(ов), относящихся к типам объектов, которые могут существовать только на данном уровне продвижения.</value>
+  </data>
+  <data name="Kernel_742" xml:space="preserve">
+    <value>Наименование уровня продвижения</value>
+  </data>
+  <data name="Kernel_743" xml:space="preserve">
+    <value>Ошибка изменения наименования: </value>
+  </data>
+  <data name="Kernel_740" xml:space="preserve">
+    <value>Присвоение наименования: </value>
+  </data>
+  <data name="Kernel_741" xml:space="preserve">
+    <value>Присвоение пустого наименования</value>
+  </data>
+  <data name="Kernel_746" xml:space="preserve">
+    <value>Присвоение пустой литеры</value>
+  </data>
+  <data name="Kernel_747" xml:space="preserve">
+    <value>Ошибка изменения литеры: </value>
+  </data>
+  <data name="Kernel_744" xml:space="preserve">
+    <value>Уровень продвижения '{0}' уже существует.</value>
+  </data>
+  <data name="Kernel_745" xml:space="preserve">
+    <value>Присвоение литеры: </value>
+  </data>
+  <data name="Kernel_748" xml:space="preserve">
+    <value>Изменение пиктограммы</value>
+  </data>
+  <data name="Kernel_749" xml:space="preserve">
+    <value>Ошибка изменения пиктограммы уровня продвижения: </value>
+  </data>
+  <data name="Kernel_735" xml:space="preserve">
+    <value>Идентификатор локализации</value>
+  </data>
+  <data name="Kernel_734" xml:space="preserve">
+    <value>Наименование языкового варианта</value>
+  </data>
+  <data name="Kernel_737" xml:space="preserve">
+    <value>Ошибка создания языкового варианта: </value>
+  </data>
+  <data name="Kernel_736" xml:space="preserve">
+    <value>Языковой вариант '{0}'</value>
+  </data>
+  <data name="Kernel_731" xml:space="preserve">
+    <value>Ошибка изменения глобального идентификатора: </value>
+  </data>
+  <data name="Kernel_730" xml:space="preserve">
+    <value>Присвоение guid: </value>
+  </data>
+  <data name="Kernel_733" xml:space="preserve">
+    <value>Создание языкового варианта {0}</value>
+  </data>
+  <data name="Kernel_732" xml:space="preserve">
+    <value>Список языковых вариантов</value>
+  </data>
+  <data name="Kernel_739" xml:space="preserve">
+    <value>Уровень продвижения '{0}'</value>
+  </data>
+  <data name="Kernel_738" xml:space="preserve">
+    <value>Языковой вариант '{0}' уже существует.</value>
+  </data>
+  <data name="Kernel_724" xml:space="preserve">
+    <value>Присвоение пустого идентификатора локализации</value>
+  </data>
+  <data name="Kernel_725" xml:space="preserve">
+    <value>Идентификатор локализации</value>
+  </data>
+  <data name="Kernel_726" xml:space="preserve">
+    <value>Языковой вариант с идентификатором локализации '{0}' уже существует.</value>
+  </data>
+  <data name="Kernel_727" xml:space="preserve">
+    <value>Ошибка изменения идентификатора локализации: </value>
+  </data>
+  <data name="Kernel_720" xml:space="preserve">
+    <value>Наименование языкового варианта</value>
+  </data>
+  <data name="Kernel_721" xml:space="preserve">
+    <value>Ошибка изменения наименования языкового варианта: </value>
+  </data>
+  <data name="Kernel_722" xml:space="preserve">
+    <value>Языковой вариант {0} уже существует.</value>
+  </data>
+  <data name="Kernel_723" xml:space="preserve">
+    <value>Присвоение идентификатора локализации: </value>
+  </data>
+  <data name="Kernel_728" xml:space="preserve">
+    <value>Языковой вариант {0} должен являться языковым вариантом по умолчанию, т.к. в системе не зарегистрировано других языковых вариантов.</value>
+  </data>
+  <data name="Kernel_729" xml:space="preserve">
+    <value>Ошибка изменения статуса языкового варианта: </value>
+  </data>
+  <data name="Kernel_717" xml:space="preserve">
+    <value>атрибуты</value>
+  </data>
+  <data name="Kernel_716" xml:space="preserve">
+    <value>группы атрибутов</value>
+  </data>
+  <data name="Kernel_715" xml:space="preserve">
+    <value>Нельзя удалять языковой вариант, назначенный в системе по умолчанию.</value>
+  </data>
+  <data name="Kernel_714" xml:space="preserve">
+    <value>Нельзя удалять системный языковой вариант</value>
+  </data>
+  <data name="Kernel_713" xml:space="preserve">
+    <value>Нельзя удалять языковой вариант '{0}'.
+В базе данных есть {1} в данном языковом варианте.</value>
+  </data>
+  <data name="Kernel_712" xml:space="preserve">
+    <value>Языковой вариант '{0}'</value>
+  </data>
+  <data name="Kernel_711" xml:space="preserve">
+    <value>Нельзя модифицировать или удалять системный языковой вариант.</value>
+  </data>
+  <data name="Kernel_710" xml:space="preserve">
+    <value>По умолчанию</value>
+  </data>
+  <data name="Kernel_719" xml:space="preserve">
+    <value>Присвоение пустого наименования</value>
+  </data>
+  <data name="Kernel_718" xml:space="preserve">
+    <value>Присвоение наименования: </value>
+  </data>
+  <data name="Kernel_706" xml:space="preserve">
+    <value>Несмотря на название, содержит шаг жизненного цикла версии объекта на указанную актуальную дату.</value>
+  </data>
+  <data name="Kernel_707" xml:space="preserve">
+    <value>Ошибка инициализации списка файловых прототипов!</value>
+  </data>
+  <data name="Kernel_704" xml:space="preserve">
+    <value>Используется для передачи результатов подбора версий объектов. В базе данных такой атрибут отсутствует.</value>
+  </data>
+  <data name="Kernel_705" xml:space="preserve">
+    <value>Используется для передачи статусов элементов (объектов, связей, т.п.). В базе данных такой атрибут отсутствует.</value>
+  </data>
+  <data name="Kernel_702" xml:space="preserve">
+    <value>Метод сжатия файла</value>
+  </data>
+  <data name="Kernel_703" xml:space="preserve">
+    <value>Содержит идентификатор проекта, в контексте которого создан объект</value>
+  </data>
+  <data name="Kernel_700" xml:space="preserve">
+    <value>Упакованный размер файла</value>
+  </data>
+  <data name="Kernel_701" xml:space="preserve">
+    <value>Идентификатор объекта/связи</value>
+  </data>
+  <data name="Kernel_708" xml:space="preserve">
+    <value>Удалили объект {0}</value>
+  </data>
+  <data name="Kernel_709" xml:space="preserve">
+    <value>ИТОГО {0} шт за {1}</value>
+  </data>
+  <data name="Kernel_799" xml:space="preserve">
+    <value>Служба назначения временных прав доступа</value>
+  </data>
+  <data name="Kernel_798" xml:space="preserve">
+    <value>Система</value>
+  </data>
+  <data name="Kernel_797" xml:space="preserve">
+    <value>Сохранение схемы жизненного цикла.</value>
+  </data>
+  <data name="Kernel_796" xml:space="preserve">
+    <value>Удаление связи между этапами '{0}' и '{1}' в схеме жизненного цикла.</value>
+  </data>
+  <data name="Kernel_795" xml:space="preserve">
+    <value>Изменение связей в схеме жизненного цикла.</value>
+  </data>
+  <data name="Kernel_794" xml:space="preserve">
+    <value>Ошибка создание этапа '{0}' в схеме жизненного цикла: {1}</value>
+  </data>
+  <data name="Kernel_793" xml:space="preserve">
+    <value>Наименование шага жизненного цикла</value>
+  </data>
+  <data name="Kernel_792" xml:space="preserve">
+    <value>Создание этапа '{0}' в схеме жизненного цикла.</value>
+  </data>
+  <data name="Kernel_791" xml:space="preserve">
+    <value>Ошибка изменения глобального идентификатора шага ЖЦ: </value>
+  </data>
+  <data name="Kernel_790" xml:space="preserve">
+    <value>Присвоение guid: </value>
+  </data>
+  <data name="Kernel_788" xml:space="preserve">
+    <value>Присвоение уровня продвижения: </value>
+  </data>
+  <data name="Kernel_789" xml:space="preserve">
+    <value>Ошибка изменения уровня продвижения: </value>
+  </data>
+  <data name="Kernel_786" xml:space="preserve">
+    <value>Присвоение способа изменения объектов: </value>
+  </data>
+  <data name="Kernel_787" xml:space="preserve">
+    <value>Ошибка изменения способа модификации объектов: </value>
+  </data>
+  <data name="Kernel_784" xml:space="preserve">
+    <value>Изменение первого шага схемы ЖЦ</value>
+  </data>
+  <data name="Kernel_785" xml:space="preserve">
+    <value>Ошибка изменения первого шага схемы ЖЦ: </value>
+  </data>
+  <data name="Kernel_782" xml:space="preserve">
+    <value>Присвоение уровня контроля прав доступа: </value>
+  </data>
+  <data name="Kernel_783" xml:space="preserve">
+    <value>Ошибка изменения уровня контроля прав доступа: </value>
+  </data>
+  <data name="Kernel_780" xml:space="preserve">
+    <value>Присвоение пустого примечания</value>
+  </data>
+  <data name="Kernel_781" xml:space="preserve">
+    <value>Ошибка изменения примечания: </value>
+  </data>
+  <data name="Kernel_450" xml:space="preserve">
+    <value>Ошибка изменения типа отображаемой связи: </value>
+  </data>
+  <data name="Kernel_451" xml:space="preserve">
+    <value>Присвоение guid: </value>
+  </data>
+  <data name="Kernel_452" xml:space="preserve">
+    <value>Ошибка изменения глобального идентификатора типа объектов: </value>
+  </data>
+  <data name="Kernel_453" xml:space="preserve">
+    <value>Присвоение предметных областей: </value>
+  </data>
+  <data name="Kernel_454" xml:space="preserve">
+    <value>Ошибка изменения предметной области: </value>
+  </data>
+  <data name="Kernel_455" xml:space="preserve">
+    <value>Нельзя удалить тип объектов '{0}', т.к. он является системным.</value>
+  </data>
+  <data name="Kernel_456" xml:space="preserve">
+    <value>Нельзя удалить тип '{0}', т.к. в его состав входят другие типы объектов.</value>
+  </data>
+  <data name="Kernel_457" xml:space="preserve">
+    <value>Нельзя удалить тип объектов '{0}', т.к. в базе данных есть объекты данного типа.</value>
+  </data>
+  <data name="Kernel_458" xml:space="preserve">
+    <value>Ошибка удаления типа объекта '{0}': {1}</value>
+  </data>
+  <data name="Kernel_459" xml:space="preserve">
+    <value>Присвоение жизненного цикла: </value>
+  </data>
+  <data name="Kernel_472" xml:space="preserve">
+    <value>Присвоение времени жизни удалённых объектов: </value>
+  </data>
+  <data name="Kernel_473" xml:space="preserve">
+    <value>Ошибка изменения времени жизни удалённых объектов: </value>
+  </data>
+  <data name="Kernel_470" xml:space="preserve">
+    <value>Присвоение значения: {0}</value>
+  </data>
+  <data name="Kernel_471" xml:space="preserve">
+    <value>Ошибка изменения свойства "Любой атрибут": </value>
+  </data>
+  <data name="Kernel_476" xml:space="preserve">
+    <value>Список типов объектов</value>
+  </data>
+  <data name="Kernel_477" xml:space="preserve">
+    <value>Создание типа объектов с именем '{0}'</value>
+  </data>
+  <data name="Kernel_474" xml:space="preserve">
+    <value>Присвоение схемы жизненного цикла: </value>
+  </data>
+  <data name="Kernel_475" xml:space="preserve">
+    <value>Ошибка изменения схемы жизненного цикла: </value>
+  </data>
+  <data name="Kernel_478" xml:space="preserve">
+    <value>Имя объекта</value>
+  </data>
+  <data name="Kernel_479" xml:space="preserve">
+    <value>Наименование типа объектов</value>
+  </data>
+  <data name="Kernel_441" xml:space="preserve">
+    <value>объектов</value>
+  </data>
+  <data name="Kernel_440" xml:space="preserve">
+    <value>Изменение типа версионности: </value>
+  </data>
+  <data name="Kernel_443" xml:space="preserve">
+    <value>Нельзя изменить тип версионности на '{0}', т.к. в базе данных найдено {1} {2} данного типа.</value>
+  </data>
+  <data name="Kernel_442" xml:space="preserve">
+    <value>версий объектов</value>
+  </data>
+  <data name="Kernel_445" xml:space="preserve">
+    <value>Изменение опций: </value>
+  </data>
+  <data name="Kernel_444" xml:space="preserve">
+    <value>Ошибка изменения типа версионности: </value>
+  </data>
+  <data name="Kernel_447" xml:space="preserve">
+    <value>Присвоение описания: </value>
+  </data>
+  <data name="Kernel_446" xml:space="preserve">
+    <value>Ошибка изменения опций типа объектов: </value>
+  </data>
+  <data name="Kernel_449" xml:space="preserve">
+    <value>Ошибка изменения описания типа объектов: </value>
+  </data>
+  <data name="Kernel_448" xml:space="preserve">
+    <value>Присвоение пустого описания</value>
+  </data>
+  <data name="Kernel_414" xml:space="preserve">
+    <value>Взят на изменение пользователем '{0}'</value>
+  </data>
+  <data name="Kernel_415" xml:space="preserve">
+    <value>Ошибка добавления атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_416" xml:space="preserve">
+    <value>Ошибка удаления атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_417" xml:space="preserve">
+    <value>Ошибка присвоения нового значения атрибуту '{0}': {1}</value>
+  </data>
+  <data name="Kernel_410" xml:space="preserve">
+    <value>Попытка присвоить версии объекта глобальный идентификатор </value>
+  </data>
+  <data name="Kernel_411" xml:space="preserve">
+    <value>Присвоение глобального идентификатора версии: </value>
+  </data>
+  <data name="Kernel_412" xml:space="preserve">
+    <value>Ошибка изменения глобального идентификатора версии объекта: </value>
+  </data>
+  <data name="Kernel_413" xml:space="preserve">
+    <value>Не взят на изменение</value>
+  </data>
+  <data name="Kernel_418" xml:space="preserve">
+    <value>Попытка присвоить объекту глобальный идентификатор </value>
+  </data>
+  <data name="Kernel_419" xml:space="preserve">
+    <value>Присвоение глобального идентификатора объекта: </value>
+  </data>
+  <data name="Kernel_463" xml:space="preserve">
+    <value>Тип объектов '{0}' уже унаследован от типа объектов '{1}'.</value>
+  </data>
+  <data name="Kernel_462" xml:space="preserve">
+    <value>Тип объектов '{0}' унаследован от типа '{1}'. Множественное наследование типов объектов системой не поддерживается.</value>
+  </data>
+  <data name="Kernel_461" xml:space="preserve">
+    <value>Тип объектов: </value>
+  </data>
+  <data name="Kernel_460" xml:space="preserve">
+    <value>Ошибка изменения свойства наследования жизненного цикла: {0}</value>
+  </data>
+  <data name="Kernel_467" xml:space="preserve">
+    <value>Ошибка изменения атрибута-описателя: </value>
+  </data>
+  <data name="Kernel_466" xml:space="preserve">
+    <value>Присвоение атрибута-описателя: </value>
+  </data>
+  <data name="Kernel_465" xml:space="preserve">
+    <value>Не задан</value>
+  </data>
+  <data name="Kernel_464" xml:space="preserve">
+    <value>Ошибка включения типа объектов '{0}' в состав типа объектов '{1}': {2}</value>
+  </data>
+  <data name="Kernel_469" xml:space="preserve">
+    <value>объекты данного типа могут содержать только разрешённые атрибуты.</value>
+  </data>
+  <data name="Kernel_468" xml:space="preserve">
+    <value>объекты данного типа могут содержать любые атрибуты.</value>
+  </data>
+  <data name="Kernel_436" xml:space="preserve">
+    <value>Имя объекта</value>
+  </data>
+  <data name="Kernel_437" xml:space="preserve">
+    <value>Ошибка изменения имени объектов данного типа: </value>
+  </data>
+  <data name="Kernel_434" xml:space="preserve">
+    <value>Присвоение наименования: </value>
+  </data>
+  <data name="Kernel_435" xml:space="preserve">
+    <value>Присвоение пустого наименования</value>
+  </data>
+  <data name="Kernel_432" xml:space="preserve">
+    <value>Присвоение пустого краткого наименования</value>
+  </data>
+  <data name="Kernel_433" xml:space="preserve">
+    <value>Ошибка изменения краткого наименования типа объектов: </value>
+  </data>
+  <data name="Kernel_430" xml:space="preserve">
+    <value>Тип объектов '{0}' уже существует.</value>
+  </data>
+  <data name="Kernel_431" xml:space="preserve">
+    <value>Присвоение краткого наименования: </value>
+  </data>
+  <data name="Kernel_438" xml:space="preserve">
+    <value>Изменение пиктограммы</value>
+  </data>
+  <data name="Kernel_439" xml:space="preserve">
+    <value>Ошибка изменения пиктограммы: </value>
+  </data>
+  <data name="Kernel_405" xml:space="preserve">
+    <value>Объект '{0}' входил в объект '{1}' связью '{2}'.</value>
+  </data>
+  <data name="Kernel_404" xml:space="preserve">
+    <value>Объект '{0}' входил в объект '{1}' связью '{2}'.</value>
+  </data>
+  <data name="Kernel_407" xml:space="preserve">
+    <value>Перевод объекта на стадию '{0}'</value>
+  </data>
+  <data name="Kernel_406" xml:space="preserve">
+    <value>Нельзя удалить '{0}', т.к. данный объект является системным.</value>
+  </data>
+  <data name="Kernel_401" xml:space="preserve">
+    <value>{0} номер {1}</value>
+  </data>
+  <data name="Kernel_400" xml:space="preserve">
+    <value>Заголовок объекта</value>
+  </data>
+  <data name="Kernel_403" xml:space="preserve">
+    <value>Ошибка удаления заготовки объекта: </value>
+  </data>
+  <data name="Kernel_402" xml:space="preserve">
+    <value>номер </value>
+  </data>
+  <data name="Kernel_409" xml:space="preserve">
+    <value>Ошибка изменения типа объекта '{0}' на '{1}': {2}</value>
+  </data>
+  <data name="Kernel_408" xml:space="preserve">
+    <value>Изменение типа объекта '{0}' на '{1}'</value>
+  </data>
+  <data name="Kernel_427" xml:space="preserve">
+    <value>Присвоение пустого наименования типа объектов</value>
+  </data>
+  <data name="Kernel_426" xml:space="preserve">
+    <value>Присвоение наименования типа объектов: </value>
+  </data>
+  <data name="Kernel_425" xml:space="preserve">
+    <value>Тип объектов '{0}'</value>
+  </data>
+  <data name="Kernel_424" xml:space="preserve">
+    <value>Не указан тип создаваемого объекта.</value>
+  </data>
+  <data name="Kernel_423" xml:space="preserve">
+    <value>Тип объектов номер {0} не найден.</value>
+  </data>
+  <data name="Kernel_422" xml:space="preserve">
+    <value>Список объектов типа '{0}'</value>
+  </data>
+  <data name="Kernel_421" xml:space="preserve">
+    <value>Список объектов</value>
+  </data>
+  <data name="Kernel_420" xml:space="preserve">
+    <value>Ошибка изменения глобального идентификатора объекта: </value>
+  </data>
+  <data name="Kernel_429" xml:space="preserve">
+    <value>Ошибка изменения наименования типа объектов: </value>
+  </data>
+  <data name="Kernel_428" xml:space="preserve">
+    <value>Наименование типа объектов</value>
+  </data>
+  <data name="Kernel_498" xml:space="preserve">
+    <value>Попытка присвоить связи глобальный идентификатор '{0}'.</value>
+  </data>
+  <data name="Kernel_499" xml:space="preserve">
+    <value>Присвоение глобального идентификатора: </value>
+  </data>
+  <data name="Kernel_494" xml:space="preserve">
+    <value>Нельзя удалить связь '{0}', т.к. она является системной.</value>
+  </data>
+  <data name="Kernel_495" xml:space="preserve">
+    <value>Ошибка добавления атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_496" xml:space="preserve">
+    <value>Ошибка удаления атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_497" xml:space="preserve">
+    <value>Ошибка присвоения нового значения атрибуту '{0}': {1}</value>
+  </data>
+  <data name="Kernel_490" xml:space="preserve">
+    <value>Поиск среди выделенных объектов</value>
+  </data>
+  <data name="Kernel_491" xml:space="preserve">
+    <value>Поиск среди выделенных объектов и в их составах первого уровня</value>
+  </data>
+  <data name="Kernel_492" xml:space="preserve">
+    <value>Права доступа к объектам проекта '{0}'</value>
+  </data>
+  <data name="Kernel_493" xml:space="preserve">
+    <value>Связь типа '{0}' между объектами {1} и {2}</value>
+  </data>
+  <data name="Kernel_489" xml:space="preserve">
+    <value>Поиск группирующих объектов</value>
+  </data>
+  <data name="Kernel_488" xml:space="preserve">
+    <value>В составе группирующего объекта</value>
+  </data>
+  <data name="Kernel_485" xml:space="preserve">
+    <value>Наименование типа объектов</value>
+  </data>
+  <data name="Kernel_484" xml:space="preserve">
+    <value>Имя объекта</value>
+  </data>
+  <data name="Kernel_487" xml:space="preserve">
+    <value>Объект принадлежит проекту</value>
+  </data>
+  <data name="Kernel_486" xml:space="preserve">
+    <value>Нельзя удалить правило подбора '{0}', т.к. оно является системным.</value>
+  </data>
+  <data name="Kernel_481" xml:space="preserve">
+    <value>Тип объектов '{0}'</value>
+  </data>
+  <data name="Kernel_480" xml:space="preserve">
+    <value>Тип объектов номер {0} не найден.</value>
+  </data>
+  <data name="Kernel_483" xml:space="preserve">
+    <value>Тип объектов '{0}' уже существует.</value>
+  </data>
+  <data name="Kernel_482" xml:space="preserve">
+    <value>Ошибка создания типа объектов '{0}': {1}</value>
+  </data>
+  <data name="Kernel_991" xml:space="preserve">
+    <value>Тип объектов: </value>
+  </data>
+  <data name="Kernel_990" xml:space="preserve">
+    <value>В состав извещения уже входит другая версия этого объекта.</value>
+  </data>
+  <data name="Kernel_993" xml:space="preserve">
+    <value>Создание объекта</value>
+  </data>
+  <data name="Kernel_992" xml:space="preserve">
+    <value>Ошибка исключения дочернего типа объектов '{0}': {1}</value>
+  </data>
+  <data name="Kernel_995" xml:space="preserve">
+    <value>Вы не можете включать {0} в состав узла "{1}", так как не являетесь администратором портала</value>
+  </data>
+  <data name="Kernel_994" xml:space="preserve">
+    <value>Удаление объекта</value>
+  </data>
+  <data name="Kernel_997" xml:space="preserve">
+    <value>Вы не можете исключать {0} из состава узла "{1}", так как не являетесь администратором портала</value>
+  </data>
+  <data name="Kernel_996" xml:space="preserve">
+    <value>Нельзя включать в состав {0} еще не созданного пользователя</value>
+  </data>
+  <data name="Kernel_999" xml:space="preserve">
+    <value>Ошибка при изменении атрибута "Описание ошибки" задачи {0}: {1}</value>
+  </data>
+  <data name="Kernel_998" xml:space="preserve">
+    <value>Нельзя персональную выборку привязать к общему табличному отчету.</value>
+  </data>
+  <data name="Kernel_980" xml:space="preserve">
+    <value>Связь {{{0}}} ({{{1}}}-&gt;{{{2}}}) не импортирована</value>
+  </data>
+  <data name="Kernel_981" xml:space="preserve">
+    <value>Нельзя импортировать атрибут {0} связи {1}: несовместимые типы данных!</value>
+  </data>
+  <data name="Kernel_982" xml:space="preserve">
+    <value>Нельзя импортировать атрибут {0} объекта {1}: несовместимые типы данных!</value>
+  </data>
+  <data name="Kernel_983" xml:space="preserve">
+    <value>Нельзя импортировать атрибут {0} объекта {1}: Объектам типа {2} нельзя добавить атрибут {0}</value>
+  </data>
+  <data name="Kernel_984" xml:space="preserve">
+    <value>Среди метаданных портфеля не найден атрибут </value>
+  </data>
+  <data name="Kernel_985" xml:space="preserve">
+    <value>Ошибка обращения к шкафу '{0}': {1}</value>
+  </data>
+  <data name="Kernel_986" xml:space="preserve">
+    <value>Ошибка при удалении шкафа '{0}': {1}</value>
+  </data>
+  <data name="Kernel_987" xml:space="preserve">
+    <value>Неверно указана строка подключения.</value>
+  </data>
+  <data name="Kernel_988" xml:space="preserve">
+    <value>Атрибут не открыт для чтения двоичных данных. Используйте функцию IBlobReader.OpenBlob.	</value>
+  </data>
+  <data name="Kernel_989" xml:space="preserve">
+    <value>Нельзя добавить в состав извещения версию объекта [{0}] "{1}".
+
+ </value>
+  </data>
+  <data name="Kernel_919" xml:space="preserve">
+    <value>Нельзя удалить языковой вариант '{0}', т.к. он является обязательным</value>
+  </data>
+  <data name="Kernel_918" xml:space="preserve">
+    <value>Нельзя удалить группу атрибутов '{0}', т.к. она является обязательной</value>
+  </data>
+  <data name="Kernel_911" xml:space="preserve">
+    <value>Ошибка при обновлении версии ядра:</value>
+  </data>
+  <data name="Kernel_910" xml:space="preserve">
+    <value>Ошибка при получении текущей версии ядра:</value>
+  </data>
+  <data name="Kernel_913" xml:space="preserve">
+    <value>Нельзя изменять обязательное свойство "{0}" группы атрибутов</value>
+  </data>
+  <data name="Kernel_912" xml:space="preserve">
+    <value>У вас нет прав доступа на запись в текущий контекст редактирования.</value>
+  </data>
+  <data name="Kernel_915" xml:space="preserve">
+    <value>Нельзя изменять обязательное свойство "{0}" уровня продвижения</value>
+  </data>
+  <data name="Kernel_914" xml:space="preserve">
+    <value>Нельзя изменять обязательное свойство "{0}" языкового варианта</value>
+  </data>
+  <data name="Kernel_917" xml:space="preserve">
+    <value>Нельзя изменять обязательное свойство "{0}" предметной области</value>
+  </data>
+  <data name="Kernel_916" xml:space="preserve">
+    <value>Нельзя изменять обязательное свойство "{0}" схемы ЖЦ</value>
+  </data>
+  <data name="Kernel_908" xml:space="preserve">
+    <value>Нельзя удалить атрибут '{0}', т.к. он является обязательным.</value>
+  </data>
+  <data name="Kernel_909" xml:space="preserve">
+    <value>Права доступа {0} для {1} категории {2} не импортированы: {3}</value>
+  </data>
+  <data name="Kernel_900" xml:space="preserve">
+    <value>Локализация сервера приложений не соответствует локализации данной рабочей станции. 
+Дальнейшая работа программы невозможна. 
+Для решения проблемы обратитесь к системному администратору.</value>
+  </data>
+  <data name="Kernel_901" xml:space="preserve">
+    <value>Строка подключения:</value>
+  </data>
+  <data name="Kernel_902" xml:space="preserve">
+    <value>При различной локализации портфеля и базы назначения синхронизация метаданных не производится. Проверка не производилась.</value>
+  </data>
+  <data name="Kernel_903" xml:space="preserve">
+    <value>Объект типа "{0}" не может входить в состав объекта типа "{1}"</value>
+  </data>
+  <data name="Kernel_904" xml:space="preserve">
+    <value>Последние версии объектов</value>
+  </data>
+  <data name="Kernel_905" xml:space="preserve">
+    <value>Все версии объектов</value>
+  </data>
+  <data name="Kernel_906" xml:space="preserve">
+    <value>Нельзя изменять обязательное свойство "{0}" атрибута</value>
+  </data>
+  <data name="Kernel_907" xml:space="preserve">
+    <value>Список допустимых значений</value>
+  </data>
+  <data name="Kernel_939" xml:space="preserve">
+    <value>Нельзя редактировать объект '{0}', т.к. он является обязательным</value>
+  </data>
+  <data name="Kernel_938" xml:space="preserve">
+    <value>Нельзя удалить связь "{0}", т.к. она является обязательной</value>
+  </data>
+  <data name="Kernel_933" xml:space="preserve">
+    <value>Нельзя удалить атрибут '{0}' объекта, т.к. он является обязательным</value>
+  </data>
+  <data name="Kernel_932" xml:space="preserve">
+    <value>Нельзя удалить объект '{0}' (идентификатор версии '{1}'), т.к. он является обязательным</value>
+  </data>
+  <data name="Kernel_931" xml:space="preserve">
+    <value>Нельзя изменять обязательное свойство "{0}" объекта</value>
+  </data>
+  <data name="Kernel_930" xml:space="preserve">
+    <value>Нельзя удалить тип связей '{0}', т.к. он является обязательным</value>
+  </data>
+  <data name="Kernel_937" xml:space="preserve">
+    <value>Нельзя изменять обязательное свойство "{0}" связи</value>
+  </data>
+  <data name="Kernel_936" xml:space="preserve">
+    <value>Нельзя изменить значение атрибута '{0}' связи, т.к. он является обязательным</value>
+  </data>
+  <data name="Kernel_935" xml:space="preserve">
+    <value>Нельзя изменить значение атрибута '{0}' объекта , т.к. он является обязательным</value>
+  </data>
+  <data name="Kernel_934" xml:space="preserve">
+    <value>Нельзя удалить атрибут '{0}' связи, т.к. он является обязательным</value>
+  </data>
+  <data name="Kernel_928" xml:space="preserve">
+    <value>Нельзя удалить связь между типами объектов '{0}', т.к. она является обязательной</value>
+  </data>
+  <data name="Kernel_929" xml:space="preserve">
+    <value>Нельзя изменять обязательное свойство "{0}" типа связей</value>
+  </data>
+  <data name="Kernel_922" xml:space="preserve">
+    <value>Данные схемы</value>
+  </data>
+  <data name="Kernel_923" xml:space="preserve">
+    <value>Нельзя удалить предметную область '{0}', т.к. она является обязательной</value>
+  </data>
+  <data name="Kernel_920" xml:space="preserve">
+    <value>Нельзя удалить уровень продвижения '{0}', т.к. он является обязательным</value>
+  </data>
+  <data name="Kernel_921" xml:space="preserve">
+    <value>Нельзя удалить схему ЖЦ '{0}', т.к. она является обязательной</value>
+  </data>
+  <data name="Kernel_926" xml:space="preserve">
+    <value>Нельзя изменять обязательное свойство "{0}" атрибута</value>
+  </data>
+  <data name="Kernel_927" xml:space="preserve">
+    <value>Нельзя изменять обязательное свойство "{0}" связи</value>
+  </data>
+  <data name="Kernel_924" xml:space="preserve">
+    <value>Нельзя изменять обязательное свойство "{0}" типа объектов</value>
+  </data>
+  <data name="Kernel_925" xml:space="preserve">
+    <value>Нельзя удалить тип объектов '{0}', т.к. он является обязательным</value>
+  </data>
+  <data name="Kernel_959" xml:space="preserve">
+    <value>Ошибка при вставке в представление {0} для объекта {1}: {2}</value>
+  </data>
+  <data name="Kernel_958" xml:space="preserve">
+    <value>Значение атрибута {0} длиной {1} символов для объекта {2} было обрезано до {3} символов</value>
+  </data>
+  <data name="Kernel_955" xml:space="preserve">
+    <value>В БД не найден атрибут {0}, при попытке добавить атрибут объекту {1}</value>
+  </data>
+  <data name="Kernel_954" xml:space="preserve">
+    <value>Тип объектов {0} не версионный.</value>
+  </data>
+  <data name="Kernel_957" xml:space="preserve">
+    <value>Ошибка при вычислении атрибута {0} (метод Evaluate) для объекта {1} : {2}</value>
+  </data>
+  <data name="Kernel_956" xml:space="preserve">
+    <value>Ошибка при вычислении атрибута {0} (Convert) для объекта {1} : {2}</value>
+  </data>
+  <data name="Kernel_951" xml:space="preserve">
+    <value>Ошибка импорта значения "{0}" атрибута {1} объекта/связи {2}: Тип объектов {0} не найден в базе назначения!</value>
+  </data>
+  <data name="Kernel_950" xml:space="preserve">
+    <value>По значению '{0}' для идентифицирующего атрибута {1} найдено несколько значений</value>
+  </data>
+  <data name="Kernel_953" xml:space="preserve">
+    <value>Нельзя импортировать объект {0}, так как он взят на изменение {1}</value>
+  </data>
+  <data name="Kernel_952" xml:space="preserve">
+    <value>Нельзя импортировать файловый шкаф!</value>
+  </data>
+  <data name="Kernel_948" xml:space="preserve">
+    <value>Информация о графической отрисовке схемы ЖЦ {0} не синхронизирована, по причине обязательности этого свойства у схемы.</value>
+  </data>
+  <data name="Kernel_949" xml:space="preserve">
+    <value>Для атрибута {0}, идентифицирующего объекты типа '{1}' не настроен метод контроля уникальности значений</value>
+  </data>
+  <data name="Kernel_944" xml:space="preserve">
+    <value>Тип объектов {0} в базе назначения не найден!</value>
+  </data>
+  <data name="Kernel_945" xml:space="preserve">
+    <value>Атрибут {0} в базе назначения не найден!</value>
+  </data>
+  <data name="Kernel_946" xml:space="preserve">
+    <value>объекта</value>
+  </data>
+  <data name="Kernel_947" xml:space="preserve">
+    <value>связи</value>
+  </data>
+  <data name="Kernel_940" xml:space="preserve">
+    <value>Нельзя сдавать изменения для объекта '{0}', т.к. его архивная копия является обязательной</value>
+  </data>
+  <data name="Kernel_941" xml:space="preserve">
+    <value>объекта '{0}'</value>
+  </data>
+  <data name="Kernel_942" xml:space="preserve">
+    <value>связи '{0}'</value>
+  </data>
+  <data name="Kernel_943" xml:space="preserve">
+    <value>Нельзя изменять обязательное свойство '{0}' атрибута '{1}' типа объектов '{2}'</value>
+  </data>
+  <data name="Kernel_979" xml:space="preserve">
+    <value>Ошибка при установке оптимизации операций. См. серверный лог</value>
+  </data>
+  <data name="Kernel_978" xml:space="preserve">
+    <value>Предметная область {0} базы-источника не импортирована</value>
+  </data>
+  <data name="Kernel_977" xml:space="preserve">
+    <value>Тип связей {0} базы-источника не импортирован</value>
+  </data>
+  <data name="Kernel_976" xml:space="preserve">
+    <value>Объект {0} базы-источника не импортирован</value>
+  </data>
+  <data name="Kernel_975" xml:space="preserve">
+    <value>Тип объектов {0} базы-источника не импортирован</value>
+  </data>
+  <data name="Kernel_974" xml:space="preserve">
+    <value>Шаг ЖЦ {0} базы-источника не импортирован</value>
+  </data>
+  <data name="Kernel_973" xml:space="preserve">
+    <value>Схема ЖЦ {0} базы-источника не импортирована</value>
+  </data>
+  <data name="Kernel_972" xml:space="preserve">
+    <value>Уровень продвижения {0} базы-источника не импортирован</value>
+  </data>
+  <data name="Kernel_971" xml:space="preserve">
+    <value>Языковой вариант {0} базы-источника не импортирован</value>
+  </data>
+  <data name="Kernel_970" xml:space="preserve">
+    <value>Группа атрибутов {0} базы-источника не импортирована</value>
+  </data>
+  <data name="Kernel_968" xml:space="preserve">
+    <value>Ошибка импорта расширенных метаданных для типа объектов {0}: {1}</value>
+  </data>
+  <data name="Kernel_969" xml:space="preserve">
+    <value>Атрибут {0} базы-источника не импортирован</value>
+  </data>
+  <data name="Kernel_966" xml:space="preserve">
+    <value>Ошибка импорта расширенных метаданных для типа объектов {0}: Тип объектов не импортирован</value>
+  </data>
+  <data name="Kernel_967" xml:space="preserve">
+    <value>Ошибка импорта расширенных метаданных для типа объектов {0}: Атрибут {1} базы-источника не импортирован</value>
+  </data>
+  <data name="Kernel_964" xml:space="preserve">
+    <value>Ошибка импорта расширенных метаданных для атрибута {0}: {1}</value>
+  </data>
+  <data name="Kernel_965" xml:space="preserve">
+    <value>Ошибка импорта расширенных метаданных для типа связей {0}: Тип связей не импортирован</value>
+  </data>
+  <data name="Kernel_962" xml:space="preserve">
+    <value>Ошибка при обновлении представления {0} для связи {1}: {2}</value>
+  </data>
+  <data name="Kernel_963" xml:space="preserve">
+    <value>Ошибка при создании связи, projID = {0} partID = {1} relationType = {2} : {3}</value>
+  </data>
+  <data name="Kernel_960" xml:space="preserve">
+    <value>Ошибка при обновлении представления {0} для объекта {1}: {2}</value>
+  </data>
+  <data name="Kernel_961" xml:space="preserve">
+    <value>Ошибка при обновлении дерева версий для объекта {0} (projID = {1}): {2}</value>
+  </data>
+  <data name="Kernel_670" xml:space="preserve">
+    <value>Порядковый номер версии объекта</value>
+  </data>
+  <data name="Kernel_671" xml:space="preserve">
+    <value>Идентификатор связи между объектами</value>
+  </data>
+  <data name="Kernel_672" xml:space="preserve">
+    <value>Идентификатор версии родительского объекта</value>
+  </data>
+  <data name="Kernel_673" xml:space="preserve">
+    <value>Идентификатор дочернего объекта (в случае горизонтальной связи подчинённой роли не играет)</value>
+  </data>
+  <data name="Kernel_674" xml:space="preserve">
+    <value>Идентификатор типа связи между объектами</value>
+  </data>
+  <data name="Kernel_675" xml:space="preserve">
+    <value>Дата и время начала действия связи между объектами</value>
+  </data>
+  <data name="Kernel_676" xml:space="preserve">
+    <value>Дата и время завершения действия связи между объектами</value>
+  </data>
+  <data name="Kernel_677" xml:space="preserve">
+    <value>Идентификатор события</value>
+  </data>
+  <data name="Kernel_678" xml:space="preserve">
+    <value>Категория, к которой относится данное событие (например, тип объектов, атрибут и т.п.)</value>
+  </data>
+  <data name="Kernel_679" xml:space="preserve">
+    <value>Идентификатор объекта той категории, к которой относится событие (например, идентификатор атрибута)</value>
+  </data>
+  <data name="Kernel_652" xml:space="preserve">
+    <value>VersionRulesCacheService: неверно задан индекс правила подбора версий: {0}</value>
+  </data>
+  <data name="Kernel_653" xml:space="preserve">
+    <value>Уровень продвижения "{0}"</value>
+  </data>
+  <data name="Kernel_650" xml:space="preserve">
+    <value>Варианты значений переменных правил подбора (правил/вариантов: {0}/{1})</value>
+  </data>
+  <data name="Kernel_651" xml:space="preserve">
+    <value>Настройки фильтрации состава (настроек: {0})</value>
+  </data>
+  <data name="Kernel_654" xml:space="preserve">
+    <value>Найдено системное правило для уровня продвижения "{0}", заголовок правила некорректен. Попытка исправить заголовок объекту вызвала исключение "{1}"</value>
+  </data>
+  <data name="Kernel_655" xml:space="preserve">
+    <value>Ошибка создания системного правила для уровня продвижения "{0}": "{1}"</value>
+  </data>
+  <data name="Kernel_659" xml:space="preserve">
+    <value>Инициализация кэша метаданных...</value>
+  </data>
+  <data name="Kernel_661" xml:space="preserve">
+    <value>Неверный идентификатор типа объектов: {0}</value>
+  </data>
+  <data name="Kernel_660" xml:space="preserve">
+    <value>Системная группа, содержащая список всех атрибутов, зарегистрированных в системе.</value>
+  </data>
+  <data name="Kernel_663" xml:space="preserve">
+    <value>Идентификатор объекта (общий у всех версий данного объекта)</value>
+  </data>
+  <data name="Kernel_662" xml:space="preserve">
+    <value>Идентификатор пользователя, взявшего объект на изменение</value>
+  </data>
+  <data name="Kernel_665" xml:space="preserve">
+    <value>Идентификатор уровня продвижения, на котором находится данная версия объекта</value>
+  </data>
+  <data name="Kernel_664" xml:space="preserve">
+    <value>Идентификатор этапа жизненного цикла, на котором находится данная версия объекта</value>
+  </data>
+  <data name="Kernel_667" xml:space="preserve">
+    <value>Уникальный идентификатор версии объекта</value>
+  </data>
+  <data name="Kernel_666" xml:space="preserve">
+    <value>Дата и время последней модификации данной версии объекта</value>
+  </data>
+  <data name="Kernel_669" xml:space="preserve">
+    <value>Идентификатор владельца данной версии объекта</value>
+  </data>
+  <data name="Kernel_668" xml:space="preserve">
+    <value>Идентификатор типа объекта</value>
+  </data>
+  <data name="Kernel_634" xml:space="preserve">
+    <value>Удаление записей из журнала событий...</value>
+  </data>
+  <data name="Kernel_635" xml:space="preserve">
+    <value>Удаление записей из истории значений атрибутов...</value>
+  </data>
+  <data name="Kernel_636" xml:space="preserve">
+    <value>Подготовка эталонной базы завершена </value>
+  </data>
+  <data name="Kernel_637" xml:space="preserve">
+    <value>типа объектов "</value>
+  </data>
+  <data name="Kernel_630" xml:space="preserve">
+    <value>Удалено типов объектов: </value>
+  </data>
+  <data name="Kernel_631" xml:space="preserve">
+    <value>Удаляем несистемные атрибуты...</value>
+  </data>
+  <data name="Kernel_632" xml:space="preserve">
+    <value>Ошибка удаления атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_633" xml:space="preserve">
+    <value>Удалено атрибутов: </value>
+  </data>
+  <data name="Kernel_638" xml:space="preserve">
+    <value>шага жизненного цикла "</value>
+  </data>
+  <data name="Kernel_639" xml:space="preserve">
+    <value>уровня продвижения "</value>
+  </data>
+  <data name="Kernel_643" xml:space="preserve">
+    <value>Атрибут номер {0} не найден.</value>
+  </data>
+  <data name="Kernel_642" xml:space="preserve">
+    <value>Контейнер для </value>
+  </data>
+  <data name="Kernel_641" xml:space="preserve">
+    <value>ЖЦ и типы объектов "</value>
+  </data>
+  <data name="Kernel_640" xml:space="preserve">
+    <value>Контейнер для </value>
+  </data>
+  <data name="Kernel_647" xml:space="preserve">
+    <value>В базе данных существует несколько классификаторов с атрибутом "Ключ папки классификатора" равным "{0}"</value>
+  </data>
+  <data name="Kernel_646" xml:space="preserve">
+    <value>В базе данных не найден родительский классификатор по атрибуту "Ключ папки классификатора" равному "{0}"</value>
+  </data>
+  <data name="Kernel_644" xml:space="preserve">
+    <value>Атрибут номер {0} не найден.</value>
+  </data>
+  <data name="Kernel_649" xml:space="preserve">
+    <value>конструктор UserRulesCache</value>
+  </data>
+  <data name="Kernel_648" xml:space="preserve">
+    <value>UserRulesCache: не получена ссылка на сервис-владелец типа VersionRulesCacheService</value>
+  </data>
+  <data name="Kernel_616" xml:space="preserve">
+    <value>Процесс перестройки индексов прерван пользователем {0} с компьютера {1}.</value>
+  </data>
+  <data name="Kernel_617" xml:space="preserve">
+    <value>Неверная версия PUMPER! Чистка базы прервана.</value>
+  </data>
+  <data name="Kernel_614" xml:space="preserve">
+    <value>Ошибка перестройки индекса '{0}' для связи номер {1}: {2}</value>
+  </data>
+  <data name="Kernel_615" xml:space="preserve">
+    <value>Процесс перестройки индексов завершён. Пересчитано {0} индексных значений. Время завершения: {1}</value>
+  </data>
+  <data name="Kernel_612" xml:space="preserve">
+    <value>Переиндексация атрибута '{0}'...</value>
+  </data>
+  <data name="Kernel_613" xml:space="preserve">
+    <value>Ошибка перестройки индекса '{0}' для объекта номер {1}: {2}</value>
+  </data>
+  <data name="Kernel_610" xml:space="preserve">
+    <value>Подготовка к переиндексации...</value>
+  </data>
+  <data name="Kernel_611" xml:space="preserve">
+    <value>Процесс перестройки индексов стартован пользователем {0} с компьютера {1}. Время начала операции: {2}</value>
+  </data>
+  <data name="Kernel_618" xml:space="preserve">
+    <value>Подготовка эталонной базы начата </value>
+  </data>
+  <data name="Kernel_619" xml:space="preserve">
+    <value>Чистка мусора...</value>
+  </data>
+  <data name="Kernel_625" xml:space="preserve">
+    <value>Изменено объектов: </value>
+  </data>
+  <data name="Kernel_624" xml:space="preserve">
+    <value>Ошибка изменения владельца объекта N{0}: {1}</value>
+  </data>
+  <data name="Kernel_627" xml:space="preserve">
+    <value>Удалено групп: </value>
+  </data>
+  <data name="Kernel_626" xml:space="preserve">
+    <value>Удаляем несистемные группы атрибутов...</value>
+  </data>
+  <data name="Kernel_621" xml:space="preserve">
+    <value>Ошибка удаления объекта N{0}: {1}</value>
+  </data>
+  <data name="Kernel_620" xml:space="preserve">
+    <value>Удаление несистемных объектов ...</value>
+  </data>
+  <data name="Kernel_623" xml:space="preserve">
+    <value>Замена владельцев...</value>
+  </data>
+  <data name="Kernel_622" xml:space="preserve">
+    <value>Удалено объектов: </value>
+  </data>
+  <data name="Kernel_629" xml:space="preserve">
+    <value>Ошибка удаления типа объектов '{0}': {1}</value>
+  </data>
+  <data name="Kernel_628" xml:space="preserve">
+    <value>Удаляем несистемные типы объектов...</value>
+  </data>
+  <data name="Kernel_607" xml:space="preserve">
+    <value>Чистка удалённых этапов ЖЦ...</value>
+  </data>
+  <data name="Kernel_606" xml:space="preserve">
+    <value>Ошибка удаления объекта номер {0}: {1}</value>
+  </data>
+  <data name="Kernel_605" xml:space="preserve">
+    <value>Ошибка открытия объекта номер {0}: {1}</value>
+  </data>
+  <data name="Kernel_604" xml:space="preserve">
+    <value>Чистка заготовок и удалённых объектов...</value>
+  </data>
+  <data name="Kernel_603" xml:space="preserve">
+    <value>Ошибка очистки журнала событий: </value>
+  </data>
+  <data name="Kernel_602" xml:space="preserve">
+    <value>Чистка журнала событий...</value>
+  </data>
+  <data name="Kernel_601" xml:space="preserve">
+    <value>Поиск устаревшей информации...</value>
+  </data>
+  <data name="Kernel_600" xml:space="preserve">
+    <value>Процесс удаления устаревшей информации стартован пользователем {0} с компьютера {1}. Время начала операции: {2}</value>
+  </data>
+  <data name="Kernel_609" xml:space="preserve">
+    <value>Процесс удаления устаревших данных завершен. Удалено {0} объект(ов), {3} итерации(ий) и {2} запись(ей) двоичных данных. Время завершения: {1}</value>
+  </data>
+  <data name="Kernel_608" xml:space="preserve">
+    <value>Ошибка удаления этапа ЖЦ '{0}' (id = {1}): {2}</value>
+  </data>
+  <data name="Kernel_698" xml:space="preserve">
+    <value>Размер файла</value>
+  </data>
+  <data name="Kernel_699" xml:space="preserve">
+    <value>Дата обновления файла</value>
+  </data>
+  <data name="Kernel_696" xml:space="preserve">
+    <value>Идентификатор файла в файловом шкафу</value>
+  </data>
+  <data name="Kernel_697" xml:space="preserve">
+    <value>Имя файла</value>
+  </data>
+  <data name="Kernel_694" xml:space="preserve">
+    <value>Ключ истории значений</value>
+  </data>
+  <data name="Kernel_695" xml:space="preserve">
+    <value>Числовой идентификатор атрибута</value>
+  </data>
+  <data name="Kernel_692" xml:space="preserve">
+    <value>Дата присвоения значения атрибуту</value>
+  </data>
+  <data name="Kernel_693" xml:space="preserve">
+    <value>Статус значения атрибута</value>
+  </data>
+  <data name="Kernel_690" xml:space="preserve">
+    <value>Глобальный идентификатор версии объекта</value>
+  </data>
+  <data name="Kernel_691" xml:space="preserve">
+    <value>Дата создания объекта</value>
+  </data>
+  <data name="Kernel_689" xml:space="preserve">
+    <value>Атрибут, который используется для отображения объектов в деревьях, диалоговых сообщениях и т.п.</value>
+  </data>
+  <data name="Kernel_688" xml:space="preserve">
+    <value>Идентификатор связи, к которой относится событие (если событие имеет отношение к связи)</value>
+  </data>
+  <data name="Kernel_687" xml:space="preserve">
+    <value>Наименование события</value>
+  </data>
+  <data name="Kernel_686" xml:space="preserve">
+    <value>Пользователь, инициировавший данное событие</value>
+  </data>
+  <data name="Kernel_685" xml:space="preserve">
+    <value>Компьютер, с которого было инициировано данное событие</value>
+  </data>
+  <data name="Kernel_684" xml:space="preserve">
+    <value>Дата и время завершения события</value>
+  </data>
+  <data name="Kernel_683" xml:space="preserve">
+    <value>Дата и время начала события</value>
+  </data>
+  <data name="Kernel_682" xml:space="preserve">
+    <value>Имя объекта/связи/категории, к которым имеет отношение событие</value>
+  </data>
+  <data name="Kernel_681" xml:space="preserve">
+    <value>Комментарии к событию</value>
+  </data>
+  <data name="Kernel_680" xml:space="preserve">
+    <value>Тип события</value>
+  </data>
+  <data name="Kernel_890" xml:space="preserve">
+    <value>Нельзя удалить тип связей '{0}', т.к. в базе данных есть связи данного типа.</value>
+  </data>
+  <data name="Kernel_891" xml:space="preserve">
+    <value>Ошибка удаления типа связей '{0}': {1}</value>
+  </data>
+  <data name="Kernel_892" xml:space="preserve">
+    <value>Создание типа связей с именем '{0}'</value>
+  </data>
+  <data name="Kernel_893" xml:space="preserve">
+    <value>Описание типа связей</value>
+  </data>
+  <data name="Kernel_894" xml:space="preserve">
+    <value>Тип связей '{0}'</value>
+  </data>
+  <data name="Kernel_895" xml:space="preserve">
+    <value>Ошибка создания типа связей '{0}': {1}</value>
+  </data>
+  <data name="Kernel_896" xml:space="preserve">
+    <value>Тип связей '{0}' уже существует.</value>
+  </data>
+  <data name="Kernel_897" xml:space="preserve">
+    <value>Инструмент "{0} - {1}" не является редактором!</value>
+  </data>
+  <data name="Kernel_898" xml:space="preserve">
+    <value>Инструмент "{0} - {1}" не может входить ни в одну группу инструментов!</value>
+  </data>
+  <data name="Kernel_899" xml:space="preserve">
+    <value>Инструмент "{0} - {1}" не может входит в группу "{2}"!</value>
+  </data>
+  <data name="Kernel_881" xml:space="preserve">
+    <value>Тип связи "{0}"</value>
+  </data>
+  <data name="Kernel_880" xml:space="preserve">
+    <value>Права доступа "{0}" (категория: "{1}") для пользователя {{{2}}}</value>
+  </data>
+  <data name="Kernel_883" xml:space="preserve">
+    <value>Служба вызова событий</value>
+  </data>
+  <data name="Kernel_882" xml:space="preserve">
+    <value>Служба вызова событий</value>
+  </data>
+  <data name="Kernel_885" xml:space="preserve">
+    <value>В БД обнаружена недопустимая связь между объектами. Связь удалена.</value>
+  </data>
+  <data name="Kernel_884" xml:space="preserve">
+    <value>В БД обнаружена недопустимая связь между объектами. Связь удалена.</value>
+  </data>
+  <data name="Kernel_887" xml:space="preserve">
+    <value>Тип связей '{0}'</value>
+  </data>
+  <data name="Kernel_886" xml:space="preserve">
+    <value>Присвоение типа отображаемой связи: </value>
+  </data>
+  <data name="Kernel_889" xml:space="preserve">
+    <value>Нельзя удалить тип связей '{0}', т.к. он используется по умолчанию в типе объектов '{1}'</value>
+  </data>
+  <data name="Kernel_888" xml:space="preserve">
+    <value>Нельзя удалить тип связей '{0}', т.к. он является системным.</value>
+  </data>
+  <data name="Kernel_818" xml:space="preserve">
+    <value>Неверный идентификатор предметной области: {0}</value>
+  </data>
+  <data name="Kernel_819" xml:space="preserve">
+    <value>Предметная область '{0}'</value>
+  </data>
+  <data name="Kernel_810" xml:space="preserve">
+    <value>объекту </value>
+  </data>
+  <data name="Kernel_811" xml:space="preserve">
+    <value>Список предметных областей</value>
+  </data>
+  <data name="Kernel_812" xml:space="preserve">
+    <value>Создание предметной с именем {0}</value>
+  </data>
+  <data name="Kernel_813" xml:space="preserve">
+    <value>Наименование предметной области</value>
+  </data>
+  <data name="Kernel_814" xml:space="preserve">
+    <value>Предметная область '{0}'</value>
+  </data>
+  <data name="Kernel_815" xml:space="preserve">
+    <value>Ошибка создания предметной области: </value>
+  </data>
+  <data name="Kernel_816" xml:space="preserve">
+    <value>Предметная область {0} уже существует.</value>
+  </data>
+  <data name="Kernel_817" xml:space="preserve">
+    <value>Все предметные области</value>
+  </data>
+  <data name="Kernel_838" xml:space="preserve">
+    <value>Ошибка обработки события службой '{0}': {1}</value>
+  </data>
+  <data name="Kernel_839" xml:space="preserve">
+    <value>Журнал событий</value>
+  </data>
+  <data name="Kernel_832" xml:space="preserve">
+    <value>уровни продвижения</value>
+  </data>
+  <data name="Kernel_833" xml:space="preserve">
+    <value>типы объектов</value>
+  </data>
+  <data name="Kernel_830" xml:space="preserve">
+    <value>группы атрибутов</value>
+  </data>
+  <data name="Kernel_831" xml:space="preserve">
+    <value>атрибуты</value>
+  </data>
+  <data name="Kernel_836" xml:space="preserve">
+    <value>Ошибка изменения глобального идентификатора: </value>
+  </data>
+  <data name="Kernel_837" xml:space="preserve">
+    <value>На сервере не найден обработчик события. GUID обработчика: </value>
+  </data>
+  <data name="Kernel_834" xml:space="preserve">
+    <value>типы связей</value>
+  </data>
+  <data name="Kernel_835" xml:space="preserve">
+    <value>Присвоение guid: </value>
+  </data>
+  <data name="Kernel_809" xml:space="preserve">
+    <value>роли </value>
+  </data>
+  <data name="Kernel_808" xml:space="preserve">
+    <value>пользователю </value>
+  </data>
+  <data name="Kernel_801" xml:space="preserve">
+    <value>Права разрешены </value>
+  </data>
+  <data name="Kernel_800" xml:space="preserve">
+    <value>Проверка права </value>
+  </data>
+  <data name="Kernel_803" xml:space="preserve">
+    <value>Права запрещены </value>
+  </data>
+  <data name="Kernel_802" xml:space="preserve">
+    <value>Права не разрешены </value>
+  </data>
+  <data name="Kernel_805" xml:space="preserve">
+    <value>Права запрещены по умолчанию</value>
+  </data>
+  <data name="Kernel_804" xml:space="preserve">
+    <value>Права разрешены по умолчанию</value>
+  </data>
+  <data name="Kernel_807" xml:space="preserve">
+    <value>группе </value>
+  </data>
+  <data name="Kernel_806" xml:space="preserve">
+    <value>'{0}' для объекта '{1}':</value>
+  </data>
+  <data name="Kernel_858" xml:space="preserve">
+    <value>Группа атрибутов номер {0} в портфеле не найдена.</value>
+  </data>
+  <data name="Kernel_859" xml:space="preserve">
+    <value>Тип объектов номер {0} в портфеле не найден.</value>
+  </data>
+  <data name="Kernel_854" xml:space="preserve">
+    <value>В задаче импорта задан объект неизвестной категории: </value>
+  </data>
+  <data name="Kernel_855" xml:space="preserve">
+    <value>Неизвестный идентификатор уровня продвижения: </value>
+  </data>
+  <data name="Kernel_856" xml:space="preserve">
+    <value>Неизвестный идентификатор языкового варианта: </value>
+  </data>
+  <data name="Kernel_857" xml:space="preserve">
+    <value>Неизвестный идентификатор предметной области: </value>
+  </data>
+  <data name="Kernel_850" xml:space="preserve">
+    <value>Ошибка инициализации списка единиц измерения: </value>
+  </data>
+  <data name="Kernel_851" xml:space="preserve">
+    <value>Ошибка инициализации времени жизни кэша прав доступа: </value>
+  </data>
+  <data name="Kernel_852" xml:space="preserve">
+    <value>Ошибка инициализации флага проверки видимости объектов в списках: </value>
+  </data>
+  <data name="Kernel_853" xml:space="preserve">
+    <value>Ошибка передачи портфеля на сервер</value>
+  </data>
+  <data name="Kernel_829" xml:space="preserve">
+    <value>Нельзя удалять системную предметную область</value>
+  </data>
+  <data name="Kernel_828" xml:space="preserve">
+    <value>Нельзя удалять предметную область '{0}', т.к. в базе данных есть {1}, принадлежащие данной предметной области.</value>
+  </data>
+  <data name="Kernel_823" xml:space="preserve">
+    <value>Ошибка изменения наименования предметной области: </value>
+  </data>
+  <data name="Kernel_822" xml:space="preserve">
+    <value>Наименование предметной области</value>
+  </data>
+  <data name="Kernel_821" xml:space="preserve">
+    <value>Присвоение пустого наименования</value>
+  </data>
+  <data name="Kernel_820" xml:space="preserve">
+    <value>Присвоение наименования: </value>
+  </data>
+  <data name="Kernel_827" xml:space="preserve">
+    <value>Ошибка изменения описания предметной области: </value>
+  </data>
+  <data name="Kernel_826" xml:space="preserve">
+    <value>Присвоение пустого описания</value>
+  </data>
+  <data name="Kernel_825" xml:space="preserve">
+    <value>Присвоение описания: </value>
+  </data>
+  <data name="Kernel_824" xml:space="preserve">
+    <value>Предметная область '{0}' уже существует.</value>
+  </data>
+  <data name="Kernel_878" xml:space="preserve">
+    <value> не найден в папке портфеля</value>
+  </data>
+  <data name="Kernel_879" xml:space="preserve">
+    <value>Права доступа "{0}" к "{1}" (категория: "{2}") для пользователя {{{3}}}</value>
+  </data>
+  <data name="Kernel_876" xml:space="preserve">
+    <value> не найден в папке портфеля</value>
+  </data>
+  <data name="Kernel_877" xml:space="preserve">
+    <value>Файл атрибута </value>
+  </data>
+  <data name="Kernel_874" xml:space="preserve">
+    <value>Атрибут '{0}' для типа связей '{1}'</value>
+  </data>
+  <data name="Kernel_875" xml:space="preserve">
+    <value>Файл атрибута </value>
+  </data>
+  <data name="Kernel_872" xml:space="preserve">
+    <value> для типа связей '{0}'</value>
+  </data>
+  <data name="Kernel_873" xml:space="preserve">
+    <value>Список допустимых атрибутов для связей '{0}'</value>
+  </data>
+  <data name="Kernel_870" xml:space="preserve">
+    <value>Присвоение типа: </value>
+  </data>
+  <data name="Kernel_871" xml:space="preserve">
+    <value> для связей типа '{0}'.</value>
+  </data>
+  <data name="Kernel_849" xml:space="preserve">
+    <value>Конфигурация пользователя "{0}"</value>
+  </data>
+  <data name="Kernel_848" xml:space="preserve">
+    <value>Идентификаторы пользователей не должны быть равны.</value>
+  </data>
+  <data name="Kernel_847" xml:space="preserve">
+    <value>Идентификаторы пользователей не должны быть равны.</value>
+  </data>
+  <data name="Kernel_841" xml:space="preserve">
+    <value>С даты: </value>
+  </data>
+  <data name="Kernel_840" xml:space="preserve">
+    <value>Количество удаляемых записей: {0}</value>
+  </data>
+  <data name="Kernel_842" xml:space="preserve">
+    <value>В базе данных не найден объект с GUID= '{0}'. Это может привести к сбоям в работе системы.</value>
+  </data>
+  <data name="Kernel_869" xml:space="preserve">
+    <value>Неверный идентификатор предметной области: {0}</value>
+  </data>
+  <data name="Kernel_868" xml:space="preserve">
+    <value>Неверный идентификатор типа связей: {0}</value>
+  </data>
+  <data name="Kernel_867" xml:space="preserve">
+    <value>Пользователю {0} не присвоена роль. Вход в систему запрещён.</value>
+  </data>
+  <data name="Kernel_866" xml:space="preserve">
+    <value>Значение aTimeZoneOffset должно быть в пределах -12..12 часов.</value>
+  </data>
+  <data name="Kernel_865" xml:space="preserve">
+    <value>Роль '{0}' пользователю '{1}' не назначена.</value>
+  </data>
+  <data name="Kernel_864" xml:space="preserve">
+    <value>Роль номер '{0}' пользователю '{1}' не назначена.</value>
+  </data>
+  <data name="Kernel_863" xml:space="preserve">
+    <value>Роль номер {0} не найдена.</value>
+  </data>
+  <data name="Kernel_862" xml:space="preserve">
+    <value>Поле '{0}' не может содержать пустое значение.</value>
+  </data>
+  <data name="Kernel_861" xml:space="preserve">
+    <value>Атрибут номер {0} в портфеле не найден.</value>
+  </data>
+  <data name="Kernel_860" xml:space="preserve">
+    <value>Тип связей номер {0} в портфеле не найден.</value>
+  </data>
+  <data name="IndexerTask" xml:space="preserve">
+    <value>Фоновая индексация изменившихся атрибутов</value>
+  </data>
+  <data name="MDName" xml:space="preserve">
+    <value>Наименование</value>
+  </data>
+  <data name="MDNote" xml:space="preserve">
+    <value>Комментарии</value>
+  </data>
+  <data name="SecurityCollectionName" xml:space="preserve">
+    <value>Список версий объектов</value>
+  </data>
+  <data name="DocTypeSettingDocumentTypeCode" xml:space="preserve">
+    <value>Код типа документов</value>
+  </data>
+  <data name="DocTypeSettingDocumentTypeName" xml:space="preserve">
+    <value>Наименование типа документов</value>
+  </data>
+  <data name="Intermech.Briefcase_85" xml:space="preserve">
+    <value>^ экспорт версии объекта: id='{0}', guid='{1}', artid='{2}', artguid='{3}'</value>
+  </data>
+  <data name="Intermech.Briefcase_84" xml:space="preserve">
+    <value>экспорт архивной копии</value>
+  </data>
+  <data name="Intermech.Briefcase_87" xml:space="preserve">
+    <value>Ошибка при экспорте короткого блоба: </value>
+  </data>
+  <data name="Intermech.Briefcase_86" xml:space="preserve">
+    <value>указан для экспорта</value>
+  </data>
+  <data name="Intermech.Briefcase_81" xml:space="preserve">
+    <value>Ошибка экспорта атрибута для связи: relationId='{0}', partId='{1}', projId='{2}', attributeId='{3}'</value>
+  </data>
+  <data name="Intermech.Briefcase_80" xml:space="preserve">
+    <value>не все атрибуты экспортированы для связи: relationId='{0}', partId='{1}', projId='{2}' : недостаточно прав доступа</value>
+  </data>
+  <data name="Intermech.Briefcase_83" xml:space="preserve">
+    <value>по составу от версии объекта '{0}'</value>
+  </data>
+  <data name="Intermech.Briefcase_82" xml:space="preserve">
+    <value>атрибут для связи: relationId='{0}', partId='{1}', projId='{2}', attributeId='{3}'</value>
+  </data>
+  <data name="Intermech.Briefcase_89" xml:space="preserve">
+    <value>Ошибка при экспорте memo </value>
+  </data>
+  <data name="Intermech.Briefcase_88" xml:space="preserve">
+    <value>Ошибка при экспорте блоба: </value>
+  </data>
+  <data name="Intermech.Briefcase_94" xml:space="preserve">
+    <value>Объект (версия) '{0}'</value>
+  </data>
+  <data name="Intermech.Briefcase_95" xml:space="preserve">
+    <value> отсутствует guid</value>
+  </data>
+  <data name="Intermech.Briefcase_96" xml:space="preserve">
+    <value>Интерфейс объекта (версия) '{0}'</value>
+  </data>
+  <data name="Intermech.Briefcase_97" xml:space="preserve">
+    <value> отсутствует</value>
+  </data>
+  <data name="Intermech.Briefcase_90" xml:space="preserve">
+    <value>идентификатор объекта (внешняя связь)</value>
+  </data>
+  <data name="Intermech.Briefcase_91" xml:space="preserve">
+    <value>идентификатор объекта (ссылка на объект)</value>
+  </data>
+  <data name="Intermech.Briefcase_92" xml:space="preserve">
+    <value>идентификатор базовой единицы измерения</value>
+  </data>
+  <data name="Intermech.Briefcase_93" xml:space="preserve">
+    <value>единица измерения</value>
+  </data>
+  <data name="Intermech.Briefcase_98" xml:space="preserve">
+    <value>Объект '{0}'</value>
+  </data>
+  <data name="Intermech.Briefcase_99" xml:space="preserve">
+    <value>Предварительная обработка метаданных...</value>
+  </data>
+  <data name="Intermech.Briefcase_49" xml:space="preserve">
+    <value>Экспорт в портфель</value>
+  </data>
+  <data name="Intermech.Briefcase_48" xml:space="preserve">
+    <value>Невозможно создать файл </value>
+  </data>
+  <data name="Intermech.Briefcase_41" xml:space="preserve">
+    <value>указание на экспорт от подписчика службы экспорта</value>
+  </data>
+  <data name="Intermech.Briefcase_40" xml:space="preserve">
+    <value>Процесс проверки метаданных завершён.</value>
+  </data>
+  <data name="Intermech.Briefcase_43" xml:space="preserve">
+    <value>Ошибка во время создания файлов портфеля</value>
+  </data>
+  <data name="Intermech.Briefcase_42" xml:space="preserve">
+    <value>Формирование портфеля...</value>
+  </data>
+  <data name="Intermech.Briefcase_45" xml:space="preserve">
+    <value>Невозможно создать папку </value>
+  </data>
+  <data name="Intermech.Briefcase_44" xml:space="preserve">
+    <value>Портфель успешно сформирован</value>
+  </data>
+  <data name="Intermech.Briefcase_47" xml:space="preserve">
+    <value>Невозможно удалить файл </value>
+  </data>
+  <data name="Intermech.Briefcase_46" xml:space="preserve">
+    <value>Невозможно удалить папку </value>
+  </data>
+  <data name="Intermech.Briefcase_58" xml:space="preserve">
+    <value>Ошибка во время предварительной обработки метаданных</value>
+  </data>
+  <data name="Intermech.Briefcase_59" xml:space="preserve">
+    <value>вся категория</value>
+  </data>
+  <data name="Intermech.Briefcase_50" xml:space="preserve">
+    <value>Создание портфеля</value>
+  </data>
+  <data name="Intermech.Briefcase_51" xml:space="preserve">
+    <value>Открытие файлов xml...</value>
+  </data>
+  <data name="Intermech.Briefcase_52" xml:space="preserve">
+    <value>Открытие файлов xml прошло успешно</value>
+  </data>
+  <data name="Intermech.Briefcase_53" xml:space="preserve">
+    <value>Закрытие файлов xml...</value>
+  </data>
+  <data name="Intermech.Briefcase_54" xml:space="preserve">
+    <value>Закрытие файлов xml прошло успешно</value>
+  </data>
+  <data name="Intermech.Briefcase_55" xml:space="preserve">
+    <value>Запись флага нормального закрытия портфеля</value>
+  </data>
+  <data name="Intermech.Briefcase_56" xml:space="preserve">
+    <value>Закрытие портфеля</value>
+  </data>
+  <data name="Intermech.Briefcase_57" xml:space="preserve">
+    <value>Закрытие портфеля из-за ошибки во время экспорта данных. См. файл export.log</value>
+  </data>
+  <data name="Intermech.Briefcase_69" xml:space="preserve">
+    <value>пользователь, которому назначили право</value>
+  </data>
+  <data name="Intermech.Briefcase_68" xml:space="preserve">
+    <value>Невозможно найти GUID для версии объекта id='{0}'</value>
+  </data>
+  <data name="Intermech.Briefcase_63" xml:space="preserve">
+    <value>Ошибка во время помещения версии объекта в очередь id='{0}'</value>
+  </data>
+  <data name="Intermech.Briefcase_62" xml:space="preserve">
+    <value>Невозможно произвести экспорт прав доступа для метаданного category='{0}', id='{1}'</value>
+  </data>
+  <data name="Intermech.Briefcase_61" xml:space="preserve">
+    <value>Невозможно получить внешний ID для category='{0}', id='{1}'</value>
+  </data>
+  <data name="Intermech.Briefcase_60" xml:space="preserve">
+    <value>Невозможно произвести экспорт прав доступа для шага id='{0}' схемы ЖЦ в контексте типа объекта id='{1}'</value>
+  </data>
+  <data name="Intermech.Briefcase_67" xml:space="preserve">
+    <value>Экспорт прав доступа для объектов не поддерживается</value>
+  </data>
+  <data name="Intermech.Briefcase_66" xml:space="preserve">
+    <value>Попытка экспорта пустого интерфейса прав доступа</value>
+  </data>
+  <data name="Intermech.Briefcase_65" xml:space="preserve">
+    <value>Ошибка во время помещения версии объекта (контейнера) в очередь id='{0}'</value>
+  </data>
+  <data name="Intermech.Briefcase_64" xml:space="preserve">
+    <value>контейнер атрибутов / типы объектов</value>
+  </data>
+  <data name="Intermech.Briefcase_78" xml:space="preserve">
+    <value>атрибут для объекта: objectVerId='{0}', objectVerGuid='{1}', attributeId='{2}'</value>
+  </data>
+  <data name="Intermech.Briefcase_79" xml:space="preserve">
+    <value>связь: id='{0}', projVerGuid='{1}', partVerGuid='{2}', artguid='{3}'</value>
+  </data>
+  <data name="Intermech.Briefcase_72" xml:space="preserve">
+    <value>v экспорт версии объекта: id='{0}', guid='{1}', artid='{2}', artguid='{3}'</value>
+  </data>
+  <data name="Intermech.Briefcase_73" xml:space="preserve">
+    <value>владелец версии объекта '{0}'</value>
+  </data>
+  <data name="Intermech.Briefcase_70" xml:space="preserve">
+    <value>пользователь, назначивший право</value>
+  </data>
+  <data name="Intermech.Briefcase_71" xml:space="preserve">
+    <value>Добавлена в очередь версия объекта: id='{0}'. </value>
+  </data>
+  <data name="Intermech.Briefcase_76" xml:space="preserve">
+    <value>не все атрибуты экспортированы для объекта: objectVerId='{0}', objectVerGuid='{1}' : недостаточно прав доступа</value>
+  </data>
+  <data name="Intermech.Briefcase_77" xml:space="preserve">
+    <value>Ошибка экспорта атрибута для объекта: objectVerId='{0}', objectVerGuid='{1}', attributeId='{2}'</value>
+  </data>
+  <data name="Intermech.Briefcase_74" xml:space="preserve">
+    <value>проект для версии объекта '{0}'</value>
+  </data>
+  <data name="Intermech.Briefcase_75" xml:space="preserve">
+    <value>Невозможно произвести экспорт прав доступа для версии объекта id='{0}'</value>
+  </data>
+  <data name="Intermech.Briefcase_18" xml:space="preserve">
+    <value>Выбор папки с файлами портфеля.</value>
+  </data>
+  <data name="Intermech.Briefcase_19" xml:space="preserve">
+    <value>Только системные метаданные</value>
+  </data>
+  <data name="Intermech.Briefcase_14" xml:space="preserve">
+    <value> либо отменить операцию экспорта.
+Выберите необходимое действие.</value>
+  </data>
+  <data name="Intermech.Briefcase_15" xml:space="preserve">
+    <value>Произвести синхронизацию метаданных</value>
+  </data>
+  <data name="Intermech.Briefcase_16" xml:space="preserve">
+    <value>Включение этой опции означает, что перед процедурой импорта будет произведена
+замена несовпадающих метаданных сервера на метаданные из портфеля.</value>
+  </data>
+  <data name="Intermech.Briefcase_17" xml:space="preserve">
+    <value>Выбор портфеля</value>
+  </data>
+  <data name="Intermech.Briefcase_10" xml:space="preserve">
+    <value>Вы можете заменить выбранными данными данные портфеля
+</value>
+  </data>
+  <data name="Intermech.Briefcase_11" xml:space="preserve">
+    <value>либо добавить данные портфеля к выбранным данным.
+Выберите необходимое действие.</value>
+  </data>
+  <data name="Intermech.Briefcase_12" xml:space="preserve">
+    <value>При открытии портфель будет пересоздан! 
+Продолжить открытие портфеля ?</value>
+  </data>
+  <data name="Intermech.Briefcase_13" xml:space="preserve">
+    <value>Вы можете заменить метаданными данные портфеля</value>
+  </data>
+  <data name="Intermech.Briefcase_29" xml:space="preserve">
+    <value>На выбранном диске недостаточно свободного места.</value>
+  </data>
+  <data name="Intermech.Briefcase_28" xml:space="preserve">
+    <value>Импорт</value>
+  </data>
+  <data name="Intermech.Briefcase_27" xml:space="preserve">
+    <value>Определение параметров процедуры импорта.</value>
+  </data>
+  <data name="Intermech.Briefcase_26" xml:space="preserve">
+    <value>Параметры импорта</value>
+  </data>
+  <data name="Intermech.Briefcase_25" xml:space="preserve">
+    <value>Указание физического расположения файлов портфеля.</value>
+  </data>
+  <data name="Intermech.Briefcase_24" xml:space="preserve">
+    <value>Расположение портфеля</value>
+  </data>
+  <data name="Intermech.Briefcase_23" xml:space="preserve">
+    <value>Импорт метаданных</value>
+  </data>
+  <data name="Intermech.Briefcase_22" xml:space="preserve">
+    <value>Выбор папки с файлом метаданных.</value>
+  </data>
+  <data name="Intermech.Briefcase_21" xml:space="preserve">
+    <value>Выбор папки</value>
+  </data>
+  <data name="Intermech.Briefcase_20" xml:space="preserve">
+    <value>Включение этой опции означает, что будет произведена проверка
+только системных метаданных.</value>
+  </data>
+  <data name="Intermech.Briefcase_38" xml:space="preserve">
+    <value>Всё готово для начала процедуры импорта портфеля.</value>
+  </data>
+  <data name="Intermech.Briefcase_39" xml:space="preserve">
+    <value>В процессе выполнения проверки метаданных ошибки не обнаружены.
+Нажмите на кнопку "Отмена" закрытия этого диалога.</value>
+  </data>
+  <data name="Intermech.Briefcase_36" xml:space="preserve">
+    <value>В процессе выполнения проверки метаданных ошибки не обнаружены.
+Нажмите на кнопку "Далее" для начала импорта портфеля.</value>
+  </data>
+  <data name="Intermech.Briefcase_37" xml:space="preserve">
+    <value>Процедура импорта портфеля невозможна</value>
+  </data>
+  <data name="Intermech.Briefcase_34" xml:space="preserve">
+    <value>предупреждения</value>
+  </data>
+  <data name="Intermech.Briefcase_35" xml:space="preserve">
+    <value>В процессе выполнения проверки метаданных
+ были обнаружены {0}.
+Для просмотра результатов проверки нажмите на кнопку "Результаты".</value>
+  </data>
+  <data name="Intermech.Briefcase_32" xml:space="preserve">
+    <value>ошибки</value>
+  </data>
+  <data name="Intermech.Briefcase_33" xml:space="preserve">
+    <value> и предупреждения</value>
+  </data>
+  <data name="Intermech.Briefcase_30" xml:space="preserve">
+    <value>Результаты проверки</value>
+  </data>
+  <data name="Intermech.Briefcase_31" xml:space="preserve">
+    <value>Результаты проверки метаданных портфеля.</value>
+  </data>
+  <data name="SyncStartEvent" xml:space="preserve">
+    <value>Начата синхронизация со службой каталогов</value>
+  </data>
+  <data name="AccessLevelNote" xml:space="preserve">
+    <value>Уровень доступа объекта</value>
+  </data>
+  <data name="StartClearBlobs" xml:space="preserve">
+    <value>Начата чистка файлового кэша сервера приложений.</value>
+  </data>
+  <data name="Intermech.Briefcase_MetadataInList" xml:space="preserve">
+    <value>метаданное в список: category='{0}', id='{1}' "{2}", guid='{3}', direct='{4}'</value>
+  </data>
+  <data name="DocTypeSettingFileExt" xml:space="preserve">
+    <value>Тип файла для документов</value>
+  </data>
+  <data name="MDChildsName" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="RestoreFromSnapshot" xml:space="preserve">
+    <value>Восстановление итерации "{0}"</value>
+  </data>
+  <data name="TextMiningFileConverter" xml:space="preserve">
+    <value>Конвертер файлов PDF, DOC, RTF, HTML</value>
+  </data>
+  <data name="WrongRelationAccessLevel" xml:space="preserve">
+    <value>"Нельзя включать объект '{0}' [версия {1}] с уровнем доступа '{2}' в состав объекта '{3}' [версия {4}] с уровнем доступа '{5}'."</value>
+  </data>
+  <data name="LCStepOptionsError" xml:space="preserve">
+    <value>Ошибка изменения опций шага ЖЦ:</value>
+  </data>
+  <data name="DBClear_1" xml:space="preserve">
+    <value>Подготовка пустой базы данных начата...</value>
+  </data>
+  <data name="DBClear_2" xml:space="preserve">
+    <value>Подготовка пустой базы данных завершена.</value>
+  </data>
+  <data name="AccessLevelTooBig" xml:space="preserve">
+    <value>Попытка входа в систему с уровнем доступа ({0}) выше, чем назначен данному пользователю ({1}).</value>
+  </data>
+  <data name="Intermech.Briefcase_InvalidSelection" xml:space="preserve">
+    <value>Неверный выбор элементов для экспорта</value>
+  </data>
+  <data name="Intermech.Briefcase_LCSchemaError" xml:space="preserve">
+    <value>ошибка экспорта схемы жизненного цикла: id='{0}'</value>
+  </data>
+  <data name="RebuildOracleIndexesEnd" xml:space="preserve">
+    <value>Перестройка индексов закончена.</value>
+  </data>
+  <data name="BriefcaseVerIdbyIDError" xml:space="preserve">
+    <value>Ошибка при получении базовой версии объекта по ID={0} объекта"</value>
+  </data>
+  <data name="Kernel_10" xml:space="preserve">
+    <value>Группа атрибутов '{0}'</value>
+  </data>
+  <data name="Kernel_11" xml:space="preserve">
+    <value>Присвоение наименования: </value>
+  </data>
+  <data name="Kernel_12" xml:space="preserve">
+    <value>Присвоение пустого наименования</value>
+  </data>
+  <data name="Kernel_13" xml:space="preserve">
+    <value>Наименование группы атрибутов</value>
+  </data>
+  <data name="Kernel_14" xml:space="preserve">
+    <value>Ошибка изменения наименования группы атрибутов: </value>
+  </data>
+  <data name="Kernel_15" xml:space="preserve">
+    <value>Группа атрибутов {0} уже существует.</value>
+  </data>
+  <data name="Kernel_16" xml:space="preserve">
+    <value>Присвоение описания: </value>
+  </data>
+  <data name="Kernel_17" xml:space="preserve">
+    <value>Присвоение пустого описания</value>
+  </data>
+  <data name="Kernel_18" xml:space="preserve">
+    <value>Ошибка изменения описания группы атрибутов: </value>
+  </data>
+  <data name="Kernel_19" xml:space="preserve">
+    <value>Атрибут: </value>
+  </data>
+  <data name="Kernel_32" xml:space="preserve">
+    <value>Создание группы атрибутов с именем '{0}'</value>
+  </data>
+  <data name="Kernel_33" xml:space="preserve">
+    <value>Наименование группы атрибутов</value>
+  </data>
+  <data name="Kernel_30" xml:space="preserve">
+    <value>Ошибка изменения глобального идентификатора: </value>
+  </data>
+  <data name="Kernel_31" xml:space="preserve">
+    <value>Список групп атрибутов</value>
+  </data>
+  <data name="Kernel_36" xml:space="preserve">
+    <value>Группа атрибутов '{0}' уже существует.</value>
+  </data>
+  <data name="Kernel_37" xml:space="preserve">
+    <value>Неверный идентификатор атрибута: {0}</value>
+  </data>
+  <data name="Kernel_34" xml:space="preserve">
+    <value>Группа атрибутов '{0}'</value>
+  </data>
+  <data name="Kernel_35" xml:space="preserve">
+    <value>Ошибка создания группы атрибутов: </value>
+  </data>
+  <data name="Kernel_38" xml:space="preserve">
+    <value>Атрибут {0}</value>
+  </data>
+  <data name="Kernel_39" xml:space="preserve">
+    <value>Присвоение опций атрибута: </value>
+  </data>
+  <data name="Kernel_54" xml:space="preserve">
+    <value>Присвоение пустого краткого наименования</value>
+  </data>
+  <data name="Kernel_55" xml:space="preserve">
+    <value>Ошибка изменения краткого наименования атрибута: </value>
+  </data>
+  <data name="Kernel_56" xml:space="preserve">
+    <value>Присвоение псевдонима: </value>
+  </data>
+  <data name="Kernel_57" xml:space="preserve">
+    <value>Присвоение пустого псевдонима</value>
+  </data>
+  <data name="Kernel_50" xml:space="preserve">
+    <value>Наименование атрибута</value>
+  </data>
+  <data name="Kernel_51" xml:space="preserve">
+    <value>Ошибка изменения наименования атрибута: </value>
+  </data>
+  <data name="Kernel_52" xml:space="preserve">
+    <value>Атрибут '{0}' уже существует.</value>
+  </data>
+  <data name="Kernel_53" xml:space="preserve">
+    <value>Присвоение кратокого наименования: </value>
+  </data>
+  <data name="Kernel_58" xml:space="preserve">
+    <value>Нельзя присвоить псевдоним '{0}' атрибуту '{1}', т.к. атрибут {2} уже имеет аналогичный псевдоним.</value>
+  </data>
+  <data name="Kernel_59" xml:space="preserve">
+    <value>Ошибка изменения псевдонима атрибута: </value>
+  </data>
+  <data name="Kernel_23" xml:space="preserve">
+    <value>Ошибка исключения атрибута '{0}' из группы: {1}</value>
+  </data>
+  <data name="Kernel_22" xml:space="preserve">
+    <value>Атрибут: </value>
+  </data>
+  <data name="Kernel_21" xml:space="preserve">
+    <value>Ошибка добавления атрибута {0}: {1}</value>
+  </data>
+  <data name="Kernel_20" xml:space="preserve">
+    <value>Данный атрибут уже входит в состав группы атрибутов.</value>
+  </data>
+  <data name="Kernel_27" xml:space="preserve">
+    <value>Ошибка изменения предметной области группы атрибутов: </value>
+  </data>
+  <data name="Kernel_26" xml:space="preserve">
+    <value>Присвоение предметной области: </value>
+  </data>
+  <data name="Kernel_25" xml:space="preserve">
+    <value>Ошибка изменения языка группы атрибутов: </value>
+  </data>
+  <data name="Kernel_24" xml:space="preserve">
+    <value>Присвоение языка: </value>
+  </data>
+  <data name="Kernel_29" xml:space="preserve">
+    <value>Присвоение guid: </value>
+  </data>
+  <data name="Kernel_28" xml:space="preserve">
+    <value>Нельзя удалять системную группу атрибутов</value>
+  </data>
+  <data name="Kernel_76" xml:space="preserve">
+    <value>Атрибут типа '{0}' не может быть вычисляемым.</value>
+  </data>
+  <data name="Kernel_77" xml:space="preserve">
+    <value>Ошибка изменения способа вычисления атрибута: </value>
+  </data>
+  <data name="Kernel_74" xml:space="preserve">
+    <value>Ошибка изменения спискового режима работы атрибута: </value>
+  </data>
+  <data name="Kernel_75" xml:space="preserve">
+    <value>Присвоение значения: </value>
+  </data>
+  <data name="Kernel_72" xml:space="preserve">
+    <value>Атрибут {0} не может быть ограничен списком допустимых значений, так как в базе есть {1} объект(ов) или связ(ей), содержащих недопуcтимые значения.</value>
+  </data>
+  <data name="Kernel_73" xml:space="preserve">
+    <value>Атрибут {0} не может быть ограничен одним значением, так как в базе данных есть объекты или связи, у которых данный атрибут имеет более одного значения.</value>
+  </data>
+  <data name="Kernel_70" xml:space="preserve">
+    <value>Присвоение значения: </value>
+  </data>
+  <data name="Kernel_71" xml:space="preserve">
+    <value>Атрибут типа {0} не может иметь список допустимых значений</value>
+  </data>
+  <data name="Kernel_78" xml:space="preserve">
+    <value>Хранит содержимое объектов: </value>
+  </data>
+  <data name="Kernel_79" xml:space="preserve">
+    <value>Присвоение значения контроля уникальности: </value>
+  </data>
+  <data name="Kernel_45" xml:space="preserve">
+    <value>Ошибка удаления индекса {0}: {1}</value>
+  </data>
+  <data name="Kernel_44" xml:space="preserve">
+    <value>Присвоение значения оптимизации: </value>
+  </data>
+  <data name="Kernel_47" xml:space="preserve">
+    <value>Ошибка изменения способа оптимизации атрибута: </value>
+  </data>
+  <data name="Kernel_46" xml:space="preserve">
+    <value>Ошибка удаления индекса {0}: {1}</value>
+  </data>
+  <data name="Kernel_41" xml:space="preserve">
+    <value>Присвоение маски ввода значений атрибута: </value>
+  </data>
+  <data name="Kernel_40" xml:space="preserve">
+    <value>Ошибка изменения опций атрибута: </value>
+  </data>
+  <data name="Kernel_43" xml:space="preserve">
+    <value>Ошибка изменения маски ввода значений атрибута: </value>
+  </data>
+  <data name="Kernel_42" xml:space="preserve">
+    <value>Присвоение пустой маски ввода значений атрибута</value>
+  </data>
+  <data name="Kernel_49" xml:space="preserve">
+    <value>Присвоение пустого наименования</value>
+  </data>
+  <data name="Kernel_48" xml:space="preserve">
+    <value>Присвоение наименования: </value>
+  </data>
+  <data name="Kernel_98" xml:space="preserve">
+    <value>Нельзя удалить атрибут '{0}', т.к. в базе данных существуют типы связей, требующие наличия данного атрибута.</value>
+  </data>
+  <data name="Kernel_99" xml:space="preserve">
+    <value>Нельзя удалить атрибут {0}, т.к. он используется для выборки значений атрибута {1}.</value>
+  </data>
+  <data name="Kernel_90" xml:space="preserve">
+    <value>Присвоение guid: </value>
+  </data>
+  <data name="Kernel_91" xml:space="preserve">
+    <value>Ошибка изменения глобального идентификатора атрибута: </value>
+  </data>
+  <data name="Kernel_92" xml:space="preserve">
+    <value>Присвоение предметной области: </value>
+  </data>
+  <data name="Kernel_93" xml:space="preserve">
+    <value>Ошибка изменения предметной области атрибута: </value>
+  </data>
+  <data name="Kernel_94" xml:space="preserve">
+    <value>Присвоение языка: </value>
+  </data>
+  <data name="Kernel_95" xml:space="preserve">
+    <value>Ошибка изменения языка атрибута: </value>
+  </data>
+  <data name="Kernel_96" xml:space="preserve">
+    <value>Нельзя удалить атрибут '{0}', т.к. он является системным.</value>
+  </data>
+  <data name="Kernel_97" xml:space="preserve">
+    <value>Нельзя удалить атрибут '{0}', т.к. в базе данных существуют типы объектов, требующие наличия данного атрибута.</value>
+  </data>
+  <data name="Kernel_67" xml:space="preserve">
+    <value>Присвоение значения по умолчанию: </value>
+  </data>
+  <data name="Kernel_66" xml:space="preserve">
+    <value>Атрибут типа '{0}' не может иметь значения по умолчанию.</value>
+  </data>
+  <data name="Kernel_65" xml:space="preserve">
+    <value>Ошибка изменения типа атрибута: </value>
+  </data>
+  <data name="Kernel_64" xml:space="preserve">
+    <value>Недопустимое преобразование типа '{0}' к типу '{1}'. {2}</value>
+  </data>
+  <data name="Kernel_63" xml:space="preserve">
+    <value>Разрешённые типы данных для преобразования: </value>
+  </data>
+  <data name="Kernel_62" xml:space="preserve">
+    <value>Ошибка изменения описания атрибута: </value>
+  </data>
+  <data name="Kernel_61" xml:space="preserve">
+    <value>Присвоение пустого описания</value>
+  </data>
+  <data name="Kernel_60" xml:space="preserve">
+    <value>Присвоение описания: </value>
+  </data>
+  <data name="Kernel_69" xml:space="preserve">
+    <value>Ошибка изменения значения по умолчанию: </value>
+  </data>
+  <data name="Kernel_68" xml:space="preserve">
+    <value>Присвоение пустого значения по умолчанию</value>
+  </data>
+  <data name="Kernel_89" xml:space="preserve">
+    <value>Ошибка изменения формулы вычисления атрибута: </value>
+  </data>
+  <data name="Kernel_88" xml:space="preserve">
+    <value>Старое значение формулы вычисления значений атрибута: </value>
+  </data>
+  <data name="Kernel_81" xml:space="preserve">
+    <value>Ошибка изменения контроля уникальности атрибута: </value>
+  </data>
+  <data name="Kernel_80" xml:space="preserve">
+    <value>Для атрибута типа {0} нельзя контролировать уникальность значения.</value>
+  </data>
+  <data name="Kernel_83" xml:space="preserve">
+    <value>Изменение списка допустимых значений атрибута</value>
+  </data>
+  <data name="Kernel_82" xml:space="preserve">
+    <value> для объектов типа '{0}'.</value>
+  </data>
+  <data name="Kernel_85" xml:space="preserve">
+    <value>Невозможно присвоить значение MaxSize={0} атрибуту {1}, т.к. тип {2} допускает максимальное значение {3}.</value>
+  </data>
+  <data name="Kernel_84" xml:space="preserve">
+    <value>Ошибка изменения списка допустимых значений атрибута: </value>
+  </data>
+  <data name="Kernel_87" xml:space="preserve">
+    <value>Старое значение SizeType: </value>
+  </data>
+  <data name="Kernel_86" xml:space="preserve">
+    <value>SizeType не может содержать отрицательных значений.</value>
+  </data>
+  <data name="SyncDBUsersReadEvent" xml:space="preserve">
+    <value>Загружен список пользователей IPS</value>
+  </data>
+  <data name="Intermech.Briefcase_MetadataPrim_End" xml:space="preserve">
+    <value>^ Обработка метаданного category='{0}' id='{1}'</value>
+  </data>
+  <data name="MDShortName" xml:space="preserve">
+    <value>Краткое наименование</value>
+  </data>
+  <data name="RelationTypeOptionsError" xml:space="preserve">
+    <value>Ошибка изменения опций типа связей:</value>
+  </data>
+  <data name="SnapshotName" xml:space="preserve">
+    <value>Итерация "{0}"</value>
+  </data>
+  <data name="ClearBlobsCacheTask" xml:space="preserve">
+    <value>Очистка файлового кэша сервера приложений</value>
+  </data>
+  <data name="LCStepObjectName" xml:space="preserve">
+    <value>Этап "{0}" схемы жизненного цикла "{1}" для объектов типа "{2}"</value>
+  </data>
+  <data name="EndClearBlobs" xml:space="preserve">
+    <value>Чистка файлового кэша завершена.</value>
+  </data>
+  <data name="DeleteBlobError" xml:space="preserve">
+    <value>Ошибка удаления двоичных данных с идентификатором {0}: {1}</value>
+  </data>
+  <data name="RebuildObjectViewError" xml:space="preserve">
+    <value>Ошибка перегенерации представления данных для типа объектов N{0} : {1}</value>
+  </data>
+  <data name="SyncProcessErrorEvent" xml:space="preserve">
+    <value>Ошибка при обработке информации о новом пользователе {0}; текст ошибки: {1}</value>
+  </data>
+  <data name="ClearLevelStorage" xml:space="preserve">
+    <value>Очистка свойства "Файловый шкаф"</value>
+  </data>
+  <data name="StatisticOFF" xml:space="preserve">
+    <value>Выключен</value>
+  </data>
+  <data name="Kernel_1" xml:space="preserve">
+    <value>История значений атрибута {0}</value>
+  </data>
+  <data name="Kernel_3" xml:space="preserve">
+    <value>Атрибут '{0}' связи номер {1}</value>
+  </data>
+  <data name="Kernel_2" xml:space="preserve">
+    <value>Атрибут '{0}' объекта номер {1}</value>
+  </data>
+  <data name="Kernel_5" xml:space="preserve">
+    <value>Атрибут '{0}' не может принимать значение '{1}'.</value>
+  </data>
+  <data name="Kernel_4" xml:space="preserve">
+    <value>Ошибка вычисления значения атрибута '{0}': {1}</value>
+  </data>
+  <data name="Kernel_7" xml:space="preserve">
+    <value>Атрибут '{0}' уже есть в списке атрибутов объекта (связи).</value>
+  </data>
+  <data name="Kernel_6" xml:space="preserve">
+    <value>Ошибка удаления атрибута '{0}' у '{1}': {2}</value>
+  </data>
+  <data name="Kernel_9" xml:space="preserve">
+    <value>Нельзя модифицировать системную группу атрибутов.</value>
+  </data>
+  <data name="Kernel_8" xml:space="preserve">
+    <value>Атрибут '{0}' уже есть в списке атрибутов объекта (связи).</value>
+  </data>
+  <data name="Intermech.Briefcase_MetadataPrim_Start" xml:space="preserve">
+    <value>v Обработка метаданного category='{0}' id='{1}'</value>
+  </data>
+  <data name="ClearStorageData" xml:space="preserve">
+    <value>Чистка удаленных данных из файлового шкафа {0}...</value>
+  </data>
+  <data name="ScriptsLanguageDif" xml:space="preserve">
+    <value>Язык выполняемых скриптов ({0}) автообновления отличается от языка базы данных ({1}).</value>
+  </data>
+  <data name="SetLevelStorage" xml:space="preserve">
+    <value>Назначение файлового шкафа:</value>
+  </data>
+  <data name="InvalidIndexSearch" xml:space="preserve">
+    <value>Поиск недопустимых связей...</value>
+  </data>
+  <data name="DocTypeSettingContainerInit" xml:space="preserve">
+    <value>Инициализация контейнера</value>
+  </data>
+  <data name="RebuildViewsTaskStarted" xml:space="preserve">
+    <value>Стартована задача перегенерации представлений данных...</value>
+  </data>
+  <data name="DocTypeSettingAdditionalDocumentFileExts" xml:space="preserve">
+    <value>Дополнительные файлы</value>
+  </data>
+  <data name="Intermech.Briefcase_Pre003a" xml:space="preserve">
+    <value>Попытка получения id базовой версии для ID объекта, указанного в списке допустимых значений как ссылка на объект без конкретизации версии</value>
+  </data>
+  <data name="Intermech.Briefcase_Pre003b" xml:space="preserve">
+    <value>Попытка получения id базовой версии для ID объекта</value>
+  </data>
+  <data name="Intermech.Briefcase_Pre005a" xml:space="preserve">
+    <value>Попытка получения id базовой версии для ID объекта, указанного как значение по умолчанию - ссылка на объект без конкретизации версии</value>
+  </data>
+  <data name="MDObjectName" xml:space="preserve">
+    <value>Имя объекта</value>
+  </data>
+  <data name="DeleteTrashTask" xml:space="preserve">
+    <value>Удаление устаревших данных</value>
+  </data>
+  <data name="DBVersionUpdating" xml:space="preserve">
+    <value>Обновляется база данных до версии {0}..</value>
+  </data>
+  <data name="IndexingError" xml:space="preserve">
+    <value>Ошибка индексации атрибута "{0}" у объекта "{1}": {2}</value>
+  </data>
+  <data name="RebuildViewsTaskFinished" xml:space="preserve">
+    <value>Задача перегенерации представлений данных завершена.</value>
+  </data>
+  <data name="WorkspaceCaption" xml:space="preserve">
+    <value>Рабочий стол</value>
+  </data>
+  <data name="RepairDataTask" xml:space="preserve">
+    <value>Проверка целостности данных</value>
+  </data>
+  <data name="Server_3" xml:space="preserve">
+    <value>Статусы подобранных версий объектов</value>
+  </data>
+  <data name="Server_2" xml:space="preserve">
+    <value>Механизм подбора версий объектов</value>
+  </data>
+  <data name="ModificationIDNote" xml:space="preserve">
+    <value>Содержит идентификатор группы изменений, в составе которых выпущена данная версия объекта</value>
+  </data>
+  <data name="Server_95" xml:space="preserve">
+    <value>Ошибка при формировании кэша классификаторов : {0}</value>
+  </data>
+  <data name="Server_99" xml:space="preserve">
+    <value>Начало автообновления</value>
+  </data>
+  <data name="Server_73" xml:space="preserve">
+    <value>При инициализации сервера возникла исключительная ситуация.</value>
+  </data>
+  <data name="Server_74" xml:space="preserve">
+    <value>Исправьте причину возникновения ошибки и перезагрузите сервер.</value>
+  </data>
+  <data name="Server_75" xml:space="preserve">
+    <value>Превышено время ожидания инициализации сервера приложений.</value>
+  </data>
+  <data name="SyncronizeDirectoryTask" xml:space="preserve">
+    <value>Синхронизация со службой каталогов</value>
+  </data>
+  <data name="TextFileConverterCaption" xml:space="preserve">
+    <value>Конвертер простых текстовых файлов</value>
+  </data>
+  <data name="RebuildRelationViewError" xml:space="preserve">
+    <value>Ошибка перегенерации представления данных для типа связей N{0} : {1}</value>
+  </data>
+  <data name="Intermech.Briefcase_PossibleValue4Attribute" xml:space="preserve">
+    <value>из списка допустимых значений для атрибута id='{0}'</value>
+  </data>
+  <data name="DocTypeSettingDocumentTypeCodeInDesignation" xml:space="preserve">
+    <value>Код типа документа входит в обозначение</value>
+  </data>
+  <data name="CreateSnapshot" xml:space="preserve">
+    <value>Создание итерации "{0}"</value>
+  </data>
+  <data name="Intermech.Briefcase_82pre" xml:space="preserve">
+    <value>подготовка к экспорту: атрибут для связи: relationId='{0}', partId='{1}', projId='{2}', attributeId='{3}'</value>
+  </data>
+  <data name="Intermech.Briefcase_78pre" xml:space="preserve">
+    <value>подготовка к экспорту: атрибут для объекта: objectVerId='{0}', objectVerGuid='{1}', attributeId='{2}'</value>
+  </data>
+  <data name="BaseVersionDescription" xml:space="preserve">
+    <value>Базовая версия</value>
+  </data>
+  <data name="AttributeTypeGuidNotFound" xml:space="preserve">
+    <value>Атрибут с глобальным идентификатором {0} не найден.</value>
+  </data>
+  <data name="SyncLdapUsersReadEvent" xml:space="preserve">
+    <value>Загружен список пользователей службы каталогов {0}</value>
+  </data>
+  <data name="Intermech.Briefcase_104a" xml:space="preserve">
+    <value>Ошибка при обработке атрибута id='{0}' '{1}' : невозможно найти базовую версию для объекта ID='{2}', указанную как допустимое значение без конкретизации версии</value>
+  </data>
+  <data name="Intermech.Briefcase_100a" xml:space="preserve">
+    <value>Ошибка при обработке атрибута id='{0}' '{1}' : невозможно найти базовую версию для объекта ID='{2}', указанную как допустимое значение без конкретизации версии</value>
+  </data>
+  <data name="SyncMovedToDeletedGroupEvent" xml:space="preserve">
+    <value>Пользователь {0} назначен в группу "Удаленные пользователи"</value>
+  </data>
+  <data name="Intermech.Briefcase_PossibleValue4Attribute4RelType" xml:space="preserve">
+    <value>из списка допустимых значений атрибута id='{0}' применительно к типу связи reltype='{1}'</value>
+  </data>
+  <data name="ComputeRelevancyTask" xml:space="preserve">
+    <value>Пересчёт релевантности данных в общем поисковом индексе</value>
+  </data>
+  <data name="Intermech.Briefcase_PossibleValue4Attribute4ObjType" xml:space="preserve">
+    <value>из списка допустимых значений атрибута id='{0}' применительно к типу объекта objtype='{1}'</value>
+  </data>
+  <data name="BriefcaseExceptionFromSubscriber" xml:space="preserve">
+    <value>Ошибка при получении связанных версий объекта для category={0}, id={1}, подписчик "{2}"</value>
+  </data>
+  <data name="Error_389" xml:space="preserve">
+    <value>{0} версии номер {1} является объектом типа "{2}", поэтому данный объект запрещено включать в состав объекта типа "{3}".</value>
+  </data>
+  <data name="Error_388" xml:space="preserve">
+    <value>{0} версии номер {1} является объектом типа "{2}", поэтому данный объект не может быть включен в состав объекта типа "{3}".</value>
+  </data>
+  <data name="Intermech.Briefcase_AttributeAdded" xml:space="preserve">
+    <value>атрибут для объекта: objectVerId='{0}', objectVerGuid='{1}', attributeId='{2}' "{3}"</value>
+  </data>
+  <data name="DocTypeSettingContainer" xml:space="preserve">
+    <value>Контейнер настроек для типа документов "{0}": атрибут "{1}" объекта номер {2}</value>
+  </data>
+  <data name="WrongDBVersion" xml:space="preserve">
+    <value>Невозможно загрузить сервер приложений для базы данных версии {0}, т.к. серверу требуется версия {1}.</value>
+  </data>
+  <data name="ObjectGUIDNote" xml:space="preserve">
+    <value>Все версии объекта содержат одинаковый глобальный идентификатор объекта</value>
+  </data>
+  <data name="ArcCopy" xml:space="preserve">
+    <value>Архивная копия</value>
+  </data>
+  <data name="RebuildViewsTask" xml:space="preserve">
+    <value>Перегенерация представлений данных</value>
+  </data>
+  <data name="DeleteAttributeNote" xml:space="preserve">
+    <value>Удаление атрибута</value>
+  </data>
+  <data name="AddStorageFieldError" xml:space="preserve">
+    <value>Ошибка добавления поля {0} в шкаф {1}: {2}</value>
+  </data>
+  <data name="SiteIDNote" xml:space="preserve">
+    <value>Содержит идентификаторы узла-создателя и узла-владельца данной версии объекта</value>
+  </data>
+  <data name="CombineObjects" xml:space="preserve">
+    <value>Объединение объектов</value>
+  </data>
+  <data name="Intermech.Briefcase_QueueAdded" xml:space="preserve">
+    <value>Добавлена в очередь версия объекта: id='{0}' "{1}".</value>
+  </data>
+  <data name="Intermech.Briefcase_184" xml:space="preserve">
+    <value>шаг ЖЦ для версии объекта id='{0}'</value>
+  </data>
+  <data name="Intermech.Briefcase_185" xml:space="preserve">
+    <value>тип объекта для версии объекта id='{0}'</value>
+  </data>
+  <data name="Intermech.Briefcase_186" xml:space="preserve">
+    <value>уровень продвижения для версии объекта id='{0}'</value>
+  </data>
+  <data name="Intermech.Briefcase_187" xml:space="preserve">
+    <value>тип связи для версии объекта id='{0}'</value>
+  </data>
+  <data name="Intermech.Briefcase_180" xml:space="preserve">
+    <value> шаг ЖЦ для схемы id='{0}'</value>
+  </data>
+  <data name="Intermech.Briefcase_181" xml:space="preserve">
+    <value>уровень продвижения для схемы id='{0}'</value>
+  </data>
+  <data name="Intermech.Briefcase_182" xml:space="preserve">
+    <value>v Безопасность для: category='{0}', id='{1}' </value>
+  </data>
+  <data name="Intermech.Briefcase_183" xml:space="preserve">
+    <value>^ Безопасность для: category='{0}', id='{1}'</value>
+  </data>
+  <data name="Intermech.Briefcase_188" xml:space="preserve">
+    <value>атрибут на объект id=(?)</value>
+  </data>
+  <data name="Intermech.Briefcase_189" xml:space="preserve">
+    <value>атрибут на связь id=(?)</value>
+  </data>
+  <data name="Intermech.Briefcase_194" xml:space="preserve">
+    <value>тип объекта, связанный типом связи id='{0}'</value>
+  </data>
+  <data name="Intermech.Briefcase_191" xml:space="preserve">
+    <value> типа Ссылка на объект</value>
+  </data>
+  <data name="Intermech.Briefcase_190" xml:space="preserve">
+    <value>экспорт метаданного</value>
+  </data>
+  <data name="Intermech.Briefcase_193" xml:space="preserve">
+    <value> для типа объекта id='{0}'</value>
+  </data>
+  <data name="Intermech.Briefcase_192" xml:space="preserve">
+    <value>тип объекта, связанный типом связи id='{0}'</value>
+  </data>
+  <data name="Intermech.Briefcase_168" xml:space="preserve">
+    <value> для типа объекта id='{0}'</value>
+  </data>
+  <data name="Intermech.Briefcase_169" xml:space="preserve">
+    <value>тип связи по умолчанию для типа объекта id='{0}'</value>
+  </data>
+  <data name="Intermech.Briefcase_162" xml:space="preserve">
+    <value>мастер-атрибут для атрибута id='{0}'</value>
+  </data>
+  <data name="Intermech.Briefcase_163" xml:space="preserve">
+    <value>атрибут-источник для атрибута id='{0}'</value>
+  </data>
+  <data name="Intermech.Briefcase_160" xml:space="preserve">
+    <value>атрибут группы id='{0}'</value>
+  </data>
+  <data name="Intermech.Briefcase_161" xml:space="preserve">
+    <value> для атрибута id='{0}'</value>
+  </data>
+  <data name="Intermech.Briefcase_166" xml:space="preserve">
+    <value> для уровня продвижения id='{0}'</value>
+  </data>
+  <data name="Intermech.Briefcase_167" xml:space="preserve">
+    <value> для шага ЖЦ id='{0}'</value>
+  </data>
+  <data name="Intermech.Briefcase_164" xml:space="preserve">
+    <value>использован в формуле для атрибута id='{0}'</value>
+  </data>
+  <data name="Intermech.Briefcase_165" xml:space="preserve">
+    <value>принадлежит атрибут id='{0}'</value>
+  </data>
+  <data name="Intermech.Briefcase_159" xml:space="preserve">
+    <value> для группы атрибутов id='{0}'</value>
+  </data>
+  <data name="Intermech.Briefcase_158" xml:space="preserve">
+    <value>метаданное в список: category='{0}', id='{1}', guid='{2}', direct='{3}' </value>
+  </data>
+  <data name="Intermech.Briefcase_155" xml:space="preserve">
+    <value>Ошибка во время нисходящего экспорта метаданного категория='{0}' идентификатор='{1}'</value>
+  </data>
+  <data name="Intermech.Briefcase_157" xml:space="preserve">
+    <value>Ошибка во время экспорта метаданного категория='{0}' идентификатор='{1}'</value>
+  </data>
+  <data name="Intermech.Briefcase_156" xml:space="preserve">
+    <value>(относительно типа объекта id='{0}')</value>
+  </data>
+  <data name="Intermech.Briefcase_108" xml:space="preserve">
+    <value>для типа связи id='{0}' '{1}'</value>
+  </data>
+  <data name="Intermech.Briefcase_109" xml:space="preserve">
+    <value>Ошибка при обработке атрибута id='{0}' '{1}' </value>
+  </data>
+  <data name="Intermech.Briefcase_104" xml:space="preserve">
+    <value>Ошибка при обработке атрибута id='{0}' '{1}' : невозможно найти версию объекта id='{2}', указанного как значение по умолчанию</value>
+  </data>
+  <data name="Intermech.Briefcase_105" xml:space="preserve">
+    <value>Невозможно получить тип объекта id='{0}'</value>
+  </data>
+  <data name="Intermech.Briefcase_106" xml:space="preserve">
+    <value>для типа объекта id='{0}' '{1}'</value>
+  </data>
+  <data name="Intermech.Briefcase_107" xml:space="preserve">
+    <value>Невозможно получить тип связи id='{0}'</value>
+  </data>
+  <data name="Intermech.Briefcase_100" xml:space="preserve">
+    <value>Ошибка при обработке атрибута id='{0}' '{1}' : невозможно найти версию объекта id='{2}', указанную как допустимое значение</value>
+  </data>
+  <data name="Intermech.Briefcase_101" xml:space="preserve">
+    <value>, описывающего физическую величину</value>
+  </data>
+  <data name="Intermech.Briefcase_102" xml:space="preserve">
+    <value>, указывающего на внешний объект</value>
+  </data>
+  <data name="Intermech.Briefcase_103" xml:space="preserve">
+    <value>Ошибка при обработке атрибута id='{0}' '{1}' : невозможно найти версию объекта id='{2}' </value>
+  </data>
+  <data name="Intermech.Briefcase_179" xml:space="preserve">
+    <value> для схемы id='{0}'</value>
+  </data>
+  <data name="Intermech.Briefcase_178" xml:space="preserve">
+    <value>атрибут для типа связи id='{0}'</value>
+  </data>
+  <data name="Intermech.Briefcase_173" xml:space="preserve">
+    <value>(?) для типа объекта id='{0}'</value>
+  </data>
+  <data name="Intermech.Briefcase_172" xml:space="preserve">
+    <value>атрибут для типа объекта id='{0}'</value>
+  </data>
+  <data name="Intermech.Briefcase_171" xml:space="preserve">
+    <value>схема для типа объекта id='{0}'</value>
+  </data>
+  <data name="Intermech.Briefcase_170" xml:space="preserve">
+    <value>атрибут заголовок для типа объекта id='{0}'</value>
+  </data>
+  <data name="Intermech.Briefcase_177" xml:space="preserve">
+    <value> для типа связи id='{0}'</value>
+  </data>
+  <data name="Intermech.Briefcase_176" xml:space="preserve">
+    <value>тип объекта до листьев для типа объекта id='{0}'</value>
+  </data>
+  <data name="Intermech.Briefcase_175" xml:space="preserve">
+    <value>тип объекта до корня для типа объекта id='{0}'</value>
+  </data>
+  <data name="Intermech.Briefcase_174" xml:space="preserve">
+    <value>допустимый тип связи для типа объекта id='{0}'</value>
+  </data>
+  <data name="Intermech.Briefcase_110" xml:space="preserve">
+    <value>: невозможно найти версию объекта id='{2}', указанную как значение по умолчанию</value>
+  </data>
+  <data name="ChangePasswordEvent" xml:space="preserve">
+    <value>Изменение пароля пользователем {0}</value>
+  </data>
+  <data name="SyncDoubleConflictEvent" xml:space="preserve">
+    <value>Конфликт: невозможно синхронизировать {0} (IPS) и {1} (служба каталогов) - {1} уже существует в IPS</value>
+  </data>
+  <data name="Kernel_1101" xml:space="preserve">
+    <value>Ошибка при импорте объекта {0}: {1}</value>
+  </data>
+  <data name="Kernel_1100" xml:space="preserve">
+    <value>Ошибка при импорте атрибутов объекта {0}: {1}</value>
+  </data>
+  <data name="Kernel_1103" xml:space="preserve">
+    <value>В системе не зарегистрирован тип атрибутов (GUID='{0}', наименование='{1}', алиас='{2}')</value>
+  </data>
+  <data name="Kernel_1102" xml:space="preserve">
+    <value>В системе не зарегистрирован тип объектов(GUID='{0}', наименование='{1}')</value>
+  </data>
+  <data name="Kernel_1105" xml:space="preserve">
+    <value>Объектам типа '{0}' нельзя добавить атрибут '{1}'</value>
+  </data>
+  <data name="Kernel_1104" xml:space="preserve">
+    <value>Несовместимые типы у атрибута '{0}' импортируемого объекта и типа атрибутов в системе '{1}'</value>
+  </data>
+  <data name="Kernel_1107" xml:space="preserve">
+    <value>В системе не зарегистрирован тип связи (GUID='{0}', наименование='{1}')</value>
+  </data>
+  <data name="Kernel_1106" xml:space="preserve">
+    <value>В атрибут '{0}' нельзя записать несколько значений</value>
+  </data>
+  <data name="Kernel_1109" xml:space="preserve">
+    <value>Не найден дочерний объект {0} для импортируемой связи {1}</value>
+  </data>
+  <data name="Kernel_1108" xml:space="preserve">
+    <value>Среди импортированных объектов не найден объект {0}</value>
+  </data>
+  <data name="Kernel_1110" xml:space="preserve">
+    <value>Ошибка при импорте связи {0}: {1}</value>
+  </data>
+  <data name="Kernel_1111" xml:space="preserve">
+    <value>Не найдено корректное значение для атрибута '{0}'</value>
+  </data>
+  <data name="Kernel_1112" xml:space="preserve">
+    <value>Неверное значение '{0}' для логического атрибута '{1}'</value>
+  </data>
+  <data name="Kernel_1113" xml:space="preserve">
+    <value>ИСТИНА</value>
+  </data>
+  <data name="Kernel_1114" xml:space="preserve">
+    <value>ДА</value>
+  </data>
+  <data name="Kernel_1115" xml:space="preserve">
+    <value>ЛОЖЬ</value>
+  </data>
+  <data name="Kernel_1116" xml:space="preserve">
+    <value>НЕТ</value>
+  </data>
+  <data name="Kernel_1117" xml:space="preserve">
+    <value>Не найдено корректное значение ссылочного для атрибута '{0}'</value>
+  </data>
+  <data name="Kernel_1118" xml:space="preserve">
+    <value>Не найден файл '{0}' со значением атрибута {1}</value>
+  </data>
+  <data name="Kernel_1119" xml:space="preserve">
+    <value>Количество символов в значении для атрибута '{0}' превышаем максимально допустимое</value>
+  </data>
+  <data name="Kernel_1123" xml:space="preserve">
+    <value>При чтении атрибута 'Область видимости' у объекта '{0}' произошла ошибка. {1}</value>
+  </data>
+  <data name="Kernel_1122" xml:space="preserve">
+    <value>Объект #{0}</value>
+  </data>
+  <data name="Kernel_1121" xml:space="preserve">
+    <value>Не найдена информация по атрибутам в файле с атрибутами {0}</value>
+  </data>
+  <data name="Kernel_1120" xml:space="preserve">
+    <value>Не найден файл '{0}' с атрибутами {1}</value>
+  </data>
+  <data name="Kernel_1127" xml:space="preserve">
+    <value>Значение элемента LookupData/ObjectType/@guid в xml-конфигурации интегратора не может равняться Guid.Empty.</value>
+  </data>
+  <data name="Kernel_1126" xml:space="preserve">
+    <value>Значение атрибута LookupData/ObjectType/@guid в xml-конфигурации интегратора не может быть пустым.</value>
+  </data>
+  <data name="Kernel_1125" xml:space="preserve">
+    <value>В xml-конфигурации интегратора отсутствует или не заполнен обязательный атрибут LookupData/@displayName.</value>
+  </data>
+  <data name="Kernel_1124" xml:space="preserve">
+    <value>Ошибка инициализации сервиса инструментов: {0}</value>
+  </data>
+  <data name="Kernel_1129" xml:space="preserve">
+    <value>Не удалось найти объект интегратора с идентификатором обработчика = '{0}'.</value>
+  </data>
+  <data name="Kernel_1128" xml:space="preserve">
+    <value>Значение элемента LookupData/ObjectType/@guid, равное '{0}', не является корректным.</value>
+  </data>
+  <data name="Kernel_1132" xml:space="preserve">
+    <value>Невозможно преобразовать область видимости типа '{0}' в код.</value>
+  </data>
+  <data name="Kernel_1133" xml:space="preserve">
+    <value>Невозможно преобразовать код '{0}' в область видимости.</value>
+  </data>
+  <data name="Kernel_1130" xml:space="preserve">
+    <value>В xml-конфигурации команды отсутствует или не заполнен обязательный атрибут LookupData/@displayName.</value>
+  </data>
+  <data name="Kernel_1131" xml:space="preserve">
+    <value>Область видимости с кодом '{0}' не является подмножеством области видимости команды '{1}'.</value>
+  </data>
+  <data name="Kernel_1136" xml:space="preserve">
+    <value>Объект категории {0} с идентификатором {1} не найден.</value>
+  </data>
+  <data name="Kernel_1137" xml:space="preserve">
+    <value>Ошибка при получении идентификаторов метаданных для сервиса IAttachedSelectionsService</value>
+  </data>
+  <data name="Kernel_1134" xml:space="preserve">
+    <value>У пользователя нет прав на изменение настроек в области видимости с кодом '{0}'.</value>
+  </data>
+  <data name="Kernel_1135" xml:space="preserve">
+    <value>Проверка базы данных на наличие ошибок...</value>
+  </data>
+  <data name="Kernel_1138" xml:space="preserve">
+    <value>Отсутсвует значение ключа папки классификатора у родительского объекта</value>
+  </data>
+  <data name="Kernel_1139" xml:space="preserve">
+    <value>Классификация в {0} разрешена только в последнюю папку</value>
+  </data>
+  <data name="Kernel_1145" xml:space="preserve">
+    <value>Ошибка присвоения наименования детали БЧ номер {0}: {1}</value>
+  </data>
+  <data name="Kernel_1144" xml:space="preserve">
+    <value>Ошибка при регистрации табличных отчетов в сервисе привязанных выборок: </value>
+  </data>
+  <data name="Kernel_1147" xml:space="preserve">
+    <value>Ошибка обновления таблицы {0} до версии 17: {1}</value>
+  </data>
+  <data name="Kernel_1146" xml:space="preserve">
+    <value>Ошибка добавления F_ATTRIBUTE_ID в шкаф {0}: {1}</value>
+  </data>
+  <data name="Kernel_1141" xml:space="preserve">
+    <value>Возникли ошибки при включении индексов. См. серверный лог: {0}</value>
+  </data>
+  <data name="Kernel_1140" xml:space="preserve">
+    <value>Возникли ошибки при отключении индексов. См. серверный лог: {0}</value>
+  </data>
+  <data name="Kernel_1143" xml:space="preserve">
+    <value>Ошибка изменения визуальных данных: </value>
+  </data>
+  <data name="Kernel_1142" xml:space="preserve">
+    <value>Уровень продвижения "{0}" уже используется в качестве первого шага и это свойство у него обязательно</value>
+  </data>
+  <data name="Kernel_1149" xml:space="preserve">
+    <value>Попытка изменить фиксированный контекст редактирования</value>
+  </data>
+  <data name="Kernel_1148" xml:space="preserve">
+    <value>Ошибка обновления таблицы IMS_RELATION_TYPES до версии 28: {0}</value>
+  </data>
+  <data name="Kernel_1154" xml:space="preserve">
+    <value>Ошибка импорта расширенных метаданных для типа связей {0}: {1}</value>
+  </data>
+  <data name="Kernel_1155" xml:space="preserve">
+    <value>Нельзя импортировать атрибут {0} связи {1}: Связям типа {2} нельзя добавить атрибут {0}</value>
+  </data>
+  <data name="Kernel_1156" xml:space="preserve">
+    <value>Неверный идентификатор категории {0} для нода типа связей {1}</value>
+  </data>
+  <data name="Kernel_1157" xml:space="preserve">
+    <value>Задача ID={0}, тип: "{1}</value>
+  </data>
+  <data name="Kernel_1150" xml:space="preserve">
+    <value>Попытка изменить режим работы у фиксированного контекста редактирования</value>
+  </data>
+  <data name="Kernel_1151" xml:space="preserve">
+    <value>Попытка изменить текущий контекст редактирования или режим его работы при наличии фиксированого контекста редактирования</value>
+  </data>
+  <data name="Kernel_1152" xml:space="preserve">
+    <value>{0}{1}Тип исключения : {2}{1}Текст исключения:{3}{1}Стек 1:{4}{1}Стек 2:{5}{1}</value>
+  </data>
+  <data name="Kernel_1153" xml:space="preserve">
+    <value>Ошибка импорта расширенных метаданных для типа связей {0}: Атрибут {1} базы-источника не импортирован</value>
+  </data>
+  <data name="Kernel_1158" xml:space="preserve">
+    <value>Связям типа '{0}' нельзя добавить атрибут '{1}'</value>
+  </data>
+  <data name="Kernel_1159" xml:space="preserve">
+    <value>связи</value>
+  </data>
+  <data name="Kernel_1167" xml:space="preserve">
+    <value>Ошибка удаления сценарий планировщика "{0}" (GUID = {1}). Для сценария найдены активные задачи планировщика в количестве {2} штук(и).</value>
+  </data>
+  <data name="Kernel_1166" xml:space="preserve">
+    <value>Ошибка удаления сервиса временных событий "{0}" (GUID = {1}). Для сервиса найдены активные задачи планировщика в количестве {2} шYtтук(и).</value>
+  </data>
+  <data name="Kernel_1165" xml:space="preserve">
+    <value>Сценарий планировщика: {0} (GUID = {1}) не найден</value>
+  </data>
+  <data name="Kernel_1164" xml:space="preserve">
+    <value>Сценарий планировщика: {0}</value>
+  </data>
+  <data name="Kernel_1163" xml:space="preserve">
+    <value>Группа атрибутов {0}, в которую входит данная группа не найдена в базе назначения</value>
+  </data>
+  <data name="Kernel_1162" xml:space="preserve">
+    <value>Среди метаданных портфеля не найдена группа атрибутов</value>
+  </data>
+  <data name="Kernel_1161" xml:space="preserve">
+    <value>Cлужба {0} не найдена</value>
+  </data>
+  <data name="Kernel_1160" xml:space="preserve">
+    <value>объекта</value>
+  </data>
+  <data name="Kernel_1169" xml:space="preserve">
+    <value>Результат выполнения сценария планировщика [{0}]:</value>
+  </data>
+  <data name="Kernel_1168" xml:space="preserve">
+    <value>Ошибка выполнения сценария планировщика [{0}]:</value>
+  </data>
+  <data name="Kernel_1174" xml:space="preserve">
+    <value>Ошибка обновления списка серверов: </value>
+  </data>
+  <data name="Kernel_1172" xml:space="preserve">
+    <value>Ошибка расшифровки значения '{0}' атрибута id={1} для объекта/связи id={2}</value>
+  </data>
+  <data name="Kernel_1173" xml:space="preserve">
+    <value>Не допускается использование ColumnContents.{0} для атрибута "Количество" в режиме группировки объектов (подсчета общего количества)</value>
+  </data>
+  <data name="Kernel_1170" xml:space="preserve">
+    <value>Ошибка загрузки сценариев планировщика :</value>
+  </data>
+  <data name="Kernel_1171" xml:space="preserve">
+    <value>Нельзя использовать операторы RelationalOperators.Equal / RelationalOperators.NotEqual для неопределенного типа объекта</value>
+  </data>
+  <data name="Kernel_1000" xml:space="preserve">
+    <value>Ошибка при изменении атрибута "Данные задачи синхронизации" задачи {0}: {1}</value>
+  </data>
+  <data name="Kernel_1001" xml:space="preserve">
+    <value>Ошибка при изменении атрибута "Процент выполнения" задачи {0}: {1}</value>
+  </data>
+  <data name="Kernel_1002" xml:space="preserve">
+    <value>Ошибка при изменении атрибута "Статус задачи" задачи {0}: {1}</value>
+  </data>
+  <data name="Kernel_1003" xml:space="preserve">
+    <value>Ошибка при изменении атрибута "Порядковый номер" задачи {0}: {1}</value>
+  </data>
+  <data name="Kernel_1004" xml:space="preserve">
+    <value>Вычисление формулы не удалось! Ошибка при приведении к 64-разрядному целому числу числовой части значения атрибута {0} = "{1}": {2}</value>
+  </data>
+  <data name="Kernel_1005" xml:space="preserve">
+    <value>При формировании значения атрибута '{0}' превышена допустимая длина расчитываемого значения в {1} символов. Расчитанное значение равно {2}</value>
+  </data>
+  <data name="Kernel_1006" xml:space="preserve">
+    <value>В текущем контексте редактирования находится другая версия объекта</value>
+  </data>
+  <data name="Kernel_1007" xml:space="preserve">
+    <value>Уровень продвижения "</value>
+  </data>
+  <data name="Kernel_1008" xml:space="preserve">
+    <value>Невозможно создать объект по шаблону {0}: не указан тип создаваемого объекта</value>
+  </data>
+  <data name="Kernel_1009" xml:space="preserve">
+    <value>Не задан идентификатор настроек фильтрации (FiltrationOwnerID), либо правило подбора версий (FiltrationRule) у коллекции связей.</value>
+  </data>
+  <data name="Kernel_1022" xml:space="preserve">
+    <value>Аккаунт {0} не найден!</value>
+  </data>
+  <data name="Kernel_1023" xml:space="preserve">
+    <value>Неверно указан адрес получателя</value>
+  </data>
+  <data name="Kernel_1020" xml:space="preserve">
+    <value>Неверный идентификатор аккаунта {0}. Значением должен быть email аккаунта или Guid аккаунта!</value>
+  </data>
+  <data name="Kernel_1021" xml:space="preserve">
+    <value>Пользователю не назначено ни одного почтового аккаунта</value>
+  </data>
+  <data name="Kernel_1026" xml:space="preserve">
+    <value>Текущему пользователю не назначен аккаунт {0}</value>
+  </data>
+  <data name="Kernel_1027" xml:space="preserve">
+    <value>Не найден тип объекта, либо он является абстрактным</value>
+  </data>
+  <data name="Kernel_1024" xml:space="preserve">
+    <value>Неверно указан адрес получателя {0}</value>
+  </data>
+  <data name="Kernel_1025" xml:space="preserve">
+    <value>Не удалось подключиться к почтовому серверу {0}: {1}!</value>
+  </data>
+  <data name="Kernel_1028" xml:space="preserve">
+    <value>Объект [{0}]"{1}" нельзя изменять (согласно способу модификации на текущем шаге ЖЦ)</value>
+  </data>
+  <data name="Kernel_1029" xml:space="preserve">
+    <value>Объект [{0}]"{1}" взят на изменение пользователем {2}</value>
+  </data>
+  <data name="Kernel_1011" xml:space="preserve">
+    <value>ICompositionsAutomaticSortingService: не удалось получить серверную сессию</value>
+  </data>
+  <data name="Kernel_1010" xml:space="preserve">
+    <value>ICompositionsAutomaticSortingService: не задано значение сессии</value>
+  </data>
+  <data name="Kernel_1013" xml:space="preserve">
+    <value>Почтовый сервер с глобальным идентификатором {{{0}}} не найден</value>
+  </data>
+  <data name="Kernel_1012" xml:space="preserve">
+    <value>Почтовый сервер с именем {0} уже существует</value>
+  </data>
+  <data name="Kernel_1015" xml:space="preserve">
+    <value>Почтовый ящик с логином {0} уже существует</value>
+  </data>
+  <data name="Kernel_1014" xml:space="preserve">
+    <value>Почтовый ящик {0} уже существует</value>
+  </data>
+  <data name="Kernel_1017" xml:space="preserve">
+    <value>Email не может быть пустым!</value>
+  </data>
+  <data name="Kernel_1016" xml:space="preserve">
+    <value>Почтовый сервер с именем {0} не найден</value>
+  </data>
+  <data name="Kernel_1019" xml:space="preserve">
+    <value>Аккаунт с адресом {0} не найден!</value>
+  </data>
+  <data name="Kernel_1018" xml:space="preserve">
+    <value>Логин не может быть пустым!</value>
+  </data>
+  <data name="Kernel_1044" xml:space="preserve">
+    <value>Выполнение скрипта {0}...</value>
+  </data>
+  <data name="Kernel_1045" xml:space="preserve">
+    <value>Не совпадают версии файла обновлений {0} и сборки серверного плагина {1}</value>
+  </data>
+  <data name="Kernel_1046" xml:space="preserve">
+    <value>Ошибка при обновлении объекта {0} категории {1} : {2}</value>
+  </data>
+  <data name="Kernel_1047" xml:space="preserve">
+    <value>Критическая ошибка при выполнении обновлений из файла {0} для сборки серверного плагина {1}: {2}</value>
+  </data>
+  <data name="Kernel_1040" xml:space="preserve">
+    <value>Указана неверная категория {0}</value>
+  </data>
+  <data name="Kernel_1041" xml:space="preserve">
+    <value>Ошибка при обновлении объекта {0} категории {1} из файла {2}: {3}</value>
+  </data>
+  <data name="Kernel_1042" xml:space="preserve">
+    <value>Ошибка при выполнении обновлений из файла {0}: {1}</value>
+  </data>
+  <data name="Kernel_1043" xml:space="preserve">
+    <value>Обновление базы данных:</value>
+  </data>
+  <data name="Kernel_1048" xml:space="preserve">
+    <value>Ошибка при создании задачи {0}: {1}</value>
+  </data>
+  <data name="Kernel_1049" xml:space="preserve">
+    <value>Ошибка при обновлении задачи {0}: {1}</value>
+  </data>
+  <data name="Kernel_1033" xml:space="preserve">
+    <value>Неверное значение GUID в поле F_PROJ_ID</value>
+  </data>
+  <data name="Kernel_1032" xml:space="preserve">
+    <value>Один из атрибутов ссылается на удаляемый объект</value>
+  </data>
+  <data name="Kernel_1031" xml:space="preserve">
+    <value>Не удалось получить редактируемую копию версии объекта [{0}]"{1}"</value>
+  </data>
+  <data name="Kernel_1030" xml:space="preserve">
+    <value>Найдены не все исходные версии объектов, для которых запрашиваются редактируемые рабочие копии</value>
+  </data>
+  <data name="Kernel_1037" xml:space="preserve">
+    <value>В базе данных не найден атрибут "{0}"</value>
+  </data>
+  <data name="Kernel_1036" xml:space="preserve">
+    <value>Не найден тип объекта для объекта {0}</value>
+  </data>
+  <data name="Kernel_1035" xml:space="preserve">
+    <value>Размер файла '{0}'({1}) превышает максимально допустимый размер ({2}).</value>
+  </data>
+  <data name="Kernel_1034" xml:space="preserve">
+    <value>Неверное значение GUID в поле F_PART_ID</value>
+  </data>
+  <data name="Kernel_1039" xml:space="preserve">
+    <value>Файл {0} не найден</value>
+  </data>
+  <data name="Kernel_1038" xml:space="preserve">
+    <value>В базе данных не найден тип связей "{0}"</value>
+  </data>
+  <data name="Kernel_1066" xml:space="preserve">
+    <value>ITask не создан!</value>
+  </data>
+  <data name="Kernel_1067" xml:space="preserve">
+    <value>Процесс публикации пропущен {0}, т.к. выполняется предыдущая публикация</value>
+  </data>
+  <data name="Kernel_1064" xml:space="preserve">
+    <value>Ошибка в потоке импорта: {0}</value>
+  </data>
+  <data name="Kernel_1065" xml:space="preserve">
+    <value>{0} не выполняемая</value>
+  </data>
+  <data name="Kernel_1062" xml:space="preserve">
+    <value>Процесс импорта пропущен {0}, т.к. выполняется предыдущий импорт</value>
+  </data>
+  <data name="Kernel_1063" xml:space="preserve">
+    <value>Ошибка в процессе импорта: {0}</value>
+  </data>
+  <data name="Kernel_1060" xml:space="preserve">
+    <value>пользователей {0},...</value>
+  </data>
+  <data name="Kernel_1061" xml:space="preserve">
+    <value>Отсутствуют или неверны настройки авторизации на портале в серверном конфигурационном файле</value>
+  </data>
+  <data name="Kernel_1068" xml:space="preserve">
+    <value>Ошибка в процессе публикации: {0}</value>
+  </data>
+  <data name="Kernel_1069" xml:space="preserve">
+    <value>Ошибка при выполнении задачи {0}: {1}</value>
+  </data>
+  <data name="Kernel_1055" xml:space="preserve">
+    <value>Неудачная попытка авторизации на портале.</value>
+  </data>
+  <data name="Kernel_1054" xml:space="preserve">
+    <value>В службе IPortalConnector отсутствует информация по текущему узлу</value>
+  </data>
+  <data name="Kernel_1057" xml:space="preserve">
+    <value>объектов {0},...</value>
+  </data>
+  <data name="Kernel_1056" xml:space="preserve">
+    <value>объекта {0}</value>
+  </data>
+  <data name="Kernel_1051" xml:space="preserve">
+    <value>Авторепликация изменений от {0}</value>
+  </data>
+  <data name="Kernel_1050" xml:space="preserve">
+    <value>Ошибка при удалении задачи {0}: {1}</value>
+  </data>
+  <data name="Kernel_1053" xml:space="preserve">
+    <value>Список сессий IUserSessionCollection вернул null для запроса сессии по ID = {0}</value>
+  </data>
+  <data name="Kernel_1052" xml:space="preserve">
+    <value>Для задачи импорта {0} отсутствует атрибут 'Глобальный идентификатор обновления'</value>
+  </data>
+  <data name="Kernel_1059" xml:space="preserve">
+    <value>пользователя {0}</value>
+  </data>
+  <data name="Kernel_1058" xml:space="preserve">
+    <value>Запрос на портал для импорта </value>
+  </data>
+  <data name="Kernel_1088" xml:space="preserve">
+    <value>{0} не опубликован на портале. Выполните публикацию</value>
+  </data>
+  <data name="Kernel_1089" xml:space="preserve">
+    <value>Для {0} на портале опубликована не актуальная версия. Выполните публикацию</value>
+  </data>
+  <data name="Kernel_1080" xml:space="preserve">
+    <value>В коллекции запущенных задач не найдена задача с идентификатором {0}</value>
+  </data>
+  <data name="Kernel_1081" xml:space="preserve">
+    <value>Ошибка при выполнении задачи '{0}'</value>
+  </data>
+  <data name="Kernel_1082" xml:space="preserve">
+    <value>Время UTC: {0}</value>
+  </data>
+  <data name="Kernel_1083" xml:space="preserve">
+    <value>Текст ошибки:</value>
+  </data>
+  <data name="Kernel_1084" xml:space="preserve">
+    <value>Не указан email отправителя!</value>
+  </data>
+  <data name="Kernel_1085" xml:space="preserve">
+    <value>Ошибка при отправке сообщений об ошибке по электронной почте: {0}</value>
+  </data>
+  <data name="Kernel_1086" xml:space="preserve">
+    <value>Ошибка при сдаче прав владения объекта {{{0}}}: {1}</value>
+  </data>
+  <data name="Kernel_1087" xml:space="preserve">
+    <value>Сдача прав владения завершилась с ошибками. См. серверный лог </value>
+  </data>
+  <data name="Kernel_1077" xml:space="preserve">
+    <value>Обновление {0}</value>
+  </data>
+  <data name="Kernel_1076" xml:space="preserve">
+    <value>Обновление {0} отсутствует на портале</value>
+  </data>
+  <data name="Kernel_1075" xml:space="preserve">
+    <value>Ошибка во время синхронизации списков узлов: {0}</value>
+  </data>
+  <data name="Kernel_1074" xml:space="preserve">
+    <value>Несоотвествие GUID в списке узлов портала и локальном списке для узла с кодом '{0}'</value>
+  </data>
+  <data name="Kernel_1073" xml:space="preserve">
+    <value>Ошибка записи файла ошибки на диск: {0}</value>
+  </data>
+  <data name="Kernel_1072" xml:space="preserve">
+    <value>Ошибка при сохранении файла ошибки</value>
+  </data>
+  <data name="Kernel_1071" xml:space="preserve">
+    <value>Файл с ошибкой сохранен: {0}</value>
+  </data>
+  <data name="Kernel_1070" xml:space="preserve">
+    <value>Файл с ошибкой сохранен в атрибуте "Файл ошибки" задачи {0}</value>
+  </data>
+  <data name="Kernel_1079" xml:space="preserve">
+    <value>Ошибка в процессе авторепликации: {0}</value>
+  </data>
+  <data name="Kernel_1078" xml:space="preserve">
+    <value>Ошибка в потоке обновлений: {0}</value>
+  </data>
+  <data name="Kernel_1099" xml:space="preserve">
+    <value>Узел {0} не найден</value>
+  </data>
+  <data name="Kernel_1098" xml:space="preserve">
+    <value>Кэш узлов SitesCache не зачитан</value>
+  </data>
+  <data name="Kernel_1091" xml:space="preserve">
+    <value>Ошибка добавлении типа объектов "{0}" в список публикуемых: {1}</value>
+  </data>
+  <data name="Kernel_1090" xml:space="preserve">
+    <value>Отсутсвуют объекты и связи для публикации</value>
+  </data>
+  <data name="Kernel_1093" xml:space="preserve">
+    <value>Ошибка при исключении типа объектов "{0}" из числа публикуемых: {1}</value>
+  </data>
+  <data name="Kernel_1092" xml:space="preserve">
+    <value>Для публикации на портал типу объектов "{0}" должен быть назначен атрибут "{1}"</value>
+  </data>
+  <data name="Kernel_1095" xml:space="preserve">
+    <value>Текущий узел</value>
+  </data>
+  <data name="Kernel_1094" xml:space="preserve">
+    <value>Данные для соединения с порталом имеют недопустимые значения</value>
+  </data>
+  <data name="Kernel_1097" xml:space="preserve">
+    <value>Пользователь с логином {0} не найден</value>
+  </data>
+  <data name="Kernel_1096" xml:space="preserve">
+    <value>Неверные данные для соединения, которые идентифицируют текущий узел</value>
+  </data>
+  <data name="Intermech.Briefcase_LastException" xml:space="preserve">
+    <value>Информация по последней ошибке:</value>
+  </data>
+  <data name="MDParentsName" xml:space="preserve">
+    <value>Название обратное</value>
+  </data>
+  <data name="BaseVersionNote" xml:space="preserve">
+    <value>Содержит признак базовой версии объекта</value>
+  </data>
+  <data name="GlobalIndexClearing" xml:space="preserve">
+    <value>Чистка мусора в общем поисковом индексе...</value>
+  </data>
+  <data name="SyncConfigReadEvent" xml:space="preserve">
+    <value>Загружены настройки синхронизации со службой каталогов {0}</value>
+  </data>
+  <data name="LCStepOptionsEdit" xml:space="preserve">
+    <value>Присвоение опций шага ЖЦ:</value>
+  </data>
+  <data name="SyncCantReadLdapUsersListEvent" xml:space="preserve">
+    <value>Невозможно получить список пользователей из службы каталогов {0}</value>
+  </data>
+  <data name="Intermech.Briefcase_Sec001" xml:space="preserve">
+    <value>v Безопасность для: category='{0}', id='{1}'</value>
+  </data>
+  <data name="Intermech.Briefcase_Sec002" xml:space="preserve">
+    <value>^ Безопасность для: category='{0}', id='{1}'</value>
+  </data>
+  <data name="DocTypeSettingOutputObjectTypes" xml:space="preserve">
+    <value>Типы объектов, выпускаемых по документам данного типа</value>
+  </data>
+  <data name="StatisticEvent" xml:space="preserve">
+    <value>Сбор статистики запросов</value>
+  </data>
+  <data name="Intermech.Briefcase_9" xml:space="preserve">
+    <value>В папке обнаружены файлы портфеля.
+</value>
+  </data>
+  <data name="Server_116" xml:space="preserve">
+    <value>Инициализация сервера приложений завершена.</value>
+  </data>
+  <data name="Server_115" xml:space="preserve">
+    <value>Ошибка инициализации серверного сервиса по работе с электронной почтой:</value>
+  </data>
+  <data name="Server_114" xml:space="preserve">
+    <value>Во время выполнения скриптов произошли ошибки. См. файл imserver.log</value>
+  </data>
+  <data name="Server_113" xml:space="preserve">
+    <value>Папки со скриптами автообновления, указанной в конфигурации, не существует</value>
+  </data>
+  <data name="Server_112" xml:space="preserve">
+    <value>В конфигурации не указана папка со скриптами автообновления</value>
+  </data>
+  <data name="Server_111" xml:space="preserve">
+    <value>В конфигурации сервера не найдена секция с настройками автообновления</value>
+  </data>
+  <data name="Server_110" xml:space="preserve">
+    <value>Ошибка инициализации списка единиц измерения:</value>
+  </data>
+  <data name="Server_108" xml:space="preserve">
+    <value>Ошибка инициализации службы для работы с настройками файлов замечаний RedliningService: </value>
+  </data>
+  <data name="Server_109" xml:space="preserve">
+    <value>Ошибка инициализации службы для удаления нечитаемых файлов: </value>
+  </data>
+  <data name="Server_106" xml:space="preserve">
+    <value>Ошибка инициализации статусов подбора версий и уровней продвижения:</value>
+  </data>
+  <data name="Server_107" xml:space="preserve">
+    <value>Ошибка инициализации серверного сервиса AttachedSelectionsService:</value>
+  </data>
+  <data name="Server_104" xml:space="preserve">
+    <value>Уровни продвижения объектов</value>
+  </data>
+  <data name="Server_105" xml:space="preserve">
+    <value>Информация об уровнях продвижения объектов</value>
+  </data>
+  <data name="Server_102" xml:space="preserve">
+    <value>Автообновление завершено</value>
+  </data>
+  <data name="Server_103" xml:space="preserve">
+    <value>Ошибка инициализации серверных сервисов для работы с порталом:</value>
+  </data>
+  <data name="Server_100" xml:space="preserve">
+    <value>Ошибка при выполнении автообновления: {0}</value>
+  </data>
+  <data name="Server_101" xml:space="preserve">
+    <value>Ошибка при инициализации автообновления для серверного плагина {0}: {1}</value>
+  </data>
+  <data name="Intermech.Briefcase_Pre002" xml:space="preserve">
+    <value>Постановка на очередь: попытка получения GUID для версии объекта</value>
+  </data>
+  <data name="Intermech.Briefcase_Pre003" xml:space="preserve">
+    <value>Попытка получения GUID для версии объекта, указанной в списке допустимых значений как ссылка на объект</value>
+  </data>
+  <data name="Intermech.Briefcase_Pre001" xml:space="preserve">
+    <value>Попытка получения GUID для версии объекта</value>
+  </data>
+  <data name="Intermech.Briefcase_Pre004" xml:space="preserve">
+    <value>Попытка получения GUID для версии объекта versionid='{0}' </value>
+  </data>
+  <data name="Intermech.Briefcase_Pre005" xml:space="preserve">
+    <value>Попытка получения GUID для версии объекта, указанной как значение по умолчанию - ссылка на объект </value>
+  </data>
+  <data name="StartClearBlobsError" xml:space="preserve">
+    <value>Чистка файлового кэша сервера приложений прервана из-за наличия блокировок файловых шкафов.</value>
+  </data>
+  <data name="WrongAccessLevel" xml:space="preserve">
+    <value>Попытка входа в систему с несуществующим уровнем доступа: {0}.</value>
+  </data>
+  <data name="DwgDxfFileConverter" xml:space="preserve">
+    <value>Конвертер файлов DWG, DXF, DXB</value>
+  </data>
+  <data name="Intermech.Briefcase_CategoryAndIDError" xml:space="preserve">
+    <value>Ошибка во время экспорта метаданного категория='{0}' идентификатор='{1}' </value>
+  </data>
+  <data name="Intermech.Briefcase_ExpandVersions" xml:space="preserve">
+    <value>версия объекта id='{0}'('{1}'), указанного для экспорта, в связи с включенным правилом выбора всех версий объектов</value>
+  </data>
+  <data name="WorkCopy" xml:space="preserve">
+    <value>Рабочая копия</value>
+  </data>
+  <data name="CreateApplicabilityEvent" xml:space="preserve">
+    <value>Создание допустимой входимости объектов "{0}" в объекты "{1}" связью "{2}"</value>
+  </data>
+  <data name="StatisticON" xml:space="preserve">
+    <value>Включен</value>
+  </data>
+  <data name="SyncAddedAndMovedToNewGroupEvent" xml:space="preserve">
+    <value>Пользователь {0} добавлен в список пользователей IPS и назначен в группу "Новые пользователи"</value>
+  </data>
+  <data name="DocTypeSettingDocumentNameInStamp" xml:space="preserve">
+    <value>Отрисовывать наименование типа в штампе чертежа</value>
+  </data>
+  <data name="AlwaysAllow" xml:space="preserve">
+    <value>Права разрешены всегда</value>
+  </data>
+  <data name="SnapshotCollection" xml:space="preserve">
+    <value>Список итераций</value>
+  </data>
+  <data name="RebuildOracleIndexes" xml:space="preserve">
+    <value>Перестройка индексов в базе данных...</value>
+  </data>
+  <data name="ObjectVerTypeNote" xml:space="preserve">
+    <value>Содержит состояние версии объекта (-1 - заготовка, 0 - объект, 1 - импортируемая версия)</value>
+  </data>
+</root>

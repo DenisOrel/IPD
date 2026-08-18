@@ -1,0 +1,20 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: Intermech.Project.TaskFlags
+// Assembly: Intermech.Project, Version=7.0.2.1112, Culture=neutral, PublicKeyToken=null
+// MVID: 567C9AEE-D835-426E-92F2-8965F6504E2D
+// Assembly location: D:\IPS\Client\Intermech.Project.dll
+// XML documentation location: D:\IPS\Client\Intermech.Project.xml
+
+using System;
+
+#nullable disable
+namespace Intermech.Project;
+
+[Flags]
+public enum TaskFlags
+{
+  Estimation = 1,
+  Milestone = 2,
+  PropagateResults = 4,
+  UseActualScheme = 8,
+}

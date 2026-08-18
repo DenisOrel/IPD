@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.Interfaces.PdmConfigurator.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{909E6CA2-54F6-464E-BD66-5A7C211847BC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.Interfaces.PdmConfigurator</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Localization\LocalizationHolder.cs" />
+    <Compile Include="Localization\CustomDescription.cs" />
+    <Compile Include="Localization\CustomDisplayName.cs" />
+    <Compile Include="Localization\CustomCategory.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\PdmConfiguratorCache.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\PdmCompositionBrowserEventArgs.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\PdmConfiguratorStates.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\TraceEntry.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\TraceLog.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\IPdmCompositionBrowser.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\PdmCompositionBrowserJobProgress.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\PdmCompositionBrowserJobStatus.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\PdmOptionsAnalyzerJobProgress.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\PdmAnalyzedOptionObject.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\PdmAnalyzedOptionObjects.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\PdmAnalyzerFlags.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\IPdmOptionsAnalyzer.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\PdmOptionsAnalyzerJobStatus.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\CodePartType.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\CodePartProperties.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\ConfigurationCode.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\ImportOptionProperties.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\ImportOptions.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\LinkedOptions.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\PdmCriterionsCollection.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\PdmCriterion.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\Consts.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\PdmContextAccessRights.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\PdmContextType.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\PdmCriterionType.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\PdmGuidMapper.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\Helper.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\PdmConfiguratorResult.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\PdmCompositionTraceResult.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\PdmConfiguratorContextsCache.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\PdmConfiguratorExeption.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\PdmConfiguratorTypeCastExeption.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\IEvaluator.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\IPdmCriterion.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\IPdmConfiguratorServerPlugin.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\LogicalFunction.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\LogicalFunctionHelper.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\ObjectsApplicabilitiesCriterion.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\ObjectsApplicabilitiesCriterionsCollection.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\Operator.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\OperatorHelper.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\IDBConfiguratorOption.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\PdmConfiguratorContext.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\ObjectIncompatibilityCriterion.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\ObjectIncompatibilitiesCollection.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\ObjectOptionsHolder.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\PdmConfiguratorObjectOptionsCache.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\OptionFlags.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\OptionValueState.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\OptionValueFlags.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\OptionObjectDescription.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\OptionHolder.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\OptionValuePair.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\OptionValue.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\OptionValuesCollection.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\VisibleOptionValues.cs" />
+    <Compile Include="Interfaces\PdmConfigurator\IPdmConfiguratorService.cs" />
+    <Compile Include="Search\Pdm\CompositionsConfigurator\ApplicationConditionsDisplaySettings.cs" />
+    <Compile Include="Search\Pdm\CompositionsConfigurator\ApplicationConditionsDisplaySettingsConverter.cs" />
+    <Compile Include="Search\Pdm\CompositionsConfigurator\CompositionsConfiguratorConfigurationOptionKeys.cs" />
+    <Compile Include="Search\Pdm\CompositionsConfigurator\CompositionsConfiguratorConfigurationOptions.cs" />
+    <Compile Include="Search\Pdm\CompositionsConfigurator\CompositionsConfiguratorConstants.cs" />
+    <Compile Include="Search\Pdm\CompositionsConfigurator\CompositionsConfiguratorHelper.cs" />
+    <Compile Include="Search\Pdm\CompositionsConfigurator\CompositionsConfiguratorModule.cs" />
+    <Compile Include="Search\Pdm\CompositionsConfigurator\ICompositionConfiguratorServerService.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Interfaces\PdmConfigurator\Resources\CustomAttributesResources.resx" />
+    <EmbeddedResource Include="Interfaces\PdmConfigurator\Resources\PdmConfiguratorResources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

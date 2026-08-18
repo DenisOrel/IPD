@@ -1,0 +1,154 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: Intermech.Collections.ReadOnlyDictionaryWithMapping`3
+// Assembly: Intermech.Extensions, Version=7.0.2.1112, Culture=neutral, PublicKeyToken=null
+// MVID: 412E7A14-75DD-4B05-B0B0-85953DB2EF77
+// Assembly location: D:\IPS\Client\Intermech.Extensions.dll
+
+using Intermech.Diagnostics;
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Linq;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+
+#nullable disable
+namespace Intermech.Collections;
+
+[ComVisible(false)]
+[DebuggerDisplay("Count = {Count}")]
+public class ReadOnlyDictionaryWithMapping<TKey, TValue, TMappedValue> : 
+  SerializableReadOnlyDictionary<TKey, TValue>,
+  IReadOnlyDictionary<TKey, TMappedValue>,
+  IReadOnlyCollection<KeyValuePair<TKey, TMappedValue>>,
+  IEnumerable<KeyValuePair<TKey, TMappedValue>>,
+  IEnumerable
+{
+  [NotNull]
+  private readonly Func<TValue, TMappedValue> _selector;
+  [CanBeNull]
+  private ReadOnlyDictionaryMapValuesAdapter<TKey, TValue, TMappedValue> _readOnlyDictionaryMapValuesAdapter;
+
+  [NotNull]
+  public IReadOnlyDictionary<TKey, TMappedValue> Mapped
+  {
+    [DebuggerStepThrough, MethodImpl(MethodImplOptions.AggressiveInlining)] get
+    {
+      return (IReadOnlyDictionary<TKey, TMappedValue>) this._readOnlyDictionaryMapValuesAdapter ?? (IReadOnlyDictionary<TKey, TMappedValue>) (this._readOnlyDictionaryMapValuesAdapter = new ReadOnlyDictionaryMapValuesAdapter<TKey, TValue, TMappedValue>((IReadOnlyDictionary<TKey, TValue>) this, this._selector));
+    }
+  }
+
+  public ReadOnlyDictionaryWithMapping(
+    [CanBeNull] IEnumerable<KeyValuePair<TKey, TValue>> enumeration,
+    [NotNull] Func<TValue, TMappedValue> selector,
+    int capacity,
+    [CanBeNull] IEqualityComparer<TKey> comparer = null)
+    : base(enumeration, capacity, comparer)
+  {
+    this._selector = selector;
+  }
+
+  public ReadOnlyDictionaryWithMapping(
+    [CanBeNull] IEnumerable<KeyValuePair<TKey, TValue>> enumeration,
+    [NotNull] Func<TValue, TMappedValue> selector,
+    [CanBeNull] IEqualityComparer<TKey> comparer,
+    int capacity = 16 /*0x10*/)
+    : base(enumeration, capacity, comparer)
+  {
+    this._selector = selector;
+  }
+
+  public ReadOnlyDictionaryWithMapping(
+    [CanBeNull] IEnumerable<KeyValuePair<TKey, TValue>> enumeration,
+    int capacity,
+    [NotNull] Func<TValue, TMappedValue> selector,
+    [CanBeNull] IEqualityComparer<TKey> comparer = null)
+    : base(enumeration, capacity, comparer)
+  {
+    this._selector = selector;
+  }
+
+  public ReadOnlyDictionaryWithMapping(
+    [NotNull] Func<TValue, TMappedValue> selector,
+    int capacity,
+    [CanBeNull] IEnumerable<KeyValuePair<TKey, TValue>> enumeration = null,
+    [CanBeNull] IEqualityComparer<TKey> comparer = null)
+    : base(enumeration, capacity, comparer)
+  {
+    this._selector = selector;
+  }
+
+  public ReadOnlyDictionaryWithMapping(
+    [NotNull] Func<TValue, TMappedValue> selector,
+    int capacity,
+    [NotNull] IEqualityComparer<TKey> comparer,
+    [CanBeNull] IEnumerable<KeyValuePair<TKey, TValue>> enumeration = null)
+    : base(enumeration, capacity, comparer)
+  {
+    this._selector = selector;
+  }
+
+  public ReadOnlyDictionaryWithMapping(
+    [NotNull] Func<TValue, TMappedValue> selector,
+    [NotNull] IEqualityComparer<TKey> comparer,
+    [CanBeNull] IEnumerable<KeyValuePair<TKey, TValue>> enumeration = null,
+    int capacity = 16 /*0x10*/)
+    : base(enumeration, capacity, comparer)
+  {
+    this._selector = selector;
+  }
+
+  public ReadOnlyDictionaryWithMapping(
+    [NotNull] Func<TValue, TMappedValue> selector,
+    [NotNull] IEqualityComparer<TKey> comparer,
+    int capacity,
+    [CanBeNull] IEnumerable<KeyValuePair<TKey, TValue>> enumeration = null)
+    : base(enumeration, capacity, comparer)
+  {
+    this._selector = selector;
+  }
+
+  [DebuggerStepThrough]
+  [MethodImpl(MethodImplOptions.AggressiveInlining)]
+  IEnumerator<KeyValuePair<TKey, TMappedValue>> IEnumerable<KeyValuePair<TKey, TMappedValue>>.GetEnumerator()
+  {
+    return this.Mapped.GetEnumerator();
+  }
+
+  [DebuggerStepThrough]
+  [MethodImpl(MethodImplOptions.AggressiveInlining)]
+  public bool TryGetValue([NotNull] TKey key, out TMappedValue value)
+  {
+    return this.Mapped.TryGetValue(key, out value);
+  }
+
+  [CanBeNull]
+  TMappedValue IReadOnlyDictionary<TKey, TMappedValue>.this[[NotNull] TKey key]
+  {
+    [DebuggerStepThrough, MethodImpl(MethodImplOptions.AggressiveInlining)] get
+    {
+      return this._selector(this[key]);
+    }
+  }
+
+  [NotNull]
+  [ItemNotNull]
+  IEnumerable<TKey> IReadOnlyDictionary<TKey, TMappedValue>.Keys
+  {
+    [DebuggerStepThrough, MethodImpl(MethodImplOptions.AggressiveInlining)] get
+    {
+      return (IEnumerable<TKey>) this.Keys;
+    }
+  }
+
+  [NotNull]
+  [ItemCanBeNull]
+  IEnumerable<TMappedValue> IReadOnlyDictionary<TKey, TMappedValue>.Values
+  {
+    [DebuggerStepThrough, MethodImpl(MethodImplOptions.AggressiveInlining)] get
+    {
+      return this.Values.Cast<TMappedValue>();
+    }
+  }
+}

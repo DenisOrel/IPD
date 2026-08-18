@@ -1,0 +1,20 @@
+﻿
+// Type: Intermech.Interfaces.Calendars.ISpecialDaysPeriod
+// Assembly: Intermech.Interfaces, Version=7.0.2.1112, Culture=neutral, PublicKeyToken=null
+// MVID: 0DE40E9E-DD84-4434-9A25-8F5A37D7D179
+
+// XML documentation location: D:\IPS\Client\Intermech.Interfaces.xml
+
+
+namespace Intermech.Interfaces.Calendars
+{
+    /// <summary>Специальный период дней (отпуск, больничный и т.п.)</summary>
+    public interface ISpecialDaysPeriod : ISpecialCalendarDay, ICalendarDay
+    {
+      /// <summary>Тип периода недоступности</summary>
+      SpecialDaysPeriodType DaysType { get; }
+
+      /// <summary>Описание периода недоступности</summary>
+      string Description { get; }
+    }
+}

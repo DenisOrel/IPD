@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.Interfaces.TechCard.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{59E9A745-4DDB-41D6-924E-5C614D4653BE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.Interfaces.TechCard</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Expert">
+      <HintPath>lib\Intermech.Expert.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Imbase">
+      <HintPath>lib\Intermech.Interfaces.Imbase.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Localization\LocalizationHolder.cs" />
+    <Compile Include="Localization\CustomDescription.cs" />
+    <Compile Include="Localization\CustomDisplayName.cs" />
+    <Compile Include="Localization\CustomCategory.cs" />
+    <Compile Include="Interfaces\TechAcad\TechAcadParamsItem.cs" />
+    <Compile Include="Interfaces\TechAcad\ITechAcadParamsService.cs" />
+    <Compile Include="Interfaces\TechAcad\TechAcadParamsHelper.cs" />
+    <Compile Include="Interfaces\TechCard\ImsObjectTypeExtension.cs" />
+    <Compile Include="Interfaces\TechCard\ImsRelationTypeExtension.cs" />
+    <Compile Include="Interfaces\TechCard\ITechUtilsService.cs" />
+    <Compile Include="Interfaces\TechCard\ITechTypeCache.cs" />
+    <Compile Include="Interfaces\TechCard\IsTechCardTypeAttribute.cs" />
+    <Compile Include="Interfaces\TechCard\IsObjectTypeAttribute.cs" />
+    <Compile Include="Interfaces\TechCard\NotInheritedBaseTechObjType.cs" />
+    <Compile Include="Interfaces\TechCard\IsAttributeTypeAttribute.cs" />
+    <Compile Include="Interfaces\TechCard\IsRelationTypeAttribute.cs" />
+    <Compile Include="Interfaces\TechCard\Tp2RouteBaseType.cs" />
+    <Compile Include="Interfaces\TechCard\TechCardConsts.cs" />
+    <Compile Include="Interfaces\TechCard\TechCardObjUtils.cs" />
+    <Compile Include="Interfaces\TechCard\TechCardParams.cs" />
+    <Compile Include="Interfaces\TechCard\TechCardUtils.cs" />
+    <Compile Include="Interfaces\TechCard\NumSearchMode.cs" />
+    <Compile Include="Interfaces\TechCard\ITechNumerationService.cs" />
+    <Compile Include="Interfaces\TechCard\TechNumerationFoundMoreThatOneObjException.cs" />
+    <Compile Include="Interfaces\TechCard\TechNumerationServerException.cs" />
+    <Compile Include="Interfaces\TechCard\TechNumerationScriptException.cs" />
+    <Compile Include="Interfaces\TechCard\TechNumerationMethods.cs" />
+    <Compile Include="Interfaces\TechCard\TechNumerationTypes.cs" />
+    <Compile Include="Interfaces\TechCard\TechNumerationAreas.cs" />
+    <Compile Include="Interfaces\TechCard\TechNumerationMode.cs" />
+    <Compile Include="Interfaces\TechCard\TechNumerationBool.cs" />
+    <Compile Include="Interfaces\TechCard\TechNumerationObjectModes.cs" />
+    <Compile Include="Interfaces\TechCard\ITechNumerationRule.cs" />
+    <Compile Include="Interfaces\TechCard\ITechNumerationNode.cs" />
+    <Compile Include="Interfaces\TechCard\ITechNumerationLog.cs" />
+    <Compile Include="Interfaces\TechCard\ITechNumerationSuppressList.cs" />
+    <Compile Include="Interfaces\TechCard\TechNumerationRule.cs" />
+    <Compile Include="Interfaces\TechCard\TechNumerationNode.cs" />
+    <Compile Include="Interfaces\TechCard\TechRelation\TechCreateRelMode.cs" />
+    <Compile Include="Interfaces\TechCard\TechNumeration\ITechNumerationSession.cs" />
+    <Compile Include="Interfaces\TechCard\TechParams\TechCardParamsCehRoute.cs" />
+    <Compile Include="Interfaces\TechCard\TechParams\TechCardParamsPortal.cs" />
+    <Compile Include="Interfaces\TechCard\TechParams\TechCardParamsProcessRoute.cs" />
+    <Compile Include="Interfaces\TechCard\TechParams\TechCardParamsBase.cs" />
+    <Compile Include="Interfaces\TechCard\TechParams\TechCardParamsCommon.cs" />
+    <Compile Include="Interfaces\TechCard\TechParams\TechCardParamsTechProc.cs" />
+    <Compile Include="Interfaces\TechCard\TechParams\TechCardParamsZagot.cs" />
+    <Compile Include="Interfaces\TechCard\TechObjectType\ITechObjectTypeService.cs" />
+    <Compile Include="Interfaces\TechCard\TechObjectType\TechObjectTypeSettings.cs" />
+    <Compile Include="Interfaces\TechCard\Imbase\IImbaseTechObjInfoService.cs" />
+    <Compile Include="Interfaces\TechCard\Ceh_Route\ICehRouteStringTemplItem.cs" />
+    <Compile Include="Interfaces\TechCard\Ceh_Route\ICehRouteStringItem.cs" />
+    <Compile Include="Interfaces\TechCard\Ceh_Route\ICehRouteStringService.cs" />
+    <Compile Include="Interfaces\TechCard\Ceh_Route\CehRouteStringTemplItem.cs" />
+    <Compile Include="Interfaces\TechCard\Ceh_Route\CehRouteStringItem.cs" />
+    <Compile Include="Interfaces\TechCard\Ceh_Route\CehRouteParamsItem.cs" />
+    <Compile Include="Interfaces\TechCard\Ceh_Route\ICehRouteParamsItem.cs" />
+    <Compile Include="Interfaces\TechCard\Ceh_Route\ICehRouteParamsService.cs" />
+    <Compile Include="Interfaces\TechCard\Ceh_Route\Settings\CehRouteSettings.cs" />
+    <Compile Include="Interfaces\TechCard\Ceh_Route\Settings\ICehRouteSettings.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Interfaces\TechCard\Resources\CustomAttributesResources.resx" />
+    <EmbeddedResource Include="Interfaces\TechCard\Resources\InterfacesTechCardResources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

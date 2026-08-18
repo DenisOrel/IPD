@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.Extensions.Client.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{55DEA414-FC92-484D-A5E4-CC14DB480BD0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.Extensions.Client</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Intermech.Bars">
+      <HintPath>lib\Intermech.Bars.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Client.Core">
+      <HintPath>lib\Intermech.Client.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Controls">
+      <HintPath>lib\Intermech.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Docking">
+      <HintPath>lib\Intermech.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Extensions">
+      <HintPath>lib\Intermech.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Extensions.Interfaces">
+      <HintPath>lib\Intermech.Extensions.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Extensions.WinForms">
+      <HintPath>lib\Intermech.Extensions.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Client">
+      <HintPath>lib\Intermech.Interfaces.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClientServices.cs" />
+    <Compile Include="ExceptionExtensionsOnClient.cs" />
+    <Compile Include="Exceptions\ImageResourceNotFoundException.cs" />
+    <Compile Include="Extensions\BaseMainWindow.cs" />
+    <Compile Include="Extensions\DbObjectsEventArgsExtensions.cs" />
+    <Compile Include="Extensions\TypeExtensions.cs" />
+    <Compile Include="Extensions\IDBAttributeTypeExtensions.cs" />
+    <Compile Include="Extensions\IMSAttributeTypeExtensions.cs" />
+    <Compile Include="Extensions\SystemAttributeExtensions.cs" />
+    <Compile Include="Extensions\SystemObjectTypeExtensions.cs" />
+    <Compile Include="Extensions\CurrentUser.cs" />
+    <Compile Include="Extensions\Icons.cs" />
+    <Compile Include="Extensions\MultipleObjectSelectedItems.cs" />
+    <Compile Include="Extensions\SingleObjectSelectedItems.cs" />
+    <Compile Include="Extensions\Localization.cs" />
+    <Compile Include="Extensions\CustomDescription.cs" />
+    <Compile Include="Extensions\CustomDisplayName.cs" />
+    <Compile Include="Extensions\CustomCategory.cs" />
+    <Compile Include="Extensions\Navigator.cs" />
+    <Compile Include="Extensions\IDBAttributeExtensions.cs" />
+    <Compile Include="Extensions\Client\Helper.cs" />
+    <Compile Include="Extensions\Client\Library.cs" />
+    <Compile Include="Client\Services.cs" />
+    <Compile Include="Client\Images.cs" />
+    <Compile Include="Navigator\SingleTypedObjectViewProvider`1.cs" />
+    <Compile Include="Navigator\Views\NavigatorObjectViewsProvider.cs" />
+    <Compile Include="Navigator\Views\NavigatorViewDescriptorBase.cs" />
+    <Compile Include="Navigator\Views\NavigatorViewDescriptor`1.cs" />
+    <Compile Include="Navigator\Views\NavigatorObjectViewDescriptor.cs" />
+    <Compile Include="Navigator\Views\NavigatorViewProvider.cs" />
+    <Compile Include="Navigator\Views\NavigatorViewsProvider`1.cs" />
+    <Compile Include="Navigator\Interfaces\ISelectedItemsExtensions.cs" />
+    <Compile Include="Navigator\Interfaces\ISimpleSelectedItemsExtensions.cs" />
+    <Compile Include="DataFormats\IDBTypedObjectIDExtensions.cs" />
+    <Compile Include="Metadata\Client\Attributes.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Extensions\Resources\Attributes.resx" />
+    <EmbeddedResource Include="Extensions\Resources\Resources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

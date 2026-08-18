@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.Interfaces.Reports.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{061B3888-C747-4CD1-876D-7E4A65CBD240}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.Interfaces.Reports</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>lib\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Expert">
+      <HintPath>lib\Intermech.Expert.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Client">
+      <HintPath>lib\Intermech.Interfaces.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Document">
+      <HintPath>lib\Intermech.Interfaces.Document.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Localization\LocalizationHolder.cs" />
+    <Compile Include="Localization\CustomDescription.cs" />
+    <Compile Include="Localization\CustomDisplayName.cs" />
+    <Compile Include="Localization\CustomCategory.cs" />
+    <Compile Include="Interfaces\Reports\ImDocumentDataUtils.cs" />
+    <Compile Include="Interfaces\Reports\IReportBackgroundCreateVersionTask.cs" />
+    <Compile Include="Interfaces\Reports\IReportBackgroundGenerateTask.cs" />
+    <Compile Include="Interfaces\Reports\ReportTaskOptions.cs" />
+    <Compile Include="Interfaces\Reports\IReportBackgroundTask.cs" />
+    <Compile Include="Interfaces\Reports\IReportBackgroundUpdateTask.cs" />
+    <Compile Include="Interfaces\Reports\ReportDocEventHandler.cs" />
+    <Compile Include="Interfaces\Reports\ValueObjChangedHandler.cs" />
+    <Compile Include="Interfaces\Reports\ReportTaskState.cs" />
+    <Compile Include="Interfaces\Reports\IReportsBaseTask.cs" />
+    <Compile Include="Interfaces\Reports\IReportsCreateVersionTask.cs" />
+    <Compile Include="Interfaces\Reports\IReportsGenerateTask.cs" />
+    <Compile Include="Interfaces\Reports\ReportsDocModes.cs" />
+    <Compile Include="Interfaces\Reports\IReportsServerService.cs" />
+    <Compile Include="Interfaces\Reports\ReportMode.cs" />
+    <Compile Include="Interfaces\Reports\IReportsService.cs" />
+    <Compile Include="Interfaces\Reports\IReportsUpdateTask.cs" />
+    <Compile Include="Interfaces\Reports\IReportTaskParams.cs" />
+    <Compile Include="Interfaces\Reports\IReportsServerUtils.cs" />
+    <Compile Include="Interfaces\Reports\IReportUtils.cs" />
+    <Compile Include="Interfaces\Reports\ReportDocBaseEvent.cs" />
+    <Compile Include="Interfaces\Reports\ReportDocEvent.cs" />
+    <Compile Include="Interfaces\Reports\ReportTaskMode.cs" />
+    <Compile Include="Interfaces\Reports\ReportsPaсkageException.cs" />
+    <Compile Include="Interfaces\Reports\ReportsConsts.cs" />
+    <Compile Include="Interfaces\Reports\ReportsBaseDoc.cs" />
+    <Compile Include="Interfaces\Reports\ReportsDocComplect.cs" />
+    <Compile Include="Interfaces\Reports\ReportsDoc.cs" />
+    <Compile Include="Interfaces\Reports\ReportTaskParams.cs" />
+    <Compile Include="Interfaces\Reports\ReportTraceInfo.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Interfaces\Reports\Resources\CustomAttributesResources.resx" />
+    <EmbeddedResource Include="Interfaces\Reports\Resources\InterfacesReportsResources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

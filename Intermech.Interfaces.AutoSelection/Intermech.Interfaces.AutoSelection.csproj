@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.Interfaces.AutoSelection.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FE974498-2A7C-44BD-8E64-0A33A4FC1BEB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.Interfaces.AutoSelection</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech.Interfaces.AutoSelection</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutoSelectionMode.cs" />
+    <Compile Include="AutoSelectionConsts.cs" />
+    <Compile Include="AutoSelectionParams.cs" />
+    <Compile Include="IAutoSelectionService.cs" />
+    <Compile Include="ObjectEventArgs.cs" />
+    <Compile Include="ObjectCommitEventArgs.cs" />
+    <Compile Include="RelationEventArgs.cs" />
+    <Compile Include="BeforeCommitCreation.cs" />
+    <Compile Include="AfterCommitCreation.cs" />
+    <Compile Include="BeforeCreateRelation.cs" />
+    <Compile Include="AfterCreateRelation.cs" />
+    <Compile Include="LocalizationHolder.cs" />
+    <Compile Include="CustomDescription.cs" />
+    <Compile Include="CustomCategory.cs" />
+    <Compile Include="CustomDisplayName.cs" />
+    <Compile Include="AutoSelectionLog\IAutoSelectionLogRec.cs" />
+    <Compile Include="AutoSelectionLog\IAutoSelectionLog.cs" />
+    <Compile Include="AutoSelectionCache\AutoSelectionLinkMode.cs" />
+    <Compile Include="AutoSelectionCache\IAutoSelectionRuleCacheService.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\CustomAttributesResources.resx" />
+    <EmbeddedResource Include="Resources\Interfaces\AutoSelectionResources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.Map2.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6891BF4F-5589-446D-BCEE-90C7F329CA40}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.Map2</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Map2\ReflectClass.cs" />
+    <Compile Include="Map2\MethodDelegate.cs" />
+    <Compile Include="Map2\MapTextImage.cs" />
+    <Compile Include="Map\MapRedNoteText.cs" />
+    <Compile Include="Map\RichTextBoxControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Map\IMapActionObject.cs" />
+    <Compile Include="Map\IMapCollection.cs" />
+    <Compile Include="Map\IMapControlObject.cs" />
+    <Compile Include="Map\IMapGraphPart.cs" />
+    <Compile Include="Map\IMapHandle.cs" />
+    <Compile Include="Map\IMapIdentifiablePart.cs" />
+    <Compile Include="Map\IMapLabeledNode.cs" />
+    <Compile Include="Map\IMapLayerAbilities.cs" />
+    <Compile Include="Map\IMapLayerCollectionContainer.cs" />
+    <Compile Include="Map\IMapLink.cs" />
+    <Compile Include="Map\IMapNode.cs" />
+    <Compile Include="Map\IMapNodeIconConstraint.cs" />
+    <Compile Include="Map\IMapPort.cs" />
+    <Compile Include="Map\IMapRelativePosition.cs" />
+    <Compile Include="Map\IMapRelative.cs" />
+    <Compile Include="Map\IMapTime.cs" />
+    <Compile Include="Map\IMapToolTipText.cs" />
+    <Compile Include="Map\IMapTool.cs" />
+    <Compile Include="Map\IMapUndoableEdit.cs" />
+    <Compile Include="Map\MapBalloon.cs" />
+    <Compile Include="Map\MapBasicNode.cs" />
+    <Compile Include="Map\MapBoxNode.cs" />
+    <Compile Include="Map\MapBoxPort.cs" />
+    <Compile Include="Map\MapButton.cs" />
+    <Compile Include="Map\MapChangedEventArgs.cs" />
+    <Compile Include="Map\MapChangedEventHandler.cs" />
+    <Compile Include="Map\MapCollection.cs" />
+    <Compile Include="Map\MapCollectionEnumerator.cs" />
+    <Compile Include="Map\MapComment.cs" />
+    <Compile Include="Map\MapContextMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Map\MapControl.cs" />
+    <Compile Include="Map\MapCopyDelayedsCollection.cs" />
+    <Compile Include="Map\MapCopyDictionary.cs" />
+    <Compile Include="Map\MapCube.cs" />
+    <Compile Include="Map\MapCylinder.cs" />
+    <Compile Include="Map\MapDiamond.cs" />
+    <Compile Include="Map\MapDocument.cs" />
+    <Compile Include="Map\MapDocumentValidCycle.cs" />
+    <Compile Include="Map\MapEllipse.cs" />
+    <Compile Include="Map\MapGeneralNode.cs" />
+    <Compile Include="Map\MapGeneralNodePort.cs" />
+    <Compile Include="Map\MapGeneralNodePortLabel.cs" />
+    <Compile Include="Map\MapGroup.cs" />
+    <Compile Include="Map\MapGroupEnumerator.cs" />
+    <Compile Include="Map\MapHandle.cs" />
+    <Compile Include="Map\MapHandleStyle.cs" />
+    <Compile Include="Map\MapHexagon.cs" />
+    <Compile Include="Map\MapHexagonReshapeBehavior.cs" />
+    <Compile Include="Map\MapIconicNode.cs" />
+    <Compile Include="Map\MapImage.cs" />
+    <Compile Include="Map\MapInputEventArgs.cs" />
+    <Compile Include="Map\MapInputEventHandler.cs" />
+    <Compile Include="Map\MapInputState.cs" />
+    <Compile Include="Map\MapLabeledLink.cs" />
+    <Compile Include="Map\MapLayer.cs" />
+    <Compile Include="Map\ZIndexComparer.cs" />
+    <Compile Include="Map\MapLayerCollection.cs" />
+    <Compile Include="Map\MapLayerCollectionEnumerator.cs" />
+    <Compile Include="Map\MapLayerCollectionObjectEnumerator.cs" />
+    <Compile Include="Map\MapLayerEnumerator.cs" />
+    <Compile Include="Map\MapLink.cs" />
+    <Compile Include="Map\MapLinkAdjustingStyle.cs" />
+    <Compile Include="Map\MapListGroup.cs" />
+    <Compile Include="Map\MapMultiTextNode.cs" />
+    <Compile Include="Map\MapMultiTextNodeListGroup.cs" />
+    <Compile Include="Map\MapNode.cs" />
+    <Compile Include="Map\MapNodeIcon.cs" />
+    <Compile Include="Map\MapNodeLinkEnumerator.cs" />
+    <Compile Include="Map\MapNodeNodeEnumerator.cs" />
+    <Compile Include="Map\MapNodePortEnumerator.cs" />
+    <Compile Include="Map\MapNote.cs" />
+    <Compile Include="Map\MapNote_.cs" />
+    <Compile Include="Map\MapObject.cs" />
+    <Compile Include="Map\MapObjectEventArgs.cs" />
+    <Compile Include="Map\MapObjectEventHandler.cs" />
+    <Compile Include="Map\MapOctagon.cs" />
+    <Compile Include="Map\MapOverview.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Map\MapOverviewRectangle.cs" />
+    <Compile Include="Map\MapPalette.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Map\MapParallelogram.cs" />
+    <Compile Include="Map\MapPerspective.cs" />
+    <Compile Include="Map\MapPie.cs" />
+    <Compile Include="Map\MapPointFConverter.cs" />
+    <Compile Include="Map\MapPolygon.cs" />
+    <Compile Include="Map\MapPolygonStyle.cs" />
+    <Compile Include="Map\MapPort.cs" />
+    <Compile Include="Map\MapPortFilteredLinkEnumerator.cs" />
+    <Compile Include="Map\MapPortLinkEnumerator.cs" />
+    <Compile Include="Map\MapPortStyle.cs" />
+    <Compile Include="Map\MapPositionArray.cs" />
+    <Compile Include="Map\MapRectangle.cs" />
+    <Compile Include="Map\MapRedCircle.cs" />
+    <Compile Include="Map\MapRedEllipse.cs" />
+    <Compile Include="Map\MapSubHandle.cs" />
+    <Compile Include="Map\IRedNoteStyle.cs" />
+    <Compile Include="Map\IRedArrowStyle.cs" />
+    <Compile Include="Map\MapRedNote.cs" />
+    <Compile Include="Map\MapRedPencil.cs" />
+    <Compile Include="Map\MapRedRectangle.cs" />
+    <Compile Include="Map\MapRedStroke.cs" />
+    <Compile Include="Map\RectangleStyle.cs" />
+    <Compile Include="Map\MapRoundedRectangle.cs" />
+    <Compile Include="Map\MapSelection.cs" />
+    <Compile Include="Map\MapSelectionEventArgs.cs" />
+    <Compile Include="Map\MapSelectionEventHandler.cs" />
+    <Compile Include="Map\MapShape.cs" />
+    <Compile Include="Map\MapSimpleNode.cs" />
+    <Compile Include="Map\MapSizeFConverter.cs" />
+    <Compile Include="Map\MapStroke.cs" />
+    <Compile Include="Map\MapStrokeArrowheadStyle.cs" />
+    <Compile Include="Map\MapStrokeStyle.cs" />
+    <Compile Include="Map\MapSubGraph.cs" />
+    <Compile Include="Map\MapSubGraphHandle.cs" />
+    <Compile Include="Map\MapSubGraphState.cs" />
+    <Compile Include="Map\MapText.cs" />
+    <Compile Include="Map\MapTextEditorStyle.cs" />
+    <Compile Include="Map\MapTextMillimeter.cs" />
+    <Compile Include="Map\MapTextNode.cs" />
+    <Compile Include="Map\MapTool.cs" />
+    <Compile Include="Map\MapToolAction.cs" />
+    <Compile Include="Map\MapToolContext.cs" />
+    <Compile Include="Map\MapToolDragging.cs" />
+    <Compile Include="Map\MapToolLinking.cs" />
+    <Compile Include="Map\MapToolLinkingNew.cs" />
+    <Compile Include="Map\MapToolManager.cs" />
+    <Compile Include="Map\MapToolPanning.cs" />
+    <Compile Include="Map\MapToolRelinking.cs" />
+    <Compile Include="Map\MapToolResizing.cs" />
+    <Compile Include="Map\MapToolRubberBanding.cs" />
+    <Compile Include="Map\MapToolSelecting.cs" />
+    <Compile Include="Map\MapToolZooming.cs" />
+    <Compile Include="Map\MapTrapezoid.cs" />
+    <Compile Include="Map\MapTriangle.cs" />
+    <Compile Include="Map\MapUndoManager.cs" />
+    <Compile Include="Map\MapUndoManagerCompoundEdit.cs" />
+    <Compile Include="Map\MapView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Map\MapViewGridStyle.cs" />
+    <Compile Include="Map\MapViewLicenseProvider.cs" />
+    <Compile Include="Map\MapViewScrollBarVisibility.cs" />
+    <Compile Include="Map\MapViewSnapStyle.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Map\MapView.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

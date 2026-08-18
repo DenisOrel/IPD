@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Interfaces.Document_721" xml:space="preserve">
+    <value>Иерархический номер страницы в документе</value>
+  </data>
+  <data name="Interfaces.Document_722" xml:space="preserve">
+    <value>Формула</value>
+  </data>
+  <data name="Interfaces.Document_195" xml:space="preserve">
+    <value>На подпись объекта по ссылке, полученной через атрибут документа в БД</value>
+  </data>
+  <data name="Interfaces.Document_194" xml:space="preserve">
+    <value>Получать ссылку на подпись объекта системы</value>
+  </data>
+  <data name="Interfaces.Document_197" xml:space="preserve">
+    <value>Контрольная сумма</value>
+  </data>
+  <data name="Interfaces.Document_196" xml:space="preserve">
+    <value>Получать ссылку на подпись через атрибут объекта документа</value>
+  </data>
+  <data name="Interfaces.Document_191" xml:space="preserve">
+    <value>На подпись объекта документа</value>
+  </data>
+  <data name="Interfaces.Document_190" xml:space="preserve">
+    <value>Заданный аргумент находится вне диапазона допустимых значений.
+   Аргумент "index": {0}
+   Диапазон: [0..{1}]
+   Родительский узел: "{2}"
+   Дочерний узел: "{3}"</value>
+  </data>
+  <data name="Interfaces.Document_193" xml:space="preserve">
+    <value>Получать ссылку на подпись объекта документа</value>
+  </data>
+  <data name="Interfaces.Document_192" xml:space="preserve">
+    <value>На подпись объекта системы</value>
+  </data>
+  <data name="Interfaces.Document_199" xml:space="preserve">
+    <value>Номер последней страницы документа</value>
+  </data>
+  <data name="Interfaces.Document_198" xml:space="preserve">
+    <value>В странице, созданной по шаблону страницы "{0}", отсутствует таблица для переноса данных!</value>
+  </data>
+  <data name="Interfaces.Document_184" xml:space="preserve">
+    <value>Невозможно вставить узел в коллекцию его потомка</value>
+  </data>
+  <data name="Interfaces.Document_185" xml:space="preserve">
+    <value>Идентификатор версии объекта</value>
+  </data>
+  <data name="Interfaces.Document_186" xml:space="preserve">
+    <value>На объект по ссылке, полученной через атрибут документа в БД</value>
+  </data>
+  <data name="Interfaces.Document_187" xml:space="preserve">
+    <value>На объект по ссылке, полученной через атрибут выбранного объекта в БД</value>
+  </data>
+  <data name="Interfaces.Document_181" xml:space="preserve">
+    <value>ОПЕР #2</value>
+  </data>
+  <data name="Interfaces.Document_182" xml:space="preserve">
+    <value>Ошибка чтения файла. Неизвестный тип элемента: </value>
+  </data>
+  <data name="Interfaces.Document_183" xml:space="preserve">
+    <value>. 
+ [Версия файла: </value>
+  </data>
+  <data name="Interfaces.Document_188" xml:space="preserve">
+    <value>На атрибут объекта по ссылке, полученной через атрибут документа в БД</value>
+  </data>
+  <data name="Interfaces.Document_189" xml:space="preserve">
+    <value>На атрибут объекта по ссылке, полученной через атрибут выбранного объекта в БД</value>
+  </data>
+  <data name="Interfaces.Document_159" xml:space="preserve">
+    <value>Комплект документов</value>
+  </data>
+  <data name="Interfaces.Document_158" xml:space="preserve">
+    <value>Невозможно вставить узел в собственную коллекцию узлов.</value>
+  </data>
+  <data name="Interfaces.Document_151" xml:space="preserve">
+    <value>Раздел</value>
+  </data>
+  <data name="Interfaces.Document_150" xml:space="preserve">
+    <value>Текст</value>
+  </data>
+  <data name="Interfaces.Document_153" xml:space="preserve">
+    <value>Перечисление уже завершено. Вызовите Reset и MoveNext.</value>
+  </data>
+  <data name="Interfaces.Document_152" xml:space="preserve">
+    <value>Перечисление не запущено. Вызовите MoveNext.</value>
+  </data>
+  <data name="Interfaces.Document_155" xml:space="preserve">
+    <value>Обозначение</value>
+  </data>
+  <data name="Interfaces.Document_154" xml:space="preserve">
+    <value>Библиотека формул</value>
+  </data>
+  <data name="Interfaces.Document_157" xml:space="preserve">
+    <value>Ошибка!</value>
+  </data>
+  <data name="Interfaces.Document_156" xml:space="preserve">
+    <value>Наименование</value>
+  </data>
+  <data name="Interfaces.Document_148" xml:space="preserve">
+    <value>Высота</value>
+  </data>
+  <data name="Interfaces.Document_149" xml:space="preserve">
+    <value>Заголовок {0} ({1})</value>
+  </data>
+  <data name="Interfaces.Document_140" xml:space="preserve">
+    <value>Стиль левой линии границы столбца</value>
+  </data>
+  <data name="Interfaces.Document_141" xml:space="preserve">
+    <value>Верхняя граница</value>
+  </data>
+  <data name="Interfaces.Document_142" xml:space="preserve">
+    <value>Стиль верхней линии границы строки</value>
+  </data>
+  <data name="Interfaces.Document_143" xml:space="preserve">
+    <value>Правая граница</value>
+  </data>
+  <data name="Interfaces.Document_144" xml:space="preserve">
+    <value>Стиль правой линии границы столбца</value>
+  </data>
+  <data name="Interfaces.Document_145" xml:space="preserve">
+    <value>Нижняя граница</value>
+  </data>
+  <data name="Interfaces.Document_146" xml:space="preserve">
+    <value>Стиль нижней линии границы строки</value>
+  </data>
+  <data name="Interfaces.Document_147" xml:space="preserve">
+    <value>Ширина</value>
+  </data>
+  <data name="Interfaces.Document_173" xml:space="preserve">
+    <value>Количество страниц</value>
+  </data>
+  <data name="Interfaces.Document_172" xml:space="preserve">
+    <value>Номер страницы 2</value>
+  </data>
+  <data name="Interfaces.Document_171" xml:space="preserve">
+    <value>Номер страницы</value>
+  </data>
+  <data name="Interfaces.Document_170" xml:space="preserve">
+    <value>Текст</value>
+  </data>
+  <data name="Interfaces.Document_174" xml:space="preserve">
+    <value>Невозможно вставить узел в собственную коллекцию узлов.</value>
+  </data>
+  <data name="Interfaces.Document_168" xml:space="preserve">
+    <value>Редактор документов</value>
+  </data>
+  <data name="Interfaces.Document_169" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="Interfaces.Document_162" xml:space="preserve">
+    <value>Коллекция была модифицирована после создания энумератора.</value>
+  </data>
+  <data name="Interfaces.Document_163" xml:space="preserve">
+    <value>В потоке отсутствует комплект документов</value>
+  </data>
+  <data name="Interfaces.Document_160" xml:space="preserve">
+    <value>Количество страниц в комплекте</value>
+  </data>
+  <data name="Interfaces.Document_161" xml:space="preserve">
+    <value>Номер страницы в комплекте</value>
+  </data>
+  <data name="Interfaces.Document_166" xml:space="preserve">
+    <value>Удаление атрибута</value>
+  </data>
+  <data name="Interfaces.Document_167" xml:space="preserve">
+    <value>Редактирование атрибута</value>
+  </data>
+  <data name="Interfaces.Document_164" xml:space="preserve">
+    <value>Границы</value>
+  </data>
+  <data name="Interfaces.Document_165" xml:space="preserve">
+    <value>Добавление атрибута</value>
+  </data>
+  <data name="Interfaces.Document_119" xml:space="preserve">
+    <value>Недопустимый тип ячейки</value>
+  </data>
+  <data name="Interfaces.Document_118" xml:space="preserve">
+    <value>Столбца с таким индексом не существует</value>
+  </data>
+  <data name="Interfaces.Document_115" xml:space="preserve">
+    <value>на элемент, связанный с родительским элементом</value>
+  </data>
+  <data name="Interfaces.Document_114" xml:space="preserve">
+    <value>на выбранный элемент</value>
+  </data>
+  <data name="Interfaces.Document_117" xml:space="preserve">
+    <value>Подтип заданный параметром не найден</value>
+  </data>
+  <data name="Interfaces.Document_116" xml:space="preserve">
+    <value>на элемент, связанный с документом</value>
+  </data>
+  <data name="Interfaces.Document_111" xml:space="preserve">
+    <value>на родительский элемент</value>
+  </data>
+  <data name="Interfaces.Document_110" xml:space="preserve">
+    <value>на этот элемент</value>
+  </data>
+  <data name="Interfaces.Document_113" xml:space="preserve">
+    <value>на документ</value>
+  </data>
+  <data name="Interfaces.Document_112" xml:space="preserve">
+    <value>на страницу</value>
+  </data>
+  <data name="Interfaces.Document_108" xml:space="preserve">
+    <value>На атрибут элемента, связанного с родительским элементом</value>
+  </data>
+  <data name="Interfaces.Document_109" xml:space="preserve">
+    <value>На атрибут элемента, связанного с документом</value>
+  </data>
+  <data name="Interfaces.Document_104" xml:space="preserve">
+    <value>На атрибут родительского элемента</value>
+  </data>
+  <data name="Interfaces.Document_105" xml:space="preserve">
+    <value>На атрибут страницы</value>
+  </data>
+  <data name="Interfaces.Document_106" xml:space="preserve">
+    <value>На атрибут документа</value>
+  </data>
+  <data name="Interfaces.Document_107" xml:space="preserve">
+    <value>На атрибут выбранного элемента</value>
+  </data>
+  <data name="Interfaces.Document_100" xml:space="preserve">
+    <value>на выбранную связь системы</value>
+  </data>
+  <data name="Interfaces.Document_101" xml:space="preserve">
+    <value>на связь родительского элемента</value>
+  </data>
+  <data name="Interfaces.Document_102" xml:space="preserve">
+    <value>на связь документа</value>
+  </data>
+  <data name="Interfaces.Document_103" xml:space="preserve">
+    <value>На атрибут этого элемента</value>
+  </data>
+  <data name="Interfaces.Document_139" xml:space="preserve">
+    <value>Левая граница</value>
+  </data>
+  <data name="Interfaces.Document_138" xml:space="preserve">
+    <value>Данные</value>
+  </data>
+  <data name="Interfaces.Document_137" xml:space="preserve">
+    <value>Дополнительные атрибуты</value>
+  </data>
+  <data name="Interfaces.Document_136" xml:space="preserve">
+    <value>Дополнительные атрибуты</value>
+  </data>
+  <data name="Interfaces.Document_135" xml:space="preserve">
+    <value>Запись словаря без ключа</value>
+  </data>
+  <data name="Interfaces.Document_134" xml:space="preserve">
+    <value>ReadXmlTypedElement. Не обнаружен атрибут 'type'!</value>
+  </data>
+  <data name="Interfaces.Document_133" xml:space="preserve">
+    <value>&gt;ReadXmlTypedElement. Не найден базовый тип '{0}'</value>
+  </data>
+  <data name="Interfaces.Document_132" xml:space="preserve">
+    <value>ReadXmlTypedElement. Не найден тип '{0}'</value>
+  </data>
+  <data name="Interfaces.Document_130" xml:space="preserve">
+    <value>Разное</value>
+  </data>
+  <data name="Interfaces.Document_126" xml:space="preserve">
+    <value>Ошибка ReadCells - Неизвестный тип:{0}.{1} </value>
+  </data>
+  <data name="Interfaces.Document_127" xml:space="preserve">
+    <value>Невозможно создать следующую таблицу, т.к. эта находится в шапке</value>
+  </data>
+  <data name="Interfaces.Document_124" xml:space="preserve">
+    <value>Строка {0} ({1})</value>
+  </data>
+  <data name="Interfaces.Document_125" xml:space="preserve">
+    <value>В таблице находится недопустимый элемент</value>
+  </data>
+  <data name="Interfaces.Document_122" xml:space="preserve">
+    <value>Таблица</value>
+  </data>
+  <data name="Interfaces.Document_123" xml:space="preserve">
+    <value>Столбец {0} ({1})</value>
+  </data>
+  <data name="Interfaces.Document_120" xml:space="preserve">
+    <value>Недопустимый тип ячейки</value>
+  </data>
+  <data name="Interfaces.Document_121" xml:space="preserve">
+    <value>Недопустимый тип ячейки</value>
+  </data>
+  <data name="Interfaces.Document_201" xml:space="preserve">
+    <value>Время печати</value>
+  </data>
+  <data name="Interfaces.Document_200" xml:space="preserve">
+    <value>Фамилия печатающего пользователя</value>
+  </data>
+  <data name="Interfaces.Document_9" xml:space="preserve">
+    <value>Этот узел не поддерживает добавление дочерних узлов</value>
+  </data>
+  <data name="Interfaces.Document_8" xml:space="preserve">
+    <value>InsertChildNode: Попытка вставить виртуальный объект в невиртуальный</value>
+  </data>
+  <data name="Interfaces.Document_5" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="Interfaces.Document_4" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="Interfaces.Document_7" xml:space="preserve">
+    <value>Этот узел не поддерживает добавление дочерних узлов</value>
+  </data>
+  <data name="Interfaces.Document_6" xml:space="preserve">
+    <value>Разное</value>
+  </data>
+  <data name="Interfaces.Document_1" xml:space="preserve">
+    <value>Разное</value>
+  </data>
+  <data name="Interfaces.Document_3" xml:space="preserve">
+    <value>Контейнер</value>
+  </data>
+  <data name="Interfaces.Document_2" xml:space="preserve">
+    <value>Ошибка: "{0}"</value>
+  </data>
+  <data name="Interfaces.Document_94" xml:space="preserve">
+    <value>На атрибут связи родителя</value>
+  </data>
+  <data name="Interfaces.Document_95" xml:space="preserve">
+    <value>На атрибут связи документа</value>
+  </data>
+  <data name="Interfaces.Document_96" xml:space="preserve">
+    <value>Подтип заданный параметром не найден</value>
+  </data>
+  <data name="Interfaces.Document_97" xml:space="preserve">
+    <value>на выбранный объект системы</value>
+  </data>
+  <data name="Interfaces.Document_90" xml:space="preserve">
+    <value>На атрибут объекта родителя</value>
+  </data>
+  <data name="Interfaces.Document_91" xml:space="preserve">
+    <value>На атрибут объекта документа</value>
+  </data>
+  <data name="Interfaces.Document_92" xml:space="preserve">
+    <value>На атрибут связи системы</value>
+  </data>
+  <data name="Interfaces.Document_93" xml:space="preserve">
+    <value>На атрибут объекта по связи</value>
+  </data>
+  <data name="Interfaces.Document_98" xml:space="preserve">
+    <value>на объект родительского элемента</value>
+  </data>
+  <data name="Interfaces.Document_99" xml:space="preserve">
+    <value>на объект документа</value>
+  </data>
+  <data name="Interfaces.Document_85" xml:space="preserve">
+    <value>Подтип заданный параметром не найден</value>
+  </data>
+  <data name="Interfaces.Document_84" xml:space="preserve">
+    <value>Неизвестный тип ссылки на объект</value>
+  </data>
+  <data name="Interfaces.Document_87" xml:space="preserve">
+    <value>Подтип заданный параметром не найден</value>
+  </data>
+  <data name="Interfaces.Document_86" xml:space="preserve">
+    <value>Неизвестный тип ссылки на текст</value>
+  </data>
+  <data name="Interfaces.Document_81" xml:space="preserve">
+    <value>Разное</value>
+  </data>
+  <data name="Interfaces.Document_80" xml:space="preserve">
+    <value>Значение не может быть пустым</value>
+  </data>
+  <data name="Interfaces.Document_83" xml:space="preserve">
+    <value>Высота строки не может быть отрицательной!</value>
+  </data>
+  <data name="Interfaces.Document_82" xml:space="preserve">
+    <value>Элемент редактирования</value>
+  </data>
+  <data name="Interfaces.Document_89" xml:space="preserve">
+    <value>На атрибут объекта системы</value>
+  </data>
+  <data name="Interfaces.Document_88" xml:space="preserve">
+    <value>Подтип заданный параметром не найден</value>
+  </data>
+  <data name="Interfaces.Document_58" xml:space="preserve">
+    <value>Задано неверное число: </value>
+  </data>
+  <data name="Interfaces.Document_59" xml:space="preserve">
+    <value>Задано неверное число: </value>
+  </data>
+  <data name="Interfaces.Document_51" xml:space="preserve">
+    <value>Задано неверное число: </value>
+  </data>
+  <data name="Interfaces.Document_52" xml:space="preserve">
+    <value> пт</value>
+  </data>
+  <data name="Interfaces.Document_57" xml:space="preserve">
+    <value>Задано неверное число: </value>
+  </data>
+  <data name="Interfaces.Document_78" xml:space="preserve">
+    <value>ParagraphFormatConverter. Изменилось количество свойств!</value>
+  </data>
+  <data name="Interfaces.Document_79" xml:space="preserve">
+    <value>Полилиния</value>
+  </data>
+  <data name="Interfaces.Document_72" xml:space="preserve">
+    <value>Номер страницы в документе</value>
+  </data>
+  <data name="Interfaces.Document_73" xml:space="preserve">
+    <value>Номер страницы 2</value>
+  </data>
+  <data name="Interfaces.Document_70" xml:space="preserve">
+    <value>Страница {0}</value>
+  </data>
+  <data name="Interfaces.Document_71" xml:space="preserve">
+    <value>Страница {0}. {1}</value>
+  </data>
+  <data name="Interfaces.Document_76" xml:space="preserve">
+    <value>Страница не принадлежит документу</value>
+  </data>
+  <data name="Interfaces.Document_77" xml:space="preserve">
+    <value>Для последней страницы не найдена предыдущая</value>
+  </data>
+  <data name="Interfaces.Document_74" xml:space="preserve">
+    <value>Страница должна быть шаблоном!</value>
+  </data>
+  <data name="Interfaces.Document_75" xml:space="preserve">
+    <value>. Следующая страница</value>
+  </data>
+  <data name="Interfaces.Document_41" xml:space="preserve">
+    <value>Задано неверное число: </value>
+  </data>
+  <data name="Interfaces.Document_43" xml:space="preserve">
+    <value> мм</value>
+  </data>
+  <data name="Interfaces.Document_42" xml:space="preserve">
+    <value> пт</value>
+  </data>
+  <data name="Interfaces.Document_45" xml:space="preserve">
+    <value> мм</value>
+  </data>
+  <data name="Interfaces.Document_44" xml:space="preserve">
+    <value> пт</value>
+  </data>
+  <data name="Interfaces.Document_46" xml:space="preserve">
+    <value>Задано неверное число: </value>
+  </data>
+  <data name="Interfaces.Document_19" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="Interfaces.Document_14" xml:space="preserve">
+    <value>Не найден объект с идентификатором: </value>
+  </data>
+  <data name="Interfaces.Document_15" xml:space="preserve">
+    <value>Не найдено поле: {0} у объекта: {1}</value>
+  </data>
+  <data name="Interfaces.Document_17" xml:space="preserve">
+    <value>Поле "{0}" не найдено</value>
+  </data>
+  <data name="Interfaces.Document_13" xml:space="preserve">
+    <value>Несколько значений для одного поля "{0}" объекта "{1}"</value>
+  </data>
+  <data name="Interfaces.Document_69" xml:space="preserve">
+    <value>Страница</value>
+  </data>
+  <data name="Interfaces.Document_68" xml:space="preserve">
+    <value>В потоке отсутствует документ</value>
+  </data>
+  <data name="Interfaces.Document_61" xml:space="preserve">
+    <value>Документ</value>
+  </data>
+  <data name="Interfaces.Document_60" xml:space="preserve">
+    <value>Количество страниц в документе</value>
+  </data>
+  <data name="Interfaces.Document_67" xml:space="preserve">
+    <value>Ошибка LoadNodesInThread() - Неизвестный тип:{0}.{1}  </value>
+  </data>
+  <data name="Interfaces.Document_66" xml:space="preserve">
+    <value>Невозможно сгенерировать уникальное имя! fileName = </value>
+  </data>
+  <data name="Interfaces.Document_65" xml:space="preserve">
+    <value>. Следующая страница</value>
+  </data>
+  <data name="Interfaces.Document_64" xml:space="preserve">
+    <value>Страница должна быть шаблоном!</value>
+  </data>
+  <data name="Interfaces.Document_35" xml:space="preserve">
+    <value>Задано неверное число: </value>
+  </data>
+  <data name="Interfaces.Document_30" xml:space="preserve">
+    <value> см</value>
+  </data>
+  <data name="Interfaces.Document_23" xml:space="preserve">
+    <value>Узел "{0}" не может быть шаблоном узла "{1}"</value>
+  </data>
+  <data name="Interfaces.Document_21" xml:space="preserve">
+    <value>Объект "{0}" не может быть шаблоном этого объекта</value>
+  </data>
+  <data name="Interfaces.Document_20" xml:space="preserve">
+    <value>Не найден объект: "{0}"</value>
+  </data>
+</root>

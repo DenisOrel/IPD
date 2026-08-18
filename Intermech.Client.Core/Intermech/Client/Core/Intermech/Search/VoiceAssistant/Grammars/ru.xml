@@ -1,0 +1,1745 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<grammar version="1.0" mode="voice" root="Root" tag-format="semantics/1.0" xml:lang="ru-RU" xmlns="http://www.w3.org/2001/06/grammar" >
+
+  <!-- Подтверждение -->
+
+  <rule id="Close" scope="public">
+    <tag>out="Close";</tag>
+    <one-of>
+      <item>закрыть</item>
+      <item>закройся</item>
+    </one-of>
+  </rule>
+  <rule id ="OK" scope="public">
+    <tag>out="OK";</tag>
+    <one-of>
+      <item>ок</item>
+      <item>окей</item>
+      <item>применить</item>
+    </one-of>
+  </rule>
+  <rule id="Cancel" scope="public">
+    <tag>out="Cancel";</tag>
+    <one-of>
+      <item>отменить</item>
+      <item>отмена</item>
+    </one-of>
+  </rule>
+  <rule id="Yes" scope="public">
+    <tag>out="Yes";</tag>
+    <one-of>
+      <item>да</item>
+      <item>ага</item>
+      <item>ыгы</item>
+    </one-of>
+  </rule>
+  <rule id="No" scope="public">
+    <tag>out="No";</tag>
+    <one-of>
+      <item>нет</item>
+      <item>не</item>
+    </one-of>
+  </rule>
+  <rule id="Abort" scope="public">
+    <tag>out="Abort";</tag>
+    <one-of>
+      <item>прервать</item>
+    </one-of>
+  </rule>
+  <rule id="Retry" scope="public">
+    <tag>out="Retry";</tag>
+    <one-of>
+      <item>повторить</item>
+      <item>еще раз</item>
+    </one-of>
+  </rule>
+  <rule id="Ignore" scope="public">
+    <tag>out="Ignore";</tag>
+    <one-of>
+      <item>пропустить</item>
+      <item>игнорировать</item>
+    </one-of>
+  </rule>
+  <rule id="Confirmation" scope="public">
+    <one-of>
+      <item>
+        <ruleref uri="#Close" />
+      </item>
+      <item>
+        <ruleref uri="#OK" />
+      </item>
+      <item>
+        <ruleref uri="#Cancel" />
+      </item>
+      <item>
+        <ruleref uri="#Yes" />
+      </item>
+      <item>
+        <ruleref uri="#No" />
+      </item>
+      <item>
+        <ruleref uri="#Abort" />
+      </item>
+      <item>
+        <ruleref uri="#Retry" />
+      </item>
+      <item>
+        <ruleref uri="#Ignore" />
+      </item>
+
+    </one-of>
+  </rule>
+
+  <!-- Количественные числительные -->
+
+  <rule id="Cardinal_0" scope="public">
+    <tag>out=0;</tag>
+    <one-of>
+      <item>ноль</item>
+      <item>нуль</item>
+    </one-of>
+  </rule>
+  <rule id="Cardinal_1" scope="public">
+    <tag>out=1;</tag>
+    <one-of>
+      <item>один</item>
+      <item>одного</item>
+      <item>одному</item>
+      <item>одним</item>
+      <item>одном</item>
+      <item>одна</item>
+      <item>одну</item>
+      <item>одной</item>
+    </one-of>
+  </rule>
+  <rule id="Cardinal_2" scope="public">
+    <tag>out=2;</tag>
+    <one-of>
+      <item>два</item>
+      <item>двух</item>
+      <item>двум</item>
+      <item>двумя</item>
+      <item>две</item>
+    </one-of>
+  </rule>
+  <rule id="Cardinal_3" scope="public">
+    <tag>out=3;</tag>
+    <one-of>
+      <item>три</item>
+      <item>трёх</item>
+      <item>трём</item>
+      <item>тремя</item>
+    </one-of>
+  </rule>
+  <rule id="Cardinal_4" scope="public">
+    <tag>out=4;</tag>
+    <one-of>
+      <item>четыре</item>
+      <item>четырем</item>
+      <item>четырех</item>
+    </one-of>
+  </rule>
+  <rule id="Cardinal_5" scope="public">
+    <tag>out=5;</tag>
+    <one-of>
+      <item>пять</item>
+      <item>пяти</item>
+      <item>пятью</item>
+    </one-of>
+  </rule>
+  <rule id="Cardinal_6" scope="public">
+    <tag>out=6;</tag>
+    <one-of>
+      <item>шесть</item>
+      <item>шести</item>
+      <item>шестью</item>
+    </one-of>
+  </rule>
+  <rule id ="Cardinal_7" scope="public">
+    <tag>out=7;</tag>
+    <one-of>
+      <item>семь</item>
+      <item>семи</item>
+      <item>семью</item>
+    </one-of>
+  </rule>
+  <rule id ="Cardinal_8" scope="public">
+    <tag>out=8;</tag>
+    <one-of>
+      <item>восемь</item>
+      <item>восьми</item>
+      <item>восемью</item>
+    </one-of>
+  </rule>
+  <rule id ="Cardinal_9" scope="public">
+    <tag>out=9;</tag>
+    <one-of>
+      <item>девять</item>
+      <item>девяти</item>
+      <item>девятью</item>
+    </one-of>
+  </rule>
+  <rule id ="Cardinal_1_9" scope="public">
+    <one-of>
+      <item>
+        <ruleref uri="#Cardinal_1" />
+      </item>
+      <item>
+        <ruleref uri="#Cardinal_2" />
+      </item>
+      <item>
+        <ruleref uri="#Cardinal_3" />
+      </item>
+      <item>
+        <ruleref uri="#Cardinal_4" />
+      </item>
+      <item>
+        <ruleref uri="#Cardinal_5" />
+      </item>
+      <item>
+        <ruleref uri="#Cardinal_6" />
+      </item>
+      <item>
+        <ruleref uri="#Cardinal_7" />
+      </item>
+      <item>
+        <ruleref uri="#Cardinal_8" />
+      </item>
+      <item>
+        <ruleref uri="#Cardinal_9" />
+      </item>
+    </one-of>
+  </rule>
+  <rule id="Cardinal_10" scope="public">
+    <tag>out=10;</tag>
+    <one-of>
+      <item>десять</item>
+      <item>десяти</item>
+      <item>десятью</item>
+    </one-of>
+  </rule>
+  <rule id="Cardinal_11" scope="public">
+    <tag>out=11;</tag>
+    <one-of>
+      <item>одиннадцать</item>
+      <item>одиннадцати</item>
+      <item>одиннадцатью</item>
+    </one-of>
+  </rule>
+  <rule id="Cardinal_12" scope="public">
+    <tag>out=12;</tag>
+    <one-of>
+      <item>двеннадцать</item>
+      <item>двеннадцати</item>
+      <item>двеннадцатью</item>
+    </one-of>
+  </rule>
+  <rule id="Cardinal_13" scope="public">
+    <tag>out=13;</tag>
+    <one-of>
+      <item>тринадцать</item>
+      <item>тринадцати</item>
+      <item>тринадцатью</item>
+    </one-of>
+  </rule>
+  <rule id="Cardinal_14" scope="public">
+    <tag>out=14;</tag>
+    <one-of>
+      <item>четырнадцать</item>
+      <item>четырнадцати</item>
+      <item>четырнадцатью</item>
+    </one-of>
+  </rule>
+  <rule id="Cardinal_15" scope="public">
+    <tag>out=15;</tag>
+    <one-of>
+      <item>пятнадцать</item>
+      <item>пятнадцати</item>
+      <item>пятнадцатью</item>
+    </one-of>
+  </rule>
+  <rule id="Cardinal_16" scope="public">
+    <tag>out=16;</tag>
+    <one-of>
+      <item>шестнадцать</item>
+      <item>шестнадцати</item>
+      <item>шестнадцатью</item>
+    </one-of>
+  </rule>
+  <rule id="Cardinal_17" scope="public">
+    <tag>out=17;</tag>
+    <one-of>
+      <item>семнадцать</item>
+      <item>семнадцати</item>
+      <item>семнадцатью</item>
+    </one-of>
+  </rule>
+  <rule id="Cardinal_18" scope="public">
+    <tag>out=18;</tag>
+    <one-of>
+      <item>восемнадцать</item>
+      <item>восемнадцати</item>
+      <item>восемнадцатью</item>
+    </one-of>
+  </rule>
+  <rule id="Cardinal_19" scope="public">
+    <tag>out=19;</tag>
+    <one-of>
+      <item>девятнадцать</item>
+      <item>девятнадцати</item>
+      <item>девятнадцатью</item>
+    </one-of>
+  </rule>
+  <rule id="Cardinal_20" scope="public">
+    <tag>out=20;</tag>
+    <one-of>
+      <item>двадцать</item>
+      <item>двадцати</item>
+      <item>двадцатью</item>
+    </one-of>
+  </rule>
+  <rule id="Cardinal_30" scope="public">
+    <tag>out=30;</tag>
+    <one-of>
+      <item>тридцать</item>
+      <item>тридцати</item>
+      <item>тридцатью</item>
+    </one-of>
+  </rule>
+  <rule id="Cardinal_40" scope="public">
+    <tag>out=40;</tag>
+    <one-of>
+      <item>сорок</item>
+      <item>сорока</item>
+    </one-of>
+  </rule>
+  <rule id="Cardinal_50" scope="public">
+    <tag>out=50;</tag>
+    <one-of>
+      <item>пятьдесят</item>
+      <item>пятидесяти</item>
+      <item>пятьюдесятью</item>
+    </one-of>
+  </rule>
+  <rule id="Cardinal_60" scope="public">
+    <tag>out=60;</tag>
+    <one-of>
+      <item>шестьдесят</item>
+      <item>шестидесяти</item>
+      <item>шестьюдесятью</item>
+    </one-of>
+  </rule>
+  <rule id="Cardinal_70" scope="public">
+    <tag>out=70;</tag>
+    <one-of>
+      <item>семьдесят</item>
+      <item>семидесяти</item>
+      <item>семьюдесятью</item>
+    </one-of>
+  </rule>
+  <rule id="Cardinal_80" scope="public">
+    <tag>out=80;</tag>
+    <one-of>
+      <item>восемьдесят</item>
+      <item>восьмидесяти</item>
+      <item>восемьюдесятью</item>
+    </one-of>
+  </rule>
+  <rule id="Cardinal_90" scope="public">
+    <tag>out=90;</tag>
+    <one-of>
+      <item>девяносто</item>
+      <item>девятиста</item>
+      <item>девятистам</item>
+      <item>девятистами</item>
+    </one-of>
+  </rule>
+  <rule id ="Cardinal_1_99" scope="public">
+    <one-of>
+      <item>
+        <ruleref uri="#Cardinal_1_9" />
+      </item>
+      <item>
+        <one-of>
+          <item>
+            <ruleref uri="#Cardinal_10" />
+          </item>
+          <item>
+            <ruleref uri="#Cardinal_11" />
+          </item>
+          <item>
+            <ruleref uri="#Cardinal_12" />
+          </item>
+          <item>
+            <ruleref uri="#Cardinal_13" />
+          </item>
+          <item>
+            <ruleref uri="#Cardinal_14" />
+          </item>
+          <item>
+            <ruleref uri="#Cardinal_15" />
+          </item>
+          <item>
+            <ruleref uri="#Cardinal_16" />
+          </item>
+          <item>
+            <ruleref uri="#Cardinal_17" />
+          </item>
+          <item>
+            <ruleref uri="#Cardinal_18" />
+          </item>
+          <item>
+            <ruleref uri="#Cardinal_19" />
+          </item>
+        </one-of>
+      </item>
+      <item>
+        <one-of>
+          <item>
+            <ruleref uri="#Cardinal_20" />
+          </item>
+          <item>
+            <ruleref uri="#Cardinal_30" />
+          </item>
+          <item>
+            <ruleref uri="#Cardinal_40" />
+          </item>
+          <item>
+            <ruleref uri="#Cardinal_50" />
+          </item>
+          <item>
+            <ruleref uri="#Cardinal_60" />
+          </item>
+          <item>
+            <ruleref uri="#Cardinal_70" />
+          </item>
+          <item>
+            <ruleref uri="#Cardinal_80" />
+          </item>
+          <item>
+            <ruleref uri="#Cardinal_90" />
+          </item>
+        </one-of>
+        <item repeat="0-1">
+          <ruleref uri="#Cardinal_1_9" />
+          <tag>out=out+rules.latest();</tag>
+        </item>
+      </item>
+    </one-of>
+  </rule>
+  <rule id="Cardinal_100" scope="public">
+    <tag>out=100;</tag>
+    <one-of>
+      <item>сто</item>
+      <item>ста</item>
+    </one-of>
+  </rule>
+  <rule id="Cardinal_200" scope="public">
+    <tag>out=200;</tag>
+    <one-of>
+      <item>двести</item>
+      <item>двухсот</item>
+      <item>двумстам</item>
+      <item>двумятами</item>
+      <item>двустах</item>
+    </one-of>
+  </rule>
+  <rule id="Cardinal_300" scope="public">
+    <tag>out=300;</tag>
+    <one-of>
+      <item>триста</item>
+      <item>трёхсот</item>
+      <item>трёмстам</item>
+      <item>тремястами</item>
+      <item>трёмстах</item>
+    </one-of>
+  </rule>
+  <rule id="Cardinal_400" scope="public">
+    <tag>out=400;</tag>
+    <one-of>
+      <item>четыреста</item>
+      <item>четырёхсот</item>
+      <item>четырьмястами</item>
+      <item>четырёмстам</item>
+      <item>четырёхстах</item>
+    </one-of>
+  </rule>
+  <rule id="Cardinal_500" scope="public">
+    <tag>out=500;</tag>
+    <one-of>
+      <item>пятьсот</item>
+      <item>пятисот</item>
+      <item>пятистам</item>
+      <item>пятистами</item>
+      <item>пятистах</item>
+    </one-of>
+  </rule>
+  <rule id="Cardinal_600" scope="public">
+    <tag>out=600;</tag>
+    <one-of>
+      <item>шестьсот</item>
+      <item>шестисот</item>
+      <item>шестистам</item>
+      <item>шестистами</item>
+      <item>шестистах</item>
+    </one-of>
+  </rule>
+  <rule id="Cardinal_700" scope="public">
+    <tag>out=700;</tag>
+    <one-of>
+      <item>семьсот</item>
+      <item>семисот</item>
+      <item>семистам</item>
+      <item>семистами</item>
+      <item>семистах</item>
+    </one-of>
+  </rule>
+  <rule id="Cardinal_800" scope="public">
+    <tag>out=800;</tag>
+    <one-of>
+      <item>восемьсот</item>
+      <item>восьмисот</item>
+      <item>восьмистам</item>
+      <item>восьмистами</item>
+      <item>восьмистах</item>
+    </one-of>
+  </rule>
+  <rule id="Cardinal_900" scope="public">
+    <tag>out=900;</tag>
+    <one-of>
+      <item>девятьсот</item>
+      <item>девятисот</item>
+      <item>девятистам</item>
+      <item>девятистами</item>
+      <item>девятистах</item>
+    </one-of>
+  </rule>
+  <rule id="Cardinal_1_999" scope="public">
+    <one-of>
+      <item>
+        <ruleref uri="#Cardinal_1_99" />
+      </item>
+      <item>
+        <one-of>
+          <item>
+            <ruleref uri="#Cardinal_100" />
+          </item>
+          <item>
+            <ruleref uri="#Cardinal_200" />
+          </item>
+          <item>
+            <ruleref uri="#Cardinal_300" />
+          </item>
+          <item>
+            <ruleref uri="#Cardinal_400" />
+          </item>
+          <item>
+            <ruleref uri="#Cardinal_500" />
+          </item>
+          <item>
+            <ruleref uri="#Cardinal_600" />
+          </item>
+          <item>
+            <ruleref uri="#Cardinal_700" />
+          </item>
+          <item>
+            <ruleref uri="#Cardinal_800" />
+          </item>
+          <item>
+            <ruleref uri="#Cardinal_900" />
+          </item>
+        </one-of>
+        <item repeat="0-1">
+          <ruleref uri="#Cardinal_1_99" />
+          <tag>out=out+out.latest();</tag>
+        </item>
+      </item>
+    </one-of>
+  </rule>
+  <rule id="Cardinal_1000" scope="public">
+    <tag>out=1000;</tag>
+    <one-of>
+      <item>тысяча</item>
+      <item>тысячи</item>
+      <item>тысяче</item>
+      <item>тысячу</item>
+      <item>тысячей</item>
+    </one-of>
+  </rule>
+  <rule id="Cardinal_1000_999999" scope="public">
+    <item repeat="0-1">
+      <ruleref uri="#Cardinal_1_999" />
+      <tag>out=rules.latest()*1000;</tag>
+    </item>
+    <item>
+      <ruleref uri="#Cardinal_1000" />
+      <tag>out=out || 1000;</tag>
+    </item>
+    <item repeat="0-1">
+      <ruleref uri="#Cardinal_1_999" />
+      <tag>out=out+rules.latest();</tag>
+    </item>
+  </rule>
+  <rule id="Cardinal" scope="public">
+    <one-of>
+      <item>
+        <ruleref uri="#Cardinal_0" />
+      </item>
+      <item>
+        <ruleref uri="#Cardinal_1_999" />
+      </item>
+      <item>
+        <ruleref uri="#Cardinal_1000_999999" />
+      </item>
+    </one-of>
+  </rule>
+
+  <!-- Порядковые числительные -->
+
+  <rule id="Ordinal_1" scope="public">
+    <tag>out=1;</tag>
+    <one-of>
+      <item>первый</item>
+      <item>первого</item>
+      <item>первому</item>
+      <item>первым</item>
+      <item>ервом</item>
+      <item>первая</item>
+      <item>первой</item>
+      <item>первую</item>
+      <item>первое</item>
+      <item>первые</item>
+      <item>первых</item>
+      <item>первым</item>
+      <item>первыми</item>
+    </one-of>
+  </rule>
+  <rule id="Ordinal_2" scope="public">
+    <tag>out=2;</tag>
+    <one-of>
+      <item>второй</item>
+      <item>второго</item>
+      <item>второму</item>
+      <item>вторым</item>
+      <item>втором</item>
+      <item>вторая</item>
+      <item>второй</item>
+      <item>вторую</item>
+      <item>второе</item>
+      <item>вторые</item>
+      <item>вторых</item>
+      <item>вторым</item>
+      <item>вторыми</item>
+    </one-of>
+  </rule>
+  <rule id="Ordinal_3" scope="public">
+    <tag>out=3;</tag>
+    <one-of>
+      <item>третий</item>
+      <item>третьего</item>
+      <item>третьему</item>
+      <item>третьим</item>
+      <item>третьем</item>
+      <item>третья</item>
+      <item>третьей</item>
+      <item>третью</item>
+      <item>третье</item>
+      <item>третьи</item>
+      <item>третьих</item>
+      <item>третьим</item>
+      <item>третьими</item>
+    </one-of>
+  </rule>
+  <rule id="Ordinal_4" scope="public">
+    <tag>out=4;</tag>
+    <one-of>
+      <item>четвёртый</item>
+      <item>четвёртого</item>
+      <item>четвёртому</item>
+      <item>четвёртым</item>
+      <item>четвёртом</item>
+      <item>четвёртая</item>
+      <item>четвёртой</item>
+      <item>четвёртую</item>
+      <item>четрёртое</item>
+      <item>четвёртые</item>
+      <item>четвёртых</item>
+      <item>четвёртым</item>
+      <item>четвёртыми</item>
+    </one-of>
+  </rule>
+  <rule id="Ordinal_5" scope="public">
+    <tag>out=5;</tag>
+    <one-of>
+      <item>пятый</item>
+      <item>пятого</item>
+      <item>пятому</item>
+      <item>пятым</item>
+      <item>пятом</item>
+      <item>пятая</item>
+      <item>пятой</item>
+      <item>пятую</item>
+      <item>пятое</item>
+      <item>пятые</item>
+      <item>пятых</item>
+      <item>пятыми</item>
+    </one-of>
+  </rule>
+  <rule id="Ordinal_6" scope="public">
+    <tag>out=6;</tag>
+    <one-of>
+      <item>шестой</item>
+      <item>шестого</item>
+      <item>шестому</item>
+      <item>шестым</item>
+      <item>шестом</item>
+      <item>шестая</item>
+      <item>шестой</item>
+      <item>шестую</item>
+      <item>шестое</item>
+      <item>шестые</item>
+      <item>шестых</item>
+      <item>шестыми</item>
+    </one-of>
+  </rule>
+  <rule id="Ordinal_7" scope="public">
+    <tag>out=7;</tag>
+    <one-of>
+      <item>седьмой</item>
+      <item>седьмого</item>
+      <item>седьмому</item>
+      <item>седьмым</item>
+      <item>седьмом</item>
+      <item>седьмая</item>
+      <item>седьмую</item>
+      <item>седьмое</item>
+      <item>седьмые</item>
+      <item>седьмых</item>
+      <item>седьмыми</item>
+    </one-of>
+  </rule>
+  <rule id="Ordinal_8" scope="public">
+    <tag>out=8;</tag>
+    <one-of>
+      <item>восьмой</item>
+      <item>восьмого</item>
+      <item>восьмому</item>
+      <item>восьмым</item>
+      <item>восьмом</item>
+      <item>восьмая</item>
+      <item>восьмую</item>
+      <item>восьмое</item>
+      <item>восьмые</item>
+      <item>восьмых</item>
+      <item>восьмыми</item>
+    </one-of>
+  </rule>
+  <rule id="Ordinal_9" scope="public">
+    <tag>out=9;</tag>
+    <one-of>
+      <item>девятый</item>
+      <item>девятого</item>
+      <item>девятому</item>
+      <item>девятым</item>
+      <item>девятом</item>
+      <item>девятая</item>
+      <item>девятой</item>
+      <item>девятую</item>
+      <item>девятое</item>
+      <item>девятые</item>
+      <item>девятых</item>
+      <item>девятыми</item>
+    </one-of>
+  </rule>
+  <rule id="Ordinal_1_9" scope="public">
+    <one-of>
+      <item>
+        <ruleref uri="#Ordinal_1" />
+      </item>
+      <item>
+        <ruleref uri="#Ordinal_2" />
+      </item>
+      <item>
+        <ruleref uri="#Ordinal_3" />
+      </item>
+      <item>
+        <ruleref uri="#Ordinal_4" />
+      </item>
+      <item>
+        <ruleref uri="#Ordinal_5" />
+      </item>
+      <item>
+        <ruleref uri="#Ordinal_6" />
+      </item>
+      <item>
+        <ruleref uri="#Ordinal_7" />
+      </item>
+      <item>
+        <ruleref uri="#Ordinal_8" />
+      </item>
+      <item>
+        <ruleref uri="#Ordinal_9" />
+      </item>
+    </one-of>
+  </rule>
+  <rule id="Ordinal_10" scope="public">
+    <tag>out=10;</tag>
+    <one-of>
+      <item>десятый</item>
+      <item>десятого</item>
+      <item>десятому</item>
+      <item>десятым</item>
+      <item>десятом</item>
+      <item>десятая</item>
+      <item>десятой</item>
+      <item>десятую</item>
+      <item>десятое</item>
+      <item>десятые</item>
+      <item>десятых</item>
+      <item>десятыми</item>
+    </one-of>
+  </rule>
+  <rule id="Ordinal_11" scope="public">
+    <tag>out=11;</tag>
+    <one-of>
+      <item>одиннадцатый</item>
+      <item>одиннадцатого</item>
+      <item>одиннадцатому</item>
+      <item>одиннадцатым</item>
+      <item>одиннадцатом</item>
+      <item>одиннадцатая</item>
+      <item>одиннадцатой</item>
+      <item>одиннадцатую</item>
+      <item>одиннадцатое</item>
+      <item>одиннадцатые</item>
+      <item>одиннадцатых</item>
+      <item>одиннадцатыми</item>
+    </one-of>
+  </rule>
+  <rule id="Ordinal_12" scope="public">
+    <tag>out=12;</tag>
+    <one-of>
+      <item>двеннадцатый</item>
+      <item>двеннадцатого</item>
+      <item>двеннадцатому</item>
+      <item>двеннадцатым</item>
+      <item>двеннадцатом</item>
+      <item>двеннадцатая</item>
+      <item>двеннадцатой</item>
+      <item>двеннадцатую</item>
+      <item>двеннадцатое</item>
+      <item>двеннадцатые</item>
+      <item>двеннадцатых</item>
+      <item>двеннадцатым</item>
+      <item>двеннадцатыми</item>
+    </one-of>
+  </rule>
+  <rule id="Ordinal_13" scope="public">
+    <tag>out=13;</tag>
+    <one-of>
+      <item>тринадцатый</item>
+      <item>тринадцатого</item>
+      <item>тринадцатому</item>
+      <item>тринадцатым</item>
+      <item>тринадцатом</item>
+      <item>тринадцатая</item>
+      <item>тринадцатой</item>
+      <item>тринадцатую</item>
+      <item>тринадцатое</item>
+      <item>тринадцатые</item>
+      <item>тринадцатых</item>
+      <item>тринадцатым</item>
+      <item>тринадцатыми</item>
+    </one-of>
+  </rule>
+  <rule id="Ordinal_14" scope="public">
+    <tag>out=14;</tag>
+    <one-of>
+      <item>четырнадцатый</item>
+      <item>четырнадцатого</item>
+      <item>четырнадцатому</item>
+      <item>четырнадцатым</item>
+      <item>четырнацатом</item>
+      <item>четырнадцатая</item>
+      <item>четырнадцатой</item>
+      <item>четырнадцатую</item>
+      <item>четырнадцатое</item>
+      <item>четырнадцатые</item>
+      <item>четырнадцатых</item>
+      <item>четырнадцатым</item>
+      <item>четырнадцатыми</item>
+    </one-of>
+  </rule>
+  <rule id="Ordinal_15" scope="public">
+    <tag>out=15;</tag>
+    <one-of>
+      <item>пятнадцатый</item>
+      <item>пятнадцатого</item>
+      <item>пятнадцатому</item>
+      <item>пятнадцатым</item>
+      <item>пятнадцатом</item>
+      <item>пятнадцатая</item>
+      <item>пятнадцатой</item>
+      <item>пятнадцатую</item>
+      <item>пятнадцатое</item>
+      <item>пятнадцатые</item>
+      <item>пятнадцатых</item>
+      <item>пятнадцатым</item>
+      <item>пятнадцатыми</item>
+    </one-of>
+  </rule>
+  <rule id="Ordinal_16" scope="public">
+    <tag>out=16;</tag>
+    <one-of>
+      <item>шестнадцатый</item>
+      <item>шестнадцатого</item>
+      <item>шестнадцатому</item>
+      <item>шестнадцатым</item>
+      <item>шестнадцатом</item>
+      <item>шестнадцатая</item>
+      <item>шестнадцатой</item>
+      <item>шестнадцатую</item>
+      <item>шестнадцатое</item>
+      <item>шестнадцатые</item>
+      <item>шестнадцатых</item>
+      <item>шестнадцатым</item>
+      <item>шестнадцатыми</item>
+    </one-of>
+  </rule>
+  <rule id="Ordinal_17" scope="public">
+    <tag>out=17;</tag>
+    <one-of>
+      <item>семнадцатый</item>
+      <item>семнадцатого</item>
+      <item>семнадцатому</item>
+      <item>семнадцатым</item>
+      <item>семнадцатом</item>
+      <item>семнадцатая</item>
+      <item>семнадцатой</item>
+      <item>семнадцатую</item>
+      <item>семнадцатое</item>
+      <item>семнадцатые</item>
+      <item>семнадцатых</item>
+      <item>семнадцатым</item>
+      <item>семнадцатыми</item>
+    </one-of>
+  </rule>
+  <rule id="Ordinal_18" scope="public">
+    <tag>out=18;</tag>
+    <one-of>
+      <item>восемнадцатый</item>
+      <item>восемнадцатого</item>
+      <item>восемнадцатому</item>
+      <item>восемнадцатым</item>
+      <item>восемнадцатом</item>
+      <item>восемнадцатая</item>
+      <item>восемнадцатой</item>
+      <item>восемнадцатую</item>
+      <item>восемнадцатое</item>
+      <item>восемнадцатые</item>
+      <item>восемнадцатых</item>
+      <item>восемнадцатым</item>
+      <item>восемнадцатыми</item>
+    </one-of>
+  </rule>
+  <rule id="Ordinal_19" scope="public">
+    <tag>out=19;</tag>
+    <one-of>
+      <item>девятнадцатый</item>
+      <item>девятнадцатого</item>
+      <item>девятнадцатому</item>
+      <item>девятнадцатым</item>
+      <item>девятнадцатом</item>
+      <item>девятнадцатая</item>
+      <item>девятнадцатой</item>
+      <item>девятнадцатую</item>
+      <item>девятнадцатое</item>
+      <item>девятнадцатые</item>
+      <item>девятнадцатых</item>
+      <item>девятнадцатым</item>
+      <item>девятнадцатыми</item>
+    </one-of>
+  </rule>
+  <rule id="Ordinal_10_19" scope="public">
+    <one-of>
+      <item>
+        <ruleref uri="#Ordinal_10" />
+      </item>
+      <item>
+        <ruleref uri="#Ordinal_11" />
+      </item>
+      <item>
+        <ruleref uri="#Ordinal_12" />
+      </item>
+      <item>
+        <ruleref uri="#Ordinal_13" />
+      </item>
+      <item>
+        <ruleref uri="#Ordinal_14" />
+      </item>
+      <item>
+        <ruleref uri="#Ordinal_15" />
+      </item>
+      <item>
+        <ruleref uri="#Ordinal_16" />
+      </item>
+      <item>
+        <ruleref uri="#Ordinal_17" />
+      </item>
+      <item>
+        <ruleref uri="#Ordinal_18" />
+      </item>
+      <item>
+        <ruleref uri="#Ordinal_19" />
+      </item>
+    </one-of>
+  </rule>
+  <rule id="Ordinal_20" scope="public">
+    <tag>out=20;</tag>
+    <one-of>
+      <item>двадцатый</item>
+      <item>двадцатого</item>
+      <item>двадцатому</item>
+      <item>двадцатым</item>
+      <item>двадцатом</item>
+      <item>двадцатая</item>
+      <item>двадцатой</item>
+      <item>двадцатую</item>
+      <item>двадцатое</item>
+      <item>двадцатые</item>
+      <item>двадцатых</item>
+      <item>двадцатым</item>
+      <item>двадцатыми</item>
+    </one-of>
+  </rule>
+  <rule id="Ordinal_30" scope="public">
+    <tag>out=30;</tag>
+    <one-of>
+      <item>тридцатый</item>
+      <item>тридцатого</item>
+      <item>тридцатому</item>
+      <item>тридцатым</item>
+      <item>тридцатом</item>
+      <item>тридцатая</item>
+      <item>тридцатой</item>
+      <item>тридцатую</item>
+      <item>тридцатое</item>
+      <item>тридцатые</item>
+      <item>тридцатых</item>
+      <item>тридцатым</item>
+      <item>тридцатыми</item>
+    </one-of>
+  </rule>
+  <rule id="Ordinal_40" scope="public">
+    <tag>out=40;</tag>
+    <one-of>
+      <item>сороковой</item>
+      <item>сорокового</item>
+      <item>сороковому</item>
+      <item>сороковым</item>
+      <item>сороковом</item>
+      <item>сороковая</item>
+      <item>сороковую</item>
+      <item>сороковое</item>
+      <item>сороковые</item>
+      <item>сороковых</item>
+      <item>сороковым</item>
+      <item>сороковыми</item>
+    </one-of>
+  </rule>
+  <rule id="Ordinal_50" scope="public">
+    <tag>out=50;</tag>
+    <one-of>
+      <item>пятидесятый</item>
+      <item>пятидесятого</item>
+      <item>пятидесятому</item>
+      <item>пятидесятым</item>
+      <item>пятидесятом</item>
+      <item>пятидесятая</item>
+      <item>пятидесятой</item>
+      <item>пятидесятую</item>
+      <item>пятидесятое</item>
+      <item>пятидесятые</item>
+      <item>пятидесятых</item>
+      <item>пятидесятым</item>
+      <item>пятидесятыми</item>
+    </one-of>
+  </rule>
+  <rule id="Ordinal_60" scope="public">
+    <tag>out=60;</tag>
+    <one-of>
+      <item>шестидесятый</item>
+      <item>шестидесятого</item>
+      <item>шестидесятому</item>
+      <item>шестидесятым</item>
+      <item>шестидесятом</item>
+      <item>шестидесятая</item>
+      <item>шестидесятой</item>
+      <item>шестидесятую</item>
+      <item>шестидесятое</item>
+      <item>шестидесятые</item>
+      <item>шестидесятых</item>
+      <item>шестидесятым</item>
+      <item>шестидесятыми</item>
+    </one-of>
+  </rule>
+  <rule id="Ordinal_70" scope="public">
+    <tag>out=70;</tag>
+    <one-of>
+      <item>семидесятый</item>
+      <item>семидесятого</item>
+      <item>семидесятому</item>
+      <item>семидесятым</item>
+      <item>семидесятом</item>
+      <item>семидесятая</item>
+      <item>семидесятой</item>
+      <item>семидесятую</item>
+      <item>семидесятое</item>
+      <item>семидесятые</item>
+      <item>семидесятых</item>
+      <item>семидесятым</item>
+      <item>семидесятыми</item>
+    </one-of>
+  </rule>
+  <rule id="Ordinal_80" scope="public">
+    <tag>out=80;</tag>
+    <one-of>
+      <item>восьмидесятый</item>
+      <item>восьмидесятого</item>
+      <item>восьмидесятому</item>
+      <item>восьмидесятым</item>
+      <item>восьмидесятом</item>
+      <item>восьмидесятая</item>
+      <item>восьмидесятой</item>
+      <item>восьмидесятую</item>
+      <item>восьмидесятое</item>
+      <item>восьмидесятые</item>
+      <item>восьмидесятых</item>
+      <item>восьмидесятым</item>
+      <item>восьмидесятыми</item>
+    </one-of>
+  </rule>
+  <rule id="Ordinal_90" scope="public">
+    <tag>out=90;</tag>
+    <one-of>
+      <item>девяностый</item>
+      <item>девяностого</item>
+      <item>девяностому</item>
+      <item>девяностым</item>
+      <item>девяностом</item>
+      <item>девяностая</item>
+      <item>девяностой</item>
+      <item>девяностую</item>
+      <item>девяностое</item>
+      <item>девяностые</item>
+      <item>девяностых</item>
+      <item>девяностым</item>
+      <item>девяностыми</item>
+    </one-of>
+  </rule>
+  <rule id="Ordinal_1_99" scope="public">
+    <one-of>
+      <item>
+        <ruleref uri="#Ordinal_1_9" />
+      </item>
+      <item>
+        <ruleref uri="#Ordinal_10_19" />
+      </item>
+      <item>
+        <one-of>
+          <item>
+            <ruleref uri="#Ordinal_20" />
+          </item>
+          <item>
+            <ruleref uri="#Ordinal_30" />
+          </item>
+          <item>
+            <ruleref uri="#Ordinal_40" />
+          </item>
+          <item>
+            <ruleref uri="#Ordinal_50" />
+          </item>
+          <item>
+            <ruleref uri="#Ordinal_60" />
+          </item>
+          <item>
+            <ruleref uri="#Ordinal_70" />
+          </item>
+          <item>
+            <ruleref uri="#Ordinal_80" />
+          </item>
+          <item>
+            <ruleref uri="#Ordinal_90" />
+          </item>
+        </one-of>
+      </item>
+      <item>
+        <one-of>
+          <item>
+            <item>
+              <ruleref uri="#Cardinal_20" />
+            </item>
+            <item>
+              <ruleref uri="#Ordinal_1_9" />
+              <tag>out=out+rules.latest()</tag>
+            </item>
+          </item>
+          <item>
+            <item>
+              <ruleref uri="#Cardinal_30" />
+            </item>
+            <item>
+              <ruleref uri="#Ordinal_1_9" />
+              <tag>out=out+rules.latest()</tag>
+            </item>
+          </item>
+          <item>
+            <item>
+              <ruleref uri="#Cardinal_40" />
+            </item>
+            <item>
+              <ruleref uri="#Ordinal_1_9" />
+              <tag>out=out+rules.latest()</tag>
+            </item>
+          </item>
+          <item>
+            <item>
+              <ruleref uri="#Cardinal_50" />
+            </item>
+            <item>
+              <ruleref uri="#Ordinal_1_9" />
+              <tag>out=out+rules.latest()</tag>
+            </item>
+          </item>
+          <item>
+            <item>
+              <ruleref uri="#Cardinal_60" />
+            </item>
+            <item>
+              <ruleref uri="#Ordinal_1_9" />
+              <tag>out=out+rules.latest()</tag>
+            </item>
+          </item>
+          <item>
+            <item>
+              <ruleref uri="#Cardinal_70" />
+            </item>
+            <item>
+              <ruleref uri="#Ordinal_1_9" />
+              <tag>out=out+rules.latest()</tag>
+            </item>
+          </item>
+          <item>
+            <item>
+              <ruleref uri="#Cardinal_80" />
+            </item>
+            <item>
+              <ruleref uri="#Ordinal_1_9" />
+              <tag>out=out+rules.latest()</tag>
+            </item>
+          </item>
+          <item>
+            <item>
+              <ruleref uri="#Cardinal_90" />
+            </item>
+            <item>
+              <ruleref uri="#Ordinal_1_9" />
+              <tag>out=out+rules.latest()</tag>
+            </item>
+          </item>
+        </one-of>
+      </item>
+    </one-of>
+  </rule>
+  <rule id="Ordinal_100" scope="public">
+    <tag>out=100;</tag>
+    <one-of>
+      <item>сотый</item>
+      <item>сотого</item>
+      <item>сотому</item>
+      <item>сотым</item>
+      <item>сотом</item>
+      <item>сотая</item>
+      <item>сотой</item>
+      <item>сотую</item>
+      <item>сотое</item>
+      <item>сотые</item>
+      <item>сотых</item>
+      <item>сотым</item>
+      <item>сотыми</item>
+    </one-of>
+  </rule>  
+  <rule id="Ordinal_200" scope="public">
+    <tag>out=200;</tag>
+    <one-of>
+      <item>двухсотый</item>
+      <item>двухсотого</item>
+      <item>двухсотому</item>
+      <item>двухсотым</item>
+      <item>двухсотом</item>
+      <item>двухсотая</item>
+      <item>двухсотой</item>
+      <item>двухсотую</item>
+      <item>двухсотое</item>
+      <item>двухсотые</item>
+      <item>двухсотых</item>
+      <item>двухсотым</item>
+      <item>двухсотыми</item>
+    </one-of>
+  </rule>
+  <rule id="Ordinal_300" scope="public">
+    <tag>out=300;</tag>
+    <one-of>
+      <item>трёхсотый</item>
+      <item>трёхсотого</item>
+      <item>трёхсотому</item>
+      <item>трёхсотым</item>
+      <item>трёхсотом</item>
+      <item>трёхсотая</item>
+      <item>трёхсотой</item>
+      <item>трёхсотую</item>
+      <item>трёхсотое</item>
+      <item>трёхсотые</item>
+      <item>трёхсотых</item>
+      <item>трёхсотым</item>
+      <item>трёхсотыми</item>
+    </one-of>
+  </rule>
+  <rule id="Ordinal_400" scope="public">
+    <tag>out=400;</tag>
+    <one-of>
+      <item>четырёхсотый</item>
+      <item>четырёхсотого</item>
+      <item>четырёхсотому</item>
+      <item>четырёхсотым</item>
+      <item>четырёхсотом</item>
+      <item>четырёхсотая</item>
+      <item>четырёхсотой</item>
+      <item>четырёхсотую</item>
+      <item>четырёхсотое</item>
+      <item>четырёхсотые</item>
+      <item>четырёхсотых</item>
+      <item>четырёхсотым</item>
+      <item>четырёхсотыми</item>
+    </one-of>
+  </rule>
+  <rule id="Ordinal_500" scope="public">
+    <tag>out=500;</tag>
+    <one-of>
+      <item>пятисотый</item>
+      <item>пятисотого</item>
+      <item>пятисотому</item>
+      <item>пятисотым</item>
+      <item>пятисотом</item>
+      <item>пятисотая</item>
+      <item>пятисотой</item>
+      <item>пятисотую</item>
+      <item>пятисотое</item>
+      <item>пятисотые</item>
+      <item>пятисотых</item>
+      <item>пятисотым</item>
+      <item>пятисотыми</item>
+    </one-of>
+  </rule>
+  <rule id="Ordinal_600" scope="public">
+    <tag>out=600;</tag>
+    <one-of>
+      <item>шестисотый</item>
+      <item>шестисотого</item>
+      <item>шестисотому</item>
+      <item>шестисотым</item>
+      <item>шестисотом</item>
+      <item>шестисотая</item>
+      <item>шестисотой</item>
+      <item>шестисотую</item>
+      <item>шестисотое</item>
+      <item>шестисотые</item>
+      <item>шестисотых</item>
+      <item>шестисотым</item>
+      <item>шестисотыми</item>
+    </one-of>
+  </rule>
+  <rule id="Ordinal_700" scope="public">
+    <tag>out=700;</tag>
+    <one-of>
+      <item>семисотый</item>
+      <item>семисотого</item>
+      <item>семисотому</item>
+      <item>семисотым</item>
+      <item>семисотом</item>
+      <item>семисотая</item>
+      <item>семисотой</item>
+      <item>семисотую</item>
+      <item>семисотое</item>
+      <item>семисотые</item>
+      <item>семисотых</item>
+      <item>семисотым</item>
+      <item>семисотыми</item>
+    </one-of>
+  </rule>
+  <rule id="Ordinal_800" scope="public">
+    <tag>out=800;</tag>
+    <one-of>
+      <item>восьмисотый</item>
+      <item>восьмисотого</item>
+      <item>восьмисотому</item>
+      <item>восьмисотым</item>
+      <item>восьмисотом</item>
+      <item>восьмисотая</item>
+      <item>восьмисотой</item>
+      <item>восьмисотую</item>
+      <item>восьмисотое</item>
+      <item>восьмисотые</item>
+      <item>восьмисотых</item>
+      <item>восьмисотым</item>
+      <item>восьмисотыми</item>
+    </one-of>
+  </rule>
+  <rule id="Ordinal_900" scope="public">
+    <tag>out=900;</tag>
+    <one-of>
+      <item>девятисотый</item>
+      <item>девятисотого</item>
+      <item>девятисотому</item>
+      <item>девятисотым</item>
+      <item>девятисотом</item>
+      <item>девятисотая</item>
+      <item>девятисотой</item>
+      <item>девятисотую</item>
+      <item>девятисотое</item>
+      <item>девятисотые</item>
+      <item>девятисотых</item>
+      <item>девятисотым</item>
+      <item>девятисотыми</item>
+    </one-of>
+  </rule>
+  <rule id="Ordinal_1_999" scope="public">
+    <one-of>
+      <item>
+        <ruleref uri="#Ordinal_1_99" />
+      </item>
+      <item>
+        <one-of>
+          <item>
+            <ruleref uri="#Ordinal_100" />
+          </item>
+          <item>
+            <ruleref uri="#Ordinal_200" />
+          </item>
+          <item>
+            <ruleref uri="#Ordinal_300" />
+          </item>
+          <item>
+            <ruleref uri="#Ordinal_400" />
+          </item>
+          <item>
+            <ruleref uri="#Ordinal_500" />
+          </item>
+          <item>
+            <ruleref uri="#Ordinal_600" />
+          </item>
+          <item>
+            <ruleref uri="#Ordinal_700" />
+          </item>
+          <item>
+            <ruleref uri="#Ordinal_800" />
+          </item>
+          <item>
+            <ruleref uri="#Ordinal_900" />
+          </item>          
+        </one-of>
+      </item>
+      <item>
+        <one-of>
+          <item>
+            <item>
+              <ruleref uri="#Cardinal_100" />
+            </item>
+            <item>
+              <ruleref uri="#Ordinal_1_99" />
+              <tag>out=out+rules.latest()</tag>
+            </item>
+          </item>
+          <item>
+            <item>
+              <ruleref uri="#Cardinal_200" />
+            </item>
+            <item>
+              <ruleref uri="#Ordinal_1_99" />
+              <tag>out=out+rules.latest()</tag>
+            </item>
+          </item>
+          <item>
+            <item>
+              <ruleref uri="#Cardinal_300" />
+            </item>
+            <item>
+              <ruleref uri="#Ordinal_1_99" />
+              <tag>out=out+rules.latest()</tag>
+            </item>
+          </item>
+          <item>
+            <item>
+              <ruleref uri="#Cardinal_400" />
+            </item>
+            <item>
+              <ruleref uri="#Ordinal_1_99" />
+              <tag>out=out+rules.latest()</tag>
+            </item>
+          </item>
+          <item>
+            <item>
+              <ruleref uri="#Cardinal_500" />
+            </item>
+            <item>
+              <ruleref uri="#Ordinal_1_99" />
+              <tag>out=out+rules.latest()</tag>
+            </item>
+          </item>
+          <item>
+            <item>
+              <ruleref uri="#Cardinal_600" />
+            </item>
+            <item>
+              <ruleref uri="#Ordinal_1_99" />
+              <tag>out=out+rules.latest()</tag>
+            </item>
+          </item>
+          <item>
+            <item>
+              <ruleref uri="#Cardinal_700" />
+            </item>
+            <item>
+              <ruleref uri="#Ordinal_1_99" />
+              <tag>out=out+rules.latest()</tag>
+            </item>
+          </item>
+          <item>
+            <item>
+              <ruleref uri="#Cardinal_800" />
+            </item>
+            <item>
+              <ruleref uri="#Ordinal_1_99" />
+              <tag>out=out+rules.latest()</tag>
+            </item>
+          </item>
+          <item>
+            <item>
+              <ruleref uri="#Cardinal_900" />
+            </item>
+            <item>
+              <ruleref uri="#Ordinal_1_99" />
+              <tag>out=out+rules.latest()</tag>
+            </item>
+          </item>
+        </one-of>
+      </item>
+    </one-of>
+  </rule>
+  <rule id="Ordinal">
+    <one-of>
+      <item>
+        <ruleref uri="#Ordinal_1_999" />
+      </item>
+      <item>
+        <item>
+          <ruleref uri="#Cardinal_1000" />
+        </item>
+        <item>
+          <ruleref uri="#Ordinal_1_999" />  
+        </item>
+      </item>
+    </one-of>
+  </rule>
+
+  <!-- Месяцы -->
+
+  <rule id="Month_January" scope="public">
+    <tag>out="January";</tag>
+    <one-of>
+      <item>январь</item>
+      <item>января</item>
+      <item>январю</item>
+      <item>январём</item>
+      <item>январи</item>      
+    </one-of>
+  </rule>
+  <rule id="Month_February" scope="public">
+    <tag>out="February";</tag>
+    <one-of>
+      <item>февраль</item>
+      <item>февраля</item>
+      <item>февралю</item>
+      <item>февралём</item>
+      <item>феврали</item>
+    </one-of>
+  </rule>
+  <rule id="Month_March" scope="public">
+    <tag>out="March";</tag>
+    <one-of>
+      <item>март</item>
+      <item>марта</item>
+      <item>марту</item>
+      <item>мартом</item>
+      <item>марты</item>
+    </one-of>
+  </rule>
+  <rule id="Month_April" scope="public">
+    <tag>out="April";</tag>
+    <one-of>
+      <item>апрель</item>
+      <item>апреля</item>
+      <item>апрелю</item>
+      <item>апрелем</item>
+      <item>апрели</item>
+    </one-of>
+  </rule>
+  <rule id="Month_May" scope="public">
+    <tag>out="May";</tag>
+    <one-of>
+      <item>май</item>
+      <item>мая</item>
+      <item>маю</item>
+      <item>маем</item>
+      <item>маи</item>
+    </one-of>
+  </rule>
+  <rule id="Month_June" scope="public">
+    <tag>out="June";</tag>
+    <one-of>
+      <item>июнь</item>
+      <item>июня</item>
+      <item>июню</item>
+      <item>июнем</item>
+      <item>июни</item>
+    </one-of>
+  </rule>
+  <rule id="Month_July" scope="public">
+    <tag>out="July";</tag>
+    <one-of>
+      <item>июль</item>
+      <item>июля</item>
+      <item>июлю</item>
+      <item>июлем</item>
+      <item>июли</item>
+    </one-of>
+  </rule>
+  <rule id="Month_August" scope="public">
+    <tag>out="August";</tag>
+    <one-of>
+      <item>август</item>
+      <item>августа</item>
+      <item>августу</item>
+      <item>августом</item>
+      <item>августы</item>
+    </one-of>
+  </rule>
+  <rule id="Month_September" scope="public">
+    <tag>out="September";</tag>
+    <one-of>
+      <item>сентябрь</item>
+      <item>сентября</item>
+      <item>сентябрю</item>
+      <item>сентябрём</item>
+      <item>сентябри</item>
+    </one-of>
+  </rule>
+  <rule id="Month_October" scope="public">
+    <tag>out="October";</tag>
+    <one-of>
+      <item>октябрь</item>
+      <item>октября</item>
+      <item>октябрю</item>
+      <item>октябрём</item>
+      <item>октябри</item>
+    </one-of>
+  </rule>
+  <rule id="Month_November" scope="public">
+    <tag>out="November";</tag>
+    <one-of>
+      <item>ноябрь</item>
+      <item>ноября</item>
+      <item>ноябрю</item>
+      <item>ноябрём</item>
+      <item>ноябри</item>
+    </one-of>
+  </rule>
+  <rule id="Month_December" scope="public">
+    <tag>out="December";</tag>
+    <one-of>
+      <item>декабрь</item>
+      <item>декабря</item>
+      <item>декабрю</item>
+      <item>декабрём</item>
+      <item>декабри</item>
+    </one-of>
+  </rule>
+  <rule id="Month" scope="public">
+    <one-of>
+      <item>
+        <ruleref uri="#Month_January" />
+      </item>
+      <item>
+        <ruleref uri="#Month_February" />
+      </item>
+      <item>
+        <ruleref uri="#Month_March" />
+      </item>
+      <item>
+        <ruleref uri="#Month_April" />
+      </item>
+      <item>
+        <ruleref uri="#Month_May" />
+      </item>
+      <item>
+        <ruleref uri="#Month_June" />
+      </item>
+      <item>
+        <ruleref uri="#Month_July" />
+      </item>
+      <item>
+        <ruleref uri="#Month_August" />
+      </item>
+      <item>
+        <ruleref uri="#Month_September" />
+      </item>
+      <item>
+        <ruleref uri="#Month_October" />
+      </item>
+      <item>
+        <ruleref uri="#Month_November" />
+      </item>
+      <item>
+        <ruleref uri="#Month_December" />
+      </item>
+    </one-of>
+  </rule>
+
+  <!-- Даты -->
+
+  <rule id="Date" scope="public">
+    <item>
+      <ruleref uri="#Ordinal_1_99" />
+    </item>
+    <item>
+      <ruleref uri="#Month" />
+    </item>
+    <item>
+      <ruleref uri="#Ordinal" />
+    </item>
+    <item repeat="0-1">
+      года
+    </item>
+  </rule>
+
+  <!-- Root -->
+
+  <rule id="Root" scope="public">
+    <one-of>
+      <item>
+        <ruleref uri="#Confirmation" />
+      </item>      
+    </one-of>
+  </rule>
+  
+</grammar>

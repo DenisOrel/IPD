@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.TechAcad.Connector.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C9C0298B-ECB9-44BA-B22A-FE0724A430E2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.TechAcad.Connector</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Client.Core">
+      <HintPath>lib\Intermech.Client.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Docking">
+      <HintPath>lib\Intermech.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Expert">
+      <HintPath>lib\Intermech.Expert.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Client">
+      <HintPath>lib\Intermech.Interfaces.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.TechCard">
+      <HintPath>lib\Intermech.Interfaces.TechCard.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.TechAcad.Interfaces">
+      <HintPath>lib\Intermech.TechAcad.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.imPictEditSrv">
+      <HintPath>lib\Interop.imPictEditSrv.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Intermech\Localization\LocalizationHolder.cs" />
+    <Compile Include="Intermech\Localization\CustomDescription.cs" />
+    <Compile Include="Intermech\Localization\CustomCategory.cs" />
+    <Compile Include="Intermech\Localization\CustomDisplayName.cs" />
+    <Compile Include="Intermech\TechAcad\Connector\Plugin.cs" />
+    <Compile Include="Intermech\TechAcad\Connector\TechAcad.cs" />
+    <Compile Include="Intermech\TechAcad\Connector\ApplicationStatus.cs" />
+    <Compile Include="Intermech\TechAcad\Connector\ModifyMode.cs" />
+    <Compile Include="Intermech\TechAcad\Connector\DraftFileMode.cs" />
+    <Compile Include="Intermech\TechAcad\Connector\IApplication.cs" />
+    <Compile Include="Intermech\TechAcad\Connector\ITPObjectType.cs" />
+    <Compile Include="Intermech\TechAcad\Connector\ITPObject.cs" />
+    <Compile Include="Intermech\TechAcad\Connector\ITPObjectCollection.cs" />
+    <Compile Include="Intermech\TechAcad\Connector\IDraftObject.cs" />
+    <Compile Include="Intermech\TechAcad\Connector\IDraftCollection.cs" />
+    <Compile Include="Intermech\TechAcad\Connector\ISketchObject.cs" />
+    <Compile Include="Intermech\TechAcad\Connector\ISketchCollection.cs" />
+    <Compile Include="Intermech\TechAcad\Connector\TechAcadApplication.cs" />
+    <Compile Include="Intermech\TechAcad\Connector\TechAcadArtDraftObject.cs" />
+    <Compile Include="Intermech\TechAcad\Connector\TechAcadArtDraftObjectList.cs" />
+    <Compile Include="Intermech\TechAcad\Connector\ChangeStatus.cs" />
+    <Compile Include="Intermech\TechAcad\Connector\TechAcadConsts.cs" />
+    <Compile Include="Intermech\TechAcad\Connector\TechAcadError.cs" />
+    <Compile Include="Intermech\TechAcad\Connector\TechAcadDraftObject.cs" />
+    <Compile Include="Intermech\TechAcad\Connector\TechAcadDraftObjectList.cs" />
+    <Compile Include="Intermech\TechAcad\Connector\TechAcadProtectionKey.cs" />
+    <Compile Include="Intermech\TechAcad\Connector\TechAcadCallProc.cs" />
+    <Compile Include="Intermech\TechAcad\Connector\TechAcadService.cs" />
+    <Compile Include="Intermech\TechAcad\Connector\TechAcadUtils.cs" />
+    <Compile Include="Intermech\TechAcad\Connector\TechAcadSketchObject.cs" />
+    <Compile Include="Intermech\TechAcad\Connector\TechAcadSketchObjectList.cs" />
+    <Compile Include="Intermech\TechAcad\Connector\TechAcadTPObject.cs" />
+    <Compile Include="Intermech\TechAcad\Connector\TechAcadTPObjectList.cs" />
+    <Compile Include="Intermech\TechAcad\Connector\TechAcadObjectType.cs" />
+    <Compile Include="ImSSP\sc_19138.cs" />
+    <Compile Include="ImSSP\sc_19140.cs" />
+    <Compile Include="ImSSP\sc_19143.cs" />
+    <Compile Include="ImSSP\sc_19149.cs" />
+    <Compile Include="ImSSP\sc_19155.cs" />
+    <Compile Include="ImSSP\sc_19165.cs" />
+    <Compile Include="ImSSP\sc_19178.cs" />
+    <Compile Include="ImSSP\sc_19182.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Intermech\TechAcad\Connector\Resources\CustomAttributesResources.resx" />
+    <EmbeddedResource Include="Intermech\TechAcad\Connector\Resources\TechAcadConnectorResources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

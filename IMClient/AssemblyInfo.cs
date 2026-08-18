@@ -1,0 +1,36 @@
+﻿using System.Reflection;
+using System.Resources;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+using System.Windows.Resources;
+
+[assembly: AssemblyTitle("IPS Main Client")]
+[assembly: AssemblyDescription("Thick client for IPS application servers")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("Intermech")]
+[assembly: AssemblyProduct("Intermech Professional Solutions")]
+[assembly: AssemblyCopyright("© Intermech 2022")]
+[assembly: AssemblyTrademark("")]
+[assembly: NeutralResourcesLanguage("ru-RU")]
+[assembly: AssemblyFileVersion("7.0.2.1112")]
+[assembly: Guid("1329218D-0B35-4F98-8A98-952301DEC239")]
+[assembly: InternalsVisibleTo("DynamicProxyGenAssembly2")]
+[assembly: InternalsVisibleTo("IMTest.ClientPlugin")]
+[assembly: InternalsVisibleTo("Intermech.Test")]
+[assembly: AssemblyAssociatedContentFile("resources/closebutton_20x20.png")]
+[assembly: AssemblyAssociatedContentFile("sqlite.interop.dll")]
+[assembly: AssemblyAssociatedContentFile("x64/sqlite.interop.dll")]
+[assembly: AssemblyAssociatedContentFile("disablecom.bat")]
+[assembly: AssemblyAssociatedContentFile("enablecom.bat")]
+[assembly: AssemblyAssociatedContentFile("app.ico")]
+[assembly: AssemblyAssociatedContentFile("impexptemp/pumpsettings.xml")]
+[assembly: AssemblyAssociatedContentFile("resources/apppanesmall.ico")]
+[assembly: AssemblyAssociatedContentFile("resources/backgroundtask.ico")]
+[assembly: AssemblyAssociatedContentFile("resources/clipboardview.ico")]
+[assembly: AssemblyAssociatedContentFile("resources/el-1.png")]
+[assembly: AssemblyAssociatedContentFile("resources/el-2.png")]
+[assembly: AssemblyAssociatedContentFile("resources/el-3.png")]
+[assembly: AssemblyAssociatedContentFile("resources/el.png")]
+[assembly: AssemblyAssociatedContentFile("resources/outputview.ico")]
+[assembly: AssemblyAssociatedContentFile("resources/propertyview.ico")]
+[assembly: AssemblyVersion("7.0.2.1112")]

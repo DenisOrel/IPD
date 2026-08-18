@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MaxLogFileCopiesNote" xml:space="preserve">
+    <value>Задает количество предыдущий копий каждого лог-файла, которые остаются после урезания лог-файла процедурой удаления устаревших данных.</value>
+  </data>
+  <data name="WrongPasswordsBeforeDeny" xml:space="preserve">
+    <value>Количество попыток входа до блокировки пользователя</value>
+  </data>
+  <data name="Attribute.DatabaseConfigurator_28" xml:space="preserve">
+    <value>Максимальное количество одновременно работающих фоновых потоков, которое может использоваться распараллеливаемыми заданиями</value>
+  </data>
+  <data name="Attribute.DatabaseConfigurator_29" xml:space="preserve">
+    <value>Максимум фоновых потоков на задачу</value>
+  </data>
+  <data name="Attribute.DatabaseConfigurator_22" xml:space="preserve">
+    <value>Разделитель между обозначением документа и кодом типа документов</value>
+  </data>
+  <data name="Attribute.DatabaseConfigurator_23" xml:space="preserve">
+    <value>Разделитель в обозначении  </value>
+  </data>
+  <data name="Attribute.DatabaseConfigurator_20" xml:space="preserve">
+    <value>Каким криптографическим алгоритмом шифровать пароли в базе данных.</value>
+  </data>
+  <data name="Attribute.DatabaseConfigurator_21" xml:space="preserve">
+    <value>Метод шифровки паролей</value>
+  </data>
+  <data name="Attribute.DatabaseConfigurator_26" xml:space="preserve">
+    <value>Режим, при включении которого будет доступен конфигуратор составов</value>
+  </data>
+  <data name="Attribute.DatabaseConfigurator_27" xml:space="preserve">
+    <value>Разрешён конфигуратор составов</value>
+  </data>
+  <data name="Attribute.DatabaseConfigurator_24" xml:space="preserve">
+    <value>Режим, при включении которого пользователю будет разрешено редактирование искомых значений в условиях общих выборок (даже при отсутствии прав доступа на редактирование общих выборок) с сохранением результатов в текущем сеансе работы</value>
+  </data>
+  <data name="Attribute.DatabaseConfigurator_25" xml:space="preserve">
+    <value>Разрешено редактирование общих выборок</value>
+  </data>
+  <data name="Attribute.DatabaseConfigurator_19" xml:space="preserve">
+    <value>Время жизни паролей (дней)</value>
+  </data>
+  <data name="Attribute.DatabaseConfigurator_18" xml:space="preserve">
+    <value>Максимальное количество дней, в течение которых пользователь может не менять свой пароль (0 - пароль не ограничен по времени).</value>
+  </data>
+  <data name="Attribute.DatabaseConfigurator_11" xml:space="preserve">
+    <value>Минимальная длина паролей</value>
+  </data>
+  <data name="Attribute.DatabaseConfigurator_10" xml:space="preserve">
+    <value>Минимальная длина паролей для всех учётных записей системы.</value>
+  </data>
+  <data name="Attribute.DatabaseConfigurator_13" xml:space="preserve">
+    <value>Сложные пароли</value>
+  </data>
+  <data name="Attribute.DatabaseConfigurator_12" xml:space="preserve">
+    <value>При включении данной опции система будет воспринимать только сложные пароли, содержащие буквы в разных регистрах, цифры или спецсимволы.</value>
+  </data>
+  <data name="Attribute.DatabaseConfigurator_15" xml:space="preserve">
+    <value>Изменение паролей пользователями</value>
+  </data>
+  <data name="Attribute.DatabaseConfigurator_14" xml:space="preserve">
+    <value>При включении данной опции пользователи могут самостоятельно изменять свои пароли.</value>
+  </data>
+  <data name="Attribute.DatabaseConfigurator_17" xml:space="preserve">
+    <value>История паролей</value>
+  </data>
+  <data name="Attribute.DatabaseConfigurator_16" xml:space="preserve">
+    <value>Количество паролей, которые система будет помнить для предотвращения их повторного ввода пользователями.</value>
+  </data>
+  <data name="Attribute.DatabaseConfigurator_33" xml:space="preserve">
+    <value>Максимальное время жизни итерации (дней). Пустое значение означает, что настройка не действует.</value>
+  </data>
+  <data name="Attribute.DatabaseConfigurator_32" xml:space="preserve">
+    <value>Уровень продвижения, на котором у версии объекта удаляются итерации</value>
+  </data>
+  <data name="Attribute.DatabaseConfigurator_31" xml:space="preserve">
+    <value>Максимальное количество итераций на версию объекта</value>
+  </data>
+  <data name="Attribute.DatabaseConfigurator_30" xml:space="preserve">
+    <value>Максимальное время жизни итерации (дней)</value>
+  </data>
+  <data name="Attribute.DatabaseConfigurator_35" xml:space="preserve">
+    <value>Уровень продвижения, на котором у версии объекта удаляются итерации. Пустое значение означает, что настройка не действует.</value>
+  </data>
+  <data name="Attribute.DatabaseConfigurator_34" xml:space="preserve">
+    <value>Максимальное количество итераций на версию объекта.  Лишние итерации будут автоматически удаляться процедурой удаления устаревших данных, начиная от более старых итераций. Пустое значение означает, что настройка не действует.</value>
+  </data>
+  <data name="AlgorithmVersion" xml:space="preserve">
+    <value>Версия алгоритма подписи</value>
+  </data>
+  <data name="AllAnnulmentNote" xml:space="preserve">
+    <value>В этом режиме перевод любой версии любого объекта на шаг ЖЦ с уровнем продвижения Аннулировано приводит к переводу на данный шаг всех версий данного объекта.</value>
+  </data>
+  <data name="AllAnnulmentMode" xml:space="preserve">
+    <value>Режим аннулирования всех версий объекта</value>
+  </data>
+  <data name="StorageSizeNotificationNote" xml:space="preserve">
+    <value>Задает суммарный размер файлов в файловом шкафу в гигабайтах, после достижения которого администраторам системы начнут приходить уведомления о превышении данного параметра.</value>
+  </data>
+  <data name="ServerPeakMemoryUsageNotificationNote" xml:space="preserve">
+    <value>Задает максимальный объем физической памяти, использованной сервером приложений IPS, после достижения которого администраторам системы начнут приходить уведомления о превышении допустимого значения данного параметра.</value>
+  </data>
+  <data name="EnableAtriclesAccessModeNote" xml:space="preserve">
+    <value>Режим включает дополнительную проверку прав доступа архивов у изделий и объектов производственных ведомостей, которым присвоен атрибут Архив.</value>
+  </data>
+  <data name="EnableAtriclesAccessModeMode" xml:space="preserve">
+    <value>Учитывать настройки безопасности архивов для изделий и объектов ПВ</value>
+  </data>
+  <data name="EnableSecret2PublicNote" xml:space="preserve">
+    <value>Настройка разрешает объекты с более высоким уровнем доступа включать в состав объектов с менее высоким уровнем доступа. После изменения данной настройки требуется перегрузить сервера приложений.</value>
+  </data>
+  <data name="EnableSecret2PublicName" xml:space="preserve">
+    <value>Разрешить секретные объекты включать в состав объектов с общим доступом</value>
+  </data>
+  <data name="DelayedAttrHistoryNote" xml:space="preserve">
+    <value>Режим, при включении которого ведение истории значений атрибутов производится в фоновом режиме на сервере приложений. Предназначен для ускорения операций изменения значений атрибутов.</value>
+  </data>
+  <data name="DelayedAttrHistoryMode" xml:space="preserve">
+    <value>Отложенная запись истории значений атрибутов</value>
+  </data>
+  <data name="AccessLevelUpNote" xml:space="preserve">
+    <value>Настройка позволяет автоматически повышать уровень доступа объектов до уровня сессии пользователя в момент взятия объектов на изменение. Изменение настройки вступает в силу после перезагрузки сервера приложений.</value>
+  </data>
+  <data name="AccessLevelUpName" xml:space="preserve">
+    <value>Автоматическое повышение уровня доступа редактируемых объектов</value>
+  </data>
+  <data name="DisableDBPatchMode" xml:space="preserve">
+    <value>Запрет обновления версии базы данных сервером IPS</value>
+  </data>
+  <data name="DisableDBPatchNote" xml:space="preserve">
+    <value>Данный режим позволяет запретить патч базы данных сервером IPS до новой версии, т.е. на этой базе не будут запускаться сервера приложений IPS новых версий, которым будет требоваться обновление структуры базы данных IPS</value>
+  </data>
+  <data name="SendAttrsNote" xml:space="preserve">
+    <value>Включение данного режима позволит службе автоматических уведомлений проверять условия при рассылке уведомлений, а также разрешит рассылку уведомлений на изменение значений атрибутов. Однако данный режим снижает производительность системы, т.к. производит дополнительные операции чтения атрибутов.</value>
+  </data>
+  <data name="SendAttrsMode" xml:space="preserve">
+    <value>Разрешить передачу значений атрибутов в службу автоматических уведомлений</value>
+  </data>
+  <data name="Attribute.DatabaseConfigurator_27.s" xml:space="preserve">
+    <value>Разрешён подбор по сериям/датам</value>
+  </data>
+  <data name="Attribute.DatabaseConfigurator_27.v" xml:space="preserve">
+    <value>Разрешена фильтрация по атрибуту "Видимость объекта"</value>
+  </data>
+  <data name="Attribute.DatabaseConfigurator_26.s" xml:space="preserve">
+    <value>Режим, при включении которого будет доступен подбор версий объектов по сериям/датам</value>
+  </data>
+  <data name="Attribute.DatabaseConfigurator_26.v" xml:space="preserve">
+    <value>Режим, при включении которого будет доступна фильтрация списков и составов объектов по атрибуту "Видимость объекта"</value>
+  </data>
+  <data name="SetProjectOnCreateRelationNote" xml:space="preserve">
+    <value>В данном режиме система в момент создания связи между объектами присваивает дочернему объекту проект, принадлежность которому указана у родительского объекта. При этом дочерний объект не должен принадлежать какому-либо проекту, а у типа объектов должен быть включен режим 'Объекты выпускаются в рамках текущего проекта'.</value>
+  </data>
+  <data name="SetProjectOnCreateRelationMode" xml:space="preserve">
+    <value>Присваивать проект объектам при включении их в состав</value>
+  </data>
+  <data name="ServerDiskFreeSizeNotificationNote" xml:space="preserve">
+    <value>Задает минимальный размер свободного места на диске сервера приложений в гигабайтах, после достижения которого администраторам системы начнут приходить уведомления о снижении данного параметра до опасного значения.</value>
+  </data>
+  <data name="ISSQHistoryName" xml:space="preserve">
+    <value>Сохранять историю поисковых запросов</value>
+  </data>
+  <data name="ISSQHistoryNote" xml:space="preserve">
+    <value>Настройка позволяет хранить историю поисковых запросов, с помощью которых пользователи искали информацию в общем поисковом индексе.</value>
+  </data>
+  <data name="MaxLogFileSizeNote" xml:space="preserve">
+    <value>Задает размер (в мегабайтах), который должен превысить лог-файл, после чего процедура удаления устаревших данных уменьшит его наполовину.</value>
+  </data>
+  <data name="UpdateViewsListOnObjectChangeName" xml:space="preserve">
+    <value>Обновлять список закладок при изменении объекта</value>
+  </data>
+  <data name="DelayedEventlogMode" xml:space="preserve">
+    <value>Отложенная запись в журнал событий</value>
+  </data>
+  <data name="DelayedEventlogNote" xml:space="preserve">
+    <value>Режим, при включении которого запись в журнал событий (аудит событий) производится в фоновом режиме на сервере приложений. Режим предназначен для ускорения операций записи в журнал.</value>
+  </data>
+  <data name="ServerLogPathNote" xml:space="preserve">
+    <value>Содержит путь к папке с лог-файлами сервера приложений, к которому подключен данный клиент. Изменить данное значение можно в конфигурационном файле сервера приложений (параметр LogPath в секции &lt;appSettings&gt;).</value>
+  </data>
+  <data name="ServerLogPath" xml:space="preserve">
+    <value>Каталог с лог-файлами сервера приложений</value>
+  </data>
+  <data name="WrongPasswordsBeforeDenyNote" xml:space="preserve">
+    <value>Позволяет указать количество ошибочных вводов пароля пользователем, после которого аккаунт пользователя в IPS блокируется для предотвращения несанкционированного доступа к системе  (0 - количество попыток не ограничено).</value>
+  </data>
+  <data name="CopyArchiveVisibilityMode" xml:space="preserve">
+    <value>Заменять настройки видимости объектов настройками видимости архивов</value>
+  </data>
+  <data name="CopyArchiveVisibilityNote" xml:space="preserve">
+    <value>В данном режиме настройки видимости объектов в архиве автоматически заменяются настройками видимости самого архива (если таковые имеются)</value>
+  </data>
+  <data name="NotPortableSign" xml:space="preserve">
+    <value>Непереносимая подпись</value>
+  </data>
+  <data name="EnableALCStepSecurityNote" xml:space="preserve">
+    <value>Режим включает дополнительную проверку прав доступа к атрибутам объектов на шагах ЖЦ применительно к типам объектов. Включение данного режима может значительно замедлять операции записи значений атрибутам объектов.</value>
+  </data>
+  <data name="EnableALCStepSecurityMode" xml:space="preserve">
+    <value>Расширенная проверка прав доступа к атрибутам на шагах ЖЦ</value>
+  </data>
+  <data name="ServerDiskFreeSizeNotification" xml:space="preserve">
+    <value>Минимальный размер свободного места на диске сервера приложений, ГБ</value>
+  </data>
+  <data name="StorageSizeNotification" xml:space="preserve">
+    <value>Максимальный размер файлового шкафа, ГБ</value>
+  </data>
+  <data name="MaxLogFileCopies" xml:space="preserve">
+    <value>Количество предыдущих копий лог-файла</value>
+  </data>
+  <data name="AutoSoftInstantiationMode" xml:space="preserve">
+    <value>Автоматическая мягкая конкретизация создаваемых связей</value>
+  </data>
+  <data name="AutoSoftInstantiationNote" xml:space="preserve">
+    <value>Режим, при включении которого все связи с разрешённой конкретизацией пользователем будут конкретизироваться автоматически при их создании (т.е. на каждой связи будет автоматически указан номер подбираемой версии объекта)</value>
+  </data>
+  <data name="PortableSign" xml:space="preserve">
+    <value>Переносимая подпись</value>
+  </data>
+  <data name="CopyProjectVisibilityMode" xml:space="preserve">
+    <value>Заменять настройки видимости объектов настройками видимости проектов</value>
+  </data>
+  <data name="CopyProjectVisibilityNote" xml:space="preserve">
+    <value>В данном режиме настройки видимости объектов в проектах автоматически заменяются настройками видимости самих проектов</value>
+  </data>
+  <data name="UpdateViewsListOnObjectChangeDescr" xml:space="preserve">
+    <value>При изменении объекта в клиенте обновляется список закладок, связанных с объектом. При включенном параметре возможно замедление работы клиента. При отключенном параметре в некоторых случаях (напр. при использовании условий на формах ввода данных) могут потребоваться явные указания команд перечитывания</value>
+  </data>
+  <data name="Attribute.DatabaseConfigurator_8" xml:space="preserve">
+    <value>Время жизни кэша прав доступа в памяти (в минутах).</value>
+  </data>
+  <data name="Attribute.DatabaseConfigurator_9" xml:space="preserve">
+    <value>Обновление кэша прав доступа, минут</value>
+  </data>
+  <data name="Attribute.DatabaseConfigurator_1" xml:space="preserve">
+    <value>Удалять пробелы</value>
+  </data>
+  <data name="Attribute.DatabaseConfigurator_2" xml:space="preserve">
+    <value>Удалять пробелы</value>
+  </data>
+  <data name="Attribute.DatabaseConfigurator_3" xml:space="preserve">
+    <value>Приводить к верхнему регистру </value>
+  </data>
+  <data name="Attribute.DatabaseConfigurator_4" xml:space="preserve">
+    <value>Верхний регистр</value>
+  </data>
+  <data name="Attribute.DatabaseConfigurator_5" xml:space="preserve">
+    <value>Нормализовать одинаковые по написанию символы</value>
+  </data>
+  <data name="Attribute.DatabaseConfigurator_6" xml:space="preserve">
+    <value>Нормализовать символы</value>
+  </data>
+  <data name="MaxLogFileSize" xml:space="preserve">
+    <value>Максимальный размер лог-файла, МБ</value>
+  </data>
+  <data name="ServerPeakMemoryUsageNotification" xml:space="preserve">
+    <value>Максимальный объем физической памяти, использованной сервером приложений, MБ</value>
+  </data>
+</root>

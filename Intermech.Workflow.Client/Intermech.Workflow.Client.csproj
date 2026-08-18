@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.Workflow.Client.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BF3574AC-F15F-4916-A962-E3B624AF5680}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.Workflow.Client</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.IM.Utils">
+      <HintPath>lib\DevExpress.IM.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.IM.XtraEditors">
+      <HintPath>lib\DevExpress.IM.XtraEditors.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.IM.XtraTreeList">
+      <HintPath>lib\DevExpress.IM.XtraTreeList.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bars">
+      <HintPath>lib\Intermech.Bars.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Client.Core">
+      <HintPath>lib\Intermech.Client.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Controls">
+      <HintPath>lib\Intermech.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Docking">
+      <HintPath>lib\Intermech.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Client">
+      <HintPath>lib\Intermech.Interfaces.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Workflow">
+      <HintPath>lib\Intermech.Interfaces.Workflow.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Map2">
+      <HintPath>lib\Intermech.Map2.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Project.Controls">
+      <HintPath>lib\Intermech.Project.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Search.Interfaces">
+      <HintPath>lib\Intermech.Search.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Workflow.Base">
+      <HintPath>lib\Intermech.Workflow.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Workflow.Design">
+      <HintPath>lib\Intermech.Workflow.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Ninject">
+      <HintPath>lib\Ninject.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="iGrid">
+      <HintPath>lib\iGrid.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Intermech\Workflow\Client\ActivityCommands.cs" />
+    <Compile Include="Intermech\Workflow\Client\ActivityItem.cs" />
+    <Compile Include="Intermech\Workflow\Client\ActivityPerformMailInfo.cs" />
+    <Compile Include="Intermech\Workflow\Client\ActivityTypeItem.cs" />
+    <Compile Include="Intermech\Workflow\Client\AllObjectsCommandProvider.cs" />
+    <Compile Include="Intermech\Workflow\Client\AnswerView.cs" />
+    <Compile Include="Intermech\Workflow\Client\AttachsIcon.cs" />
+    <Compile Include="Intermech\Workflow\Client\AutoLaunchPropertyPage.cs" />
+    <Compile Include="Intermech\Workflow\Client\CheckMailService.cs" />
+    <Compile Include="Intermech\Workflow\Client\ClearOldProcessPropertyPage.cs" />
+    <Compile Include="Intermech\Workflow\Client\CompletedDescriptor.cs" />
+    <Compile Include="Intermech\Workflow\Client\DatabaseConfiguratorConsts.cs" />
+    <Compile Include="Intermech\Workflow\Client\EntersInTaskConditionController.cs" />
+    <Compile Include="Intermech\Workflow\Client\EntersInTaskConditionEditor.cs" />
+    <Compile Include="Intermech\Workflow\Client\ICheckMailService.cs" />
+    <Compile Include="Intermech\Workflow\Client\InboxDescriptor.cs" />
+    <Compile Include="Intermech\Workflow\Client\MailBoxNode.cs" />
+    <Compile Include="Intermech\Workflow\Client\MailDescriptor.cs" />
+    <Compile Include="Intermech\Workflow\Client\MailNodeID.cs" />
+    <Compile Include="Intermech\Workflow\Client\NotifyView.cs" />
+    <Compile Include="Intermech\Workflow\Client\NotifyViewProvider.cs" />
+    <Compile Include="Intermech\Workflow\Client\EmailNodeBinding.cs" />
+    <Compile Include="Intermech\Workflow\Client\EmailConsts.cs" />
+    <Compile Include="Intermech\Workflow\Client\EmailImportedEventArgs.cs" />
+    <Compile Include="Intermech\Workflow\Client\EmailDescriptor.cs" />
+    <Compile Include="Intermech\Workflow\Client\EmailAccauntNodeID.cs" />
+    <Compile Include="Intermech\Workflow\Client\EmailInboxPart.cs" />
+    <Compile Include="Intermech\Workflow\Client\EmailMessageNodeID.cs" />
+    <Compile Include="Intermech\Workflow\Client\IEmailMessageNodeID.cs" />
+    <Compile Include="Intermech\Workflow\Client\EmailNode.cs" />
+    <Compile Include="Intermech\Workflow\Client\IEmailNode.cs" />
+    <Compile Include="Intermech\Workflow\Client\EmailViewProvider.cs" />
+    <Compile Include="Intermech\Workflow\Client\FileCommandProvider.cs" />
+    <Compile Include="Intermech\Workflow\Client\GlobalMailSettingsPropertyPage.cs" />
+    <Compile Include="Intermech\Workflow\Client\CompletedNode.cs" />
+    <Compile Include="Intermech\Workflow\Client\InboxNode.cs" />
+    <Compile Include="Intermech\Workflow\Client\AutoLaunchSetupForm.cs" />
+    <Compile Include="Intermech\Workflow\Client\MailAttachmentsView.cs" />
+    <Compile Include="Intermech\Workflow\Client\MailItemsView.cs" />
+    <Compile Include="Intermech\Workflow\Client\MailNode.cs" />
+    <Compile Include="Intermech\Workflow\Client\MailNodeBinding.cs" />
+    <Compile Include="Intermech\Workflow\Client\MailObjectsPart.cs" />
+    <Compile Include="Intermech\Workflow\Client\MailPropProvider.cs" />
+    <Compile Include="Intermech\Workflow\Client\MailSettings.cs" />
+    <Compile Include="Intermech\Workflow\Client\MailSettingsForm.cs" />
+    <Compile Include="Intermech\Workflow\Client\MailView.cs" />
+    <Compile Include="Intermech\Workflow\Client\MailViewProvider.cs" />
+    <Compile Include="Intermech\Workflow\Client\MailViewsProviders.cs" />
+    <Compile Include="Intermech\Workflow\Client\MessageCommandProvider.cs" />
+    <Compile Include="Intermech\Workflow\Client\NewFileCreator.cs" />
+    <Compile Include="Intermech\Workflow\Client\NewMailForm.cs" />
+    <Compile Include="Intermech\Workflow\Client\NewProcessCreator.cs" />
+    <Compile Include="Intermech\Workflow\Client\NotifyRules.cs" />
+    <Compile Include="Intermech\Workflow\Client\OrganizerPlugin.cs" />
+    <Compile Include="Intermech\Workflow\Client\OutboxDescriptor.cs" />
+    <Compile Include="Intermech\Workflow\Client\OutboxNode.cs" />
+    <Compile Include="Intermech\Workflow\Client\PriorityIcon.cs" />
+    <Compile Include="Intermech\Workflow\Client\RoutingObjectsCommandProvider.cs" />
+    <Compile Include="Intermech\Workflow\Client\SchemeView.cs" />
+    <Compile Include="Intermech\Workflow\Client\SchemeViewsProvider.cs" />
+    <Compile Include="Intermech\Workflow\Client\Services.cs" />
+    <Compile Include="Intermech\Workflow\Client\TrashDescriptor.cs" />
+    <Compile Include="Intermech\Workflow\Client\TrashNode.cs" />
+    <Compile Include="Intermech\Workflow\Client\wfClientPlugin.cs" />
+    <Compile Include="Intermech\Workflow\Client\wfCommandProvider.cs" />
+    <Compile Include="Intermech\Workflow\Client\WOCommandProvider.cs" />
+    <Compile Include="Intermech\Workflow\Client\Properties\Resources.cs" />
+    <Compile Include="Intermech\Workflow\Client\Email\DownloadTask.cs" />
+    <Compile Include="Intermech\Workflow\Client\Email\EmailMessagesViewProvider.cs" />
+    <Compile Include="Intermech\Workflow\Client\Email\EmailMessageView.cs" />
+    <Compile Include="Intermech\Workflow\Client\Email\EmailNodeCommandProvider.cs" />
+    <Compile Include="Intermech\Workflow\Client\Email\EMailMessageColumnScheme.cs" />
+    <Compile Include="Intermech\Workflow\Client\Email\EmailView.cs" />
+    <Compile Include="Intermech\Workflow\Client\Email\EmailView_test.cs" />
+    <Compile Include="Intermech\Workflow\Client\Email\EmailInboxView.cs" />
+    <Compile Include="Intermech\Workflow\Client\Email\OwneredAccauntsControl.cs" />
+    <Compile Include="Intermech\Workflow\Client\Email\NewTimeForm.cs" />
+    <Compile Include="Intermech\Workflow\Client\Email\TimeTableControl.cs" />
+    <Compile Include="Intermech\Workflow\Client\AutoNotification\AutoNotificationCreator.cs" />
+    <Compile Include="Intermech\Workflow\Client\AutoNotification\AutoNotificationViewProvider.cs" />
+    <Compile Include="Intermech\Workflow\Client\AutoNotification\ActuationConditionForAccessCntrl.cs" />
+    <Compile Include="Intermech\Workflow\Client\AutoNotification\ActuationConditionForObjectCntrl.cs" />
+    <Compile Include="Intermech\Workflow\Client\AutoNotification\ActuationConditionForRelationCntrl.cs" />
+    <Compile Include="Intermech\Workflow\Client\AutoNotification\AdresseeCntrl.cs" />
+    <Compile Include="Intermech\Workflow\Client\AutoNotification\ApplicabilityAndCompositionCntrl.cs" />
+    <Compile Include="Intermech\Workflow\Client\AutoNotification\AttributeChoosingCntrl.cs" />
+    <Compile Include="Intermech\Workflow\Client\AutoNotification\AutoNotificationControl.cs" />
+    <Compile Include="Intermech\Workflow\Client\AutoNotification\AutoNotificationSettingsView.cs" />
+    <Compile Include="Intermech\Workflow\Client\AutoNotification\ComputeAddresseeCntrl.cs" />
+    <Compile Include="Intermech\Workflow\Client\AutoNotification\ComputeAdresseeForAccessCntrl.cs" />
+    <Compile Include="Intermech\Workflow\Client\AutoNotification\ComputeAdresseeForObjectCntrl.cs" />
+    <Compile Include="Intermech\Workflow\Client\AutoNotification\ComputeAdresseeForRelationCntrl.cs" />
+    <Compile Include="Intermech\Workflow\Client\AutoNotification\ICanSaveNotifSettings.cs" />
+    <Compile Include="Intermech\Workflow\Client\AutoNotification\ScriptChoosingCntrl.cs" />
+    <Compile Include="Intermech\Workflow\Client\AutoNotification\SearchSchemeCntrl.cs" />
+    <Compile Include="Intermech\Workflow\Client\AutoNotification\SpecificAdresseeCntrl.cs" />
+    <Compile Include="Intermech\Workflow\Client\AutoNotification\WayOfNotificationCntrl.cs" />
+    <Compile Include="Intermech\Workflow\Client\AutoNotification\EventChosingForm.cs" />
+    <Compile Include="ImSSP\sc_21612.cs" />
+    <Compile Include="ImSSP\sc_21615.cs" />
+    <Compile Include="ImSSP\sc_21648.cs" />
+    <Compile Include="ImSSP\sc_21674.cs" />
+    <Compile Include="ImSSP\sc_21678.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Intermech\Workflow\Client\AnswerView.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Client\AutoLaunchPropertyPage.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Client\AutoLaunchSetupForm.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Client\AutoNotification\ActuationConditionForAccessCntrl.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Client\AutoNotification\ActuationConditionForObjectCntrl.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Client\AutoNotification\ActuationConditionForRelationCntrl.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Client\AutoNotification\AdresseeCntrl.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Client\AutoNotification\ApplicabilityAndCompositionCntrl.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Client\AutoNotification\AttributeChoosingCntrl.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Client\AutoNotification\AutoNotificationControl.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Client\AutoNotification\AutoNotificationSettingsView.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Client\AutoNotification\ComputeAddresseeCntrl.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Client\AutoNotification\ComputeAdresseeForAccessCntrl.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Client\AutoNotification\ComputeAdresseeForObjectCntrl.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Client\AutoNotification\ComputeAdresseeForRelationCntrl.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Client\AutoNotification\EventChosingForm.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Client\AutoNotification\ScriptChoosingCntrl.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Client\AutoNotification\SearchSchemeCntrl.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Client\AutoNotification\SpecificAdresseeCntrl.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Client\AutoNotification\WayOfNotificationCntrl.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Client\ClearOldProcessPropertyPage.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Client\Email\EmailMessageView.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Client\Email\EmailView.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Client\Email\EmailView_test.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Client\Email\NewTimeForm.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Client\Email\OwneredAccauntsControl.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Client\Email\TimeTableControl.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Client\EntersInTaskConditionEditor.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Client\MailItemsView.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Client\MailSettingsForm.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Client\MailView.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Client\NewMailForm.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Client\NotifyRules.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Client\NotifyView.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Client\Properties\Resources.resx" />
+    <EmbeddedResource Include="Intermech\Workflow\Client\SchemeView.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

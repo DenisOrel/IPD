@@ -1,0 +1,27 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: Intermech.ExternalSystemIntegration.Interfaces.IRequestObject
+// Assembly: Intermech.ExternalSystemIntegration.Interfaces, Version=7.0.2.1112, Culture=neutral, PublicKeyToken=null
+// MVID: F517EC21-BF51-45B0-BFB7-5DACD58FAED0
+// Assembly location: D:\IPS\Client\Intermech.ExternalSystemIntegration.Interfaces.dll
+// XML documentation location: D:\IPS\Client\Intermech.ExternalSystemIntegration.Interfaces.xml
+
+using Intermech.Interfaces;
+
+#nullable disable
+namespace Intermech.ExternalSystemIntegration.Interfaces;
+
+/// <summary>Исходящий запрос</summary>
+public interface IRequestObject : IDBObject, IDBAttributable, IDBSessionable, IPluginsData, IStatus
+{
+  /// <summary>Идентификатор исходящего запроса</summary>
+  string RequestID { get; }
+
+  /// <summary>Заголовок исходящего запроса</summary>
+  string RequestCaption { get; set; }
+
+  /// <summary>Ссылка на конфигурацию элемента</summary>
+  long ConfigElementLink { get; set; }
+
+  /// <summary>Ссылка на объект-источник</summary>
+  long SourceObjectLink { get; set; }
+}

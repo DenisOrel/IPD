@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.Cadmech.Interfaces.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{36E7A13E-D705-4B89-AC97-0544BB5AE109}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.Cadmech.Interfaces</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Localization\LocalizationHolder.cs" />
+    <Compile Include="Localization\CustomDescription.cs" />
+    <Compile Include="Localization\CustomCategory.cs" />
+    <Compile Include="Localization\CustomDisplayName.cs" />
+    <Compile Include="Cadmech\Integrator\IImportStructureFromCadService.cs" />
+    <Compile Include="Cadmech\Integrator\OccurenceFormat.cs" />
+    <Compile Include="Cadmech\Integrator\OccurenceRef.cs" />
+    <Compile Include="Cadmech\Integrator\PartData.cs" />
+    <Compile Include="Cadmech\Integrator\RowData.cs" />
+    <Compile Include="Cadmech\Integrator\SpecDummy.cs" />
+    <Compile Include="Cadmech\Integrator\SpecRecord.cs" />
+    <Compile Include="Cadmech\Integrator\SpecRelation.cs" />
+    <Compile Include="Cadmech\Integrator\SpecSections.cs" />
+    <Compile Include="Cadmech\Integrator\StructData.cs" />
+    <Compile Include="Cadmech\Integrator\StructFile.cs" />
+    <Compile Include="Cadmech\Integrator\TaggingModes.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Cadmech\Interfaces\Resources\CadmechInterfacesResources.resx" />
+    <EmbeddedResource Include="Cadmech\Interfaces\Resources\CustomAttributesResources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

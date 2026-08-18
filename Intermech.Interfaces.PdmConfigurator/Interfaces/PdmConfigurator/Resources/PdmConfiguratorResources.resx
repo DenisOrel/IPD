@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Interfaces.PdmConfigurator_68" xml:space="preserve">
+    <value>Нельзя скрывать значение опции по умолчанию.</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_69" xml:space="preserve">
+    <value>Нельзя скрывать все значения опции. Как минимум одно значение должно быть видимым.</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_60" xml:space="preserve">
+    <value>Не найдено значение опции с указанным ID ({0})</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_61" xml:space="preserve">
+    <value>Невозможно преобразовать значение "{0}" опции к типу данных Int64</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_62" xml:space="preserve">
+    <value>Невозможно преобразовать значение "{0}" опции к типу данных Double</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_63" xml:space="preserve">
+    <value>Невозможно преобразовать значение "{0}" опции к типу данных DateTime</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_64" xml:space="preserve">
+    <value>Невозможно преобразовать значение "{0}" опции к типу данных Boolean</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_65" xml:space="preserve">
+    <value>В коллекции присутствует элемент с таким же идентификатором значения - "{0}"</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_66" xml:space="preserve">
+    <value>В коллекции присутствует элемент с таким же кодом значения - "{0}"</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_67" xml:space="preserve">
+    <value>Значение опции не может быть пустым</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_48" xml:space="preserve">
+    <value>В правилах применения объекта с опциями в заказе не задано значение опции "{0}".</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_49" xml:space="preserve">
+    <value>В правилах применения объекта с опциями в заказе не задано значение опции.</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_42" xml:space="preserve">
+    <value>Логическое значение</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_43" xml:space="preserve">
+    <value>Строка</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_40" xml:space="preserve">
+    <value>Вещественное число</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_41" xml:space="preserve">
+    <value>Дата</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_46" xml:space="preserve">
+    <value>В правилах применения объекта с опциями не задано значение обязательной для заполнения опции "{0}".</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_47" xml:space="preserve">
+    <value>В правилах применения объекта с опциями не задано значение обязательной для заполнении опции.</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_44" xml:space="preserve">
+    <value>Истина</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_45" xml:space="preserve">
+    <value>Ложь</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_71" xml:space="preserve">
+    <value>Модуль конфигуратора составов</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_70" xml:space="preserve">
+    <value>Скрытое значение опции нельзя делать значением по умолчанию</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_28" xml:space="preserve">
+    <value>В одном из критериев несовместимости для опции "{0}"
+не задана опция для сравнения</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_29" xml:space="preserve">
+    <value>В одном из критериев несовместимости для опции "{0}"
+не задано значение опции для сравнения</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_20" xml:space="preserve">
+    <value> или </value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_21" xml:space="preserve">
+    <value>Опция с GUID={0}</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_22" xml:space="preserve">
+    <value>Значение {0}</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_59" xml:space="preserve">
+    <value>Для опции "{0}" со значением "{1}" значение опции "{2}" равно "{3}"</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_58" xml:space="preserve">
+    <value>Для значения "{0}" опции "{1}"
+ задан список связанных опций, конфликтующий с условиями несовместимости</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_53" xml:space="preserve">
+    <value>Опция "{0}" должна быть импортирована,
+ т.к. она зависит от импортируемой опции "{1}"</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_52" xml:space="preserve">
+    <value>Зависимая опция "{0}" должна быть импортирована
+ у того же объекта, что и главная опция "{1}"</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_51" xml:space="preserve">
+    <value>В одной из частей шифра есть ссылка на опцию {0}, которая не назначена объекту</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_50" xml:space="preserve">
+    <value>Одна из частей шифра заполнена не полностью</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_57" xml:space="preserve">
+    <value>Для значения "{0}" опции "{1}"
+ в одном из связанных значений есть ссылка на
+опцию "{2}" с невидимым значением "{3}</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_56" xml:space="preserve">
+    <value>Для значения "{0}" опции "{1}"
+ в одном из связанных значений есть ссылка на
+опцию "{2}", которая не назначена объекту</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_55" xml:space="preserve">
+    <value>Для значения "{0}" опции "{1}"
+ для связанной опции "{2}" не задано значение</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_54" xml:space="preserve">
+    <value>Для значения "{0}" опции "{1}"
+для одного из связанных значений не задана опция</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_39" xml:space="preserve">
+    <value>Целое число</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_38" xml:space="preserve">
+    <value>В одном из критериев для опции {0} не задано значение опции</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_35" xml:space="preserve">
+    <value>Не задано значение опции {0} из условий применения объекта</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_34" xml:space="preserve">
+    <value>В контексте конфигуратора составов IPS не найдена опция критерия условия применения объекта (Guid опции = {0})</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_37" xml:space="preserve">
+    <value>В одном из критериев для опции {0} не задано условие сравнения</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_36" xml:space="preserve">
+    <value>В одном из критериев не задана опция</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_31" xml:space="preserve">
+    <value>Для значения "{0}" опции "{1}"
+ в одном из критериев несовместимости есть ссылка на
+опцию "{2}" с невидимым значением "{3}"</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_30" xml:space="preserve">
+    <value>Для значения "{0}" опции "{1}"
+в одном из критериев несовместимости есть ссылка на
+опцию "{2}", которая не назначена объекту</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_33" xml:space="preserve">
+    <value>В одном из условий применения есть ссылка на опцию "{0}"
+ с невидимым для родительского объекта значением "{1}"</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_32" xml:space="preserve">
+    <value>В одном из условий применения есть ссылка на опцию "{0}",
+ которая не назначена родительскому объекту</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_19" xml:space="preserve">
+    <value> и </value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_18" xml:space="preserve">
+    <value>Значение опции "{0}" ("{1}") несовместимо со значением опции "{2}" ("{3}")</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_17" xml:space="preserve">
+    <value>Условия несовместимости не нарушены, объект успешно подобран конфигуратором составов</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_16" xml:space="preserve">
+    <value>Не найдено значение основной опции "{0}", с которой заданы условия несовместимости</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_15" xml:space="preserve">
+    <value>В контексте конфигуратора составов IPS не найдена дополнительная опция критерия условий несовместимости (Guid опции = {0})</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_14" xml:space="preserve">
+    <value>В контексте конфигуратора составов IPS не задана дополнительная опция, с которой заданы условия несовместимости</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_13" xml:space="preserve">
+    <value>В контексте конфигуратора составов IPS не найдена основная опция критерия условий несовместимости (Guid опции = {0})</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_12" xml:space="preserve">
+    <value>Не найдены значения опций в текущем составе</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_11" xml:space="preserve">
+    <value>Строковые значения можно сравнивать только со строками</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_10" xml:space="preserve">
+    <value>Целочисленные значения можно сравнивать только со значениями такого же типа, либо с дробными значениями</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_8" xml:space="preserve">
+    <value>Значения типа данных "Дата и время" можно сравнивать только со значениями такого же типа</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_9" xml:space="preserve">
+    <value>Дробные значения можно сравнивать только со значениями такого же типа, либо с целочисленными значениями</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_6" xml:space="preserve">
+    <value>Не найдена опция для одного из сравниваемых значений</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_7" xml:space="preserve">
+    <value>Значения логического типа данных можно сравнивать только со значениями такого же типа</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_4" xml:space="preserve">
+    <value>Не найдена опция с Guid = "{0}"</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_5" xml:space="preserve">
+    <value>Не найдена опция для значения с указанным ID ({0})</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_2" xml:space="preserve">
+    <value>На сервере приложений не загружен плагин "Intermech.PdmConfigurator.Server".
+Работа клиентского плагина "Intermech.PdmConfigurator" будет заблокирована.</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_3" xml:space="preserve">
+    <value>Серверная часть InterMech.PDMConfigurator</value>
+  </data>
+  <data name="Interfaces.PdmConfigurator_1" xml:space="preserve">
+    <value>Внимание</value>
+  </data>
+</root>

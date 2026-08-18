@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.Expert.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9B732F9B-1459-4506-A5B5-184FF17520FA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.Expert</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>lib\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Localization\LocalizationHolder.cs" />
+    <Compile Include="Localization\CustomDescription.cs" />
+    <Compile Include="Localization\CustomDisplayName.cs" />
+    <Compile Include="Localization\CustomCategory.cs" />
+    <Compile Include="Interfaces\ECO\IdLinkPair.cs" />
+    <Compile Include="Interfaces\ECO\ECOGoal.cs" />
+    <Compile Include="Interfaces\ECO\HidingType.cs" />
+    <Compile Include="Interfaces\ECO\IECOServer.cs" />
+    <Compile Include="Interfaces\ECO\IRevComplectObject.cs" />
+    <Compile Include="Interfaces\ECO\ECOHolder.cs" />
+    <Compile Include="Interfaces\Expert\HybridTableExp.cs" />
+    <Compile Include="Interfaces\Expert\Unknown.cs" />
+    <Compile Include="Interfaces\Expert\UnknownExtensions.cs" />
+    <Compile Include="Interfaces\Expert\HybridRowExp.cs" />
+    <Compile Include="Interfaces\Expert\DoubleLinkRowExp.cs" />
+    <Compile Include="Interfaces\Expert\HybridColumnsExp.cs" />
+    <Compile Include="Interfaces\Expert\MemoProxyReader.cs" />
+    <Compile Include="Interfaces\Expert\CalcAttrPair.cs" />
+    <Compile Include="Interfaces\Expert\CalcAttrCacheBase`1.cs" />
+    <Compile Include="Interfaces\Expert\AttrState.cs" />
+    <Compile Include="Interfaces\Expert\CalculatedAttr.cs" />
+    <Compile Include="Interfaces\Expert\ArrayHolder.cs" />
+    <Compile Include="Interfaces\Expert\CalcResult.cs" />
+    <Compile Include="Interfaces\Expert\ExpertResult.cs" />
+    <Compile Include="Interfaces\Expert\ExpertTraceFlags.cs" />
+    <Compile Include="Interfaces\Expert\EnumExtensions.cs" />
+    <Compile Include="Interfaces\Expert\DocState.cs" />
+    <Compile Include="Interfaces\Expert\DocRecord.cs" />
+    <Compile Include="Interfaces\Expert\DocOperType.cs" />
+    <Compile Include="Interfaces\Expert\ChangeInfo.cs" />
+    <Compile Include="Interfaces\Expert\ChangeObjInfo.cs" />
+    <Compile Include="Interfaces\Expert\ChangeRelInfo.cs" />
+    <Compile Include="Interfaces\Expert\FuncHandler.cs" />
+    <Compile Include="Interfaces\Expert\ScriptProcHandler.cs" />
+    <Compile Include="Interfaces\Expert\CompareFuncHandler.cs" />
+    <Compile Include="Interfaces\Expert\CompGenParms.cs" />
+    <Compile Include="Interfaces\Expert\IExpertServer.cs" />
+    <Compile Include="Interfaces\Expert\ExpertServerException.cs" />
+    <Compile Include="Interfaces\Expert\EndCommandEventArgs.cs" />
+    <Compile Include="Interfaces\Expert\EndCalculateEventArgs.cs" />
+    <Compile Include="Interfaces\Expert\EndGenerateEventArgs.cs" />
+    <Compile Include="Interfaces\Expert\GetTraceInfoEventArgs.cs" />
+    <Compile Include="Interfaces\Expert\GetLastInfoEventArgs.cs" />
+    <Compile Include="Interfaces\Expert\FilterObjAttrList.cs" />
+    <Compile Include="Interfaces\Expert\EndCalculateEventHandler.cs" />
+    <Compile Include="Interfaces\Expert\GetTraceInfoEventHandler.cs" />
+    <Compile Include="Interfaces\Expert\GetLastInfoEventHandler.cs" />
+    <Compile Include="Interfaces\Expert\EndGenerateEventHandler.cs" />
+    <Compile Include="Interfaces\Expert\FilterObjsEventHandler.cs" />
+    <Compile Include="Interfaces\Expert\EndCommandEventHandler.cs" />
+    <Compile Include="Interfaces\Expert\IExpertTask.cs" />
+    <Compile Include="Interfaces\Expert\IExpertUser.cs" />
+    <Compile Include="Interfaces\Expert\IExpertEditor.cs" />
+    <Compile Include="Expert\DataHelper.cs" />
+    <Compile Include="Expert\DbHelper.cs" />
+    <Compile Include="Expert\ExpertTaskParams.cs" />
+    <Compile Include="Expert\ExpertValue.cs" />
+    <Compile Include="Expert\ResultExpertValue.cs" />
+    <Compile Include="Expert\PacketValue.cs" />
+    <Compile Include="Expert\DiapValue.cs" />
+    <Compile Include="Expert\AttrChange.cs" />
+    <Compile Include="Expert\RelChangedList.cs" />
+    <Compile Include="Expert\ObjChangedList.cs" />
+    <Compile Include="Expert\Triple.cs" />
+    <Compile Include="Expert\TokenType.cs" />
+    <Compile Include="Expert\ISaveLoad.cs" />
+    <Compile Include="Expert\TokenState.cs" />
+    <Compile Include="Expert\Token.cs" />
+    <Compile Include="Expert\ExpCommandType.cs" />
+    <Compile Include="Expert\DataType.cs" />
+    <Compile Include="Expert\FormulaFunc.cs" />
+    <Compile Include="Expert\FuncData.cs" />
+    <Compile Include="Expert\AttribPair.cs" />
+    <Compile Include="Expert\GuidPair.cs" />
+    <Compile Include="Expert\PairName.cs" />
+    <Compile Include="Expert\SpecAttrs.cs" />
+    <Compile Include="Expert\UseZamens.cs" />
+    <Compile Include="Expert\GetUserDataHandler.cs" />
+    <Compile Include="Expert\ExpertFunc.cs" />
+    <Compile Include="Expert\EInvalidAttrType.cs" />
+    <Compile Include="Expert\DataTypeConvertor.cs" />
+    <Compile Include="Expert\ExpertAttrGUIDs.cs" />
+    <Compile Include="Expert\ExpertObjGUIDs.cs" />
+    <Compile Include="Expert\ExpertConsts.cs" />
+    <Compile Include="Expert\TempFormula.cs" />
+    <Compile Include="Expert\FormulaHeader.cs" />
+    <Compile Include="Expert\ExpertTraceNode.cs" />
+    <Compile Include="Expert\ZlibHelper.cs" />
+    <Compile Include="Expert\CondHelper.cs" />
+    <Compile Include="Expert\IExpertObject.cs" />
+    <Compile Include="Expert\IExpertFormulable.cs" />
+    <Compile Include="Expert\IExpertCond.cs" />
+    <Compile Include="Expert\IExpertFormula.cs" />
+    <Compile Include="Expert\IExpertScriptable.cs" />
+    <Compile Include="Expert\IExpertDocScript.cs" />
+    <Compile Include="Expert\IExpertRules.cs" />
+    <Compile Include="Expert\IComplectTemplate.cs" />
+    <Compile Include="Expert\IExpertTable.cs" />
+    <Compile Include="Expert\ObjTypeDict`1.cs" />
+    <Compile Include="Expert\OneManyLock.cs" />
+    <Compile Include="Expert\ExpertObjType.cs" />
+    <Compile Include="Expert\ExpertScriptType.cs" />
+    <Compile Include="Expert\ExpertFormulaType.cs" />
+    <Compile Include="Expert\ExpertScriptMod.cs" />
+    <Compile Include="Expert\ExpertScriptOp.cs" />
+    <Compile Include="Expert\ExpertSettingKind.cs" />
+    <Compile Include="Expert\ExpertCalling.cs" />
+    <Compile Include="Expert\GlobalData.cs" />
+    <Compile Include="Expert\GlobalSave.cs" />
+    <Compile Include="Expert\GenMode.cs" />
+    <Compile Include="Expert\IdGuid.cs" />
+    <Compile Include="Expert\IspMode.cs" />
+    <Compile Include="Expert\VerSort.cs" />
+    <Compile Include="Expert\ModParm.cs" />
+    <Compile Include="Expert\ModParmFormula.cs" />
+    <Compile Include="Expert\ModParmVersion.cs" />
+    <Compile Include="Expert\ModParmLoop.cs" />
+    <Compile Include="Expert\ModParmSort.cs" />
+    <Compile Include="Expert\OpParm.cs" />
+    <Compile Include="Expert\HiddenContentsMode.cs" />
+    <Compile Include="Expert\OpParmObject.cs" />
+    <Compile Include="Expert\IDataAttrs.cs" />
+    <Compile Include="Expert\ILinkObjTypes.cs" />
+    <Compile Include="Expert\OpParmGlobRoot.cs" />
+    <Compile Include="Expert\OpParmGlobForType.cs" />
+    <Compile Include="Expert\OpParmTiLink.cs" />
+    <Compile Include="Expert\OpParmCond.cs" />
+    <Compile Include="Expert\OpParmSetting.cs" />
+    <Compile Include="Expert\OpParmType.cs" />
+    <Compile Include="Expert\OpParmExpObj.cs" />
+    <Compile Include="Expert\OpCreateComplect.cs" />
+    <Compile Include="Expert\DocGroupMode.cs" />
+    <Compile Include="Expert\OpCreateDoc.cs" />
+    <Compile Include="Expert\OpParmFillFld.cs" />
+    <Compile Include="Expert\OpParmSelFld.cs" />
+    <Compile Include="Expert\OpParmUserProc.cs" />
+    <Compile Include="Expert\OpParmCreateFld.cs" />
+    <Compile Include="Expert\OpParmVersionRule.cs" />
+    <Compile Include="Expert\OpParmDocControl.cs" />
+    <Compile Include="Expert\OpParmVisPreview.cs" />
+    <Compile Include="Expert\OpParmVisCommon.cs" />
+    <Compile Include="Expert\OpParmVisLink.cs" />
+    <Compile Include="Expert\NodeData.cs" />
+    <Compile Include="Expert\ModParmData.cs" />
+    <Compile Include="Expert\OpParmData.cs" />
+    <Compile Include="Expert\GuidAndName.cs" />
+    <Compile Include="Expert\ExpObjInfo.cs" />
+    <Compile Include="Expert\ScriptTreeNode.cs" />
+    <Compile Include="Expert\GlobalNode.cs" />
+    <Compile Include="Expert\GlobalRootNode.cs" />
+    <Compile Include="Expert\GlobalTypeNode.cs" />
+    <Compile Include="Expert\SeriesDates.cs" />
+    <Compile Include="Expert\SymbolAttribute.cs" />
+    <Compile Include="Expert\AttributeRoles.cs" />
+    <Compile Include="Expert\CommonTypeHolder.cs" />
+    <Compile Include="Expert\ObjectTypeHolder.cs" />
+    <Compile Include="Expert\AttributeTypeHolder.cs" />
+    <Compile Include="Expert\ExpertTableCaches.cs" />
+    <Compile Include="Expert\Table\eCellDestination.cs" />
+    <Compile Include="Expert\Table\eCellType.cs" />
+    <Compile Include="Expert\Table\eCellSymbol.cs" />
+    <Compile Include="Expert\Table\eCellSymbolHelper.cs" />
+    <Compile Include="Expert\Table\eCell.cs" />
+    <Compile Include="Expert\Table\eColumn.cs" />
+    <Compile Include="Expert\Table\eRow.cs" />
+    <Compile Include="Expert\Table\eTableType.cs" />
+    <Compile Include="Expert\Table\eValuesTable.cs" />
+    <Compile Include="Expert\Table\eTable.cs" />
+    <Compile Include="Expert\Table\eTableCollection.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Expert\Resources\CustomAttributesResources.resx" />
+    <EmbeddedResource Include="Expert\Resources\ExpertResources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

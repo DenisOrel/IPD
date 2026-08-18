@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.Extensions.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{00238199-2B88-44DE-B0BD-44A092FAB6F1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.Extensions</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="System\KeyValueExtensions.cs" />
+    <Compile Include="CommonHelper.cs" />
+    <Compile Include="Int.cs" />
+    <Compile Include="Value.cs" />
+    <Compile Include="Values.cs" />
+    <Compile Include="Data\FieldIsEmptyException.cs" />
+    <Compile Include="Common\ObjectComparer`1.cs" />
+    <Compile Include="Common\StructComparer`1.cs" />
+    <Compile Include="Common\Maybe.cs" />
+    <Compile Include="Common\MaybeComparer`1.cs" />
+    <Compile Include="Common\MaybeEqualityComparer`1.cs" />
+    <Compile Include="Common\ICanBeReadOnly.cs" />
+    <Compile Include="Common\ICanBeReadOnly2.cs" />
+    <Compile Include="Common\CanBeReadOnlyCommon.cs" />
+    <Compile Include="Common\WrapperBase`1.cs" />
+    <Compile Include="Extensions\Async.cs" />
+    <Compile Include="Extensions\DispatcherExtensions.cs" />
+    <Compile Include="Extensions\InitOnceGuardian.cs" />
+    <Compile Include="Extensions\Helper.cs" />
+    <Compile Include="Extensions\RunOnce.cs" />
+    <Compile Include="Extensions\SynchronizationContextExtensions.cs" />
+    <Compile Include="Extensions\CollectionExtensions.cs" />
+    <Compile Include="Extensions\GeneralCollectionExtensions.cs" />
+    <Compile Include="Extensions\DataRowsList.cs" />
+    <Compile Include="Extensions\DictionaryExtensions.cs" />
+    <Compile Include="Extensions\Dictionary.cs" />
+    <Compile Include="Extensions\Enumeration.cs" />
+    <Compile Include="Extensions\EnumerationList`1.cs" />
+    <Compile Include="Extensions\EnumerationOfEnumerations.cs" />
+    <Compile Include="Extensions\TupleExtensions.cs" />
+    <Compile Include="Extensions\DictionaryFactory.cs" />
+    <Compile Include="Extensions\ListFactory.cs" />
+    <Compile Include="Extensions\GeneralEnumerationExtensions.cs" />
+    <Compile Include="Extensions\HashSetExtensions.cs" />
+    <Compile Include="Extensions\FixedDictionary.cs" />
+    <Compile Include="Extensions\FixedDictionary15`2.cs" />
+    <Compile Include="Extensions\FixedDictionary14`2.cs" />
+    <Compile Include="Extensions\FixedDictionary13`2.cs" />
+    <Compile Include="Extensions\FixedDictionary12`2.cs" />
+    <Compile Include="Extensions\FixedDictionary11`2.cs" />
+    <Compile Include="Extensions\FixedDictionary10`2.cs" />
+    <Compile Include="Extensions\FixedDictionary9`2.cs" />
+    <Compile Include="Extensions\FixedDictionary8`2.cs" />
+    <Compile Include="Extensions\FixedDictionary7`2.cs" />
+    <Compile Include="Extensions\FixedDictionary6`2.cs" />
+    <Compile Include="Extensions\FixedDictionary5`2.cs" />
+    <Compile Include="Extensions\FixedDictionary4`2.cs" />
+    <Compile Include="Extensions\FixedDictionary3`2.cs" />
+    <Compile Include="Extensions\FixedDictionary2`2.cs" />
+    <Compile Include="Extensions\FixedDictionary1`2.cs" />
+    <Compile Include="Extensions\EmptyDictionary`2.cs" />
+    <Compile Include="Extensions\IEnumerableWithCapacity`1.cs" />
+    <Compile Include="Extensions\IEnumerableWithCapacityExtensions.cs" />
+    <Compile Include="Extensions\IReadOnlyCollectionExtensions.cs" />
+    <Compile Include="Extensions\IReadOnlyDictionaryExtensions.cs" />
+    <Compile Include="Extensions\IReadOnlyListExtensions.cs" />
+    <Compile Include="Extensions\ListExtensions.cs" />
+    <Compile Include="Extensions\GeneralListExtensions.cs" />
+    <Compile Include="Extensions\EnumerationCastAdapter`2.cs" />
+    <Compile Include="Extensions\EnumerationMapAdapter`2.cs" />
+    <Compile Include="Extensions\QueueExtensions.cs" />
+    <Compile Include="Extensions\ReadOnlyDictionaryWrapper`2.cs" />
+    <Compile Include="Extensions\EnumerationCapacityWrapper.cs" />
+    <Compile Include="Extensions\EnumerationCapacityWrapper`1.cs" />
+    <Compile Include="Extensions\EnumerationFilterAdapter`1.cs" />
+    <Compile Include="Extensions\EnumerationOperationAdapter`1.cs" />
+    <Compile Include="Extensions\SingleEnumerator.cs" />
+    <Compile Include="Extensions\BindingFlagsExtensions.cs" />
+    <Compile Include="Extensions\Boxed`1.cs" />
+    <Compile Include="Extensions\CallOnDispose.cs" />
+    <Compile Include="Extensions\ComparerByKey`2.cs" />
+    <Compile Include="Extensions\Disposable.cs" />
+    <Compile Include="Extensions\IEntityRefByKeyBase`2.cs" />
+    <Compile Include="Extensions\EntityRefByKeyBase`2.cs" />
+    <Compile Include="Extensions\EntityRefByKey`2.cs" />
+    <Compile Include="Extensions\EqualityComparerByKey`2.cs" />
+    <Compile Include="Extensions\EventsAccumulator.cs" />
+    <Compile Include="Extensions\Lazy2`1.cs" />
+    <Compile Include="Extensions\SystemLazy2DebugView`1.cs" />
+    <Compile Include="Extensions\ReflectionHelper.cs" />
+    <Compile Include="Extensions\LazyReflectionValue`2.cs" />
+    <Compile Include="Extensions\LazyPropertyReflection`1.cs" />
+    <Compile Include="Extensions\LazyFieldReflection`1.cs" />
+    <Compile Include="Extensions\Maybe`1.cs" />
+    <Compile Include="Extensions\OneOrMore`1.cs" />
+    <Compile Include="Extensions\OneOrMore.cs" />
+    <Compile Include="Extensions\SlimLazy`1.cs" />
+    <Compile Include="Extensions\SystemSlimLazyDebugView`1.cs" />
+    <Compile Include="Extensions\Constants.cs" />
+    <Compile Include="Extensions\Reflection.cs" />
+    <Compile Include="Extensions\FieldWithNameNotFoundException.cs" />
+    <Compile Include="Extensions\ResourceNotFoundException.cs" />
+    <Compile Include="Extensions\Container`1.cs" />
+    <Compile Include="Extensions\ValueContainer`1.cs" />
+    <Compile Include="Extensions\Index`2.cs" />
+    <Compile Include="Extensions\IndexNotNull`2.cs" />
+    <Compile Include="Extensions\CachedIndex`2.cs" />
+    <Compile Include="Extensions\CachedIndexNotNull`2.cs" />
+    <Compile Include="Extensions\ConcurrentCachedIndex`2.cs" />
+    <Compile Include="Extensions\ConcurrentCachedIndexNotNull`2.cs" />
+    <Compile Include="Extensions\ILinkedToMany`1.cs" />
+    <Compile Include="Extensions\ILinkedToOne`1.cs" />
+    <Compile Include="Extensions\INamedObject.cs" />
+    <Compile Include="Extensions\NamedObjectWithID`1.cs" />
+    <Compile Include="Extensions\INestedInMany`1.cs" />
+    <Compile Include="Extensions\INestedInOne`1.cs" />
+    <Compile Include="Extensions\IObjectWithID`1.cs" />
+    <Compile Include="Extensions\ObjectWithID`1.cs" />
+    <Compile Include="Extensions\IOwnerOfMany`1.cs" />
+    <Compile Include="Extensions\IOwnerOfOne`1.cs" />
+    <Compile Include="Extensions\NonNullable`1.cs" />
+    <Compile Include="Extensions\SimpleComparer`1.cs" />
+    <Compile Include="Extensions\SimpleEqualityComparer`1.cs" />
+    <Compile Include="Extensions\StartFinish.cs" />
+    <Compile Include="Extensions\ComHelper.cs" />
+    <Compile Include="Extensions\DataColumnCollectionExtensions.cs" />
+    <Compile Include="Extensions\DataRowCollectionExtensions.cs" />
+    <Compile Include="Extensions\DataRowEnumerationExtensions.cs" />
+    <Compile Include="Extensions\DataRowExtensions.cs" />
+    <Compile Include="Extensions\DataTableExtensions.cs" />
+    <Compile Include="Extensions\ISqlReplacements.cs" />
+    <Compile Include="Extensions\IDbCommandEx.cs" />
+    <Compile Include="Extensions\SqlReplacements.cs" />
+    <Compile Include="Extensions\DbCommandEx.cs" />
+    <Compile Include="Extensions\DbCommandsKeeper.cs" />
+    <Compile Include="Extensions\Field.cs" />
+    <Compile Include="Extensions\Field`1.cs" />
+    <Compile Include="Extensions\DataReaderExtensions.cs" />
+    <Compile Include="Extensions\IDataRecordExtensions.cs" />
+    <Compile Include="Extensions\IDbCommandExtensions.cs" />
+    <Compile Include="Extensions\EnumType.cs" />
+    <Compile Include="Extensions\CustomDescriptionBase.cs" />
+    <Compile Include="Extensions\CustomDisplayNameBase.cs" />
+    <Compile Include="Extensions\CustomCategoryBase.cs" />
+    <Compile Include="Extensions\ResourceManagerExtensions.cs" />
+    <Compile Include="Extensions\IDisposableServiceProvider.cs" />
+    <Compile Include="Extensions\IServiceProviderExtensions.cs" />
+    <Compile Include="Extensions\Library.cs" />
+    <Compile Include="Extensions\ExpressionExtensions.cs" />
+    <Compile Include="Extensions\Property.cs" />
+    <Compile Include="Extensions\TypeExtensions.cs" />
+    <Compile Include="Extensions\Localization.cs" />
+    <Compile Include="Extensions\CustomDescription.cs" />
+    <Compile Include="Extensions\CustomDisplayName.cs" />
+    <Compile Include="Extensions\CustomCategory.cs" />
+    <Compile Include="Extensions\AggregateExceptionExtensions.cs" />
+    <Compile Include="Extensions\DateTimeFuncs.cs" />
+    <Compile Include="Extensions\DisposableExtensions.cs" />
+    <Compile Include="Extensions\ExceptionExtensions.cs" />
+    <Compile Include="Extensions\NullableExtensions.cs" />
+    <Compile Include="Extensions\ObjectExtensions.cs" />
+    <Compile Include="Extensions\SerializationInfoExtensions.cs" />
+    <Compile Include="Extensions\StringBuilderExtensions.cs" />
+    <Compile Include="Extensions\StringEnumerationExtension.cs" />
+    <Compile Include="Extensions\StringExtensions.cs" />
+    <Compile Include="Extensions\SourceTemplates.cs" />
+    <Compile Include="Extensions\JsonFormatter.cs" />
+    <Compile Include="Extensions\RegexExtensions.cs" />
+    <Compile Include="Extensions\MatchCollectionExtensions.cs" />
+    <Compile Include="Extensions\MatchExtensions.cs" />
+    <Compile Include="Extensions\CancellationTokenExtensions.cs" />
+    <Compile Include="Extensions\CancellationTokenSourceExtensions.cs" />
+    <Compile Include="Extensions\SynchronizeInvokeExtensions.cs" />
+    <Compile Include="Extensions\TaskExtensions.cs" />
+    <Compile Include="Extensions\TaskStatusExtensions.cs" />
+    <Compile Include="Extensions\ProcessExtensions.cs" />
+    <Compile Include="Extensions\XmlNodeExtensions.cs" />
+    <Compile Include="Extensions\IXmlReaderSupport.cs" />
+    <Compile Include="Extensions\XmlReaderExtensions.cs" />
+    <Compile Include="Extensions\IXmlWriterSupport.cs" />
+    <Compile Include="Extensions\XmlWriterExtensions.cs" />
+    <Compile Include="Collections\BiDirectDictionary`2.cs" />
+    <Compile Include="Collections\BiDirectionalLookup`2.cs" />
+    <Compile Include="Collections\BiDirectMultiDictionary`2.cs" />
+    <Compile Include="Collections\CollectionAdapterBase`1.cs" />
+    <Compile Include="Collections\ReadOnlyCollectionAdapterBase`1.cs" />
+    <Compile Include="Collections\GeneralCollectionAdapterBase.cs" />
+    <Compile Include="Collections\CollectionCastAdapter`2.cs" />
+    <Compile Include="Collections\CollectionMapAdapter`2.cs" />
+    <Compile Include="Collections\GeneralCollectionCastAdapter`1.cs" />
+    <Compile Include="Collections\GeneralCollectionMapAdapter`1.cs" />
+    <Compile Include="Collections\ReadOnlyCollectionCastAdapter`2.cs" />
+    <Compile Include="Collections\ReadOnlyCollectionMapAdapter`2.cs" />
+    <Compile Include="Collections\DictionaryAdapterBase`2.cs" />
+    <Compile Include="Collections\ReadOnlyDictionaryAdapterBase`2.cs" />
+    <Compile Include="Collections\GeneralDictionaryAdapterBase.cs" />
+    <Compile Include="Collections\DictionaryWithCast`3.cs" />
+    <Compile Include="Collections\DictionaryCastValuesAdapter`3.cs" />
+    <Compile Include="Collections\DictionaryWithMapping`3.cs" />
+    <Compile Include="Collections\DictionaryMapValuesAdapter`3.cs" />
+    <Compile Include="Collections\GeneralDictionaryCastAdapter`2.cs" />
+    <Compile Include="Collections\GeneralDictionaryMapAdapter`2.cs" />
+    <Compile Include="Collections\ReadOnlyDictionaryWithCast`3.cs" />
+    <Compile Include="Collections\ReadOnlyDictionaryCastValuesAdapter`3.cs" />
+    <Compile Include="Collections\ReadOnlyDictionaryWithMapping`3.cs" />
+    <Compile Include="Collections\ReadOnlyDictionaryMapValuesAdapter`3.cs" />
+    <Compile Include="Collections\GeneralListAdapterBase.cs" />
+    <Compile Include="Collections\ListAdapterBase`1.cs" />
+    <Compile Include="Collections\ReadOnlyListAdapterBase`1.cs" />
+    <Compile Include="Collections\GeneralListCastAdapter`1.cs" />
+    <Compile Include="Collections\GeneralListMapAdapter`1.cs" />
+    <Compile Include="Collections\ListWithCast`2.cs" />
+    <Compile Include="Collections\ListCastAdapter`2.cs" />
+    <Compile Include="Collections\ListWithMapping`2.cs" />
+    <Compile Include="Collections\ListMapAdapter`2.cs" />
+    <Compile Include="Collections\ReadOnlyListWithCast`2.cs" />
+    <Compile Include="Collections\ReadOnlyListCastAdapter`2.cs" />
+    <Compile Include="Collections\ReadOnlyListWithMapping`2.cs" />
+    <Compile Include="Collections\ReadOnlyListMapAdapter`2.cs" />
+    <Compile Include="Collections\MutableCollection`1.cs" />
+    <Compile Include="Collections\ReadOnlyList`1.cs" />
+    <Compile Include="Collections\IListReadOnlyWrap.cs" />
+    <Compile Include="Collections\IList2IReadOnlyListAdapter`1.cs" />
+    <Compile Include="Collections\SerializableList`1.cs" />
+    <Compile Include="Collections\SerializableReadOnlyDictionary`2.cs" />
+    <Compile Include="Collections\IDictionaryReadOnlyWrap.cs" />
+    <Compile Include="Collections\IDictionary2IReadOnlyDictionaryAdapter`2.cs" />
+    <Compile Include="Collections\StackExtensions.cs" />
+    <Compile Include="Collections\UniqueList`1.cs" />
+    <Compile Include="Collections\ValuesDictionary`2.cs" />
+    <Compile Include="Async\ICancellationTokenOwner.cs" />
+    <Compile Include="Async\SynchronizationContextAwaiter.cs" />
+    <Compile Include="IPS\Resources.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Extensions\Resources\Attributes.resx" />
+    <EmbeddedResource Include="Extensions\Resources\Resources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

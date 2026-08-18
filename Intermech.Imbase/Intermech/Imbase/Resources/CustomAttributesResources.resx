@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Imbase.NoRestriction.Name" xml:space="preserve">
+    <value>Применяемость = "+"</value>
+  </data>
+  <data name="Imbase.UseExtendedLog.Name" xml:space="preserve">
+    <value>Расширенный лог синхронизации</value>
+  </data>
+  <data name="Imbase.Table.AttributeRedactor.DefaultValue.Description1" xml:space="preserve">
+    <value>Атрибуту присваивается значение по умолчанию.</value>
+  </data>
+  <data name="Imbase.Table.AttributeRedactor.Required.Name" xml:space="preserve">
+    <value>Вычисляемый атрибут</value>
+  </data>
+  <data name="Imbase.TimePoint.Description" xml:space="preserve">
+    <value>Определяет дату, начиная с которой будут читаться сообщения в журнале событий Imbase 5.0</value>
+  </data>
+  <data name="Imbase.Table.AttributeRedactor.Formula.Name" xml:space="preserve">
+    <value>Формула</value>
+  </data>
+  <data name="Imbase.TerminateOnError.Name" xml:space="preserve">
+    <value>Останавливать синхронизацию при ошибке</value>
+  </data>
+  <data name="Imbase.DefaultMeasureId.Description" xml:space="preserve">
+    <value>Используется при синхронизации таблиц.
+В случае когда в исходной базе в таблице для атрибута не указана единица измерения, то при синхронизации в базе назначения будет использована указанная единица измерения.</value>
+  </data>
+  <data name="Imbase.CommonParams.AnalizeHiddenRecords.Name" xml:space="preserve">
+    <value>Учитывать права видимости записей при просмотре таблиц</value>
+  </data>
+  <data name="Imbase.ServerNameOra.Description" xml:space="preserve">
+    <value>Имя (SID) базы данных</value>
+  </data>
+  <data name="Imbase.RecordColors.Name" xml:space="preserve">
+    <value>Цвета записей таблиц в зависимости от значения атрибута "Применяемость"</value>
+  </data>
+  <data name="Imbase.CommonParams.CheckUseRightBeforeCreateRelation.Name" xml:space="preserve">
+    <value>Проверять право "Использовать" перед созданием связи</value>
+  </data>
+  <data name="Attribute.StructureEditor.Category.Name" xml:space="preserve">
+    <value>Общие параметры</value>
+  </data>
+  <data name="Imbase.DenyAddObject.Description" xml:space="preserve">
+    <value>Запрет на добавление в состав объектов IPS записей НСИ, представленных объектами IPS Search с уведомлением пользователя через информационное окно: 
+«Объект не входит в ограничительный перечень. Выбор может быть сделан только из Imbase». 
+При использовании записи НСИ из интерфейса IPS Imbase выводится диалоговое окно (с возможностью прерывания или продолжения операции):
+«Позиция НСИ не входит в ограничительный перечень. Продолжить операцию?».</value>
+  </data>
+  <data name="Imbase.ServerNameSQL.Name" xml:space="preserve">
+    <value>Имя сервера</value>
+  </data>
+  <data name="Imbase.DefaultMeasureId.Name" xml:space="preserve">
+    <value>Единица измерения по умолчанию</value>
+  </data>
+  <data name="Imbase.TableEditor.CategoryName" xml:space="preserve">
+    <value>Редактор таблиц</value>
+  </data>
+  <data name="Imbase.CommonParams.CheckUseRightBeforeCreateRelation.Description" xml:space="preserve">
+    <value>Использование данной опции не рекомендуется, т.к. это негативно влияет на скорость работы системы в целом! 
+Перед созданием связи с объектом, созданным по записи Imbase, выполняется проверка права "Использовать" для записи.</value>
+  </data>
+  <data name="Imbase.CommonParams.UseExtendedSecurityCheck.Description" xml:space="preserve">
+    <value>Использование данной опции не рекомендуется, т.к. это негативно влияет на скорость поиска по индексу! 
+При поиске по индексу, выполняется проверка прав безопасности для строк и колонок таблиц Imbase.</value>
+  </data>
+  <data name="Imbase.Password.Description" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="Imbase.Table.AttributeRedactor.DefaultValue.Name" xml:space="preserve">
+    <value>Значение по умолчанию</value>
+  </data>
+  <data name="Imbase.FolderImages.Description" xml:space="preserve">
+    <value>Иконки папок в зависимости от значения атрибута "Применяемость".</value>
+  </data>
+  <data name="Imbase.TableView.CategoryName" xml:space="preserve">
+    <value>Просмотр таблиц</value>
+  </data>
+  <data name="Imbase.DBNameInterbase.Description" xml:space="preserve">
+    <value>Файл</value>
+  </data>
+  <data name="Imbase.FolderImages.Name" xml:space="preserve">
+    <value>Иконки папок в зависимости от значения атрибута "Применяемость"</value>
+  </data>
+  <data name="Imbase.DenyAll.Description" xml:space="preserve">
+    <value>Запрет на добавление записей НСИ в состав объектов IPS. 
+Запрет на сохранение изменений или завершение редактирования объектов IPS, содержащих в составе записи НСИ. Пользователю выводится сообщение об отключенной применяемости.</value>
+  </data>
+  <data name="Imbase.ServerNameOra.Name" xml:space="preserve">
+    <value>Имя (SID) базы данных</value>
+  </data>
+  <data name="Imbase.RecordColors.Description" xml:space="preserve">
+    <value>Цвета записей таблиц в зависимости от значения атрибута "Применяемость".</value>
+  </data>
+  <data name="Imbase.CommonParams.DeleteRecordMode.Description" xml:space="preserve">
+    <value>Задает режим удаления использованных записей.</value>
+  </data>
+  <data name="Imbase.UserParams.UseIMH.Name" xml:space="preserve">
+    <value>Выбор из марочника</value>
+  </data>
+  <data name="Imbase.UserParams.SaveFilterState.Name" xml:space="preserve">
+    <value>Сохранять условия фильтра</value>
+  </data>
+  <data name="Imbase.Table.AttributeRedactor.EditableAttribute.Description" xml:space="preserve">
+    <value>Разрешить редактирование данных в столбце, для таблиц импортированных из портала</value>
+  </data>
+  <data name="Imbase.SelectMaterial.CategoryName" xml:space="preserve">
+    <value>Выбор материала</value>
+  </data>
+  <data name="Imbase.ImbaseSynchronizationParams.Description" xml:space="preserve">
+    <value>Параметры синхронизации объектов с Imbase</value>
+  </data>
+  <data name="Imbase.BaseType.Name" xml:space="preserve">
+    <value>Тип СУБД</value>
+  </data>
+  <data name="Imbase.Table.AttributeRedactor.Options.Description" xml:space="preserve">
+    <value>Опции.</value>
+  </data>
+  <data name="Imbase.DenyAll.Name" xml:space="preserve">
+    <value>Применяемость = "-"</value>
+  </data>
+  <data name="Imbase.Table.AttributeRedactor.EditableAttribute.Name" xml:space="preserve">
+    <value>Разрешить локальное редактирование</value>
+  </data>
+  <data name="Imbase.DBNameSQL.Description" xml:space="preserve">
+    <value>Имя базы данных</value>
+  </data>
+  <data name="Imbase.Password.Name" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="Imbase.Table.AttributeRedactor.Unique.Description" xml:space="preserve">
+    <value>Поддерживать уникальное значение.</value>
+  </data>
+  <data name="Imbase.Table.AttributeRedactor.Keep.Description" xml:space="preserve">
+    <value>Поле может содержать либо данные, либо ссылку на запись таблицы IMBASE (Действительно только для текстовых полей).</value>
+  </data>
+  <data name="Imbase.BaseType.Description" xml:space="preserve">
+    <value>Тип СУБД базы-источника</value>
+  </data>
+  <data name="Imbase.PumpSettingsPath.Name" xml:space="preserve">
+    <value>Путь к файлу PumpSettings.xml</value>
+  </data>
+  <data name="Imbase.SkipAttributes.Description" xml:space="preserve">
+    <value>Список атрибутов, которые не будут обрабатываться при синхронизации</value>
+  </data>
+  <data name="Imbase.CommonParams.AnalizeHiddenRecords.Description" xml:space="preserve">
+    <value>При просмотре таблицы не отображаются записи, для которых правами доступа запрещена видимость.</value>
+  </data>
+  <data name="Imbase.Table.AttributeRedactor.UseDefault.Description" xml:space="preserve">
+    <value>Указывает, использоват ли значения по умолчанию для полей с пустыми значениями.</value>
+  </data>
+  <data name="Imbase.CommonParams.DeleteRecordMode.Name" xml:space="preserve">
+    <value>Удаление использованных записей</value>
+  </data>
+  <data name="Imbase.UserParams.SaveColumnsState.Description" xml:space="preserve">
+    <value>Сохранять положение, размеры, видимость, сортировку колонок таблицы при переключении между таблицами</value>
+  </data>
+  <data name="Imbase.UserParams.SaveFilterState.Description" xml:space="preserve">
+    <value>Сохранять условия фильтра таблицы при переключении между таблицами</value>
+  </data>
+  <data name="Imbase.DeleteDuplicates.Name" xml:space="preserve">
+    <value>Удалять дубликаты ссылок на таблицы Imbase</value>
+  </data>
+  <data name="Imbase.DBNameSQL.Name" xml:space="preserve">
+    <value>Имя базы данных</value>
+  </data>
+  <data name="Imbase.ImbaseSynchronizationParams.CategoryName" xml:space="preserve">
+    <value>Синхронизация объектов с Imbase</value>
+  </data>
+  <data name="Imbase.PumpSettingsPath.Description" xml:space="preserve">
+    <value>Путь к файлу PumpSettings.xml, который получен в результате процесса миграции. Путь задается относительно сервера приложений</value>
+  </data>
+  <data name="Imbase.DenyAddRecord.Name" xml:space="preserve">
+    <value>Применяемость = "!"</value>
+  </data>
+  <data name="Imbase.UseExtendedLog.Description" xml:space="preserve">
+    <value>Включает/выключает расширенный лог синхронизации</value>
+  </data>
+  <data name="Imbase.Table.AttributeRedactor.DependValues.Description" xml:space="preserve">
+    <value>Позволяет установить зависимости для списка допустимых значений.</value>
+  </data>
+  <data name="Imbase.DenyAddRecord.Description" xml:space="preserve">
+    <value>Запрет на добавление записей НСИ в состав объектов IPS. Пользователю выводится сообщение об отключенной применяемости.</value>
+  </data>
+  <data name="Imbase.CommonParams.CheckApplicabilityBeforeCreateComposition.Name" xml:space="preserve">
+    <value>Учитывать Применяемость Imbase при формировании состава</value>
+  </data>
+  <data name="Imbase.Table.AttributeRedactor.Keep.Name" xml:space="preserve">
+    <value>Содержит</value>
+  </data>
+  <data name="Imbase.CreateLinks.CategoryName" xml:space="preserve">
+    <value>Создание ярлыков таблиц</value>
+  </data>
+  <data name="Imbase.Table.AttributeRedactor.Options.Name" xml:space="preserve">
+    <value>Опции</value>
+  </data>
+  <data name="Imbase.DBNameInterbase.Name" xml:space="preserve">
+    <value>Файл</value>
+  </data>
+  <data name="Imbase.NoRestriction.Description" xml:space="preserve">
+    <value>Отсутствуют ограничения на использование записей НСИ.</value>
+  </data>
+  <data name="Imbase.DeleteDuplicates.Description" xml:space="preserve">
+    <value>Если в папке содержатся несколько ярлыков с одним и тем же наименованием, то будут удалены все, кроме самого нового ярлыка</value>
+  </data>
+  <data name="Imbase.CommonParams.DenyFewLinksForSameTable.Description" xml:space="preserve">
+    <value>Отключает возможность создавать несколько ярлыков для одной и той же таблицы. При включении данной опции пользователи смогут создавать для каждой таблицы лишь один ярлык</value>
+  </data>
+  <data name="Imbase.ServerNameSQL.Description" xml:space="preserve">
+    <value>Имя сервера</value>
+  </data>
+  <data name="Imbase.UserParams.HideEmptyColumns.Name" xml:space="preserve">
+    <value>Скрывать пустые колонки</value>
+  </data>
+  <data name="Imbase.UserParams.FreezeFirstColumn.Description" xml:space="preserve">
+    <value>При сдвиге данных в таблице первая колонка остается на месте.</value>
+  </data>
+  <data name="Imbase.SourceDBParams.Description" xml:space="preserve">
+    <value>Параметры синхронизации с базой Imbase 5.0</value>
+  </data>
+  <data name="Imbase.Table.AttributeRedactor.Required.Description" xml:space="preserve">
+    <value>Указывает является ли поле вычисляемым, иначе будет создано поле содержащее значения.</value>
+  </data>
+  <data name="Imbase.Table.AttributeRedactor.Units.Name" xml:space="preserve">
+    <value>Единицы измерения</value>
+  </data>
+  <data name="Imbase.ImbaseSyncParams.CategoryName" xml:space="preserve">
+    <value>Синхронизация с Imbase 5.0</value>
+  </data>
+  <data name="Imbase.Table.AttributeRedactor.DependValues.Name" xml:space="preserve">
+    <value>Зависимость допустимых значений</value>
+  </data>
+  <data name="Imbase.CreateRelationAndLink.CategoryName" xml:space="preserve">
+    <value>Создание связей и ссылок</value>
+  </data>
+  <data name="Imbase.Table.AttributeRedactor.DefaultValue.Description" xml:space="preserve">
+    <value>Атрибуту присваивается значение по умолчанию.</value>
+  </data>
+  <data name="Imbase.CommonParams.CheckApplicabilityBeforeCreateComposition.Description" xml:space="preserve">
+    <value>Учитывать Применяемость Imbase при формировании состава.</value>
+  </data>
+  <data name="Imbase.DenyAddObject.Name" xml:space="preserve">
+    <value>Применяемость = "*"</value>
+  </data>
+  <data name="Imbase.CommonParams.UseExtendedSecurityCheck.Name" xml:space="preserve">
+    <value>Использовать расширенную проверку прав доступа</value>
+  </data>
+  <data name="Imbase.UserName.Description" xml:space="preserve">
+    <value>Имя пользователя</value>
+  </data>
+  <data name="Imbase.NotExpandableAttributes.Name" xml:space="preserve">
+    <value>Нераскрываемые ссылочные атрибуты</value>
+  </data>
+  <data name="Imbase.Table.AttributeRedactor.UseDefault.Name" xml:space="preserve">
+    <value>Использовать значение по умолчанию</value>
+  </data>
+  <data name="Imbase.Table.AttributeRedactor.DefaultValue.Name1" xml:space="preserve">
+    <value>Значение по умолчанию</value>
+  </data>
+  <data name="Imbase.UserParams.UseIMH.Description" xml:space="preserve">
+    <value>Выбор материала из марочника, если он загружен</value>
+  </data>
+  <data name="Imbase.SourceDBParams.Name" xml:space="preserve">
+    <value>Параметры подключения</value>
+  </data>
+  <data name="Imbase.TimePoint.Name" xml:space="preserve">
+    <value>Дата начала синхронизации</value>
+  </data>
+  <data name="Imbase.CommonParams.DenyFewLinksForSameTable.Name" xml:space="preserve">
+    <value>Запретить создание нескольких ярлыков на одну таблицу</value>
+  </data>
+  <data name="Imbase.UserParams.SaveUserFilterState.Name" xml:space="preserve">
+    <value>Сохранять состояние пользовательского фильтра</value>
+  </data>
+  <data name="Imbase.IndexesParams.CategoryName" xml:space="preserve">
+    <value>Поиск по индексу</value>
+  </data>
+  <data name="Imbase.UserParams.SaveUserFilterState.Description" xml:space="preserve">
+    <value>Сохранять состояние пользовательского фильтра таблицы при переключении между таблицами</value>
+  </data>
+  <data name="Imbase.Table.AttributeRedactor.Unique.Name" xml:space="preserve">
+    <value>Уникальное значение</value>
+  </data>
+  <data name="Imbase.UserParams.FreezeFirstColumn.Name" xml:space="preserve">
+    <value>Замораживать первую колонку</value>
+  </data>
+  <data name="Imbase.Table.AttributeRedactor.PossibleValues.Name" xml:space="preserve">
+    <value>Ограничение допустимых значений</value>
+  </data>
+  <data name="Imbase.NotExpandableAttributes.Description" xml:space="preserve">
+    <value>Список ссылочных атрибутов (ссылка на объект или на запись Imbase), которые не будут раскрываться при синхронизации</value>
+  </data>
+  <data name="Imbase.UserName.Name" xml:space="preserve">
+    <value>Имя пользователя</value>
+  </data>
+  <data name="Imbase.Table.AttributeRedactor.Units.Description" xml:space="preserve">
+    <value>Атрибут измеряется в указанных единицах измерения.</value>
+  </data>
+  <data name="Imbase.ImbaseSyncParams.Name" xml:space="preserve">
+    <value>Параметры синхронизации с Imbase 5.0</value>
+  </data>
+  <data name="Imbase.UserParams.SaveColumnsState.Name" xml:space="preserve">
+    <value>Сохранять состояние колонок</value>
+  </data>
+  <data name="Imbase.TerminateOnError.Description" xml:space="preserve">
+    <value>Если значение опции = Да, при возникновении ошибки процесс синхронизации будет прерван, иначе - будут обработаны все сообщения журнала событий Imbase 5.0</value>
+  </data>
+  <data name="Imbase.Table.AttributeRedactor.Formula.Description" xml:space="preserve">
+    <value>Атрибут вычисляется по формуле.</value>
+  </data>
+  <data name="Imbase.UserParams.HideEmptyColumns.Description" xml:space="preserve">
+    <value>При просмотре таблицы не отображаются пустые колонки.</value>
+  </data>
+  <data name="Imbase.ImbaseSyncParams.Description" xml:space="preserve">
+    <value>Синхронизация с Imbase 5.0 - предыдущей линейкой ПО Intermech</value>
+  </data>
+  <data name="Imbase.ImbaseSynchronizationParams.Name" xml:space="preserve">
+    <value>Параметры синхронизации объектов с Imbase</value>
+  </data>
+  <data name="Imbase.FolderImages.CategoryName" xml:space="preserve">
+    <value>Иконки папок в зависимости от значения атрибута "Применяемость"</value>
+  </data>
+  <data name="Imbase.SkipAttributes.Name" xml:space="preserve">
+    <value>Игнорируемые атрибуты</value>
+  </data>
+</root>

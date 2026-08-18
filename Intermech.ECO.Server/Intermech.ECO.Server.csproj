@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\IPS.Installer.Full\InstServer\Server\Intermech.ECO.Server.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9F33D3A0-E165-4B93-9064-1ABD186BCC10}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.ECO.Server</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Expert">
+      <HintPath>lib\Intermech.Expert.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Server">
+      <HintPath>lib\Intermech.Interfaces.Server.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Workflow">
+      <HintPath>lib\Intermech.Interfaces.Workflow.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Kernel">
+      <HintPath>lib\Intermech.Kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Localization\LocalizationHolder.cs" />
+    <Compile Include="ECO\Server\ECOObjectsDeleteAnalyzer.cs" />
+    <Compile Include="ECO\Server\IEcoPropHolder.cs" />
+    <Compile Include="ECO\Server\EcoPropHolder.cs" />
+    <Compile Include="ECO\Server\ECOServer.cs" />
+    <Compile Include="ECO\Server\ChangeJournalObject.cs" />
+    <Compile Include="ECO\Server\VerIzvObject.cs" />
+    <Compile Include="ECO\Server\LinkIzvObject.cs" />
+    <Compile Include="ECO\Server\DopIzvObject.cs" />
+    <Compile Include="ECO\Server\CJRecord.cs" />
+    <Compile Include="ECO\Server\ECOObject.cs" />
+    <Compile Include="ECO\Server\ECO_II.cs" />
+    <Compile Include="ECO\Server\ECO_PR.cs" />
+    <Compile Include="ECO\Server\ECO_PI.cs" />
+    <Compile Include="ECO\Server\RevRelation.cs" />
+    <Compile Include="ECO\Server\RevActivateTask.cs" />
+    <Compile Include="ECO\Server\ECOServerPlugin.cs" />
+    <Compile Include="ECO\Server\ECORootCreator.cs" />
+    <Compile Include="ECO\Server\II_ObjCreator.cs" />
+    <Compile Include="ECO\Server\PI_ObjCreator.cs" />
+    <Compile Include="ECO\Server\PR_ObjCreator.cs" />
+    <Compile Include="ECO\Server\Dop_ObjCreator.cs" />
+    <Compile Include="ECO\Server\CJ_ObjCreator.cs" />
+    <Compile Include="ECO\Server\CJRec_ObjCreator.cs" />
+    <Compile Include="ECO\Server\RevRelationCreator.cs" />
+    <Compile Include="ECO\Server\ECOUpdate.cs" />
+    <Compile Include="ECO\Server\RevisionComplect.cs" />
+    <Compile Include="ECO\Server\RevisionComplectRelationCreator.cs" />
+    <Compile Include="ECO\Server\RevisionComplectCreator.cs" />
+    <Compile Include="ECO\Server\RevisionComplectRelation.cs" />
+    <Compile Include="ECO\Server\RevisionComplectObject.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ECO\Server\Resources\ECOServerResources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

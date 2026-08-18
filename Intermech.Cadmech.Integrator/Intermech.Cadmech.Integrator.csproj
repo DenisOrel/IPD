@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.Cadmech.Integrator.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D22F3B14-B046-4C30-A846-19EB54DCEFE4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.Cadmech.Integrator</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Intermech.AutoCAD.Proxies">
+      <HintPath>lib\Intermech.AutoCAD.Proxies.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Cadmech.Common">
+      <HintPath>lib\Intermech.Cadmech.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Cadmech.Interfaces">
+      <HintPath>lib\Intermech.Cadmech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Client.Core">
+      <HintPath>lib\Intermech.Client.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Client">
+      <HintPath>lib\Intermech.Interfaces.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Pdm">
+      <HintPath>lib\Intermech.Interfaces.Pdm.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Tools.Components">
+      <HintPath>lib\Intermech.Tools.Components.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Ninject">
+      <HintPath>lib\Ninject.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Localization\Localization.cs" />
+    <Compile Include="Localization\CustomDescription.cs" />
+    <Compile Include="Localization\CustomCategory.cs" />
+    <Compile Include="Localization\CustomDisplayName.cs" />
+    <Compile Include="Cadmech\Integrator\AcadConsts.cs" />
+    <Compile Include="Cadmech\Integrator\AcadArticleAttributesGuardModule.cs" />
+    <Compile Include="Cadmech\Integrator\BricscadArticleAttributesGuardModule.cs" />
+    <Compile Include="Cadmech\Integrator\IPartGuidArticleLocatorData.cs" />
+    <Compile Include="Cadmech\Integrator\PartGuidArticleLocatorData.cs" />
+    <Compile Include="Cadmech\Integrator\PartGuidArticleLocatorDataFromArticleEntity.cs" />
+    <Compile Include="Cadmech\Integrator\Drawing2DArticleAttributesGuard.cs" />
+    <Compile Include="Cadmech\Integrator\Drawing2DArticleAttributesGuardModule.cs" />
+    <Compile Include="Cadmech\Integrator\NanocadApiService.cs" />
+    <Compile Include="Cadmech\Integrator\NanocadArticleAttributesGuardModule.cs" />
+    <Compile Include="Cadmech\Integrator\NanocadIntegrator.cs" />
+    <Compile Include="Cadmech\Integrator\NanocadConsts.cs" />
+    <Compile Include="Cadmech\Integrator\SearchAPIServiceLink.cs" />
+    <Compile Include="Cadmech\Integrator\BricscadConsts.cs" />
+    <Compile Include="Cadmech\Integrator\AcadProgIdProvider.cs" />
+    <Compile Include="Cadmech\Integrator\DwgPredicates.cs" />
+    <Compile Include="Cadmech\Integrator\CadApiService.cs" />
+    <Compile Include="Cadmech\Integrator\AcadApiSession.cs" />
+    <Compile Include="Cadmech\Integrator\AcadControlPanelModule.cs" />
+    <Compile Include="Cadmech\Integrator\AcadFileTreeService.cs" />
+    <Compile Include="Cadmech\Integrator\AcadFileTypeService.cs" />
+    <Compile Include="Cadmech\Integrator\AcadImportVars.cs" />
+    <Compile Include="Cadmech\Integrator\AcadIntegrator.cs" />
+    <Compile Include="Cadmech\Integrator\AcadLicenseService.cs" />
+    <Compile Include="Cadmech\Integrator\AcadApiOperations.cs" />
+    <Compile Include="Cadmech\Integrator\AcadSetupSettings.cs" />
+    <Compile Include="Cadmech\Integrator\AcadStandaloneViewService.cs" />
+    <Compile Include="Cadmech\Integrator\BricscadIntegrator.cs" />
+    <Compile Include="Cadmech\Integrator\AcadApplicationLauncherService.cs" />
+    <Compile Include="Cadmech\Integrator\MechanicalDwgArticleLocatorService.cs" />
+    <Compile Include="Cadmech\Integrator\MechanicalDwgArticleTypesService.cs" />
+    <Compile Include="Cadmech\Integrator\MechanicalDwgStructureService.cs" />
+    <Compile Include="Cadmech\Integrator\ActiveCADSystemService.cs" />
+    <Compile Include="Cadmech\Integrator\DwgDriverProcessingSchemas.cs" />
+    <Compile Include="Cadmech\Integrator\ConstructionalDependenciesBuilder.cs" />
+    <Compile Include="Cadmech\Integrator\ConstructionalExtension.cs" />
+    <Compile Include="Cadmech\Integrator\DrawingHandler.cs" />
+    <Compile Include="Cadmech\Integrator\DwgDependenciesPeek`1.cs" />
+    <Compile Include="Cadmech\Integrator\IDwgDriver.cs" />
+    <Compile Include="Cadmech\Integrator\MechanicalDwgDriver.cs" />
+    <Compile Include="Cadmech\Integrator\EmptyArticleEmitter.cs" />
+    <Compile Include="Cadmech\Integrator\MechanicalDwgDependenciesBuilder.cs" />
+    <Compile Include="Cadmech\Integrator\RuntimeOptions.cs" />
+    <Compile Include="Cadmech\Integrator\AcadDocumentSchema.cs" />
+    <Compile Include="Cadmech\Integrator\AcadSettingsCheck.cs" />
+    <Compile Include="Cadmech\Integrator\AssemblyDwgArticleEmitter.cs" />
+    <Compile Include="Cadmech\Integrator\AssemblyDwgDataExtractor.cs" />
+    <Compile Include="Cadmech\Integrator\MechanicalLayer.cs" />
+    <Compile Include="Cadmech\Integrator\DwgOperations.cs" />
+    <Compile Include="Cadmech\Integrator\ChangesDriver.cs" />
+    <Compile Include="Cadmech\Integrator\DwgArticleData.cs" />
+    <Compile Include="Cadmech\Integrator\DwgProjectData.cs" />
+    <Compile Include="Cadmech\Integrator\DwgSpecData.cs" />
+    <Compile Include="Cadmech\Integrator\IDwgArticleEmitter.cs" />
+    <Compile Include="Cadmech\Integrator\NormalDwgArticleEmitter.cs" />
+    <Compile Include="Cadmech\Integrator\PartGuidArticleLocator.cs" />
+    <Compile Include="Cadmech\Integrator\ConstructionalSchemaCheck.cs" />
+    <Compile Include="Cadmech\Integrator\DocumentTypeUniquenessCheck.cs" />
+    <Compile Include="Cadmech\Integrator\MechanicalSchemaCheck.cs" />
+    <Compile Include="Cadmech\Integrator\DrawingTypeEditor.cs" />
+    <Compile Include="Cadmech\Integrator\DrawingTypeListUIEditor.cs" />
+    <Compile Include="Cadmech\Integrator\AcadIntegratorSettingsValidator.cs" />
+    <Compile Include="Cadmech\Integrator\AcadIntegratorSettingsCodec.cs" />
+    <Compile Include="Cadmech\Integrator\RoleUIEditor.cs" />
+    <Compile Include="Cadmech\Integrator\StartupConfigurationListUIEditor.cs" />
+    <Compile Include="Cadmech\Integrator\StartupConfigurationSurrogate.cs" />
+    <Compile Include="Cadmech\Integrator\StartupConfigurationsCheck.cs" />
+    <Compile Include="Cadmech\Integrator\SettingsUtils.cs" />
+    <Compile Include="Cadmech\Integrator\AcadOpenFiles.cs" />
+    <Compile Include="Cadmech\Integrator\SettingsSurrogate.cs" />
+    <Compile Include="Cadmech\Integrator\DwgInputData.cs" />
+    <Compile Include="Cadmech\Integrator\Crc32.cs" />
+    <Compile Include="Cadmech\Integrator\Crc64.cs" />
+    <Compile Include="Cadmech\Integrator\BaseSpecJob.cs" />
+    <Compile Include="Cadmech\Integrator\CreateSpecJob.cs" />
+    <Compile Include="Cadmech\Integrator\PartGuidAllocator.cs" />
+    <Compile Include="Cadmech\Integrator\UpdateResult.cs" />
+    <Compile Include="Cadmech\Integrator\PartKey.cs" />
+    <Compile Include="Cadmech\Integrator\DecodeIndsAction.cs" />
+    <Compile Include="Cadmech\Integrator\DecodeData.cs" />
+    <Compile Include="Cadmech\Integrator\EncodeData.cs" />
+    <Compile Include="Cadmech\Integrator\ExtendStructTableAction.cs" />
+    <Compile Include="Cadmech\Integrator\FileContent.cs" />
+    <Compile Include="Cadmech\Integrator\IDecodeAction.cs" />
+    <Compile Include="Cadmech\Integrator\IEncodeAction.cs" />
+    <Compile Include="Cadmech\Integrator\MappedSpecDummy.cs" />
+    <Compile Include="Cadmech\Integrator\MappedUpdater.cs" />
+    <Compile Include="Cadmech\Integrator\ZoneSpan.cs" />
+    <Compile Include="Cadmech\Integrator\PackOverridedFieldsAction.cs" />
+    <Compile Include="Cadmech\Integrator\ReadTableAction.cs" />
+    <Compile Include="Cadmech\Integrator\SpecRecordMap.cs" />
+    <Compile Include="Cadmech\Integrator\StructFileCodec.cs" />
+    <Compile Include="Cadmech\Integrator\StructFileConfigException.cs" />
+    <Compile Include="Cadmech\Integrator\StructFileException.cs" />
+    <Compile Include="Cadmech\Integrator\StructFileParser.cs" />
+    <Compile Include="Cadmech\Integrator\StructFileParsingException.cs" />
+    <Compile Include="Cadmech\Integrator\StructTableColumns.cs" />
+    <Compile Include="Cadmech\Integrator\StructFileProcessingModes.cs" />
+    <Compile Include="Cadmech\Integrator\UnpackOverridedFieldsAction.cs" />
+    <Compile Include="Cadmech\Integrator\IIndParser.cs" />
+    <Compile Include="Cadmech\Integrator\IndParserUtils.cs" />
+    <Compile Include="Cadmech\Integrator\NormalDesignationParser.cs" />
+    <Compile Include="Cadmech\Integrator\NormalImbaseKeyParser.cs" />
+    <Compile Include="Cadmech\Integrator\WeirdDesignationParser.cs" />
+    <Compile Include="Cadmech\Integrator\WriteTableAction.cs" />
+    <Compile Include="Cadmech\Integrator\DwgOutputData.cs" />
+    <Compile Include="Cadmech\Integrator\AcadIntegratorSettingsService.cs" />
+    <Compile Include="Cadmech\Integrator\AcadBricscadPackage.cs" />
+    <Compile Include="Cadmech\Integrator\Cadmech2DService.cs" />
+    <Compile Include="Cadmech\Integrator\AcadFileImportService.cs" />
+    <Compile Include="Cadmech\Integrator\AcadCaptureChangesService.cs" />
+    <Compile Include="Cadmech\Integrator\AcadIntegratorBase.cs" />
+    <Compile Include="Cadmech\Integrator\AcadLaunchActionService.cs" />
+    <Compile Include="Cadmech\Integrator\Properties\Resources.cs" />
+    <Compile Include="Cadmech\Integrator\LaunchHandlers\OpenDwgWithProfileSettingsEditor.cs" />
+    <Compile Include="Cadmech\Integrator\LaunchHandlers\OpenDwgWithProfileLaunchHandler.cs" />
+    <Compile Include="Cadmech\Integrator\LaunchHandlers\OpenDwgWithProfileModule.cs" />
+    <Compile Include="Cadmech\Integrator\LaunchHandlers\OpenDwgWithProfileSettings.cs" />
+    <Compile Include="Cadmech\Integrator\LaunchHandlers\OpenDwgWithProfileSettingCodec.cs" />
+    <Compile Include="Cadmech\Integrator\LaunchHandlers\OpenDwgWithProfileSettingsValidator.cs" />
+    <Compile Include="Cadmech\Integrator\DwgTasks\DwgTask.cs" />
+    <Compile Include="Cadmech\Integrator\DwgTasks\DwgStampUpdaterTask.cs" />
+    <Compile Include="Cadmech\Integrator\DwgTasks\StmFile.cs" />
+    <Compile Include="Cadmech\Integrator\DwgTasks\DwgReaderTask.cs" />
+    <Compile Include="Cadmech\Integrator\DwgCreator\ChoiceNewObjectType.cs" />
+    <Compile Include="Cadmech\Integrator\DwgCreator\DwgCreator.cs" />
+    <Compile Include="Cadmech\Integrator\DwgCreator\DwgCreatorModule.cs" />
+    <Compile Include="Cadmech\Integrator\DwgCreator\DwgCreatorProvider.cs" />
+    <Compile Include="Cadmech\Integrator\DwgCreator\SelectObject.cs" />
+    <Compile Include="Cadmech\Integrator\Integrator\AcadApiService.cs" />
+    <Compile Include="Cadmech\Integrator\Integrator\AcadAuthenticFilesService.cs" />
+    <Compile Include="Cadmech\Integrator\Integrator\BricscadApiService.cs" />
+    <Compile Include="Cadmech\Integrator\Integrator\CadIMTextDocumentProvider.cs" />
+    <Compile Include="Cadmech\Integrator\Integrator\CadTechRequirementsService.cs" />
+    <Compile Include="Cadmech\Integrator\COM\CreateSpecificationAsyncTask.cs" />
+    <Compile Include="Cadmech\Integrator\COM\SpecificationUpdater.cs" />
+    <Compile Include="Cadmech\Integrator\COM\SearchAPIBase.cs" />
+    <Compile Include="Cadmech\Integrator\COM\SearchAPIModule.cs" />
+    <Compile Include="Cadmech\Integrator\COM\SearchAPI.cs" />
+    <Compile Include="Cadmech\Integrator\COM\SilentException.cs" />
+    <Compile Include="Cadmech\Integrator\COM\SpdsAPI.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Cadmech\Integrator\DrawingTypeEditor.resx" />
+    <EmbeddedResource Include="Cadmech\Integrator\DwgCreator\ChoiceNewObjectType.resx" />
+    <EmbeddedResource Include="Cadmech\Integrator\DwgCreator\SelectObject.resx" />
+    <EmbeddedResource Include="Cadmech\Integrator\LaunchHandlers\OpenDwgWithProfileSettingsEditor.resx" />
+    <EmbeddedResource Include="Cadmech\Integrator\Properties\Resources.resx" />
+    <EmbeddedResource Include="Cadmech\Integrator\Resources\AutoCAD template.xml" />
+    <EmbeddedResource Include="Cadmech\Integrator\Resources\BricsCAD template.xml" />
+    <EmbeddedResource Include="Cadmech\Integrator\Resources\CadmechIntegratorResources.resx" />
+    <EmbeddedResource Include="Cadmech\Integrator\Resources\CustomAttributesResources.resx" />
+    <EmbeddedResource Include="Cadmech\Integrator\Resources\NanoCAD template.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="bRemove.CommandName" xml:space="preserve">
+    <value>bRemove</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="panelMain.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="mnpRemove.CommandName" xml:space="preserve">
+    <value>mnpRemove</value>
+  </data>
+  <data name="imagesToolbars.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABeEQAAAk1TRnQBSQFMAgEBBQEAARQBAAEUAQABEAEAARABAAT/ASEBEAj/AUIBTQE2BwABNgMAASgDAAFAAwABIAMAAQEBAAEgBgABIP8AJwADGgElAVMBRAFDAagBmQFHARkB8gGvAVUBHAH6AVwBOwE6AccBPgI8AWvkAAMrAUIBmgFMASUB8wH/Aa4BUgL/Aa0BSwL/AacBQAL/AZcBLQH/Ad8BfwEeAf4BTAJEAZDUAAFlAT0BNgHOAVYCQgGyAx0BKQGeAVABIAH1Af8BtwFmAv8BsgFcAf8BtQFcARsB+AFKAkMBiwMzAVMBRQJAAXwBegExASEB6AE3AjYBWtAAAacBXgEuAfYB/QHCAYUB/wGJAUABHQHuAf8ByQGOAv8BvgF3Af8BtgFdASAB+AMnATsMAAMUARwBRAJAAXrQAAFpATsBNAHVAf8B4AG9Av8BzwGeAv8BzAGWAf8B7AGmAWMB/wFAAj0BcOgAAVcBQgFBAbMB/wHpAdEC/wHSAaQC/wHPAZ8B/wHCAXcBLQH9AUICPwF1Aw0BEhMAAQEDBQEHzAABTQJEAZEB/wHzAeUC/wHiAcUC/wHcAbcC/wHUAaEC/wHDAYEB/wFNAkQBkQEiAiEBMQFQAkMBngFeATwBOgHHAXUBOgEwAeABpwFiATkB+AGkAVYBMwH3ATMCMgFSyAABNQI0AVUBuQF2ATkB+AG7AX0BQQH5AX0BQgEtAeMBYgE7ATkBygFVAUIBQQGwASICIQExAU4CRAGUAf8B2QGgAv8B5QG8Av8B5AHAAv8B4gG8Av8B5AG6Af8BTAJEAY/MAAMHAQkDAQECEAADDwEUAUQCQAF6AcABfgE+Af4B/wHTAaAC/wHRAaIC/wHgAbEB/wFWAkIBsegAAUECPgFyAfgBtwF5Av8BzAGUAv8BzwGYAv8B3wGwAf8BYgE3ATMB09AAAUwCRAGQAxIBGQwAAycBOwGsAV8BLAH2Af8BvgF4Av8BygGIAf8BgQE2ARoB7wH+AcwBmwH/AZUBSgEoAfPQAAE4AjcBXgGBAUABJAHnAUMCQAF3AzEBTwFKAkMBiQGuAV8BJwH2Af8BsAFaAv8BwQF8Af8BmgFMASUB8wMdASkBWQJBAbcBXgE9ATsBxdQAAU4CRAGVAesBgwEgAf4B/AGVAS0C/wGhAT0C/wGnAUYC/wG/AXgB/wGhAU8BJAH0AToCOQFi5AABQAI9AW8BYQE8ATgBywHGAXIBJwH9AasBWgEkAfcBWAFBAT8BuQEwAi8BS/8A/wBqAAGpAU4BEAH/Aa8BVAESAf8BqAFNARAB/wGhAUsBDgH/AaEBSgEQAf8BogFHAREB/xwAAcIBbAEgAf8BwgFsASAB/wHCAWwBIAH/AcIBbAEgAf8BwgFsASAB/wHCAWwBIAH/AcIBbAEgAf8BwgFsASAB/wHCAWwBIAH/AcIBbAEgAf8BwgFsASAB/wHCAWwBIAH/nAABwgFsASAB/wHoAZ4BUAH/AdwBgQEkAf8B2wGBAR4B/wHVAX0BGAH/AacBUQEKAf8cAAHsAaEBVgL/AeQBxgL/AeQBxgL/AeQBxgL/AeQBxgL/AeQBxgL/AeQBxgL/AeQBxgL/AeQBxgL/AeQBxgL/AeQBxgH/AcIBbAEgAf8cAAGpAVoBHAH/Aa8BYAEeAf8BqAFZARwB/wGhAVcBGgH/AaEBVgEcAf8BogFTAR0B/zAAAcMBgQFMAf8BygGBAUkB/zAAAcUBbQEiAf8B6AGpAWwB/wHZAYEBKwH/AdkBgQEoAf8B1QGBASQB/wGmAVMBDQH/HAAB7AGhAVYB/wHsAaEBVgH/AewBoQFWAf8B7AGhAVYB/wHsAaEBVgH/AewBoQFWAf8B7AGhAVYB/wHsAaEBVgH/AewBoQFWAf8B7AGhAVYB/wHsAaEBVgH/AewBoQFWAf8cAAHCAXgBLAH/AegBngFcAf8B3AGBATAB/wHbAYEBKgH/AdUBgQEkAf8BpwFdARYB/ywAAd4BhQFDAv8B0AGbAf8B0wGnAYEB/wHFAYEBMwH/LAAByAFzAScB/wHsAbIBeAH/Ad0BiAE1Af8B3QGGATMB/wHZAYMBLgH/AakBWQETAf9oAAHFAXkBLgH/AegBqQF4Af8B2QGBATcB/wHZAYEBNAH/AdUBgQEwAf8BpgFfARkB/ygAAdMBgQE3Af8B/gHJAZEB/wH3AboBgQH/AfcBtwGBAf8ByQGYAXUB/wHDAXoBLQH/KAABywF4ASwB/wHwAboBgQH/AeEBjwFAAf8B3wGNAT4B/wHcAYoBOgH/Aa0BXAEVAf8wAAHDAYEBQAH/AcoBgQE9Af8wAAHIAYEBMwH/AewBsgGBAf8B3QGIAUEB/wHdAYYBPwH/AdkBgwE6Af8BqQFlAR8B/yQAAcwBgQE0Af8B+gHCAYkB/wH0AbUBgQH/AfABrwF9Af8B8AGrAXgB/wHuAakBcwH/AcUBjAFhAf8BvwF3AS4B/yQAAcwBegEuAf8B8wHBAY8B/wHkAZYBTAH/AeQBlQFJAf8B4AGRAUYB/wGsAV8BGQH/LAAB3gGFATcC/wHQAZsB/wHTAacBgAH/AcUBdQEnAf8sAAHLAYEBOAH/AfABugGBAf8B4QGPAUwB/wHfAY0BSgH/AdwBigFGAf8BrQFoASEB/yAAAcgBgQE+Af8B/QHFAYoB/wH4AcQBjQH/AfABtQGBAf8B6wGmAXEB/wHqAaMBawH/AekBnwFmAf8B6wGgAWMB/wHCAYQBUQH/AbsBeQE5Af8UAAHBAYEBPQH/Ac0BdQEhAf8BzgF4ASgB/wHbAYoBRAH/Ae4BsAFyAf8B6AGfAVoB/wHmAZwBVAH/AeABlgFOAf8BqwFnAScB/wG1AWABFgH/AbwBYgEUAf8BuQFwATQB/xwAAdMBfQErAf8B/gHJAZEB/wH3AboBgQH/AfcBtwF7Af8ByQGYAWkB/wHDAW4BIQH/KAABzAGBAToB/wHzAcEBjwH/AeQBlgFYAf8B5AGVAVUB/wHgAZEBUgH/AawBawElAf8cAAHBAYEBQQH/AckBgQEwAf8BygGBAUEB/wHdAZYBZwH/AfIBwQGNAf8B6AGdAWQB/wHmAZoBXwH/Ad0BkwFZAf8BugF8ATUB/wG0AWsBIgH/AbQBZwEeAf8BugGBAUQB/xQAAcoBgAEzAf8B/gHaAbQB/wH4AccBlAH/Ae8BqwFrAf8B6wGnAWYB/wHpAaIBXwH/AecBngFZAf8B5QGdAVYB/wHsAaEBVgH/AcIBcQErAf8cAAHMAXcBKAH/AfoBwgGJAf8B9AG1AXwB/wHwAa8BcQH/AfABqwFsAf8B7gGpAWcB/wHFAYwBVQH/Ab8BawEiAf8YAAHBAYEBSQH/Ac0BgQEtAf8BzgGBATQB/wHbAYoBUAH/Ae4BsAGAAf8B6AGfAWYB/wHmAZwBYAH/AeABlgFaAf8BqwFzATMB/wG1AWwBIgH/AbwBbgEgAf8BuQF8AUAB/xwAAc4BgQFAAf8B8QG7AYQB/wHkAZYBWAH/AeQBlAFWAf8B3AGPAU8B/wGqAWYBIgH/JAABzAF5ASYB/wH9AdoBtgH/AfUBugGBAf8B7wGuAXAB/wHtAakBagH/AewBqQFnAf8B7wGpAWYB/wHGAXABJAH/HAAByAF7ATIB/wH9AcUBigH/AfgBxAGNAf8B8AG1AYAB/wHrAaYBZQH/AeoBowFfAf8B6QGfAVoB/wHrAaABVwH/AcIBhAFFAf8BuwFtAS0B/xgAAcoBgQE/Af8B/gHaAbQB/wH4AccBlAH/Ae8BqwF3Af8B6wGnAXIB/wHpAaIBawH/AecBngFlAf8B5QGdAWIB/wHsAaEBYgH/AcIBfQE3Af8gAAHMAYEBPwH/Ae8BtwGBAf8B4AGOAU0B/wHgAY4BSgH/AdkBiAFFAf8BqgFlASEB/ygAAdEBfQEoAv8B4QG/Af8B9QG6AYEB/wH0AbMBdwH/AfUBtwGAAf8BzgF4ASUB/xwAAcEBeQE1Af8ByQF0ASQB/wHKAXwBNQH/Ad0BlgFbAf8B8gHBAY0B/wHoAZ0BWAH/AeYBmgFTAf8B3QGTAU0B/wG6AXABKQH/AbQBXwEWAf8BtAFbARIB/wG6AXMBOAH/GAABzAGBATIB/wH9AdoBtgH/AfUBugGBAf8B7wGuAXwB/wHtAakBdgH/AewBqQFzAf8B7wGpAXIB/wHGAXwBMAH/JAAByQGBATsB/wHsAa8BgQH/Ad0BhgFBAf8B2wGFAT8B/wHWAYIBOgH/AakBYQEbAf8sAAHcAYQBNAL/AeQBxgL/Ac8BnAH/AdkBgQEuAf8sAAHOAX0BNAH/AfEBuwGEAf8B5AGWAUwB/wHkAZQBSgH/AdwBjwFDAf8BqgFaARYB/ygAAdEBgQE0Av8B4QG/Af8B9QG6AYEB/wH0AbMBgQH/AfUBtwGBAf8BzgGBATEB/ygAAcQBfQE1Af8B5wGnAXEB/wHZAYEBMgH/AdgBgQEyAf8B0wGBAS0B/wGnAV4BGAH/MAAB6QGYAVAB/wHrAZ0BVgH/MAABzAF7ATMB/wHvAbcBgQH/AeABjgFBAf8B4AGOAT4B/wHZAYgBOQH/AaoBWQEVAf8sAAHcAYQBQAL/AeQBxgL/Ac8BnAH/AdkBgQE6Af8sAAHEAXwBMQH/AfABvAGBAf8B5AGaAVwB/wHgAYsBRAH/AdUBgQEoAf8BpwFbARQB/2gAAckBdgEvAf8B7AGvAXUB/wHdAYYBNQH/AdsBhQEzAf8B1gGCAS4B/wGpAVUBDwH/MAAB6QGYAVwB/wHrAZ0BYgH/MAABqgFXARcB/wGvAV0BGwH/AawBWAEXAf8BqQFaARsB/wGsAVwBGgH/AaMBUQEYAf8cAAHCAWwBIAH/AcIBbAEgAf8BwgFsASAB/wHCAWwBIAH/AcIBbAEgAf8BwgFsASAB/wHCAWwBIAH/AcIBbAEgAf8BwgFsASAB/wHCAWwBIAH/AcIBbAEgAf8BwgFsASAB/xwAAcQBcQEpAf8B5wGnAWUB/wHZAYEBJgH/AdgBgQEmAf8B0wGBASEB/wGnAVIBDAH/nAAB7AGhAVYC/wHkAcYC/wHkAcYC/wHkAcYC/wHkAcYC/wHkAcYC/wHkAcYC/wHkAcYC/wHkAcYC/wHkAcYC/wHkAcYB/wHCAWwBIAH/HAABxAFwASUB/wHwAbwBgQH/AeQBmgFQAf8B4AGLATgB/wHVAYEBHAH/AacBTwEIAf+cAAHsAaEBVgH/AewBoQFWAf8B7AGhAVYB/wHsAaEBVgH/AewBoQFWAf8B7AGhAVYB/wHsAaEBVgH/AewBoQFWAf8B7AGhAVYB/wHsAaEBVgH/AewBoQFWAf8B7AGhAVYB/xwAAaoBSwELAf8BrwFRAQ8B/wGsAUwBCwH/AakBTgEPAf8BrAFQAQ4B/wGjAUUBDAH/FAABQgFNAT4HAAE+AwABKAMAAUADAAEgAwABAQEAAQEGAAEBFgAD/wEAAv8GAAH4AR8GAAHwAQ8GAAGAAQcGAAGAAecGAAGBAf8GAAGAAfMGAAGAAQEGAAGAAQEGAAHPAQEGAAH/AYEGAAHnAQEGAAHgAQEGAAHwAQ8GAAH4AR8GAAL/BgAE/wH4AR8BwAEDBP8B+AEfAcABAwH4AR8B/gF/AfgBHwHAAQMB+AEfAfwBPwH4AR8C/wH4AR8B+AEfAfgBHwH+AX8B+AEfAfABDwH4AR8B/AE/AfgBHwHgAQcBwAEDAfgBHwH4AR8BwAEDAeABBwHwAQ8BwAEDAfgBHwHwAQ8B4AEHAeABBwH4AR8B+AEfAcABAwHwAQ8B+AEfAfwBPwH4AR8B+AEfAfgBHwH+AX8B+AEfAfwBPwH4AR8C/wH4AR8B/gF/AfgBHwHAAQMB+AEfBP8BwAEDAfgBHwT/AcABAwH4AR8WAAs=</value>
+  </data>
+  <data name="&gt;&gt;bRemove.Name" xml:space="preserve">
+    <value>bRemove</value>
+  </data>
+  <data name="&gt;&gt;bRemove.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=2.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="panelMain.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACwBAAAsAQAACw==</value>
+  </data>
+  <data name="panelMain.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="menuObjectTypes.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;columnObjectTypes.Name" xml:space="preserve">
+    <value>columnObjectTypes</value>
+  </data>
+  <data name="&gt;&gt;columnObjectTypes.Type" xml:space="preserve">
+    <value>Infralution.Controls.VirtualTree.Column, Infralution.Controls.VirtualTree, Version=3.1.4.0, Culture=neutral, PublicKeyToken=8d2bc20ab69e4bb4</value>
+  </data>
+  <data name="&gt;&gt;mnpAdd.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=2.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mnpAdd.Name" xml:space="preserve">
+    <value>mnpAdd</value>
+  </data>
+  <data name="$this.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACwBAAAsAQAACw==</value>
+  </data>
+  <data name="columnObjectTypes.ToolTip" xml:space="preserve">
+    <value>Дерево типов объектов</value>
+  </data>
+  <data name="&gt;&gt;panelMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;toolBarRight.Name" xml:space="preserve">
+    <value>toolBarRight</value>
+  </data>
+  <data name="&gt;&gt;toolBarRight.Type" xml:space="preserve">
+    <value>Intermech.Bars.ToolBar, Intermech.Bars, Version=2.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnTypeBottom.Name" xml:space="preserve">
+    <value>btnTypeBottom</value>
+  </data>
+  <data name="&gt;&gt;btnTypeBottom.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=2.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnRefresh.ToolTipText" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="mnpRemove.Text" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="toolBarRight.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAUAQAAAAAAAAs=</value>
+  </data>
+  <data name="mnpAdd.CommandName" xml:space="preserve">
+    <value>mnpAdd</value>
+  </data>
+  <data name="&gt;&gt;mnpTypeUp.Name" xml:space="preserve">
+    <value>mnpTypeUp</value>
+  </data>
+  <data name="&gt;&gt;mnpTypeUp.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=2.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;panelMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;treeObjectsTypes.Parent" xml:space="preserve">
+    <value>panelMain</value>
+  </data>
+  <data name="menuObjectTypes.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAAAAAACw==</value>
+  </data>
+  <data name="menuObjectTypes.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAIkAAAAaAAAACw==</value>
+  </data>
+  <data name="menuObjectTypes.Text" xml:space="preserve">
+    <value>menuBar</value>
+  </data>
+  <data name="&gt;&gt;bAdd.Name" xml:space="preserve">
+    <value>bAdd</value>
+  </data>
+  <data name="&gt;&gt;bAdd.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=2.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnTypeUp.CommandName" xml:space="preserve">
+    <value>btnTypeUp</value>
+  </data>
+  <data name="treeObjectsTypes.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;treeObjectsTypes.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnTypeDown.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=2.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnTypeDown.Name" xml:space="preserve">
+    <value>btnTypeDown</value>
+  </data>
+  <data name="menuObjectTypes.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="columnObjectTypes.MinWidth" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="&gt;&gt;mnpRemove.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=2.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mnpRemove.Name" xml:space="preserve">
+    <value>mnpRemove</value>
+  </data>
+  <data name="btnTypeDown.CommandName" xml:space="preserve">
+    <value>btnTypeDown</value>
+  </data>
+  <data name="columnObjectTypes.HeaderStyle.HorzAlignment" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB5TeXN0ZW0uRHJhd2luZy5TdHJpbmdBbGlnbm1lbnQBAAAAB3ZhbHVlX18ACAIAAAAAAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;mnpTypeBottom.Name" xml:space="preserve">
+    <value>mnpTypeBottom</value>
+  </data>
+  <data name="&gt;&gt;mnpTypeBottom.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=2.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnTypeBottom.CommandName" xml:space="preserve">
+    <value>btnTypeBottom</value>
+  </data>
+  <data name="menuObjectTypes.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAALAAAAIAAAAAs=</value>
+  </data>
+  <data name="mnpTypeBottom.CommandName" xml:space="preserve">
+    <value>mnpTypeBottom</value>
+  </data>
+  <data name="bAdd.Text" xml:space="preserve">
+    <value>Добавить тип</value>
+  </data>
+  <data name="columnObjectTypes.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="&gt;&gt;menuObjectTypes.Name" xml:space="preserve">
+    <value>menuObjectTypes</value>
+  </data>
+  <data name="&gt;&gt;menuObjectTypes.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuBar, Intermech.Bars, Version=2.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="treeObjectsTypes.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="treeObjectsTypes.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABQBAAAsAQAACw==</value>
+  </data>
+  <data name="&gt;&gt;toolBarRight.Parent" xml:space="preserve">
+    <value>panelMain</value>
+  </data>
+  <data name="bAdd.ToolTipText" xml:space="preserve">
+    <value>Добавить тип</value>
+  </data>
+  <data name="bRemove.ToolTipText" xml:space="preserve">
+    <value>Удалить тип</value>
+  </data>
+  <data name="treeObjectsTypes.MinRowHeight" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="btnRefresh.CommandName" xml:space="preserve">
+    <value>btnRefresh</value>
+  </data>
+  <data name="&gt;&gt;treeObjectsTypes.Name" xml:space="preserve">
+    <value>treeObjectsTypes</value>
+  </data>
+  <data name="&gt;&gt;treeObjectsTypes.Type" xml:space="preserve">
+    <value>Intermech.VirtualTreeView.VirtualTreeView, Intermech.VirtualTreeView, Version=2.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;toolBarRight.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;menuObjectTypes.Parent" xml:space="preserve">
+    <value>panelMain</value>
+  </data>
+  <data name="treeObjectsTypes.RowHeight" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="mnpTypeUp.CommandName" xml:space="preserve">
+    <value>mnpTypeUp</value>
+  </data>
+  <data name="btnTypeTop.ToolTipText" xml:space="preserve">
+    <value>Переместить в начало</value>
+  </data>
+  <data name="&gt;&gt;btnRefresh.Name" xml:space="preserve">
+    <value>btnRefresh</value>
+  </data>
+  <data name="&gt;&gt;btnRefresh.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=2.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mnpRefresh.Name" xml:space="preserve">
+    <value>mnpRefresh</value>
+  </data>
+  <data name="&gt;&gt;mnpRefresh.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=2.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnTypeTop.Name" xml:space="preserve">
+    <value>btnTypeTop</value>
+  </data>
+  <data name="&gt;&gt;btnTypeTop.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=2.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="panelMain.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAAAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;menuObjectTypes.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;mnpTypeDown.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=2.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mnpTypeDown.Name" xml:space="preserve">
+    <value>mnpTypeDown</value>
+  </data>
+  <data name="btnTypeDown.ToolTipText" xml:space="preserve">
+    <value>Переместить вниз</value>
+  </data>
+  <data name="mnpAdd.Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="btnTypeBottom.ToolTipText" xml:space="preserve">
+    <value>Переместить в конец</value>
+  </data>
+  <data name="mnpRefresh.CommandName" xml:space="preserve">
+    <value>mnpRefresh</value>
+  </data>
+  <data name="treeObjectsTypes.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAAAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;panelMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelMain.Name" xml:space="preserve">
+    <value>panelMain</value>
+  </data>
+  <data name="bAdd.CommandName" xml:space="preserve">
+    <value>bAdd</value>
+  </data>
+  <data name="contextMenuObjects.CommandName" xml:space="preserve">
+    <value>contextMenuObjects</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>DocumentTypesWeightsEditor</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bRemove.Text" xml:space="preserve">
+    <value>Удалить тип</value>
+  </data>
+  <data name="mnpTypeDown.CommandName" xml:space="preserve">
+    <value>mnpTypeDown</value>
+  </data>
+  <data name="toolBarRight.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAEAAAACw==</value>
+  </data>
+  <data name="toolBarRight.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABgAAAAsAQAACw==</value>
+  </data>
+  <data name="toolBarRight.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="mnpTypeBottom.Text" xml:space="preserve">
+    <value>Переместить в конец</value>
+  </data>
+  <data name="mnpTypeTop.CommandName" xml:space="preserve">
+    <value>mnpTypeTop</value>
+  </data>
+  <data name="&gt;&gt;imagesToolbars.Name" xml:space="preserve">
+    <value>imagesToolbars</value>
+  </data>
+  <data name="&gt;&gt;imagesToolbars.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mnpRefresh.Text" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="btnTypeTop.CommandName" xml:space="preserve">
+    <value>btnTypeTop</value>
+  </data>
+  <data name="mnpTypeDown.Text" xml:space="preserve">
+    <value>Переместить вниз</value>
+  </data>
+  <data name="toolBarRight.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;contextMenuObjects.Name" xml:space="preserve">
+    <value>contextMenuObjects</value>
+  </data>
+  <data name="&gt;&gt;contextMenuObjects.Type" xml:space="preserve">
+    <value>Intermech.Bars.ContextMenuBarItem, Intermech.Bars, Version=2.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="mnpTypeTop.Text" xml:space="preserve">
+    <value>Переместить в начало</value>
+  </data>
+  <data name="btnTypeUp.ToolTipText" xml:space="preserve">
+    <value>Переместить вверх</value>
+  </data>
+  <data name="&gt;&gt;mnpTypeTop.Name" xml:space="preserve">
+    <value>mnpTypeTop</value>
+  </data>
+  <data name="&gt;&gt;mnpTypeTop.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=2.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="columnObjectTypes.Caption" xml:space="preserve">
+    <value>Типы объектов-документов</value>
+  </data>
+  <data name="mnpTypeUp.Text" xml:space="preserve">
+    <value>Переместить вверх</value>
+  </data>
+  <data name="&gt;&gt;btnTypeUp.Name" xml:space="preserve">
+    <value>btnTypeUp</value>
+  </data>
+  <data name="&gt;&gt;btnTypeUp.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=2.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Cadmech.Integrator_8" xml:space="preserve">
+    <value>В файле с составом сборочного чертежа отсутствует поле "{0}"! Проверьте файл настройки Cadmech {1} в каталоге CADM.</value>
+  </data>
+  <data name="Cadmech.Integrator_9" xml:space="preserve">
+    <value>Значение поля "{0}" = "{1}" не может быть преобразовано в массу изделия! {2}</value>
+  </data>
+  <data name="Cadmech.Integrator_6" xml:space="preserve">
+    <value>Невозможно создать или обновить спецификацию по сборочному чертежу "{0}", т.к. у него нет обозначения.</value>
+  </data>
+  <data name="Cadmech.Integrator_7" xml:space="preserve">
+    <value>Заполните обозначение и повторите операцию.</value>
+  </data>
+  <data name="Cadmech.Integrator_93" xml:space="preserve">
+    <value>Описание корневого объекта графа на задано!</value>
+  </data>
+  <data name="Cadmech.Integrator_92" xml:space="preserve">
+    <value>Не задан контейнер с настройками инструмента</value>
+  </data>
+  <data name="Cadmech.Integrator_91" xml:space="preserve">
+    <value>Не задано описание инструмента!</value>
+  </data>
+  <data name="Cadmech.Integrator_90" xml:space="preserve">
+    <value>Не удалось определить используемый интегратор типа"{0}" для файла "{1}"!</value>
+  </data>
+  <data name="Cadmech.Integrator_97" xml:space="preserve">
+    <value>Сборочный чертёж "{0}" не зарегистрирован в системе!</value>
+  </data>
+  <data name="Cadmech.Integrator_96" xml:space="preserve">
+    <value>Инструмент поддерживает только значения {0} и {1}!</value>
+  </data>
+  <data name="Cadmech.Integrator_95" xml:space="preserve">
+    <value>Контекст выполнения действия не задан!</value>
+  </data>
+  <data name="Cadmech.Integrator_94" xml:space="preserve">
+    <value>Описание открываемого файла на задано!</value>
+  </data>
+  <data name="Cadmech.Integrator_99" xml:space="preserve">
+    <value>Инструмент "{0}" некорректно сконфигурирован! </value>
+  </data>
+  <data name="Cadmech.Integrator_98" xml:space="preserve">
+    <value>Сборочный чертёж "{0}" должен быть взят на изменение!</value>
+  </data>
+  <data name="Cadmech.Integrator_82" xml:space="preserve">
+    <value>Не задана разметка полей в файле с составом сборочного чертежа!</value>
+  </data>
+  <data name="Cadmech.Integrator_83" xml:space="preserve">
+    <value>Не задано содержимое файла с составом сборочного чертежа!</value>
+  </data>
+  <data name="Cadmech.Integrator_80" xml:space="preserve">
+    <value>Не задан полный путь к чертежу Cadmech</value>
+  </data>
+  <data name="Cadmech.Integrator_81" xml:space="preserve">
+    <value>Путь к чертежу Cadmech должен быть полным!</value>
+  </data>
+  <data name="Cadmech.Integrator_86" xml:space="preserve">
+    <value>Не задан обновлённый состав сборочного чертежа!</value>
+  </data>
+  <data name="Cadmech.Integrator_87" xml:space="preserve">
+    <value>Не задана разметка полей в файле с составом сборочного чертежа!</value>
+  </data>
+  <data name="Cadmech.Integrator_84" xml:space="preserve">
+    <value>Не заданы паспортные данные чертежа!</value>
+  </data>
+  <data name="Cadmech.Integrator_85" xml:space="preserve">
+    <value>Создание состава сборочной единицы по сборочному чертежу</value>
+  </data>
+  <data name="Cadmech.Integrator_88" xml:space="preserve">
+    <value>Отправка результатов в Cadmech</value>
+  </data>
+  <data name="Cadmech.Integrator_89" xml:space="preserve">
+    <value>Файл "{0}" не зарегистрирован в файловом хранилище!</value>
+  </data>
+  <data name="Cadmech.Integrator_39" xml:space="preserve">
+    <value>Служба инструментов не найдена!</value>
+  </data>
+  <data name="Cadmech.Integrator_38" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="Cadmech.Integrator_31" xml:space="preserve">
+    <value>Для того чтобы импортировать файл "{0}", необходим хотя бы один инструмент типа "{1}". </value>
+  </data>
+  <data name="Cadmech.Integrator_30" xml:space="preserve">
+    <value>Не задан паспорт сборочного чертежа!</value>
+  </data>
+  <data name="Cadmech.Integrator_33" xml:space="preserve">
+    <value>Импорт файла "{0}" невозможен, т.к. ни один из перечисленных ниже инструментов не сконфигурирован должным образом. </value>
+  </data>
+  <data name="Cadmech.Integrator_32" xml:space="preserve">
+    <value>Создайте и настройте инструмент, а затем повторите операцию.</value>
+  </data>
+  <data name="Cadmech.Integrator_35" xml:space="preserve">
+    <value>Перечисленные ниже инструменты способны импортировать файл "{0}", но они неправильно сконфигурированы и </value>
+  </data>
+  <data name="Cadmech.Integrator_34" xml:space="preserve">
+    <value>Устраните ошибки и повторите операцию.</value>
+  </data>
+  <data name="Cadmech.Integrator_37" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="Cadmech.Integrator_36" xml:space="preserve">
+    <value>не могут быть сейчас использованы. Продолжить выполнение операции, игнорируя эти инструменты?</value>
+  </data>
+  <data name="Cadmech.Integrator_28" xml:space="preserve">
+    <value>Не задан файл настройки Cadmech, описывающий расположение полей в файле с составом сборочного чертежа!</value>
+  </data>
+  <data name="Cadmech.Integrator_29" xml:space="preserve">
+    <value>Не задан файл с составом сборочного чертежа!</value>
+  </data>
+  <data name="Cadmech.Integrator_20" xml:space="preserve">
+    <value>Описание длины поля "{0}" должно начинаться с символа 'C'!</value>
+  </data>
+  <data name="Cadmech.Integrator_21" xml:space="preserve">
+    <value>Не удалось преобразовать длину поля "{0}" = "{1}" в число.</value>
+  </data>
+  <data name="Cadmech.Integrator_22" xml:space="preserve">
+    <value>Не удалось прочитать значение поля "{0}". {1}</value>
+  </data>
+  <data name="Cadmech.Integrator_23" xml:space="preserve">
+    <value>Значение поля "{0}" = "{1}" не может быть записано в файл с составом сборочной единицы! Его длина превышает {2} символов.</value>
+  </data>
+  <data name="Cadmech.Integrator_24" xml:space="preserve">
+    <value>При чтении файла c составом сборочного чертежа произошла ошибка! </value>
+  </data>
+  <data name="Cadmech.Integrator_25" xml:space="preserve">
+    <value>Не заполнено обязательное поле "{0}"!</value>
+  </data>
+  <data name="Cadmech.Integrator_26" xml:space="preserve">
+    <value>Раздел спецификации с кодом '{0}' не поддерживается!</value>
+  </data>
+  <data name="Cadmech.Integrator_27" xml:space="preserve">
+    <value>Не задан путь к сборочному чертежу!</value>
+  </data>
+  <data name="Cadmech.Integrator_19" xml:space="preserve">
+    <value>Описание длины поля "{0}" должно иметь вид CXXXXXX (прочитано "{1}")!</value>
+  </data>
+  <data name="Cadmech.Integrator_18" xml:space="preserve">
+    <value>Описание поля должно содержать два элемента: имя и длину поля в символах (прочитано "{0}")!</value>
+  </data>
+  <data name="Cadmech.Integrator_13" xml:space="preserve">
+    <value>При чтении файла настройки Cadmech {0} произошла ошибка! {1}</value>
+  </data>
+  <data name="Cadmech.Integrator_12" xml:space="preserve">
+    <value>Значение поля "{0}" = "{1}" не может быть преобразовано в количество! {2}</value>
+  </data>
+  <data name="Cadmech.Integrator_11" xml:space="preserve">
+    <value>Значение поля "{0}" = "{1}" не является GUID! {2}</value>
+  </data>
+  <data name="Cadmech.Integrator_10" xml:space="preserve">
+    <value>Значение поля "{0}" = "{1}" не может быть преобразовано в идентификатор материала изделия! {2}</value>
+  </data>
+  <data name="Cadmech.Integrator_17" xml:space="preserve">
+    <value>Не задано расположение полей данных в выходном файле!</value>
+  </data>
+  <data name="Cadmech.Integrator_16" xml:space="preserve">
+    <value>Не задана таблица с составом сборочного чертежа!</value>
+  </data>
+  <data name="Cadmech.Integrator_15" xml:space="preserve">
+    <value>Не задано расположение полей данных в разбираемом файле!</value>
+  </data>
+  <data name="Cadmech.Integrator_14" xml:space="preserve">
+    <value>Не задано содержимое файла для разбора!</value>
+  </data>
+  <data name="Cadmech.Integrator_79" xml:space="preserve">
+    <value>Возможно, что в текущем окне не реализована работа с правилами подбора версий.</value>
+  </data>
+  <data name="Cadmech.Integrator_78" xml:space="preserve">
+    <value>Возможно, что плагин Intermech.Pdm не загружен.</value>
+  </data>
+  <data name="Cadmech.Integrator_75" xml:space="preserve">
+    <value>Имя файла с параметрами сканирования чертежа не задано!</value>
+  </data>
+  <data name="Cadmech.Integrator_74" xml:space="preserve">
+    <value>Не задано имя профиля!</value>
+  </data>
+  <data name="Cadmech.Integrator_77" xml:space="preserve">
+    <value>Возможно, что клиентская часть IMBASE не загружена.</value>
+  </data>
+  <data name="Cadmech.Integrator_76" xml:space="preserve">
+    <value>Файл "{0}" с параметрами сканирования чертежа на диске не найден</value>
+  </data>
+  <data name="Cadmech.Integrator_71" xml:space="preserve">
+    <value>Имя файла не задано!</value>
+  </data>
+  <data name="Cadmech.Integrator_73" xml:space="preserve">
+    <value>Имя файла не задано!</value>
+  </data>
+  <data name="Cadmech.Integrator_72" xml:space="preserve">
+    <value>Коллекция путей к выгружаемым файлам не задана!</value>
+  </data>
+  <data name="Cadmech.Integrator_63" xml:space="preserve">
+    <value>Следует ли восстановить подключение и продолжить выполнение, или текущая операция должна быть прервана?</value>
+  </data>
+  <data name="Cadmech.Integrator_59" xml:space="preserve">
+    <value>Для чертежей типа "{0}" не заданы объекты, которые по ним выпускаются.</value>
+  </data>
+  <data name="Cadmech.Integrator_58" xml:space="preserve">
+    <value>Инструмент должен быть назначен хотя бы на один тип объекта-чертежа.</value>
+  </data>
+  <data name="Cadmech.Integrator_57" xml:space="preserve">
+    <value>Комплект общих настроек данного типа не поддерживается!</value>
+  </data>
+  <data name="Cadmech.Integrator_56" xml:space="preserve">
+    <value>Не заданы настройки инструмента!</value>
+  </data>
+  <data name="Cadmech.Integrator_55" xml:space="preserve">
+    <value>Размещение</value>
+  </data>
+  <data name="Cadmech.Integrator_54" xml:space="preserve">
+    <value>Переместите файлы и повторите операцию.</value>
+  </data>
+  <data name="Cadmech.Integrator_53" xml:space="preserve">
+    <value>Ниже представлены файлы документы, расположенные не в корне файлового хранилища. </value>
+  </data>
+  <data name="Cadmech.Integrator_52" xml:space="preserve">
+    <value>Алгоритм расположения файлов на диске не задан!</value>
+  </data>
+  <data name="Cadmech.Integrator_51" xml:space="preserve">
+    <value>Выберите тип создаваемого объекта</value>
+  </data>
+  <data name="Cadmech.Integrator_50" xml:space="preserve">
+    <value>Выберите тип объекта, который будет выпущен по чертежу "{0}"</value>
+  </data>
+  <data name="Cadmech.Integrator_48" xml:space="preserve">
+    <value>Выберите тип чертежа "{0}</value>
+  </data>
+  <data name="Cadmech.Integrator_49" xml:space="preserve">
+    <value>Выберите тип создаваемого объекта</value>
+  </data>
+  <data name="Cadmech.Integrator_46" xml:space="preserve">
+    <value>Алгоритм для планирования расположения файлов чертежа на диске не задан!</value>
+  </data>
+  <data name="Cadmech.Integrator_47" xml:space="preserve">
+    <value>Не удалось прочитать штамп чертежа {0}, т.к. истекло время ожидания результатов от сканера чертежей!</value>
+  </data>
+  <data name="Cadmech.Integrator_44" xml:space="preserve">
+    <value>Описание открываемого файла на задано!</value>
+  </data>
+  <data name="Cadmech.Integrator_45" xml:space="preserve">
+    <value>Узел графа для файла "{0}" не реализует интерфейс "{1}"!</value>
+  </data>
+  <data name="Cadmech.Integrator_42" xml:space="preserve">
+    <value>Выберите один из них и нажмите "OK" для продолжения.</value>
+  </data>
+  <data name="Cadmech.Integrator_43" xml:space="preserve">
+    <value>Описание корневого объекта графа на задано!</value>
+  </data>
+  <data name="Cadmech.Integrator_40" xml:space="preserve">
+    <value>Выберите один из инструментов</value>
+  </data>
+  <data name="Cadmech.Integrator_41" xml:space="preserve">
+    <value>Система может выполнить импорт файла "{0}" с помощью любого из перечисленных ниже инструментов. </value>
+  </data>
+  <data name="Cadmech.Integrator_109" xml:space="preserve">
+    <value>Импорт файла '{0}'</value>
+  </data>
+  <data name="Cadmech.Integrator_108" xml:space="preserve">
+    <value>В процессе инициализации возникло исключение типа "{0}"!</value>
+  </data>
+  <data name="Cadmech.Integrator_103" xml:space="preserve">
+    <value>Плагин закончил инициализацию и приступил к работе.</value>
+  </data>
+  <data name="Cadmech.Integrator_102" xml:space="preserve">
+    <value>Комплекты настроек типа "{0}" не поддерживаются!</value>
+  </data>
+  <data name="Cadmech.Integrator_101" xml:space="preserve">
+    <value>Настройте инструмент и повторите попытку.</value>
+  </data>
+  <data name="Cadmech.Integrator_100" xml:space="preserve">
+    <value>
+
+Подробности:
+
+
+
+    </value>
+  </data>
+  <data name="Cadmech.Integrator_107" xml:space="preserve">
+    <value>Не удалось найти службу анализа файлов. Возможность импорта чертежей будет недоступна.</value>
+  </data>
+  <data name="Cadmech.Integrator_106" xml:space="preserve">
+    <value>Не удалось найти службу инструментов! Возможности плагина будут недоступны.</value>
+  </data>
+  <data name="Cadmech.Integrator_105" xml:space="preserve">
+    <value>Плагин не был инициализирован из-за возникших ошибок. Подробности смотрите на закладке "Вывод".</value>
+  </data>
+  <data name="Cadmech.Integrator_104" xml:space="preserve">
+    <value>Плагин "{0}"</value>
+  </data>
+  <data name="Cadmech.Integrator_110" xml:space="preserve">
+    <value>Сохранение изменений в документе '{0}'</value>
+  </data>
+  <data name="Cadmech.Integrator_111" xml:space="preserve">
+    <value>Передача данных в AVS из документа '{0}'</value>
+  </data>
+  <data name="EMB_DesignType" xml:space="preserve">
+    <value>Тип документа</value>
+  </data>
+</root>

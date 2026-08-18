@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.TechCard.Document.Interfaces.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{94078B34-D036-477A-9BDC-7092103AFBDF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.TechCard.Document.Interfaces</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.0.1</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Document.DBCore">
+      <HintPath>lib\Intermech.Document.DBCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Expert">
+      <HintPath>lib\Intermech.Expert.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Document">
+      <HintPath>lib\Intermech.Interfaces.Document.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.TechCard">
+      <HintPath>lib\Intermech.Interfaces.TechCard.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Localization\LocalizationHolder.cs" />
+    <Compile Include="Localization\CustomDescription.cs" />
+    <Compile Include="Localization\CustomDisplayName.cs" />
+    <Compile Include="Localization\CustomCategory.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Validate\IValidateDocumentAction.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Validate\ValidateDocumentMode.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Validate\ValidateDocumentHandler.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Validate\IsEmptyDocument\IsEmptyDocumentFlowAction.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Validate\IsEmptyDocument\IsEmptyDocumentHandler.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Validate\IsEmptyDocument\IsEmptyDocumentContainersAction.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Generate\Interfaces\ITechCardDocumentService.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Generate\Interfaces\TechCardDocumentGenerateParameter.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Structure\AttributeSettings.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Structure\AttributeSettingsConverter.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Structure\BlankConfig.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Structure\DocConfigs.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Structure\DocumentConfigElement.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Structure\ObjectOrderConfig.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Structure\ObjectsOrdersConfigs.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Structure\PictureFieldConfig.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Structure\Rules.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Structure\ConfigId.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Structure\SignConfigs.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Structure\TemplateAttribute.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Structure\TextFieldConfig.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Structure\TPStructureObjectConfig.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Structure\TPStructureObjectsConfigs.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Structure\VariantConfig.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Structure\Obsolete\TableProperties.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Structure\FieldContents\AttributeFieldContents.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Structure\FieldContents\BaseFieldContents.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Structure\FieldContents\CreateFieldContent.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Structure\FieldContents\FieldContentsFactory.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Structure\FieldContents\FieldContentsType.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Structure\FieldContents\FormulaFieldContents.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Structure\FieldContents\IFieldContents.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Structure\FieldContents\SetCondition.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Structure\FieldContents\TemplateFieldContents.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Serialization\Services\TechCardDocumentConfigLoadService.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Serialization\Services\TechCardDocumentConfigSerializeService.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Serialization\Save\AttributeFieldContentsSerializer.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Serialization\Save\BlankConfigSerializer.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Serialization\Save\DocumentConfigElementSerializer.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Serialization\Save\DocumentConfigSerializer.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Serialization\Save\FormulaFieldContentsSerializer.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Serialization\Save\PictureConfigSerializer.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Serialization\Save\TemplateFieldContentsSerializer.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Serialization\Save\TextFieldSerializer.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Serialization\Save\TPStructureObjectsConfigsSerializer.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Serialization\Save\VariantConfigSerializer.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Serialization\Load\AttributeFieldContentsLoader.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Serialization\Load\BlankConfigLoader.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Serialization\Load\DocumentConfigElementLoader.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Serialization\Load\DocumentConfigLoader.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Serialization\Load\FormulaFieldContentsLoader.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Serialization\Load\PictureConfigLoader.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Serialization\Load\TemplateFieldContentsLoader.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Serialization\Load\TextFieldLoadercs.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Serialization\Load\TPStructureObjectsConfigsLoader.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Serialization\Load\VariantConfigLoader.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Interfaces\IDocumentConfigElement.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Common\BlankConsts.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Common\BlankFlags.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Common\ConfigFormat.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Common\DocumentConfigElementFactory.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Common\DocumentConfigElementType.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Common\DocumentConfigElementTypeExtension.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Common\DocumentOwnership.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Common\GroupDocument.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Common\MaterialSetupType.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Common\NewShopSetupType.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Common\SketchTypes.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Common\StepSetupType.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Common\TablePropertiesFlags.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Common\ToolSetupType.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Attributes\FieldContentsTypeEditorAttribute.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Attributes\DocumentConfigElementEditorAttribute.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Attributes\DocumentConfigElementLoaderAttribute.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Attributes\DocumentConfigElementSerializerAttribute.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Configs\Attributes\DocumentConfigElementTypeAttribute.cs" />
+    <Compile Include="TechCard\Document\Interfaces\Common\DocumentTreeNodeExtension.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="TechCard\Document\Interfaces\Resources\CustomAttributesResources.resx" />
+    <EmbeddedResource Include="TechCard\Document\Interfaces\Resources\CustomResources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

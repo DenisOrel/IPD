@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="headerControl.Padding" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0B19ib3R0b20AAAAAAAEICAgIAgAAAAAaAAAAAQAAAAEAAAABAAAACw==</value>
+  </data>
+  <data name="columnF_VERSION_ID.HeaderStyle.HorzAlignment" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB5TeXN0ZW0uRHJhd2luZy5TdHJpbmdBbGlnbm1lbnQBAAAAB3ZhbHVlX18ACAIAAAACAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;btnAddComposition.Name" xml:space="preserve">
+    <value>btnAddComposition</value>
+  </data>
+  <data name="btnShowLinked.CommandName" xml:space="preserve">
+    <value>btnShowLinked</value>
+  </data>
+  <data name="&gt;&gt;btnAddComposition.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="columnF_OBJECT_TYPE.MinWidth" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="imagesMenus.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAACUIgAAAk1TRnQBSQFMAgEBCAEAATwBAAE8AQABEAEAARABAAT/ASEBEAj/AUIBTQE2BwABNgMAASgDAAFAAwABMAMAAQEBAAEgBgABMP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8APwACkwH/AQACkwH/TQABmgHIAf8BUQGkAbsB/6EAAq0B/wEAAucB/wEAAtwB/wEAApMB/0AAAUEBvgHbAf8BAAGaAcgB/wEAAagB3QH/AQABOAFnAf8BAAE4AWcB/wFRAaQBuwH/SAABXAJYAcwByQGWAXYB/wHFAZIBdAH/AcEBjgFyAf8BvQGKAXAB/wG5AYYBbgH/AbUBggFsAf8BsQF2AWoB/wGtAXIBaAH/AakBbgFmAf8BpQFqAWQB/wFcAlgBzB0AAq0B/wEAAucB/wEAA/8BAQP/AQAC3AH/AQACkwH/PQABmgHIAf8BAAGoAd0B/wEAAagB3QH/AQABOAFnAf8BAAE4AWcB/wEAATgBZwH/BAAB1wGsAXUB/wHIAYwBQQH/AcgBjAFBAf8ByAGMAUEB/wHIAYwBQQH/AcgBjAFBAf8ByAGMAUEB/wHIAYwBQQH/AcgBjAFBAf8ByAGMAUEB/wHIAYwBQQH/AcgBjAFBAf8B2QGxAYYB/wHuAdoBxwH/CAABXAJYAcwB7gHaAc4B/wP5Af8D+QH/A/oB/wP8Af8D/hX/AdsBxwHEAf8BXAJYAcwZAAKtAf8BXwL+Af8BpwP/AacD/wEBA/8BAAKTAf89AAGoAd0B/wEAAagB3QH/AQABmgHIAf8BAAE4AWcB/wEAATgBZwH/AQABOAFnAf8EAAHQAZoBWAL/AfsB+gL/AfsB+gL/AfsB+gL/AfsB+gL/AfsB+gL/AfsB+gL/AfsB+gL/AfsB+gL/AfsB+gL/AfsB+gL/AfsB+gL/AfsB+gH/AdABmgFYAf8IAAHSAZ8Bggb/AfAB4QL/AfYB7AL/AfsB9w3/A4sB/wOKAf8DiQn/AaUBagFkAf8dAAKtAf8BBgP/ATkD/wEAAq0B/0EAAagB3QH/ARUBxAHpAf8BagHZAfAB/wEPAbgB6AH/AQABawG3Af8BAAE4AWcB/wQAAcgBjAFBAv8B+wH6Af8B2QGxAYYB/wHZAbEBhgH/AdkBsQGGAf8B2QGxAYYB/wHZAbEBhgH/AdkBsQGGAf8B2QGxAYYB/wHZAbEBhgH/AdkBsQGGAf8B2QGxAYYC/wH7AfoB/wHIAYwBQQH/CAAB1wGkAYQG/wHwAeEC/wH2AewB/wHZAWsBAAH/AdgBagEAAf8B1wFpAQAF/wONAf8DiwH/A4oJ/wGpAW4BZgH/EAABYAEAAeAB/wFgAQAB4AH/CQACrQH/AQACrQH/CAABFgGYAQAB/wEWAZgBAAH/FAABvwGgAWsB/wGdAYoBZQH/FAACaAFpAf8BAAGoAd0B/wFqAdkB8AH/AWoB2QHwAf8BagHZAfAB/wFqAdkB8AH/AQ8BuAHoAf8EAAHIAYwBQQL/AfsB+gH/AdABmgFYAf8D1gH/A9YB/wHQAZoBWAH/A9YB/wPWAf8B0AGaAVgB/wPWAf8D1gH/AdABmgFYAv8B+wH6Af8ByAGMAUEB/wgAAdwBqQGHBv8B8AHhAv8B9gHsAf8B2gFsAQAh/wGuAXMBaAH/DAABYAEAAeAB/wHHAY8C/wFfAQAB3gH/AWABAAHgAf8QAAEWAZgBAAH/AWUB/wE3Af8BFQGWAQAB/wEWAZgBAAH/CAABvwGgAWsB/wHFAYQBOwH/AcUBhAE7Af8BZQE2ARQB/wFlATYBFAH/AZ0BigFlAf8IAAJoAWkB/wgAAQ8BuAHoAf8BagHZAfAB/wEPAbgB6AH/AQ8BuAHoAf8IAAHIAYwBQQL/AfsB+gH/AdkBsQGGAf8B2QGxAYYB/wHZAbEBhgH/AdkBsQGGAf8B2QGxAYYB/wHZAbEBhgH/AdkBsQGGAf8B2QGxAYYB/wHZAbEBhgH/AdkBsQGGAv8B+wH6Af8ByAGMAUEB/wgAAeEBrgGKBv8B7gHdAv8B9AHoAf8B2wFtAQAC/wH9AfsJ/wOPAf8DjgH/A40B/wOMBf8BswGBAWsB/wgAAWABAAHgAf8B3gG+Av8B3gG+Av8BrwFQAf4B/wFgAQAB4AH/AWABAAHgAf8IAAEWAZgBAAH/AZgB/gFmAf8BmAH+AWYB/wFCAf8BCAH/ARYBmAEAAf8BFgGYAQAB/wQAAcUBhAE7Af8BxQGEATsB/wHFAYQBOwH/AWUBNgEUAf8BZQE2ARQB/wFlATYBFAH/BAACaAFpAf8kAAHIAYwBQQL/AfsB+gL/AfsB+gL/AfsB+gL/AfsB+gL/AfsB+gL/AfsB+gL/AfsB+gL/AfsB+gL/AfsB+gL/AfsB+gL/AfsB+gL/AfsB+gH/AcgBjAFBAf8IAAHlAbIBjAX/Ad4BcAEAAf8B3QFvAQAB/wHdAW8BAAH/AdwBbgEAAf8B2wFtAQAF/wORAf8DkAH/A48B/wONBf8BtwGEAW0B/wgAAWABAAHgAf8B3gG+Av8B+gH2Av8B+gH2Av8BrwFQAf4B/wFgAQAB4AH/CAABFgGYAQAB/wGYAf4BZgH/AcIB/wGuAf8BwgH/Aa4B/wFCAf8BCAH/ARYBmAEAAf8EAAHFAYQBOwH/AcUBhAE7Af8BywGOAUIB/wFlATYBFAH/AWUBNgEUAf8BZQE2ARQB/wKPAZAB/ygAAcgBjAFBAv8B+wH6Af8BwAFgAToB/wHAAWABOgH/AcABYAE6Af8BwAFgAToB/wHAAWABOgH/AcABYAE6Af8BwAFgAToB/wHAAWABOgH/AcABYAE6Af8BwAFgAToC/wH7AfoB/wHIAYwBQQH/CAAB6QG2AY4F/wHgAXIBAAL/Ae4B3QL/AfQB6AL/AfcB8AL/AfsB9xX/A/4B/wG6AYcBbwH/DAABYAEAAeAB/wGyAVUC/wHLAZgC/wFgAQAB4AH/EAABFgGYAQAB/wFGAf8BDQH/AWwB/wFAAf8BFgGYAQAB/wgAAcsBjgFCAf8B2QGqAVoB/wHyAcsBiwH/AcwBoAFUAf8BmwFRAS0B/wFlATYBFAH/BAACaAFpAf8QAAETASgBswH/AWcBbgG1Af8MAAHIAYwBQQL/AfsB+gH/AcABYAE6Af8BAAH/AQAB/wEAAf8BAAH/AcABYAE6Af8BAAH/AQAB/wEAAf8BAAH/AcABYAE6Af8BAAH/AQAB/wEAAf8BAAH/AcABYAE6Av8B+wH6Af8ByAGMAUEB/wgAAe0BugGQAf8BAAFtAQAB/wEAAWgBAAH/AQABZQEAAv8B8AHhAv8B9AHoAf8DlwH/A5UB/wOUAf8Dkwn/A/wB/wG+AYsBcQH/EAABYAEAAeAB/wFgAQAB4AH/CAAB1AGRAQEB/wHUAZEBAQH/CAABFgGYAQAB/wEWAZgBAAH/DAAB8gHLAYsB/wHyAcsBiwH/AfIBywGLAf8B8gHLAYsB/wHyAcsBiwH/AcwBoAFUAf8IAAJoAWkB/wQAAV0BawHIAf8BAAEcAbgB/wEAARwBuAH/AQABBwGOAf8BEQEiAaAB/wHSAdcB7gH/BAAB0AGaAVgC/wH7AfoB/wHAAWABOgH/AcABYAE6Af8BwAFgAToB/wHAAWABOgH/AcABYAE6Af8BwAFgAToB/wHAAWABOgH/AcABYAE6Af8BwAFgAToB/wHAAWABOgL/AfsB+gH/AdABmgFYAf8IAAHxAb4BkgH/AQABdQEAAf8BPAHdAW8B/wEAAWoBAAH/AeABcgEAAv8B8AHhAf8DmAH/A5cB/wOVAf8DlAL/AfsB9wL/AfsB9wH/A/oB/wHCAY8BcwH/HAAB1AGRAQEB/wHrAcwBpwH/AdQBkAEAAf8B1AGRAQEB/xwAAfIBywGLAf8B8gHLAYsB/wHyAcsBiwH/AfIBywGLAf8QAAJoAWkB/wEAARwBuAH/AQABHAG4Af8BAAEcAbgB/wEAAQcBkwH/AQABBwGTAf8BAAEHAZMB/wQAAdABmgFYAv8B+wH6Av8B+wH6Av8B+wH6Av8B+wH6Av8B+wH6Av8B+wH6Av8B+wH6Av8B+wH6Av8B+wH6Av8B+wH6Av8B+wH6Av8B+wH6Af8B0AGaAVgB/wUAAYcBAAH/AQABhQEAAf8BAAGBAQAB/wFAAeEBcwH/AQABcgEAAf8BAAFtAQAB/wEAAWgBAAL/Ae4B3QL/AfIB5QL/AfQB6AL/AfYB7AL/AfYB7AL/AfYB7AH/A/kB/wHGAZMBdQH/GAAB1AGRAQEB/wH+AeUBxAH/Af4B5QHEAf8B8wHGAWAB/wHUAZEBAQH/AdQBkQEBAf89AAEcAbgB/wEAARwBuAH/AQIBHwG7Af8BAAEHAYgB/wEAAQcBkwH/AQABBwGTAf8EAAHPAYEBRAH/AeUBnQFRAf8B4wGXAU4B/wHgAZEBSwH/Ad4BigFIAf8B2wGCAUQB/wHYAW8BQAH/AdUBZgE7Af8B0QFcATcB/wHPAVYBMwH/Ac8BVgEzAf8BzwFWATMB/wHPAVYBMwH/AcABSwEvAf8FAAGNAQAB/wFWAfcBkQH/AVIB8wGNAf8BSwHsAYYB/wFAAeEBcwH/AT0B3gFwAf8BAAFwAQAC/wHrAdYC/wHtAdoC/wHuAd0C/wHwAeEC/wHwAeEC/wHwAeEB/wP5Af8ByQGWAXYB/xgAAdQBkQEBAf8B/gHlAcQC/wH+AfgC/wH+AfgB/wHzAcYBYAH/AdQBkQEBAf88AAECAR8BuwH/ASwBQwHlAf8BgwGSAfMB/wFDAVQB3QH/ARABLAHHAf8BAAEHAZMB/wQAAd8BlwFPAf8B/QHCAWIB/wH7AbwBYAH/AfkBtgFcAf8B9gGtAVgB/wHyAaQBVAH/Ae8BmgFPAf8B6wGOAUkB/wHmAYEBQwH/AeEBagE9Af8B3gFiATgB/wHeAWIBOAH/Ad4BYgE4Af8BzwFWATMB/wUAAZEBAAH/AQABjQEAAf8BAAGLAQAB/wFSAfMBjQH/AQABgwEAAf8BAAGBAQAB/wEAAXUBABn/Ae4B2gHOAf8BXAJYAcwcAAHUAZEBAQH/AewBxAFsAf8B8wHYAacB/wHUAZEBAQH/QAABgwGSAfMB/wGDAZIB8wH/AYMBkgHzAf8BgwGSAfMB/wGDAZIB8wH/ARABLAHHAf8EAAHLAYcBYQH/AcABYAE6Af8BwAFgAToB/wHAAWABOgH/AcABYAE6Af8BwAFgAToB/wHAAWABOgH/AcABYAE6Af8BwAFgAToB/wHAAWABOgH/AcABYAE6Af8BwAFgAToB/wHAAWABOgH/AckBggFfAf8NAAGPAQAB/wFWAfcBkQH/AQABiQEAAf8B8QG+AZIB/wHtAboBkAH/AekBtgGOAf8B5QGyAYwB/wHhAa4BigH/Ad0BqgGIAf8B2QGmAYYB/wHVAaIBhAH/AVwCWAHMJAAB1AGRAQEB/wHUAZEBAQH/SAABgwGSAfMB/wGDAZIB8wH/AYMBkgHzAf8BgwGSAfMB/00AAZMBAAH/AQABkQEAAf8BAAGNAQAB/0AAATcBkgE8Af8BHQGfAS4B/wEgAa4BNwH/ASEBsAE6Af8BIAGiATEB/wE4AZMBPQH/ZAADQAFwAWEBUwFYAeYBBgELAY4B/gIAAcYB/wIAAcgB/wEGAQsBkQH+AWEBUwFYAeYDQAFwXAABJQGEAScB/wEfAbQBNgH/AUEB6QFqAf8BSAHwAYMB/wFPAfcBjgH/AVQB/AGVAf8BUAH4AY4B/wFJAfEBhAH/ASQBuQE9Af8BJQGEASgB/ygAAxwBKAFPAk4BlwFVAlQBtQFbAlgB0gFYAU4BWAHvAVUCVAG1FAADFgEfAVYBSgFWAe8CAAHGAf8CAAHoAf8CAAHvAf8CAAH2Af8CAAH7Af8CAAH4Af8CAAHxAf8CAAHMAf8BVgFKAVYB7wMWAR8cAAHmAdMBvgH/Ac0BkQFKAf8BvgFlAQAB/wG+AWUBAAH/Ab4BZQEAAf8B0gGdAV8B/wHmAdUBwQH/GAABIAGMASYB/wEvAdMBTQH/ATkB4QFeAf8BQAHoAWgB/wFGAe4BgQH/AbkB8AHEAf8BuQHwAcQB/wG5AfABxAH/AUcB7wGBAf8BQAHoAWgB/wE1AdoBVwH/ASIBjAEnAf8gAAMCAQMBRgFUAWoB9QG+AfMC/wGWAdgC/wFgAboC/wE6AYwB/QH/AVICUAGjEAADFgEfAT8BNAFhAfYCAAHVAf8CAAHgAf8CAAHnAf8CAAHuAf8CAAH1Af8CAAH6Af8CAAH3Af8CAAHxAf8CAAHqAf8CAAHeAf8BPwE0AWIB9gMWAR8UAAHfAcEBngH/Ab4BZQEAAf8B1wGrAXgB/wHoAdsBywH/BAAB6AHaAcoB/wHUAaQBawH/Ab4BZQEAAf8B3gG+AZkB/xAAASQBgwElAf8BJgHLAUEB/wEwAdgBUAH/ATcB3wFaAf8BPQHlAWMB/wFCAeoBawn/AbkB8AHEAf8BQgHqAWsB/wE9AeUBYwH/ATcB3wFaAf8BLQHSAUsB/wEkAYMBJgH/EAADIgEyAzEBTwgAAlABXwHzAYkBzgL/AWMBvQL/AVUBrQL/AVoBUwFUAeQDFgEeEAABVgFKAVYB7wIAAc0B/wIAAdcB/wIhAeQB/wKPAfQB/wIAAesB/wIAAfAB/wIAAfMB/wIAAfIB/wKPAfgB/wIhAewB/wIAAeEB/wIAAdYB/wFWAUoBVgHvEAAB6AHaAcoB/wG+AWUBAAH/AeMBzQG0Af8UAAHhAcUBpgH/Ab4BZQEAAf8QAAEPAaQBHgH/AScBzwFCAf8BLQHVAUsB/wEzAdsBVAH/AUAB4gFiAf8BSQHmAWwJ/wG5AfABxAH/AUQB5gFoAf8BOAHgAVwB/wEzAdsBVAH/AS0B1QFLAf8BEwGoASUB/wwAA0ABcAFeAVcBVAHdAw0BEggAAV4CVwHdAVkBswL/AVMBrAL/AUYBnAL/ATUBigL/AWABVAFYAesDJQE3CAADQAFwAgABtwH/AgABzgH/AiEB3AH/Au8B/QX/Ap8B9gH/AgAB6gH/AgAB7AH/Ap8B+AX/Au8B/QH/AiEB4wH/AgAB1wH/AgABvAH/A0ABcAwAAdEBmgFbAf8B1gGpAXQB/ywAATIBjQE0Af8BHQHFATMB/wEjAcsBPAH/ATIB0wFNAf8BSwHcAWUB/wFTAeEBbgH/AVYB5AGCCf8BuQHwAcQB/wFWAeQBggH/AVAB4QFsAf8BOAHYAVUB/wEpAdEBRQH/ASMBywE9Af8BMgGOATUB/wQAAy0BRQExAaQBPwH9AT8CPgFsDAABWQJWAccBRgGcAv8BLQFNAYQB+gEpAWIB/AH/ARMBUQL/AQABNAL/AVsBUwFYAewDFQEdBAABYQFTAVYB5gIAAcQB/wIAAcsB/wKPAeoN/wKfAfUB/wKfAfYN/wKPAe0B/wIAAdMB/wIAAc0B/wFhAVMBWAHmCAAB7AHlAdwB/wG+AWUBAAH/AekB3AHNAf8sAAEKAYwBEAH/ARkBwQEtAf8BLwHLAUQB/wG5AfABxAH/AbkB8AHEAf8BuQHwAcQB/wG5AfABxAn/AbkB8AHEAf8BuQHwAcQB/wG5AfABxAH/AbkB8AHEAf8BNAHQAUwB/wEfAccBNgH/AQwBjgEUAf8EAAFZAlcBvwEGAbMBIQH/ASwCKwFDDAABTgJNAZUBGwFbAv8DPAFmAzsBYwFXAVABYAHxAQABIgL/AQABGgH5Af8BUQJPAZwEAAEFAQoBfwH+AgABwQH/AgABxwH/AgABzAH/Ap8B7Rn/Ap8B7wH/AgAB0wH/AgABzgH/AgAByQH/AQUBCgF/Af4IAAHtAecB4QH/Ab4BZQEAAf8B6QHcAc0B/xwAAdUBpAFsAf8MAAEBAY8BCQH/ARkBvgErAf8BVgHTAWUp/wFaAdcBagH/AR8BxAEzAf8BBAGSAQ0B/wQAAUYBWQFCAfUBDgG/ATQB/wFFAkQBfAwAAx0BKQNIAYUDCgENBAADIQEwAVkBSwFbAfIBAAETAe0B/wFcAVQBVQHnBgABqQH/AgABvQH/AgABwwH/AgAByAH/AgABzAH/AqEB7RH/AqMB7wH/AgAB0gH/AgABzwH/AgABywH/AgABxAH/AgABrQH/Ad0BuwGVAf8BvgFlAQAB/wHhAcYBpwH/Ab4BZQEAAf8B3gG9AZgB/wG+AWUBAAH/Ad0BuwGVAf8QAAHVAaQBbAH/Ab4BZQEAAf8B1QGkAWwB/wkAAY0BBQH/AS8BwgE8Af8BZAHVAXAp/wFnAdgBgwH/ATMBxgFDAf8BAQGQAQkB/wQAAWABVgFUAesBEwHHAUEB/wJZAU4B8gMhATAEAAMLAQ8BSgJJAYkDHQEpDAABRgJFAX8BAAEOAeEB/wFYAU0BVgHvBgABpgH/AgABuQH/AgQBwgH/AgUBxgH/AgYBywH/AqYB7BH/AqgB7gH/Ag4B0AH/Ag8BzgH/AhABywH/AgEBwwH/AgABqgH/BAAB1QGkAWwB/wG+AWUBAAH/Ab4BZQEAAf8BvgFlAQAB/wHVAaQBbAH/EAAB1QGkAWwB/wG+AWUBAAH/Ab4BZQEAAf8BvgFlAQAB/wHVAaQBbAH/BAABBQGHAQoB/wE7AcMBRQH/AW8B1gGHAf8BgQHYAYoB/wGCAdoBjQH/AYQB3AGPAf8BhQHdAZEJ/wG5AfABxAH/AYUB3QGRAf8BhAHcAY8B/wGCAdoBjQH/AYEB2AGKAf8BPwHGAUsB/wEHAYgBDAH/BAABUQJQAZ8BKQHQAVgB/wEhAdMBWgH/AVcBWAFQAfEDOwFlAT4CPQFqAWAB9wGmAf8DTAGSDAADLgFIAQABBAHOAf8BWAJWAbsEAAEFAQoBfwH+AgUBuQH/AhsBwwH/AhwBxwH/Aq4B6xn/ArEB7QH/AiUBzgH/AiYBywH/AhcBwwH/AQUBCgF/Af4IAAHVAaQBbAH/Ab4BZQEAAf8B1QGkAWwB/xAAAd0BuwGVAf8BvgFlAQAB/wHeAb0BmAH/Ab4BZQEAAf8B4QHGAacB/wG+AWUBAAH/Ad0BuwGVAf8BLwGLATAB/wE+AcEBRgH/AYkB1wGPAf8BigHZAZIB/wGMAdsBlAH/AY0B3AGWAf8BjgHdAZgJ/wG5AfABxAH/AY4B3QGYAf8BjQHcAZYB/wGMAdsBlAH/AYoB2QGSAf8BQQHEAUoB/wEvAYsBMQH/BAADFgEeAVsBWAFTAewBJQHYAV0B/wE6AeEBggH/AUQB3QGCAf8BMgF/AUkB+wFpAf0BrQH/AVoCVwHFDAADQAFwAR4BLgGoAf0DKgFBBAABYQFTAVYB5gIEAbMB/wIxAcUB/wKqAecN/wK7Ae4B/wK7Ae4N/wKvAekB/wI8AcwB/wIbAcAB/wFhAVMBVgHmDAAB1QGkAWwB/xwAAekB3AHNAf8BvgFlAQAB/wHtAecB4QH/DAABEwGYARcB/wGTAdkBlwH/AZUB2gGaAf8BlgHcAZsB/wGXAd0BnQH/AZgB3gGeCf8BuQHwAcQB/wGYAd4BngH/AZcB3QGdAf8BlgHcAZwB/wGVAdoBmgH/ARUBmgEaAf8MAAMlATcBYAFWAVQB6wFPAeoBlAH/AVoB7QGbAf8BZgH1AaYB/wGHAf8BsQH/AV4BVwFWAdsIAAMQARUBWwFUAVUB3gM+AWsIAANAAXACAAGkAf8CRwHIAf8CaAHUAf8C9QH8Bf8CwwHuAf8CTAHRAf8CTQHSAf8CxAHuBf8C9gH8Af8CcAHZAf8CUgHOAf8CDwGwAf8DQAFwLAAB6QHcAc0B/wG+AWUBAAH/AewB5QHcAf8MAAEhAYEBIgH/AWoBygFsAf8BoAHdAaMB/wGhAd4BpQH/AaIB3gGmAf8BogHfAacJ/wG5AfABxAH/AaIB3wGnAf8BogHfAaYB/wGhAd4BpQH/AWsBywFvAf8BIQGBASIB/xAAAxYBHgFhAVYBUwHmAWEB8AGhAf8BgQHzAaYB/wGQAf8BuAH/AlkBTwHyCAADMQFPAyABLxAAAVYBSgFWAe8CJQG3Af8CXQHNAf8CiQHYAf8CwgHrAf8CYAHSAf8CYQHTAf8CYgHUAf8CYwHUAf8CxAHsAf8CjwHcAf8CZgHTAf8CSAHGAf8BVgFKAVYB7zAAAdYBqQF0Af8B0QGaAVsB/xQAASABhQEhAf8BjAHQAY4B/wGuAeEBsAH/Aa4B4QGxAf8BrwHiAbEB/wGvAeIBsgH/Aa8B4gGyAf8BrwHiAbIB/wGvAeIBsQH/Aa4B4QGxAf8BjgHRAZAB/wEhAYYBIgH/FAADUgGpAVQB3wGPAf8BZAHzAaUB/wGJAfoBsQH/AZIB/wG6Af8BWAFWAU4B7wMAAQEcAAMWAR8BOwE0AVoB9gJAAb4B/wKBAdMB/wKCAdQB/wKDAdUB/wKEAdYB/wKFAdYB/wKGAdcB/wKHAdcB/wKIAdYB/wJfAcsB/wFBATUBXQH2AxYBHxAAAb4BZQEAAf8B4QHFAaYB/xQAAeMBzQG0Af8BvgFlAQAB/wHoAdoBygH/GAABIQGBASEB/wFNAawBTgH/Aa4B4AGvAf8BugHlAbwB/wG7AeUBvAH/AbsB5gG8Af8BuwHlAbwB/wGvAeABsAH/AU4BrAFOAf8BLAGEASwB/xgAAVYCVQG2AV0BUwFSAe0BXQJXAdADVQGyAUACPwFvAxoBJSQAAxYBHwFWAUoBVgHvAhUBqgH/AlYBxQH/ApcB2QH/ApgB2gH/ApkB2gH/ApoB2gH/Am0BzwH/AikBswH/AVYBSgFWAe8DFgEfFAAB3gG+AZkB/wG+AWUBAAH/AdQBpAFrAf8B6AHaAcoB/wQAAegB2wHLAf8B1wGrAXgB/wG+AWUBAAH/Ad8BwQGeAf8kAAEtAYkBLQH/ASEBjgEiAf8BIgGUASMB/wEiAZQBIwH/ASIBjgEiAf8BLQGJAS0B/2QAA0ABcAFbAVMBVgHmAQQBCQF/Af4CGgGrAf8CGgGrAf8BBAEJAX8B/gFbAVMBVgHmA0ABcCAAAeYB1QHBAf8B0gGdAV8B/wG+AWUBAAH/Ab4BZQEAAf8BvgFlAQAB/wHNAZEBSgH/AeYB0wG+Af8UAAFCAU0BPgcAAT4DAAEoAwABQAMAATADAAEBAQABAQUAAYABARYAA/+BAAH+AX8B/wHzBP8B/AE/Af8BwAL/AcABAwH4AR8B/wHAAYABAQGAAQEB+AEfAf8BwAGAAQEBgAEBAfwBPwH/AcABgAEBAYABAQHmAWcBzwKAAQEBgAEBAsMBAwFhAYABAQGAAQECgQECAf8BgAEBAYABAQKBAQEB/wGAAQEBgAEBAsMBAgHzAYABAQGAAQEB5gFnAQMBQAGAAQEBgAEBAfwBPwGHAoABAQEAAQEB+AEfAf8BwAGAAQEBAAEBAfgBHwH/AcABgAEBAQABAQH8AT8B/wHAAYABAQHAAQMB/gF/Af8B4QL/AccB/wH4AR8C/wHwAQ8C/wHgAQcB/gEHAcABAwH4AQ8BwAEDAfwBBwGAAQEB8AGHAYABAQHmAQcBgAEBAeMB5wGAAQEBxgEDAgAB5wH/AgABjgEBAgABxwH/AgABjgEBAgABxwH3AgABjgEhAgABAQHjAgABhAFxAgABgwHBAgABgAFxAgABxwGAAgABgAFxAgAB7wHjAYABAQHAAWMCAAH/AeMBgAEBAeABZwGAAQEB/wHnAcABAwHgAT8BgAEBAecBxwHgAQcB4AF/AcABAwHhAQ8B+AEfAv8B8AEPAfABHxYACw==</value>
+  </data>
+  <data name="columnF_OBJECT_ID.Width" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.Name" xml:space="preserve">
+    <value>btnAdd</value>
+  </data>
+  <data name="treeContexts.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="treeContexts.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGMCAADuAAAACw==</value>
+  </data>
+  <data name="columnF_OWNER_ID.Caption" xml:space="preserve">
+    <value>Владелец</value>
+  </data>
+  <data name="mnpAddComposition.Text" xml:space="preserve">
+    <value>Добавить с составом</value>
+  </data>
+  <data name="mnpOpenInNewWindow.CommandName" xml:space="preserve">
+    <value>mnpOpenInNewWindow</value>
+  </data>
+  <data name="&gt;&gt;pageContext.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="menuEditingContextsBar.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAADAAAAAwAAAAs=</value>
+  </data>
+  <data name="pageContext.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;menuEditingContextsBar.Type" xml:space="preserve">
+    <value>Intermech.Bars.ToolBar, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;menuEditingContextsBar.Name" xml:space="preserve">
+    <value>menuEditingContextsBar</value>
+  </data>
+  <data name="columnF_VERSION_ID.Width" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="&gt;&gt;pages.Name" xml:space="preserve">
+    <value>pages</value>
+  </data>
+  <data name="&gt;&gt;pages.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="columnF_OBJECT_TYPE.ToolTip" xml:space="preserve">
+    <value>Тип объекта</value>
+  </data>
+  <data name="&gt;&gt;headerControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnOpen.ToolTipText" xml:space="preserve">
+    <value>Открыть выбранную версию в новом окне "Навигатора"</value>
+  </data>
+  <data name="&gt;&gt;mnpPaste.Name" xml:space="preserve">
+    <value>mnpPaste</value>
+  </data>
+  <data name="&gt;&gt;mnpPaste.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mnpAdd.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mnpAdd.Name" xml:space="preserve">
+    <value>mnpAdd</value>
+  </data>
+  <data name="$this.Font" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAAAZUYWhvbWEAAARBBfz///8YU3lzdGVtLkRyYXdpbmcuRm9udFN0eWxlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAX7////G1N5c3RlbS5EcmF3aW5nLkdyYXBoaWNzVW5pdAEAAAAHdmFsdWVfXwAIAgAAAAMAAAAL</value>
+  </data>
+  <data name="$this.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAHECAABDAQAACw==</value>
+  </data>
+  <data name="btnOpen.CommandName" xml:space="preserve">
+    <value>btnOpen</value>
+  </data>
+  <data name="menubarContext.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAIkAAAAgAAAACw==</value>
+  </data>
+  <data name="menubarContext.Text" xml:space="preserve">
+    <value>menuBar</value>
+  </data>
+  <data name="menubarContext.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAAAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;mnpDelete.Name" xml:space="preserve">
+    <value>mnpDelete</value>
+  </data>
+  <data name="&gt;&gt;mnpDelete.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnRefresh.ToolTipText" xml:space="preserve">
+    <value>Обновить содержимое контекста</value>
+  </data>
+  <data name="&gt;&gt;mnpOpenInNewWindow.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mnpOpenInNewWindow.Name" xml:space="preserve">
+    <value>mnpOpenInNewWindow</value>
+  </data>
+  <data name="pageVersionsRule.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGkCAAAMAQAACw==</value>
+  </data>
+  <data name="pageVersionsRule.Text" xml:space="preserve">
+    <value>Правило подбора версий</value>
+  </data>
+  <data name="menubarContext.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAMAAAANgAAAAs=</value>
+  </data>
+  <data name="contextMenuBarItem.CommandName" xml:space="preserve">
+    <value>contextMenuBarItem</value>
+  </data>
+  <data name="mnpAdd.CommandName" xml:space="preserve">
+    <value>mnpAdd</value>
+  </data>
+  <data name="&gt;&gt;headerControl.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="columnF_CHECKEDOUT_BY.MinWidth" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="mnpAddCriterion.Text" xml:space="preserve">
+    <value>Добавить критерий ...</value>
+  </data>
+  <data name="mnpReplace.Text" xml:space="preserve">
+    <value>Заменить</value>
+  </data>
+  <data name="mnpCard.CommandName" xml:space="preserve">
+    <value>mnpCard</value>
+  </data>
+  <data name="columnCAPTION.ToolTip" xml:space="preserve">
+    <value>Заголовок</value>
+  </data>
+  <data name="&gt;&gt;columnF_VERSION_ID.Name" xml:space="preserve">
+    <value>columnF_VERSION_ID</value>
+  </data>
+  <data name="&gt;&gt;columnF_VERSION_ID.Type" xml:space="preserve">
+    <value>Infralution.Controls.VirtualTree.Column, Infralution.Controls.VirtualTree, Version=3.1.4.0, Culture=neutral, PublicKeyToken=8d2bc20ab69e4bb4</value>
+  </data>
+  <data name="pages.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="mnpDeleteCriterion.CommandName" xml:space="preserve">
+    <value>mnpDeleteCriterion</value>
+  </data>
+  <data name="pages.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="pages.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAHECAAAnAQAACw==</value>
+  </data>
+  <data name="columnF_OBJECT_ID.ToolTip" xml:space="preserve">
+    <value>Идентификатор версии объекта</value>
+  </data>
+  <data name="&gt;&gt;treeContexts.Name" xml:space="preserve">
+    <value>treeContexts</value>
+  </data>
+  <data name="&gt;&gt;treeContexts.Type" xml:space="preserve">
+    <value>Intermech.VirtualTreeView.VirtualTreeView, Intermech.VirtualTreeView, Version=4.0.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="pageContext.ImageIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;mnpDeleteCriterion.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mnpDeleteCriterion.Name" xml:space="preserve">
+    <value>mnpDeleteCriterion</value>
+  </data>
+  <data name="mnpReplace.CommandName" xml:space="preserve">
+    <value>mnpReplace</value>
+  </data>
+  <data name="mnpPaste.CommandName" xml:space="preserve">
+    <value>mnpPaste</value>
+  </data>
+  <data name="btnReplace.ToolTipText" xml:space="preserve">
+    <value>Заменить версию на другую</value>
+  </data>
+  <data name="columnF_CHECKEDOUT_BY.HeaderStyle.HorzAlignment" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB5TeXN0ZW0uRHJhd2luZy5TdHJpbmdBbGlnbm1lbnQBAAAAB3ZhbHVlX18ACAIAAAAAAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;imagesMenus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imagesMenus.Name" xml:space="preserve">
+    <value>imagesMenus</value>
+  </data>
+  <data name="columnF_OWNER_ID.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="columnLC_STEP_ID.HeaderStyle.HorzAlignment" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB5TeXN0ZW0uRHJhd2luZy5TdHJpbmdBbGlnbm1lbnQBAAAAB3ZhbHVlX18ACAIAAAAAAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;treeContexts.Parent" xml:space="preserve">
+    <value>pageContext</value>
+  </data>
+  <data name="mnpAddValue.Text" xml:space="preserve">
+    <value>Добавить значение</value>
+  </data>
+  <data name="mnpMoveDown.Text" xml:space="preserve">
+    <value>Переместить вниз</value>
+  </data>
+  <data name="&gt;&gt;btnOpen.Name" xml:space="preserve">
+    <value>btnOpen</value>
+  </data>
+  <data name="&gt;&gt;btnOpen.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pageVersionsRule.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnPaste.Name" xml:space="preserve">
+    <value>btnPaste</value>
+  </data>
+  <data name="&gt;&gt;btnPaste.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;treeContexts.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="headerControl.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAAAAAAAs=</value>
+  </data>
+  <data name="pageVersionsRule.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;mnpDelValue.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mnpDelValue.Name" xml:space="preserve">
+    <value>mnpDelValue</value>
+  </data>
+  <data name="&gt;&gt;columnLC_STEP_ID.Name" xml:space="preserve">
+    <value>columnLC_STEP_ID</value>
+  </data>
+  <data name="&gt;&gt;columnLC_STEP_ID.Type" xml:space="preserve">
+    <value>Infralution.Controls.VirtualTree.Column, Infralution.Controls.VirtualTree, Version=3.1.4.0, Culture=neutral, PublicKeyToken=8d2bc20ab69e4bb4</value>
+  </data>
+  <data name="btnPaste.CommandName" xml:space="preserve">
+    <value>btnPaste</value>
+  </data>
+  <data name="columnCAPTION.HeaderStyle.VertAlignment" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB5TeXN0ZW0uRHJhd2luZy5TdHJpbmdBbGlnbm1lbnQBAAAAB3ZhbHVlX18ACAIAAAABAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;pageVersionsRule.Parent" xml:space="preserve">
+    <value>pages</value>
+  </data>
+  <data name="&gt;&gt;pageVersionsRule.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pageVersionsRule.Name" xml:space="preserve">
+    <value>pageVersionsRule</value>
+  </data>
+  <data name="btnShowLinked.ToolTipText" xml:space="preserve">
+    <value>Отображать в редакторе связанные контексты</value>
+  </data>
+  <data name="mnpMoveUp.CommandName" xml:space="preserve">
+    <value>mnpMoveUp</value>
+  </data>
+  <data name="btnRefresh.CommandName" xml:space="preserve">
+    <value>btnRefresh</value>
+  </data>
+  <data name="&gt;&gt;mnpCard.Name" xml:space="preserve">
+    <value>mnpCard</value>
+  </data>
+  <data name="&gt;&gt;mnpCard.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mnpReplace.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mnpReplace.Name" xml:space="preserve">
+    <value>mnpReplace</value>
+  </data>
+  <data name="&gt;&gt;mnpAddValue.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mnpAddValue.Name" xml:space="preserve">
+    <value>mnpAddValue</value>
+  </data>
+  <data name="treeContexts.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;mnpAddCriterion.Name" xml:space="preserve">
+    <value>mnpAddCriterion</value>
+  </data>
+  <data name="&gt;&gt;mnpAddCriterion.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnCard.ToolTipText" xml:space="preserve">
+    <value>Свойства (карточка)</value>
+  </data>
+  <data name="&gt;&gt;mnpAddComposition.Name" xml:space="preserve">
+    <value>mnpAddComposition</value>
+  </data>
+  <data name="&gt;&gt;mnpAddComposition.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pages.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pages.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAHAAAAAs=</value>
+  </data>
+  <data name="columnLC_STEP_ID.ToolTip" xml:space="preserve">
+    <value>Шаг жизненного цикла</value>
+  </data>
+  <data name="&gt;&gt;btnRefresh.Name" xml:space="preserve">
+    <value>btnRefresh</value>
+  </data>
+  <data name="&gt;&gt;btnRefresh.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mnpRefresh.Name" xml:space="preserve">
+    <value>mnpRefresh</value>
+  </data>
+  <data name="&gt;&gt;mnpRefresh.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="mnpDelete.Text" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="&gt;&gt;mnpMoveDown.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mnpMoveDown.Name" xml:space="preserve">
+    <value>mnpMoveDown</value>
+  </data>
+  <data name="columnF_VERSION_ID.MinWidth" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="btnDelete.CommandName" xml:space="preserve">
+    <value>btnDelete</value>
+  </data>
+  <data name="columnF_CHECKEDOUT_BY.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="&gt;&gt;columnF_OBJECT_ID.Name" xml:space="preserve">
+    <value>columnF_OBJECT_ID</value>
+  </data>
+  <data name="&gt;&gt;columnF_OBJECT_ID.Type" xml:space="preserve">
+    <value>Infralution.Controls.VirtualTree.Column, Infralution.Controls.VirtualTree, Version=3.1.4.0, Culture=neutral, PublicKeyToken=8d2bc20ab69e4bb4</value>
+  </data>
+  <data name="btnAdd.ToolTipText" xml:space="preserve">
+    <value>Добавить версию в контекст</value>
+  </data>
+  <data name="menubarContext.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;menubarContext.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="menubarContext.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="columnF_OWNER_ID.ToolTip" xml:space="preserve">
+    <value>Владелец объекта</value>
+  </data>
+  <data name="&gt;&gt;pages.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="headerControl.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;pageContext.Name" xml:space="preserve">
+    <value>pageContext</value>
+  </data>
+  <data name="&gt;&gt;pageContext.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnDelete.ToolTipText" xml:space="preserve">
+    <value>Удалить из контекста</value>
+  </data>
+  <data name="columnF_OBJECT_ID.HeaderStyle.HorzAlignment" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB5TeXN0ZW0uRHJhd2luZy5TdHJpbmdBbGlnbm1lbnQBAAAAB3ZhbHVlX18ACAIAAAACAAAACw==</value>
+  </data>
+  <data name="menuBar.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAD/////xv///ws=</value>
+  </data>
+  <data name="btnAdd.CommandName" xml:space="preserve">
+    <value>btnAdd</value>
+  </data>
+  <data name="columnLC_STEP_ID.MinWidth" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="columnF_CHECKEDOUT_BY.ToolTip" xml:space="preserve">
+    <value>Кем объект взят на изменение</value>
+  </data>
+  <data name="btnReplace.CommandName" xml:space="preserve">
+    <value>btnReplace</value>
+  </data>
+  <data name="treeContexts.SortDescendingIcon" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5JY29uAgAAAAhJY29uRGF0YQhJY29uU2l6ZQcEAhNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAIAAAAJAwAAAAX8////E1N5c3RlbS5EcmF3aW5nLlNpemUCAAAABXdpZHRoBmhlaWdodAAACAgCAAAAAAAAAAAAAAAPAwAAAH4EAAACAAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAAs=</value>
+  </data>
+  <data name="headerControl.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAHECAAAcAAAACw==</value>
+  </data>
+  <data name="headerControl.Text" xml:space="preserve">
+    <value>Содержимое контекста редактирования</value>
+  </data>
+  <data name="headerControl.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAABAAAACw==</value>
+  </data>
+  <data name="columnF_OWNER_ID.HeaderStyle.HorzAlignment" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB5TeXN0ZW0uRHJhd2luZy5TdHJpbmdBbGlnbm1lbnQBAAAAB3ZhbHVlX18ACAIAAAAAAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;btnReplace.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnReplace.Name" xml:space="preserve">
+    <value>btnReplace</value>
+  </data>
+  <data name="mnpAdd.Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="pageVersionsRule.Padding" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0B19ib3R0b20AAAAAAAEICAgIAgAAAAEDAAAAAwAAAAMAAAADAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;menubarContext.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="mnpRefresh.CommandName" xml:space="preserve">
+    <value>mnpRefresh</value>
+  </data>
+  <data name="mnpDeleteCriterion.Text" xml:space="preserve">
+    <value>Удалить критерий</value>
+  </data>
+  <data name="pageVersionsRule.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAEAAAAFwAAAAs=</value>
+  </data>
+  <data name="columnCAPTION.Caption" xml:space="preserve">
+    <value>Заголовок</value>
+  </data>
+  <data name="columnF_VERSION_ID.Caption" xml:space="preserve">
+    <value>Версия</value>
+  </data>
+  <data name="btnCard.CommandName" xml:space="preserve">
+    <value>btnCard</value>
+  </data>
+  <data name="&gt;&gt;columnF_OBJECT_TYPE.Type" xml:space="preserve">
+    <value>Infralution.Controls.VirtualTree.Column, Infralution.Controls.VirtualTree, Version=3.1.4.0, Culture=neutral, PublicKeyToken=8d2bc20ab69e4bb4</value>
+  </data>
+  <data name="&gt;&gt;columnF_OBJECT_TYPE.Name" xml:space="preserve">
+    <value>columnF_OBJECT_TYPE</value>
+  </data>
+  <data name="&gt;&gt;btnShowLinked.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="menuEditingContextsBar.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnShowLinked.Name" xml:space="preserve">
+    <value>btnShowLinked</value>
+  </data>
+  <data name="&gt;&gt;btnDelete.Name" xml:space="preserve">
+    <value>btnDelete</value>
+  </data>
+  <data name="&gt;&gt;btnDelete.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="menuContext.CommandName" xml:space="preserve">
+    <value>menuContext</value>
+  </data>
+  <data name="&gt;&gt;menuContext.Name" xml:space="preserve">
+    <value>menuContext</value>
+  </data>
+  <data name="&gt;&gt;menuContext.Type" xml:space="preserve">
+    <value>Intermech.Bars.ContextMenuBarItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnCard.Name" xml:space="preserve">
+    <value>btnCard</value>
+  </data>
+  <data name="&gt;&gt;btnCard.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="columnLC_STEP_ID.Caption" xml:space="preserve">
+    <value>Шаг ЖЦ</value>
+  </data>
+  <data name="pageContext.Padding" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0B19ib3R0b20AAAAAAAEICAgIAgAAAAEDAAAAAwAAAAMAAAADAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;columnCAPTION.Type" xml:space="preserve">
+    <value>Infralution.Controls.VirtualTree.Column, Infralution.Controls.VirtualTree, Version=3.1.4.0, Culture=neutral, PublicKeyToken=8d2bc20ab69e4bb4</value>
+  </data>
+  <data name="&gt;&gt;columnCAPTION.Name" xml:space="preserve">
+    <value>columnCAPTION</value>
+  </data>
+  <data name="mnpMoveDown.CommandName" xml:space="preserve">
+    <value>mnpMoveDown</value>
+  </data>
+  <data name="columnF_OBJECT_TYPE.HeaderStyle.HorzAlignment" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB5TeXN0ZW0uRHJhd2luZy5TdHJpbmdBbGlnbm1lbnQBAAAAB3ZhbHVlX18ACAIAAAAAAAAACw==</value>
+  </data>
+  <data name="treeContexts.SortAscendingIcon" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5JY29uAgAAAAhJY29uRGF0YQhJY29uU2l6ZQcEAhNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAIAAAAJAwAAAAX8////E1N5c3RlbS5EcmF3aW5nLlNpemUCAAAABXdpZHRoBmhlaWdodAAACAgCAAAAAAAAAAAAAAAPAwAAAH4EAAACAAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAAs=</value>
+  </data>
+  <data name="btnAddComposition.CommandName" xml:space="preserve">
+    <value>btnAddComposition</value>
+  </data>
+  <data name="&gt;&gt;menuBar.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pageContext.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAEAAAAFwAAAAs=</value>
+  </data>
+  <data name="mnpAddCriterion.CommandName" xml:space="preserve">
+    <value>mnpAddCriterion</value>
+  </data>
+  <data name="columnF_OBJECT_ID.Caption" xml:space="preserve">
+    <value>ID версии</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>EditingContextsEditor</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuBar.Name" xml:space="preserve">
+    <value>menuBar</value>
+  </data>
+  <data name="&gt;&gt;menuBar.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuBar, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;menuBar.Parent" xml:space="preserve">
+    <value>headerControl</value>
+  </data>
+  <data name="&gt;&gt;mnpMoveUp.Name" xml:space="preserve">
+    <value>mnpMoveUp</value>
+  </data>
+  <data name="&gt;&gt;mnpMoveUp.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="columnF_VERSION_ID.CellStyle.HorzAlignment" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB5TeXN0ZW0uRHJhd2luZy5TdHJpbmdBbGlnbm1lbnQBAAAAB3ZhbHVlX18ACAIAAAACAAAACw==</value>
+  </data>
+  <data name="columnF_CHECKEDOUT_BY.Caption" xml:space="preserve">
+    <value>Взял(а) на изменение</value>
+  </data>
+  <data name="mnpMoveUp.Text" xml:space="preserve">
+    <value>Переместить вверх</value>
+  </data>
+  <data name="&gt;&gt;columnF_CHECKEDOUT_BY.Name" xml:space="preserve">
+    <value>columnF_CHECKEDOUT_BY</value>
+  </data>
+  <data name="&gt;&gt;columnF_CHECKEDOUT_BY.Type" xml:space="preserve">
+    <value>Infralution.Controls.VirtualTree.Column, Infralution.Controls.VirtualTree, Version=3.1.4.0, Culture=neutral, PublicKeyToken=8d2bc20ab69e4bb4</value>
+  </data>
+  <data name="pageVersionsRule.ImageIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="columnF_VERSION_ID.ToolTip" xml:space="preserve">
+    <value>Номер версии</value>
+  </data>
+  <data name="&gt;&gt;menubarContext.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuBar, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="mnpDelValue.CommandName" xml:space="preserve">
+    <value>mnpDelValue</value>
+  </data>
+  <data name="&gt;&gt;menubarContext.Name" xml:space="preserve">
+    <value>menubarContext</value>
+  </data>
+  <data name="btnAddComposition.ToolTipText" xml:space="preserve">
+    <value>Добавить с составом</value>
+  </data>
+  <data name="menuBar.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="mnpDelValue.Text" xml:space="preserve">
+    <value>Удалить значение</value>
+  </data>
+  <data name="mnpRefresh.Text" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="mnpCard.Text" xml:space="preserve">
+    <value>Свойства (карточка)</value>
+  </data>
+  <data name="mnpDelete.CommandName" xml:space="preserve">
+    <value>mnpDelete</value>
+  </data>
+  <data name="columnF_OBJECT_ID.MinWidth" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="mnpPaste.Text" xml:space="preserve">
+    <value>Вставить</value>
+  </data>
+  <data name="columnF_OBJECT_ID.CellStyle.HorzAlignment" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB5TeXN0ZW0uRHJhd2luZy5TdHJpbmdBbGlnbm1lbnQBAAAAB3ZhbHVlX18ACAIAAAACAAAACw==</value>
+  </data>
+  <data name="columnCAPTION.MinWidth" type="System.Int32, mscorlib">
+    <value>85</value>
+  </data>
+  <data name="menuEditingContextsBar.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGMCAAAYAAAACw==</value>
+  </data>
+  <data name="menuEditingContextsBar.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;contextMenuBarItem.Name" xml:space="preserve">
+    <value>contextMenuBarItem</value>
+  </data>
+  <data name="&gt;&gt;contextMenuBarItem.Type" xml:space="preserve">
+    <value>Intermech.Bars.ContextMenuBarItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="menuBar.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;headerControl.Type" xml:space="preserve">
+    <value>Intermech.NavBars.HeaderControl, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;headerControl.Name" xml:space="preserve">
+    <value>headerControl</value>
+  </data>
+  <data name="mnpAddComposition.CommandName" xml:space="preserve">
+    <value>mnpAddComposition</value>
+  </data>
+  <data name="&gt;&gt;menuEditingContextsBar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="treeContexts.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAADAAAAGwAAAAs=</value>
+  </data>
+  <data name="pageContext.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGkCAAAMAQAACw==</value>
+  </data>
+  <data name="pageContext.Text" xml:space="preserve">
+    <value>Версии объектов</value>
+  </data>
+  <data name="&gt;&gt;menuEditingContextsBar.Parent" xml:space="preserve">
+    <value>pageContext</value>
+  </data>
+  <data name="mnpOpenInNewWindow.Text" xml:space="preserve">
+    <value>Открыть в новом окне</value>
+  </data>
+  <data name="columnF_OBJECT_TYPE.Caption" xml:space="preserve">
+    <value>Тип объекта</value>
+  </data>
+  <data name="mnpAddValue.CommandName" xml:space="preserve">
+    <value>mnpAddValue</value>
+  </data>
+  <data name="menuBar.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAAAAAACw==</value>
+  </data>
+  <data name="menuBar.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAI0AAAAgAAAACw==</value>
+  </data>
+  <data name="menuBar.Text" xml:space="preserve">
+    <value>menuBar</value>
+  </data>
+  <data name="btnPaste.ToolTipText" xml:space="preserve">
+    <value>Добавить объекты из буфера обмена</value>
+  </data>
+  <data name="&gt;&gt;pageContext.Parent" xml:space="preserve">
+    <value>pages</value>
+  </data>
+  <data name="&gt;&gt;columnF_OWNER_ID.Type" xml:space="preserve">
+    <value>Infralution.Controls.VirtualTree.Column, Infralution.Controls.VirtualTree, Version=3.1.4.0, Culture=neutral, PublicKeyToken=8d2bc20ab69e4bb4</value>
+  </data>
+  <data name="&gt;&gt;columnF_OWNER_ID.Name" xml:space="preserve">
+    <value>columnF_OWNER_ID</value>
+  </data>
+  <data name="columnCAPTION.HeaderStyle.HorzAlignment" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB5TeXN0ZW0uRHJhd2luZy5TdHJpbmdBbGlnbm1lbnQBAAAAB3ZhbHVlX18ACAIAAAAAAAAACw==</value>
+  </data>
+  <data name="columnCAPTION.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+</root>

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\IPS.Installer.Full\InstServer\Server\Intermech.FormDesigner.Server.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B6C65CBA-35EB-40A8-AF8B-4D86527658B0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.FormDesigner.Server</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Imbase">
+      <HintPath>lib\Intermech.Interfaces.Imbase.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Server">
+      <HintPath>lib\Intermech.Interfaces.Server.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Kernel">
+      <HintPath>lib\Intermech.Kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Localization\LocalizationHolder.cs" />
+    <Compile Include="FormDesigner\Server\BriefcaseSupport.cs" />
+    <Compile Include="FormDesigner\Server\DBFormObject.cs" />
+    <Compile Include="FormDesigner\Server\DBFormObjectCreator.cs" />
+    <Compile Include="FormDesigner\Server\ValueInfo.cs" />
+    <Compile Include="FormDesigner\Server\FormDBObjectCollection.cs" />
+    <Compile Include="FormDesigner\Server\FormDBObjectCollectionCreator.cs" />
+    <Compile Include="FormDesigner\Server\FormDesignerService.cs" />
+    <Compile Include="FormDesigner\Server\VersionCacheItem.cs" />
+    <Compile Include="FormDesigner\Server\FormDesignerUpdate.cs" />
+    <Compile Include="FormDesigner\Server\IFormsCacheSynchronizer.cs" />
+    <Compile Include="FormDesigner\Server\FormsCacheSynchronizer.cs" />
+    <Compile Include="FormDesigner\Server\CacheHelper.cs" />
+    <Compile Include="FormDesigner\Server\FormsCache.cs" />
+    <Compile Include="FormDesigner\Server\OnlineCacheBase`2.cs" />
+    <Compile Include="FormDesigner\Server\OnlineCache`2.cs" />
+    <Compile Include="FormDesigner\Server\OnlineCacheTimed`2.cs" />
+    <Compile Include="FormDesigner\Server\TypeInfoHelper.cs" />
+    <Compile Include="FormDesigner\Server\ServerFormsCache.cs" />
+    <Compile Include="FormDesigner\Server\Startup.cs" />
+    <Compile Include="FormDesigner\Server\StartupHolder.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FormDesigner\Server\FormDesignerServerResources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

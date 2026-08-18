@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.Archives.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D10506F6-89A1-4F31-8BC8-3B5AC193F26C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.Archives</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech.Archives</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.IM.Utils">
+      <HintPath>lib\DevExpress.IM.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.IM.XtraEditors">
+      <HintPath>lib\DevExpress.IM.XtraEditors.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.IM.XtraTreeList">
+      <HintPath>lib\DevExpress.IM.XtraTreeList.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bars">
+      <HintPath>lib\Intermech.Bars.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Client.Core">
+      <HintPath>lib\Intermech.Client.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Controls">
+      <HintPath>lib\Intermech.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Docking">
+      <HintPath>lib\Intermech.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Expert">
+      <HintPath>lib\Intermech.Expert.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Client">
+      <HintPath>lib\Intermech.Interfaces.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Search.Interfaces">
+      <HintPath>lib\Intermech.Search.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="iGrid">
+      <HintPath>lib\iGrid.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AllDocumsObject.cs" />
+    <Compile Include="AllDocumsProvider.cs" />
+    <Compile Include="ArchivesDocumentsDescriber.cs" />
+    <Compile Include="ArchivesResources.cs" />
+    <Compile Include="ArchiveColumnsSettings.cs" />
+    <Compile Include="RolesColumnsSettings.cs" />
+    <Compile Include="ArchiveColumnsSettingsCacheService.cs" />
+    <Compile Include="ArchiveHierarchyService.cs" />
+    <Compile Include="ColumnsAutoSettingsProvider.cs" />
+    <Compile Include="ColumnsAutoSettingsView.cs" />
+    <Compile Include="IArchiveColumnsSettingsCacheService.cs" />
+    <Compile Include="CopiesClientService.cs" />
+    <Compile Include="DocumentTypedAttributeEditor.cs" />
+    <Compile Include="ArchiveContextMenuProvider.cs" />
+    <Compile Include="ArchivesClientStartup.cs" />
+    <Compile Include="ServiceHolder.cs" />
+    <Compile Include="Consts.cs" />
+    <Compile Include="ArchivesContextMenuProvider.cs" />
+    <Compile Include="ArchivesCommands.cs" />
+    <Compile Include="ArchivesDescriptorService.cs" />
+    <Compile Include="ArchivesStructureScheme.cs" />
+    <Compile Include="StructureColumns.cs" />
+    <Compile Include="DocumsObject.cs" />
+    <Compile Include="DocumsProvider.cs" />
+    <Compile Include="DBBindedObjectType.cs" />
+    <Compile Include="AllDocumsPart.cs" />
+    <Compile Include="ArchievesNodeID.cs" />
+    <Compile Include="ArchivesBinding.cs" />
+    <Compile Include="ArchivesNode.cs" />
+    <Compile Include="ArchivesTopObjectsPart.cs" />
+    <Compile Include="HiveDescriptor.cs" />
+    <Compile Include="ArchiveBinding.cs" />
+    <Compile Include="ArchiveNode.cs" />
+    <Compile Include="DocumsPart.cs" />
+    <Compile Include="ViewArchives.cs" />
+    <Compile Include="StructureView\ArchiveStructureColumnScheme.cs" />
+    <Compile Include="StructureView\ArchiveStructureCommands.cs" />
+    <Compile Include="StructureView\ArchiveStructureNode.cs" />
+    <Compile Include="StructureView\ArchiveStructureNodeID.cs" />
+    <Compile Include="StructureView\ArchiveStructureNodePart.cs" />
+    <Compile Include="StructureView\ArchiveStructureProvider.cs" />
+    <Compile Include="StructureView\ArchiveStructureQuery.cs" />
+    <Compile Include="StructureView\ArchiveStructureView.cs" />
+    <Compile Include="ScanDocums\DelegateMessage.cs" />
+    <Compile Include="ScanDocums\AsyncPipeClient.cs" />
+    <Compile Include="ScanDocums\AsyncPipeServer.cs" />
+    <Compile Include="ScanDocums\TwProtocol.cs" />
+    <Compile Include="ScanDocums\TwDG.cs" />
+    <Compile Include="ScanDocums\TwDAT.cs" />
+    <Compile Include="ScanDocums\TwMSG.cs" />
+    <Compile Include="ScanDocums\TwRC.cs" />
+    <Compile Include="ScanDocums\TwCC.cs" />
+    <Compile Include="ScanDocums\TwOn.cs" />
+    <Compile Include="ScanDocums\TwType.cs" />
+    <Compile Include="ScanDocums\TwCap.cs" />
+    <Compile Include="ScanDocums\TwIdentity.cs" />
+    <Compile Include="ScanDocums\TwVersion.cs" />
+    <Compile Include="ScanDocums\TwUserInterface.cs" />
+    <Compile Include="ScanDocums\TwStatus.cs" />
+    <Compile Include="ScanDocums\TwEvent.cs" />
+    <Compile Include="ScanDocums\TwImageInfo.cs" />
+    <Compile Include="ScanDocums\TwPendingXfers.cs" />
+    <Compile Include="ScanDocums\TwFix32.cs" />
+    <Compile Include="ScanDocums\TwCapability.cs" />
+    <Compile Include="ScanDocums\BITMAPINFOHEADER.cs" />
+    <Compile Include="ScanDocums\TwainCommand.cs" />
+    <Compile Include="ScanDocums\IntermechTwainDriver.cs" />
+    <Compile Include="ScanDocums\PipeServer.cs" />
+    <Compile Include="ScanDocums\StreamString.cs" />
+    <Compile Include="ScanDocums\StreamBytes.cs" />
+    <Compile Include="ScanDocums\StreamBytes1.cs" />
+    <Compile Include="ScanDocums\PipeClient.cs" />
+    <Compile Include="ScanDocums\ScanerDocumentService.cs" />
+    <Compile Include="ScanDocums\ScanedDocumentCreator.cs" />
+    <Compile Include="ScanDocums\ScanerDocumetPreviewDialog.cs" />
+    <Compile Include="BarCodes\BarCodeListener.cs" />
+    <Compile Include="BarCodes\BarCodeSettings.cs" />
+    <Compile Include="BarCodes\CustomBooleanConverter.cs" />
+    <Compile Include="BarCodes\ParityEnum.cs" />
+    <Compile Include="BarCodes\OpenModeEnum.cs" />
+    <Compile Include="BarCodes\StopBitsEnum.cs" />
+    <Compile Include="PermittedTypesView\ArchivePermittedTypesView.cs" />
+    <Compile Include="PermittedTypesView\PermittedTypesControl.cs" />
+    <Compile Include="PermittedTypesView\ArchivePermittedTypesProvider.cs" />
+    <Compile Include="Copies\CopyDeliveryListModeChoiceForm.cs" />
+    <Compile Include="Copies\InventoryNumberPerItem.cs" />
+    <Compile Include="Copies\CehRouteChoiceForm.cs" />
+    <Compile Include="Copies\ReturnCopiesFromSubscriberViewForm.cs" />
+    <Compile Include="Copies\SendingCopyWarningForm.cs" />
+    <Compile Include="Copies\CopiesConditionsProvider.cs" />
+    <Compile Include="Copies\CopiesColumnScheme.cs" />
+    <Compile Include="Copies\SubscriberNameTransform.cs" />
+    <Compile Include="Copies\CopyNode.cs" />
+    <Compile Include="Copies\CopyObjectsQuery.cs" />
+    <Compile Include="Copies\CopyNodeInfo.cs" />
+    <Compile Include="Copies\CopyNodeID.cs" />
+    <Compile Include="Copies\ICopyNodeID.cs" />
+    <Compile Include="Copies\DocumentNode.cs" />
+    <Compile Include="Copies\FilterDialog.cs" />
+    <Compile Include="Copies\CreateCopyForm.cs" />
+    <Compile Include="Copies\ReturnCopiesForm.cs" />
+    <Compile Include="Copies\SendCopiesForm.cs" />
+    <Compile Include="Copies\CopiesEditorView.cs" />
+    <Compile Include="Copies\CopiesViewsProvider.cs" />
+    <Compile Include="Copies\CopiesView.cs" />
+    <Compile Include="Copies\AddSubscriberForm.cs" />
+    <Compile Include="Copies\DocumentCommandsProvider.cs" />
+    <Compile Include="Copies\CopyCommandsProvider.cs" />
+    <Compile Include="Copies\TechDocumentViewProvider.cs" />
+    <Compile Include="Copies\InventoryNumberForm.cs" />
+    <Compile Include="Copies\InventorySettingsControl.cs" />
+    <Compile Include="Copies\ReplaceNumberForm.cs" />
+    <Compile Include="Copies\TechDocumentFilter.cs" />
+    <Compile Include="Copies\TechDocumentsTypeNode.cs" />
+    <Compile Include="Copies\TechSelectionNode.cs" />
+    <Compile Include="Copies\TechArchiveNode.cs" />
+    <Compile Include="Copies\TechArchivesNode.cs" />
+    <Compile Include="Copies\TechDocumView.cs" />
+    <Compile Include="Copies\Subscribers\AddSubscriberControl.cs" />
+    <Compile Include="Copies\Subscribers\OwnerType.cs" />
+    <Compile Include="AutoPlaceInArchiveView\ArchiveAutoPlaceSettingsIntersection.cs" />
+    <Compile Include="AutoPlaceInArchiveView\AutoPlaceControl.cs" />
+    <Compile Include="AutoPlaceInArchiveView\AutoPlaceInArchiveProvider.cs" />
+    <Compile Include="AutoPlaceInArchiveView\AutoPlaceInArchiveView.cs" />
+    <Compile Include="AutoPlaceInArchiveView\WrongIdForm.cs" />
+    <Compile Include="ImSSP\sc_441.cs" />
+    <Compile Include="ImSSP\sc_552.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AllDocumsObject.resx" />
+    <EmbeddedResource Include="ArchivesResources.resx" />
+    <EmbeddedResource Include="AutoPlaceInArchiveView\ArchiveAutoPlaceSettingsIntersection.resx" />
+    <EmbeddedResource Include="AutoPlaceInArchiveView\AutoPlaceControl.resx" />
+    <EmbeddedResource Include="AutoPlaceInArchiveView\AutoPlaceInArchiveView.resx" />
+    <EmbeddedResource Include="AutoPlaceInArchiveView\WrongIdForm.resx" />
+    <EmbeddedResource Include="ColumnsAutoSettingsView.resx" />
+    <EmbeddedResource Include="Copies\AddSubscriberForm.resx" />
+    <EmbeddedResource Include="Copies\CehRouteChoiceForm.resx" />
+    <EmbeddedResource Include="Copies\CopiesEditorView.resx" />
+    <EmbeddedResource Include="Copies\CopiesView.resx" />
+    <EmbeddedResource Include="Copies\CopyDeliveryListModeChoiceForm.resx" />
+    <EmbeddedResource Include="Copies\CreateCopyForm.resx" />
+    <EmbeddedResource Include="Copies\FilterDialog.resx" />
+    <EmbeddedResource Include="Copies\InventoryNumberForm.resx" />
+    <EmbeddedResource Include="Copies\InventoryNumberPerItem.resx" />
+    <EmbeddedResource Include="Copies\InventorySettingsControl.resx" />
+    <EmbeddedResource Include="Copies\ReplaceNumberForm.resx" />
+    <EmbeddedResource Include="Copies\ReturnCopiesForm.resx" />
+    <EmbeddedResource Include="Copies\ReturnCopiesFromSubscriberViewForm.resx" />
+    <EmbeddedResource Include="Copies\SendCopiesForm.resx" />
+    <EmbeddedResource Include="Copies\SendingCopyWarningForm.resx" />
+    <EmbeddedResource Include="Copies\Subscribers\AddSubscriberControl.resx" />
+    <EmbeddedResource Include="Copies\TechDocumView.resx" />
+    <EmbeddedResource Include="DocumsObject.resx" />
+    <EmbeddedResource Include="PermittedTypesView\ArchivePermittedTypesView.resx" />
+    <EmbeddedResource Include="PermittedTypesView\PermittedTypesControl.resx" />
+    <EmbeddedResource Include="Resources\ChangeByDeliveryList.ico" />
+    <EmbeddedResource Include="ScanDocums\ScanerDocumetPreviewDialog.resx" />
+    <EmbeddedResource Include="StructureView\ArchiveStructureView.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

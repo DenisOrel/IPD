@@ -1,0 +1,16 @@
+﻿
+// Type: Intermech.NavBars.NavigationPaneDesigner
+// Assembly: Intermech.Bars, Version=4.0.14.0, Culture=neutral, PublicKeyToken=null
+// MVID: E7FE806E-DF4F-43E8-8F59-6B4716E1A4DC
+:\IPS\Client\Intermech.Bars.dll
+
+using System.Windows.Forms.Design;
+
+
+namespace Intermech.NavBars
+{
+    internal class NavigationPaneDesigner : ParentControlDesigner
+    {
+      public override SelectionRules SelectionRules => SelectionRules.Visible | SelectionRules.Locked;
+    }
+}

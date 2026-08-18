@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.XmlExchange.ConfigEditor.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{471F2080-F8B3-4B31-8F16-E1CB4FB2FFE3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.XmlExchange.ConfigEditor</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech.XmlExchange.ConfigEditor</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Intermech.Bars">
+      <HintPath>lib\Intermech.Bars.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Client.Core">
+      <HintPath>lib\Intermech.Client.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Docking">
+      <HintPath>lib\Intermech.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.FormDesigner">
+      <HintPath>lib\Intermech.FormDesigner.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Imbase">
+      <HintPath>lib\Intermech.Imbase.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Client">
+      <HintPath>lib\Intermech.Interfaces.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Imbase">
+      <HintPath>lib\Intermech.Interfaces.Imbase.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.XmlExchange">
+      <HintPath>lib\Intermech.Interfaces.XmlExchange.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Scripting">
+      <HintPath>lib\Intermech.Scripting.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConfigEditorMoveMenu.cs" />
+    <Compile Include="ImageResources.cs" />
+    <Compile Include="XmlAttributeComparer.cs" />
+    <Compile Include="ConfigEditorModeView.cs" />
+    <Compile Include="XmlConfigEditorConst.cs" />
+    <Compile Include="RulePropertyEditor.cs" />
+    <Compile Include="ScriptEditor.cs" />
+    <Compile Include="ExtraDataModeSelected.cs" />
+    <Compile Include="ExtraDataModeConverter.cs" />
+    <Compile Include="FieldTypeSelected.cs" />
+    <Compile Include="TypeObjectSelected.cs" />
+    <Compile Include="FieldTypeConverter.cs" />
+    <Compile Include="RuleConverter.cs" />
+    <Compile Include="TypeObjectConverter.cs" />
+    <Compile Include="TypeObjectConverterBase.cs" />
+    <Compile Include="TypeRelationConverter.cs" />
+    <Compile Include="ConfigEditorBoolConverter.cs" />
+    <Compile Include="GuidToCaptionConverter.cs" />
+    <Compile Include="CatalogSelected.cs" />
+    <Compile Include="CatalogImbaseSelected.cs" />
+    <Compile Include="FolderImbaseSelected.cs" />
+    <Compile Include="TableImbaseSelected.cs" />
+    <Compile Include="ImbaseItemConverter.cs" />
+    <Compile Include="TimeZoneEditor.cs" />
+    <Compile Include="TimeZoneConverter.cs" />
+    <Compile Include="SkipExistsConverter.cs" />
+    <Compile Include="SkipExistsSelected.cs" />
+    <Compile Include="LcStepConverter.cs" />
+    <Compile Include="LcStepSelected.cs" />
+    <Compile Include="SelectObject.cs" />
+    <Compile Include="ConfigEditorHelper.cs" />
+    <Compile Include="XmlConfigEditorExtension.cs" />
+    <Compile Include="XmlConfigEmptyScript.cs" />
+    <Compile Include="Plugin\ConfigEditorCommandProvider.cs" />
+    <Compile Include="Plugin\ConfigEditorPlagin.cs" />
+    <Compile Include="Properties\Resources.cs" />
+    <Compile Include="ExportApplSetting\ExportApplObjectType.cs" />
+    <Compile Include="ExportApplSetting\ExportApplRelationType.cs" />
+    <Compile Include="ExportApplSetting\IExportApplType.cs" />
+    <Compile Include="Editor\FactoryConfigEditor.cs" />
+    <Compile Include="Editor\EditorTabControl.cs" />
+    <Compile Include="Editor\ExportConfigEditor.cs" />
+    <Compile Include="Editor\IConfigEditor.cs" />
+    <Compile Include="Editor\ImportConfigEditor.cs" />
+    <Compile Include="Editor\ConfigEditorWindow.cs" />
+    <Compile Include="PropertiesDescription\IConfigItemProperties.cs" />
+    <Compile Include="PropertiesDescription\XmlConfigPropertyDescriptor.cs" />
+    <Compile Include="PropertiesDescription\ExportItem\GridViewSettingsApplType.cs" />
+    <Compile Include="PropertiesDescription\ExportItem\GridViewSettingsExportAttr.cs" />
+    <Compile Include="PropertiesDescription\ExportItem\GridViewSettingsExportExtension.cs" />
+    <Compile Include="PropertiesDescription\ExportItem\GridViewSettingsAppl.cs" />
+    <Compile Include="PropertiesDescription\ExportItem\GridViewSettingsDefAttrValue.cs" />
+    <Compile Include="PropertiesDescription\ExportItem\GridViewSettingsExportUserItem.cs" />
+    <Compile Include="PropertiesDescription\ExportItem\GridViewSettingsExportObj.cs" />
+    <Compile Include="PropertiesDescription\ExportItem\GridViewSettingsExportAttributable.cs" />
+    <Compile Include="PropertiesDescription\ExportItem\GridViewBaseExportSettings.cs" />
+    <Compile Include="PropertiesDescription\ExportItem\GridViewSettingsExportTypedItem.cs" />
+    <Compile Include="PropertiesDescription\ExportItem\GridViewSettingsExportScript.cs" />
+    <Compile Include="PropertiesDescription\ExportItem\GridViewSettingsExportItem.cs" />
+    <Compile Include="PropertiesDescription\ImportItem\GridViewSettingsImportAttrType.cs" />
+    <Compile Include="PropertiesDescription\ImportItem\GridViewSettingsImportExtension.cs" />
+    <Compile Include="PropertiesDescription\ImportItem\GridViewSettingsImportImbase.cs" />
+    <Compile Include="PropertiesDescription\ImportItem\GridViewSettingsImportItem.cs" />
+    <Compile Include="PropertiesDescription\ImportItem\GridViewSettingsImportObjectType.cs" />
+    <Compile Include="PropertiesDescription\ImportItem\GridViewSettingsImportRuleCreate.cs" />
+    <Compile Include="PropertiesDescription\ImportItem\GridViewSettingsImportRuleImport.cs" />
+    <Compile Include="PropertiesDescription\ImportItem\GridViewSettingsImportRuleSearch.cs" />
+    <Compile Include="PropertiesDescription\ImportItem\GridViewSettingsImportScript.cs" />
+    <Compile Include="Pages\PageSearchAttributes.cs" />
+    <Compile Include="Pages\IPageConfigEditor.cs" />
+    <Compile Include="Pages\PageApplPartTypes.cs" />
+    <Compile Include="Pages\PageAttributes.cs" />
+    <Compile Include="Pages\PageDefAttributes.cs" />
+    <Compile Include="Pages\PageSettings.cs" />
+    <Compile Include="Pages\PageSettingEditors.cs" />
+    <Compile Include="ImportConfig\XmlExchangeImportAttributes.cs" />
+    <Compile Include="ImportConfig\XmlExchangeImportAttrTypeBase.cs" />
+    <Compile Include="ImportConfig\XmlExchangeImportImbaseItem.cs" />
+    <Compile Include="ImportConfig\XmlExchangeImportAction.cs" />
+    <Compile Include="ImportConfig\XmlExchangeImportAttrType.cs" />
+    <Compile Include="ImportConfig\XmlExchangeImportExtension.cs" />
+    <Compile Include="ImportConfig\XmlExchangeImportImbase.cs" />
+    <Compile Include="ImportConfig\XmlExchangeImportItem.cs" />
+    <Compile Include="ImportConfig\XmlExchangeImportModificationItem.cs" />
+    <Compile Include="ImportConfig\XmlExchangeImportModificationRule.cs" />
+    <Compile Include="ImportConfig\XmlExchangeImportObjectType.cs" />
+    <Compile Include="ImportConfig\XmlExchangeImportRuleCreate.cs" />
+    <Compile Include="ImportConfig\XmlExchangeImportRuleImport.cs" />
+    <Compile Include="ImportConfig\XmlExchangeImportRuleSearch.cs" />
+    <Compile Include="ImportConfig\XmlExchangeImportScript.cs" />
+    <Compile Include="ImportConfig\XmlExchangeImportSettings.cs" />
+    <Compile Include="ImportConfig\XmlExchangeImportTypeItem.cs" />
+    <Compile Include="ImportConfig\XmlExchangeImportXmlExportSettings.cs" />
+    <Compile Include="ImportConfig\List\XmlExchangeImportActionsScripts.cs" />
+    <Compile Include="ImportConfig\List\XmlExchangeImportScriptsBase.cs" />
+    <Compile Include="ImportConfig\List\XmlExchangeImportActions.cs" />
+    <Compile Include="ImportConfig\List\XmlExchangeImportExtensions.cs" />
+    <Compile Include="ImportConfig\List\XmlExchangeImportItemList`1.cs" />
+    <Compile Include="ImportConfig\List\XmlExchangeImportRuleList`1.cs" />
+    <Compile Include="ImportConfig\List\XmlExchangeImportRulesCreate.cs" />
+    <Compile Include="ImportConfig\List\XmlExchangeImportRulesImport.cs" />
+    <Compile Include="ImportConfig\List\XmlExchangeImportRulesSearch.cs" />
+    <Compile Include="ImportConfig\List\XmlExchangeImportScripts.cs" />
+    <Compile Include="ImportConfig\Common\EnumToXmlValueConverter.cs" />
+    <Compile Include="ImportConfig\Common\XmlValueAttribute.cs" />
+    <Compile Include="ImportConfig\Common\CaseSensitiveMode.cs" />
+    <Compile Include="ImportConfig\Common\CreationRuleMode.cs" />
+    <Compile Include="ImportConfig\Common\ImportRuleMode.cs" />
+    <Compile Include="ImportConfig\Common\SearchRuleOperation.cs" />
+    <Compile Include="ImportConfig\Common\SkipExistsMode.cs" />
+    <Compile Include="ImportConfig\Common\VersionNoMode.cs" />
+    <Compile Include="ImportConfig\Common\VersionOwnerMode.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Editor\ConfigEditorWindow.resx" />
+    <EmbeddedResource Include="Editor\EditorTabControl.resx" />
+    <EmbeddedResource Include="ImageResources.resx" />
+    <EmbeddedResource Include="Pages\PageApplPartTypes.resx" />
+    <EmbeddedResource Include="Pages\PageAttributes.resx" />
+    <EmbeddedResource Include="Pages\PageDefAttributes.resx" />
+    <EmbeddedResource Include="Pages\PageSearchAttributes.resx" />
+    <EmbeddedResource Include="Pages\PageSettings.resx" />
+    <EmbeddedResource Include="Properties\Resources.resx" />
+    <EmbeddedResource Include="XmlConfigEmptyScript.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

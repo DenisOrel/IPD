@@ -1,0 +1,75 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: Syncfusion.Pdf.PatternDictionarySegment
+// Assembly: Intermech.Pdf, Version=7.0.2.1112, Culture=neutral, PublicKeyToken=null
+// MVID: 0C070FAE-F25E-47C5-A369-CE57AB4187A4
+// Assembly location: D:\IPS\Client\Intermech.Pdf.dll
+// XML documentation location: D:\IPS\Client\Intermech.Pdf.xml
+
+#nullable disable
+namespace Syncfusion.Pdf;
+
+internal class PatternDictionarySegment : JBIG2Segment
+{
+  private JBIG2Image[] m_bitmaps;
+  private BitOperation m_bitOperation;
+  private int m_grayMax;
+  private int m_height;
+  private PatternDictionaryFlags m_patternDictionaryFlags;
+  private int m_size;
+  private int m_width;
+
+  public PatternDictionarySegment(JBIG2StreamDecoder streamDecoder)
+    : base(streamDecoder)
+  {
+    this.m_patternDictionaryFlags = new PatternDictionaryFlags();
+    this.m_bitOperation = new BitOperation();
+  }
+
+  internal JBIG2Image[] GetBitmaps() => this.m_bitmaps;
+
+  private void ReadPatternDictionaryFlags()
+  {
+    this.m_patternDictionaryFlags.setFlags((int) this.m_decoder.ReadByte());
+  }
+
+  public override void readSegment()
+  {
+    this.ReadPatternDictionaryFlags();
+    this.m_width = (int) this.m_decoder.ReadByte();
+    this.m_height = (int) this.m_decoder.ReadByte();
+    short[] numArray = new short[4];
+    this.m_decoder.ReadByte(numArray);
+    this.m_grayMax = this.m_bitOperation.GetInt32(numArray);
+    bool useMMR = this.m_patternDictionaryFlags.GetFlagValue("HD_MMR") == 1;
+    int flagValue = this.m_patternDictionaryFlags.GetFlagValue("HD_TEMPLATE");
+    if (!useMMR)
+    {
+      this.m_arithmeticDecoder.ResetGenericStats(flagValue, (ArithmeticDecoderStats) null);
+      this.m_arithmeticDecoder.Start();
+    }
+    short[] adaptiveTemplateX = new short[4];
+    short[] adaptiveTemplateY = new short[4];
+    adaptiveTemplateX[0] = (short) -this.m_width;
+    adaptiveTemplateY[0] = (short) 0;
+    adaptiveTemplateX[1] = (short) -3;
+    adaptiveTemplateY[1] = (short) -1;
+    adaptiveTemplateX[2] = (short) 2;
+    adaptiveTemplateY[2] = (short) -2;
+    adaptiveTemplateX[3] = (short) -2;
+    adaptiveTemplateY[3] = (short) -2;
+    this.m_size = this.m_grayMax + 1;
+    JBIG2Image jbiG2Image = new JBIG2Image(this.m_size * this.m_width, this.m_height, this.m_arithmeticDecoder, this.m_huffmanDecoder, this.m_mmrDecoder);
+    jbiG2Image.Clear(0);
+    jbiG2Image.ReadBitmap(useMMR, flagValue, false, false, (JBIG2Image) null, adaptiveTemplateX, adaptiveTemplateY, this.m_segmentHeader.DataLength - 7);
+    JBIG2Image[] jbiG2ImageArray = new JBIG2Image[this.m_size];
+    int x = 0;
+    for (int index = 0; index < this.m_size; ++index)
+    {
+      jbiG2ImageArray[index] = jbiG2Image.GetSlice(x, 0, this.m_width, this.m_height);
+      x += this.m_width;
+    }
+    this.m_bitmaps = jbiG2ImageArray;
+  }
+
+  internal int Size => this.m_size;
+}

@@ -1,0 +1,36 @@
+<UserControl x:Class="Intermech.Tools.Client.CompositionCopying.Views.CopyDocumentsPageView" x:ClassModifier="internal"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:Intermech.Tools.Client.CompositionCopying.Views"
+             xmlns:bcl="http://schemas.intermech.org/bcl/wpf">
+  <FrameworkElement.Resources>
+    <ResourceDictionary>
+      <ResourceDictionary.MergedDictionaries>
+        <bcl:SharedResourceDictionary CachedSource="CompositionCopyingCommonResources.xaml" InDesignMode="{bcl:InDesignMode}"/>
+      </ResourceDictionary.MergedDictionaries>
+    </ResourceDictionary>
+  </FrameworkElement.Resources>
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="*"/>
+      <RowDefinition Height="Auto"/>
+      <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <DockPanel Grid.Row="0" Grid.Column="0">
+      <TextBlock DockPanel.Dock="Top" Margin="0,4,0,8" TextWrapping="Wrap" Text="{Binding PageDescription}"/>
+      <TextBlock DockPanel.Dock="Top" Margin="0,4,0,4" Text="Журнал операции:" FontWeight="Bold"/>
+      <ProgressBar DockPanel.Dock="Top" Height="10" Value="{Binding CopyDocumentsOperation.Progress, Mode=OneWay}"/>
+      <ListBox Margin="0,4" MinHeight="100" VerticalAlignment="Stretch" ItemsSource="{Binding CopyDocumentLog}"/>
+    </DockPanel>
+    <StackPanel DockPanel.Dock="Bottom" Grid.Row="1" Grid.Column="0" Margin="0,0,-4,0" Orientation="Horizontal"
+                HorizontalAlignment="Right">
+      <Button Content="Копировать" HorizontalAlignment="Left" VerticalAlignment="Top"
+              Command="{Binding CopyDocumentsOperation.StartCommand}"/>
+      <Button Content="Прервать" HorizontalAlignment="Left" VerticalAlignment="Top"
+              Command="{Binding CopyDocumentsOperation.StopCommand}"/>
+    </StackPanel>
+    <local:WizardPageErrorsControl x:Name="PageErrorsBlock" Grid.Row="2" Grid.Column="0" Margin="0,8,0,0"/>
+  </Grid>
+</UserControl>

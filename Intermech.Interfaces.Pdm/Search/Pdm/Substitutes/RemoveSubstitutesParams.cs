@@ -1,0 +1,31 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: Intermech.Search.Pdm.Substitutes.RemoveSubstitutesParams
+// Assembly: Intermech.Interfaces.Pdm, Version=7.0.2.1112, Culture=neutral, PublicKeyToken=null
+// MVID: C981BCB9-CF2A-447D-A8BE-B05ADE22BCE8
+// Assembly location: D:\IPS\Client\Intermech.Interfaces.Pdm.dll
+// XML documentation location: D:\IPS\Client\Intermech.Interfaces.Pdm.xml
+
+using Intermech.Search.Utilities;
+using System;
+
+#nullable disable
+namespace Intermech.Search.Pdm.Substitutes;
+
+[Serializable]
+public sealed class RemoveSubstitutesParams
+{
+  public static bool Check(RemoveSubstitutesParams @params)
+  {
+    if (@params == null)
+      throw new ArgumentNullException("@params");
+    return !ObjectHelper.IsUnknownObjectVersionID(@params.ProjectVersionID) && @params.RelationTypeID != -1 && SubstitutesHelper.IsSuitableForSubstitutesRelationType(@params.RelationTypeID);
+  }
+
+  public RemoveSubstitutesParams() => this.DeleteAuxiliaryPositionRelations = true;
+
+  public int RelationTypeID { get; set; }
+
+  public long ProjectVersionID { get; set; }
+
+  public bool DeleteAuxiliaryPositionRelations { get; set; }
+}

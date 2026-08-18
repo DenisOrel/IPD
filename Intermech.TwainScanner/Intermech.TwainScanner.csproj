@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.TwainScanner.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{37A52791-2CA1-4061-A296-99DA4AEF160E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>Intermech.TwainScanner</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Archives\ScanDocums\TwProtocol.cs" />
+    <Compile Include="Archives\ScanDocums\TwDG.cs" />
+    <Compile Include="Archives\ScanDocums\TwDAT.cs" />
+    <Compile Include="Archives\ScanDocums\TwMSG.cs" />
+    <Compile Include="Archives\ScanDocums\TwRC.cs" />
+    <Compile Include="Archives\ScanDocums\TwCC.cs" />
+    <Compile Include="Archives\ScanDocums\TwOn.cs" />
+    <Compile Include="Archives\ScanDocums\TwType.cs" />
+    <Compile Include="Archives\ScanDocums\TwCap.cs" />
+    <Compile Include="Archives\ScanDocums\TwIdentity.cs" />
+    <Compile Include="Archives\ScanDocums\TwVersion.cs" />
+    <Compile Include="Archives\ScanDocums\TwUserInterface.cs" />
+    <Compile Include="Archives\ScanDocums\TwStatus.cs" />
+    <Compile Include="Archives\ScanDocums\TwEvent.cs" />
+    <Compile Include="Archives\ScanDocums\TwImageInfo.cs" />
+    <Compile Include="Archives\ScanDocums\TwPendingXfers.cs" />
+    <Compile Include="Archives\ScanDocums\TwFix32.cs" />
+    <Compile Include="Archives\ScanDocums\TwCapability.cs" />
+    <Compile Include="Archives\ScanDocums\BITMAPINFOHEADER.cs" />
+    <Compile Include="Archives\ScanDocums\TwainCommand.cs" />
+    <Compile Include="Archives\ScanDocums\IntermechTwainDriver.cs" />
+    <Compile Include="Archives\ScanDocums\ScanerDocumentService.cs" />
+    <Compile Include="Archives\ScanDocums\ScanerDocumetPreviewDialog.cs" />
+    <Compile Include="TwainScanner\DelegateMessage.cs" />
+    <Compile Include="TwainScanner\AsyncPipeClient.cs" />
+    <Compile Include="TwainScanner\AsyncPipeServer.cs" />
+    <Compile Include="TwainScanner\COMHelper.cs" />
+    <Compile Include="TwainScanner\COMNative.cs" />
+    <Compile Include="TwainScanner\IClassFactory.cs" />
+    <Compile Include="TwainScanner\CLSCTX.cs" />
+    <Compile Include="TwainScanner\REGCLS.cs" />
+    <Compile Include="TwainScanner\ExeCOMServer.cs" />
+    <Compile Include="TwainScanner\IImTwainScanner.cs" />
+    <Compile Include="TwainScanner\IInitDone.cs" />
+    <Compile Include="TwainScanner\ICSSimpleObjectEvents.cs" />
+    <Compile Include="TwainScanner\ImTwainScanner.cs" />
+    <Compile Include="TwainScanner\FloatPropertyChangingEventHandler.cs" />
+    <Compile Include="TwainScanner\OnImageTransferEventHandler.cs" />
+    <Compile Include="TwainScanner\OnEndScaningEventHandler.cs" />
+    <Compile Include="TwainScanner\ProgressChangedEventHandler.cs" />
+    <Compile Include="TwainScanner\CSSimpleObjectClassFactory.cs" />
+    <Compile Include="TwainScanner\ReferenceCountedObject.cs" />
+    <Compile Include="TwainScanner\LogManager.cs" />
+    <Compile Include="TwainScanner\PipeServer.cs" />
+    <Compile Include="TwainScanner\StreamString.cs" />
+    <Compile Include="TwainScanner\StreamBytes.cs" />
+    <Compile Include="TwainScanner\StreamBytes1.cs" />
+    <Compile Include="TwainScanner\PipeClient.cs" />
+    <Compile Include="TwainScanner\NamedPipesServer.cs" />
+    <Compile Include="TwainScanner\NativeMethod.cs" />
+    <Compile Include="TwainScanner\MSG.cs" />
+    <Compile Include="TwainScanner\POINT.cs" />
+    <Compile Include="TwainScanner\Program.cs" />
+    <Compile Include="TwainScanner\WaitFrom.cs" />
+    <Compile Include="TwainScanner\Properties\Resources.cs" />
+    <Compile Include="TwainScanner\Properties\Settings.cs" />
+    <Compile Include="TwainScanner\VintaSoftScanner\MainForm.cs" />
+    <Compile Include="TwainScanner\VintaSoftScanner\ScanerSelectForm.cs" />
+    <Compile Include="TwainScanner\VintaSoftScanner\VintasoftScanner.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Archives\ScanDocums\ScanerDocumetPreviewDialog.resx" />
+    <EmbeddedResource Include="TwainScanner\Properties\Resources.resx" />
+    <EmbeddedResource Include="TwainScanner\VintaSoftScanner\MainForm.resx" />
+    <EmbeddedResource Include="TwainScanner\VintaSoftScanner\ScanerSelectForm.resx" />
+    <EmbeddedResource Include="TwainScanner\VintaSoftScanner\Vintasoft\Twain.dll" />
+    <EmbeddedResource Include="TwainScanner\WaitFrom.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

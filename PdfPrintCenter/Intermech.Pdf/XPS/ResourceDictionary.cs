@@ -1,0 +1,50 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: Syncfusion.XPS.ResourceDictionary
+// Assembly: Intermech.Pdf, Version=7.0.2.1112, Culture=neutral, PublicKeyToken=null
+// MVID: 0C070FAE-F25E-47C5-A369-CE57AB4187A4
+// Assembly location: D:\IPS\Client\Intermech.Pdf.dll
+// XML documentation location: D:\IPS\Client\Intermech.Pdf.xml
+
+using System;
+using System.CodeDom.Compiler;
+using System.ComponentModel;
+using System.Diagnostics;
+using System.Xml.Serialization;
+
+#nullable disable
+namespace Syncfusion.XPS;
+
+[DesignerCategory("code")]
+[XmlRoot("ResourceDictionary", Namespace = "http://schemas.microsoft.com/xps/2005/06", IsNullable = false)]
+[GeneratedCode("xsd", "2.0.50727.3038")]
+[DebuggerStepThrough]
+[XmlType(Namespace = "http://schemas.microsoft.com/xps/2005/06")]
+[Serializable]
+public class ResourceDictionary
+{
+  private object[] itemsField;
+  private string sourceField;
+
+  [XmlElement("RadialGradientBrush", typeof (RadialGradientBrush))]
+  [XmlElement("SolidColorBrush", typeof (SolidColorBrush))]
+  [XmlElement("MatrixTransform", typeof (MatrixTransform))]
+  [XmlElement("Glyphs", typeof (Glyphs))]
+  [XmlElement("ImageBrush", typeof (ImageBrush))]
+  [XmlElement("Canvas", typeof (Canvas))]
+  [XmlElement("LinearGradientBrush", typeof (LinearGradientBrush))]
+  [XmlElement("PathGeometry", typeof (PathGeometry))]
+  [XmlElement("Path", typeof (Path))]
+  [XmlElement("VisualBrush", typeof (VisualBrush))]
+  public object[] Items
+  {
+    get => this.itemsField;
+    set => this.itemsField = value;
+  }
+
+  [XmlAttribute(DataType = "anyURI")]
+  public string Source
+  {
+    get => this.sourceField;
+    set => this.sourceField = value;
+  }
+}

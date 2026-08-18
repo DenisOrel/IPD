@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.Project.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2D083FC7-B0A2-466C-9F23-33142855BA5F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.Project</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Extensions">
+      <HintPath>lib\Intermech.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Extensions.Interfaces">
+      <HintPath>lib\Intermech.Extensions.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Extensions.Workflow">
+      <HintPath>lib\Intermech.Extensions.Workflow.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Workflow">
+      <HintPath>lib\Intermech.Interfaces.Workflow.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Helper.cs" />
+    <Compile Include="Extensions\ColorExtensions.cs" />
+    <Compile Include="Extensions\StringExtensions.cs" />
+    <Compile Include="Project\ImportObjectSettingsBase.cs" />
+    <Compile Include="Project\ImportObjectSettings.cs" />
+    <Compile Include="Project\SettingsForObjTypeLink.cs" />
+    <Compile Include="Project\ImportObjectSettingsForObjType.cs" />
+    <Compile Include="Project\SessionProviderHelper.cs" />
+    <Compile Include="Project\ParcipiantInfo.cs" />
+    <Compile Include="Project\TaskAttachmentRelType.cs" />
+    <Compile Include="Project\Strings.cs" />
+    <Compile Include="Project\DependencyNotFoundException.cs" />
+    <Compile Include="Project\ProjectMessageNotFoundException.cs" />
+    <Compile Include="Project\ProjectNotFoundException.cs" />
+    <Compile Include="Project\RelationTaskInProjectNotFoundException.cs" />
+    <Compile Include="Project\TaskNotFoundException.cs" />
+    <Compile Include="Project\IDBObjectExtensions.cs" />
+    <Compile Include="Project\ProjectIUserSessionExtensions.cs" />
+    <Compile Include="Project\Filter.cs" />
+    <Compile Include="Project\IMProject.cs" />
+    <Compile Include="Project\Helper.cs" />
+    <Compile Include="Project\IDBDependency.cs" />
+    <Compile Include="Project\IDBDependencyCollection.cs" />
+    <Compile Include="Project\IDBProjectMessage.cs" />
+    <Compile Include="Project\IDBProjectMessageCollection.cs" />
+    <Compile Include="Project\IDBProjectCollection.cs" />
+    <Compile Include="Project\IDBProjectTask.cs" />
+    <Compile Include="Project\IDBProjectTaskCollection.cs" />
+    <Compile Include="Project\IDBRelationCollectionTaskInProject.cs" />
+    <Compile Include="Project\IDBRelationTaskInProject.cs" />
+    <Compile Include="Project\DependencyObjectType.cs" />
+    <Compile Include="Project\ProjectMessageObjectType.cs" />
+    <Compile Include="Project\ProjectObjectType.cs" />
+    <Compile Include="Project\ImportedObjectsRelType.cs" />
+    <Compile Include="Project\ResourceRelType.cs" />
+    <Compile Include="Project\TaskObjectType.cs" />
+    <Compile Include="Project\TaskCompositionRelType.cs" />
+    <Compile Include="Project\LCStepVsTaskStatusConnection.cs" />
+    <Compile Include="Project\Attributes.cs" />
+    <Compile Include="Project\Attribute.cs" />
+    <Compile Include="Project\LCStep.cs" />
+    <Compile Include="Project\LCSteps.cs" />
+    <Compile Include="Project\ObjectTypes.cs" />
+    <Compile Include="Project\PhysicalQuantity.cs" />
+    <Compile Include="Project\RelationTypes.cs" />
+    <Compile Include="Project\SystemObject.cs" />
+    <Compile Include="Project\Project.cs" />
+    <Compile Include="Project\ProjectConsts.cs" />
+    <Compile Include="Project\MetadataLoader.cs" />
+    <Compile Include="Project\Library.cs" />
+    <Compile Include="Project\AttrValue.cs" />
+    <Compile Include="Project\BulkData.cs" />
+    <Compile Include="Project\TaskState.cs" />
+    <Compile Include="Project\TaskStatus.cs" />
+    <Compile Include="Project\ConstraintType.cs" />
+    <Compile Include="Project\DependencyType.cs" />
+    <Compile Include="Project\WorkType.cs" />
+    <Compile Include="Project\TaskFlags.cs" />
+    <Compile Include="Project\RequestEditMode.cs" />
+    <Compile Include="Project\TaskStartingMode.cs" />
+    <Compile Include="Project\Task.cs" />
+    <Compile Include="Project\FilterFlags.cs" />
+    <Compile Include="Project\PlanningType.cs" />
+    <Compile Include="Project\RuntimeFlags.cs" />
+    <Compile Include="Project\ProjectTimerKind.cs" />
+    <Compile Include="Project\PrjAttachKind.cs" />
+    <Compile Include="Project\DBObjectTask.cs" />
+    <Compile Include="Project\ExternalTask.cs" />
+    <Compile Include="Project\StandaloneTask.cs" />
+    <Compile Include="Project\TaskEnumerationExtensions.cs" />
+    <Compile Include="Project\ICancelEditException.cs" />
+    <Compile Include="Project\IProjectServer.cs" />
+    <Compile Include="Project\TaskVisualProps.cs" />
+    <Compile Include="Project\XmlPredecessor.cs" />
+    <Compile Include="Project\EditingMode.cs" />
+    <Compile Include="Project\EditingModeExtension.cs" />
+    <Compile Include="Project\NoopExtensions.cs" />
+    <Compile Include="Project\NotInEditModeException.cs" />
+    <Compile Include="Project\ImportedObject.cs" />
+    <Compile Include="Project\IProject.cs" />
+    <Compile Include="Project\INotifier.cs" />
+    <Compile Include="Project\IProgressNotifier.cs" />
+    <Compile Include="Project\IProjectTimers.cs" />
+    <Compile Include="Project\RemoteSettings.cs" />
+    <Compile Include="Project\IRuntimeFlags.cs" />
+    <Compile Include="Project\MsProjectFuncs.cs" />
+    <Compile Include="Project\MergedSchedule.cs" />
+    <Compile Include="Project\PrjAttachmentList.cs" />
+    <Compile Include="Project\PrjAttachment.cs" />
+    <Compile Include="Project\ProjectProperties.cs" />
+    <Compile Include="Project\Localization.cs" />
+    <Compile Include="Project\CustomDescription.cs" />
+    <Compile Include="Project\CustomDisplayName.cs" />
+    <Compile Include="Project\CustomCategory.cs" />
+    <Compile Include="Project\Assignment.cs" />
+    <Compile Include="Project\AssignmentCollection.cs" />
+    <Compile Include="Project\IDDelta.cs" />
+    <Compile Include="Project\Collection`1.cs" />
+    <Compile Include="Project\EnhCollection`1.cs" />
+    <Compile Include="Project\DateSchedule.cs" />
+    <Compile Include="Project\DateScheduleCollection.cs" />
+    <Compile Include="Project\DateScheduleList.cs" />
+    <Compile Include="Project\DayOfWeekSchedule.cs" />
+    <Compile Include="Project\DayOfWeekScheduleCollection.cs" />
+    <Compile Include="Project\DayTimeIntervalCollection.cs" />
+    <Compile Include="Project\DependencyState.cs" />
+    <Compile Include="Project\Dependency.cs" />
+    <Compile Include="Project\DependencyCollection.cs" />
+    <Compile Include="Project\Entity.cs" />
+    <Compile Include="Project\ItemEventArgs`1.cs" />
+    <Compile Include="Project\ItemChangeEventArgs`1.cs" />
+    <Compile Include="Project\ProjectCollection.cs" />
+    <Compile Include="Project\RatioSchedule.cs" />
+    <Compile Include="Project\Resource.cs" />
+    <Compile Include="Project\ResourceCollection.cs" />
+    <Compile Include="Project\Schedule.cs" />
+    <Compile Include="Project\ScheduleList.cs" />
+    <Compile Include="Project\SessionProvider.cs" />
+    <Compile Include="Project\SiteID.cs" />
+    <Compile Include="Project\TaskCollection.cs" />
+    <Compile Include="Project\TaskFilter.cs" />
+    <Compile Include="Project\TaskFilters.cs" />
+    <Compile Include="Project\TimeInterval.cs" />
+    <Compile Include="Project\TimeIntervalCollection.cs" />
+    <Compile Include="Project\UnknownResource.cs" />
+    <Compile Include="Project\Utilities.cs" />
+    <Compile Include="Project\WorkTimeUnit.cs" />
+    <Compile Include="Project\WorkTimeUnits.cs" />
+    <Compile Include="Project\WorkTimeValue.cs" />
+    <Compile Include="Project\Properties\Resources.cs" />
+    <Compile Include="Project\Evaluator\Evaluator.cs" />
+    <Compile Include="Project\Evaluator\CompiledFilterInfo.cs" />
+    <Compile Include="Project\Evaluator\ExpressionList.cs" />
+    <Compile Include="Project\Evaluator\GroupOperation.cs" />
+    <Compile Include="Project\Evaluator\Expression.cs" />
+    <Compile Include="Project\Evaluator\Operation.cs" />
+    <Compile Include="Project\Evaluator\Operations.cs" />
+    <Compile Include="Project\Evaluator\PropInfo.cs" />
+    <Compile Include="Project\Evaluator\PropInfos.cs" />
+    <Compile Include="Project\Evaluator\PossibleValue.cs" />
+    <Compile Include="Project\Evaluator\PossibleValues.cs" />
+    <Compile Include="Project\Server\IDBObjectCollectionExtensions.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Project\Properties\Resources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

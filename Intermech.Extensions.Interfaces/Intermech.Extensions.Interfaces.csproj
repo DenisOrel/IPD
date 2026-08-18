@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.Extensions.Interfaces.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EFE8B938-D707-426D-8022-E813AC3C93E0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.Extensions.Interfaces</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Extensions">
+      <HintPath>lib\Intermech.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Check.cs" />
+    <Compile Include="Common\INamedContext.cs" />
+    <Compile Include="Diagnostics\AttributeIdIsEmptyException.cs" />
+    <Compile Include="Diagnostics\ArgumentAttributeIdIsEmptyException.cs" />
+    <Compile Include="Diagnostics\AttributeIsEmptyException.cs" />
+    <Compile Include="Diagnostics\ArgumentAttributeIsEmptyException.cs" />
+    <Compile Include="Diagnostics\EmptyDataTableException.cs" />
+    <Compile Include="Diagnostics\IterationIdIsEmptyException.cs" />
+    <Compile Include="Diagnostics\ArgumentIterationIdIsEmptyException.cs" />
+    <Compile Include="Diagnostics\ObjectIdIsEmptyException.cs" />
+    <Compile Include="Diagnostics\ArgumentObjectIdIsEmptyException.cs" />
+    <Compile Include="Diagnostics\ObjectTypeIdIsEmptyException.cs" />
+    <Compile Include="Diagnostics\ArgumentObjectTypeIdIsEmptyException.cs" />
+    <Compile Include="Diagnostics\RelationIdIsEmptyException.cs" />
+    <Compile Include="Diagnostics\ArgumentRelationIdIsEmptyException.cs" />
+    <Compile Include="Diagnostics\RelationTypeIdIsEmptyException.cs" />
+    <Compile Include="Diagnostics\ArgumentRelationTypeIdIsEmptyException.cs" />
+    <Compile Include="Extensions\DB.cs" />
+    <Compile Include="Extensions\IMSAttributeTypeExtensions.cs" />
+    <Compile Include="Extensions\ColumnDescriptorExtensions.cs" />
+    <Compile Include="Extensions\DataRowExtensions.cs" />
+    <Compile Include="Extensions\NamedContextExtensions.cs" />
+    <Compile Include="Extensions\ObjectNamedContextExtensions.cs" />
+    <Compile Include="Extensions\Services.cs" />
+    <Compile Include="Extensions\Calendars.cs" />
+    <Compile Include="Extensions\Portal.cs" />
+    <Compile Include="Extensions\IpsSourceTemplates.cs" />
+    <Compile Include="Extensions\IdbAttributableExtensions.cs" />
+    <Compile Include="Extensions\IDBAttributeExtensions.cs" />
+    <Compile Include="Extensions\IDBConfigurationsExtensions.cs" />
+    <Compile Include="Extensions\IDbObjectCollectionSelectHelper.cs" />
+    <Compile Include="Extensions\IDBObjectExtensions.cs" />
+    <Compile Include="Extensions\IDbRecordsSelectHelper.cs" />
+    <Compile Include="Extensions\IDbRelationCollectionSelectHelper.cs" />
+    <Compile Include="Extensions\If.cs" />
+    <Compile Include="Extensions\Localization.cs" />
+    <Compile Include="Extensions\CustomDescription.cs" />
+    <Compile Include="Extensions\CustomDisplayName.cs" />
+    <Compile Include="Extensions\CustomCategory.cs" />
+    <Compile Include="Extensions\IPSExceptionExtensions.cs" />
+    <Compile Include="Extensions\IPSAggregateExceptionExtensions.cs" />
+    <Compile Include="Extensions\InitOnceExtensions.cs" />
+    <Compile Include="Extensions\Interfaces\Library.cs" />
+    <Compile Include="Extensions\Interfaces\Helper.cs" />
+    <Compile Include="Interfaces\DBObjectTypeHandlerAttribute.cs" />
+    <Compile Include="Interfaces\DBRelationTypeHandlerAttribute.cs" />
+    <Compile Include="Interfaces\LifeCycleLevelNotFoundException.cs" />
+    <Compile Include="Interfaces\LifeCycleStepNotFoundException.cs" />
+    <Compile Include="Interfaces\SiteNotFoundException.cs" />
+    <Compile Include="Interfaces\IdbAttributableExtensions.cs" />
+    <Compile Include="Interfaces\CustomAttributeNotFoundException.cs" />
+    <Compile Include="Interfaces\ObjectAttributeNotFoundException.cs" />
+    <Compile Include="Interfaces\RelationAttributeNotFoundException.cs" />
+    <Compile Include="Interfaces\AttributeWithIdNotFoundException.cs" />
+    <Compile Include="Interfaces\AttributeWithGuidNotFoundException.cs" />
+    <Compile Include="Interfaces\AttributeValueIsEmptyException.cs" />
+    <Compile Include="Interfaces\ObjectAttributeValueIsEmptyException.cs" />
+    <Compile Include="Interfaces\RelationAttributeValueIsEmptyException.cs" />
+    <Compile Include="Interfaces\ArgumentAttributeValueIsEmptyException.cs" />
+    <Compile Include="Interfaces\ArgumentObjectAttributeValueIsEmptyException.cs" />
+    <Compile Include="Interfaces\ArgumentRelationAttributeValueIsEmptyException.cs" />
+    <Compile Include="Interfaces\InvalidCommitException.cs" />
+    <Compile Include="Interfaces\IObjectException.cs" />
+    <Compile Include="Interfaces\IRelationException.cs" />
+    <Compile Include="Interfaces\MeasureNotFoundException.cs" />
+    <Compile Include="Interfaces\ObjectNotSupportInterfaceException`1.cs" />
+    <Compile Include="Interfaces\ObjectTypeNotFoundException.cs" />
+    <Compile Include="Interfaces\ObjectVersionNotFoundException.cs" />
+    <Compile Include="Interfaces\ObjectWithGuidNotFoundException.cs" />
+    <Compile Include="Interfaces\RelationNotFoundException.cs" />
+    <Compile Include="Interfaces\RelationNotSupportInterfaceException`1.cs" />
+    <Compile Include="Interfaces\RelationTypeNotFoundException.cs" />
+    <Compile Include="Interfaces\TransactionRollbackException.cs" />
+    <Compile Include="Interfaces\UserSessionExtensions.cs" />
+    <Compile Include="Interfaces\SessionKeeperExtensions.cs" />
+    <Compile Include="Interfaces\Transaction.cs" />
+    <Compile Include="Interfaces\ITransactionKeeper.cs" />
+    <Compile Include="Interfaces\TransactionKeeperDisposeAction.cs" />
+    <Compile Include="Interfaces\ExternalTransactionRelationship.cs" />
+    <Compile Include="Interfaces\ExactRollbackCause.cs" />
+    <Compile Include="Interfaces\TransactionStatus.cs" />
+    <Compile Include="Interfaces\TransactionKeeper.cs" />
+    <Compile Include="Interfaces\ISessionKeeper.cs" />
+    <Compile Include="Interfaces\UserSessionKeeper.cs" />
+    <Compile Include="Interfaces\IUserSessionProvider.cs" />
+    <Compile Include="Metadata\UserObjectType.cs" />
+    <Compile Include="Metadata\Attributes.cs" />
+    <Compile Include="Metadata\SystemAttribute.cs" />
+    <Compile Include="Metadata\ObligatoryObjectAttribute.cs" />
+    <Compile Include="Metadata\SystemAttribute4ObjectType.cs" />
+    <Compile Include="Metadata\SystemAttribute4RelationType.cs" />
+    <Compile Include="Metadata\FiltrationRule.cs" />
+    <Compile Include="Metadata\InitFieldsWithSessionAttribute.cs" />
+    <Compile Include="Metadata\LCLevel.cs" />
+    <Compile Include="Metadata\SystemLCLevel.cs" />
+    <Compile Include="Metadata\LCStep.cs" />
+    <Compile Include="Metadata\SystemLCStep.cs" />
+    <Compile Include="Metadata\MeasureUnit.cs" />
+    <Compile Include="Metadata\SystemMeasureUnit.cs" />
+    <Compile Include="Metadata\ObjectTypes.cs" />
+    <Compile Include="Metadata\SystemObjectType.cs" />
+    <Compile Include="Metadata\PhysicalQuantity.cs" />
+    <Compile Include="Metadata\SystemPhysicalQuantity.cs" />
+    <Compile Include="Metadata\RelationTypes.cs" />
+    <Compile Include="Metadata\SystemRelationType.cs" />
+    <Compile Include="Metadata\RelationApplicability.cs" />
+    <Compile Include="Metadata\Role.cs" />
+    <Compile Include="Metadata\SystemRole.cs" />
+    <Compile Include="Metadata\SystemObject.cs" />
+    <Compile Include="Metadata\SystemObjectDescriptor.cs" />
+    <Compile Include="Metadata\AttachmentRelType.cs" />
+    <Compile Include="Metadata\SimpleRelType.cs" />
+    <Compile Include="Metadata\SortedRelType.cs" />
+    <Compile Include="Metadata\User.cs" />
+    <Compile Include="Metadata\SystemUser.cs" />
+    <Compile Include="Metadata\UserGroup.cs" />
+    <Compile Include="Metadata\SystemUserGroup.cs" />
+    <Compile Include="Metadata\MetadataLoader.cs" />
+    <Compile Include="Metadata\IpsMetadataEntityType.cs" />
+    <Compile Include="Metadata\IInitWithSession.cs" />
+    <Compile Include="Metadata\IpsMetadataObject.cs" />
+    <Compile Include="Metadata\IpsMetadataEntityBase`1.cs" />
+    <Compile Include="Metadata\Objects.cs" />
+    <Compile Include="Metadata\ObjectAttributes.cs" />
+    <Compile Include="Metadata\RelationAttributes.cs" />
+    <Compile Include="Metadata\Relation.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Extensions\Resources\Attributes.resx" />
+    <EmbeddedResource Include="Extensions\Resources\Resources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Imbase_ChangesDontSave" xml:space="preserve">
+    <value>Изменения не были сохранены.
+{0}</value>
+  </data>
+  <data name="Imbase_Indexing_IndexNotFound" xml:space="preserve">
+    <value>Ни один из каталогов не проиндексирован по указанному атрибуту.</value>
+  </data>
+  <data name="Imbase_CombineAttrs_CheckOutTables_OtherUser" xml:space="preserve">
+    <value>Некоторые таблицы IMBASE, с атрибутом '{0}', взяты на редактирование другими пользователями. Необходимо завершить редактирование этих таблиц.</value>
+  </data>
+  <data name="Imbase_Attributes_Busy" xml:space="preserve">
+    <value>Атрибуты {0} задействованы при выполнении других задач. Использование их в данной задаче может нарушить целостность данных.</value>
+  </data>
+  <data name="RecepturesObjTypeNotFound" xml:space="preserve">
+    <value>В базе отсутствует тип объектов 'Таблица составных объектов'! Инициализировать кэш таблиц составных объектов невозможно.</value>
+  </data>
+  <data name="Imbase_Synch_Result" xml:space="preserve">
+    <value>Результаты синхронизации</value>
+  </data>
+  <data name="Imbase_Attr_Change_Error_ObjCantModifyMode" xml:space="preserve">
+    <value>Нельзя изменять атрибут. Объект находится а шаге ЖЦ, запрещающем его изменение.</value>
+  </data>
+  <data name="RecepturesCacheNotInitialized" xml:space="preserve">
+    <value>Кэш таблиц составных объектов не инициализирован! Попробуйте повторить действие позже.</value>
+  </data>
+  <data name="Imbase_UniqueAttribute_CanNotAdd" xml:space="preserve">
+    <value>Атрибут '{0}' (ID = {1}) является уникальным индексом. Добавление атрибута невозможно.</value>
+  </data>
+  <data name="Imbase_Uniqueness_Enabled" xml:space="preserve">
+    <value>Уникальность включена</value>
+  </data>
+  <data name="Imbase_ObjType_ImbaseObjRef_CantContainsAttr" xml:space="preserve">
+    <value>Тип объекта не может содержать атрибут 'Ссылка на объект IMBASE'</value>
+  </data>
+  <data name="Imbase_Indexing_TableRefAttr_Null" xml:space="preserve">
+    <value>У объекта '{0}' (ID = {1}) не удалось получить атрибут 'Ссылка на таблицу IMBASE'</value>
+  </data>
+  <data name="Imbase_TableRec_Removed" xml:space="preserve">
+    <value>Запись, на которую ссылается атрибут, была удалена из таблицы</value>
+  </data>
+  <data name="Imbase_CantSynchObj" xml:space="preserve">
+    <value>Объект не нуждается в обновлении.</value>
+  </data>
+  <data name="Imbase_UndefinedTableRefID" xml:space="preserve">
+    <value>Не указан идентификатор ссылки на таблицу.</value>
+  </data>
+  <data name="Imbase_Attr" xml:space="preserve">
+    <value>Атрибут '{0}' (ID = {1})</value>
+  </data>
+  <data name="Imbase_CombineAttrs_Table_CantModifyMode" xml:space="preserve">
+    <value>Таблица IMBASE '{0}' (ID = {1}) находится на шаге жизненного цикла запрещающем ее модификацию.</value>
+  </data>
+  <data name="Imbase_Synch_AttrForBind_Empty" xml:space="preserve">
+    <value>Атрибут для связи не заполнен</value>
+  </data>
+  <data name="Imbase_Indexing_UpdateFlags_Error_Msg" xml:space="preserve">
+    <value>Произошла ошибка при обновлении флагов индекса</value>
+  </data>
+  <data name="Imbase.Server.ImbaseindexingService.NullDBManager" xml:space="preserve">
+    <value>Не удалось получить интерфейс для работы с базой данных.</value>
+  </data>
+  <data name="Imbase.Server_1" xml:space="preserve">
+    <value>Идентификатор базового объекта должен быть &gt; 0</value>
+  </data>
+  <data name="Imbase.Server_2" xml:space="preserve">
+    <value>Ошибка получения информации для объекта {0}.</value>
+  </data>
+  <data name="Imbase.Server_3" xml:space="preserve">
+    <value>Для объекта типа {0} не указан идентификатор записи таблицы.</value>
+  </data>
+  <data name="Imbase.Server_4" xml:space="preserve">
+    <value>В объекте {0} не задано значение ссылки на таблицу.</value>
+  </data>
+  <data name="Imbase.Server_5" xml:space="preserve">
+    <value>Идентификатор объекта-получателя на задан</value>
+  </data>
+  <data name="Imbase.Server_6" xml:space="preserve">
+    <value>Идентификатор базового объекта должен быть &gt; 0</value>
+  </data>
+  <data name="Imbase.Server_7" xml:space="preserve">
+    <value>Ошибка получения информации для объекта {0}.</value>
+  </data>
+  <data name="Imbase.Server_8" xml:space="preserve">
+    <value>Для объекта типа {0} не указан идентификатор таблицы или ссылки на таблицу.</value>
+  </data>
+  <data name="Imbase.Server_9" xml:space="preserve">
+    <value>В объекте {0} не задано значение ссылки на таблицу.</value>
+  </data>
+  <data name="UpdateIndexes60" xml:space="preserve">
+    <value>Начато обновление таблиц индексов Imbase до версии 6.0</value>
+  </data>
+  <data name="Imbase_RestructuringTables_EmptyTableRef" xml:space="preserve">
+    <value>Ярлык '{0}' (ID={1}) не ссылается на таблицу IMBASE</value>
+  </data>
+  <data name="Imbase_ObjectModifyModes_Unknown" xml:space="preserve">
+    <value>Объект находится на неизвестном шаге жизненного цикла</value>
+  </data>
+  <data name="Imbase_Synch_ObjType_Attrs_Empty" xml:space="preserve">
+    <value>У данного типа объектов отсутствуют атрибуты для синхронизации</value>
+  </data>
+  <data name="Imbase_Obj_SaveAttrs_Error" xml:space="preserve">
+    <value>Не удалось сохранить новые значения атрибутов объекта</value>
+  </data>
+  <data name="Imbase_GetAttribute_KlassifKey_Error" xml:space="preserve">
+    <value>Не удалось получить атрибут 'Ключ папки классификатора'</value>
+  </data>
+  <data name="Imbase_CombineAttrs_Table_CheckOutOtherUser" xml:space="preserve">
+    <value>Таблица IMBASE '{0}' (ID = {1}) взята на редактирование другим пользователем.</value>
+  </data>
+  <data name="Imbase_Attr_Add_Error_ObjCantModifyMode" xml:space="preserve">
+    <value>Нельзя добавить атрибут. Объект находится а шаге ЖЦ, запрещающем его изменение.</value>
+  </data>
+  <data name="Imbase_Convert_FromImbaseRecToListObjIDs_Error" xml:space="preserve">
+    <value>Для атрибута '{0}' (ID = {1}) не удалось преобразовать значение из записи таблицы IMBASE в список идентификаторов объектов</value>
+  </data>
+  <data name="Imbase_Indexing_DataUpdate_AfterRestructured" xml:space="preserve">
+    <value>Обновление данных после реструктуризации</value>
+  </data>
+  <data name="Imbase_Attr_ReadOnly" xml:space="preserve">
+    <value>Атрибут доступен только для чтения</value>
+  </data>
+  <data name="Imbase_CantBindWithImbase_ReadOnlyAttr" xml:space="preserve">
+    <value>Объект нельзя связать с IMBASE, т.к. атрибут '{0}' помечен только для чтения</value>
+  </data>
+  <data name="Imbase.Server_22" xml:space="preserve">
+    <value>Ошибка при загрузке данных таблицы IMBASE (ID = '{0}')</value>
+  </data>
+  <data name="Imbase.Server_23" xml:space="preserve">
+    <value>Раздел: считывание настроек отображения таблиц</value>
+  </data>
+  <data name="Imbase.Server_20" xml:space="preserve">
+    <value>Неверный идентификатор сессии "{0}".</value>
+  </data>
+  <data name="Imbase.Server_21" xml:space="preserve">
+    <value>Серверная часть IMBASE</value>
+  </data>
+  <data name="Imbase.Server_26" xml:space="preserve">
+    <value>Служба {0} не найдена</value>
+  </data>
+  <data name="Imbase.Server_27" xml:space="preserve">
+    <value>Раздел: считывание настроек пользовательского фильтра</value>
+  </data>
+  <data name="Imbase.Server_24" xml:space="preserve">
+    <value>Ошибка загрузки данных фильтра Imbase для объекта ObjID = {0}</value>
+  </data>
+  <data name="Imbase.Server_25" xml:space="preserve">
+    <value>Ошибка загрузки данных объекта фильтра Imbase ObjID = {0}</value>
+  </data>
+  <data name="Imbase.Server_28" xml:space="preserve">
+    <value>Раздел: сохранение настроек пользовательского фильтра</value>
+  </data>
+  <data name="Imbase.Server_29" xml:space="preserve">
+    <value>Ошибка получения данных из индексной таблицы Imbase: '{0}'.</value>
+  </data>
+  <data name="Imbase.Server_11" xml:space="preserve">
+    <value>Идентификатор базового объекта должен быть &gt; 0</value>
+  </data>
+  <data name="Imbase.Server_10" xml:space="preserve">
+    <value>Идентификатор объекта-получателя на задан</value>
+  </data>
+  <data name="Imbase.Server_13" xml:space="preserve">
+    <value>В таблице/ссылке на таблицу с идентификатором {0} не найдена запись номер {1}.</value>
+  </data>
+  <data name="Imbase.Server_12" xml:space="preserve">
+    <value>Ошибка получения информации для объекта {0}.</value>
+  </data>
+  <data name="Imbase.Server_15" xml:space="preserve">
+    <value>Идентификатор Каталога '{0}' имеет неверный формат или Каталог '{0}' не найден.</value>
+  </data>
+  <data name="Imbase.Server_14" xml:space="preserve">
+    <value>Объект {0} не найден.</value>
+  </data>
+  <data name="Imbase.Server_17" xml:space="preserve">
+    <value>Аргумент не может быть NULL</value>
+  </data>
+  <data name="Imbase.Server_16" xml:space="preserve">
+    <value>Аргумент не может быть NULL или должен содержать значения.</value>
+  </data>
+  <data name="Imbase.Server_19" xml:space="preserve">
+    <value>Неверный идентификатор сессии.</value>
+  </data>
+  <data name="Imbase.Server_18" xml:space="preserve">
+    <value>Тип аргумента objectDef [{0}] не поддерживается.</value>
+  </data>
+  <data name="Imbase.Server_33" xml:space="preserve">
+    <value>Начато обновление структуры и данных в индексной таблице Imbase '{0}'.</value>
+  </data>
+  <data name="Imbase.Server_32" xml:space="preserve">
+    <value>В индексной таблице Imbase '{0}' отсутствует колонка 'F_APPLICABILITY'.</value>
+  </data>
+  <data name="Imbase.Server_31" xml:space="preserve">
+    <value>Не удалось обновить данные о таблице: '{0}' в IMS_IMBASE_INDEXES. Ошибка: {1}.</value>
+  </data>
+  <data name="Imbase.Server_30" xml:space="preserve">
+    <value>Имя таблицы в IMS_IMBASE_INDEXES индексов обновлено: '{0}'.</value>
+  </data>
+  <data name="Imbase.Server_37" xml:space="preserve">
+    <value>Права доступа к индексу '{0}' каталога '{1}'</value>
+  </data>
+  <data name="Imbase.Server_36" xml:space="preserve">
+    <value>Перестроение индексов</value>
+  </data>
+  <data name="Imbase.Server_35" xml:space="preserve">
+    <value>Обновление индексной таблицы Imbase '{0}' завершено.</value>
+  </data>
+  <data name="Imbase.Server_34" xml:space="preserve">
+    <value>Ошибка получения данных из индексной таблицы Imbase: '{0}'. Текст ошибки: {1}.</value>
+  </data>
+  <data name="Imbase.Server_39" xml:space="preserve">
+    <value>Добавлена/актуализирована ссылка на документ НТД</value>
+  </data>
+  <data name="Imbase.Server_38" xml:space="preserve">
+    <value>Во время обновления индексной таблицы '{0}' возникли следующие ошибки:
+    {1}</value>
+  </data>
+  <data name="Imbase_Indexing_TableObject_Null_Msg" xml:space="preserve">
+    <value>Не удалось получить объект типа 'Таблица IMBASE' (ID = '{0}').</value>
+  </data>
+  <data name="Imbase_ObjectUpdate_Error" xml:space="preserve">
+    <value>При обновлении объекта возникла ошибка.</value>
+  </data>
+  <data name="Imbase_CantAddAttr_CodeImbase" xml:space="preserve">
+    <value>Типу объектов '{0}' (ID = {1}) нельзя добавить атрибут 'Код IMBASE'.</value>
+  </data>
+  <data name="IndexTableInvalidType" xml:space="preserve">
+    <value>В индексной таблице Imbase {0} неверный тип у колонки {1}</value>
+  </data>
+  <data name="Imbase_Indexing_TableRef_NotUniqueData" xml:space="preserve">
+    <value>Ссылка на таблицу IMBASE '{0}' (ID = {1}) содержит неуникальные данные.</value>
+  </data>
+  <data name="Imbase_Table_RowIsAbsent" xml:space="preserve">
+    <value>Номер строки, указанный в атрибуте 'Код IMBASE', отсутствует в таблице</value>
+  </data>
+  <data name="Imbase_ChangesDontSaveTableNotUnique" xml:space="preserve">
+    <value>Изменения не были сохранены.
+Невозможно записать в таблицу неуникальные данные.</value>
+  </data>
+  <data name="Imbase_Indexing_DataUpdate_Table" xml:space="preserve">
+    <value>Обновление данных для таблицы IMBASE (ID = '{0}')</value>
+  </data>
+  <data name="Imbase_Index_CatalogWithCreatedType_Attr_Empty" xml:space="preserve">
+    <value>В IMBASE отсутствует или не проиндексирован, по указанному атрибуту, каталог с типом создаваемого объекта '{0}'</value>
+  </data>
+  <data name="Imbase.Server.Startup.DelObjType.CatalogsRef" xml:space="preserve">
+    <value>Невозможно удалить тип обекта, т.к. на него ссылаются каталоги IMBASE:</value>
+  </data>
+  <data name="EndUpdateIndexes60" xml:space="preserve">
+    <value>Обновление таблиц индексов Imbase до версии 6.0 завершено</value>
+  </data>
+  <data name="Imbase_RestructuringTables_EmptySourceID" xml:space="preserve">
+    <value>Не указан объект, с которого необходимо начинать реструктуризацию таблиц IMBASE</value>
+  </data>
+  <data name="Imbase.Server.ImbaseindexingService.NullSession" xml:space="preserve">
+    <value>Не удалось получить сессию пользователя.</value>
+  </data>
+  <data name="Imbase_Indexing_DeleteObject" xml:space="preserve">
+    <value>Удаление объекта (ID = '{0}')</value>
+  </data>
+  <data name="Imbase_Convert_FromImbaseRecToObjID_Error" xml:space="preserve">
+    <value>Для атрибута '{0}' (ID = {1}) не удалось преобразовать значение из записи таблицы IMBASE в идентификатор объекта</value>
+  </data>
+  <data name="Imbase_CombineAttrs_Attrs_InSameTables" xml:space="preserve">
+    <value>Атрибуты '{0}' и '{1}' находятся в одних и тех же таблицах IMBASE.</value>
+  </data>
+  <data name="Imbase_Obj_BindWithRecord_Error" xml:space="preserve">
+    <value>Не удалось связать объект с записью таблицы IMBASE</value>
+  </data>
+  <data name="Imbase_EndSynchObj_CheckOutByAnotherUser" xml:space="preserve">
+    <value>Синхронизация объекта невозможна. Объект взят на изменение другим пользователем.</value>
+  </data>
+  <data name="Imbase_Attr_Message" xml:space="preserve">
+    <value>атрибут '{0}' [{1}]: {2}</value>
+  </data>
+  <data name="Imbase_ObjectCollection_Catalog_Error" xml:space="preserve">
+    <value>Не удалось получить коллекцию объектов типа 'Каталог IMBASE'</value>
+  </data>
+  <data name="Imbase_Indexing_WriteIndexColumnData_Error_Msg" xml:space="preserve">
+    <value>Ошибка при записи в таблицу индексов значений поля '{0}' ссылки на таблицу IMBASE (ID = '{1}')</value>
+  </data>
+  <data name="Imbase_Indexing_MultiTableReferences" xml:space="preserve">
+    <value>В каталоге '{0}' (ID = {1}) несколько ярлыков ссылаются на рассматриваемую таблицу (ID = {2}).
+При наличии в каталоге уникальных индексов, на одну таблицу может ссылаться не больше одного ярлыка.</value>
+  </data>
+  <data name="Imbase_Attribute_Index" xml:space="preserve">
+    <value>Индекс '{0}'</value>
+  </data>
+  <data name="Imbase_DataBase_Exception" xml:space="preserve">
+    <value>Произошла ошибка при работе с базой данных.</value>
+  </data>
+  <data name="Imbase_Indexes_CatalogClassifKey_Empty" xml:space="preserve">
+    <value>Не удалось получить ключ папки классификатора каталога IMBASE</value>
+  </data>
+  <data name="Imbase_Indexing_ChangeAttribute_NotUniqueValue" xml:space="preserve">
+    <value>Нельзя изменить значение атрибута '{0}' (ID = {1}), это приведет к нарушению уникальности данных.</value>
+  </data>
+  <data name="Imbase_Obj_SaveAttrs_ChangedByServer" xml:space="preserve">
+    <value>Список атрибутов, измененных сервером</value>
+  </data>
+  <data name="Imbase_NullSession" xml:space="preserve">
+    <value>Не удалось получить сессию</value>
+  </data>
+  <data name="Imbase_CombineAttrs_ClassifKeys_Empty" xml:space="preserve">
+    <value>Не удалось получить ключи папок классификаторов каталогов IMBASE.</value>
+  </data>
+  <data name="Imbase_CombineAttrs_Indexes_Remove" xml:space="preserve">
+    <value>При удалении атрибута '{0}' из индексов IMBASE, возникла исключительная ситуация:</value>
+  </data>
+  <data name="Imbase_RestructuringTables_ColumnAdded_Error" xml:space="preserve">
+    <value>Не удалось добавить колонку для атрибута '{0}' (ID = {1}) в таблицу данных</value>
+  </data>
+  <data name="Imbase_UndefinedCatalogID" xml:space="preserve">
+    <value>Не указан идентификатор каталога.</value>
+  </data>
+  <data name="Imbase_ObjBindWithImbase_Info_Empty" xml:space="preserve">
+    <value>Не удалось получить информацию об объекте IMBASE, с которым связан синхронизируемый объект</value>
+  </data>
+  <data name="Imbase_CombineAttrs_Table_CreateVersionMode" xml:space="preserve">
+    <value>Для модификации таблицы IMBASE '{0}' (ID = {1}) необходимо выпустить новую версию объекта.</value>
+  </data>
+  <data name="Imbase_Indexing_Create_OtherUser" xml:space="preserve">
+    <value>Другим пользователем уже запущен процесс индексирования данного каталога по атрибуту '{0}' (ID = {1})</value>
+  </data>
+  <data name="Imbase_Indexing_CheckInObject_NotUniqueValue" xml:space="preserve">
+    <value>Нельзя завершить редактирование объекта, атрибут '{0}' (ID={1}) содержит неуникальные данные.</value>
+  </data>
+  <data name="ErrorUpdateIndexes60" xml:space="preserve">
+    <value>Ошибка во время обновления таблиц индексов Imbase: {0}{1}{2}</value>
+  </data>
+  <data name="Imbase_CombineAttrs_Attrs_DifferentPhysQuantities" xml:space="preserve">
+    <value>У атрибутов '{0}' и '{1}', не совпадает физическая величина.</value>
+  </data>
+  <data name="Imbase_CombineAttrs_Exception" xml:space="preserve">
+    <value>В модуле IMBASE, при объединении атрибутов '{0}' и '{1}', возникла исключительная ситуация:</value>
+  </data>
+  <data name="CantReplaceAttribute" xml:space="preserve">
+    <value>Невозможно заменить атрибут '{0}' на '{1}'. Оба атрибута присутствуют в таблице {2} (ID = {3})</value>
+  </data>
+  <data name="Imbase_Indexing_DataUpdate_AfterTableEdit" xml:space="preserve">
+    <value>Обновление данных после редактирования таблицы</value>
+  </data>
+  <data name="Imbase_EndSynchObj_EmptyField" xml:space="preserve">
+    <value>Поле для связи со справочником IMBASE не заполнено.</value>
+  </data>
+  <data name="Imbase_RestructuringTables_AttrAdded_Error" xml:space="preserve">
+    <value>Атрибут '{0}' (ID = {1}) уже добавлен таблице</value>
+  </data>
+  <data name="Imbase_Indexes_Delete" xml:space="preserve">
+    <value>Удаление индексов</value>
+  </data>
+  <data name="Imbase_Indexing_DataUpdate_AfterTableRefCheckIn" xml:space="preserve">
+    <value>Обновление данных после завершения редактирования ссылки на таблицу (ID = '{0}')</value>
+  </data>
+  <data name="Imbase_Indexing_TableRefObject_Null_Msg" xml:space="preserve">
+    <value>Не удалось получить объект типа 'Ссылка на таблицу IMBASE' (ID = {0})</value>
+  </data>
+  <data name="Imbase_ObjBindWithImbase_RecID_Empty" xml:space="preserve">
+    <value>Не указан номер записи в таблице IMBASE, с которой связан синхронизируемый объект</value>
+  </data>
+  <data name="Imbase_Attribute_Null" xml:space="preserve">
+    <value>Не удалось получить атрибут с идентификатором '{0}'</value>
+  </data>
+  <data name="Imbase_Attribute_Busy" xml:space="preserve">
+    <value>Атрибут '{0}' (ID = {1}) задействован при выполнении другой задачи. Использование его в данной задаче может нарушить целостность данных.</value>
+  </data>
+  <data name="Imbase_ImbaseTable_TablesNull" xml:space="preserve">
+    <value>Не удалось получить данные для таблицы IMBASE '{0}' (ID = {1})</value>
+  </data>
+  <data name="Imbase_Obj_SaveAttrs_Success" xml:space="preserve">
+    <value>Атрибуты изменены успешно</value>
+  </data>
+  <data name="Imbase_CombineAttrs_CatalogIDs_Empty" xml:space="preserve">
+    <value>Не удалось получить идентификаторы каталогов IMBASE.</value>
+  </data>
+  <data name="Imbase_CombineAttrs_NeedUpdateIndex" xml:space="preserve">
+    <value>Необходимо обновить индекс '{0}' (ID = {1}) для каталога IMBASE '{2}' (ID = {3}).</value>
+  </data>
+  <data name="Imbase_Indexing_DataUpdate_AfterTableCheckIn" xml:space="preserve">
+    <value>Обновление данных после завершения редактирования таблицы IMBASE (ID = '{0}')</value>
+  </data>
+  <data name="Imbase_Indexing_CreateIndexes" xml:space="preserve">
+    <value>Создание индексов</value>
+  </data>
+  <data name="Imbase_RestructuringTables_EmptyAttrList" xml:space="preserve">
+    <value>Не указан список добавляемых атрибутов</value>
+  </data>
+  <data name="Imbase_Data_Delete" xml:space="preserve">
+    <value>Удаление данных</value>
+  </data>
+  <data name="Imbase_Indexing_DeleteAttribute" xml:space="preserve">
+    <value>Удаление атрибута (ID = '{0}')</value>
+  </data>
+  <data name="Imbase_Attr_NewValue" xml:space="preserve">
+    <value>атрибут '{0}' [{1}]:
+   новое значение - {2};</value>
+  </data>
+  <data name="Imbase_ObjectModifyModes_CantModify" xml:space="preserve">
+    <value>Объект находится на шаге жизненного цикла, который запрещает его изменение</value>
+  </data>
+  <data name="Imbase_Obj_BindWithImbase_Error_ObjCantModifyMode" xml:space="preserve">
+    <value>Не удалось связать объект с записью таблицы IMBASE. Объект находится на шаге ЖЦ, запрещающем его изменение.</value>
+  </data>
+  <data name="Imbase_Indexing_IndexesNotFound" xml:space="preserve">
+    <value>Ни один из каталогов не проиндексирован по указанному атрибуту.</value>
+  </data>
+  <data name="Imbase_EndSynchObj_CreatedFromFolder" xml:space="preserve">
+    <value>Объект не синхронизирован т.к. был создан из папки IMBASE.</value>
+  </data>
+  <data name="Imbase_EndSynchObj_Successful" xml:space="preserve">
+    <value>Объект успешно синхронизирован.</value>
+  </data>
+  <data name="Imbase_Indexing_DataUpdate_TableRef" xml:space="preserve">
+    <value>Обновление данных для ссылки на таблицу (ID = '{0}')</value>
+  </data>
+  <data name="Imbase_Obj_AttrRefers_Error" xml:space="preserve">
+    <value>Не удалось получить объект, на который ссылается атрибут</value>
+  </data>
+  <data name="Imbase_Indexing_CopyMoveIndexing" xml:space="preserve">
+    <value>Индексирование копируемых/перемещаемых объектов</value>
+  </data>
+  <data name="Imbase_Indexing_Path_BusyCatalog" xml:space="preserve">
+    <value>Каталог ID = '{0}' занят системой. Выполняется преобразование таблицы индексов для данного каталога.</value>
+  </data>
+  <data name="Imbase_Indexing_ExceptionMsg" xml:space="preserve">
+    <value>{0}
+Имя компьютера: {1}
+Наименование задачи: {2}</value>
+  </data>
+  <data name="Imbase_Indexing_UndefinedCatalogIDForTableRef" xml:space="preserve">
+    <value>Не удалось получить идентификатор каталога для объекта типа 'Ссылка на таблицу IMBASE' ({0}, ID = {1}).</value>
+  </data>
+  <data name="Imbase_Obj_NotBindWithImbase" xml:space="preserve">
+    <value>Объект не связан с IMBASE</value>
+  </data>
+  <data name="Imbase_Uniqueness_Disabled" xml:space="preserve">
+    <value>Уникальность отключена</value>
+  </data>
+  <data name="Imbase_ObjBindWithImbase_Record_Remove" xml:space="preserve">
+    <value>Запись, с которой был связан объект, удалена из таблицы</value>
+  </data>
+  <data name="Imbase_BadAttr" xml:space="preserve">
+    <value>Атрибут отсутствует в системе</value>
+  </data>
+  <data name="Imbase_EndSynchObj_DotConnectObject" xml:space="preserve">
+    <value>Объект не связан со справочником IMBASE</value>
+  </data>
+  <data name="CantCreateRecepture" xml:space="preserve">
+    <value>Невозможно создать состав рецептуры {0}! Не найдена связь по умолчанию между типами объектов: '{1}' - '{2}'</value>
+  </data>
+  <data name="Imbase_AssignAttrs_Error" xml:space="preserve">
+    <value>Произошла ошибка при расчете вычисляемых полей таблицы объекта типа 'Ссылка на таблицу IMBASE' - '{0}' (ID = {1})</value>
+  </data>
+  <data name="Imbase_Synch_IndexValue_Empty" xml:space="preserve">
+    <value>В таблице индексов не удалось найти значение атрибута объекта, указанного для связи</value>
+  </data>
+  <data name="Imbase_Indexing_AddData" xml:space="preserve">
+    <value>Добавление данных</value>
+  </data>
+  <data name="Imbase_Indexes_TableRefList_Empty" xml:space="preserve">
+    <value>Не удалось получить список объектов типа "Ссылка на таблицу IMBASE".</value>
+  </data>
+  <data name="Imbase_Indexing_CanNotDeleteAttribute" xml:space="preserve">
+    <value>Атрибут не может быть удален. В данный момент используется в задачах индексирования.</value>
+  </data>
+  <data name="Imbase_CantModifyObject_Error" xml:space="preserve">
+    <value>Нельзя модифицировать объект</value>
+  </data>
+  <data name="Imbase_ObjectCollection_Error" xml:space="preserve">
+    <value>Не удалось получить коллекцию объектов типа</value>
+  </data>
+  <data name="Imbase_ObjectCollection_TableRef_Error" xml:space="preserve">
+    <value>Не удалось получить коллекцию объектов типа 'Ссылка на таблицу IMBASE'</value>
+  </data>
+  <data name="Imbase_Attr_OldValues_NewValues" xml:space="preserve">
+    <value>Атрибут '{0}' (ID = {1}):
+   старые значения - {2}
+   новые значения - {3}</value>
+  </data>
+  <data name="Imbase_Synch_Error" xml:space="preserve">
+    <value>Синхронизация не выполнена.</value>
+  </data>
+  <data name="Imbase_RestructuringTables_SourceObject_LoadError" xml:space="preserve">
+    <value>Не удалось получить объект, с которого необходимо начинать реструктуризацию таблиц IMBASE</value>
+  </data>
+  <data name="Imbase_EndSynchObj_LinkingFieldEmpty" xml:space="preserve">
+    <value>Связующий атрибут имеет пустое значение.</value>
+  </data>
+  <data name="Imbase_Indexing_TableRefIndexing" xml:space="preserve">
+    <value>Индексирование ссылки на таблицу</value>
+  </data>
+  <data name="Imbase_CombineAttrs_ImbaseIndexingSrv_Null" xml:space="preserve">
+    <value>Не удалось получить сервис индексирования. Атрибут '{0}' может остаться среди индексов каталогов.</value>
+  </data>
+  <data name="Imbase_Convert_FromImbaseRecToMeasuredValue_Error" xml:space="preserve">
+    <value>Для атрибута '{0}' (ID = {1}) не удалось преобразовать значение из записи таблицы IMBASE в число, выраженное в единицах измерения</value>
+  </data>
+  <data name="Imbase_Synch_ErrorList" xml:space="preserve">
+    <value>Ошибки, возникшие при синхронизации атрибутов объекта</value>
+  </data>
+  <data name="Imbase_Indexing_WriteIndexData_Error_Msg" xml:space="preserve">
+    <value>Ошибка при записи в таблицу индексов значения атрибута (ID = '{0}') объекта типа 'Ссылка на таблицу IMBASE' (ID = '{1}')</value>
+  </data>
+  <data name="Imbase_TableRef_ClassifKey_Null" xml:space="preserve">
+    <value>Не удалось получить ключ папки классификатора объекта типа 'Ссылка на таблицу IMBASE' - '{0}' (ID = {1})</value>
+  </data>
+  <data name="Imbase_Indexing_RemoteIndexes_Error_Msg" xml:space="preserve">
+    <value>Произошла ошибка при удалении индексов каталога (ID = '{0}')</value>
+  </data>
+  <data name="Imbase_EndSynchObj_NullObj" xml:space="preserve">
+    <value>Не удалось получить объект для синхронизации.</value>
+  </data>
+  <data name="Imbase_UpdateObjectsFromImbase_TableRefID_Stop" xml:space="preserve">
+    <value>Обновление объектов, созданных из указанной ссылки на таблицу, прервано.</value>
+  </data>
+  <data name="Imbase_Indexing_Table_NotUniqueData" xml:space="preserve">
+    <value>Таблица IMBASE '{0}' (ID = {1}) содержит неуникальные данные.</value>
+  </data>
+  <data name="Imbase.Server.Startup.DelObjType.FoldersRef" xml:space="preserve">
+    <value>Невозможно удалить тип обекта, т.к. на него ссылаются папки IMBASE:</value>
+  </data>
+  <data name="Imbase_ImpossibleCheckUniqueIndexes" xml:space="preserve">
+    <value>Невозможно проверить уникальность индексов, т.к. сервис индексации недоступен.</value>
+  </data>
+  <data name="Imbase_RestructuringTables_LoadTablesData_Error" xml:space="preserve">
+    <value>Ошибка при загрузке данных таблицы IMBASE</value>
+  </data>
+  <data name="Imbase_GetObject_Error" xml:space="preserve">
+    <value>Не удалось получить объект</value>
+  </data>
+  <data name="Imbase_Indexing_CalcVirtualColumn_Error_Msg" xml:space="preserve">
+    <value>Ошибка при расчете вычисляемых полей таблицы IMBASE (ID = '{0}') для ссылки на таблицу (ID = '{1}')</value>
+  </data>
+  <data name="Imbase_CombineAttrs_Tables_UpdateInfo" xml:space="preserve">
+    <value>Модуль IMBASE. Обновление информации в таблицах IMBASE после объединения атрибутов '{0}' и '{1}':</value>
+  </data>
+  <data name="Imbase_EndSynchObj_CreateVersion" xml:space="preserve">
+    <value>Объект можно модифицировать только через выпуск новой версии.</value>
+  </data>
+  <data name="Imbase_ObjectAttributes_NoAttrTableRef" xml:space="preserve">
+    <value>У объекта отсутствует атрибут 'Ссылка на таблицу IMBASE'</value>
+  </data>
+  <data name="Imbase_RestructuringTables_SourceObjectInfo_LoadError" xml:space="preserve">
+    <value>Не удалось получить информацию об объекте, с которого необходимо начинать реструктуризацию таблиц IMBASE</value>
+  </data>
+  <data name="Imbase_Attr_OldValue_NewValue" xml:space="preserve">
+    <value>атрибут '{0}' [{1}]:
+   старое значение - {2};
+   новое значение - {3};</value>
+  </data>
+  <data name="Imbase_ObjectCollection_Tables_Error" xml:space="preserve">
+    <value>Не удалось получить коллекцию объектов типа 'Таблицы IMBASE'</value>
+  </data>
+  <data name="Imbase.Server.ImbaseindexingService.NullImbaseServer" xml:space="preserve">
+    <value>Не удалось получить сервис для работы с IMBASE.</value>
+  </data>
+  <data name="Imbase_Indexing_RemoteIndexesData_Error_Msg" xml:space="preserve">
+    <value>Произошла ошибка при удалении данных индексов для объекта (ID = '{0}')</value>
+  </data>
+  <data name="Imbase_ObjectCheckOutAnotherUser_Error" xml:space="preserve">
+    <value>Объект взят на изменение другим пользователем</value>
+  </data>
+  <data name="Imbase_CombineAttrs_Indexes" xml:space="preserve">
+    <value>Модуль IMBASE. Работа с индексами после объединения атрибутов '{0}' и '{1}':</value>
+  </data>
+  <data name="Imbase_Indexing_NullService" xml:space="preserve">
+    <value>Не удалось получить сервис для работы с индексами. Проверить уникальность индексов невозможно.</value>
+  </data>
+  <data name="Imbase_Indexing_CanNotDeleteCatalog" xml:space="preserve">
+    <value>Каталог '{0}' (ID = {1}) не может быть удален. В данный момент используется в задачах индексирования.</value>
+  </data>
+  <data name="Imbase_Indexes_AttributeList_Empty" xml:space="preserve">
+    <value>Не заполнен список атрибутов.</value>
+  </data>
+  <data name="Imbase_Convert_FromImbaseRecToArrayValue_Error" xml:space="preserve">
+    <value>Для атрибута '{0}' (ID = {1}) не удалось преобразовать значение из записи таблицы IMBASE в массив значений</value>
+  </data>
+  <data name="Imbase_ObjID_And_RecID_Error" xml:space="preserve">
+    <value>Не удалось получить идентификатор ярлыка IMBASE и номер записи в таблице</value>
+  </data>
+  <data name="Imbase_EndSynchObj_CantModify" xml:space="preserve">
+    <value>Нельзя редактировать объект на данном этапе жизненного цикла.</value>
+  </data>
+  <data name="Imbase_Indexing_NotUniqueValue" xml:space="preserve">
+    <value>Атрибут "{0}" (ID = {1}) является уникальным индексом каталога "{2}" (ID = {3}). Значения в столбце с данным атрибутом, рассматриваемой таблицы, не являются уникальными.</value>
+  </data>
+  <data name="Imbase_Attr_NewValues" xml:space="preserve">
+    <value>Атрибут '{0}' (ID = {1}):
+   новые значения - {2}</value>
+  </data>
+  <data name="Imbase_Indexing_UpdateIndexes" xml:space="preserve">
+    <value>Обновление индексов</value>
+  </data>
+  <data name="Imbase_Task_Stop" xml:space="preserve">
+    <value>Выполнение задачи прервано пользователем</value>
+  </data>
+  <data name="Imbase_Indexing_LockedAttribute" xml:space="preserve">
+    <value>Атрибут {0} (ID = {1}) участвует в выполнении другой задачи индексирования.</value>
+  </data>
+  <data name="Imbase_Synch_NotNeedToSync" xml:space="preserve">
+    <value>Синхронизация объекта не требуется</value>
+  </data>
+  <data name="Imbase_Indexes_UpdateUnique" xml:space="preserve">
+    <value>Обновление уникальности индексов</value>
+  </data>
+  <data name="Imbase_Objs_Data_Empty" xml:space="preserve">
+    <value>Не удалось получить данные для объектов указанного типа</value>
+  </data>
+  <data name="Imbase_EndSynchObj_ValueNotFound" xml:space="preserve">
+    <value>Значение '{0}' в таблице индексов не найдено.</value>
+  </data>
+  <data name="Imbase_Attr_LinkToObj_BadObj" xml:space="preserve">
+    <value>Не удалось получить объект с глобальным идентификатором '{0}', на который ссылается атрибут</value>
+  </data>
+  <data name="Imbase_Convert_FromImbaseRecToListMeasuredValues_Error" xml:space="preserve">
+    <value>Для атрибута '{0}' (ID = {1}) не удалось преобразовать значение из записи таблицы IMBASE в список чисел, выраженных в единицах измерения</value>
+  </data>
+  <data name="Imbase_Indexing_TableData_CreateIndexes" xml:space="preserve">
+    <value>Создание индексов в таблицах данных</value>
+  </data>
+  <data name="Imbase_Attrs_NotContent_AllReadOnly" xml:space="preserve">
+    <value>Все синхронизируемые атрибуты не влияют на модификацию объекта, но они доступны только для чтения.</value>
+  </data>
+  <data name="Imbase_InvalidCast_Error" xml:space="preserve">
+    <value>Не удалось преобразовать значение '{0}' для записи в атрибут '{1}'</value>
+  </data>
+  <data name="Imbase_Obj_SaveAttrs_ErrorList" xml:space="preserve">
+    <value>При сохранении атрибутов, возникли ошибки</value>
+  </data>
+</root>

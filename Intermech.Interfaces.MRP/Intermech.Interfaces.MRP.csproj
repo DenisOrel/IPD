@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.Interfaces.MRP.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EA8307DF-4079-45AC-B17A-BBF9683A64FD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.Interfaces.MRP</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Pdm">
+      <HintPath>lib\Intermech.Interfaces.Pdm.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Localization\MRPLocalization.cs" />
+    <Compile Include="Localization\MRPCustomDescription.cs" />
+    <Compile Include="Localization\MRPCustomCategory.cs" />
+    <Compile Include="Localization\MRPCustomDisplayName.cs" />
+    <Compile Include="Interfaces\MRP\MRPAttachTechRouteAction.cs" />
+    <Compile Include="Interfaces\MRP\MRPAddToContextAction.cs" />
+    <Compile Include="Interfaces\MRP\MRPAddToContextActionAdv.cs" />
+    <Compile Include="Interfaces\MRP\MRPCheckInAction.cs" />
+    <Compile Include="Interfaces\MRP\MRPCheckInObjectsAction.cs" />
+    <Compile Include="Interfaces\MRP\MRPCheckoutAction.cs" />
+    <Compile Include="Interfaces\MRP\MRPCheckoutIfNeedRelAction.cs" />
+    <Compile Include="Interfaces\MRP\MRPCommitBlankObjectAction.cs" />
+    <Compile Include="Interfaces\MRP\MRPCreateBlankObjectAction.cs" />
+    <Compile Include="Interfaces\MRP\MRPCreateBlankObjectByTemplateAction.cs" />
+    <Compile Include="Interfaces\MRP\MRPCreateRelationAction.cs" />
+    <Compile Include="Interfaces\MRP\MRPCreateRelationActionBase.cs" />
+    <Compile Include="Interfaces\MRP\MRPCreateRelationIfNeedAction.cs" />
+    <Compile Include="Interfaces\MRP\MRPDeleteObjectAction.cs" />
+    <Compile Include="Interfaces\MRP\MRPDeleteRelationAction.cs" />
+    <Compile Include="Interfaces\MRP\MRPFindArticle4InstanceAction.cs" />
+    <Compile Include="Interfaces\MRP\MRPFindArticleTechRoutesAction.cs" />
+    <Compile Include="Interfaces\MRP\MRPFixRelationPartAction.cs" />
+    <Compile Include="Interfaces\MRP\MRPSyncRelationsAttrsAction.cs" />
+    <Compile Include="Interfaces\MRP\MRPWriteObjectAttributesAction.cs" />
+    <Compile Include="Interfaces\MRP\MRPWriteRelationAttributesAction.cs" />
+    <Compile Include="Interfaces\MRP\MRPContext.cs" />
+    <Compile Include="Interfaces\MRP\MRPContextFix.cs" />
+    <Compile Include="Interfaces\MRP\MRPContextOptions.cs" />
+    <Compile Include="Interfaces\MRP\MRPContextOptionsHolder.cs" />
+    <Compile Include="Interfaces\MRP\MRPTasksQueueState.cs" />
+    <Compile Include="Interfaces\MRP\MRPCheckInObjectsRef.cs" />
+    <Compile Include="Interfaces\MRP\MRPEditingContextRef.cs" />
+    <Compile Include="Interfaces\MRP\MRPNavigatorEventsRef.cs" />
+    <Compile Include="Interfaces\MRP\MRPObjectAttributesRef.cs" />
+    <Compile Include="Interfaces\MRP\MRPObjectRef.cs" />
+    <Compile Include="Interfaces\MRP\MRPParsedLinks.cs" />
+    <Compile Include="Interfaces\MRP\MRPRelationAttributesRef.cs" />
+    <Compile Include="Interfaces\MRP\MRPRelationRef.cs" />
+    <Compile Include="Interfaces\MRP\MRPTypedObjectRef.cs" />
+    <Compile Include="Interfaces\MRP\MRPActionsExecutor.cs" />
+    <Compile Include="Interfaces\MRP\MRPContextHelper.cs" />
+    <Compile Include="Interfaces\MRP\MRPPartiesHelper.cs" />
+    <Compile Include="Interfaces\MRP\IMRPContext.cs" />
+    <Compile Include="Interfaces\MRP\IMRPAdvancedContext.cs" />
+    <Compile Include="Interfaces\MRP\IMRPProgress.cs" />
+    <Compile Include="Interfaces\MRP\IMRPUserSessionHelper.cs" />
+    <Compile Include="Interfaces\MRP\IDBMRPProductionCopy.cs" />
+    <Compile Include="Interfaces\MRP\IProductionListReportService.cs" />
+    <Compile Include="Interfaces\MRP\IMRPAttributableTypeRef.cs" />
+    <Compile Include="Interfaces\MRP\IMRPCheckInObjectsRef.cs" />
+    <Compile Include="Interfaces\MRP\IMRPEditingContextRef.cs" />
+    <Compile Include="Interfaces\MRP\IMRPGuidItem.cs" />
+    <Compile Include="Interfaces\MRP\IMRPNavigatorEventsRef.cs" />
+    <Compile Include="Interfaces\MRP\IMRPObjectRef.cs" />
+    <Compile Include="Interfaces\MRP\IMRPRelationRef.cs" />
+    <Compile Include="Interfaces\MRP\IMRPTypedItem.cs" />
+    <Compile Include="Interfaces\MRP\IMRPTypedObjectRef.cs" />
+    <Compile Include="Interfaces\MRP\MRPActionsHandler.cs" />
+    <Compile Include="Interfaces\MRP\MRPBaseAction.cs" />
+    <Compile Include="Interfaces\MRP\MRPCompositeAction.cs" />
+    <Compile Include="Interfaces\MRP\MRPDelegateAction.cs" />
+    <Compile Include="Interfaces\MRP\MRPCompositionObject.cs" />
+    <Compile Include="Interfaces\MRP\MRPCompositionObjectHelper.cs" />
+    <Compile Include="Interfaces\MRP\MRPSessionGuidHolder.cs" />
+    <Compile Include="Interfaces\MRP\MRPCompositionTaskState.cs" />
+    <Compile Include="Interfaces\MRP\Consts.cs" />
+    <Compile Include="Interfaces\MRP\OrderItemSettingChangedEventHandler.cs" />
+    <Compile Include="Interfaces\MRP\IDBMRPProductionOrder.cs" />
+    <Compile Include="Interfaces\MRP\IMRPAction.cs" />
+    <Compile Include="Interfaces\MRP\IMRPCompositionsBrowser.cs" />
+    <Compile Include="Interfaces\MRP\IMRPServerPlugin.cs" />
+    <Compile Include="Interfaces\MRP\IMRPSettings.cs" />
+    <Compile Include="Interfaces\MRP\IOrderItem.cs" />
+    <Compile Include="Interfaces\MRP\IMRPUpdateableItemRef.cs" />
+    <Compile Include="Interfaces\MRP\MRP2Status.cs" />
+    <Compile Include="Interfaces\MRP\MRP2Resources.cs" />
+    <Compile Include="Interfaces\MRP\MRPSettings.cs" />
+    <Compile Include="Interfaces\MRP\BaseOrderItemSetting.cs" />
+    <Compile Include="Interfaces\MRP\BoughtArticleItemSettings.cs" />
+    <Compile Include="Interfaces\MRP\MovingItemSettings.cs" />
+    <Compile Include="Interfaces\MRP\MRPOrderItemsSettingsHolder.cs" />
+    <Compile Include="Interfaces\MRP\SubstitutesItemSettings.cs" />
+    <Compile Include="Interfaces\MRP\TechnologicalItemSettings.cs" />
+    <Compile Include="Interfaces\MRP\ManufactureOrderHolder.cs" />
+    <Compile Include="Interfaces\MRP\IOrderItemSetting.cs" />
+    <Compile Include="Interfaces\MRP\OrderItem.cs" />
+    <Compile Include="MRP2\IMRP2ServerService.cs" />
+    <Compile Include="MRP2\MRP2Consts.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Interfaces\MRP\MRP2\MRP2Resources.resx" />
+    <EmbeddedResource Include="Interfaces\MRP\Resources\CustomAttributesResources.resx" />
+    <EmbeddedResource Include="Interfaces\MRP\Resources\InterfacesMRPResources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

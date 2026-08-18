@@ -1,0 +1,555 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.Controls.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{474705CA-FDC6-43AC-B586-8CC03468BC4D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.Controls</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ContainerHelperNET2">
+      <HintPath>lib\ContainerHelperNET2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.IM.Utils">
+      <HintPath>lib\DevExpress.IM.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.IM.XtraEditors">
+      <HintPath>lib\DevExpress.IM.XtraEditors.dll</HintPath>
+    </Reference>
+    <Reference Include="Edanmo.OleStorage">
+      <HintPath>lib\Edanmo.OleStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bars">
+      <HintPath>lib\Intermech.Bars.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bcl.Wpf">
+      <HintPath>lib\Intermech.Bcl.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Docking">
+      <HintPath>lib\Intermech.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Extensions">
+      <HintPath>lib\Intermech.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Extensions.Interfaces">
+      <HintPath>lib\Intermech.Extensions.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Extensions.WinForms">
+      <HintPath>lib\Intermech.Extensions.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Client">
+      <HintPath>lib\Intermech.Interfaces.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.mshtml">
+      <HintPath>lib\Microsoft.mshtml.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+    <Reference Include="WpfBindingErrors">
+      <HintPath>lib\WpfBindingErrors.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Intermech\ControlServicesExtensions.cs" />
+    <Compile Include="Intermech\UI\BevelStyle.cs" />
+    <Compile Include="Intermech\UI\BevelShape.cs" />
+    <Compile Include="Intermech\UI\Bevel.cs" />
+    <Compile Include="Intermech\UI\Colour.cs" />
+    <Compile Include="Intermech\UI\XPCollapser.cs" />
+    <Compile Include="Intermech\UI\SizeChangingHandler.cs" />
+    <Compile Include="Intermech\UI\XPGroupBox.cs" />
+    <Compile Include="Intermech\UI\XPGroupBoxContainer.cs" />
+    <Compile Include="Intermech\UI\XPGroupItem.cs" />
+    <Compile Include="Intermech\UI\XPGroupItemRenderer.cs" />
+    <Compile Include="Intermech\Localization\LocalizationHolder.cs" />
+    <Compile Include="Intermech\Localization\CustomDescription.cs" />
+    <Compile Include="Intermech\Localization\CustomDisplayName.cs" />
+    <Compile Include="Intermech\Localization\CustomCategory.cs" />
+    <Compile Include="Intermech\Localization\Resources.cs" />
+    <Compile Include="Intermech\Common\ISupportSaveLocks.cs" />
+    <Compile Include="Intermech\Extensions\ControlContextExtensions.cs" />
+    <Compile Include="Intermech\Interfaces\Client\ControlServiceContainer.cs" />
+    <Compile Include="Intermech\Windows\Forms\BaseDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Intermech\Windows\Forms\BaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Intermech\Windows\Forms\BaseUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Intermech\Controls\TabControlAdvanced.cs" />
+    <Compile Include="Intermech\Controls\BarManagerConfigurationAdapter.cs" />
+    <Compile Include="Intermech\Controls\PopupMenuBarItem.cs" />
+    <Compile Include="Intermech\Controls\BaseControl.cs" />
+    <Compile Include="Intermech\Controls\CheckedTreeView.cs" />
+    <Compile Include="Intermech\Controls\BrushSelectionUserControl.cs" />
+    <Compile Include="Intermech\Controls\BrushSetupComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Intermech\Controls\BrushSetupComboBoxDesigner.cs" />
+    <Compile Include="Intermech\Controls\BrushStyle.cs" />
+    <Compile Include="Intermech\Controls\ColorButton.cs" />
+    <Compile Include="Intermech\Controls\ColorButtonDesigner.cs" />
+    <Compile Include="Intermech\Controls\ColorSelectionUserControl.cs" />
+    <Compile Include="Intermech\Controls\SelectColorForm.cs" />
+    <Compile Include="Intermech\Controls\CustomComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Intermech\Controls\CustomComboBoxDesigner.cs" />
+    <Compile Include="Intermech\Controls\OldNewEventArgs`1.cs" />
+    <Compile Include="Intermech\Controls\OldNewEventHandler`1.cs" />
+    <Compile Include="Intermech\Controls\IPopupMenuItem.cs" />
+    <Compile Include="Intermech\Controls\IPopupMenu.cs" />
+    <Compile Include="Intermech\Controls\PopupResizeMode.cs" />
+    <Compile Include="Intermech\Controls\GripAlignMode.cs" />
+    <Compile Include="Intermech\Controls\GripRenderer.cs" />
+    <Compile Include="Intermech\Controls\PopupDropDown.cs" />
+    <Compile Include="Intermech\Controls\IPopupControlHost.cs" />
+    <Compile Include="Intermech\Controls\PopupControl.cs" />
+    <Compile Include="Intermech\Controls\LineDashStyleSetupComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Intermech\Controls\LineDashStyleSetupComboBoxDesigner.cs" />
+    <Compile Include="Intermech\Controls\LineDashStyleMenuItem.cs" />
+    <Compile Include="Intermech\Controls\LineDashStylesUserControl.cs" />
+    <Compile Include="Intermech\Controls\SelectLineDashStyleMenuItem.cs" />
+    <Compile Include="Intermech\Controls\LineThicknessSetupComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Intermech\Controls\LineThicknessSetupComboBoxDesigner.cs" />
+    <Compile Include="Intermech\Controls\LineThicknessMenuItem.cs" />
+    <Compile Include="Intermech\Controls\SelectLineThicknessMenuItem.cs" />
+    <Compile Include="Intermech\Controls\SelectLineThicknessUserControl.cs" />
+    <Compile Include="Intermech\Controls\IStandartLineThicknessesOwner.cs" />
+    <Compile Include="Intermech\Controls\StandartLineThicknessesEditor.cs" />
+    <Compile Include="Intermech\Controls\LineMenuItem.cs" />
+    <Compile Include="Intermech\Controls\LineDashStyleMenuItemDesigner.cs" />
+    <Compile Include="Intermech\Controls\SetupLineComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Intermech\Controls\SetupLineComboBoxDesigner.cs" />
+    <Compile Include="Intermech\Controls\SetupLineUserControl.cs" />
+    <Compile Include="Intermech\Controls\PenSelectionUserControl.cs" />
+    <Compile Include="Intermech\Controls\ExceptionToInlinesConverter.cs" />
+    <Compile Include="Intermech\Controls\ExceptionViewerControl.cs" />
+    <Compile Include="Intermech\Controls\ExceptionViewerResources.cs" />
+    <Compile Include="Intermech\Controls\ColorProgressBar.cs" />
+    <Compile Include="Intermech\Controls\ColorProgressBarDesigner.cs" />
+    <Compile Include="Intermech\Controls\ComboBoxAdv.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Intermech\Controls\IComboItemWithIcon.cs" />
+    <Compile Include="Intermech\Controls\IComboItemWithImage.cs" />
+    <Compile Include="Intermech\Controls\IComboItemWithCaption.cs" />
+    <Compile Include="Intermech\Controls\IComboItemWithRemarks.cs" />
+    <Compile Include="Intermech\Controls\ComboBoxPaperSizes.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Intermech\Controls\ComboBoxPrinters.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Intermech\Controls\TypedComboBox`1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Intermech\Controls\DockManagerConfigurationAdapter.cs" />
+    <Compile Include="Intermech\Controls\ElapsedTimePanel.cs" />
+    <Compile Include="Intermech\Controls\ExceptionForm.cs" />
+    <Compile Include="Intermech\Controls\FormEx.cs" />
+    <Compile Include="Intermech\Controls\Consts.cs" />
+    <Compile Include="Intermech\Controls\IMMessageBoxImage.cs" />
+    <Compile Include="Intermech\Controls\MessageBoxButtonsAdv.cs" />
+    <Compile Include="Intermech\Controls\DialogResultAdv.cs" />
+    <Compile Include="Intermech\Controls\IMMessageBoxButton.cs" />
+    <Compile Include="Intermech\Controls\IMMessageBox.cs" />
+    <Compile Include="Intermech\Controls\InputQueryForm.cs" />
+    <Compile Include="Intermech\Controls\MeasureSpinEdit.cs" />
+    <Compile Include="Intermech\Controls\GetMeasureDescriptorsDelegate.cs" />
+    <Compile Include="Intermech\Controls\ContextMenuItemSurrogate.cs" />
+    <Compile Include="Intermech\Controls\ArrowKeysNavigator.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Intermech\Controls\PreviewPrintControl.cs" />
+    <Compile Include="Intermech\Controls\PreviewPrintController.cs" />
+    <Compile Include="Intermech\Controls\ExtendedPreviewPageInfo.cs" />
+    <Compile Include="Intermech\Controls\PrintDlg.cs" />
+    <Compile Include="Intermech\Controls\PrintPreviewDlg.cs" />
+    <Compile Include="Intermech\Controls\PrintPreviewController.cs" />
+    <Compile Include="Intermech\Controls\FocusableRadioButton.cs" />
+    <Compile Include="Intermech\Controls\RemaindTimePanel.cs" />
+    <Compile Include="Intermech\Controls\ReportTopicForm.cs" />
+    <Compile Include="Intermech\Controls\CharacterMap.cs" />
+    <Compile Include="Intermech\Controls\CharacterMapGrid.cs" />
+    <Compile Include="Intermech\Controls\CharacterMapProperties.cs" />
+    <Compile Include="Intermech\Controls\ComboBoxEx.cs" />
+    <Compile Include="Intermech\Controls\ComboBoxExItem.cs" />
+    <Compile Include="Intermech\Controls\FontComboStyle.cs" />
+    <Compile Include="Intermech\Controls\NativeWindowMethods.cs" />
+    <Compile Include="Intermech\Controls\SettingsBox.cs" />
+    <Compile Include="Intermech\Controls\SearchDialog.cs" />
+    <Compile Include="Intermech\Controls\ISearchableBrowser.cs" />
+    <Compile Include="Intermech\Controls\TextEditor.cs" />
+    <Compile Include="Intermech\Controls\FontSizes.cs" />
+    <Compile Include="Intermech\Controls\SelectionTypes.cs" />
+    <Compile Include="Intermech\Controls\ReadyStates.cs" />
+    <Compile Include="Intermech\Controls\BlockedMouseDBLClickTreeView.cs" />
+    <Compile Include="Intermech\Controls\ViewSwitch.cs" />
+    <Compile Include="Intermech\Controls\ZoomAndPan.cs" />
+    <Compile Include="Intermech\Controls\Thumbnail\BaseRenderer.cs" />
+    <Compile Include="Intermech\Controls\Thumbnail\IThumbnailRenderer.cs" />
+    <Compile Include="Intermech\Controls\Thumbnail\RedrawEventHandler.cs" />
+    <Compile Include="Intermech\Controls\Thumbnail\BoundsEventArgs.cs" />
+    <Compile Include="Intermech\Controls\Thumbnail\ThumbnailGrid.cs" />
+    <Compile Include="Intermech\Controls\Thumbnail\ThumbnailEventHandler.cs" />
+    <Compile Include="Intermech\Controls\Thumbnail\GetToolTipTextEventHandler.cs" />
+    <Compile Include="Intermech\Controls\Thumbnail\SelectionChangedEventHandler.cs" />
+    <Compile Include="Intermech\Controls\Thumbnail\ThumbnailEventArgs.cs" />
+    <Compile Include="Intermech\Controls\SpellCheck\SpellCheckInsertFromFileForm.cs" />
+    <Compile Include="Intermech\Controls\SpellCheck\SpellCheckOptionsForm.cs" />
+    <Compile Include="Intermech\Controls\SpellCheck\SpellCheckerUIEditor.cs" />
+    <Compile Include="Intermech\Controls\SpellCheck\SpellCheckerConverter.cs" />
+    <Compile Include="Intermech\Controls\SpellCheck\SpellChecker.cs" />
+    <Compile Include="Intermech\Controls\SpellCheck\ErrorStruct.cs" />
+    <Compile Include="Intermech\Controls\SpellCheck\Struct.cs" />
+    <Compile Include="Intermech\Controls\SpellCheck\Utility.cs" />
+    <Compile Include="Intermech\Controls\SpellCheck\WordDict.cs" />
+    <Compile Include="Intermech\Controls\Properties\Resources.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\ImOleContainer.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\HandleChangeEventHandler.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\HandleCollector.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\HelperMethods.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\SafeNativeMethods.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\LangStrings.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\Ole10Native.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\OleHelper.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\FORMATETC.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\OBJECTDESCRIPTOR.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\IStream.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\IEnumMoniker.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\IMoniker.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\IRunningObjectTable.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\IBindCtx.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\IEnumString.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\IMarshal.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\IAdviseSink.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\COMRECT.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\HookProc.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\RECT.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\POINT.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\WNDCLASS.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\WNDCLASS_D.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\WNDCLASS_I.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\MENUITEMINFO_T.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\MENUITEMINFO_T_RW.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\CHARFORMATW.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\CHARFORMATA.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\CHARFORMAT2A.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\STATSTG.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\IHTMLEventObj.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\LOGPEN.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\LOGPALETTE.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\LOGFONT.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\LOGBRUSH.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\BITMAP.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\BITMAPINFOHEADER.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\DIBSECTION.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\OPENFILENAME_I.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\WndProc.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\STARTUPINFO.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\STARTUPINFO_I.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\SYSTEM_POWER_STATUS.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\WINDOWPLACEMENT.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\USEROBJECTFLAGS.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\MMCKINFO.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\WAVEFORMATEX.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\ScreenOrientation.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\OLERENDER.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\DATADIR.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\ADVF.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\IEnumSTATDATA.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\IEnumFORMATETC.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\IDataObject.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\PAGESETUPDLG.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\PRINTDLG.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\PRINTDLGEX.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\TreeViewCompareCallback.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\TVSORTCB.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\CHARRANGE.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\EditStreamCallback.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\EDITSTREAM.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\LVBKIMAGE.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\LVCOLUMN.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\LVGROUP.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\LVHITTESTINFO.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\LVINSERTMARK.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\MCHITTESTINFO.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\HDITEM.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\LVTILEVIEWINFO.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\TBBUTTON.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\LVCOLUMN_T.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\FINDTEXT.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\EDITSTREAM64.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\tagOIFI.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\FILETIME.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\tagDESCKIND.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\tagSYSKIND.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\tagTLIBATTR.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\WebBrowserReadyState.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\tagDVTARGETDEVICE.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\tagTYPEKIND.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\tagINVOKEKIND.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\tagPOINTF.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\tagSIZE.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\TOOLINFO_TOOLTIP.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\TOOLINFO_T.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\SYSTEMTIME.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\SIZE.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\LVITEM.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\TV_INSERTSTRUCT.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\TV_ITEM.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\REPASTESPECIAL.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\TCITEM_T.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\TOOLINFO.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\GETTEXTLENGTHEX.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\SCROLLINFO.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\TV_HITTESTINFO.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\TEXTRANGE.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\LVFINDINFO.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\NOTIFYICONDATA.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\NONCLIENTMETRICS.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\HIGHCONTRAST.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\HIGHCONTRAST_I.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\_POINTL.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\tagSIZEL.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\tagLOGPALETTE.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\ListViewCompareCallback.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\STATDATA.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\PARAFORMAT.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\TBBUTTONINFO.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\tagLICINFO.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\tagDISPPARAMS.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\tagEXCEPINFO.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\IOleCommandTarget.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\tagOLEVERB.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\MSOCRINFOSTRUCT.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\tagCONTROLINFO.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\tagFUNCDESC.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\tagTYPEDESC.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\tagPARAMDESC.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\tagVARDESC.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\value_tagELEMDESC.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\OLECMD.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\DesignerSerializationVisibility.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\DesignerSerializationVisibilityAttribute.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\tagOleMenuGroupWidths.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\SRCategoryAttribute.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\IOleContainer.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\SRDescriptionAttribute.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\ActivationState.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\ActivationGesture.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\DVASPECT.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\DocumentSizeMode.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\MSG.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\TYMED.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\STGMEDIUM.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\REOBJECT.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\IEnumSTATSTG.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\IStorage.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\IOleClientSite.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\POINTSTRUCT.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\PAINTSTRUCT.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\EnumChildrenCallback.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\EnumThreadWindowsCallback.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\EnumChildrenProc.cs" />
+    <Compile Include="Intermech\Controls\OleContainer\UnsafeMethods.cs" />
+    <Compile Include="Intermech\Controls\Grid\ColumnState.cs" />
+    <Compile Include="Intermech\Controls\Grid\ListColumn.cs" />
+    <Compile Include="Intermech\Controls\Grid\ColumnCollection.cs" />
+    <Compile Include="Intermech\Controls\Grid\CustomCollectionEditor.cs" />
+    <Compile Include="Intermech\Controls\Grid\ColumnConverter.cs" />
+    <Compile Include="Intermech\Controls\Grid\RECT.cs" />
+    <Compile Include="Intermech\Controls\Grid\ChangedEventHandler.cs" />
+    <Compile Include="Intermech\Controls\Grid\ChangedType.cs" />
+    <Compile Include="Intermech\Controls\Grid\ChangedEventArgs.cs" />
+    <Compile Include="Intermech\Controls\Grid\StringHelpers.cs" />
+    <Compile Include="Intermech\Controls\Grid\ClickEventArgs.cs" />
+    <Compile Include="Intermech\Controls\Grid\HoverType.cs" />
+    <Compile Include="Intermech\Controls\Grid\HoverEventArgs.cs" />
+    <Compile Include="Intermech\Controls\Grid\IEmbeddedControl.cs" />
+    <Compile Include="Intermech\Controls\Grid\ListSubItem.cs" />
+    <Compile Include="Intermech\Controls\Grid\ListSubItemCollection.cs" />
+    <Compile Include="Intermech\Controls\Grid\ListItem.cs" />
+    <Compile Include="Intermech\Controls\Grid\ListItemCollection.cs" />
+    <Compile Include="Intermech\Controls\Grid\ListItemConverter.cs" />
+    <Compile Include="Intermech\Controls\Grid\ListSubItemConverter.cs" />
+    <Compile Include="Intermech\Controls\Grid\ListComboBox.cs" />
+    <Compile Include="Intermech\Controls\Grid\ListDateTimePicker.cs" />
+    <Compile Include="Intermech\Controls\Grid\SortType.cs" />
+    <Compile Include="Intermech\Controls\Grid\ListState.cs" />
+    <Compile Include="Intermech\Controls\Grid\ListRegion.cs" />
+    <Compile Include="Intermech\Controls\Grid\GridLineStyle.cs" />
+    <Compile Include="Intermech\Controls\Grid\GridLines.cs" />
+    <Compile Include="Intermech\Controls\Grid\GridType.cs" />
+    <Compile Include="Intermech\Controls\Grid\HeaderStyle.cs" />
+    <Compile Include="Intermech\Controls\Grid\ActivatedEmbeddedType.cs" />
+    <Compile Include="Intermech\Controls\Grid\ListGrid.cs" />
+    <Compile Include="Intermech\Controls\Grid\SortDirection.cs" />
+    <Compile Include="Intermech\Controls\Grid\ListQuickSort.cs" />
+    <Compile Include="Intermech\Controls\Grid\ListTextBox.cs" />
+    <Compile Include="Intermech\Controls\Grid\ManagedHScrollBar.cs" />
+    <Compile Include="Intermech\Controls\Grid\ManagedVScrollBar.cs" />
+    <Compile Include="Intermech\Controls\Grid\MergeSort.cs" />
+    <Compile Include="Intermech\Controls\Grid\ThemeRoutines.cs" />
+    <Compile Include="Intermech\Controls\Grid\Win32.cs" />
+    <Compile Include="Intermech\Controls\ColorComboBox\ComboBoxBrushStylePicker.cs" />
+    <Compile Include="Intermech\Controls\ColorComboBox\BrushStylePicker.cs" />
+    <Compile Include="Intermech\Controls\DocumentFormulaTextBox\DocumentFormulaRichTextBox.cs" />
+    <Compile Include="Intermech\Controls\DocumentFormulaTextBox\DocumentFormulaTextBox.cs" />
+    <Compile Include="Intermech\Controls\DocumentFormulaTextBox\DocumentFormulaToolStrip.cs" />
+    <Compile Include="Intermech\PropertyEditors\FilteredTreeView.cs" />
+    <Compile Include="Intermech\Html\IWebBrowserEvents.cs" />
+    <Compile Include="Intermech\Html\IWebBrowserEvents2.cs" />
+    <Compile Include="Intermech\Html\HtmlBrowserNavigatedEventHandler.cs" />
+    <Compile Include="Intermech\Html\HtmlBrowserNavigatedEventArgs.cs" />
+    <Compile Include="Intermech\Html\HtmlBrowserNavigatingEventHandler.cs" />
+    <Compile Include="Intermech\Html\HtmlBrowserNavigatingEventArgs.cs" />
+    <Compile Include="Intermech\Html\HtmlBrowser.cs" />
+    <Compile Include="Intermech\Html\HtmlDocument.cs" />
+    <Compile Include="Intermech\Html\HtmlElement.cs" />
+    <Compile Include="Intermech\Html\HtmlSite.cs" />
+    <Compile Include="Intermech\Html\NativeMethods.cs" />
+    <Compile Include="XamlGeneratedNamespace\GeneratedInternalTypeHelper.cs" />
+    <Compile Include="Wizard\WizardForm.cs" />
+    <Compile Include="Accentra\Controls\TablePicker.cs" />
+    <Compile Include="CharacterMap\CharacterMapForm.cs" />
+    <Compile Include="MWCommon\TextDirEventHandler.cs" />
+    <Compile Include="MWCommon\TextDirEventArgs.cs" />
+    <Compile Include="MWCommon\StringFormatEnumEventHandler.cs" />
+    <Compile Include="MWCommon\StringFormatEnumEventArgs.cs" />
+    <Compile Include="MWCommon\MWCancelEventHandler.cs" />
+    <Compile Include="MWCommon\MWCancelEventArgs.cs" />
+    <Compile Include="MWCommon\MWCommon.cs" />
+    <Compile Include="MWCommon\TextDir.cs" />
+    <Compile Include="MWCommon\StringFormatEnum.cs" />
+    <Compile Include="MWCommon\CheckBoxPaintOrder.cs" />
+    <Compile Include="MWControls\EditorTextDir.cs" />
+    <Compile Include="MWControls\EditorTextDirUI.cs" />
+    <Compile Include="MWControls\MWLabel.cs" />
+    <Compile Include="OfficePickers\Util\ContextMenuForm.cs" />
+    <Compile Include="OfficePickers\Util\CustomColors.cs" />
+    <Compile Include="OfficePickers\Util\GradientPanel.cs" />
+    <Compile Include="OfficePickers\ColorPicker\ComboBoxColorPicker.cs" />
+    <Compile Include="OfficePickers\ColorPicker\OfficeColorPicker.cs" />
+    <Compile Include="OfficePickers\ColorPicker\SelectableColor.cs" />
+    <Compile Include="OfficePickers\ColorPicker\ToolStripColorPickerDisplayType.cs" />
+    <Compile Include="OfficePickers\ColorPicker\ToolStripColorPicker.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Accentra\Controls\TablePicker.resx" />
+    <EmbeddedResource Include="CharacterMap\CharacterMapForm.resx" />
+    <EmbeddedResource Include="Intermech\Controls\BrushSelectionUserControl.resx" />
+    <EmbeddedResource Include="Intermech\Controls\CharacterMap.resx" />
+    <EmbeddedResource Include="Intermech\Controls\CharacterMapGrid.resx" />
+    <EmbeddedResource Include="Intermech\Controls\ColorProgressBar.resx" />
+    <EmbeddedResource Include="Intermech\Controls\ColorSelectionUserControl.resx" />
+    <EmbeddedResource Include="Intermech\Controls\ComboBoxEx.resx" />
+    <EmbeddedResource Include="Intermech\Controls\ElapsedTimePanel.resx" />
+    <EmbeddedResource Include="Intermech\Controls\ExceptionForm.resx" />
+    <EmbeddedResource Include="Intermech\Controls\Grid\ListComboBox.resx" />
+    <EmbeddedResource Include="Intermech\Controls\Grid\ListDateTimePicker.resx" />
+    <EmbeddedResource Include="Intermech\Controls\Grid\ListGrid.resx" />
+    <EmbeddedResource Include="Intermech\Controls\Grid\ListTextBox.resx" />
+    <EmbeddedResource Include="Intermech\Controls\Grid\ManagedHScrollBar.resx" />
+    <EmbeddedResource Include="Intermech\Controls\InputQueryForm.resx" />
+    <EmbeddedResource Include="Intermech\Controls\LineDashStylesUserControl.resx" />
+    <EmbeddedResource Include="Intermech\Controls\ListGrid\Resources\checked.bmp" />
+    <EmbeddedResource Include="Intermech\Controls\ListGrid\Resources\unchecked.bmp" />
+    <EmbeddedResource Include="Intermech\Controls\OleContainer\ImOleContainer.resx" />
+    <EmbeddedResource Include="Intermech\Controls\PenSelectionUserControl.resx" />
+    <EmbeddedResource Include="Intermech\Controls\PreviewPrintControl.resx" />
+    <EmbeddedResource Include="Intermech\Controls\PrintDlg.resx" />
+    <EmbeddedResource Include="Intermech\Controls\PrintPreviewDlg.resx" />
+    <EmbeddedResource Include="Intermech\Controls\Properties\Resources.resx" />
+    <EmbeddedResource Include="Intermech\Controls\ReportTopicForm.resx" />
+    <EmbeddedResource Include="Intermech\Controls\Resources\Resources.resx" />
+    <EmbeddedResource Include="Intermech\Controls\SearchDialog.resx" />
+    <EmbeddedResource Include="Intermech\Controls\SelectColorForm.resx" />
+    <EmbeddedResource Include="Intermech\Controls\SelectLineThicknessUserControl.resx" />
+    <EmbeddedResource Include="Intermech\Controls\SettingsBox.resx" />
+    <EmbeddedResource Include="Intermech\Controls\SetupLineUserControl.resx" />
+    <EmbeddedResource Include="Intermech\Controls\SpellCheck\ru_RU.aff" />
+    <EmbeddedResource Include="Intermech\Controls\SpellCheck\ru_RU.dic" />
+    <EmbeddedResource Include="Intermech\Controls\SpellCheck\russian-aot-ieyo.aff" />
+    <EmbeddedResource Include="Intermech\Controls\SpellCheck\russian-aot-ieyo.dic" />
+    <EmbeddedResource Include="Intermech\Controls\SpellCheck\SpellCheckInsertFromFileForm.resx" />
+    <EmbeddedResource Include="Intermech\Controls\SpellCheck\SpellCheckOptionsForm.resx" />
+    <EmbeddedResource Include="Intermech\Controls\TextEditor.resx" />
+    <EmbeddedResource Include="Intermech\Controls\Thumbnail\BaseRenderer.resx" />
+    <EmbeddedResource Include="Intermech\Controls\Thumbnail\grip.bmp" />
+    <EmbeddedResource Include="Intermech\Controls\Thumbnail\resizemark.bmp" />
+    <EmbeddedResource Include="Intermech\Controls\Thumbnail\ThumbnailGrid.resx" />
+    <EmbeddedResource Include="Intermech\Controls\ViewSwitch.resx" />
+    <EmbeddedResource Include="Intermech\PropertyEditors\FilteredTreeView.resx" />
+    <EmbeddedResource Include="Intermech\UI\Bevel.resx" />
+    <EmbeddedResource Include="Intermech\UI\XPCollapser.resx" />
+    <EmbeddedResource Include="Intermech\UI\XPGroupBox.resx" />
+    <EmbeddedResource Include="Intermech\UI\XPGroupBoxContainer.resx" />
+    <EmbeddedResource Include="Intermech\UI\XPGroupItem.resx" />
+    <EmbeddedResource Include="MWControls\EditorTextDirUI.resx" />
+    <EmbeddedResource Include="MWControls\MWLabel.resx" />
+    <EmbeddedResource Include="OfficePickers\ColorPicker\ComboBoxColorPicker.resx" />
+    <EmbeddedResource Include="OfficePickers\ColorPicker\OfficeColorPicker.resx" />
+    <EmbeddedResource Include="OfficePickers\ColorPicker\ToolStripColorPicker.resx" />
+    <EmbeddedResource Include="OfficePickers\Util\ContextMenuForm.resx" />
+    <EmbeddedResource Include="Wizard\WizardForm.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="exceptionviewercontrol.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

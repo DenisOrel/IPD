@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.Project.Client.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{180B8002-67F8-445E-84B6-E100EA07F1F6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.Project.Client</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Intermech.Bars">
+      <HintPath>lib\Intermech.Bars.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Client.Core">
+      <HintPath>lib\Intermech.Client.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Controls">
+      <HintPath>lib\Intermech.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Docking">
+      <HintPath>lib\Intermech.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Document.Client">
+      <HintPath>lib\Intermech.Document.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Document.Model">
+      <HintPath>lib\Intermech.Document.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Extensions">
+      <HintPath>lib\Intermech.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Extensions.Client">
+      <HintPath>lib\Intermech.Extensions.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Extensions.Interfaces">
+      <HintPath>lib\Intermech.Extensions.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Client">
+      <HintPath>lib\Intermech.Interfaces.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Document">
+      <HintPath>lib\Intermech.Interfaces.Document.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Workflow">
+      <HintPath>lib\Intermech.Interfaces.Workflow.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Project">
+      <HintPath>lib\Intermech.Project.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Project.Controls">
+      <HintPath>lib\Intermech.Project.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Workflow.Design">
+      <HintPath>lib\Intermech.Workflow.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Helper.cs" />
+    <Compile Include="IMProject.cs" />
+    <Compile Include="Services.cs" />
+    <Compile Include="Project\Attribute.cs" />
+    <Compile Include="Project\Attributes.cs" />
+    <Compile Include="Project\Localization.cs" />
+    <Compile Include="Project\CustomDescription.cs" />
+    <Compile Include="Project\CustomDisplayName.cs" />
+    <Compile Include="Project\CustomCategory.cs" />
+    <Compile Include="Project\Client\CommandList.cs" />
+    <Compile Include="Project\Client\ProjectEditorMode.cs" />
+    <Compile Include="Project\Client\ProgressForm.cs" />
+    <Compile Include="Project\Client\RemoteSettingsPropertyPage.cs" />
+    <Compile Include="Project\Client\ReportPeriodForm.cs" />
+    <Compile Include="Project\Client\ResourceFilterForm.cs" />
+    <Compile Include="Project\Client\SaveProjectForm.cs" />
+    <Compile Include="Project\Client\ProjectsRootNode.cs" />
+    <Compile Include="Project\Client\Images.cs" />
+    <Compile Include="Project\Client\IMProject.cs" />
+    <Compile Include="Project\Client\Holder.cs" />
+    <Compile Include="Project\Client\NotificationCommandProvider.cs" />
+    <Compile Include="Project\Client\NotificationPropProvider.cs" />
+    <Compile Include="Project\Client\ProjectClientPlugin.cs" />
+    <Compile Include="Project\Client\ProgressNotifier.cs" />
+    <Compile Include="Project\Client\ProjectCheckInOutCommandsProvider.cs" />
+    <Compile Include="Project\Client\ProjectCommands.cs" />
+    <Compile Include="Project\Client\ProjectCreator.cs" />
+    <Compile Include="Project\Client\ProjectEditorForm.cs" />
+    <Compile Include="Project\Client\ProjectFuncs.cs" />
+    <Compile Include="Project\Client\ProjectViewsProvider.cs" />
+    <Compile Include="Project\Client\SpecialCommands.cs" />
+    <Compile Include="Project\Client\WorkshopRouteProcessingCommand.cs" />
+    <Compile Include="Project\Client\TaskCommands.cs" />
+    <Compile Include="Project\Client\Properties\Resources.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Project\Client\ProgressForm.resx" />
+    <EmbeddedResource Include="Project\Client\ProjectEditorForm.resx" />
+    <EmbeddedResource Include="Project\Client\Properties\Resources.resx" />
+    <EmbeddedResource Include="Project\Client\RemoteSettingsPropertyPage.resx" />
+    <EmbeddedResource Include="Project\Client\ReportPeriodForm.resx" />
+    <EmbeddedResource Include="Project\Client\ResourceFilterForm.resx" />
+    <EmbeddedResource Include="Project\Client\SaveProjectForm.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

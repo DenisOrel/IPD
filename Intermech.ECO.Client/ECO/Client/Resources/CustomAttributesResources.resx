@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Attribute.ECO.Client_42" xml:space="preserve">
+    <value>Допускать включение в извещение объектов с пустыми обозначениями, заменяя их по шаблону</value>
+  </data>
+  <data name="Attribute.ECO.Client_43" xml:space="preserve">
+    <value>Разрешить скрытие основных объектов, включенных с целью "Создание"</value>
+  </data>
+  <data name="Attribute.ECO.Client_40" xml:space="preserve">
+    <value>Максимальное количество документов, при достижении которого в извещение больше нельзя вставлять новые документы.</value>
+  </data>
+  <data name="Attribute.ECO.Client_41" xml:space="preserve">
+    <value>Заменять пустые обозначения по шаблону</value>
+  </data>
+  <data name="Attribute.ECO.Client_46" xml:space="preserve">
+    <value>Пользовательские коды причины изменения "Другое" будут запрещены, а в извещении будет выведено Другое.&lt;Ваша причина изменения&gt;</value>
+  </data>
+  <data name="Attribute.ECO.Client_47" xml:space="preserve">
+    <value>Спрашивать при включении объектов с новыми организациями в ЛР</value>
+  </data>
+  <data name="Attribute.ECO.Client_44" xml:space="preserve">
+    <value>Объекты, выбранные пользователем, обычно нельзя скрывать. Но при включении этой настройки можно скрывать объекты с целью "Создание".</value>
+  </data>
+  <data name="Attribute.ECO.Client_45" xml:space="preserve">
+    <value>Запретить пользовательские коды причины изменения</value>
+  </data>
+  <data name="Attribute.ECO.Client_48" xml:space="preserve">
+    <value>Спрашивать при попытке включения объектов, имеющих новые организации в листе рассылки</value>
+  </data>
+  <data name="Attribute.ECO.Client_49" xml:space="preserve">
+    <value>Проверять необходимость включения в извещение при создании объектов</value>
+  </data>
+  <data name="Attribute.ECO.Client_24" xml:space="preserve">
+    <value>Не может быть скрыт</value>
+  </data>
+  <data name="Attribute.ECO.Client_25" xml:space="preserve">
+    <value>Может быть скрыт</value>
+  </data>
+  <data name="Attribute.ECO.Client_26" xml:space="preserve">
+    <value>Скрыт</value>
+  </data>
+  <data name="Attribute.ECO.Client_27" xml:space="preserve">
+    <value>Вместо Обозначения выводить данные документов по расширенному шаблону</value>
+  </data>
+  <data name="Attribute.ECO.Client_20" xml:space="preserve">
+    <value>Автоматически брать на изменение документы, вставляемые в извещение</value>
+  </data>
+  <data name="Attribute.ECO.Client_21" xml:space="preserve">
+    <value>Количество дней, за которое надо предупреждать владельца извещения об окончании срока изменения</value>
+  </data>
+  <data name="Attribute.ECO.Client_22" xml:space="preserve">
+    <value>Введите 0 дней, если предупреждать не надо</value>
+  </data>
+  <data name="Attribute.ECO.Client_23" xml:space="preserve">
+    <value>Возможность скрытия объекта, включенного в извещение</value>
+  </data>
+  <data name="Attribute.ECO.Client_28" xml:space="preserve">
+    <value>Выводить не обозначения документов, а информацию в соответствии с настройкой "Расширенный шаблон вместо обозначений документов"</value>
+  </data>
+  <data name="Attribute.ECO.Client_29" xml:space="preserve">
+    <value>Расширенный шаблон вместо обозначений документов</value>
+  </data>
+  <data name="Attribute.ECO.Client_52" xml:space="preserve">
+    <value>Обозначения ДПИ будут без косой черты (например, ДПИ1 вместо ДПИ/1)</value>
+  </data>
+  <data name="Attribute.ECO.Client_51" xml:space="preserve">
+    <value>Не вставлять / в обозначение ДПИ</value>
+  </data>
+  <data name="Attribute.ECO.Client_50" xml:space="preserve">
+    <value>Если задана необходимость включения в извещение на первом шаге ЖЦ, попытка создания объекта без его включения в извещение будет неудачной.</value>
+  </data>
+  <data name="Attribute.ECO.Client_35" xml:space="preserve">
+    <value>Присваивать литеру по развернутому составу изделия</value>
+  </data>
+  <data name="Attribute.ECO.Client_34" xml:space="preserve">
+    <value>По умолчанию версии объектов, включаемых для присвоения литеры, не создаются</value>
+  </data>
+  <data name="Attribute.ECO.Client_37" xml:space="preserve">
+    <value>Переносить аутентичный файл при изменении литеры</value>
+  </data>
+  <data name="Attribute.ECO.Client_36" xml:space="preserve">
+    <value>При актуализации извещения присваивать литеру всем объектам состава объектов, включенных в извещение</value>
+  </data>
+  <data name="Attribute.ECO.Client_31" xml:space="preserve">
+    <value>Показывать скрытые объекты</value>
+  </data>
+  <data name="Attribute.ECO.Client_30" xml:space="preserve">
+    <value>Выводить информацию о документах в соответствии с этим шаблоном (имена атрибутов вводятся в квадратных скобках)</value>
+  </data>
+  <data name="Attribute.ECO.Client_33" xml:space="preserve">
+    <value>Создавать версии объектов, включаемых для присвоения литеры</value>
+  </data>
+  <data name="Attribute.ECO.Client_32" xml:space="preserve">
+    <value>Оригинальный размер изображений по умолчанию</value>
+  </data>
+  <data name="Attribute.ECO.Client_39" xml:space="preserve">
+    <value>Максимальное количество документов в извещении</value>
+  </data>
+  <data name="Attribute.ECO.Client_38" xml:space="preserve">
+    <value>При изменении литеры аутентичный файл будет перенесен в "Файлы, не влияющие на содержимое"</value>
+  </data>
+  <data name="Attribute.ECO.Client_17" xml:space="preserve">
+    <value>Требуется ли автоматическое копирование листа рассылки извещения в лист рассылки документов, включаемых в извещение.</value>
+  </data>
+  <data name="Attribute.ECO.Client_16" xml:space="preserve">
+    <value>Копировать лист рассылки извещения в документы</value>
+  </data>
+  <data name="Attribute.ECO.Client_15" xml:space="preserve">
+    <value>Показывать обозначения объектов, включенных с целью "Замена"</value>
+  </data>
+  <data name="Attribute.ECO.Client_14" xml:space="preserve">
+    <value>Включить слово "комплекты" для серий</value>
+  </data>
+  <data name="Attribute.ECO.Client_13" xml:space="preserve">
+    <value>Посылать сообщение о переводе объектов на новые шаги ЖЦ</value>
+  </data>
+  <data name="Attribute.ECO.Client_12" xml:space="preserve">
+    <value>Переводить объекты на новые шаги ЖЦ по извещениям</value>
+  </data>
+  <data name="Attribute.ECO.Client_11" xml:space="preserve">
+    <value>По созданию версии - требовать</value>
+  </data>
+  <data name="Attribute.ECO.Client_10" xml:space="preserve">
+    <value>По созданию версии - предлагать</value>
+  </data>
+  <data name="Attribute.ECO.Client_19" xml:space="preserve">
+    <value>Оставлять номер ОТД при включении версии в извещение с целью "Изменение"</value>
+  </data>
+  <data name="Attribute.ECO.Client_18" xml:space="preserve">
+    <value>Создание</value>
+  </data>
+  <data name="Attribute.ECO.Client_6" xml:space="preserve">
+    <value>Присвоение литеры</value>
+  </data>
+  <data name="Attribute.ECO.Client_7" xml:space="preserve">
+    <value>Замена</value>
+  </data>
+  <data name="Attribute.ECO.Client_4" xml:space="preserve">
+    <value>Изменение</value>
+  </data>
+  <data name="Attribute.ECO.Client_5" xml:space="preserve">
+    <value>Аннулирование</value>
+  </data>
+  <data name="Attribute.ECO.Client_2" xml:space="preserve">
+    <value>Извещения</value>
+  </data>
+  <data name="Attribute.ECO.Client_3" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="Attribute.ECO.Client_1" xml:space="preserve">
+    <value>Причины включения объектов в извещение</value>
+  </data>
+  <data name="Attribute.ECO.Client_8" xml:space="preserve">
+    <value>Режим создания извещения</value>
+  </data>
+  <data name="Attribute.ECO.Client_9" xml:space="preserve">
+    <value>По команде пользователя</value>
+  </data>
+</root>

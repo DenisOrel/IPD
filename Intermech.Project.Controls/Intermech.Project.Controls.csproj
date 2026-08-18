@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.Project.Controls.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{76799B0F-91E5-4659-A4CC-1565E1EF4CDD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.Project.Controls</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.IM.Utils">
+      <HintPath>lib\DevExpress.IM.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.IM.XtraEditors">
+      <HintPath>lib\DevExpress.IM.XtraEditors.dll</HintPath>
+    </Reference>
+    <Reference Include="Infralution.Controls">
+      <HintPath>lib\Infralution.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Infralution.Controls.VirtualTree">
+      <HintPath>lib\Infralution.Controls.VirtualTree.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bars">
+      <HintPath>lib\Intermech.Bars.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Client.Core">
+      <HintPath>lib\Intermech.Client.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Controls">
+      <HintPath>lib\Intermech.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Extensions">
+      <HintPath>lib\Intermech.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Extensions.Client">
+      <HintPath>lib\Intermech.Extensions.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Extensions.Interfaces">
+      <HintPath>lib\Intermech.Extensions.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Extensions.WinForms">
+      <HintPath>lib\Intermech.Extensions.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Extensions.Workflow">
+      <HintPath>lib\Intermech.Extensions.Workflow.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Client">
+      <HintPath>lib\Intermech.Interfaces.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Workflow">
+      <HintPath>lib\Intermech.Interfaces.Workflow.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Project">
+      <HintPath>lib\Intermech.Project.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Workflow.Design">
+      <HintPath>lib\Intermech.Workflow.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Helper.cs" />
+    <Compile Include="IMProject.cs" />
+    <Compile Include="ClientSessionProvider2.cs" />
+    <Compile Include="Workflow\Editors.cs" />
+    <Compile Include="Workflow\Images.cs" />
+    <Compile Include="Project\Attribute.cs" />
+    <Compile Include="Project\IProjectContext.cs" />
+    <Compile Include="Project\IClientProjectContext.cs" />
+    <Compile Include="Project\IResourceAssignmentsProjectContext.cs" />
+    <Compile Include="Project\IResourcesSummaryProjectContext.cs" />
+    <Compile Include="Project\IProjectViewContext.cs" />
+    <Compile Include="Project\ProjectFormBase.cs" />
+    <Compile Include="Project\ClientProject.cs" />
+    <Compile Include="Project\AddToCompositionInfo.cs" />
+    <Compile Include="Project\ProjectDialogBase.cs" />
+    <Compile Include="Project\Controls\AddColumnForm.cs" />
+    <Compile Include="Project\Controls\ChiefEdit.cs" />
+    <Compile Include="Project\Controls\DurationForm.cs" />
+    <Compile Include="Project\Controls\FindStringForm.cs" />
+    <Compile Include="Project\Controls\LevelsNumForm.cs" />
+    <Compile Include="Project\Controls\ScaleSettingsForm.cs" />
+    <Compile Include="Project\Controls\FilterDialogForm.cs" />
+    <Compile Include="Project\Controls\FiltersForm.cs" />
+    <Compile Include="Project\Controls\ProjectDataGridView.cs" />
+    <Compile Include="Project\Controls\Strings.cs" />
+    <Compile Include="Project\Controls\Images.cs" />
+    <Compile Include="Project\Controls\IMProject.cs" />
+    <Compile Include="Project\Controls\Library.cs" />
+    <Compile Include="Project\Controls\ImportObjectsFormAdvBase.cs" />
+    <Compile Include="Project\Controls\SyncWithCompositionFormBase.cs" />
+    <Compile Include="Project\Controls\SelectImportedObjectForm.cs" />
+    <Compile Include="Project\Controls\ProjectGridColumn.cs" />
+    <Compile Include="Project\Controls\ProjectGridTextBoxColumn.cs" />
+    <Compile Include="Project\Controls\ProjectGridColumnHeaderCell.cs" />
+    <Compile Include="Project\Controls\DataGridViewButtonTextBoxColumn.cs" />
+    <Compile Include="Project\Controls\IPopupFormEditingControl.cs" />
+    <Compile Include="Project\Controls\DragDropOperation.cs" />
+    <Compile Include="Project\Controls\DragDropOperationType.cs" />
+    <Compile Include="Project\Controls\EditFilterForm.cs" />
+    <Compile Include="Project\Controls\GanttChart.cs" />
+    <Compile Include="Project\Controls\ProjectView.cs" />
+    <Compile Include="Project\Controls\Holder.cs" />
+    <Compile Include="Project\Controls\ImportObjectsFormAdv.cs" />
+    <Compile Include="Project\Controls\ImportObjectsNavTree.cs" />
+    <Compile Include="Project\Controls\SelectObjectsForImportControl.cs" />
+    <Compile Include="Project\Controls\SelectObjectsForImportControlBase.cs" />
+    <Compile Include="Project\Controls\SyncWithCompositionForm.cs" />
+    <Compile Include="Project\Controls\SelectObjectsForSyncWithCompositionControl.cs" />
+    <Compile Include="Project\Controls\SelectObjectsForSyncWithCompositionControlBase.cs" />
+    <Compile Include="Project\Controls\SelectObjectsForSyncWithCompositionNavTreeView.cs" />
+    <Compile Include="Project\Controls\ColoredDateTimePicker.cs" />
+    <Compile Include="Project\Controls\DataGridViewDropDownCell.cs" />
+    <Compile Include="Project\Controls\DataGridViewDropDownColumn.cs" />
+    <Compile Include="Project\Controls\DataGridViewUpDownColumn.cs" />
+    <Compile Include="Project\Controls\DurationColumn.cs" />
+    <Compile Include="Project\Controls\DataGridViewDurationTextBoxCell.cs" />
+    <Compile Include="Project\Controls\DataGridViewDurationTextBoxEditingControl.cs" />
+    <Compile Include="Project\Controls\EnhDataGridView.cs" />
+    <Compile Include="Project\Controls\EnhDataGridViewTextBoxColumn.cs" />
+    <Compile Include="Project\Controls\EnhDataGridViewTextBoxCell.cs" />
+    <Compile Include="Project\Controls\EnhDataGridViewTextBoxEditingControl.cs" />
+    <Compile Include="Project\Controls\FilterItem.cs" />
+    <Compile Include="Project\Controls\BrushSubItem.cs" />
+    <Compile Include="Project\Controls\Notifier.cs" />
+    <Compile Include="Project\Controls\OrganizerPlugin.cs" />
+    <Compile Include="Project\Controls\ComboBoxPrintPageSettings.cs" />
+    <Compile Include="Project\Controls\ProjectDisplayOptions.cs" />
+    <Compile Include="Project\Controls\DefaultDateFormats.cs" />
+    <Compile Include="Project\Controls\FactDurationsDisplayMode.cs" />
+    <Compile Include="Project\Controls\TaskCaptions.cs" />
+    <Compile Include="Project\Controls\ProjectPropProvider.cs" />
+    <Compile Include="Project\Controls\ProjectSettings.cs" />
+    <Compile Include="Project\Controls\ProjectPropsForm.cs" />
+    <Compile Include="Project\Controls\DateFormatItem.cs" />
+    <Compile Include="Project\Controls\CurrentSiteInfo.cs" />
+    <Compile Include="Project\Controls\Icons.cs" />
+    <Compile Include="Project\Controls\Localization.cs" />
+    <Compile Include="Project\Controls\ResourceAssignmentsProject.cs" />
+    <Compile Include="Project\Controls\ResourceAssignmentsTask.cs" />
+    <Compile Include="Project\Controls\UserSummaryTask.cs" />
+    <Compile Include="Project\Controls\ResourceAssignmentsSubProject.cs" />
+    <Compile Include="Project\Controls\ColumnLayoutInformation.cs" />
+    <Compile Include="Project\Controls\ControlUtilities.cs" />
+    <Compile Include="Project\Controls\DataGridViewComboTextBoxCell.cs" />
+    <Compile Include="Project\Controls\DataGridViewComboTextBoxColumn.cs" />
+    <Compile Include="Project\Controls\DataGridViewComboTextBoxEditingControl.cs" />
+    <Compile Include="Project\Controls\DataGridViewDateTimeTextBoxCell.cs" />
+    <Compile Include="Project\Controls\DataGridViewDateTimeTextBoxColumn.cs" />
+    <Compile Include="Project\Controls\DataGridViewDateTimeTextBoxEditingControl.cs" />
+    <Compile Include="Project\Controls\INotifyOperationProgress.cs" />
+    <Compile Include="Project\Controls\NumericScaleType.cs" />
+    <Compile Include="Project\Controls\OperationCompletedEventArgs.cs" />
+    <Compile Include="Project\Controls\OperationEventArgs.cs" />
+    <Compile Include="Project\Controls\OperationStartedEventArgs.cs" />
+    <Compile Include="Project\Controls\PrintPreviewUtilities.cs" />
+    <Compile Include="Project\Controls\ColumnInfo.cs" />
+    <Compile Include="Project\Controls\ResourcesCalcMode.cs" />
+    <Compile Include="Project\Controls\ResourcesDataGridView.cs" />
+    <Compile Include="Project\Controls\ResourcesGanttChart.cs" />
+    <Compile Include="Project\Controls\ResourcesSummaryView.cs" />
+    <Compile Include="Project\Controls\UsageData.cs" />
+    <Compile Include="Project\Controls\ResourcesSummaryProject.cs" />
+    <Compile Include="Project\Controls\ScalePoint.cs" />
+    <Compile Include="Project\Controls\ScalePoints.cs" />
+    <Compile Include="Project\Controls\ScaleTypeItem.cs" />
+    <Compile Include="Project\Controls\ScaleType.cs" />
+    <Compile Include="Project\Controls\EditTaskForm.cs" />
+    <Compile Include="Project\Controls\TaskAttachmentsView.cs" />
+    <Compile Include="Project\Controls\TaskExpandedChangedEventArgs.cs" />
+    <Compile Include="Project\Controls\TaskExpandedEventArgs.cs" />
+    <Compile Include="Project\Controls\TaskPropProvider.cs" />
+    <Compile Include="Project\Controls\TaskDataView.cs" />
+    <Compile Include="Project\Controls\TaskResultsView.cs" />
+    <Compile Include="Project\Controls\TaskView.cs" />
+    <Compile Include="Project\Controls\TestUserControl.cs" />
+    <Compile Include="Project\Controls\UserTaskView.cs" />
+    <Compile Include="Project\Controls\Properties\Resources.cs" />
+    <Compile Include="Project\Controls\img\Images.cs" />
+    <Compile Include="Project\Controls\AdvStructure\SyncObjectCompositionSettings.cs" />
+    <Compile Include="Project\Controls\AdvStructure\SyncObjectStructureSettingsDialog.cs" />
+    <Compile Include="Project\Print\CreateNewPrintSchemeDlg.cs" />
+    <Compile Include="Project\Print\PrintPreviewForm.cs" />
+    <Compile Include="Project\Print\PrintSetupForm.cs" />
+    <Compile Include="Project\Print\PrintPageSettings.cs" />
+    <Compile Include="Project\Print\ProjectPrintPreviewControl.cs" />
+    <Compile Include="Paint\GraphicsDrawRtfText.cs" />
+    <Compile Include="Paint\RichTextBoxAdv.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Project\Controls\AddColumnForm.resx" />
+    <EmbeddedResource Include="Project\Controls\ChiefEdit.resx" />
+    <EmbeddedResource Include="Project\Controls\DurationForm.resx" />
+    <EmbeddedResource Include="Project\Controls\EditFilterForm.resx" />
+    <EmbeddedResource Include="Project\Controls\EditTaskForm.resx" />
+    <EmbeddedResource Include="Project\Controls\FilterDialogForm.resx" />
+    <EmbeddedResource Include="Project\Controls\FiltersForm.resx" />
+    <EmbeddedResource Include="Project\Controls\FindStringForm.resx" />
+    <EmbeddedResource Include="Project\Controls\img\bullet.png" />
+    <EmbeddedResource Include="Project\Controls\img\check.bmp" />
+    <EmbeddedResource Include="Project\Controls\img\constraint.bmp" />
+    <EmbeddedResource Include="Project\Controls\img\exclamation.bmp" />
+    <EmbeddedResource Include="Project\Controls\img\exclamation.ico" />
+    <EmbeddedResource Include="Project\Controls\img\hourglass.bmp" />
+    <EmbeddedResource Include="Project\Controls\img\Images.resx" />
+    <EmbeddedResource Include="Project\Controls\img\info.png" />
+    <EmbeddedResource Include="Project\Controls\img\LandscapeCombo.png" />
+    <EmbeddedResource Include="Project\Controls\img\notes.bmp" />
+    <EmbeddedResource Include="Project\Controls\img\play.bmp" />
+    <EmbeddedResource Include="Project\Controls\img\PortraitCombo.png" />
+    <EmbeddedResource Include="Project\Controls\img\resources.ico" />
+    <EmbeddedResource Include="Project\Controls\img\results.bmp" />
+    <EmbeddedResource Include="Project\Controls\img\sync.bmp" />
+    <EmbeddedResource Include="Project\Controls\img\syncpending.bmp" />
+    <EmbeddedResource Include="Project\Controls\ImportObjectsFormAdv.resx" />
+    <EmbeddedResource Include="Project\Controls\ImportObjectsFormAdvBase.resx" />
+    <EmbeddedResource Include="Project\Controls\LevelsNumForm.resx" />
+    <EmbeddedResource Include="Project\Controls\ProjectDataGridView.resx" />
+    <EmbeddedResource Include="Project\Controls\ProjectPropsForm.resx" />
+    <EmbeddedResource Include="Project\Controls\ProjectView.resx" />
+    <EmbeddedResource Include="Project\Controls\Properties\Resources.resx" />
+    <EmbeddedResource Include="Project\Controls\Resources\ZoomIn.png" />
+    <EmbeddedResource Include="Project\Controls\ResourcesDataGridView.resx" />
+    <EmbeddedResource Include="Project\Controls\ResourcesSummaryView.resx" />
+    <EmbeddedResource Include="Project\Controls\ScaleSettingsForm.resx" />
+    <EmbeddedResource Include="Project\Controls\SyncWithCompositionForm.resx" />
+    <EmbeddedResource Include="Project\Controls\SyncWithCompositionFormBase.resx" />
+    <EmbeddedResource Include="Project\Controls\TaskView.resx" />
+    <EmbeddedResource Include="Project\Controls\TestUserControl.resx" />
+    <EmbeddedResource Include="Project\Controls\UserTaskView.resx" />
+    <EmbeddedResource Include="Project\Print\CreateNewPrintSchemeDlg.resx" />
+    <EmbeddedResource Include="Project\Print\PrintPreviewForm.resx" />
+    <EmbeddedResource Include="Project\Print\PrintSetupForm.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

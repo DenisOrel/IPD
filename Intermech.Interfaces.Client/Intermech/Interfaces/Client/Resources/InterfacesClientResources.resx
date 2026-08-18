@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AttributeTypeNameNotFound" xml:space="preserve">
+    <value>Атрибут с наименованием "{0}" не найден.</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Создать</value>
+  </data>
+  <data name="Interfaces.Client_139" xml:space="preserve">
+    <value>Не задана коллекция свойств.</value>
+  </data>
+  <data name="Interfaces.Client_138" xml:space="preserve">
+    <value>Значение не может быть null.</value>
+  </data>
+  <data name="Interfaces.Client_131" xml:space="preserve">
+    <value>У типа объектов '{0}' атрибут '{1}' не найден.</value>
+  </data>
+  <data name="Interfaces.Client_130" xml:space="preserve">
+    <value>Создание версии отменено пользователем</value>
+  </data>
+  <data name="Interfaces.Client_133" xml:space="preserve">
+    <value>У типа связей '{0}' атрибут '{1}' не найден.</value>
+  </data>
+  <data name="Interfaces.Client_132" xml:space="preserve">
+    <value>Неизвестный идентификатор типа объектов: {0}</value>
+  </data>
+  <data name="Interfaces.Client_135" xml:space="preserve">
+    <value>Нельзя выпустить версию объекта '{0}' без включения в извещение или журнал изменений либо самого объекта, либо одного из связанных с ним.</value>
+  </data>
+  <data name="Interfaces.Client_134" xml:space="preserve">
+    <value>Неизвестный идентификатор типа связей: {0}</value>
+  </data>
+  <data name="Interfaces.Client_137" xml:space="preserve">
+    <value>eventSite не может быть null.</value>
+  </data>
+  <data name="Interfaces.Client_136" xml:space="preserve">
+    <value>Не удалось создать команду.</value>
+  </data>
+  <data name="Interfaces.Client_128" xml:space="preserve">
+    <value>Нельзя создавать версию объекта неверсионного типа "{0}"!</value>
+  </data>
+  <data name="Interfaces.Client_129" xml:space="preserve">
+    <value>Для типа объектов "{0}" настроено требование выпуска извещения или записи ЖИ при создании версий объектов, но объекты этого типа не могут быть включены в извещения!</value>
+  </data>
+  <data name="Interfaces.Client_120" xml:space="preserve">
+    <value>Неверный идентификатор уровня продвижения</value>
+  </data>
+  <data name="Interfaces.Client_121" xml:space="preserve">
+    <value>Неверный шаг жизненного цикла</value>
+  </data>
+  <data name="Interfaces.Client_122" xml:space="preserve">
+    <value>Неверный идентификатор типа связей</value>
+  </data>
+  <data name="Interfaces.Client_123" xml:space="preserve">
+    <value>Тип связей '{0}'</value>
+  </data>
+  <data name="Interfaces.Client_124" xml:space="preserve">
+    <value>Неверный идентификатор предметной области</value>
+  </data>
+  <data name="Interfaces.Client_125" xml:space="preserve">
+    <value>Локализация сервера приложений не соответствует локализации данной рабочей станции. 
+Дальнейшая работа программы невозможна. 
+Для решения проблемы обратитесь к системному администратору.</value>
+  </data>
+  <data name="Interfaces.Client_126" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="Interfaces.Client_127" xml:space="preserve">
+    <value>Не удалось подключиться с службе рассылки сообщений!</value>
+  </data>
+  <data name="Interfaces.Client_119" xml:space="preserve">
+    <value>Неверный идентификатор схемы ЖЦ</value>
+  </data>
+  <data name="Interfaces.Client_118" xml:space="preserve">
+    <value>Неверный идентификатор языкового варианта</value>
+  </data>
+  <data name="Interfaces.Client_110" xml:space="preserve">
+    <value>Не удалось выполнить закрытие пользовательской сессии сервера приложений.</value>
+  </data>
+  <data name="Interfaces.Client_117" xml:space="preserve">
+    <value>Неверный идентификатор контекста связи</value>
+  </data>
+  <data name="Interfaces.Client_116" xml:space="preserve">
+    <value>Неверный идентификатор атрибута</value>
+  </data>
+  <data name="Interfaces.Client_115" xml:space="preserve">
+    <value>Неверный идентификатор группы атрибутов</value>
+  </data>
+  <data name="Interfaces.Client_108" xml:space="preserve">
+    <value>Причина : Исключительная ситуация типа "{0}". {1}</value>
+  </data>
+  <data name="Interfaces.Client_104" xml:space="preserve">
+    <value>Ошибка сервера!</value>
+  </data>
+  <data name="Interfaces.Client_156" xml:space="preserve">
+    <value>Неверный идентификатор схемы ЖЦ</value>
+  </data>
+  <data name="Interfaces.Client_155" xml:space="preserve">
+    <value>Несоответствие версий IPS</value>
+  </data>
+  <data name="Interfaces.Client_154" xml:space="preserve">
+    <value>Несоответствие клиентской и серверной версий IPS.{0}Версия сервера: {1}{0}Версия клиента: {2}.</value>
+  </data>
+  <data name="Interfaces.Client_153" xml:space="preserve">
+    <value>Не удается установить подключение к серверу приложений IPS.</value>
+  </data>
+  <data name="Interfaces.Client_152" xml:space="preserve">
+    <value>DBRelationsEventArgs: не совпадают размерности массивов relationIDs и relTypeIDs</value>
+  </data>
+  <data name="Interfaces.Client_151" xml:space="preserve">
+    <value>DBRelationsEventArgs: не совпадают размерности массивов relationIDs и projIDs</value>
+  </data>
+  <data name="Interfaces.Client_150" xml:space="preserve">
+    <value>Невозможно зарегистрировать закладку, т.к. одно из ключевых полей равно null</value>
+  </data>
+  <data name="Interfaces.Client_148" xml:space="preserve">
+    <value>ObjectsCheckOutEventArgs: список resultVersions равен null либо пуст</value>
+  </data>
+  <data name="Interfaces.Client_149" xml:space="preserve">
+    <value>ObjectsCheckOutEventArgs: списки sourceVersions и resultVersions должны содержать одинаковое количество элементов</value>
+  </data>
+  <data name="Interfaces.Client_146" xml:space="preserve">
+    <value>Все элементы коллекции должны содержать ключи (в соответствии с первым элементом коллекции)</value>
+  </data>
+  <data name="Interfaces.Client_147" xml:space="preserve">
+    <value>ObjectsCheckOutEventArgs: список sourceVersions равен null либо пуст</value>
+  </data>
+  <data name="Interfaces.Client_144" xml:space="preserve">
+    <value>Не задано значение идентификатора элемента пространства навигации</value>
+  </data>
+  <data name="Interfaces.Client_145" xml:space="preserve">
+    <value>Все элементы коллекции не должны содержать ключи (в соответствии с первым элементом коллекции)</value>
+  </data>
+  <data name="Interfaces.Client_143" xml:space="preserve">
+    <value>Не задана пара значений</value>
+  </data>
+  <data name="Interfaces.Client_140" xml:space="preserve">
+    <value>Поток был перезапущен.</value>
+  </data>
+  <data name="Interfaces.Client_141" xml:space="preserve">
+    <value>Для ключа '{0}' не удалось найти идентификатор типа '{1}'.</value>
+  </data>
+  <data name="Interfaces.Client_61a" xml:space="preserve">
+    <value>Коллекция объектов DBAttributeGroupIDCollection может содержать только IDBAttributeGroupID</value>
+  </data>
+  <data name="SR_164" xml:space="preserve">
+    <value>В базе IPS отсутствует конфигурационный объект для '{0}'. Обратитесь к администратору IPS.</value>
+  </data>
+  <data name="SR_160" xml:space="preserve">
+    <value>Настройки для '{0}' содержат ошибку, препятствующую нормальной работе интегратора.</value>
+  </data>
+  <data name="SR_161" xml:space="preserve">
+    <value>Создавать изделия при завершении редактирования</value>
+  </data>
+  <data name="SR_162" xml:space="preserve">
+    <value>Обновлять изделия при завершении редактирования</value>
+  </data>
+  <data name="SR_163" xml:space="preserve">
+    <value>Пересчитывать массу</value>
+  </data>
+  <data name="SR_159" xml:space="preserve">
+    <value>Не удалось настроить приложение {0} на взаимодействие с IPS.</value>
+  </data>
+  <data name="SR_158" xml:space="preserve">
+    <value>Не удалось определить наличие на компьютере приложения {0}. {1}</value>
+  </data>
+  <data name="SR_157" xml:space="preserve">
+    <value>Приложение {0} не установлено на компьютере.</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="Interfaces.Client_93" xml:space="preserve">
+    <value>Причина : Исключительная стиуация типа [{0}].</value>
+  </data>
+  <data name="Interfaces.Client_90" xml:space="preserve">
+    <value>Ошибки</value>
+  </data>
+  <data name="Interfaces.Client_91" xml:space="preserve">
+    <value>Выполняется попытка переподключения к сереверу приложений.</value>
+  </data>
+  <data name="Interfaces.Client_96" xml:space="preserve">
+    <value>Ошибка подключения к серверу приложений. Текст ошибки :
+"{0}".
+Попробовать ещё раз ?</value>
+  </data>
+  <data name="Interfaces.Client_97" xml:space="preserve">
+    <value>Сетевая ошибка</value>
+  </data>
+  <data name="Interfaces.Client_95" xml:space="preserve">
+    <value>Текст ошибки : "{0}"</value>
+  </data>
+  <data name="Interfaces.Client_99" xml:space="preserve">
+    <value>Произошёл сбой в процессе освобождения неиспользуемых пользовательских сессий!</value>
+  </data>
+  <data name="Interfaces.Client_81" xml:space="preserve">
+    <value>Допустимые атрибуты</value>
+  </data>
+  <data name="Interfaces.Client_80" xml:space="preserve">
+    <value>Все атрибуты</value>
+  </data>
+  <data name="Interfaces.Client_88" xml:space="preserve">
+    <value>Ошибка подключения к серверу.</value>
+  </data>
+  <data name="Interfaces.Client_39" xml:space="preserve">
+    <value>Неверный идентификатор типа связей: {0}</value>
+  </data>
+  <data name="Interfaces.Client_30" xml:space="preserve">
+    <value>Этап '{0}' схемы жизненного цикла '{1}'</value>
+  </data>
+  <data name="Interfaces.Client_31" xml:space="preserve">
+    <value>Неверный идентификатор типа объектов</value>
+  </data>
+  <data name="Interfaces.Client_32" xml:space="preserve">
+    <value>Тип объектов '{0}'</value>
+  </data>
+  <data name="Interfaces.Client_33" xml:space="preserve">
+    <value>Список типов объектов</value>
+  </data>
+  <data name="Interfaces.Client_34" xml:space="preserve">
+    <value>Список типов связей</value>
+  </data>
+  <data name="Interfaces.Client_35" xml:space="preserve">
+    <value>Все предметные области</value>
+  </data>
+  <data name="Interfaces.Client_36" xml:space="preserve">
+    <value>Список предметных областей</value>
+  </data>
+  <data name="Interfaces.Client_29" xml:space="preserve">
+    <value>Список уровней продвижения</value>
+  </data>
+  <data name="Interfaces.Client_28" xml:space="preserve">
+    <value>Уровень продвижения '{0}'</value>
+  </data>
+  <data name="Interfaces.Client_25" xml:space="preserve">
+    <value>В базе данных не найден объект с GUID= '{0}'. Это может привести к сбоям в работе системы.</value>
+  </data>
+  <data name="Interfaces.Client_27" xml:space="preserve">
+    <value>Схема ЖЦ '{0}'</value>
+  </data>
+  <data name="Interfaces.Client_26" xml:space="preserve">
+    <value>Список языковых вариантов</value>
+  </data>
+  <data name="Interfaces.Client_78" xml:space="preserve">
+    <value>Имя значения не может быть пустым!</value>
+  </data>
+  <data name="Interfaces.Client_79" xml:space="preserve">
+    <value>Универсальный клиент</value>
+  </data>
+  <data name="Interfaces.Client_74" xml:space="preserve">
+    <value>Объект не помечен как сериализуемый!</value>
+  </data>
+  <data name="Interfaces.Client_75" xml:space="preserve">
+    <value>Значение с именем "{0}" уже существует!</value>
+  </data>
+  <data name="Interfaces.Client_76" xml:space="preserve">
+    <value>Значение с именем "{0}" не существует!</value>
+  </data>
+  <data name="Interfaces.Client_77" xml:space="preserve">
+    <value>Имя значения не может быть null!</value>
+  </data>
+  <data name="Interfaces.Client_70" xml:space="preserve">
+    <value>Невозможно десериализовать значение элемента "{0}", т.к. отсутствует алгоритм чтения объектов этого типа!</value>
+  </data>
+  <data name="Interfaces.Client_71" xml:space="preserve">
+    <value>Невозможно сериализовать значение элемента "{0}", т.к. отсутствует алгоритм записи объектов этого типа!</value>
+  </data>
+  <data name="Interfaces.Client_72" xml:space="preserve">
+    <value>Сериализуемый объект не может быть null!</value>
+  </data>
+  <data name="Interfaces.Client_73" xml:space="preserve">
+    <value>Сериализованное представление восстанавливаемого объекта не может быть null!</value>
+  </data>
+  <data name="Interfaces.Client_58" xml:space="preserve">
+    <value>Пусто</value>
+  </data>
+  <data name="Interfaces.Client_57" xml:space="preserve">
+    <value>В базе данных не найден объект с GUID= '{0}'. Это может привести к сбоям в работе системы.</value>
+  </data>
+  <data name="Interfaces.Client_69" xml:space="preserve">
+    <value>Поток для сериализации объекта не может быть null!</value>
+  </data>
+  <data name="Interfaces.Client_68" xml:space="preserve">
+    <value> не реализован</value>
+  </data>
+  <data name="Interfaces.Client_67" xml:space="preserve">
+    <value>Метод по конвертации в тип </value>
+  </data>
+  <data name="Interfaces.Client_61" xml:space="preserve">
+    <value>Коллекция объектов DBAttributeIDCollection может содержать только IDBAttributeID</value>
+  </data>
+  <data name="Interfaces.Client_60" xml:space="preserve">
+    <value>Атрибут номер {0} не найден.</value>
+  </data>
+  <data name="Interfaces.Client_63" xml:space="preserve">
+    <value>Коллекция объектов DBObjectTypedIDCollection может содержать только IDBTypedObjectID</value>
+  </data>
+  <data name="Interfaces.Client_62" xml:space="preserve">
+    <value>Коллекция объектов DBObjectTypedIDCollection может содержать только IDBTypedAttributeID</value>
+  </data>
+  <data name="Interfaces.Client_40" xml:space="preserve">
+    <value>Неверный идентификатор предметной области: {0}</value>
+  </data>
+  <data name="AttributeTypeGuidNotFound" xml:space="preserve">
+    <value>Атрибут с глобальным идентификатором {0} не найден.</value>
+  </data>
+  <data name="FormDesigner_ToolBox_DefaultCategory" xml:space="preserve">
+    <value>Категория по умолчанию</value>
+  </data>
+  <data name="Interfaces.Client_GroupNotFound" xml:space="preserve">
+    <value>Группа номер {0} не найдена.</value>
+  </data>
+  <data name="AttributesTypeObjectName" xml:space="preserve">
+    <value>Атрибуты</value>
+  </data>
+  <data name="Interfaces.Client_3" xml:space="preserve">
+    <value>Атрибут {0}</value>
+  </data>
+  <data name="Interfaces.Client_2" xml:space="preserve">
+    <value>Группы атрибутов</value>
+  </data>
+  <data name="Interfaces.Client_1" xml:space="preserve">
+    <value>Группа атрибутов '{0}'</value>
+  </data>
+  <data name="Interfaces.Client_7" xml:space="preserve">
+    <value>Не указаны типы объектов, для которых запрошены допустимые связи.</value>
+  </data>
+  <data name="Interfaces.Client_6" xml:space="preserve">
+    <value>Контекст связи номер {0} не найден</value>
+  </data>
+  <data name="Interfaces.Client_5" xml:space="preserve">
+    <value>Создание версии объекта {0} требует включения в извещение, но он не был включен в извещение</value>
+  </data>
+  <data name="Interfaces.Client_4" xml:space="preserve">
+    <value>Создание версии объекта {0} требует выпуска извещения, но модуль извещений не загружен</value>
+  </data>
+  <data name="Include" xml:space="preserve">
+    <value>Создать в составе</value>
+  </data>
+</root>

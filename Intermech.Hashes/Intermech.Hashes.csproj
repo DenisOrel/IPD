@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.Hashes.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1B774E9B-3CD3-4B96-B55F-4DD51BA082C8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.Hashes</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>lib\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Interfaces\Hashes\ICRC.cs" />
+    <Compile Include="Interfaces\Hashes\IHash.cs" />
+    <Compile Include="Interfaces\Hashes\ITransformBlock.cs" />
+    <Compile Include="Interfaces\Hashes\IBlockHash.cs" />
+    <Compile Include="Interfaces\Hashes\INonBlockHash.cs" />
+    <Compile Include="Interfaces\Hashes\IChecksum.cs" />
+    <Compile Include="Interfaces\Hashes\ICrypto.cs" />
+    <Compile Include="Interfaces\Hashes\ICryptoBuiltIn.cs" />
+    <Compile Include="Interfaces\Hashes\ICryptoNotBuiltIn.cs" />
+    <Compile Include="Interfaces\Hashes\IWithKey.cs" />
+    <Compile Include="Interfaces\Hashes\IMAC.cs" />
+    <Compile Include="Interfaces\Hashes\IHMAC.cs" />
+    <Compile Include="Interfaces\Hashes\IHMACNotBuiltIn.cs" />
+    <Compile Include="Interfaces\Hashes\IKMAC.cs" />
+    <Compile Include="Interfaces\Hashes\IKMACNotBuiltIn.cs" />
+    <Compile Include="Interfaces\Hashes\IBlake2BMAC.cs" />
+    <Compile Include="Interfaces\Hashes\IBlake2BMACNotBuiltIn.cs" />
+    <Compile Include="Interfaces\Hashes\IBlake2SMAC.cs" />
+    <Compile Include="Interfaces\Hashes\IBlake2SMACNotBuiltIn.cs" />
+    <Compile Include="Interfaces\Hashes\IHash16.cs" />
+    <Compile Include="Interfaces\Hashes\IHash32.cs" />
+    <Compile Include="Interfaces\Hashes\IHash64.cs" />
+    <Compile Include="Interfaces\Hashes\IHash128.cs" />
+    <Compile Include="Interfaces\Hashes\IHashWithKey.cs" />
+    <Compile Include="Interfaces\Hashes\IPBKDF2_HMAC.cs" />
+    <Compile Include="Interfaces\Hashes\IPBKDF2_HMACNotBuiltIn.cs" />
+    <Compile Include="Interfaces\Hashes\IPBKDF_Argon2.cs" />
+    <Compile Include="Interfaces\Hashes\IPBKDF_Argon2NotBuiltIn.cs" />
+    <Compile Include="Interfaces\Hashes\IPBKDF_Scrypt.cs" />
+    <Compile Include="Interfaces\Hashes\IPBKDF_ScryptNotBuiltIn.cs" />
+    <Compile Include="Interfaces\Hashes\IPBKDF_Blake3.cs" />
+    <Compile Include="Interfaces\Hashes\IPBKDF_Blake3NotBuiltIn.cs" />
+    <Compile Include="Interfaces\Hashes\IXOF.cs" />
+    <Compile Include="Interfaces\Hashes\IArgon2Parameters.cs" />
+    <Compile Include="Interfaces\Hashes\IArgon2ParametersBuilder.cs" />
+    <Compile Include="Interfaces\Hashes\IHashResult.cs" />
+    <Compile Include="Interfaces\Hashes\IKDF.cs" />
+    <Compile Include="Interfaces\Hashes\IKDFNotBuiltIn.cs" />
+    <Compile Include="Interfaces\Hashes\IBlake2SConfigurations\IBlake2SConfig.cs" />
+    <Compile Include="Interfaces\Hashes\IBlake2SConfigurations\IBlake2STreeConfig.cs" />
+    <Compile Include="Interfaces\Hashes\IBlake2SConfigurations\IBlake2XSConfig.cs" />
+    <Compile Include="Interfaces\Hashes\IBlake2BConfigurations\IBlake2BConfig.cs" />
+    <Compile Include="Interfaces\Hashes\IBlake2BConfigurations\IBlake2BTreeConfig.cs" />
+    <Compile Include="Interfaces\Hashes\IBlake2BConfigurations\IBlake2XBConfig.cs" />
+    <Compile Include="Hashes\NullDigest.cs" />
+    <Compile Include="Hashes\Utils\ArrayUtils.cs" />
+    <Compile Include="Hashes\Utils\Bits.cs" />
+    <Compile Include="Hashes\Utils\Converters.cs" />
+    <Compile Include="Hashes\Utils\ExtendedBitConverter.cs" />
+    <Compile Include="Hashes\Utils\HashLibException.cs" />
+    <Compile Include="Hashes\Utils\InvalidOperationHashLibException.cs" />
+    <Compile Include="Hashes\Utils\IndexOutOfRangeHashLibException.cs" />
+    <Compile Include="Hashes\Utils\ArgumentInvalidHashLibException.cs" />
+    <Compile Include="Hashes\Utils\ArgumentHashLibException.cs" />
+    <Compile Include="Hashes\Utils\ArgumentNullHashLibException.cs" />
+    <Compile Include="Hashes\Utils\ArgumentOutOfRangeHashLibException.cs" />
+    <Compile Include="Hashes\Utils\NullReferenceHashLibException.cs" />
+    <Compile Include="Hashes\Utils\UnsupportedTypeHashLibException.cs" />
+    <Compile Include="Hashes\Utils\NotImplementedHashLibException.cs" />
+    <Compile Include="Hashes\Utils\LangBuilder.cs" />
+    <Compile Include="Hashes\Utils\Utils.cs" />
+    <Compile Include="Hashes\KDF\Argon2Type.cs" />
+    <Compile Include="Hashes\KDF\Argon2Version.cs" />
+    <Compile Include="Hashes\KDF\KDFNotBuiltIn.cs" />
+    <Compile Include="Hashes\KDF\PBKDF2_HMACNotBuildInAdapter.cs" />
+    <Compile Include="Hashes\KDF\Global.cs" />
+    <Compile Include="Hashes\KDF\PBKDF_Argon2NotBuildInAdapter.cs" />
+    <Compile Include="Hashes\KDF\Argon2ParametersBuilder.cs" />
+    <Compile Include="Hashes\KDF\Argon2Parameters.cs" />
+    <Compile Include="Hashes\KDF\Argon2iParametersBuilder.cs" />
+    <Compile Include="Hashes\KDF\Argon2dParametersBuilder.cs" />
+    <Compile Include="Hashes\KDF\Argon2idParametersBuilder.cs" />
+    <Compile Include="Hashes\KDF\PBKDF_Blake3NotBuiltInAdapter.cs" />
+    <Compile Include="Hashes\KDF\PBKDF_ScryptNotBuildInAdapter.cs" />
+    <Compile Include="Hashes\Hash64\FNV1a64.cs" />
+    <Compile Include="Hashes\Hash64\FNV64.cs" />
+    <Compile Include="Hashes\Hash64\Murmur2_64.cs" />
+    <Compile Include="Hashes\Hash64\SipHash.cs" />
+    <Compile Include="Hashes\Hash64\SipHash2_4.cs" />
+    <Compile Include="Hashes\Hash64\XXHash64.cs" />
+    <Compile Include="Hashes\Hash32\AP.cs" />
+    <Compile Include="Hashes\Hash32\Bernstein.cs" />
+    <Compile Include="Hashes\Hash32\Bernstein1.cs" />
+    <Compile Include="Hashes\Hash32\BKDR.cs" />
+    <Compile Include="Hashes\Hash32\DEK.cs" />
+    <Compile Include="Hashes\Hash32\DJB.cs" />
+    <Compile Include="Hashes\Hash32\ELF.cs" />
+    <Compile Include="Hashes\Hash32\FNV.cs" />
+    <Compile Include="Hashes\Hash32\FNV1a.cs" />
+    <Compile Include="Hashes\Hash32\Jenkins3.cs" />
+    <Compile Include="Hashes\Hash32\JS.cs" />
+    <Compile Include="Hashes\Hash32\Murmur2.cs" />
+    <Compile Include="Hashes\Hash32\MurmurHash3_x86_32.cs" />
+    <Compile Include="Hashes\Hash32\OneAtTime.cs" />
+    <Compile Include="Hashes\Hash32\PJW.cs" />
+    <Compile Include="Hashes\Hash32\Rotating.cs" />
+    <Compile Include="Hashes\Hash32\RS.cs" />
+    <Compile Include="Hashes\Hash32\SDBM.cs" />
+    <Compile Include="Hashes\Hash32\ShiftAndXor.cs" />
+    <Compile Include="Hashes\Hash32\SuperFast.cs" />
+    <Compile Include="Hashes\Hash32\XXHash32.cs" />
+    <Compile Include="Hashes\Hash128\MurmurHash3_x64_128.cs" />
+    <Compile Include="Hashes\Hash128\MurmurHash3_x86_128.cs" />
+    <Compile Include="Hashes\Crypto\Blake2B.cs" />
+    <Compile Include="Hashes\Crypto\Blake2XB.cs" />
+    <Compile Include="Hashes\Crypto\Blake2BMACNotBuildInAdapter.cs" />
+    <Compile Include="Hashes\Crypto\Blake2BP.cs" />
+    <Compile Include="Hashes\Crypto\Blake2S.cs" />
+    <Compile Include="Hashes\Crypto\Blake2XS.cs" />
+    <Compile Include="Hashes\Crypto\Blake2SMACNotBuildInAdapter.cs" />
+    <Compile Include="Hashes\Crypto\Blake2SP.cs" />
+    <Compile Include="Hashes\Crypto\Blake3.cs" />
+    <Compile Include="Hashes\Crypto\Blake3XOF.cs" />
+    <Compile Include="Hashes\Crypto\Gost.cs" />
+    <Compile Include="Hashes\Crypto\GOST3411_2012.cs" />
+    <Compile Include="Hashes\Crypto\GOST3411_2012_256.cs" />
+    <Compile Include="Hashes\Crypto\GOST3411_2012_512.cs" />
+    <Compile Include="Hashes\Crypto\Grindahl256.cs" />
+    <Compile Include="Hashes\Crypto\Grindahl512.cs" />
+    <Compile Include="Hashes\Crypto\HAS160.cs" />
+    <Compile Include="Hashes\Crypto\Haval.cs" />
+    <Compile Include="Hashes\Crypto\Haval3.cs" />
+    <Compile Include="Hashes\Crypto\Haval4.cs" />
+    <Compile Include="Hashes\Crypto\Haval5.cs" />
+    <Compile Include="Hashes\Crypto\Haval_3_128.cs" />
+    <Compile Include="Hashes\Crypto\Haval_4_128.cs" />
+    <Compile Include="Hashes\Crypto\Haval_5_128.cs" />
+    <Compile Include="Hashes\Crypto\Haval_3_160.cs" />
+    <Compile Include="Hashes\Crypto\Haval_4_160.cs" />
+    <Compile Include="Hashes\Crypto\Haval_5_160.cs" />
+    <Compile Include="Hashes\Crypto\Haval_3_192.cs" />
+    <Compile Include="Hashes\Crypto\Haval_4_192.cs" />
+    <Compile Include="Hashes\Crypto\Haval_5_192.cs" />
+    <Compile Include="Hashes\Crypto\Haval_3_224.cs" />
+    <Compile Include="Hashes\Crypto\Haval_4_224.cs" />
+    <Compile Include="Hashes\Crypto\Haval_5_224.cs" />
+    <Compile Include="Hashes\Crypto\Haval_3_256.cs" />
+    <Compile Include="Hashes\Crypto\Haval_4_256.cs" />
+    <Compile Include="Hashes\Crypto\Haval_5_256.cs" />
+    <Compile Include="Hashes\Crypto\MD2.cs" />
+    <Compile Include="Hashes\Crypto\MD4.cs" />
+    <Compile Include="Hashes\Crypto\MD5.cs" />
+    <Compile Include="Hashes\Crypto\MDBase.cs" />
+    <Compile Include="Hashes\Crypto\Panama.cs" />
+    <Compile Include="Hashes\Crypto\RadioGatun32.cs" />
+    <Compile Include="Hashes\Crypto\RadioGatun64.cs" />
+    <Compile Include="Hashes\Crypto\RIPEMD.cs" />
+    <Compile Include="Hashes\Crypto\RIPEMD128.cs" />
+    <Compile Include="Hashes\Crypto\RIPEMD160.cs" />
+    <Compile Include="Hashes\Crypto\RIPEMD256.cs" />
+    <Compile Include="Hashes\Crypto\RIPEMD320.cs" />
+    <Compile Include="Hashes\Crypto\SHA0.cs" />
+    <Compile Include="Hashes\Crypto\SHA1.cs" />
+    <Compile Include="Hashes\Crypto\SHA2_224.cs" />
+    <Compile Include="Hashes\Crypto\SHA2_256.cs" />
+    <Compile Include="Hashes\Crypto\SHA2_256Base.cs" />
+    <Compile Include="Hashes\Crypto\SHA2_384.cs" />
+    <Compile Include="Hashes\Crypto\SHA2_512.cs" />
+    <Compile Include="Hashes\Crypto\SHA2_512Base.cs" />
+    <Compile Include="Hashes\Crypto\SHA2_512_224.cs" />
+    <Compile Include="Hashes\Crypto\SHA2_512_256.cs" />
+    <Compile Include="Hashes\Crypto\Global.cs" />
+    <Compile Include="Hashes\Crypto\HashMode.cs" />
+    <Compile Include="Hashes\Crypto\SHA3.cs" />
+    <Compile Include="Hashes\Crypto\SHA3_224.cs" />
+    <Compile Include="Hashes\Crypto\SHA3_256.cs" />
+    <Compile Include="Hashes\Crypto\SHA3_384.cs" />
+    <Compile Include="Hashes\Crypto\SHA3_512.cs" />
+    <Compile Include="Hashes\Crypto\Keccak_224.cs" />
+    <Compile Include="Hashes\Crypto\Keccak_256.cs" />
+    <Compile Include="Hashes\Crypto\Keccak_288.cs" />
+    <Compile Include="Hashes\Crypto\Keccak_384.cs" />
+    <Compile Include="Hashes\Crypto\Keccak_512.cs" />
+    <Compile Include="Hashes\Crypto\Shake.cs" />
+    <Compile Include="Hashes\Crypto\Shake_128.cs" />
+    <Compile Include="Hashes\Crypto\Shake_256.cs" />
+    <Compile Include="Hashes\Crypto\CShake.cs" />
+    <Compile Include="Hashes\Crypto\CShake_128.cs" />
+    <Compile Include="Hashes\Crypto\CShake_256.cs" />
+    <Compile Include="Hashes\Crypto\KMACNotBuildInAdapter.cs" />
+    <Compile Include="Hashes\Crypto\KMAC128.cs" />
+    <Compile Include="Hashes\Crypto\KMAC128XOF.cs" />
+    <Compile Include="Hashes\Crypto\KMAC256.cs" />
+    <Compile Include="Hashes\Crypto\KMAC256XOF.cs" />
+    <Compile Include="Hashes\Crypto\Snefru.cs" />
+    <Compile Include="Hashes\Crypto\Tiger.cs" />
+    <Compile Include="Hashes\Crypto\Tiger_Base.cs" />
+    <Compile Include="Hashes\Crypto\Tiger_128.cs" />
+    <Compile Include="Hashes\Crypto\Tiger_160.cs" />
+    <Compile Include="Hashes\Crypto\Tiger_192.cs" />
+    <Compile Include="Hashes\Crypto\Tiger2.cs" />
+    <Compile Include="Hashes\Crypto\Tiger2_Base.cs" />
+    <Compile Include="Hashes\Crypto\Tiger2_128.cs" />
+    <Compile Include="Hashes\Crypto\Tiger2_160.cs" />
+    <Compile Include="Hashes\Crypto\Tiger2_192.cs" />
+    <Compile Include="Hashes\Crypto\WhirlPool.cs" />
+    <Compile Include="Hashes\Crypto\Blake2SConfigurations\Blake2SConfig.cs" />
+    <Compile Include="Hashes\Crypto\Blake2SConfigurations\Blake2SIvBuilder.cs" />
+    <Compile Include="Hashes\Crypto\Blake2SConfigurations\Blake2STreeConfig.cs" />
+    <Compile Include="Hashes\Crypto\Blake2SConfigurations\Blake2XSConfig.cs" />
+    <Compile Include="Hashes\Crypto\Blake2BConfigurations\Blake2BConfig.cs" />
+    <Compile Include="Hashes\Crypto\Blake2BConfigurations\Blake2BIvBuilder.cs" />
+    <Compile Include="Hashes\Crypto\Blake2BConfigurations\Blake2BTreeConfig.cs" />
+    <Compile Include="Hashes\Crypto\Blake2BConfigurations\Blake2XBConfig.cs" />
+    <Compile Include="Hashes\Checksum\Adler32.cs" />
+    <Compile Include="Hashes\Checksum\CRCStandard.cs" />
+    <Compile Include="Hashes\Checksum\CRC.cs" />
+    <Compile Include="Hashes\Checksum\CRC16Polynomials.cs" />
+    <Compile Include="Hashes\Checksum\CRC16.cs" />
+    <Compile Include="Hashes\Checksum\CRC16_BUYPASS.cs" />
+    <Compile Include="Hashes\Checksum\CRC32Polynomials.cs" />
+    <Compile Include="Hashes\Checksum\CRC32.cs" />
+    <Compile Include="Hashes\Checksum\CRC32_PKZIP.cs" />
+    <Compile Include="Hashes\Checksum\CRC32_CASTAGNOLI.cs" />
+    <Compile Include="Hashes\Checksum\CRC32Fast.cs" />
+    <Compile Include="Hashes\Checksum\CRC32_PKZIP_Fast.cs" />
+    <Compile Include="Hashes\Checksum\CRC32_CASTAGNOLI_Fast.cs" />
+    <Compile Include="Hashes\Checksum\CRC64Polynomials.cs" />
+    <Compile Include="Hashes\Checksum\CRC64.cs" />
+    <Compile Include="Hashes\Checksum\CRC64_ECMA_182.cs" />
+    <Compile Include="Hashes\Base\Hash.cs" />
+    <Compile Include="Hashes\Base\HashBuffer.cs" />
+    <Compile Include="Hashes\Base\BlockHash.cs" />
+    <Compile Include="Hashes\Base\HashFactory.cs" />
+    <Compile Include="Hashes\Base\HashResult.cs" />
+    <Compile Include="Hashes\Base\HashRounds.cs" />
+    <Compile Include="Hashes\Base\HashSizeEnum.cs" />
+    <Compile Include="Hashes\Base\HMACNotBuildInAdapter.cs" />
+    <Compile Include="Hashes\Base\MultipleTransformNonBlock.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

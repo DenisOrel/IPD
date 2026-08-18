@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.Bars.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9430170D-56B1-461E-806E-8AD3CB5A3EB4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.Bars</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <ApplicationVersion>4.0.14.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BarsResources.cs" />
+    <Compile Include="Intermech\Localization\LocalizationHolder.cs" />
+    <Compile Include="Intermech\Util\ToolTips.cs" />
+    <Compile Include="Intermech\Util\Win32.cs" />
+    <Compile Include="Intermech\Util\XPThemeManager.cs" />
+    <Compile Include="Intermech\NavBars\AppPane.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Intermech\NavBars\HeaderControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Intermech\NavBars\HeaderStyle.cs" />
+    <Compile Include="Intermech\NavBars\IAppItem.cs" />
+    <Compile Include="Intermech\NavBars\IAppPane.cs" />
+    <Compile Include="Intermech\NavBars\INavBarRenderer.cs" />
+    <Compile Include="Intermech\NavBars\INavigationBar.cs" />
+    <Compile Include="Intermech\NavBars\INavigationPane.cs" />
+    <Compile Include="Intermech\NavBars\NavBarDesigner.cs" />
+    <Compile Include="Intermech\NavBars\NavBarRenderer.cs" />
+    <Compile Include="Intermech\NavBars\NavigationBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Intermech\NavBars\NavigationPane.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Intermech\NavBars\NavigationPaneDesigner.cs" />
+    <Compile Include="Intermech\NavBars\PaneCollection.cs" />
+    <Compile Include="Intermech\NavBars\RendererBase.cs" />
+    <Compile Include="Intermech\ButtonsPanel\ButtonHighlightType.cs" />
+    <Compile Include="Intermech\ButtonsPanel\ButtonImageEditor.cs" />
+    <Compile Include="Intermech\ButtonsPanel\ButtonLayoutType.cs" />
+    <Compile Include="Intermech\ButtonsPanel\ButtonsPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Intermech\ButtonsPanel\ConvertHelper.cs" />
+    <Compile Include="Intermech\ButtonsPanel\ButtonsPanelDesigner.cs" />
+    <Compile Include="Intermech\ButtonsPanel\ButtonsPanelRenderer.cs" />
+    <Compile Include="Intermech\ButtonsPanel\PanelButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Intermech\ButtonsPanel\PanelButtonClickEventArgs.cs" />
+    <Compile Include="Intermech\ButtonsPanel\PanelButtonCollection.cs" />
+    <Compile Include="Intermech\ButtonsPanel\PanelButtonConverter.cs" />
+    <Compile Include="Intermech\Bars\BarLanguage.cs" />
+    <Compile Include="Intermech\Bars\BarManager.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Intermech\Bars\CollectToolbarsEventArgs.cs" />
+    <Compile Include="Intermech\Bars\CollectToolbarsHandler.cs" />
+    <Compile Include="Intermech\Bars\BarManagerConfigurationStorage.cs" />
+    <Compile Include="Intermech\Bars\ButtonItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Intermech\Bars\ButtonItemBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Intermech\Bars\AutoToggleType.cs" />
+    <Compile Include="Intermech\Bars\ColorMenuItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Intermech\Bars\ColorMenuPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Intermech\Bars\ComboBoxItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Intermech\Bars\ContainerBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Intermech\Bars\ContainerBarClientPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Intermech\Bars\ContainerBarResizer.cs" />
+    <Compile Include="Intermech\Bars\ContextMenuBarItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Intermech\Bars\ContextMenuWindow.cs" />
+    <Compile Include="Intermech\Bars\ControlContainerItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Intermech\Bars\BarManagerDesigner.cs" />
+    <Compile Include="Intermech\Bars\ContainerBarDesigner.cs" />
+    <Compile Include="Intermech\Bars\ContextMenuDesigner.cs" />
+    <Compile Include="Intermech\Bars\MenuBarDesigner.cs" />
+    <Compile Include="Intermech\Bars\MenuItemDesigner.cs" />
+    <Compile Include="Intermech\Bars\ToolBarContainerDesigner.cs" />
+    <Compile Include="Intermech\Bars\ToolBarDesigner.cs" />
+    <Compile Include="Intermech\Bars\ToolBarDesignerKeyboardHelper.cs" />
+    <Compile Include="Intermech\Bars\ToolbarItemBaseDesigner.cs" />
+    <Compile Include="Intermech\Bars\TopLevelMenuItemDesigner.cs" />
+    <Compile Include="Intermech\Bars\TypedDesignerVerb.cs" />
+    <Compile Include="Intermech\Bars\w.cs" />
+    <Compile Include="Intermech\Bars\DropDownMenuItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Intermech\Bars\FlatComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Intermech\Bars\FloatingToolbarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Intermech\Bars\IButtonsSite.cs" />
+    <Compile Include="Intermech\Bars\IPopupMenuHost.cs" />
+    <Compile Include="Intermech\Bars\IShortcutListener.cs" />
+    <Compile Include="Intermech\Bars\ItemMergeAction.cs" />
+    <Compile Include="Intermech\Bars\GetToolbarCallback.cs" />
+    <Compile Include="Intermech\Bars\IToolbarProvider.cs" />
+    <Compile Include="Intermech\Bars\LabelItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Intermech\Bars\MdiHelper.cs" />
+    <Compile Include="Intermech\Bars\MenuAnimator.cs" />
+    <Compile Include="Intermech\Bars\MenuBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Intermech\Bars\MenuBarItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Intermech\Bars\MenuButtonItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Intermech\Bars\MenuItemBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Intermech\Bars\MenuMeasure.cs" />
+    <Compile Include="Intermech\Bars\MenuPopupEventArgs.cs" />
+    <Compile Include="Intermech\Bars\PopupMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Intermech\Bars\EmptyToolbarRenderer.cs" />
+    <Compile Include="Intermech\Bars\IComboBoxRenderer.cs" />
+    <Compile Include="Intermech\Bars\IContainerBarRenderer.cs" />
+    <Compile Include="Intermech\Bars\IMenuRenderer.cs" />
+    <Compile Include="Intermech\Bars\IToolBarRenderer.cs" />
+    <Compile Include="Intermech\Bars\BlackRenderer.cs" />
+    <Compile Include="Intermech\Bars\Office2002Renderer.cs" />
+    <Compile Include="Intermech\Bars\Office2003ColorScheme.cs" />
+    <Compile Include="Intermech\Bars\Office2003Renderer.cs" />
+    <Compile Include="Intermech\Bars\OfficeRendererBase.cs" />
+    <Compile Include="Intermech\Bars\RendererConverter.cs" />
+    <Compile Include="Intermech\Bars\WhidbeyRenderer.cs" />
+    <Compile Include="Intermech\Bars\SecondaryShortcutEventArgs.cs" />
+    <Compile Include="Intermech\Bars\SecondaryShortcutEventHandler.cs" />
+    <Compile Include="Intermech\Bars\ShortcutListener.cs" />
+    <Compile Include="Intermech\Bars\SystemButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Intermech\Bars\SystemButonBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Intermech\Bars\TextMenuItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Intermech\Bars\ToolBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Intermech\Bars\ToolBarButtonsCustomizeMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Intermech\Bars\ToolBarContainer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Intermech\Bars\ToolBarDocker.cs" />
+    <Compile Include="Intermech\Bars\ToolBarGlyphType.cs" />
+    <Compile Include="Intermech\Bars\ToolbarItemBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Intermech\Bars\ToolBarItemImportance.cs" />
+    <Compile Include="Intermech\Bars\ToolbarItemBaseCollection.cs" />
+    <Compile Include="Intermech\Bars\ToolbarItemBaseConverter.cs" />
+    <Compile Include="Intermech\Bars\ToolBarItemEventArgs.cs" />
+    <Compile Include="Intermech\Bars\ToolBarLayout.cs" />
+    <Compile Include="Intermech\Bars\ToolBarMeasure.cs" />
+    <Compile Include="Intermech\Bars\ToolBarOverflow.cs" />
+    <Compile Include="Intermech\Bars\ToolBarSituation.cs" />
+    <Compile Include="Intermech\Bars\ToolbarStructure.cs" />
+    <Compile Include="Intermech\Bars\ToolBarTextAlign.cs" />
+    <Compile Include="Intermech\Bars\TopForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Intermech\Bars\TopLevelMenuItemBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Intermech\Bars\MenuOffset.cs" />
+    <Compile Include="Intermech\Bars\MenuAnimation.cs" />
+    <Compile Include="Intermech\Bars\b.cs" />
+    <Compile Include="Intermech\Bars\MenuLooper.cs" />
+    <Compile Include="Intermech\Bars\MenuAction.cs" />
+    <Compile Include="Intermech\Bars\n.cs" />
+    <Compile Include="Intermech\Bars\ShadowForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Intermech\Bars\ColorMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Intermech\Bars\ColorNameRGBPair.cs" />
+    <Compile Include="Intermech\Bars\CommandManager.cs" />
+    <Compile Include="Intermech\Bars\CommandState.cs" />
+    <Compile Include="Intermech\Bars\ICommandManager.cs" />
+    <Compile Include="Intermech\Bars\ICommandState.cs" />
+    <Compile Include="Intermech\Bars\ICommandTarget.cs" />
+    <Compile Include="Intermech\Bars\ICommandTarget2.cs" />
+    <Compile Include="Intermech\Bars\ISkipTargetActivate.cs" />
+    <Compile Include="Intermech\Bars\Utils.cs" />
+    <Compile Include="Intermech\Actions\Action.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Intermech\Actions\ActionData.cs" />
+    <Compile Include="Intermech\Actions\ActionCollection.cs" />
+    <Compile Include="Intermech\Actions\ActionList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Intermech\Actions\ActionConverter.cs" />
+    <Compile Include="Intermech\Actions\ActionCollectionEditor.cs" />
+    <Compile Include="Intermech\Actions\Design\ImageIndexEditorBase.cs" />
+    <Compile Include="Intermech\Actions\Design\ImageIndexEditor.cs" />
+    <Compile Include="SuperTooltips\ControlHelper.cs" />
+    <Compile Include="SuperTooltips\ScreenInfo.cs" />
+    <Compile Include="SuperTooltips\CustomTypeEditorProvider.cs" />
+    <Compile Include="SuperTooltips\ISuperTooltipInfoProvider.cs" />
+    <Compile Include="SuperTooltips\TooltipPadding.cs" />
+    <Compile Include="SuperTooltips\ShadowHelper.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SuperTooltips\ShadowPainter.cs" />
+    <Compile Include="SuperTooltips\ShadowPaintInfo.cs" />
+    <Compile Include="SuperTooltips\SuperTooltip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SuperTooltips\SuperTooltipControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SuperTooltips\SuperTooltipDesigner.cs" />
+    <Compile Include="SuperTooltips\SuperTooltipEventArgs.cs" />
+    <Compile Include="SuperTooltips\SuperTooltipEventHandler.cs" />
+    <Compile Include="SuperTooltips\SuperTooltipInfo.cs" />
+    <Compile Include="SuperTooltips\SuperTooltipInfoConverter.cs" />
+    <Compile Include="SuperTooltips\SuperTooltipInfoEditor.cs" />
+    <Compile Include="SuperTooltips\SuperTooltipVisualEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SuperTooltips\TooltipColorScheme.cs" />
+    <Compile Include="SuperTooltips\Win32API.cs" />
+    <Compile Include="Properties\Resources.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BarsResources.resx" />
+    <EmbeddedResource Include="Intermech\Actions\Action.resx" />
+    <EmbeddedResource Include="Intermech\Actions\ActionList.bmp" />
+    <EmbeddedResource Include="Intermech\Actions\ActionList.resx" />
+    <EmbeddedResource Include="Intermech\Bars\BarManager.bmp" />
+    <EmbeddedResource Include="Intermech\Bars\BarManager.resx" />
+    <EmbeddedResource Include="Intermech\Bars\ContainerBar.resx" />
+    <EmbeddedResource Include="Intermech\Bars\ContextMenuBarItem.resx" />
+    <EmbeddedResource Include="Intermech\Bars\MenuBar.resx" />
+    <EmbeddedResource Include="Intermech\Bars\PopupMenu.resx" />
+    <EmbeddedResource Include="Intermech\Bars\ToolBar.resx" />
+    <EmbeddedResource Include="Intermech\Bars\ToolBarContainer.resx" />
+    <EmbeddedResource Include="Intermech\Bars\ToolbarItemBase.resx" />
+    <EmbeddedResource Include="Intermech\ButtonsPanel\ButtonsPanel.resx" />
+    <EmbeddedResource Include="Intermech\ButtonsPanel\PanelButton.resx" />
+    <EmbeddedResource Include="Intermech\NavBars\AppPane.resx" />
+    <EmbeddedResource Include="Intermech\NavBars\HeaderControl.resx" />
+    <EmbeddedResource Include="Intermech\NavBars\NavigationBar.resx" />
+    <EmbeddedResource Include="Intermech\NavBars\NavigationPane.resx" />
+    <EmbeddedResource Include="NavBars\downarrow.gif" />
+    <EmbeddedResource Include="NavBars\uparrow.gif" />
+    <EmbeddedResource Include="Properties\Resources.resx" />
+    <EmbeddedResource Include="Resources\close.gif" />
+    <EmbeddedResource Include="Resources\defdock.png" />
+    <EmbeddedResource Include="Resources\maximize.gif" />
+    <EmbeddedResource Include="Resources\minimize.gif" />
+    <EmbeddedResource Include="Resources\restore.gif" />
+    <EmbeddedResource Include="Resources\splitting.cur" />
+    <EmbeddedResource Include="Resources\splittingno.cur" />
+    <EmbeddedResource Include="SuperTooltips\SuperTooltipVisualEditor.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

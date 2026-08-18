@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ImportTooMuchObjects" xml:space="preserve">
+    <value>Импорт большого числа объектов может занять длительное время</value>
+  </data>
+  <data name="FinishStart" xml:space="preserve">
+    <value>Окончание-Начало (ОН)</value>
+  </data>
+  <data name="ValMinDate" xml:space="preserve">
+    <value>Минимальная дата</value>
+  </data>
+  <data name="TaskMailSubject" xml:space="preserve">
+    <value>Вам назначена задача "{0}"</value>
+  </data>
+  <data name="DeleteSettingsForObjectType" xml:space="preserve">
+    <value>Удалить настройки для типа объекта "{0}"?</value>
+  </data>
+  <data name="LoseChangesDeletedImportedObjects" xml:space="preserve">
+    <value>Сохранить измненения внесённые список импортированных в проект объектов?</value>
+  </data>
+  <data name="TaskStatusSent" xml:space="preserve">
+    <value>Разослано исполнителям</value>
+  </data>
+  <data name="FilterExecuted" xml:space="preserve">
+    <value>Выполняющиеся задачи</value>
+  </data>
+  <data name="ErrWrongDurationFormat" xml:space="preserve">
+    <value>Недопустимая длительность ({0}). 
+Введите длительность в правильном формате, например 4 часа (или 4ч), 12 дней (или 12д), 3 недели (или 3н) или 2мес для месяцев</value>
+  </data>
+  <data name="TaskParamSrcDataCount" xml:space="preserve">
+    <value>Количество исходных данных</value>
+  </data>
+  <data name="TaskParamIndentLevel" xml:space="preserve">
+    <value>Уровень вложенности</value>
+  </data>
+  <data name="ClosingProgress" xml:space="preserve">
+    <value>Завершение редактирования..</value>
+  </data>
+  <data name="FilterWithSrcData" xml:space="preserve">
+    <value>Задачи с исходными данными</value>
+  </data>
+  <data name="ImportedInProjectObjects" xml:space="preserve">
+    <value>Импортированные в проект объекты</value>
+  </data>
+  <data name="FilterWithConstraints" xml:space="preserve">
+    <value>Задачи с крайними сроками</value>
+  </data>
+  <data name="UsePrototypeForTask" xml:space="preserve">
+    <value>Использовать параметры</value>
+  </data>
+  <data name="ErrChiefNeeded" xml:space="preserve">
+    <value>Данная команда может быть выполнена только руководителем проекта ({0})!</value>
+  </data>
+  <data name="TaskParamPlannedPercentCompleted" xml:space="preserve">
+    <value>Плановый процент выполнения</value>
+  </data>
+  <data name="TaskProps" xml:space="preserve">
+    <value>Свойства задачи</value>
+  </data>
+  <data name="TaskViewPageNone" xml:space="preserve">
+    <value>Неопределённая закладка</value>
+  </data>
+  <data name="TaskStatusTerminated" xml:space="preserve">
+    <value>Выполнение прервано</value>
+  </data>
+  <data name="AsLateAsPossible" xml:space="preserve">
+    <value>Как можно позже</value>
+  </data>
+  <data name="FilterOverdueTasks" xml:space="preserve">
+    <value>Не выполненные в срок</value>
+  </data>
+  <data name="ChooseProject" xml:space="preserve">
+    <value>Выбор проекта</value>
+  </data>
+  <data name="StartStart" xml:space="preserve">
+    <value>Начало-Начало (НН)</value>
+  </data>
+  <data name="ResourcesTitle" xml:space="preserve">
+    <value>Ресурсы</value>
+  </data>
+  <data name="FinishNoLaterThan" xml:space="preserve">
+    <value>Окончание не позднее</value>
+  </data>
+  <data name="UsePrototypeForSubprojects" xml:space="preserve">
+    <value>Шаблон для суммарных задач</value>
+  </data>
+  <data name="OpOutr" xml:space="preserve">
+    <value>вне диапазона</value>
+  </data>
+  <data name="FilterWithResults" xml:space="preserve">
+    <value>Задачи с результатами</value>
+  </data>
+  <data name="WinUpdatingProgress" xml:space="preserve">
+    <value>Обновление окон</value>
+  </data>
+  <data name="CantSetSummaryProperty" xml:space="preserve">
+    <value>Невозможно задать "{0}": не разрешено для суммарных задач</value>
+  </data>
+  <data name="ScaleTypeDays" xml:space="preserve">
+    <value>Дни</value>
+  </data>
+  <data name="TaskMailTemplate" xml:space="preserve">
+    <value>Вы {6}назначены исполнителем задачи "&lt;a href="#view={0}"&gt;{1}&lt;/a&gt;" проекта "&lt;a href="#view={2}"&gt;{3}&lt;/a&gt;" (руководитель: &lt;a href="#object={4}"&gt;{5}&lt;/a&gt;).&lt;br /&gt;Установить процент выполнения можно из окна почты или органайзера на закладке свойств задачи</value>
+  </data>
+  <data name="TaskParamFactFinish1" xml:space="preserve">
+    <value>Фактическое окончание</value>
+  </data>
+  <data name="ErrDupSubProject" xml:space="preserve">
+    <value>Дублирование, вставка подпроекта в проект допускается только один раз</value>
+  </data>
+  <data name="FilterEstimation" xml:space="preserve">
+    <value>Задачи с оценкой длительности</value>
+  </data>
+  <data name="ValNow" xml:space="preserve">
+    <value>Текущая дата</value>
+  </data>
+  <data name="TaskViewPageExtra" xml:space="preserve">
+    <value>Дополнительно</value>
+  </data>
+  <data name="TaskViewPageNotes" xml:space="preserve">
+    <value>Заметки</value>
+  </data>
+  <data name="ObjectWithCaptionAlreadyImported" xml:space="preserve">
+    <value>Объект {0} уже импортирован в проект. Повторить выбор?</value>
+  </data>
+  <data name="TaskViewPagePrecursors" xml:space="preserve">
+    <value>Предшественники</value>
+  </data>
+  <data name="TaskParamFactStart" xml:space="preserve">
+    <value>Фактическое начало</value>
+  </data>
+  <data name="TaskViewPageResults" xml:space="preserve">
+    <value>Результаты</value>
+  </data>
+  <data name="ValFalse" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="ProjectProps" xml:space="preserve">
+    <value>Свойства проекта</value>
+  </data>
+  <data name="TaskParamName" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="TaskParamWork" xml:space="preserve">
+    <value>Трудозатраты</value>
+  </data>
+  <data name="TaskParamFactStart1" xml:space="preserve">
+    <value>Фактическое начало</value>
+  </data>
+  <data name="ProjectMembers" xml:space="preserve">
+    <value>Участники проекта "{0}"</value>
+  </data>
+  <data name="MustBeVerifiedByProcess" xml:space="preserve">
+    <value>Результаты выполнения задачи должны пройти процесс согласования "{0}".{1}Проверку не прошли следующие вложения:</value>
+  </data>
+  <data name="ErrNoTaskResources" xml:space="preserve">
+    <value>Не заданы исполнители/ресурсы для задачи "{0}"!</value>
+  </data>
+  <data name="Project" xml:space="preserve">
+    <value>Проект</value>
+  </data>
+  <data name="TimeUnitMon" xml:space="preserve">
+    <value>месяцев,м,мес,месяц,месяца</value>
+  </data>
+  <data name="FilterCompleted" xml:space="preserve">
+    <value>Выполненные задачи</value>
+  </data>
+  <data name="FromStart" xml:space="preserve">
+    <value>От даты начала проекта</value>
+  </data>
+  <data name="TaskViewPageResources" xml:space="preserve">
+    <value>Ресурсы</value>
+  </data>
+  <data name="OverdueTaskMailSubject" xml:space="preserve">
+    <value>Задача "{0}" не выполнена в срок</value>
+  </data>
+  <data name="TaskParamHasSubTasks" xml:space="preserve">
+    <value>Имеет подзадачи</value>
+  </data>
+  <data name="TaskVerifyRejected" xml:space="preserve">
+    <value>Выполнение задачи "{0}" было отклонено руководителем</value>
+  </data>
+  <data name="ScaleTypeWeeks" xml:space="preserve">
+    <value>Недели</value>
+  </data>
+  <data name="ScaleTypeYears" xml:space="preserve">
+    <value>Годы</value>
+  </data>
+  <data name="TaskStatusNotStarted" xml:space="preserve">
+    <value>Проектируется</value>
+  </data>
+  <data name="ManagerAnswer" xml:space="preserve">
+    <value>Сообщение от руководителя:
+{0}</value>
+  </data>
+  <data name="TaskParamFactFinish" xml:space="preserve">
+    <value>Фактическое окончание</value>
+  </data>
+  <data name="SubTaskTemplateNotAssigned" xml:space="preserve">
+    <value>Для объекта типа {0} должна быть создана суммарная задача, однако шаблон для суммарных задач для этого типа не указан</value>
+  </data>
+  <data name="ErrCircularDependency" xml:space="preserve">
+    <value>Взаимные зависимости не допускаются</value>
+  </data>
+  <data name="ErrNotPropertiesOwner" xml:space="preserve">
+    <value>Текущий узел не имеет прав владения свойств опубликованного объекта</value>
+  </data>
+  <data name="TaskParamAssignmentsString" xml:space="preserve">
+    <value>Ресурсы</value>
+  </data>
+  <data name="ErrWorkflowServiceNotFound" xml:space="preserve">
+    <value>Невозможно отправить сообщение: серверная служба маршрутизатора не загружена!</value>
+  </data>
+  <data name="StartFinish" xml:space="preserve">
+    <value>Начало-Окончание (НО)</value>
+  </data>
+  <data name="TaskParamIsCritical" xml:space="preserve">
+    <value>Критическая задача</value>
+  </data>
+  <data name="StartNoEarlierThan" xml:space="preserve">
+    <value>Начало не ранее</value>
+  </data>
+  <data name="TaskResults" xml:space="preserve">
+    <value>Результаты</value>
+  </data>
+  <data name="SubProjectAlreadyExists" xml:space="preserve">
+    <value>Вставка подпроекта в проект допускается только один раз</value>
+  </data>
+  <data name="CantSetMilestoneProperty" xml:space="preserve">
+    <value>Невозможно задать "{0}": не разрешено для вех</value>
+  </data>
+  <data name="TaskStatusCompleted" xml:space="preserve">
+    <value>Выполнено</value>
+  </data>
+  <data name="TaskParamWbsCode" xml:space="preserve">
+    <value>Код СДР</value>
+  </data>
+  <data name="ScaleTypeQuarters" xml:space="preserve">
+    <value>Кварталы</value>
+  </data>
+  <data name="TaskParamEstimation" xml:space="preserve">
+    <value>Предварительная оценка</value>
+  </data>
+  <data name="TaskParamConstraintDate" xml:space="preserve">
+    <value>Дата ограничения</value>
+  </data>
+  <data name="TaskParamConstraintType" xml:space="preserve">
+    <value>Тип ограничения</value>
+  </data>
+  <data name="TaskParamIsExecuted" xml:space="preserve">
+    <value>Выполняется</value>
+  </data>
+  <data name="FinishNoEarlierThan" xml:space="preserve">
+    <value>Окончание не ранее</value>
+  </data>
+  <data name="ErrCircularSubProject" xml:space="preserve">
+    <value>Нельзя вставлять проект в самого себя</value>
+  </data>
+  <data name="ErrMilestoneResource" xml:space="preserve">
+    <value>Невозможно добавить ресурс: вехи не могут содержать ресурсов</value>
+  </data>
+  <data name="RemoveLinkWithSelectedImportedObjectAndDeleteTasks" xml:space="preserve">
+    <value>Удалить из проекта задачи, импортированные из выбранных объектов?</value>
+  </data>
+  <data name="TimeUnitW" xml:space="preserve">
+    <value>недель,нед,н,неделя,недели</value>
+  </data>
+  <data name="TimeUnitD" xml:space="preserve">
+    <value>дней,д,дн,день,дня</value>
+  </data>
+  <data name="TimeUnitM" xml:space="preserve">
+    <value>минут,мин,минута,минуты</value>
+  </data>
+  <data name="TimeUnitH" xml:space="preserve">
+    <value>часов,ч,час</value>
+  </data>
+  <data name="OpL" xml:space="preserve">
+    <value>меньше</value>
+  </data>
+  <data name="OpG" xml:space="preserve">
+    <value>больше</value>
+  </data>
+  <data name="OpE" xml:space="preserve">
+    <value>равно</value>
+  </data>
+  <data name="OpOut" xml:space="preserve">
+    <value>не содержит</value>
+  </data>
+  <data name="OpInr" xml:space="preserve">
+    <value>в диапазоне</value>
+  </data>
+  <data name="TaskParamStatus1" xml:space="preserve">
+    <value>Статус задачи</value>
+  </data>
+  <data name="CmdVerifyResultsHint" xml:space="preserve">
+    <value>Запустить процесс согласования результатов</value>
+  </data>
+  <data name="DependencyCaption" xml:space="preserve">
+    <value>Зависимость задач "{0}"=&gt;"{1}"</value>
+  </data>
+  <data name="TaskParamChiefString" xml:space="preserve">
+    <value>Руководитель</value>
+  </data>
+  <data name="TaskParamFinish" xml:space="preserve">
+    <value>Окончание</value>
+  </data>
+  <data name="TaskParamDuration" xml:space="preserve">
+    <value>Длительность</value>
+  </data>
+  <data name="AddData" xml:space="preserve">
+    <value>Дополнительно</value>
+  </data>
+  <data name="SummaryCantBeMilestone" xml:space="preserve">
+    <value>Суммарные задачи не могут быть вехами!</value>
+  </data>
+  <data name="FilterMilestones" xml:space="preserve">
+    <value>Вехи</value>
+  </data>
+  <data name="AllowedParameterRange" xml:space="preserve">
+    <value>Допустимый диапазон значений параметра</value>
+  </data>
+  <data name="DoubleDependencyNotAllowed" xml:space="preserve">
+    <value>Двойная связь задачи-предшественника ({0}) с одной задачей-последователем ({1}) не допускается</value>
+  </data>
+  <data name="FilterAllTasks" xml:space="preserve">
+    <value>Все задачи</value>
+  </data>
+  <data name="FilterResourceText" xml:space="preserve">
+    <value>Показать задачи, использующие:</value>
+  </data>
+  <data name="CantAddDependency" xml:space="preserve">
+    <value>Невозможно добавить зависимость</value>
+  </data>
+  <data name="PendingTaskMailTemplate" xml:space="preserve">
+    <value>Исполнитель задачи "{0}" выполнил задачу "&lt;a href="#view={1}"&gt;{2}&lt;/a&gt;" проекта "&lt;a href="#view={3}"&gt;{4}&lt;/a&gt;". Как руководитель, вы должны подтвердить факт выполнения задачи. Откройте свойства задачи и подтвердите/отклоните указанный процент выполнения</value>
+  </data>
+  <data name="CheckoutTaskNeeded" xml:space="preserve">
+    <value>Для изменения свойств действия "{0}" нужно взять его на редактирование!</value>
+  </data>
+  <data name="ResourcesCalcMode_PeakLoad" xml:space="preserve">
+    <value>Пиковые единицы</value>
+  </data>
+  <data name="TaskParamNotes1" xml:space="preserve">
+    <value>Заметки</value>
+  </data>
+  <data name="SavingProgress" xml:space="preserve">
+    <value>Сохранение..</value>
+  </data>
+  <data name="ValTrue" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="ResourceAssignments" xml:space="preserve">
+    <value>Загрузка ресурсов</value>
+  </data>
+  <data name="PlanningConflict" xml:space="preserve">
+    <value>Конфликт планирования</value>
+  </data>
+  <data name="DefaultForAllObjectTypes" xml:space="preserve">
+    <value>По-умолчанию для всех типов объектов</value>
+  </data>
+  <data name="TaskData" xml:space="preserve">
+    <value>Исходные данные</value>
+  </data>
+  <data name="TaskParamCompletedWork" xml:space="preserve">
+    <value>Фактические трудозатраты</value>
+  </data>
+  <data name="TaskParamStatus" xml:space="preserve">
+    <value>Статус задачи</value>
+  </data>
+  <data name="TaskParamPriority" xml:space="preserve">
+    <value>Приоритет</value>
+  </data>
+  <data name="CmdVerifyResults" xml:space="preserve">
+    <value>Согласовать</value>
+  </data>
+  <data name="ErrOnlyChiefCanEdit" xml:space="preserve">
+    <value>Редактирование запущенного проекта разрешено только его руководителю!</value>
+  </data>
+  <data name="TaskParamChiefString1" xml:space="preserve">
+    <value>Руководитель</value>
+  </data>
+  <data name="AsSoonAsPossible" xml:space="preserve">
+    <value>Как можно раньше</value>
+  </data>
+  <data name="ChooseResources" xml:space="preserve">
+    <value>Выбор ресурсов</value>
+  </data>
+  <data name="ScaleTypeMonths" xml:space="preserve">
+    <value>Месяцы</value>
+  </data>
+  <data name="TaskStatusWaiting" xml:space="preserve">
+    <value>Ожидает запуска</value>
+  </data>
+  <data name="ManyObjectAlreadyImported" xml:space="preserve">
+    <value>Следующие объекты уже импортированы в проект:
+{0} Повторить выбор?</value>
+  </data>
+  <data name="InvalidConditionErr" xml:space="preserve">
+    <value>Условие ({0}) некорректно, невозможно вычислить результат</value>
+  </data>
+  <data name="StartNoLaterThan" xml:space="preserve">
+    <value>Начало не позднее</value>
+  </data>
+  <data name="ErrDepTaskNotFound" xml:space="preserve">
+    <value>Не найден предшественник ("{0}")</value>
+  </data>
+  <data name="ObjectAlreadyImported" xml:space="preserve">
+    <value>Выбранный объект уже импортирован в проект. Повторить выбор?</value>
+  </data>
+  <data name="ErrIncorrectFieldValue" xml:space="preserve">
+    <value>Недопустимое значение поля</value>
+  </data>
+  <data name="ManualPlanning" xml:space="preserve">
+    <value>Ручное планирование</value>
+  </data>
+  <data name="TaskHasConstraint" xml:space="preserve">
+    <value>Для задачи установлено ограничение '{0}' с датой '{1}'</value>
+  </data>
+  <data name="ErrProjectShouldBeValid" xml:space="preserve">
+    <value>Т.к. проект "{0}" имеет статус "{1}", для успешного сохранения требуется, чтобы он был корректным</value>
+  </data>
+  <data name="TaskStatusPending" xml:space="preserve">
+    <value>Ожидает проверки руководителем</value>
+  </data>
+  <data name="MustHaveResultsErr" xml:space="preserve">
+    <value>Т.к. задан процесс согласования результатов, задача должна содержать результаты выполнения!</value>
+  </data>
+  <data name="RemoveFromList" xml:space="preserve">
+    <value>Исключить из списка</value>
+  </data>
+  <data name="FilterSummary" xml:space="preserve">
+    <value>Суммарные задачи</value>
+  </data>
+  <data name="ErrParentChildDependency" xml:space="preserve">
+    <value>Связи между суммарными задачами и их подчиненными не допускаются</value>
+  </data>
+  <data name="FilterResource" xml:space="preserve">
+    <value>Использование ресурса</value>
+  </data>
+  <data name="ErrResByNameNotFound" xml:space="preserve">
+    <value>Ресурс "{0}" не найден среди использующихся ресурсов проекта. Для первичного добавления ресурса в проект используйте закладку "Ресурсы" в окне свойств задачи</value>
+  </data>
+  <data name="TaskParamDispIndex" xml:space="preserve">
+    <value>Индекс</value>
+  </data>
+  <data name="FinishFinish" xml:space="preserve">
+    <value>Окончание-Окончание (ОО)</value>
+  </data>
+  <data name="TaskViewPageCommon" xml:space="preserve">
+    <value>Общие</value>
+  </data>
+  <data name="SyncPending" xml:space="preserve">
+    <value>Требуется синхронизация</value>
+  </data>
+  <data name="TaskParamResultsCount" xml:space="preserve">
+    <value>Количество результатов</value>
+  </data>
+  <data name="FilterCritical" xml:space="preserve">
+    <value>Критические задачи</value>
+  </data>
+  <data name="TaskParamAssignments" xml:space="preserve">
+    <value>Идентификаторы ресурсов</value>
+  </data>
+  <data name="CanStartTaskTemplate" xml:space="preserve">
+    <value>Все предыдущие задачи, от которых зависела задача "&lt;a href="#view={0}"&gt;{1}&lt;/a&gt;" проекта "&lt;a href="#view={2}"&gt;{3}&lt;/a&gt;" (руководитель: &lt;a href="#object={4}"&gt;{5}&lt;/a&gt;) были выполнены, можно приступать к её выполнению</value>
+  </data>
+  <data name="CanStartTaskSubject" xml:space="preserve">
+    <value>Можно выполнять задачу "{0}"</value>
+  </data>
+  <data name="TaskParamNotes" xml:space="preserve">
+    <value>Заметки</value>
+  </data>
+  <data name="TaskParamStart" xml:space="preserve">
+    <value>Начало</value>
+  </data>
+  <data name="ResourcesCalcMode_Load" xml:space="preserve">
+    <value>Процент загрузки</value>
+  </data>
+  <data name="ProjectValidationErrors" xml:space="preserve">
+    <value>При проверке проекта "{0}" были обнаружены следующие ошибки:</value>
+  </data>
+  <data name="TaskParamMilestone" xml:space="preserve">
+    <value>Веха</value>
+  </data>
+  <data name="TaskViewPageInitialData" xml:space="preserve">
+    <value>Исходные данные</value>
+  </data>
+  <data name="ErrPortalNeededForExec" xml:space="preserve">
+    <value>Служба портала не найдена, удаленный запуск проекта "{0}" невозможен. Проект должен выполняться на "домашнем" узле его руководителя ("{1}")!</value>
+  </data>
+  <data name="TaskParamCompleted" xml:space="preserve">
+    <value>Выполнено</value>
+  </data>
+  <data name="TaskParamPercentCompleted" xml:space="preserve">
+    <value>Процент выполнения</value>
+  </data>
+  <data name="OnceAgain" xml:space="preserve">
+    <value>повторно</value>
+  </data>
+  <data name="TaskStatusExecuted" xml:space="preserve">
+    <value>Выполняется</value>
+  </data>
+  <data name="OverdueTaskMailTemplate" xml:space="preserve">
+    <value>Задача "&lt;a href="#view={0}"&gt;{1}&lt;/a&gt;" (исполнитель: "{2}") проекта "&lt;a href="#view={3}"&gt;{4}&lt;/a&gt;" не выполнена в срок!</value>
+  </data>
+  <data name="PendingTaskMailSubject" xml:space="preserve">
+    <value>Задача "{0}" выполнена</value>
+  </data>
+  <data name="OpNE" xml:space="preserve">
+    <value>не равно</value>
+  </data>
+  <data name="OpIn" xml:space="preserve">
+    <value>содержит</value>
+  </data>
+  <data name="OpLE" xml:space="preserve">
+    <value>меньше или равно</value>
+  </data>
+  <data name="OpGE" xml:space="preserve">
+    <value>больше или равно</value>
+  </data>
+  <data name="FromEnd" xml:space="preserve">
+    <value>От даты окончания проекта</value>
+  </data>
+  <data name="CheckoutProgress" xml:space="preserve">
+    <value>Взятие на редактирование..</value>
+  </data>
+  <data name="Cant_Set_AutoZoom" xml:space="preserve">
+    <value>Текущий проект невозможно разместить на указанном числе страниц из-за его размера. 
+
+Автоматически выбран масштаб печати 10 процентов от нормального размера. Проект будет напечатан в этом масштабе</value>
+  </data>
+</root>

@@ -1,0 +1,753 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.TechCard.Client.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4D9839B1-5714-4D59-8CB9-B95D4DF2BB38}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.TechCard.Client</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.IM.Utils">
+      <HintPath>lib\DevExpress.IM.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.IM.XtraTreeList">
+      <HintPath>lib\DevExpress.IM.XtraTreeList.dll</HintPath>
+    </Reference>
+    <Reference Include="Infralution.Controls">
+      <HintPath>lib\Infralution.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Infralution.Controls.VirtualTree">
+      <HintPath>lib\Infralution.Controls.VirtualTree.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bars">
+      <HintPath>lib\Intermech.Bars.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Client.Core">
+      <HintPath>lib\Intermech.Client.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Controls">
+      <HintPath>lib\Intermech.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Docking">
+      <HintPath>lib\Intermech.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.ECO.Client">
+      <HintPath>lib\Intermech.ECO.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Expert">
+      <HintPath>lib\Intermech.Expert.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Expert.User">
+      <HintPath>lib\Intermech.Expert.User.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Extensions">
+      <HintPath>lib\Intermech.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Extensions.Client">
+      <HintPath>lib\Intermech.Extensions.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Extensions.Interfaces">
+      <HintPath>lib\Intermech.Extensions.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Extensions.WinForms">
+      <HintPath>lib\Intermech.Extensions.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Imbase">
+      <HintPath>lib\Intermech.Imbase.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.AutoSelection">
+      <HintPath>lib\Intermech.Interfaces.AutoSelection.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Client">
+      <HintPath>lib\Intermech.Interfaces.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Imbase">
+      <HintPath>lib\Intermech.Interfaces.Imbase.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.MRP">
+      <HintPath>lib\Intermech.Interfaces.MRP.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Pdm">
+      <HintPath>lib\Intermech.Interfaces.Pdm.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.TechCard">
+      <HintPath>lib\Intermech.Interfaces.TechCard.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.MRP2">
+      <HintPath>lib\Intermech.MRP2.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Map2">
+      <HintPath>lib\Intermech.Map2.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Scripting">
+      <HintPath>lib\Intermech.Scripting.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.TechAcad.Connector">
+      <HintPath>lib\Intermech.TechAcad.Connector.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.TechAcad.Interfaces">
+      <HintPath>lib\Intermech.TechAcad.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Tools.Components">
+      <HintPath>lib\Intermech.Tools.Components.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.Cadmech">
+      <HintPath>lib\Interop.Cadmech.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="iGrid">
+      <HintPath>lib\iGrid.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Intermech\Localization\LocalizationHolder.cs" />
+    <Compile Include="Intermech\Localization\CustomDescription.cs" />
+    <Compile Include="Intermech\Localization\CustomDisplayName.cs" />
+    <Compile Include="Intermech\Localization\CustomCategory.cs" />
+    <Compile Include="Intermech\TechCard\Client\TpTypePrefixEnum.cs" />
+    <Compile Include="Intermech\TechCard\Client\TechCardClient.cs" />
+    <Compile Include="Intermech\TechCard\Client\TechCardTreeMultiSelect.cs" />
+    <Compile Include="Intermech\TechCard\Client\TechCardClientConst.cs" />
+    <Compile Include="Intermech\TechCard\Client\TechProduction.cs" />
+    <Compile Include="Intermech\TechCard\Client\TechDBObjectID.cs" />
+    <Compile Include="Intermech\TechCard\Client\TechCardClientTreeListCustomizationView.cs" />
+    <Compile Include="Intermech\TechCard\Client\CustomizationItem.cs" />
+    <Compile Include="Intermech\TechCard\Client\TechCardClientTreeListCustomizationFrom.cs" />
+    <Compile Include="Intermech\TechCard\Client\TechCardMainForm.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcClientUtils.cs" />
+    <Compile Include="Intermech\TechCard\Client\TechCardProtectionKey.cs" />
+    <Compile Include="Intermech\TechCard\Client\Properties\Resources.cs" />
+    <Compile Include="Intermech\TechCard\Client\NotionObject\ArticleContextCommandProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\NotionObject\NotionContextCommandPrivider.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcNumerationRules\NumRuleForm.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcNumerationRules\NumRuleFormDialog.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcNumerationRules\NumRuleControl.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcNumerationRules\NumRuleObjControl.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcNumerationRules\NumRuleView.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcNumerationRules\NumRuleEditor.cs" />
+    <Compile Include="Intermech\TechCard\Client\FormDesigner\CAD\Navigator\ExternalCADAttrForm.cs" />
+    <Compile Include="Intermech\TechCard\Client\FormDesigner\CAD\Classes\ExternalCADAttrBase.cs" />
+    <Compile Include="Intermech\TechCard\Client\FormDesigner\CAD\Classes\ExternalCADAttrParser.cs" />
+    <Compile Include="Intermech\TechCard\Client\FormDesigner\CAD\Classes\ExternalCADMethod.cs" />
+    <Compile Include="Intermech\TechCard\Client\FormDesigner\CAD\Classes\ExternalCADConsts.cs" />
+    <Compile Include="Intermech\TechCard\Client\FormDesigner\CAD\Classes\ExternalCadAttrDesType.cs" />
+    <Compile Include="Intermech\TechCard\Client\FormDesigner\CAD\Classes\ExternalCADParams.cs" />
+    <Compile Include="Intermech\TechCard\Client\CompositionView\CVTechcardButtonBase.cs" />
+    <Compile Include="Intermech\TechCard\Client\CompositionView\CVTechcardButton.cs" />
+    <Compile Include="Intermech\TechCard\Client\CompositionView\cvTechCopyButton.cs" />
+    <Compile Include="Intermech\TechCard\Client\CompositionView\CVTechCutButton.cs" />
+    <Compile Include="Intermech\TechCard\Client\Common\BaseObjInfo.cs" />
+    <Compile Include="Intermech\TechCard\Client\Common\IntBaseInfo.cs" />
+    <Compile Include="Intermech\TechCard\Client\Common\GuidObjInfo.cs" />
+    <Compile Include="Intermech\TechCard\Client\Common\TechcardClientUtils.cs" />
+    <Compile Include="Intermech\TechCard\Client\Common\Forms\TechcardErrorObjForm.cs" />
+    <Compile Include="Intermech\TechCard\Client\Common\Forms\TechcardObjectForm.cs" />
+    <Compile Include="Intermech\TechCard\Client\Settings\TechCardParams\TechCardParamsHelper.cs" />
+    <Compile Include="Intermech\TechCard\Client\Settings\TechCardParams\TechCardParamsEditor.cs" />
+    <Compile Include="Intermech\TechCard\Client\Settings\TechCardParams\TechCardParamsDescriptor.cs" />
+    <Compile Include="Intermech\TechCard\Client\Settings\Imbase\ImObjFilterSetupEditor.cs" />
+    <Compile Include="Intermech\TechCard\Client\Settings\Imbase\ImbaseFilterSetupEditor.cs" />
+    <Compile Include="Intermech\TechCard\Client\Settings\Draft\DraftCadmechParamsEditor.cs" />
+    <Compile Include="Intermech\TechCard\Client\Settings\Draft\DraftCadmechParamsControl.cs" />
+    <Compile Include="Intermech\TechCard\Client\Settings\Ceh_Route\CehRouteSettingsEditor.cs" />
+    <Compile Include="Intermech\TechCard\Client\Settings\Ceh_Route\CehRoutesStringEditor.cs" />
+    <Compile Include="Intermech\TechCard\Client\Settings\Ceh_Route\CehRoutesStringControl.cs" />
+    <Compile Include="Intermech\TechCard\Client\Settings\Ceh_Route\CehRoutesSettingsControl.cs" />
+    <Compile Include="Intermech\TechCard\Client\Resources\ResourceHolder.cs" />
+    <Compile Include="Intermech\TechCard\Client\UI\Forms\TechCardFormUtils.cs" />
+    <Compile Include="Intermech\TechCard\Client\UI\Controls\MenuButton.cs" />
+    <Compile Include="Intermech\TechCard\Client\UI\Controls\StatusPopup.cs" />
+    <Compile Include="Intermech\TechCard\Client\UI\Controls\TechCardGrid.cs" />
+    <Compile Include="Intermech\TechCard\Client\UI\Controls\TechcardClientTreeListUtils.cs" />
+    <Compile Include="Intermech\TechCard\Client\UI\Controls\TechcardClientControlsUtils.cs" />
+    <Compile Include="Intermech\TechCard\Client\UI\Controls\TechCntrRecBase.cs" />
+    <Compile Include="Intermech\TechCard\Client\UI\Controls\TechCntrRecObj.cs" />
+    <Compile Include="Intermech\TechCard\Client\UI\Controls\TechCntrRecRel.cs" />
+    <Compile Include="Intermech\TechCard\Client\UI\Controls\TechCntrDataHolder.cs" />
+    <Compile Include="Intermech\TechCard\Client\UI\PropertyEditors\MemberOfExitAssemblyDescriber.cs" />
+    <Compile Include="Intermech\TechCard\Client\UI\PropertyEditors\MemberOfAssemblyDescriber.cs" />
+    <Compile Include="Intermech\TechCard\Client\UI\PropertyEditors\MemberOfAssemblyEditor.cs" />
+    <Compile Include="Intermech\TechCard\Client\Tools\Controls\TechCardClientIGridUtils.cs" />
+    <Compile Include="Intermech\TechCard\Client\Tools\Controls\TechCardGridCustomizeView.cs" />
+    <Compile Include="Intermech\TechCard\Client\Tools\Controls\TechCardGridCustomizeForm.cs" />
+    <Compile Include="Intermech\TechCard\Client\Tools\Controls\TechNavigatorControl.cs" />
+    <Compile Include="Intermech\TechCard\Client\Tools\Controls\TechNavigatorEventArgs.cs" />
+    <Compile Include="Intermech\TechCard\Client\Tools\Controls\TechNavigatorEventHandler.cs" />
+    <Compile Include="Intermech\TechCard\Client\Tools\Controls\Navigator\TechCardNavCheckedListControl.cs" />
+    <Compile Include="Intermech\TechCard\Client\Tools\Controls\Navigator\ISupportedColumns.cs" />
+    <Compile Include="Intermech\TechCard\Client\Tools\Controls\Navigator\NavTreeNodeSelectMode.cs" />
+    <Compile Include="Intermech\TechCard\Client\Tools\Controls\Navigator\TechCardNavTreeViewControl.cs" />
+    <Compile Include="Intermech\TechCard\Client\Tools\Controls\Navigator\TechCheckoutMode.cs" />
+    <Compile Include="Intermech\TechCard\Client\Tools\Controls\Navigator\TechcardNavTreeNode.cs" />
+    <Compile Include="Intermech\TechCard\Client\Tools\Controls\Navigator\TechCardNavTreeNodes.cs" />
+    <Compile Include="Intermech\TechCard\Client\Tools\Controls\Navigator\TechCardNavTreeColumn.cs" />
+    <Compile Include="Intermech\TechCard\Client\Tools\Controls\Navigator\TechCardNavCellWidget.cs" />
+    <Compile Include="Intermech\TechCard\Client\Tools\Controls\Navigator\TechCardStatusesCellWidget.cs" />
+    <Compile Include="Intermech\TechCard\Client\Tools\Controls\Navigator\TechcardNavRowWidget.cs" />
+    <Compile Include="Intermech\TechCard\Client\Tools\Controls\Navigator\TechCardNavTreeViewUtils.cs" />
+    <Compile Include="Intermech\TechCard\Client\Tools\Controls\Navigator\TechCardNavObjListControl.cs" />
+    <Compile Include="Intermech\TechCard\Client\Tools\Controls\Navigator\Utils\TechCompositionDataTableFilter.cs" />
+    <Compile Include="Intermech\TechCard\Client\Imbase\ITechCardImbaseObjectCreatorService.cs" />
+    <Compile Include="Intermech\TechCard\Client\Imbase\TechCardImbaseContextCommandProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\Imbase\SelectedImbaseAnalyzer.cs" />
+    <Compile Include="Intermech\TechCard\Client\Imbase\TechCardImbaseObjectCreator.cs" />
+    <Compile Include="Intermech\TechCard\Client\Imbase\TechCardImbaseObjectCreatorService.cs" />
+    <Compile Include="Intermech\TechCard\Client\Imbase\ImbaseFindByNameControl.cs" />
+    <Compile Include="Intermech\TechCard\Client\Imbase\ImbaseObjectCreatorForm.cs" />
+    <Compile Include="Intermech\TechCard\Client\Configurator\InheritArchiveRightsFromTechProcessOption.cs" />
+    <Compile Include="Intermech\TechCard\Client\Cadmech_3D\Cadmech3DAddModelBaseCommand.cs" />
+    <Compile Include="Intermech\TechCard\Client\Cadmech_3D\Cadmech3DAddSurfaceCommand.cs" />
+    <Compile Include="Intermech\TechCard\Client\Cadmech_3D\Cadmech3DCommand.cs" />
+    <Compile Include="Intermech\TechCard\Client\Cadmech_3D\Cadmech3DCommandProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\Cadmech_3D\Cadmech3DSelectTypeElemForm.cs" />
+    <Compile Include="Intermech\TechCard\Client\Cadmech_3D\Cadmech3DSelectTypeElemDialog.cs" />
+    <Compile Include="Intermech\TechCard\Client\Cadmech_3D\Cadmech3DSelectTypeElemsCommand.cs" />
+    <Compile Include="Intermech\TechCard\Client\Cadmech_3D\Cadmech3DSettingsControl.cs" />
+    <Compile Include="Intermech\TechCard\Client\Cadmech_3D\Cadmech3DSettingsPage.cs" />
+    <Compile Include="Intermech\TechCard\Client\Cadmech_3D\Cadmech3DSettingsParamView.cs" />
+    <Compile Include="Intermech\TechCard\Client\Cadmech_3D\IgTexWithButtonCellManager.cs" />
+    <Compile Include="Intermech\TechCard\Client\Cadmech_3D\Cadmech3DSettingsParamViewProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\Cadmech_3D\Cadmech3DUtils.cs" />
+    <Compile Include="Intermech\TechCard\Client\Cadmech_3D\IIMCadAttrTypeParamSettings.cs" />
+    <Compile Include="Intermech\TechCard\Client\Cadmech_3D\IIMCadAttrTypeSettings.cs" />
+    <Compile Include="Intermech\TechCard\Client\Cadmech_3D\IIMCadSettings.cs" />
+    <Compile Include="Intermech\TechCard\Client\Cadmech_3D\IIMCadSettingsService.cs" />
+    <Compile Include="Intermech\TechCard\Client\Cadmech_3D\IMCadSystemAttrParamModificationException.cs" />
+    <Compile Include="Intermech\TechCard\Client\Cadmech_3D\IMCadAttrTypeParamSettings.cs" />
+    <Compile Include="Intermech\TechCard\Client\Cadmech_3D\IMCadAttrTypeSettings.cs" />
+    <Compile Include="Intermech\TechCard\Client\Cadmech_3D\IMCadSettings.cs" />
+    <Compile Include="Intermech\TechCard\Client\Cadmech_3D\IMCadFaceAttrPropType.cs" />
+    <Compile Include="Intermech\TechCard\Client\Cadmech_3D\ImCadPropTypeAttribute.cs" />
+    <Compile Include="Intermech\TechCard\Client\Cadmech_3D\ImCadAttrTypeAttribute.cs" />
+    <Compile Include="Intermech\TechCard\Client\Cadmech_3D\IMCadFaceAttrPropNames.cs" />
+    <Compile Include="Intermech\TechCard\Client\Cadmech_3D\IMCadConst.cs" />
+    <Compile Include="Intermech\TechCard\Client\Cadmech_3D\IMCadSettingsService.cs" />
+    <Compile Include="Intermech\TechCard\Client\BackgroundTask\TechCardBackgroundTask.cs" />
+    <Compile Include="Intermech\TechCard\Client\ArticleObjectType\ArticleContextCommandProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\NavigatorSupport\NodeFactories\TechCompositionFromDataTableNodesFactorySupport.cs" />
+    <Compile Include="Intermech\TechCard\Client\NavigatorSupport\NodeFactories\TechCompositionFromRelObjInfoItemFactory.cs" />
+    <Compile Include="Intermech\TechCard\Client\NavigatorSupport\NodeFactories\TechCompositionFromRelObjInfoItemFactorySupport.cs" />
+    <Compile Include="Intermech\TechCard\Client\NavigatorSupport\NodeFactories\TechCompositionFromDataTableNodesFactory.cs" />
+    <Compile Include="Intermech\TechCard\Client\Services\ITechCardObjectCreateAnalyzingService.cs" />
+    <Compile Include="Intermech\TechCard\Client\Services\CreateVersion\ITechCardCreateVersionService.cs" />
+    <Compile Include="Intermech\TechCard\Client\Services\CreateVersion\TechCardCreateVersionParams.cs" />
+    <Compile Include="Intermech\TechCard\Client\Services\CreateVersion\TechCardCreateVersionService.cs" />
+    <Compile Include="Intermech\TechCard\Client\Services\CreateVersion\CreatedVersionRelationItem.cs" />
+    <Compile Include="Intermech\TechCard\Client\Services\CreateVersion\TechCardCreateVersionSession.cs" />
+    <Compile Include="Intermech\TechCard\Client\Services\CreateVersion\Analyzer\TechCardCreateVersionAnalyzerSignApplicabilityStep.cs" />
+    <Compile Include="Intermech\TechCard\Client\Services\CreateVersion\Analyzer\TechCardCreateVersionAnalyzerCopyModeStep.cs" />
+    <Compile Include="Intermech\TechCard\Client\Services\CreateVersion\Analyzer\TechCardCreateVersionAnalyzerSignObjectStep.cs" />
+    <Compile Include="Intermech\TechCard\Client\Services\CreateVersion\Analyzer\TechCardCreateVersionAnalyzerStepData.cs" />
+    <Compile Include="Intermech\TechCard\Client\Services\CreateVersion\Analyzer\TechCardCreateVersionAnalyzerStep.cs" />
+    <Compile Include="Intermech\TechCard\Client\Services\CreateVersion\Analyzer\TechCardObjectCreateVersionAnalyzerParam.cs" />
+    <Compile Include="Intermech\TechCard\Client\Services\CreateVersion\Analyzer\TechCardCreateVersionAnalyzer.cs" />
+    <Compile Include="Intermech\TechCard\Client\Services\DataProviders\TechCardDataEnumerableWithActionProvider`1.cs" />
+    <Compile Include="Intermech\TechCard\Client\Services\DataProviders\ITechCardDataProvider`1.cs" />
+    <Compile Include="Intermech\TechCard\Client\Services\DataProviders\ITechCardDataEnumerableProvider`1.cs" />
+    <Compile Include="Intermech\TechCard\Client\Services\DataProviders\TechCardDataEnumerableSimpleProvider`1.cs" />
+    <Compile Include="Intermech\TechCard\Client\Services\DataProviders\Composition\TechRelObjInfoItemsFromDataTableProvider`1.cs" />
+    <Compile Include="Intermech\TechCard\Client\Services\DataProviders\Composition\TechCardRelObjInfoItemsTypeUpdater`1.cs" />
+    <Compile Include="Intermech\TechCard\Client\Services\DataProviders\Composition\TechRelObjInfoItemsFromSelectedItemApplicabilityPr.cs" />
+    <Compile Include="Intermech\TechCard\Client\Services\DataProviders\Composition\TechRelObjInfoItemsFromSelectedItemContextProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\Services\DataProviders\Versions\TechObjInfoItemsVersionsProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\Services\DataProviders\Versions\TechObjInfoItemVersionsProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\Services\ClassifyObject\ITechCardClassifyObjectService.cs" />
+    <Compile Include="Intermech\TechCard\Client\Services\ClassifyObject\ITechCardClassifyObjectStrategy.cs" />
+    <Compile Include="Intermech\TechCard\Client\Services\ClassifyObject\TechCardClassifyObjectAttributeParams.cs" />
+    <Compile Include="Intermech\TechCard\Client\Services\ClassifyObject\TechCardClassifyObjectDesignationStrategy.cs" />
+    <Compile Include="Intermech\TechCard\Client\Services\ClassifyObject\TechCardClassifyObjectNameStrategy.cs" />
+    <Compile Include="Intermech\TechCard\Client\Services\ClassifyObject\TechCardClassifyObjectParams.cs" />
+    <Compile Include="Intermech\TechCard\Client\Services\ClassifyObject\TechCardClassifyObjectService.cs" />
+    <Compile Include="Intermech\TechCard\Client\Services\ClassifyObject\TechCardClassifyTechProcessDesignationStrategy.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\ProcRouteAddItemsCommand.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\ProcRoutePasteItemsCommand.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\ProcRouteThroughAddOperCommand.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\ProcRouteThroughBaseCommand.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\ProcRouteThroughCreateCommand.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\ProcRouteHelper.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\ProcRouteCommandProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TechCardBaseObjectContextCommandProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TechcardBaseObjectCommandUtils.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TechProcBaseContextCommandProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TechProcElemRouteView.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TechProcElemRouteDlg.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TechProcContextCommandProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TechProcs\TechProcTreeDialog.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TechProcsGroup\TechProcGroupLinkObj2ArtDialog.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TechProcsGroup\TechProcGroupArtViewProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Operations\OperationContextCommandProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TcNumerationRules\ObjectWrapper.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TcNumerationRules\RelationWrapper.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TcNumerationRules\Numeration_Rule\NumRuleContextCommandProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TcNumerationRules\Numeration_Rule\NumRuleObjectCreatorService.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TcNumerationRules\Numeration_Rule\NumRuleViewProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TcNumerationRules\Numeration_Node\NumNodeContextCommandProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TcNumerationRules\Numeration_Node\NumNodeObjectCreatorService.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TcNumerationRules\Numeration_Node\NumNodeView.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TcNumerationRules\Numeration_Node\NumNodeEditor.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TcNumerationRules\Numeration_Node\NumNodeViewProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Document\DocumentView.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Document\DocumentViewDlg.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Document\DocumentViewProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\CehZahod\CehZahodContextCommandProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\ArtsComposition\ArtsCompositionContextCommandProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TechCardBaseObj\TechCardAddThroughObjectContextCommandProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TechCardBaseObj\TechCardBaseEditingContextsCommandsProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TechCardBaseObj\TechCardBaseCompositionTypesCommandProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TechCardBaseObj\TechCardBaseNumerateCommandProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TechCardBaseObj\TechCardBaseNumerateCommandUtils.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TechCardBaseObj\TechCardAddObjectContextCommandProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TechCardBaseObj\TechCardBaseCheckInOutCommandsProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TechCardBaseObj\TechCardBaseView.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TechCardBaseObj\TechCardObjectCreateAnalyzingService.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TechCardBaseObj\TechCardBaseObjectUtils.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TechCardBaseObj\TechCardBaseObjectCreatorUserForm.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TechCardBaseObj\TechCardBaseObjectEditUserForm.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TechCardBaseObj\TechCardBaseObjectProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Process_Route\ProcRouteThroughObject.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Process_Route\ProcRouteListBaseDlg.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Process_Route\ProcRouteListViewDlg.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Process_Route\ProcRouteListControl.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Process_Route\ProcRouteView.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Process_Route\ProcRouteViewDlg.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Generic\TechGenericObjectCommandProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Draft\DraftViewProcessor.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Draft\Draft_OLE\DraftOleControl.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Draft\Draft_OLE\DraftOleClass.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Draft\Draft_OLE\DraftOleContextCommandProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Draft\Draft_OLE\DraftOleEditForm.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Draft\Draft_OLE\DraftOleEditDialog.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Draft\Draft_OLE\DraftOleView.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Ceh_Route\CehRouteElementFactory.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Ceh_Route\CehRouteElementClass.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Ceh_Route\CehRouteElemClass.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Ceh_Route\CehRouteElementList.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Ceh_Route\CehRouteElemList.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Ceh_Route\CehRouteElementContainer.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Ceh_Route\CehRoutesNotificationHandler.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Ceh_Route\CehRouteTemplateClass.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Ceh_Route\TemplRouteClass.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Ceh_Route\TemplRouteClassList.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Ceh_Route\CustomTechClass.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Ceh_Route\CustomTechClassList`1.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Ceh_Route\CehRoutesStringTemplateSelect.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Ceh_Route\CehRoute2TpObjView.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Ceh_Route\CehRoute2TpObjDlg.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Ceh_Route\OperTechClass.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Ceh_Route\OperTechClassList.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Ceh_Route\CehTechClass.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Ceh_Route\CehTechClassList.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Ceh_Route\TechProcClass.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Ceh_Route\TechProcClassList.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Ceh_Route\CehRouteClass.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Ceh_Route\CehRoutesClassList.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Ceh_Route\CehRoutesListDialog.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Ceh_Route\Route_Element\RouteElementsView.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Ceh_Route\Route_Template\RouteTemplateObjectCreatorControl.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Ceh_Route\Route_Template\RouteTemplateBaseContextCommandProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Ceh_Route\Ceh_Routes\CehRoutesObjectCreatorControl.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Ceh_Route\Ceh_Routes\ProcMoCehRouteListViewDlg.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Ceh_Route\Ceh_Routes\CehRoutesElemsListView.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Ceh_Route\Ceh_Routes\CehRoutesElemsListDlg.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Ceh_Route\Ceh_Routes\ProcRouteClass.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Ceh_Route\Ceh_Routes\ProcRouteClassList.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Ceh_Route\Ceh_Routes\RouteElemClass.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Ceh_Route\Ceh_Routes\RouteElemClassList.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Zagot\ZagotInTpObjectCreatorControl.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Zagot\ZagotObjectCreatorControl.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\Zagot\ProcRouteZagListViewDlg.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TechProcBase\TechProcsElemBase\TechProcElemContextCommamdProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TechProcBase\TechProcsElemBase\TechProcElemObjectCreator.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TechProcBase\TechProcsGroup\ApplyGroupAttributesTechProcCompositionCommand.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TechProcBase\TechProcsGroup\TechProcGroupSelectLinkingObjectDialog.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TechProcBase\TechProcsGroup\LoadEventHandler.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TechProcBase\TechProcsGroup\TechProcGroupArtSimpleView.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TechProcBase\TechProcsGroup\EtpProcRoute2ArtInfo.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TechProcBase\TechProcsGroup\ArtViewNode.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TechProcBase\TechProcsGroup\TechProcGroupContextCommandProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TechProcBase\TechProcsGroup\TechProcGroupLinkArt2ObjDialog.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TechProcBase\TechProcsGroup\TechProcGroupLinkArt2ObjLoadTask.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TechProcBase\TechProcsGroup\TechProcGroupUtils.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TechProcBase\TechProcsGroup\GtpRefDataType.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TechProcBase\TechProcsGroup\Gtp2EtpRefData.cs" />
+    <Compile Include="Intermech\TechCard\Client\TcObjectsTypes\TechProcBase\TechProcsGroup\Gtp2EtpRefObjData.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\Zagot\ZagotContextCommandProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\Article\RootObjectContextCommandProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\ArtsCompositionsUtils.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Creator\ArtsCompositionObjectCreatorService.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Dialogs\ArtsCompositionMeasureForm.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Dialogs\MeasureDialogResult.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Dialogs\ArtsCompositionBaseForm.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Dialogs\ArtsCompositionForm.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Dialogs\ArtsCompositionReportForm.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Dialogs\ArtsCompositionListForm.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Views\ArtsCompositionApplicabilityCommandProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Views\ArtsCompositionApplicabilityFindObjectCommand.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Views\ArtsCompositionApplicabilityParams.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Views\ArtsCompositionApplicabilityView.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Views\ArtsCompositionApplicabilityViewUtils.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Views\ArtsCompositionApplicabilityViewProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Tasks\ArtsCompositionDataProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Tasks\CompositionTaskActionBase.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Tasks\ArtsCompositionTaskActionTechProc.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Tasks\ArtsCompositionTaskActionDesign.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Tasks\ArtsCompositionTaskDataTransfer.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Tasks\ElementQuantity.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Settings\ArtsCompositionParamsEditor.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Settings\ArtsCompositionStatusParamWrapperConverter.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Settings\ArtsCompositionParamWrapperConverter.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Settings\ArtsCompositionStatusParamWrapper.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Settings\ArtsCompositionParamsWrapper.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Navigator\ArtsCompositionImageService.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Navigator\IArtsCompositionImageService.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Navigator\ArtsCompositionCellDrawingItemStatusIcon.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Navigator\ArtsCompositionCellDrawingItemStatusPainter.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Navigator\ArtsCompositionCellWidgetItemStatus.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Navigator\ArtsCompositionColumnScheme.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Navigator\ArtsCompositionCellDrawingProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Navigator\ArtsCompositionSchemeColumnProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Navigator\ArtsCompositionTreeViewCellWidgetProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Navigator\FillDataTableEventArgs.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Navigator\FillDataTableEventHandler.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Navigator\ArtsCompositionVirtualColumnProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Reports\ArtsCompositionReportObjectItem.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Reports\ArtsCompositionReportApplicabilityMode.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Reports\ArtsCompositionReportMode.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Params\ArtsCompositionQuantityMode.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Params\DefaultColorAttribute.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Params\ArtsCompositionItemStatus.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Params\ArtsCompositionItemStatusHelper.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Params\ArtsCompositionStatusParams.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Params\ArtsCompositionParams.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Params\ArtsCompositionParamsService.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Params\IArtsCompositionParams.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Params\IArtsCompositionParamsService.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Params\IArtsCompositionStatusParams.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ZagotGroup\ZagotGroupContextCommandProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ZagotGroup\View\ZagotGroupView.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ZagotGroup\View\ZagotGroupViewProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\TechProcess\TechProсElem\Creator\TechProcElemObjectCreatorService.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\TechProcess\TechProcs\Creator\TechProcObjectCreatorControl.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\TechProcess\TechProcsGroup\TechProcGroupLinkObj2ArtLoadTask.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\TechProcess\TechProcsGroup\View\TechProcGroupArtView.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\TechCardObject\TechCardBaseCreateVersionCommandProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\TechCardObject\Creator\TechCardMultiObjectCreatorRiderCustomService.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\TechCardObject\Creator\TechObjectCreationMode.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\TechCardObject\Creator\TechObjectCreatorArgs.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\TechCardObject\Creator\TechObjectCreatorParams.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\TechCardObject\Creator\TechObjectCreatorBaseService`1.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\TechCardObject\Creator\TechObjectCreatorProcRouteSupportControl.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\TechCardObject\Creator\TechObjectCreatorBaseControl.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\TechCardObject\Creator\TechObjectCreatorRiderCustomService.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\TechCardObject\Creator\TechCardBaseObjectCreatorService.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\TechCardObject\Wizard\LoadPageControlEventArgs.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\TechCardObject\Wizard\LoadPageControlEventHandler.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\TechCardObject\Wizard\SelectAttributeListViewPageControl.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\TechCardObject\Wizard\SelectProductionCopyFromProductionReportWizardCont.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\TechCardObject\Wizard\SelectObjectFromProductionCopyWizardControl.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\TechCardObject\Wizard\SelectObjectFromProductionReportWizardControl.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\TechCardObject\Wizard\SelectObjectFromProductionCopyWizardProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\TechCardObject\Wizard\SelectObjectFromProductionReportWizardProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\TechCardObject\Wizard\SelectObjectTreeViewPageControl.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\TechCardObject\Wizard\SelectObjectNavListPageControl.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\TechCardObject\Wizard\SelectObjectForContextPageControl.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\TechCardObject\Wizard\SelectObjectFromArticleWizardControl.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\TechCardObject\Wizard\SelectObjectFromArticleWizardProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\TechCardObject\Wizard\1SelectProductionCopyFromProductionReportWizardCont.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\TechCardObject\View\TechCardBaseGroupArtView.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ProductionCopy\ProductionCopyCommandProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\SpecialTechObject\Creator\SpecialTechObjectCreatorService.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ProcessRoutingEntry\ProcRouteEntryHelper.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ProcessRoutingEntry\EditCurrentAssemblyEntryCommand.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ProcessRoutingEntry\EditCurrentAssemblyEntryMode.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ProcessRoutingEntry\ProcRouteEntryCommandProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ProcessRoutingEntry\ProcRouteEntryControl.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ProcessRoutingEntry\ProcRouteEntryForArticleControl.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ProcessRoutingEntry\AssemblyTreeFilterMode.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ProcessRoutingEntry\ProcRouteEntryObject.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ProcessRoutingEntry\View\ProcRouteEntryView.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ProcessRoutingEntry\View\ProcRouteEntryViewProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ProcessRoutingEntry\View\ProcRouteEntryArticleView.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ProcessRoutingEntry\Creator\ProcRouteEntryObjectCreatorService.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ProcessRoutingEntry\Creator\ProcRouteEntryObjectCreatorControl.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ProcessRoutingEntry\Creator\ProcRouteEntryObjectForArticleCreatorControl.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\Draft\DraftBaseEditCommand.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\Draft\OLE\DraftOleEditCommand.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\Draft\OLE\View\DraftOleViewProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\Draft\OLE\Creator\DraftOleObjectCreatorService.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\Draft\Cadmech\DraftCadmEditCommand.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\Draft\Cadmech\DraftCadmReplaceTextCommand.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\Draft\Cadmech\DraftCadmDeleteItemsCommand.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\Draft\Cadmech\DraftCadmContextCommandProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\Draft\Cadmech\Creator\DraftCadmObjectCreatorService.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\CehRoute\Route\CehRoutesContextCommandProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\CehRoute\Route\Commands\CehRouteApplyToArticleCopyCommand.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\CehRoute\Route\View\CehRouteEntryListView.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\CehRoute\Route\View\CehRouteViewProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\CehRoute\Element\RouteElementsViewProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\CehRoute\Element\Commands\RouteElemObjectsBaseCommand.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\CehRoute\Element\Commands\RouteElemObjectsDeleteCommand.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\CehRoute\Element\Commands\RouteElemObjectsInsertCommand.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\CehRoute\Element\Commands\RouteElemObjectsReplaceCommand.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ProcessRoute\ProcRouteContextViewProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ProcessRoute\Creator\ProcRouteObjectCreatorService.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ProcessRoute\View\ProcessRouteViewProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ProcessRoute\View\ProcessRouteEntryListView.cs" />
+    <Compile Include="Intermech\TechCard\Client\ObjectTypeSupport\ProcessRoute\Navigator\ProcRouteEntryColumnProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\Navigator\Params\CreateTechNodeParams.cs" />
+    <Compile Include="Intermech\TechCard\Client\Navigator\Nodes\TechNode.cs" />
+    <Compile Include="Intermech\TechCard\Client\Navigator\Nodes\TechNodeID.cs" />
+    <Compile Include="Intermech\TechCard\Client\Navigator\Nodes\TechObjectListVirtualNode.cs" />
+    <Compile Include="Intermech\TechCard\Client\Navigator\Nodes\TechCompositionNodeID.cs" />
+    <Compile Include="Intermech\TechCard\Client\Navigator\Nodes\TechCompositionNode.cs" />
+    <Compile Include="Intermech\TechCard\Client\Navigator\Nodes\TechObjectListNode.cs" />
+    <Compile Include="Intermech\TechCard\Client\Navigator\Queries\TechDescriptorsQuery.cs" />
+    <Compile Include="Intermech\TechCard\Client\Navigator\Queries\TechObjectVirtualQuery.cs" />
+    <Compile Include="Intermech\TechCard\Client\Navigator\Queries\TechCompositionQuery.cs" />
+    <Compile Include="Intermech\TechCard\Client\Navigator\Queries\TechObjectQuery.cs" />
+    <Compile Include="Intermech\TechCard\Client\Navigator\Parts\TechDescriptorsPart.cs" />
+    <Compile Include="Intermech\TechCard\Client\Navigator\Parts\TechObjectListVirtualPart.cs" />
+    <Compile Include="Intermech\TechCard\Client\Navigator\Parts\TechCompositionPart.cs" />
+    <Compile Include="Intermech\TechCard\Client\Navigator\Parts\TechObjectListPart.cs" />
+    <Compile Include="Intermech\TechCard\Client\Navigator\Filters\TechCompositionEmptyFilter.cs" />
+    <Compile Include="Intermech\TechCard\Client\Navigator\Filters\TechCompositionConditionFilter.cs" />
+    <Compile Include="Intermech\TechCard\Client\Navigator\Filters\TechCompositionFilter.cs" />
+    <Compile Include="Intermech\TechCard\Client\Navigator\Filters\TechCompositionSostavTreeFilter.cs" />
+    <Compile Include="Intermech\TechCard\Client\Navigator\Filters\ITechCompositionFilter.cs" />
+    <Compile Include="Intermech\TechCard\Client\Navigator\Descriptors\TypedHiveDescriptor`1.cs" />
+    <Compile Include="Intermech\TechCard\Client\Navigator\Descriptors\RelObjInfoDescriptor.cs" />
+    <Compile Include="Intermech\TechCard\Client\Navigator\Descriptors\TechObjectListVirtualDescriptor.cs" />
+    <Compile Include="Intermech\TechCard\Client\Navigator\Descriptors\TechCompositionBaseDescriptor.cs" />
+    <Compile Include="Intermech\TechCard\Client\Navigator\Descriptors\TechCompositionDescriptor.cs" />
+    <Compile Include="Intermech\TechCard\Client\Navigator\Descriptors\TechDescriptor.cs" />
+    <Compile Include="Intermech\TechCard\Client\Navigator\Descriptors\TechDictDescriptor.cs" />
+    <Compile Include="Intermech\TechCard\Client\Navigator\Descriptors\TechObjectListMode.cs" />
+    <Compile Include="Intermech\TechCard\Client\Navigator\Descriptors\TechObjectListDescriptor.cs" />
+    <Compile Include="Intermech\TechCard\Client\Extensions\NamedImageListExtension.cs" />
+    <Compile Include="Intermech\TechCard\Client\Extensions\CommandsProviderExtension.cs" />
+    <Compile Include="Intermech\TechCard\Client\Commands\ApplyGroupAttributesBaseCommand.cs" />
+    <Compile Include="Intermech\TechCard\Client\Commands\ApplyGroupAttributesFromObjectCommand.cs" />
+    <Compile Include="Intermech\TechCard\Client\Commands\ApplyGroupAttributesWizard.cs" />
+    <Compile Include="Intermech\TechCard\Client\Commands\AddExistingObjectCommand.cs" />
+    <Compile Include="Intermech\TechCard\Client\Commands\AddTechCardObjectCommand.cs" />
+    <Compile Include="Intermech\TechCard\Client\Commands\AddObjectCommand.cs" />
+    <Compile Include="Intermech\TechCard\Client\Commands\AddThroughObjectCommand.cs" />
+    <Compile Include="Intermech\TechCard\Client\Commands\TechCardCommandUtils.cs" />
+    <Compile Include="Intermech\TechCard\Client\Commands\TechCardSelectedItemsCommand.cs" />
+    <Compile Include="Intermech\TechCard\Client\Commands\CheckInCommand.cs" />
+    <Compile Include="Intermech\TechCard\Client\Commands\CheckOutCommand.cs" />
+    <Compile Include="Intermech\TechCard\Client\Commands\CopyWithRelationAttributesCommand.cs" />
+    <Compile Include="Intermech\TechCard\Client\Commands\DeleteCommand.cs" />
+    <Compile Include="Intermech\TechCard\Client\Commands\ParameterCardCommand.cs" />
+    <Compile Include="Intermech\TechCard\Client\Commands\PasteCommand.cs" />
+    <Compile Include="Intermech\TechCard\Client\Commands\SaveChangedCommand.cs" />
+    <Compile Include="Intermech\TechCard\Client\Commands\UndoChangedCommand.cs" />
+    <Compile Include="Intermech\TechCard\Client\Commands\Replace\ReplaceCommandDialog.cs" />
+    <Compile Include="Intermech\TechCard\Client\Commands\Replace\ReplaceCommand.cs" />
+    <Compile Include="Intermech\TechCard\Client\Commands\Action\CommandAction.cs" />
+    <Compile Include="Intermech\TechCard\Client\Commands\Action\CommandActionParam.cs" />
+    <Compile Include="Intermech\TechCard\Client\Commands\Edit\BaseEditCommand.cs" />
+    <Compile Include="Intermech\TechCard\Client\Commands\Edit\BaseCommandResult.cs" />
+    <Compile Include="Intermech\TechCard\Client\Commands\Edit\SimpleEditCommand.cs" />
+    <Compile Include="Intermech\TechCard\Client\Commands\Edit\AttributeStorage.cs" />
+    <Compile Include="Intermech\TechCard\Client\Commands\Edit\EditCommandAction.cs" />
+    <Compile Include="Intermech\TechCard\Client\Commands\Edit\EditCommandActionParam.cs" />
+    <Compile Include="Intermech\TechCard\Client\Commands\Edit\EditCommandImbaseAction.cs" />
+    <Compile Include="Intermech\TechCard\Client\Commands\Edit\EditCommand.cs" />
+    <Compile Include="Intermech\TechCard\Client\Commands\CreateVersion\TechRelObjInfoItemsEcoProvider.cs" />
+    <Compile Include="Intermech\TechCard\Client\Commands\CreateVersion\CreateVersionCommand.cs" />
+    <Compile Include="Intermech\TechCard\Client\Commands\CreateVersion\CreateVersionCommandDialog.cs" />
+    <Compile Include="Intermech\TechCard\Client\Commands\CreateByAnalog\CreateByAnalogCommandTask.cs" />
+    <Compile Include="Intermech\TechCard\Client\Commands\CreateByAnalog\CreateByAnalogObjectCommand.cs" />
+    <Compile Include="Intermech\TechCard\Client\Commands\CreateByAnalog\CreateByAnalogObjectOptions.cs" />
+    <Compile Include="Intermech\TechCard\Client\Commands\CreateByAnalog\CreateByAnalogObjectWizard.cs" />
+    <Compile Include="Intermech\TechCard\Client\Commands\CreateByAnalog\CreateByAnalogObjectOptionsControl.cs" />
+    <Compile Include="Intermech\TechCard\Client\Classes\Tasks\IAsyncTaskAction`2.cs" />
+    <Compile Include="Intermech\TechCard\Client\Classes\Tasks\AsyncTask`2.cs" />
+    <Compile Include="Intermech\TechCard\Client\Classes\Tasks\AsyncTaskBase`2.cs" />
+    <Compile Include="Intermech\TechCard\Client\Classes\Tasks\AsyncTaskAction`2.cs" />
+    <Compile Include="Intermech\Techcard\Client\FormDesigner\External\CAD\Classes\ActionsCadInfo.cs" />
+    <Compile Include="Intermech\Techcard\Client\FormDesigner\External\CAD\Classes\ExternalCADActionParams.cs" />
+    <Compile Include="Intermech\Techcard\Client\FormDesigner\External\CAD\Classes\ExternalCADActionHandler.cs" />
+    <Compile Include="ImSSP\sc_19571.cs" />
+    <Compile Include="ImSSP\sc_19576.cs" />
+    <Compile Include="ImSSP\sc_19595.cs" />
+    <Compile Include="ImSSP\sc_19635.cs" />
+    <Compile Include="ImSSP\sc_19371.cs" />
+    <Compile Include="ImSSP\sc_19374.cs" />
+    <Compile Include="ImSSP\sc_19214.cs" />
+    <Compile Include="ImSSP\sc_19222.cs" />
+    <Compile Include="ImSSP\sc_19300.cs" />
+    <Compile Include="ImSSP\sc_19291.cs" />
+    <Compile Include="ImSSP\sc_19295.cs" />
+    <Compile Include="ImSSP\sc_19253.cs" />
+    <Compile Include="ImSSP\sc_19738.cs" />
+    <Compile Include="ImSSP\sc_19736.cs" />
+    <Compile Include="ImSSP\sc_19740.cs" />
+    <Compile Include="ImSSP\sc_19752.cs" />
+    <Compile Include="ImSSP\sc_19423.cs" />
+    <Compile Include="ImSSP\sc_19470.cs" />
+    <Compile Include="ImSSP\sc_19486.cs" />
+    <Compile Include="ImSSP\sc_19546.cs" />
+    <Compile Include="ImSSP\sc_19556.cs" />
+    <Compile Include="ImSSP\sc_19558.cs" />
+    <Compile Include="ImSSP\sc_19625.cs" />
+    <Compile Include="ImSSP\sc_19672.cs" />
+    <Compile Include="ImSSP\sc_19707.cs" />
+    <Compile Include="ImSSP\sc_19306.cs" />
+    <Compile Include="ImSSP\sc_19315.cs" />
+    <Compile Include="ImSSP\sc_19376.cs" />
+    <Compile Include="ImSSP\sc_19389.cs" />
+    <Compile Include="ImSSP\sc_19383.cs" />
+    <Compile Include="ImSSP\sc_19396.cs" />
+    <Compile Include="ImSSP\sc_19392.cs" />
+    <Compile Include="ImSSP\sc_19536.cs" />
+    <Compile Include="ImSSP\sc_19282.cs" />
+    <Compile Include="ImSSP\sc_19718.cs" />
+    <Compile Include="ImSSP\sc_19523.cs" />
+    <Compile Include="ImSSP\sc_19762.cs" />
+    <Compile Include="ImSSP\sc_19499.cs" />
+    <Compile Include="ImSSP\sc_19518.cs" />
+    <Compile Include="ImSSP\sc_19532.cs" />
+    <Compile Include="ImSSP\sc_19539.cs" />
+    <Compile Include="ImSSP\sc_19541.cs" />
+    <Compile Include="ImSSP\sc_19464.cs" />
+    <Compile Include="ImSSP\sc_19436.cs" />
+    <Compile Include="ImSSP\sc_19459.cs" />
+    <Compile Include="ImSSP\sc_19756.cs" />
+    <Compile Include="ImSSP\sc_19477.cs" />
+    <Compile Include="ImSSP\sc_19451.cs" />
+    <Compile Include="ImSSP\sc_19562.cs" />
+    <Compile Include="ImSSP\sc_19601.cs" />
+    <Compile Include="ImSSP\sc_19614.cs" />
+    <Compile Include="ImSSP\sc_19699.cs" />
+    <Compile Include="ImSSP\sc_19689.cs" />
+    <Compile Include="ImSSP\sc_19680.cs" />
+    <Compile Include="ImSSP\sc_19665.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Intermech\TechCard\Client\Cadmech_3D\Cadmech3DSelectTypeElemForm.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\Cadmech_3D\Cadmech3DSettingsControl.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\Cadmech_3D\Cadmech3DSettingsParamView.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\Commands\CreateByAnalog\CreateByAnalogObjectOptionsControl.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\Commands\CreateVersion\CreateVersionCommandDialog.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\Commands\Replace\ReplaceCommandDialog.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\Common\Forms\TechcardErrorObjForm.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\Common\Forms\TechcardObjectForm.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\FormDesigner\CAD\Navigator\ExternalCADAttrForm.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\Imbase\ImbaseFindByNameControl.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\Imbase\ImbaseObjectCreatorForm.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Dialogs\ArtsCompositionBaseForm.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Dialogs\ArtsCompositionForm.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Dialogs\ArtsCompositionListForm.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Dialogs\ArtsCompositionMeasureForm.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Dialogs\ArtsCompositionReportForm.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\ObjectTypeSupport\ArticleComposition\Views\ArtsCompositionApplicabilityView.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\ObjectTypeSupport\ProcessRoute\View\ProcessRouteEntryListView.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\ObjectTypeSupport\ProcessRoutingEntry\Creator\ProcRouteEntryObjectCreatorControl.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\ObjectTypeSupport\ProcessRoutingEntry\Creator\ProcRouteEntryObjectForArticleCreatorControl.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\ObjectTypeSupport\ProcessRoutingEntry\ProcRouteEntryControl.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\ObjectTypeSupport\ProcessRoutingEntry\ProcRouteEntryForArticleControl.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\ObjectTypeSupport\ProcessRoutingEntry\View\ProcRouteEntryArticleView.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\ObjectTypeSupport\ProcessRoutingEntry\View\ProcRouteEntryView.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\ObjectTypeSupport\TechCardObject\Creator\TechObjectCreatorBaseControl.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\ObjectTypeSupport\TechCardObject\View\TechCardBaseGroupArtView.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\ObjectTypeSupport\TechCardObject\Wizard\SelectObjectForContextPageControl.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\ObjectTypeSupport\TechCardObject\Wizard\SelectObjectTreeViewPageControl.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\ObjectTypeSupport\TechProcess\TechProcs\Creator\TechProcObjectCreatorControl.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\ObjectTypeSupport\ZagotGroup\View\ZagotGroupView.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\Properties\Resources.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\Resources\CustomAttributesResources.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\Resources\DocumentList.png" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\Resources\ElemRouteAdd.bmp" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\Resources\ElemRouteChange.bmp" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\Resources\ElemRouteClean.bmp" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\Resources\ElemRouteDel.bmp" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\Resources\ElemRouteInsert.bmp" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\Resources\GrayEmpty.bmp" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\Resources\loading.gif" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\Resources\MoveComposition.png" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\Resources\MoveDown.png" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\Resources\MoveFirst.png" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\Resources\MoveLast.png" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\Resources\MoveUp.png" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\Resources\Numerate.png" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\Resources\NumerateComposition.png" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\Resources\NumerateObject.png" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\Resources\TechAcadEditor.png" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\Resources\TechCardClientResources.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\Settings\Ceh_Route\CehRoutesSettingsControl.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\Settings\Ceh_Route\CehRoutesStringControl.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\Settings\Draft\DraftCadmechParamsControl.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\TcNumerationRules\NumRuleControl.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\TcNumerationRules\NumRuleForm.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\TcObjectsTypes\Ceh_Route\Ceh_Routes\CehRoutesElemsListView.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\TcObjectsTypes\Ceh_Route\Ceh_Routes\CehRoutesObjectCreatorControl.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\TcObjectsTypes\Ceh_Route\CehRoute2TpObjView.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\TcObjectsTypes\Ceh_Route\CehRoutesListDialog.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\TcObjectsTypes\Ceh_Route\CehRoutesStringTemplateSelect.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\TcObjectsTypes\Ceh_Route\Route_Element\RouteElementsView.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\TcObjectsTypes\Ceh_Route\Route_Template\RouteTemplateObjectCreatorControl.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\TcObjectsTypes\Document\DocumentView.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\TcObjectsTypes\Draft\Draft_OLE\DraftOleControl.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\TcObjectsTypes\Draft\Draft_OLE\DraftOleEditForm.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\TcObjectsTypes\Draft\Draft_OLE\DraftOleView.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\TcObjectsTypes\Process_Route\ProcRouteListControl.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\TcObjectsTypes\Process_Route\ProcRouteView.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\TcObjectsTypes\TcNumerationRules\Numeration_Node\NumNodeView.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\TcObjectsTypes\TechCardBaseObj\TechCardBaseObjectCreatorUserForm.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\TcObjectsTypes\TechCardBaseObj\TechCardBaseView.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\TcObjectsTypes\TechProcBase\TechProcsElemBase\TechProcElemObjectCreator.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\TcObjectsTypes\TechProcBase\TechProcsGroup\TechProcGroupArtSimpleView.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\TcObjectsTypes\TechProcBase\TechProcsGroup\TechProcGroupLinkArt2ObjDialog.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\TcObjectsTypes\TechProcBase\TechProcsGroup\TechProcGroupSelectLinkingObjectDialog.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\TcObjectsTypes\TechProcElemRouteView.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\TcObjectsTypes\TechProcs\TechProcTreeDialog.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\TcObjectsTypes\TechProcsGroup\TechProcGroupLinkObj2ArtDialog.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\TcObjectsTypes\Zagot\ZagotObjectCreatorControl.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\TechCardClientTreeListCustomizationView.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\TechCardMainForm.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\Tools\Controls\Navigator\TechCardNavCheckedListControl.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\Tools\Controls\Navigator\TechCardNavObjListControl.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\Tools\Controls\TechCardGridCustomizeView.resx" />
+    <EmbeddedResource Include="Intermech\TechCard\Client\Tools\Controls\TechNavigatorControl.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

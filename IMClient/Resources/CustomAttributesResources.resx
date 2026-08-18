@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Optimization.MaxEventsCount.Name" xml:space="preserve">
+    <value>Максимально допустимое количество уведомлений в Навигаторе</value>
+  </data>
+  <data name="Attribute.IMClient_50" xml:space="preserve">
+    <value>Показывать ли в списках с объектами дополнительный значок с информацией о том, кем объекты взяты на изменение</value>
+  </data>
+  <data name="Attribute.IMClient_51" xml:space="preserve">
+    <value>Показывать служебные значки в списках</value>
+  </data>
+  <data name="Attribute.IMClient_52" xml:space="preserve">
+    <value>Отображать в Навигаторе папку Избранное</value>
+  </data>
+  <data name="Attribute.IMClient_53" xml:space="preserve">
+    <value>Показывать ли в Навигаторе папку Избранное</value>
+  </data>
+  <data name="Attribute.IMClient_41" xml:space="preserve">
+    <value>Показывать ли в списках дополнительные значки, информирующие о базовых версиях объектов</value>
+  </data>
+  <data name="Attribute.IMClient_40" xml:space="preserve">
+    <value>Показывать служебные значки в деревьях</value>
+  </data>
+  <data name="Attribute.IMClient_43" xml:space="preserve">
+    <value>Данная настройка указывает, как именно должны открываться ссылки на объекты в Навигаторе</value>
+  </data>
+  <data name="Attribute.IMClient_42" xml:space="preserve">
+    <value>Отображать значки базовых/остальных версий объектов</value>
+  </data>
+  <data name="Attribute.IMClient_45" xml:space="preserve">
+    <value>Всегда переключаться на первые закладки в Навигаторе при перемещении по дереву и спискам</value>
+  </data>
+  <data name="Attribute.IMClient_44" xml:space="preserve">
+    <value>Открытие ссылок на объекты в Навигаторе</value>
+  </data>
+  <data name="Attribute.IMClient_47" xml:space="preserve">
+    <value>Пользовательский словарь </value>
+  </data>
+  <data name="Attribute.IMClient_46" xml:space="preserve">
+    <value>Переключаться на первые закладки в Навигаторе</value>
+  </data>
+  <data name="Attribute.IMClient_48" xml:space="preserve">
+    <value>Пользовательский словарь для правописания</value>
+  </data>
+  <data name="Attribute.IMClient_14" xml:space="preserve">
+    <value>Количество записей</value>
+  </data>
+  <data name="Attribute.IMClient_15" xml:space="preserve">
+    <value>Включение данного режима позволяет при загрузке восстанавливать окна, открытые в предыдущем сеансе работы.</value>
+  </data>
+  <data name="Attribute.IMClient_16" xml:space="preserve">
+    <value>Восстанавливать Окна</value>
+  </data>
+  <data name="Attribute.IMClient_17" xml:space="preserve">
+    <value>Включение данного режима вызывает автоматическое обновление данных в окнах, которые в данный момент не активны.</value>
+  </data>
+  <data name="Attribute.IMClient_10" xml:space="preserve">
+    <value>Отображать заставку при загрузке программы</value>
+  </data>
+  <data name="Attribute.IMClient_11" xml:space="preserve">
+    <value>Количество команд, отображающих типы недавно созданных объектов, для создания новых объектов таких типов.</value>
+  </data>
+  <data name="Attribute.IMClient_12" xml:space="preserve">
+    <value>Типы последних создававшихся объектов</value>
+  </data>
+  <data name="Attribute.IMClient_13" xml:space="preserve">
+    <value>Количество строк с данными в одном пакете (режим пакетного чтения)</value>
+  </data>
+  <data name="Attribute.IMClient_18" xml:space="preserve">
+    <value>Обновлять неактивные Окна</value>
+  </data>
+  <data name="Attribute.IMClient_19" xml:space="preserve">
+    <value>Включение данного режима позволяет приложению в фоновом режиме проверять узлы деревьев на наличие вложенных узлов.</value>
+  </data>
+  <data name="Attribute.IMClient_36" xml:space="preserve">
+    <value>Полная сортировка составов</value>
+  </data>
+  <data name="Attribute.IMClient_37" xml:space="preserve">
+    <value>Режим отображения заголовков окон "Навигатора"</value>
+  </data>
+  <data name="Attribute.IMClient_34" xml:space="preserve">
+    <value>Проверка правописания в текстовых полях</value>
+  </data>
+  <data name="Attribute.IMClient_35" xml:space="preserve">
+    <value>Полная сортировка составов согласно текущему правилу отображения и сортировки составов позволяет группировать дочерние типы объектов в составах</value>
+  </data>
+  <data name="Attribute.IMClient_32" xml:space="preserve">
+    <value>Режим разработчика</value>
+  </data>
+  <data name="Attribute.IMClient_33" xml:space="preserve">
+    <value>Проверка правописания</value>
+  </data>
+  <data name="Attribute.IMClient_30" xml:space="preserve">
+    <value>Показывать чужие объекты</value>
+  </data>
+  <data name="Attribute.IMClient_31" xml:space="preserve">
+    <value>Включение данного режима позволяет работать в режиме разработчика системы. !!! Требует прав администратора.</value>
+  </data>
+  <data name="Attribute.IMClient_38" xml:space="preserve">
+    <value>Режим отображения заголовков окон</value>
+  </data>
+  <data name="Attribute.IMClient_39" xml:space="preserve">
+    <value>Показывать ли в деревьях дополнительный значок с информацией о том, кем объекты взяты на изменение</value>
+  </data>
+  <data name="Attribute.IMClient_27" xml:space="preserve">
+    <value>Включение данного режима позволяет включать в списки удалённые объекты. !!! Требует прав администратора.</value>
+  </data>
+  <data name="Attribute.IMClient_26" xml:space="preserve">
+    <value>Предметные области</value>
+  </data>
+  <data name="Attribute.IMClient_25" xml:space="preserve">
+    <value>Идентификатор(ы) предметной области, в которой работает эта сессия. Если пусто, то доступ к объектам из всех областей.</value>
+  </data>
+  <data name="Attribute.IMClient_24" xml:space="preserve">
+    <value>Языки</value>
+  </data>
+  <data name="Attribute.IMClient_23" xml:space="preserve">
+    <value>Идентификатор(ы) языков, в которых работает эта сессия. Если пусто, то доступ к атрибутам на языке по умолчанию.</value>
+  </data>
+  <data name="Attribute.IMClient_22" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="Attribute.IMClient_21" xml:space="preserve">
+    <value>Пароль для входа в систему</value>
+  </data>
+  <data name="Attribute.IMClient_20" xml:space="preserve">
+    <value>Фоновая проверка вложенных узлов дерева</value>
+  </data>
+  <data name="Attribute.IMClient_29" xml:space="preserve">
+    <value>Включение данного режима позволяет включать в списки персональные объекты других пользователей ( рабочий стол, персональные выборки и др.). !!! Требует прав администратора.</value>
+  </data>
+  <data name="Attribute.IMClient_28" xml:space="preserve">
+    <value>Показывать удалённые объекты</value>
+  </data>
+  <data name="Optimization.HideNavigatorReadAllButton.NoRightsException" xml:space="preserve">
+    <value>Для изменения данной опции требуется иметь права администратора</value>
+  </data>
+  <data name="Attribute.Server_5" xml:space="preserve">
+    <value>Автозагрузка</value>
+  </data>
+  <data name="Attribute.Server_4" xml:space="preserve">
+    <value>Имя модуля расширения</value>
+  </data>
+  <data name="Attribute.Server_6" xml:space="preserve">
+    <value>Указывает, будет ли этот модуль расширения загружен автоматически при следующем запуске системы.</value>
+  </data>
+  <data name="Attribute.Server_1" xml:space="preserve">
+    <value>Расположение</value>
+  </data>
+  <data name="Attribute.Server_3" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="Attribute.Server_2" xml:space="preserve">
+    <value>Расположение модуля расширения</value>
+  </data>
+  <data name="Optimization.NotificationServiceMode.Descr" xml:space="preserve">
+    <value>Данная настройка указывает службе уведомлений, каким образом обрабатывать сообщения: выполнять все задания, обновлять окна Навигатора, если количество заданий превысит указанный предел, либо ничего не обновлять, уведомляя пользователя о том, что в системе есть существенные изменения</value>
+  </data>
+  <data name="Optimization.NotificationServiceMode.Name" xml:space="preserve">
+    <value>Режим обработки сообщений службы уведомлений</value>
+  </data>
+  <data name="Optimization.HideNavigatorReadAllButton" xml:space="preserve">
+    <value>Скрывать кнопку "Читать все" навигатора</value>
+  </data>
+  <data name="Optimization.MaxEventsCount.Descr" xml:space="preserve">
+    <value>Максимально допустимое количество уведомлений в Навигаторе, превышение которого обновляет все окна вместо их обработки, либо уведомляет пользователя о том, что необходимо перечитать все окна</value>
+  </data>
+  <data name="Optimization.HideNavigatorReadAllButton.Description" xml:space="preserve">
+    <value>Включение данного режима позволяет скрыть кнопку "Читать все" в навигаторе у всех клиентов. Для изменения данной опции требуется иметь права администратора. Настройка вступит в силу после перезагрузки всех серверов приложений.</value>
+  </data>
+  <data name="Attribute.IMClient_FileZipExclusions_Desc" xml:space="preserve">
+    <value>Список типов файлов, которые не следует сжимать при переносе в базу данных. Изменение доступно для роли администратора. Пример: jpg;tiff;gif. По умолчанию не сжимаются файлы со следующими расширениями: jpg, jpeg, png, gif, docx, docm, xlsx, xslsm, webp, 7z, rar, zip, sldprt, sldasm, slddrw, ipt, iam, prt, idw, asm, drw, imv</value>
+  </data>
+  <data name="Attribute.IMClient_FileZipExclusions" xml:space="preserve">
+    <value>Не сжимать файлы следующих типов</value>
+  </data>
+  <data name="Attribute.IMClient_5" xml:space="preserve">
+    <value>Включение данного режима позволяет отображать краткие наименования атрибутов вместо полных наименований в заголовках столбцов списков.</value>
+  </data>
+  <data name="Attribute.IMClient_4" xml:space="preserve">
+    <value>Отображение номеров версий в заголовках</value>
+  </data>
+  <data name="Attribute.IMClient_7" xml:space="preserve">
+    <value>Включение данного режима позволяет автоматически брать на редактирование вновь созданные объекты.</value>
+  </data>
+  <data name="Attribute.IMClient_6" xml:space="preserve">
+    <value>Отображать краткие наименования атрибутов</value>
+  </data>
+  <data name="Attribute.IMClient_1" xml:space="preserve">
+    <value>Включение данного режима требует подтверждения при выходе из системы.</value>
+  </data>
+  <data name="Attribute.IMClient_3" xml:space="preserve">
+    <value>Данная настройка позволяет управлять отображением номеров версий в заголовках объектов в списках и деревьях.</value>
+  </data>
+  <data name="Attribute.IMClient_2" xml:space="preserve">
+    <value>Запрос при выходе</value>
+  </data>
+  <data name="Attribute.IMClient_9" xml:space="preserve">
+    <value>Включение данного режима позволяет отображать заставку во время загрузки программы.</value>
+  </data>
+  <data name="Attribute.IMClient_8" xml:space="preserve">
+    <value>Автоматически брать на редактирование новые объекты</value>
+  </data>
+</root>

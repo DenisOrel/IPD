@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;iGrid1Col9CellStyle.Name" xml:space="preserve">
+    <value>iGrid1Col9CellStyle</value>
+  </data>
+  <data name="&gt;&gt;iGrid1Col9CellStyle.Type" xml:space="preserve">
+    <value>TenTec.Windows.iGridLib.iGCellStyle, iGrid, Version=1.70.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="miRun.Text" xml:space="preserve">
+    <value>Запустить</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="iGColPattern3.MinWidth" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="toolBar1.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAB4CAAAYAAAACw==</value>
+  </data>
+  <data name="toolBar1.Text" xml:space="preserve">
+    <value>toolBar1</value>
+  </data>
+  <data name="&gt;&gt;iGrid1Col6ColHdrStyle.Type" xml:space="preserve">
+    <value>TenTec.Windows.iGridLib.iGColHdrStyle, iGrid, Version=1.70.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;iGrid1Col6ColHdrStyle.Name" xml:space="preserve">
+    <value>iGrid1Col6ColHdrStyle</value>
+  </data>
+  <data name="&gt;&gt;iGrid1Col7ColHdrStyle.Type" xml:space="preserve">
+    <value>TenTec.Windows.iGridLib.iGColHdrStyle, iGrid, Version=1.70.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;iGrid1Col7ColHdrStyle.Name" xml:space="preserve">
+    <value>iGrid1Col7ColHdrStyle</value>
+  </data>
+  <data name="panel1.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAABAAAACw==</value>
+  </data>
+  <data name="panel1.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAB4CAAA5AAAACw==</value>
+  </data>
+  <data name="&gt;&gt;iGrid1Col1ColHdrStyle.Type" xml:space="preserve">
+    <value>TenTec.Windows.iGridLib.iGColHdrStyle, iGrid, Version=1.70.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;iGrid1Col1ColHdrStyle.Name" xml:space="preserve">
+    <value>iGrid1Col1ColHdrStyle</value>
+  </data>
+  <data name="&gt;&gt;ttTimedEvents.Name" xml:space="preserve">
+    <value>ttTimedEvents</value>
+  </data>
+  <data name="&gt;&gt;ttTimedEvents.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iGColPattern2.Key" xml:space="preserve">
+    <value>EVENT_ID</value>
+  </data>
+  <data name="iGColPattern3.Key" xml:space="preserve">
+    <value>TIMED_EVENT_NAME</value>
+  </data>
+  <data name="iGColPattern1.Key" xml:space="preserve">
+    <value>STATUS</value>
+  </data>
+  <data name="iGColPattern6.Key" xml:space="preserve">
+    <value>PREVIOUS_DATE</value>
+  </data>
+  <data name="taskContextMenu.CommandName" xml:space="preserve">
+    <value>taskMenu</value>
+  </data>
+  <data name="iGColPattern7.Key" xml:space="preserve">
+    <value>NEXT_DATE</value>
+  </data>
+  <data name="iGColPattern4.Key" xml:space="preserve">
+    <value>EVENT_KIND</value>
+  </data>
+  <data name="iGColPattern5.Key" xml:space="preserve">
+    <value>SCHEDULE</value>
+  </data>
+  <data name="iGColPattern8.Key" xml:space="preserve">
+    <value>TASK</value>
+  </data>
+  <data name="iGColPattern9.Key" xml:space="preserve">
+    <value>IMMEDIATE_RUN</value>
+  </data>
+  <data name="iGColPattern3.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;iGrid1Col0CellStyle.Name" xml:space="preserve">
+    <value>iGrid1Col0CellStyle</value>
+  </data>
+  <data name="&gt;&gt;iGrid1Col0CellStyle.Type" xml:space="preserve">
+    <value>TenTec.Windows.iGridLib.iGCellStyle, iGrid, Version=1.70.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="$this.Icon" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5JY29uAgAAAAhJY29uRGF0YQhJY29uU2l6ZQcEAhNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAIAAAAJAwAAAAX8////E1N5c3RlbS5EcmF3aW5nLlNpemUCAAAABXdpZHRoBmhlaWdodAAACAgCAAAAAAAAAAAAAAAPAwAAAO46AAACAAABAAMAMDAAAAEAIACoJQAANgAAACAgAAABACAAqBAAAN4lAAAQEAAAAQAgAGgEAACGNgAAKAAAADAAAABgAAAAAQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOuINP/riTT/7Ik0/+yJNP/siTT/7Ik0/+yJNP/sijX/7Ikz/+yJMv/tiDH/7Ycv/+2GLf/thiv/7YMn/+yCJf/sgSL/7H8f/+x/Hv/sfh3/7H0a/+t8Gf/sfRr/7H0Z/+x9Gv/tfhr/7X4b/+1+HP/tgB//7YEg/+2CI//uhCj/7oQo/++HK//viC7/74kw/++KMv/vjDX/74s0/++LNf/vizX/74s1/++LNf/vjDf/74s1/++LNf/xizX/AAAAAOuJNP/sizT/7Io0/+yKNP/sijT/7Io0/+yKM//sizT/7Iky/+yIMP/thy3/7YYq/+2EJ//shCX/7IEg/+x/HP/rgh//86lB//vKYv//4Hr//+6I///4kv///Jb///+b///8lv//+JP//+6L///gfP/8y2P/9axD/+yDIP/tgh7/7YIh/+2EJf/vhij/74gr/++JLv/vizP/74sz/++MNP/vjDT/74w1/++MNf/vjTf/74w1/++MNf/vjDX/AAAAAOyKNP/sijX/7Io0/+yKNP/sijT/7Ioz/+yKM//sijL/7Igu/+2HLP/thSj/7IMl/+yBH//sfhv/86g9//3Vbf//74v//+yP///ZgP/5y2j/9r9T//K0QP/wojX/7Zos/+6jNv/ztkL/98BX//zObv//3oP//+yV///xkv/+1nH/86lA/+1/G//ugyD/74Um/++HKf/viS//74ov/++LMv/vjDT/74w0/++MNf/vjDf/74w1/++MNf/vjDX/AAAAAOyLNP/sizX/7Is0/+yLNP/sizP/7Isy/+yKMf/siS//7Ycq/+yFJv/sgiH/7H8b//OsQ///4Xn//++P//3VeP/zuUv/65Um/+2bLf/unTD/7p8y//ClNv/wqDn/86k7//OpO//zqTn/86c2//GkNf/xozL/8Z8u//bBVP//2H///++W///if//2r0X/7oIc/+6EIv/vhyr/74kr/++LL//vjDL/740z/++NNP/vjTf/7401/++NNf/vjTX/AAAAAO2LNf/tizf/7Ys1/+2LNP/tizP/7Yoy/+2ILv/thy3/7oQm/+2CIP/xljD//tVw///tjv/7y2z/8KY3/+2YLf/umi//7p80//GiNv/xpTn/8qo8//SuRP/0skb/9bRJ//W2Sv/1tkr/9rVJ//a0SP/2s0b/9a9B//OqPP/ypjf/8q8+//zSc///7JX//tZ2//KXM//whCP/8YYo//GJLf/xijH/8Yw0//GNNf/xjTf/8Y03//GNN//xjTf/AAAAAO2MNf/tjDX/7Yw0/+2MM//tizL/7Yku/+2IK//uhSb/7IAf//axSP//7oj//dZ5//GwOf/snC3/7Z8w/+2gNP/vpDf/76Y6//KoPf/yrUD/9LRF//a3S//2uE//97tS//e8Uf/3wFH/979R//e+UP/3vlD/9rtN//a4S//1tET/87FA//OqOf/1t0P//teC///rjf/2s0v/7oIg//GIKP/xiy3/8Ywx//GONP/xjzX/8Y82//GPN//xjzf/AAAAAO2MNf/tjDT/7Yw0/+2LMv/tiS7/7Ygr/+yFJv/sgR3/+MBX///xjv/2wlr/7Z4t/+2hMf/tpDX/7qU4/+6nO//vrD//8a1C//OyRP/ztUj/9bhO//a8UP/3wFT/98FW//fCV//3wlj/+MNY//fDV//3xFj/9sJU//bAUv/2wFD/9btM//S3Rv/zsUH/8Kc3//jGY///6pH/+MFa/+6EHv/viCj/8Ywt//GNMf/xjzT/8ZA2//GQNv/xkDf/AAAAAO2MNf/tjTT/7Ysy/+2KL//shyv/7IUm/+yBHf/5xF///+mL//S4Rf/soC3/7aMy/+6lN//uqDr/76s9/++sP//vrUX/8bFG//SzRv/0t0n/9rpO//a7T//2vVH/975S//fAVP/2wFX/98FW//bBV//3wVb/9sJY//XEWf/2w1f/9sNW//XAUf/0u07/87NF//GrO//0vk3//+GM//jEYP/ugx7/74gm/++LLf/xjjH/8Y80//GQNv/xkDf/AAAAAO2NNv/tjjb/7Ysx/+6LLf/shij/7IEf//jBWv//6Yz/8bI8/+6lMf/spjf/7qc6/+2rPv/urUH/7q5D/++xRP/xsUb/8bRJ//O2Sf/zuU7/9blP//W6T//2uk//9rtQ//a8Uf/2vVL/9b1U//a9Uv/1vVT/9L5W//XBV//0wlr/9MNZ//TDWP/0wVj/9L1S//O2SP/wqz3/8bVD///hi//3wVz/7oMg/++KKP/vjC7/8Y8y//GQNv/xkTf/AAAAAO2NNf/tizP/7owv/+yHKv/sgyD/9bNL///ykv/0u0n/7aUy/+6oN//uqjz/7as//+2tQf/ur0X/7rBF/++wR//vsUf/8bNI//O0S//1t03/9blN//W6T//2u0//9rtP//a8T//1u0//9bpP//a6UP/0uE7/8rlQ//K6Uf/yu1X/875X//PAV//1wln/88FX//O7Uf/ztEf/7qk8//K7Uf//6ZD/9bFL/+6FIf/viyr/740w//GPNP/xkTb/AAAAAO6PNP/ujTH/7osr/+yFIv/wmTH///GP//jIYP/uqjH/7qo3/+2rO//trED/7KxA/+2tQ//trUT/7a1F/+6vRv/usEf/8bNI//O2S//1uE3/9blO//a6T//2vE//9rxP//a7T//2uk//9blO//S5Tf/zt0z/8rZM//G0TP/vtE7/8bhQ//G7U//ywFf/8sBX//K9Vf/yuVD/8bJE/+2mN//1w2H//+uN//CYMv/uiCP/74ws//GPMv/xkTX/AAAAAO6PMv/ujS3/7Ioo/+yDHP/913X//tyB//CrL//urDX/7qw7/+yrPf/rqUD/66tB/+utQv/rq0T/661D/+yuQ//trkX/77FH//K0S//zuEz/9LlN//a7Tv/3vE//97xP//e8T//2vE//9bpO//S5Tf/ytkz/8bNJ/+6xR//vsEj/7bBH/+2ySf/ut0//77tV//G9VP/xvFL/8bZL/+2uPv/tpDP/+9V+//vUcf/thh3/74wo/++OLv/xkTP/AAAAAO6OMP/ujCr/7Ich//WxQ///9Zr/9bZC/+6sNv/urDv/7aw+//K9Z//0wnP/88J0/+20Wv/qqD//7rZc//TDdf/1xHX/9MFr//GxRP/zt0n/9LlM//W6Tf/2u07/9rtO//a7Tv/2vE//9btO//O4S//xs0b/+M6G//3fqv/93qr//N6q//zeqv/2zYf/7LhW/+64T//vulH/7rZP/+6wRP/tqTf/7rM9///rjv/yrkX/7Ygh/++NLP/xkDH/AAAAAO+OLv/ujCj/7YUd///kg//91nf/8640//KvOf/vrj7/7aw+///34P////////////vbqv/opj7/+9yq///////////////////////ytEj/9LhN//W5Tf/1u07/9rxP//a8T//2vFD/9bpP//7Zl//////////////////////////////////////////////y1P/vvmT/7bZM/+6zSP/tqz//7KQy//nKcf//4Hz/7ocd//GNKP/ykC//AAAAAO+NLP/uiST/9rFE///5ov/2tkH/87E5//KvPv/vr0H/7K1A///23P////////////nZp//npDv/+9mn/////////////////+yrQf/vskf/8rZL//S4TP/0uU3/9btO//W7T//1u0//9blM///ir///////////////////////////////////////////////////////88Ru/+2xSf/trkT/7Kg3/+6sOf//7pT/861C//CJJP/yjy3/AAAAAO+NKf/uiB7//913///giv/1szj/9LQ+//KzQv/vsUT/7KtC///13v////////////nYpv/koTr/+dim//////////////Xc/+qqQf/usEf/8bJJ//K0S//zt0z/9LlN//S6Tv/1uk7/9LpN//zSiP/////////4///rxf/93qr//dyp///pw//////////////////////////5/+uyRf/tsET/7Ks6/+yiMP/51nz//NZ0//CJIP/xjir/AAAAAO6MJ//wiyT///yj//vJXv/1tTv/87NB//KyRf/usEf/66tC///13v////////////jYp//jnzv/+Nim//////////////Xc/+moQv/srkf/7rBI/++ySf/xtEv/8rdN//O4T//0uE//9LhO//XCZv/4zH3/7rFH/+6xR//srkb/66tF/+moQv/prUv///zr//////////////////jVlP/sr0f/7KxB/+ylNv/zvVP///OT//CKJP/xjSj/AAAAAO6LJP/5tUj///yu//e2OP/2tkD/9LZF//K1SP/vskr/66tF///13v////////////jXpv/inzr/99em//////////////Tc/+elP//rq0X/7K9H/+6xSP/vskv/8bZN//K3Tf/yuE7/8rhO//K3TP/xtEv/7rNL/+2wSf/sr0j/6q1H/+qrRv/oqEL/6rJZ///////////////////sxv/sr0P/7a1C/+2pOf/soSz//++X//OxR//wjCX/AAAAAO6LI///1HH//+qh//i7Pv/2uUP/9LdG//K2Sf/vskr/66tE///13v////////////fXpv/hnTn/99al//////////////Tc/+SjPv/pqUT/66tF/+yvR//tsEn/7rFJ/++zS//xs0z/8bRM/++0TP/us0v/7bFJ/+yvSP/srkf/661G/+mqRf/pqUT/56Y////12//////////////33//rsEX/7a9D/+2rPv/tozH//t+H//nLaf/wjCT/AAAAAO6KIP//65X//+CK//m+Rv/3vUn/9btK//O3S//vtEz/6q1F///13v////////////fXpv/gnTj/9tal//////////////Pb/+OhPP/np0P/6alE/+qtRv/rrkf/7K9I/+2xSf/uskn/7rJL/+6yS//tsEn/7K9I/+uvR//rrUb/6qtG/+mqRf/oqUT/56c+////9//////////////34P/tsUX/7bFE/+yrPf/tpDP/+c1s///kgf/wiyH/AAAAAPCKIP///bH//9d6//nDTf/4wU//9r5R//S7U//xtk//7K1H///23v////////////fWpv/gnDj/9tWl//////////////La/+OfOv/koz3/6aZC/+inQ//pqUP/66tG/+ytR//tr0n/7a9J/+2vSf/srkn/7K1I/+ytR//rq0b/66pG/+qqRf/oqEP/9s6P///////////////////luv/usUv/7rFF/++uPv/uqTb/9MFX///1kf/yjCL/AAAAAO6KHv///8L//tJo//nGU//4wlT/9sFV//S9Vf/xt1H/7K9I///23v////////////fWpv/gnTj/9tal///////////////////02///9Nz///Xe///13v//9d//+9up//G8af/pqUP/661G/+utR//qq0b/6qpG/+qrRv/qq0X/6qlD/+uwTv/+4rb///////////////////////XIef/uskz/77RI/++wQP/wrDb/87dF////nf/yjSH/AAAAAO6LHv///9D//c5g//vJV//5xVn/9sNY//TAWP/xuVL/7LBL///23/////////////fXpv/gnTj/9tal////////////////////////////////////////////////////////9d//6a5M/+ioQ//oqUT/6alE/+moQv/opz7/+Nac/////////////////////////////+zF/+6ySP/vtkv/8bVG//KyQv/wrzr/8bA5////pf/yjiH/AAAAAO6LHf///9f//dBa//vNXP/5yVz/98Vc//XCW//xu1X/7LJM///23/////////////fXp//gnTj/9tal/////////////////////////////////////////////////////////////////+eqSf/lpT//5aQ9//XMjf//////////////////////////////////7Mb/7rFH/++2TP/xt0v/8rVG//GyQv/wsTn/8awu////qf/yjSD/AAAAAO6KHv///9f//tVn//3PYf/5zWT/98li//XEYP/yvVn/7LNP///23/////////////fXp//gnTj/9tal//////////////jo/+26b//uvHP/775z/+29cv/837T////////////////////////z3P/lpEX///Te//////////////////////////////////bMhf/usUb/77RM//G3Tf/yuE7/8rVI//KzQf/ysTf/87E6////pf/yjSH/AAAAAO6JHv///9D//91+//3TaP/70Gr/+Mxn//XGY//ywF7/7LdQ///24P////////////fXp//hnTn/99al//////////////Pc/+KfPP/koUH/5KFB/+ShQf/koD3/5KVI////9////////////////////Oz////////////////////////////826n/7bBQ/+2vR//vskz/8bRN//K4Tv/zuE3/87ZI//OzQ//zsjn/9rtH////o//yiyH/AAAAAO6KH////8L//+ed//7Xa//81G3/+c9q//bKaf/zwWH/7LZS///34P////////////fXp//gnTn/99al//////////////Pb/+KePP/joz//46M//+OhP//ioD7/4p48/+7BfP///////////////////////////////////////N+0/+mrTP/qqUT/665H/+2xSf/vskv/8rZM//K4TP/yuEz/87ZG//OzP//zsjb/+Mdc///4lv/xiyD/AAAAAO6LIf//9a7//+63///bc//82Hb/+9Rz//fOcP/0xWX/7rpW///34P////////////jYp//inzv/99am//////////////Pb/+KfPP/ko0H/5KNB/+OjP//joD//4p49/+mxYP/////////////////////////////////tum7/5KE+/+ioQ//rq0b/7K9I/+6ySf/vs0z/8rZM//K4Tf/0t0n/9LVE//S0Pv/0sDn//ddz///mhf/xiyH/AAAAAO6LIv//34n///nI///gev/+3H3//Nh7//jRdf/1yGr/8b1b///44f////////////nZqP/ioDz/+Nem//////////////Pb/+OfPP/koz//5aNB/+ShP//joD7/4p88/+7BfP/////////////////////////////z2v/jnjr/56Q//+mnQ//rqkX/7K9I/+6wR//vskn/87ZL//O3Sv/0t0n/9LVD//SzPv/0sDP//+iL//7Oa//xiyP/AAAAAPCMJP/9wVn////d///jfv//4If//d2F//vWfv/2zXL/88Jg///54v////////////naqf/loz3/+Nin//////////////Pc/+SfPf/lpEH/5aRB/+WjQf/koD3/5KRG///76v/////////////////////////////z2v/koDv/6KZC/+moQ//sq0X/7a5I/+6wSP/xs0v/87ZL//O3TP/0tkj/9LVC//SzPP/1rzH///uh//iyR//yiiT/AAAAAPGOJ//ykyb////Q///wsf//5o7//+GQ//vbh//41Hv/9cZl///74/////////////vbqv/lpT//+din//////////////Tb/+WgOv/loTz/5aE8/+WhO//yw37///vq///////////////////////////////////////stmH/5aQ9/+moQf/rqkP/7a1E/+6vRP/zt1L/9LlU//O1R//0tUX/9LRA//SzNf/7xlX///uZ//GKI//xiyb/AAAAAPGOKv/xjiT//+6q///8zf//6pX//+iZ///jmP/72Yr/9850///75P////////////zerv/pqUX/+9up///////////////////02///9dz///vr//////////////////////////////////jVoP///////////////////////+fC//fOj//1w3T//d6q///y0P///////daT//OzRf/0s0L/9LM9//WxNv//34P//9l2//CGIP/xiyn/AAAAAPGPLv/ykij//cdh////4f//8an//+2l///qpv/+4pn/+NeC//////////////////7hr//rr0j//N6q////////////////////////////////////////////////////////////982P/+mlPP/+4bb//////////////////////////////////////////////////+Gq//OyQf/0skD/9LM6//a2Pv//+Z3/9q1A//CHIv/xiyr/AAAAAPGQMP/zlC7/8pYl///5w////dX///Oy///xtP//66z////////////////////////ls//xtk///uKv//////////////////////////////////////////////zr//3cqf/ytlv/7apD/+2rRP/rqkH/+9ee//////////////////////////////////////////////TU//SxP//0sz7/9bE3//7Yd///44H/7oEc//GIJ//yiy3/AAAAAPGPMv/ylDD/85gq//7Tdv///+j///jI///2wP//873//+yu///qrv//5KT//dyU//jPd//zvln/9cRr//jMf//3ynz/98h6//fHeP/3x3f/98d3//K6Xv/urkT/8a9F//GwRv/xsUf/8bFI//GxSP/vsUf/77BG//K0UP/71ZL//9+r///34P//+OD//+W3///gqv/5yXX/9LJA//WyPf/1sTb/97tD///3l//2r0P/7YIg/++GKP/xiS7/AAAAAO+PNP/ykzP/9Jw0//WiLv//+Mf////o///8yv//+8z///XD///utf/+5Jr//NqD//nRcP/2y2b/9sRb//O9WP/0vVT/87hR//O5T//ztk7/8rdN//K2S//ytEz/87ZN//O2TP/ztkz/87ZN//O2Tf/ztk3/8rZN//K2TP/ytEz/87ZM//O2S//0tkj/9LRI//WyRf/0skT/9bRB//ayPP/1sDL//9+E//7Xdv/tfhz/74Qm/++HK//xiTD/AAAAAO+PNf/ykzX/9Js0//WiMv/9yFj////n////5////9T///3U///4zf//8rj//+ee//7ciP/71HT/+85q//jHYf/3w1v/9sBY//a+Vv/2vVX/9rxU//a7Uf/2u1D/9rpQ//a7Uf/2u1H/9rtR//a7Uf/2vFH/9rtQ//a7UP/2u1D/9rtQ//a7T//1uk7/9bhL//a3R//3tUL/9rQ+//axNf/9y2P///KO//KVL//tgCH/74Uo//GHLf/xiTH/AAAAAO+NNf/xkTb/85g2//WjN//3rDX//+ec////9P///+f////g////3///+9P///W////sqP//45D//tt+//3Uc//7zWn/+ctj//nGXv/4xFz/+cRa//nDWP/5wlf/+cFX//nBV//5wVb/+cJW//nCVv/5wVb/+cFW//nCV//5wVb/+MBU//e+U//4vVH/+LxN//e6R//4tT//+LQ4//zCT///9JP/+LNL/+1+H//vgyb/74Ys//GHMP/xiTL/AAAAAO6LNP/vjzb/8pU1//SgOP/3rDr/+7k4///2zv////f////r////6P///+X///7X///4w///8a3//+qZ///gh///2Xb//tRu//zQaf/8zmT//Mtg//vKX//7yFz/+8dc//vHW//8x1z//Mhc//zHW//7xlr/+8Za//vGWf/7xVn/+8VW//nCVP/5wlH/+b5L//i6Rf/5uD3/+71F///skv/8wVn/7Hwd/+yAJP/uhCn/74Yt/++HMf/viDL/AAAAAO+JNf/vjDb/8pI3//ScOf/3pzz/+7U+//7EPv///Nn////7////8v///+v////n////2v//+8n///a5///upv//55L//+CD///aef//2HL//tRt//3Raf/90Gb//c5k//7NZP/+zWP//s1i//7MYv/+zGH//ctg//3LXv/8x13//MdZ//zGVP/8wlD/+8BJ//y+RP/9yFv//+6a//3IX//seRz/7n8k/+6CKf/uhC3/74Uw/++GMv/vhjP/AAAAAO+IM//vijP/8Y82//OWOP/1ojv/+K4+//y8P///yD7///jY/////P////f////r////5////9v////M///7v///9Kz//+2Y///oi///44P//+B9///adf//2XL//9Zu///WbP//1Wr//9Jq///QZv//0GX//9Bi//7PXv/+zFv//stY//7JVP/9x0z//cJF///Ydv//+KT//sNc/+15Gv/ufiL/7oEo/+6CK//vhC//74Ux/++FMf/vhTL/AAAAAO6FMv/vhjP/74kz//KRNv/0mjn/9qM7//mvPf/8uj7//8g9///yrP////j////9////6////+H////X////y////b3///ev///zof//7JL//+mI///kgf//4Xn//991///dcf//22///9ls///YZ///12b//9Ri///TYP//z1r//85U///KUP//0Fz//+uh///3nP/7tEj/7XYZ/+57If/ufSf/7n8q/++BLv/vgi//74Iw/++CMf/vgjH/AAAAAO2CMv/tgzL/7ocz/++LNP/ykjf/85o5//WjPP/4rT3/+7k+//7DPv//3Wn////o/////f////P////c////z////8T///63///5rP//9KT///GY///tjv//6ob//+h+///kev//43f//99w///ebf//3Gr//9ll///WX///0Vj//9Rj///qnP///7j//99///KTKv/sdxv/7Hoh/+18J//tfir/7n8u/+6BL//ugTD/7oEx/+6BMf/ugTH/AAAAAO2AMP/tgTD/7oIx/+6GMv/vizT/8pI2//OZOP/1oTr/96o7//mzPP/8ujv//cA4///qkv///+P////4////6////9f///+1///+q///+aL///ac///zlP//8Ir//+2F///rf///6Hn//+Vy///ibv//3mX//9tg///miP//87f////B///tkf/5skT/63QW/+x2HP/seiL/7Xsm/+59Kv/ufi3/7n8u/+5/L//ugDD/7oAw/+6AMP/ugDD/AAAAAO1+MP/tfjD/7X8w/+6BMf/uhTP/74k0//GNNv/zkzf/9Jo4//ahOf/3pjn/+Ks4//uvNP/7sC///918///8y////+j////y////4f///9P///7A///4pv//9ZL///GF///tiP//8JP///Kk///2uP///cP////Q////vP//44j/+K1C/+tvFf/sdBr/7Hcg/+14JP/teij/7nsq/+58Lf/ufS//7n0v/+5+MP/ufjD/7n4w/+5+MP/ufjD/AAAAAO1+L//tfi//7X4v/+2AMP/ugjH/7oMx/++GMf/xijP/8o81//OUNf/0mTX/9Zsz//ahM//3ozL/96Ev//efJ//4oy3//9Jr///ro////cH////T////4f///+j////s////4v///9T////D///2qP//3Xv/+bZH/+x4Gv/scxX/7HUa/+x3Hv/teCL/7Xkl/+57KP/ufCv/7n0t/+59Lv/ufS7/7n4v/+5+L//ufi//7n4v/+5+L//ufi//AAAAAOx6Lv/sei7/7Hou/+x8Lv/sfS//7X4v/+1/MP/tgTH/7oUx/++IMf/xijL/8Y0y//KPMf/zkjD/85Iu//ORK//zjif/84wk//GJIv/wgxz/7n4a/+18Fv/tehX/7HYT/+x1FP/schT/63IU/+xzFv/schf/63MZ/+txG//rdB7/7HYh/+13JP/teSb/7Xop/+16K//teyz/7Xst/+18Lv/tfC7/7Xwu/+18Lv/tfC7/7Xwu/+18Lv/tfC7/AAAAAP///////wSRAAAAAAABBJEAAAAAAAEEkQAAAAAAAQSRAAAAAAABBJEAAAAAAAEEkQAAAAAAAQSRAAAAAAABBJEAAAAAAAEEkQAAAAAAAQSRAAAAAAABBJEAAAAAAAEEkQAAAAAAAQSRAAAAAAABBJEAAAAAAAEEkQAAAAAAAQSRAAAAAAABBJEAAAAAAAEEkQAAAAAAAQSRAAAAAAABBJEAAAAAAAEEkQAAAAAAAQSRAAAAAAABBJEAAAAAAAEEkQAAAAAAAQSRAAAAAAABBJEAAAAAAAEEkQAAAAAAAQSRAAAAAAABBJEAAAAAAAEEkQAAAAAAAQSRAAAAAAABBJEAAAAAAAEEkQAAAAAAAQSRAAAAAAABBJEAAAAAAAEEkQAAAAAAAQSRAAAAAAABBJEAAAAAAAEEkQAAAAAAAQSRAAAAAAABBJEAAAAAAAEEkQAAAAAAAQSRAAAAAAABBJEAAAAAAAEEkQAAAAAAAQSRAAAAAAABBJEAAAAAAAEEkSgAAAAgAAAAQAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADlijT/5Yo0/+WKNP/jijP/44oy/+OIMf/jhy//44Uq/+KFKP/igyT/4oAi/+N/HP/jehr/4ngY/+J3Fv/idRT/4XMU/+F1Fv/hdhb/4HcZ/+F4HP/hfyH/4YEk/+GDKP/ihCr/4oYv/+KHMf/iiDL/4ogy/+KIM//iiDP/4ogz/+WLNP/lizT/5Ysz/+OLMv/jiDD/44cs/+KGKv/ihSX/4oEg/+N7Gf/kiiT/6rdX//PVgP/455j//PCk//70qP/+8qj/+/Cg//bllf/w03j/6bNR/+GGIf/fdxj/4H0f/+CBJf/ghCr/4oYs/+KHMP/iijH/4ooy/+KKM//iijP/5Ys0/+WLM//jijL/44gw/+KGLP/hhCn/4YIi/+B5GP/nli//8M54//nuov/235//786H/+zAY//ntEP/5qEv/+ScLv/mrj7/67xc/+7Mfv/025T/+Oie/+/Kcv/lky7/33YY/+B+Iv/ggyj/4YUs/+GGMP/iiDH/4ooy/+KKM//mjDT/5owz/+WKMf/jhyz/4oUo/+KAIP/hdhj/675j//junv/w04v/6bdQ/+WfL//npzf/56s8/+evQP/psUX/6a9D/+etQP/nqDr/56Ux/+SbKf/otE7/7s2J//jpnv/qvGD/33YY/+B+IP/hgyj/4oYr/+KHMf/iizL/4osz/+aMM//mijH/44ct/+KFKP/ifiD/44gm//DRf//y2pH/6LRL/+OdLP/lpDX/5qw+/+exRv/ns0j/6bhM/+q5T//quE//6bpQ/+m2TP/ptUn/6LJH/+apP//lnS//6LRO//HUk//v0ID/4YYl/+B9IP/ggij/4oYs/+KHMf/hijL/5owy/+WILf/ihyn/4YAg/+OHJP/x1oT/7tF+/+OeJf/joS//46c3/+WqPP/mr0L/57FG/+i2Sf/pt0v/6rtP/+q8Uf/rvVb/679X/+q9VP/rvFX/6LtO/+e0SP/lrDr/4Zwq/+vKgP/x1oX/4Igl/+CAIf/ghCn/4oYs/+KKMv/lijL/44cr/+KCJP/gdhj/8NKA/+7PgP/jnyj/4qIz/+KmOP/hqD7/46pC/+OrRP/mr0r/57FL/+i0T//ptVL/6LdR/+m5Vv/qvFr/6sFb/+vAXP/rwVv/6b5X/+e5UP/lrkT/4Z8w/+vIhf/u0IH/33cY/+CBJP/ghSv/4ogw/+WKLP/jhCX/4Hoa/+y/Yv/y3Jn/4p8n/+KkM//hpzn/4qc9/+GnP//hqEL/4alF/+KrRP/jrkn/5a9I/+axTP/ms03/5rNO/+e1Uf/ouFX/6LtZ/+i+Wv/pvlv/6L9Y/+a5T//irkX/4Jwu/+/Ulf/pumH/3nwa/+CDJv/ihiv/44cp/+KAIP/mljD/+Oym/+m1TP/joy//4qMz/+GfMf/goTT/4aQ9/9+jOP/fojb/4KI4/+GoQf/jrEf/5a5I/+WvSv/lr0v/5a1G/+KqQv/krD//5LBC/+S1SP/mtkz/5bhK/+OySP/iqDz/5rRT//Tmnv/hlDL/338g/+CFKf/jhyX/4XkZ//HOeP/w1Y//5aYs/+OmNP/lq0H/+fDh//fo0v/hp0P/7tOj//nv4v/469n/6Lxw/+GpQ//jrEf/4qtH/+OsR//jrEn/8ty5//vz5//9+vX//fr1//v16//369H/7Ml5/+KtPP/gozD/7M2L/+3Jdf/fehr/4IUl/+WCI//niiP/+O6s/+u4Tv/mqDT/46c3/+WrQv///////fnz/+OnQ//z3rz///////Xlyf/gpDz/4ahF/+KrSP/jq0f/46pF/+atTv/9+fP///////z27P/89uz//////////////vz/7c6E/+GoOv/ms1P/9Oij/+OKJf/hgiP/5X8d/+25Vv/246j/6agu/+erO//lqTv/5a1D///////79ez/4KVA//Lbtv//////9ubJ/9+jOv/hqUX/4apG/+KrR//iqkb/4qlF/+zJjf/pvGz/4qxM/+GrSf/nu2r/+/Tn///////47Nv/4qo3/+CiL//x257/6bVY/+KAHv/ifhv/89iL//LVjP/prjb/57BA/+aqP//mrUf///////z27P/goz7/8tu1///////25sv/3qE4/9+nRv/fqEb/4KlH/+KqRv/gp0P/4KY//9+lP//epED/3qNA/92gOf/nv3D///79//79+//hqDX/4qc2/+zMiP/v0YP/4YEb/+J7F//46q//8Mhy/+u2Q//otEb/5q9D/+aySP//////+/bs/9+jPv/x2rX///////blx//cmzP/3qE+/9+jP//fpUL/36ZE/9+mRf/gp0X/36ZF/96lQ//do0H/3KE6/+OxVP///v3//////+GnNP/iqjn/6L9j//Tknv/hfxn/4noX//vzw//uw2H/7LlP/+i4Uf/msUf/5rNO///////79uz/3qM+//Hatf//////8ty4/+KuW//ktGT/5LZo/+CoSv/cnjb/3aI//96kQv/do0P/3aNC/9yeOP/fokL/9OTG///////369n/4KQz/+KnO//msUX/+PCu/+F+Gv/kdhX/+/jR/+/CVf/twVv/671b/+i0T//ntlX///////v27P/foz//8dq1////////////////////////////+vPo//Hat//dnj3/25w6/9ydOf/cmjf/6seJ//rx5P///////////+jAe//gpTr/46k+/+SnNP/697X/4XsY/+J5FP/7+dX/78Zg/+3FZf/rwWL/6LhZ/+i5XP//////+/bt/9+kQf/w2rT///////v07P/16dP/9+nV//ry5/////////////fq2P/clzL/5LVo//nv4v////////////z48P/nvnX/354z/+GoPf/jqTv/5acx//r3tP/heRf/4noW//v1z//x0oL/7stv/+3Gbf/pv1//6cBh///////89u3/4KhE//Hbt///////9uXI/9mTK//aljT/3qNB/+3Nmf///v7///////Xnzf/9+vf////////////048j/4q1R/96hNf/hpDr/4qk+/+OqOf/oskX/+fKt/+F7Gf/kexb/+e7B//Xdpf/v0nj/7st4/+vFaf/rxWr///////z27f/gp0P/8dy2///////25cr/2pk1/9ufP//anDz/2pQs//fo0//////////////////68ub/57xz/92cMP/eoz3/4KZB/+GoPv/iqTr/5ag0/+rAXf/25qD/4XoY/+aAG//346z/9+nB//PWg//w1Ij/7Mp4/+3Jd////////Pfu/+GqRP/y3br///////bmy//bmzj/3KBB/9yfPv/alSz/9+rU/////////////v78/+e4Zv/enTT/36RC/+CmRP/hp0L/4ac8/+OpOP/lpi7/79GF//LTgv/jeRr/5YMg//HMfv/58NP/9NuP//HZk//u0Yf/7tGF///////89+//4qtG//Pfuv//////9uXH/9ueM//cnjf/3Zs1/+3Mk//+/vz//////////////vz/57Zj/96cMv/gozr/4KU7/+ChNP/gpDb/46gz/+aiKP/04Z3/67RW/+J7Gv/miCb/6qIx//v01v/357j/9OCi//HZlf/x2ZD///////348P/jrUr/9OG9///////57dn/8NWj//LeuP/47Nf////////////78ub/+vHk///////78ub/7smL/+e2V//txoL/9uLD/+q+bP/lpCz/6LZM//juof/liCT/4X4g/+aOLP/mjSD/9+W3//nw1v/35aj/9OCl//rx2f///////vv2/+SyUv/358j////////////////////////////+/vz/+OvV/+a0V//ouGD//Pfu////////////////////////////8tWg/+WhJP/w1YX/8Mxy/+B1Gf/hfyH/5o4w/+iUKv/vvFX/+/be//jsyv/04KP/9ue+//blvP/y4a3/7dB6//DYlf/z3q7/8tun//Lbqf/x16D/7syI/+vCb//lsEb/5a1K/+WvRP/pt1z/8dSg//flxv/67tz/9+XF//PXpv/rtE3/67ZL//jsof/nkyz/4Xkg/+GAJ//mjTH/55Qv/+qZJf/44bf/+/Th//jtvv/367v/9Oay//LdnP/w1Yr/7c51/+vGY//qwFz/6bxT/+m6Uv/ptlT/6LZS/+i1T//ntlP/57RM/+exS//nrUH/5qo4/+anMP/loC7/5aAn/+ajJf/03pj/7b5d/99tFf/gfST/4X4n/+aMNP/olDP/6Z8x/+uiJ//679H/+/Ph//nwyP/57cT/9+m3//Xlqv/z3pj/8tmM//DUgf/vznH/7sxx/+7Ia//tx2b/7cVl/+3DYf/swF3/671Z/+u7VP/suE//6rVF/+uxPf/qqCv/8dSH//LRgP/eaxT/4Hog/+B/K//igCr/5ow0/+iUM//pnDX/66Yy//DARv/789r/+/bj//rxyf/578b/+Oy5//fpr//1457/896S//HZgv/x1n3/8dN1//DOb//vzGf/7spm/+7GYf/vxVr/7sBV/+y7TP/tuED/7LA4//LWjf/02If/44Ei/+BzG//geyT/4X8r/+KBLf/mhzT/5481/+mYNv/roDn/7Kgy//DES//78tj//Pnp//z02P/78cL/+e66//jrr//36KP/9+OU//Teiv/02oT/89d8//PUc//yz2//8cxl//DIXP/vw1X/7rxG//DHZP/45bL/9NWC/+OAIf/gch3/4Hsk/+F8KP/igC//4oEv/+OFMv/ljDP/55E1/+mZN//rpDn/7Kow/+6uKf/66cT//frn//z44v/7887/+u+p//nto//46Jj/9+WP//fhh//13n7/9Nlz//TWa//x0lz/8ctT//LTeP/34rP/+vC3/+/EY//eZxL/33IZ/997Jv/gfCf/4X0q/+GCMP/hgC//44Ez/+WFMv/mizT/55E2/+mZNv/rojj/7aY3/+2jKP/xyV3/++3J//375P/9+uP//PbT//vxwf/57KX/+OaH//jjef/434r/+OKl//nquf/778f/+/XF//TWhf/okiz/3mkX/99yHv/geCP/4Xwr/+F8K//hfCz/4X8x/+F+L//ifzH/44Ix/+WFMv/mizT/5440/+mVNP/qmTX/6psx/+qaK//qliP/7q02//fXjv/77L3//fjP//783////uj///7j//781v/89cH/+OOd/+/CWv/lhSD/32QR/+BuF//gdiL/4Hgj/+F5Jv/hfCz/4X0s/+F8LP/hfjL/4X0t/+J8L//jfS//438w/+WBMf/lhDH/5oky/+eLMv/ojjD/540t/+eNKv/niCP/5YAa/+V4GP/kcRH/4msQ/+JnDf/hZAz/4WMN/+FmD//fYxH/32kT/+BvGv/gch3/4HMg/+F4J//heCb/4Xgp/+F8Lf/heyv/4Xos/+F8MP/heyz/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAEAAAACAAAAABACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOutAP/uuwD/78AD//DDC//xxA//8cUU//LIGf/yyyT/89Av//XURv/22lf/9txe//TWSv/uvAz/AAAAAOytAP/uswD/77kA/++7AP/vuQD/8LgA/+64AP/utgD/77gA//C7AP/wwAH/8skZ//TRN//12FD/9NI9/+y3AP/srAD/660A/+qsAP/qqgD/66kA/+upAP/srQD/7KwA/+uqAP/qqAD/6KQA/+inAP/qswD/78MS//LLKf/xxRL/66wA/+mlAP/nowD/5ZwA/+WbAP/nowD/6qoA/+unAP/qpwD/56IA/+WfAP/jmwD/4ZgA/+WjAP/suwD/8MMH/+qpAP/knAD//////+axMP/lmwD//////+u4JP/nnwD/6KAA//XcoP/++/j//vr1//Tesv/jowD/458A/+u1AP/ppwD/4pYA///////kskv/5ZsA///////diwD/5ZsA/+afAP/uvTf/5qwb/+KoI//89u7/9N6x/+CTAP/npwD/6aoA/+CSAP//////4apB/+WbAP//////1HcA/9yIAP/hkAD/4Y8A/9l7AP/PZQD/8NSk//rx4f/ilAD/5ZwA/+mwAP/gkwD//////+CoOf/lmwD/////////////////57Ep/9l/AP/YhAD/8NSk/////v//vjP/45wA/+aeAP/ruy3/4JwA///////grE7/5ZsA///////mt17/47FB///////ltlL/+OvU///////w1KT/4aIB/+OcAP/psBj/6r5B/+CjGP//////4LBl/+WbAP//////yWUA/8t0AP/ltlL///////ny6f/gqlL/2YsA/+GbAP/orBT/6a4S/+zHUv/gpQ///////+KzZ//lmwD//////857AP/OewD/+uXE///////pypv/z3YA/9uTAP/kpAv/56oM/+muEP/w0G3/6cJU///////lvHT/5ZsA//////////////////ny6f/pypv//v7+////////////89ib/+WjAP/prRD/8+Gf//DSc//szHf/47E0/+OxQf/ltlL/5bZS/+W2Uv/cnhb/2pMA/+W2Uv/ltlL/5bZS/+enBf/npwX/6aoM//nwyv/z3Yn/7Mpb/+nAMv/mtiv/5KwS/+OpGP/jpwf/5KoW/+WsG//ipQz/4qMF/+OiAf/lqAz/6KwQ/+ipDP/9993/+fC8//blnP/y2Gf/8NBb/+7JQ//uxUv/68I1/+vBOv/rwDf/6703/+u7L//qtyT/6rYo/+itD//y1Gf/AAAAAPz3zP/68b7/9+iS//Xggv/z2F//8tRn//LUZ//y1Gf/8tRn//LUZ//y1Gf/8tRn//LUZ//y1Gf/AAAAAIABnEEAAJxBAACcQQAAnEEAAJxBAACcQQAAnEEAAJxBAACcQQAAnEEAAJxBAACcQQAAnEEAAJxBAACcQYABnEEL</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Планировщик задач</value>
+  </data>
+  <data name="&gt;&gt;miRun.Name" xml:space="preserve">
+    <value>miRun</value>
+  </data>
+  <data name="&gt;&gt;miRun.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="menuBar1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;iGrid1Col9ColHdrStyle.Type" xml:space="preserve">
+    <value>TenTec.Windows.iGridLib.iGColHdrStyle, iGrid, Version=1.70.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;iGrid1Col9ColHdrStyle.Name" xml:space="preserve">
+    <value>iGrid1Col9ColHdrStyle</value>
+  </data>
+  <data name="&gt;&gt;cbPrimaryQueueServer.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;iGrid1Col6CellStyle.Name" xml:space="preserve">
+    <value>iGrid1Col6CellStyle</value>
+  </data>
+  <data name="&gt;&gt;iGrid1Col6CellStyle.Type" xml:space="preserve">
+    <value>TenTec.Windows.iGridLib.iGCellStyle, iGrid, Version=1.70.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="$this.ClientSize" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAB4CAAD0AAAACw==</value>
+  </data>
+  <data name="&gt;&gt;toolBar1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="iGColPattern11.MinWidth" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="iGColPattern7.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="&gt;&gt;iGrid1Col5ColHdrStyle.Type" xml:space="preserve">
+    <value>TenTec.Windows.iGridLib.iGColHdrStyle, iGrid, Version=1.70.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;iGrid1Col5ColHdrStyle.Name" xml:space="preserve">
+    <value>iGrid1Col5ColHdrStyle</value>
+  </data>
+  <data name="&gt;&gt;cbPrimaryQueueServer.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="iGColPattern10.MinWidth" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="iGColPattern4.MinWidth" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;btnAddTask.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnAddTask.Name" xml:space="preserve">
+    <value>btnAddTask</value>
+  </data>
+  <data name="iGColPattern11.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="toolBar1.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAOQAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;igEvents.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Приоритетный сервер обработки очереди задач</value>
+  </data>
+  <data name="label1.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAPwAAAANAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;toolBar1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cbPrimaryQueueServer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;igEvents.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cbPrimaryQueueServer.Anchor" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BbmNob3JTdHlsZXMBAAAAB3ZhbHVlX18ACAIAAAANAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;btnEditTask.Name" xml:space="preserve">
+    <value>btnEditTask</value>
+  </data>
+  <data name="&gt;&gt;btnEditTask.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnOK.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACZAQAAywAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Name" xml:space="preserve">
+    <value>btnOK</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnEditTask.CommandName" xml:space="preserve">
+    <value>buttonItem2</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnStartTask.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnStartTask.Name" xml:space="preserve">
+    <value>btnStartTask</value>
+  </data>
+  <data name="&gt;&gt;igEventsCol10CellStyle.Name" xml:space="preserve">
+    <value>igEventsCol10CellStyle</value>
+  </data>
+  <data name="&gt;&gt;igEventsCol10CellStyle.Type" xml:space="preserve">
+    <value>TenTec.Windows.iGridLib.iGCellStyle, iGrid, Version=1.70.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;miEdit.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;miEdit.Name" xml:space="preserve">
+    <value>miEdit</value>
+  </data>
+  <data name="menuBar1.Text" xml:space="preserve">
+    <value>menuBar1</value>
+  </data>
+  <data name="menuBar1.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAB4CAAAaAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;iGrid1Col4CellStyle.Name" xml:space="preserve">
+    <value>iGrid1Col4CellStyle</value>
+  </data>
+  <data name="&gt;&gt;iGrid1Col4CellStyle.Type" xml:space="preserve">
+    <value>TenTec.Windows.iGridLib.iGCellStyle, iGrid, Version=1.70.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="iGColPattern10.Width" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;btnSetPrimaryServer.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="igEvents.Header.Height" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;btnSetPrimaryServer.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;iGrid1Col3CellStyle.Name" xml:space="preserve">
+    <value>iGrid1Col3CellStyle</value>
+  </data>
+  <data name="&gt;&gt;iGrid1Col3CellStyle.Type" xml:space="preserve">
+    <value>TenTec.Windows.iGridLib.iGCellStyle, iGrid, Version=1.70.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cbPrimaryQueueServer.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAI0BAAAVAAAACw==</value>
+  </data>
+  <data name="iGColPattern10.Text" xml:space="preserve">
+    <value>Имя сервера</value>
+  </data>
+  <data name="toolBar1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="cbPrimaryQueueServer.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAGAAAAGQAAAAs=</value>
+  </data>
+  <data name="menuBar1.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAUQAAAAs=</value>
+  </data>
+  <data name="iGColPattern8.MinWidth" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;igEvents.Type" xml:space="preserve">
+    <value>TenTec.Windows.iGridLib.iGrid, iGrid, Version=1.70.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;igEvents.Name" xml:space="preserve">
+    <value>igEvents</value>
+  </data>
+  <data name="iGColPattern11.Text" xml:space="preserve">
+    <value>Сообщение об ошибке</value>
+  </data>
+  <data name="igEvents.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAUQAAAAs=</value>
+  </data>
+  <data name="miEdit.Text" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
+  <data name="&gt;&gt;menuBar1.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuBar, Intermech.Bars, Version=4.0.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;menuBar1.Name" xml:space="preserve">
+    <value>menuBar1</value>
+  </data>
+  <data name="btnStartTask.CommandName" xml:space="preserve">
+    <value>btnStartTask</value>
+  </data>
+  <data name="iGColPattern4.Width" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="iGColPattern2.Text" xml:space="preserve">
+    <value>Идентификатор задачи</value>
+  </data>
+  <data name="&gt;&gt;iGrid1Col8CellStyle.Name" xml:space="preserve">
+    <value>iGrid1Col8CellStyle</value>
+  </data>
+  <data name="&gt;&gt;iGrid1Col8CellStyle.Type" xml:space="preserve">
+    <value>TenTec.Windows.iGridLib.iGCellStyle, iGrid, Version=1.70.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="iGColPattern3.Text" xml:space="preserve">
+    <value>Наименование задачи</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteTask.Name" xml:space="preserve">
+    <value>btnDeleteTask</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteTask.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnSetPrimaryServer.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAHkAAAAbAAAACw==</value>
+  </data>
+  <data name="btnSetPrimaryServer.Text" xml:space="preserve">
+    <value>Изменить</value>
+  </data>
+  <data name="iGColPattern10.Key" xml:space="preserve">
+    <value>SERVER_NAME</value>
+  </data>
+  <data name="iGColPattern11.Key" xml:space="preserve">
+    <value>ERROR_MESSAGE</value>
+  </data>
+  <data name="&gt;&gt;btnOK.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="iGColPattern1.Text" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="&gt;&gt;miCreateTask.Name" xml:space="preserve">
+    <value>miCreateTask</value>
+  </data>
+  <data name="&gt;&gt;miCreateTask.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnAddTask.ToolTipText" xml:space="preserve">
+    <value>Добавить новую задачу</value>
+  </data>
+  <data name="iGColPattern6.MinWidth" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="&gt;&gt;igEventsCol10ColHdrStyle.Type" xml:space="preserve">
+    <value>TenTec.Windows.iGridLib.iGColHdrStyle, iGrid, Version=1.70.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;igEventsCol10ColHdrStyle.Name" xml:space="preserve">
+    <value>igEventsCol10ColHdrStyle</value>
+  </data>
+  <data name="iGColPattern6.Text" xml:space="preserve">
+    <value>Дата предыдущего запуска</value>
+  </data>
+  <data name="iGColPattern5.MinWidth" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="iGColPattern7.Text" xml:space="preserve">
+    <value>Дата следующего запуска</value>
+  </data>
+  <data name="miDelete.Text" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="iGColPattern4.Text" xml:space="preserve">
+    <value>Периодичность</value>
+  </data>
+  <data name="btnStartTask.ToolTipText" xml:space="preserve">
+    <value>Запустить задачу на выполнение</value>
+  </data>
+  <data name="iGColPattern5.Text" xml:space="preserve">
+    <value>Расписание</value>
+  </data>
+  <data name="miCreateTask.Text" xml:space="preserve">
+    <value>Создать</value>
+  </data>
+  <data name="miCreateTask.CommandName" xml:space="preserve">
+    <value>miCreateTask</value>
+  </data>
+  <data name="label1.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAADAAAACQAAAAs=</value>
+  </data>
+  <data name="btnSetPrimaryServer.Anchor" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BbmNob3JTdHlsZXMBAAAAB3ZhbHVlX18ACAIAAAAJAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;iGrid1Col1CellStyle.Name" xml:space="preserve">
+    <value>iGrid1Col1CellStyle</value>
+  </data>
+  <data name="&gt;&gt;iGrid1Col1CellStyle.Type" xml:space="preserve">
+    <value>TenTec.Windows.iGridLib.iGCellStyle, iGrid, Version=1.70.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="miDelete.CommandName" xml:space="preserve">
+    <value>DeleteTask</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iGColPattern8.Text" xml:space="preserve">
+    <value>Выполняемая задача</value>
+  </data>
+  <data name="miRun.CommandName" xml:space="preserve">
+    <value>RunTask</value>
+  </data>
+  <data name="iGColPattern9.Text" xml:space="preserve">
+    <value>Немедленно запускать задачу, если пропущен плановый запуск</value>
+  </data>
+  <data name="igEvents.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnAddTask.CommandName" xml:space="preserve">
+    <value>btnAddTask</value>
+  </data>
+  <data name="igEvents.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAB4CAAB0AAAACw==</value>
+  </data>
+  <data name="btnOK.Anchor" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BbmNob3JTdHlsZXMBAAAAB3ZhbHVlX18ACAIAAAAKAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;cbPrimaryQueueServer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iGColPattern8.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;cbPrimaryQueueServer.Name" xml:space="preserve">
+    <value>cbPrimaryQueueServer</value>
+  </data>
+  <data name="iGColPattern1.Width" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="btnUpdate.CommandName" xml:space="preserve">
+    <value>btnUpdate</value>
+  </data>
+  <data name="&gt;&gt;iGrid1Col7CellStyle.Name" xml:space="preserve">
+    <value>iGrid1Col7CellStyle</value>
+  </data>
+  <data name="&gt;&gt;iGrid1Col7CellStyle.Type" xml:space="preserve">
+    <value>TenTec.Windows.iGridLib.iGCellStyle, iGrid, Version=1.70.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;toolBar1.Type" xml:space="preserve">
+    <value>Intermech.Bars.ToolBar, Intermech.Bars, Version=4.0.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;toolBar1.Name" xml:space="preserve">
+    <value>toolBar1</value>
+  </data>
+  <data name="menuBar1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;iGrid1Col0ColHdrStyle.Type" xml:space="preserve">
+    <value>TenTec.Windows.iGridLib.iGColHdrStyle, iGrid, Version=1.70.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;iGrid1Col0ColHdrStyle.Name" xml:space="preserve">
+    <value>iGrid1Col0ColHdrStyle</value>
+  </data>
+  <data name="&gt;&gt;miRefresh.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;miRefresh.Name" xml:space="preserve">
+    <value>miRefresh</value>
+  </data>
+  <data name="igEvents.GroupBox.Text" xml:space="preserve">
+    <value>Перетащите заголовок колонки в эту область для группировки по значениям этой колонки</value>
+  </data>
+  <data name="&gt;&gt;miDelete.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;miDelete.Name" xml:space="preserve">
+    <value>miDelete</value>
+  </data>
+  <data name="iGColPattern7.MinWidth" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="btnUpdate.ToolTipText" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="iGColPattern9.MinWidth" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>TimedEventsShedulerForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.MinimumSize" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACYCAAAYAQAACw==</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="miRefresh.Text" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;taskContextMenu.Name" xml:space="preserve">
+    <value>taskContextMenu</value>
+  </data>
+  <data name="&gt;&gt;taskContextMenu.Type" xml:space="preserve">
+    <value>Intermech.Bars.ContextMenuBarItem, Intermech.Bars, Version=4.0.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnSetPrimaryServer.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnSetPrimaryServer.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACZAQAAFQAAAAs=</value>
+  </data>
+  <data name="iGColPattern5.Width" type="System.Int32, mscorlib">
+    <value>84</value>
+  </data>
+  <data name="miRefresh.CommandName" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="btnOK.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="iGColPattern2.MinWidth" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="iGColPattern2.Width" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;iGrid1Col8ColHdrStyle.Type" xml:space="preserve">
+    <value>TenTec.Windows.iGridLib.iGColHdrStyle, iGrid, Version=1.70.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;iGrid1Col8ColHdrStyle.Name" xml:space="preserve">
+    <value>iGrid1Col8ColHdrStyle</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;btnUpdate.Name" xml:space="preserve">
+    <value>btnUpdate</value>
+  </data>
+  <data name="&gt;&gt;btnUpdate.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="iGColPattern1.MinWidth" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="$this.StartPosition" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Gb3JtU3RhcnRQb3NpdGlvbgEAAAAHdmFsdWVfXwAIAgAAAAQAAAAL</value>
+  </data>
+  <data name="&gt;&gt;iGrid1Col5CellStyle.Name" xml:space="preserve">
+    <value>iGrid1Col5CellStyle</value>
+  </data>
+  <data name="&gt;&gt;iGrid1Col5CellStyle.Type" xml:space="preserve">
+    <value>TenTec.Windows.iGridLib.iGCellStyle, iGrid, Version=1.70.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;iGrid1Col2ColHdrStyle.Type" xml:space="preserve">
+    <value>TenTec.Windows.iGridLib.iGColHdrStyle, iGrid, Version=1.70.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;iGrid1Col2ColHdrStyle.Name" xml:space="preserve">
+    <value>iGrid1Col2ColHdrStyle</value>
+  </data>
+  <data name="&gt;&gt;iGrid1Col3ColHdrStyle.Type" xml:space="preserve">
+    <value>TenTec.Windows.iGridLib.iGColHdrStyle, iGrid, Version=1.70.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;iGrid1Col3ColHdrStyle.Name" xml:space="preserve">
+    <value>iGrid1Col3ColHdrStyle</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="miEdit.CommandName" xml:space="preserve">
+    <value>EditTask</value>
+  </data>
+  <data name="btnDeleteTask.ToolTipText" xml:space="preserve">
+    <value>Удалить задачу</value>
+  </data>
+  <data name="&gt;&gt;btnSetPrimaryServer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSetPrimaryServer.Name" xml:space="preserve">
+    <value>btnSetPrimaryServer</value>
+  </data>
+  <data name="ilTimedEvent.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAADOGwAAAk1TRnQBSQFMAgEBBQEAAUgBAAFIAQABEAEAARABAAT/ASEBEAj/AUIBTQE2BwABNgMAASgDAAFAAwABIAMAAQEBAAEgBgABICUAAQEDBwEJAxIEGQEjAxoBJAMWAR4DDQERAwMBBNcAAQEDAAQBAQIDDQESAyYBOAE9AjwBaANIAYUBSgJJAYkDQgF1AzEBTgMWAR8DBAEFzAADBQEHAxIBGAMSARgDEgEZATYCNQFYAVcCVQG3AWsBQAE5AfIBjQFIASIB+gFcAlkBzwNQAZ0BSAJHAYMDNQFXAxQBHAMCAQPIAAMTARoDOAFeAzwBZgNBAXIBcAE9ATcB8wH/Aa4BVQL/Aa0BTgL/AacBQwL/AZcBMAH/AcEBfwEnAf4BUgJRAaEDOwFkAyYBOQMJAQzIAAFcAlkBzwFZAlYBvgNQAZ0BcAE7AS4B9QH/AbcBaQL/AbIBXwH/AYsBPgEoAfgDUAGaAToCOQFgAUcCRgGBAWEBTQFKAegBPwI+AWwDIAEuAwoBDcgAAXUBQwEzAfYB/QHCAYUB/wFjAUIBPAHvAf8ByQGOAv8BvgGBAf8BiwE+ASgB+ANDAXcDFgEfAwMBBAMAAQEDFgEeAUUCRAF8AwoBDQMEAQXIAAFgAlcB1gH/AeABvQL/Ac8BngL/AcwBlgH/AewBpgFmAf8BUwJPAaUBPgI9AWoDHQEqAw0EEQEXAxYBHwMZASMDHAEnAxgBIgMMARADAQECwAADVQG1Af8B6QHRAv8B0gGkAv8BzwGfAf8BtwFXATMB/QFSAlEBpwFKAkkBiQMzAVIDKQE+AzkBXwNDAXgBSAJHAYMDSgGLA0QBewMpAT8DCQEMwAADTAGTAf8B8wHlAv8B4gHFAv8B3AG3Av8B1AGhAv8BwwGBAf8BUgJQAaQDNwFaA1MBqgFeAlkBzgFfAlEB4wF/AT4BOwH4AYQBPAE4AfcDUAGdAToCOQFgAxABFcAAAzUBVgGNAVQBOwH4AY0BTQFBAfkBXwJRAeMBWwJYAcsDVgGzAyoBQAFPAk4BlwH/AdkBoAL/AeUBvAL/AeQBwAL/AeIBvAL/AeQBugH/AVUCUwGwA0ABcQMUARvEAAMHAQoDBwEJAwsBDwMHAQkDAQECAwABAQMSARgDRwGCAakBfgFBAf4B/wHTAaAC/wHRAaIC/wHgAbEB/wFZAlcBwgFGAkUBfwMXASDIAAMLAQ8DIwE0Ax8BLQMRARcDDAEQAxUBHQFKAkkBiQH4AbcBgQL/AcwBlAL/Ac8BmAL/Ad8BsAH/AV4CVgHYA0cBggMYASLIAANMAZMDLwFKAzsBZQM3AVsDMgFRA0MBeAF3AUMBMgH2Af8BvgGBAv8BygGIAf8BYwE/AToB8AH+AcwBmwH/AW8BPQE5AfMDOAFcAxMBGsgAAToCOQFgAWQCTQHnAUwCSwGQA0oBjQNSAakBdwFDAS4B9gH/AbABXQL/AcEBgQH/AW8BPQE3AfMBOgI5AWABWAJWAbkBWwJYAcYDEQEXAwUBB8wAAU4CTQGWAc0BfwEpAf4B/AGVATAC/wGhAUAC/wGnAUkC/wG/AYEB/wFwAT4BMQH0AUUCRAF8AxIBGAMDAQQDAAEBAwABAdQAA0ABcAFcAlkBzAG3AVQBMwH9AYYBPgEuAfcBWAJWAbwBNgI1AVgDCgENAwIBA98AAQEDBwEJAxEBFwMYASIDHAEnAxwBJwMYASIDEgEYAwcBCgMBAQIMAAMBAQIDCgEOAxYBHwMXASADEgEZAwwBEAMHAQkDAgEDAwABAQMAAQEnAAEBAwQBBgMNARIDFgEeAxkBIwMZASMDFgEeAw0BEgMEAQYDAAEBGwABAQMEAQYDDQESAxUBHQMZASMDGQEjAxYBHgMOARMDBQEHAwABARQAAwMBBAMQARUDJgE4AzsBYwNHAYIBTAJLAY8BTAJLAY8DSAGEAzwBZgMoATwDEQEXAwMBBAgAAwcBCQMlATcDQgF0AUUCRAF8AT0CPAFoAzMBUgMoATwDHQEqAxYBHgMPARQDBwEJAwABARgAAwIBAwMMARADIAEuAzUBVwNCAXYDSAGFA0gBhQNCAXYDNQFXAyABLgMMARADAgEDEAADAgEDAwwBEAMgAS4DNQFWA0IBdQNIAYUDSAGGA0IBdgE2AjUBWAMgAS8DDQERAwIBAwwAAwMBBAMUARsDOgFhA1QBrwFiAkgB6QFFAWsBGwH+ASYBgQETAf8BZAJGAewBWAJWAbkBUQJQAZ8DSgGNAzUBVwMWAR4DAwEEBAADMQFOAWoCNwHzAV4CVgHYA1YBtgNRAaIDUAGaAU8CTgGXA0oBiwNCAXYDNwFaAyEBMAMHAQoUAAMBAQIDEQEXAzEBTgNQAZ4BXAJZAc8BZAJGAewBZAJGAewBXgJXAdADUgGpA1ABnQFHAkYBgQMuAUgDEQEXAwEBAggAAwEBAgMQARUDMQFPAVECTwGcAV4CWQHOAWQCRgHsAV0CRAHtAV4CVwHQA1MBqgFRAk8BnANHAYIDLwFJAxEBFwMBAQIHAAEBAw8BFANIAYQBUgE3AS4B9wEcAZABEwH/ARoBlAETAf8BHQGPARMB/wEpAYYBEwH/AT8BgQETAf8BSwGBARMB/wEyATMBIQH7A1MBqgFPAk4BlwE2AjUBWAMSARgDAAEBAzsBZQGfAn8B/gT/AZgBqQL/AfAB2AHUAf8B0wGxAbMB/wFqAjkB8wFbAlgBywNUAa4DTgGUAzcBWwMQARUUAAMMARADQAFxAV0CRAHtARMBMwHYAf8BEwE2AeAB/wETATMB2QH/ARMBLAHMAf8BEwEkAb0B/wETAR4BsAH/AWQCRgHsAVICUAGjA0sBjgMuAUgDDAEQAwABAQMAAQEDCwEPAT8CPgFsAVwCRwHqARsBiAETAf8BIgGNARMB/wEmAYgBEwH/ATIBgQETAf8BRQGBARMB/wE5AYEBEwH/AV0CRAHtAVICUAGjA0sBjgMvAUkDDQERAwABAQMGAQgDQwF3ATkBfwEhAf4BFwGjARwB/wEXAZ8BHAH/AUYBzAGBAf8BgQH/AZkB/wGBAf8BmQH/AYEB/wGZAf8BHgGJARMB/wFNAYEBEwH/AU4BagEbAf4DUwGqA0oBjQMoATwDBwEJAUICQQFzAaICfwH+Af8B9wHgAf8BmQGjAegC/wHxAdgB/wH5AeEBzgL/AewB3QL/AfUB8QH/AfoB5gHnAf8BVwJWAbgDOgFhAxABFhAAAwQBBQM7AWMBMgEhAVkB+wETAUIC/wETAT0B+wH/ARMBQAH4Af8BEwE+AfIB/wETATwB7gH/ARMBMgHlAf8BEwElAcoB/wETASABtQH/ATIBIQFLAfsBUgJQAaMBRwJGAYEDIAEuAwQBBgMEAQUDOAFdAUcBPwEkAfkBFwGgARsB/wETAZ0BEwH/ARMBowEgAf8BEwGaARMB/wETAZcBEwH/ARMBlAETAf8BMQGBARMB/wFMAYEBEwH/ATIBMwEhAfsBUgJQAaMDRwGCAyABLwMEAQYDIAEvAVkBNAEuAfUBHgGoASoB/wEdAaMBKQH/AR0BowEoAf8BZgGbAWQC/wH4A/8B9wL/AYEB/wGZAf8BEwGZARMB/wEUAZEBEwH/AU4BgQETAf8BMgEzASEB+wFRAlABnwM8AWYDEgEYAUcCRgGBAaYCfwH+Af8B9gHdAf8BnQGlAegB/wH4AeMB0AH/AdYByQHGAv8B9wHzAv8B6wHdAv8B4AHNAf8BVQJTAa0BNgI1AVgDDQESEAADFAEbAV0CRAHtARMBSAL/AZcBqQHoAf8BgQGIAfQB/wETAUcC/wETAUAC/wETAUYB+gH/AZUBsQH9Af8BWAGBAfsB/wETASwB1AH/ARMBIAG2Af8BXQJEAe0DUAGdAzUBVwMNARIDFQEdAV8CSgHoAR4BqAEqAf8BFAGhASAB/wFLAb8BZwH/AdwB8wHpAf8BgQHdAZsB/wETAZ0BFgH/ARMBmQETAf8BEwGYARMB/wElAYUBEwH/AU0BgQETAf8BXQJEAe0BUQJPAZwBNgI1AVgDDQESA04BlAE8AbABSgH/ASIBqQE2Af8BJAGqATYB/wEjAakBNQH/AWYBmwFkAv8B+QP/AfoC/wGBAf8BmQH/ARUBmwEZAf8BEwGaARMB/wEjAYkBEwH/AUwBgQETAf8BWAJWAbkDSAGEAxgBIgNLAY4BqgGAAX8B/gH/Af4B9AH/AaABsQH9Af8B8AHnAeIB/wFVAV4BZgH/A4EB/wG2AbIBjQH/Af4B2QHKAf8BUQJPAaUDNQFXAw4BExAAA0gBhgE4AWEB+AH/ARMBRwL/AcoBzQHcAf8B9QHvAd4B/wGxAcAB7wH/ARkBUAL/AbEBxAH6A/8B+wX/AXQBhwH9Af8BEwElAcoB/wETAR8BsgH/A1MBqgNCAXYDFgEeA0QBewE3AagBQgH/ARsBqQEuAf8BPgG0AVEB/wH2AfAB9QH/AfwB9gH6Bf8BgQHeAZwB/wETAZ4BGgH/ARMBmwEVAf8BEwGZARMB/wE0AYEBEwH/ATkBgQETAf8DUwGqA0MBdwMWAR4BXgJXAdoBSwG/AWIB/wFGAcwBgQH/AYEB/wGZAf8BgQH/AZkB/wFGAcwBgQH/AfkB9AH5Af8B/gH3AfwB/wGBAf8BmQH/AYEB/wGZAf8BgQH/AZkB/wGBAf8BmQH/AUcBgQETAf8BZAJGAewBTAJLAY8DGwEmAVACTwGbAa4BiAGHAf4B/wH6AekB/wGjAawB6wL/AfQB3QH/AYEBngGoAf8BNwGpAVUB/wEmAZoBPgH/AUkBgQFFAf8DUQGiA0EBcgMcAScDBAEFDAABXAJZAcwBUAGBAv8BGwFPAf4B/wGXAaMB4gH/AfQB8QHhAf8B9gHzAeoB/wHkAegB8wP/AfgF/wHzAfcC/wFXAYEB/QH/ARMBNQHnAf8BEwElAb4B/wFeAlcB0ANIAYUDGgEkAVkCVwHCAUwBvwFiAf8BMwGqAT0B/wHsAeYB6gH/AfUB7gH0Av8B9wP/AfsG/wGBAd0BnAH/ARMBnwEcAf8BEwGbARUB/wEVAZQBEwH/AUkBgQETAf8BXAJYAdEDSAGGAxoBJAEyAUkBIQH7AVUBxAFwAf8BZgGbAWQB/wH8AekB+QH/AfAB5AHsAf8B8QHrAfAB/wHxAe8B8QH/AfUB8wH0Av8B+AH8Av8B+AP/AfQC/wGBAf8BmQH/ATABgwETAf8BJwGBARMB/wFMAksBjwMbASYDUgGpAbIBjAGGAf4B/wH2AeAB/wGkAa4B6gL/AfQB4AH/AWEBuwGBAf8BdQH/AZYB/wFlAeEBgQH/ATEBnAFGAf8BVwJVAboBUQJPAZwBOgI5AWADFwEgAwMBBAgAAWQBPQFAAfEBXgGBAv8BNQFoAv8BIAFUAf4B/wFvAYEB8AH/Ae8B7QHrAf8C9gHzA/8B+wH/Ac0B2gH+Af8BKgFdAv8BEwE9AfwB/wETAT8B8wH/ARMBLAHLAf8BYQJCAe4DSAGFAxkBIwFlAk8B5QFOAb4BYwH/AaoByQGnAf8B+gHqAfkB/wHRAeEB0QH/ATEBrwFGAf8B2gHvAd0J/wGBAd0BmwH/ARMBngEaAf8BEwGaARMB/wE8AYEBEwH/AVgCPAHvA0gBhgMaASQBTQFEASMB+gFrAc8BgQH/AWYBmwFkAf8B/QHsAf0B/wHyAekB8gH/AfAB6wHwAf8B7AHrAewB/wHvAe4B7wH/AfgB8wH4Av8B+AP/AfUC/wGBAf8BmQH/ASQBjgETAf8BJQGBARMB/wFIAkcBgwMYASIDVgK2AZQBkAH+Af8B/QHvAf8BqAG3AfUC/wH7AfUB/wGZAdkBpAH/AU4B3AGBAf8BdwH+AZYB/wFgAdoBgQH/ATEBlgFCAf8BVQJTAbADTgGZAzcBWgMVAR0DAwEEBAABXQE6AT4B8AF3AYkC/wFBAXIC/wFGAXcC/wEZAUwB/AH/AdoB3AHtAf8B+wH5AfMD/wH7Af8BrQHAAf4B/wETAUYC/wEVAUkC/wETAUMB+gH/ARMBMwHaAf8BYQJCAe4DQgF1AxUBHQFhAk4B5AFwAdIBgQH/ASoBowE4Af8BjgG/AYgB/wEkAasBNwH/AS4BuQFTAf8BHgGtAToB/wHbAe8B3wn/AYEB2wGZAf8BEwGeARUB/wEuAYYBEwH/AVgCPAHvA0IBdgMWAR4BXgJZAdUBgQHeAZkB/wFmAZsBZAH/AWYBmwFkAf8BZgGbAWQB/wGOAcEBjgH/AfEB6wHxAf8B8gHsAfEB/wFGAcwBgQH/AWYBmwFkAf8BZgGbAWQB/wFGAcwBgQH/ASMBlAEWAf8BYgJIAekDOwFjAxEBFwFbAlkBxAG4AZgBlgH+Av8B9AH/AaoBugH1Av8B+AHpAv8B9AHuAf8BdwHPAYYB/wFdAecBgQH/AXYB+wGVAf8BXAHTAYEB/wFGAX8BQAH+A1MBqgFOAk0BlgE1AjQBVQMSARkDAQECAV0CWQHKAYMBogL/AVABgQL/AU8BgQL/AWUBgQHpAv8B+wHpAf8BsgG/AfMB/wHUAdoB+QX/AYEBjwL/ARMBRgL/ARMBRQL/ARMBNgHiAf8BXgJZAc4BNQI0AVUDDQESAVkCVwG/AYEB3AGVAf8BPwHFAW0B/wEyAbsBWAH/ATwBxAFpAf8BOQHAAWIB/wE1AbsBWAH/AR4BrAE5Af8B2gHuAd0C/wH8A/8B/QL/AYEB2wGWAf8BJgGMARMB/wFcAlkBzwM1AVYDDQESAUkCSAGHAYEB1gGNAf8BZAHUAYEB/wFBAcoBcwH/AUIByQFzAf8BZgGbAWQB/wHyAegB8gH/AfAB5AHtAf8BgQH/AZkB/wEnAa0BPgH/ASEBpwEzAf8BGgGjASUB/wElAZABGAH/AVUCUwGwAyYBOAMHAQkBXAJYAdEBuQGYAY8B/gH/AfoB4gH/AbABuwHuAv8B+AHfAv8B8gHgAv8B7wHfAf8BXgHNAYEB/wFoAfMBhgH/AXAB/gGQAf8BbgGhAYEB/wF/AW4BZwH+AVMCUgGoAUwCSwGQAy4BRwMKAQ4DRQF9AYEBigH6Af8BgQGWAv8BPAFrAfcB/wG6Ab4B3gH/AfUB8wHnAf8BKAFWAfcB/wEhAVQB/QH/AecB7AH7Bf8BPAFrAf4B/wETAUgC/wETATQB2gH/AVECTwGcAx8BLQMEAQUDQQFyAWYBxgGBAf8BdAHYAYkB/wFBAcoBdQH/AUIByQF0Af8BPwHFAWwB/wE6AcABYAH/ATMBuQFVAf8BHAGqATUB/wHaAe0B3QL/AfkC/wHKAewB1wH/ASEBjgEbAf8BUQJPAZwDIAEuAwQBBgMSARkBZAE/AT0B8QGMAegBsAH/AU0BzwGBAf8BQgHLAXcB/wFmAZsBZAH/Af4B7AH+Af8B/AHnAfcB/wGBAf8BmQH/ASkBrwFBAf8BJAGqATUB/wEdAakBKwH/AVMBOAEuAfcDOgFhAxABFQMAAQEBXAJRAd8BtwKXAf0B4gHkAeMB/wGoAbMB1gH/AbMBtAGzAf8BoQGiAaMB/wGmAaIBpAH/AawBrgGtAf8BOAHAAWkB/wGKAb8BmQH/Ad8B1AHSAf8CgQHBAf8CKwFbAfwDUQGgA0EBcgMUARwDCgENAVwCRwHqAZcBtgL/AV8BgQH5Af8BbgGBAdgB/wFnAYEB4QH/AUYBgAL/AUABcgL/ASoBWAH8Af8BxwHRAfoB/wFfAYEC/wEUAUgC/wFcAkcB6gMwAUsDCwEPAwABAQMKAQ0BYQJOAeQBgwHlAacB/wFfAdMBgQH/AUEBywF2Af8BQgHJAXMB/wE8AcMBZwH/ATUBuwFZAf8BLwG1AU0B/wEeAagBMgH/AYEBzAGFAf8BJAGtATcB/wFcAkcB6gMxAU8DDAEQAwABAQQAAzUBVgFAAYEBQAH9AYkB6AGvAf8BXwHVAYEB/wE0AZgBOgH/AWYBmwFkAf8BZgGbAWQB/wFGAcwBgQH/ASkBsAFCAf8BJAGvATkB/wE8AX8BJgH+A0gBhAMUARsDAwEEBAABZAJGAewBtwGCAYEB/QOBAf8BgQGAAYEB/wGBAXUBdAH/AZACgQH/AX8CeAH+AWMCOgHwAWUCTwHlAXoBTQFMAfoBgQGSAfMB/wFLAXUB8gH/ATIBSQHHAf8BXwJRAeMDOwFlAxIBGAQAAy8BSQFNASkBTQH6AZYBswL/AYEBlQL/AUwBgQH6Af8BTAGBAv8BQgFzAv8BNAFmAf4B/wEbAU8C/wEfAVMC/wFHASUBQQH5AT4CPQFqAxABFQMBAQIIAAMrAUIBXAE9ASgB+AGBAeMBpgH/AXEB2AGIAf8BRAHKAXYB/wE6AcMBZgH/ATQBvAFaAf8BMAG2AU4B/wEpAbABQQH/ASIBqQEzAf8BRwFAASQB+QE/Aj4BbAMQARYDAQECDAADNQFWAWQBPwE9AfEBgQHbAZQB/wGBAeEBnQH/AWMB0gGBAf8BTgHGAXIB/wFDAcABYwH/ATcBsgFMAf8BWQE0AS4B9QNDAXcDDwEUAwMBBAgAAVMCUgGoAVgCVgG8AVkCVwHHAV8CVAHgAV0CUAHiAVsCWAHLAVoCWAHNAVwCWQHPA0MBeAFCAkEBcwFRAVABlAH+AVYBgQH0Af8BKQE4AbgB/wFZAlYBvgMfAS0DBgEICAADLgFIAV8CSgHoAYEBiAH6Af8BiAGpAv8BgQGPAv8BYgGBAv8BUQGBAv8BMwFfAfYB/wFkAk0B5wM4AVwDCwEPAwIBAxAAAysBQgFhAk4B5AFpAcoBgQH/AYEB4AGcAf8BbAHTAYEB/wFWAcgBgQH/AUkBwQFnAf8BMQGqAUIB/wFiAkgB6QM4AV4DCwEPAwIBAxQAAxIBGQFJAkgBhwFeAlkB1QFNAUUBIwH6ATMBSgEhAfsBXgJXAdoDTgGUAyABLwMGAQgDAAEBDAADHQEpA1YBswNOAZgDQwF4AzgBXAEsAisBQwMeASsDDwEUAwIBAwMAAQEBSAJHAYMBWQE5ATsB8gNWAbYDHQEpAwYBCAMAAQEMAAMJAQwDQgF1AVgCVgHBAWUCTwHlAWUCTwHlAVgCVgHBA0QBegMTARoDBAEFAwABARgAAwoBDQNBAXIBWQJXAb8BYQJOAeQBZQJPAeUBWQJXAcIDRAF7AxYBHgMEAQYDAAEBDAABQgFNAT4HAAE+AwABKAMAAUADAAEgAwABAQEAAQEGAAEBFgAD/wEAAfABDwYAAYABBwcAAQMHAAEDBwABAwcAAQMmAAGABwABwAcAAcAHAAHABwAB4AEBBgAB8AEPBgAB4AEHAQABPwHgAQcB4AEHAcABAwEAAQ8BwAEDAcABAwGAAQEBAAEPAYABAQGAAQEDAAEPAYAGAAEPBwABDwcAAQ8HAAEHBwABAwcAAQEcAAGAAQECAAGAAQEBgAEBAcABAwIAAcABAwHAAQMB4AEHAgAB4AEHAeABBxYACw==</value>
+  </data>
+  <data name="btnDeleteTask.CommandName" xml:space="preserve">
+    <value>btnDeleteTask</value>
+  </data>
+  <data name="btnEditTask.ToolTipText" xml:space="preserve">
+    <value>Изменить задачу</value>
+  </data>
+  <data name="&gt;&gt;iGrid1Col4ColHdrStyle.Type" xml:space="preserve">
+    <value>TenTec.Windows.iGridLib.iGColHdrStyle, iGrid, Version=1.70.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;iGrid1Col4ColHdrStyle.Name" xml:space="preserve">
+    <value>iGrid1Col4ColHdrStyle</value>
+  </data>
+  <data name="iGColPattern9.Width" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;ilTimedEvent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ilTimedEvent.Name" xml:space="preserve">
+    <value>ilTimedEvent</value>
+  </data>
+  <data name="&gt;&gt;menuBar1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;iGrid1Col2CellStyle.Name" xml:space="preserve">
+    <value>iGrid1Col2CellStyle</value>
+  </data>
+  <data name="&gt;&gt;iGrid1Col2CellStyle.Type" xml:space="preserve">
+    <value>TenTec.Windows.iGridLib.iGCellStyle, iGrid, Version=1.70.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;menuBar1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="iGColPattern6.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5TaXplRgIAAAAFd2lkdGgGaGVpZ2h0AAALCwIAAAAAAMBAAABQQQs=</value>
+  </data>
+  <data name="igEvents.Anchor" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BbmNob3JTdHlsZXMBAAAAB3ZhbHVlX18ACAIAAAAPAAAACw==</value>
+  </data>
+  <data name="btnOK.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="btnOK.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAHkAAAAbAAAACw==</value>
+  </data>
+  <data name="panel1.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAAAAAAAs=</value>
+  </data>
+</root>

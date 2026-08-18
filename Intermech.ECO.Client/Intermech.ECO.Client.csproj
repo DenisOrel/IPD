@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.ECO.Client.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{871F6B5B-9B78-4AEB-A31D-8313761005A1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.ECO.Client</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.IM.Utils">
+      <HintPath>lib\DevExpress.IM.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.IM.XtraEditors">
+      <HintPath>lib\DevExpress.IM.XtraEditors.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.IM.XtraTreeList">
+      <HintPath>lib\DevExpress.IM.XtraTreeList.dll</HintPath>
+    </Reference>
+    <Reference Include="Infralution.Controls">
+      <HintPath>lib\Infralution.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Infralution.Controls.VirtualTree">
+      <HintPath>lib\Infralution.Controls.VirtualTree.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Archives">
+      <HintPath>lib\Intermech.Archives.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bars">
+      <HintPath>lib\Intermech.Bars.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Client.Core">
+      <HintPath>lib\Intermech.Client.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Controls">
+      <HintPath>lib\Intermech.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Docking">
+      <HintPath>lib\Intermech.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Document.Client">
+      <HintPath>lib\Intermech.Document.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Document.DBCore">
+      <HintPath>lib\Intermech.Document.DBCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Document.Model">
+      <HintPath>lib\Intermech.Document.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Expert">
+      <HintPath>lib\Intermech.Expert.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.AVS">
+      <HintPath>lib\Intermech.Interfaces.AVS.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Client">
+      <HintPath>lib\Intermech.Interfaces.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Document">
+      <HintPath>lib\Intermech.Interfaces.Document.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Imbase">
+      <HintPath>lib\Intermech.Interfaces.Imbase.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Workflow">
+      <HintPath>lib\Intermech.Interfaces.Workflow.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Search.Interfaces">
+      <HintPath>lib\Intermech.Search.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Signs">
+      <HintPath>lib\Intermech.Signs.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.VirtualTreeView">
+      <HintPath>lib\Intermech.VirtualTreeView.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Localization\LocalizationHolder.cs" />
+    <Compile Include="Localization\CustomDescription.cs" />
+    <Compile Include="Localization\CustomDisplayName.cs" />
+    <Compile Include="Localization\CustomCategory.cs" />
+    <Compile Include="ECO\Client\AddObjsChanges.cs" />
+    <Compile Include="ECO\Client\ChooseRev.cs" />
+    <Compile Include="ECO\Client\ChooseSynchroDlg.cs" />
+    <Compile Include="ECO\Client\CJEditorForm.cs" />
+    <Compile Include="ECO\Client\ConvertToECOProvider.cs" />
+    <Compile Include="ECO\Client\RevisionWizardForm.cs" />
+    <Compile Include="ECO\Client\SelIzvType.cs" />
+    <Compile Include="ECO\Client\Step1.cs" />
+    <Compile Include="ECO\Client\Step2.cs" />
+    <Compile Include="ECO\Client\Step3.cs" />
+    <Compile Include="ECO\Client\DIEditorForm.cs" />
+    <Compile Include="ECO\Client\ECO.cs" />
+    <Compile Include="ECO\Client\ECOGoal.cs" />
+    <Compile Include="ECO\Client\HidingType.cs" />
+    <Compile Include="ECO\Client\ECOAncestorForm.cs" />
+    <Compile Include="ECO\Client\ECOEditorForm.cs" />
+    <Compile Include="ECO\Client\StructureChanged_EventArgs.cs" />
+    <Compile Include="ECO\Client\ObjInfo.cs" />
+    <Compile Include="ECO\Client\PendingLink.cs" />
+    <Compile Include="ECO\Client\ImDataHelper.cs" />
+    <Compile Include="ECO\Client\ECOMenuHelper.cs" />
+    <Compile Include="ECO\Client\ECOorCJForm.cs" />
+    <Compile Include="ECO\Client\ECOPlugin.cs" />
+    <Compile Include="ECO\Client\ECOChangeMenuProvider.cs" />
+    <Compile Include="ECO\Client\ECOChangeCommands.cs" />
+    <Compile Include="ECO\Client\ECO_PIMenuProvider.cs" />
+    <Compile Include="ECO\Client\ECO_PICommands.cs" />
+    <Compile Include="ECO\Client\ECO_PRMenuProvider.cs" />
+    <Compile Include="ECO\Client\ECO_PRCommands.cs" />
+    <Compile Include="ECO\Client\CJCreate.cs" />
+    <Compile Include="ECO\Client\CJOpen.cs" />
+    <Compile Include="ECO\Client\ECO_AnyCommands.cs" />
+    <Compile Include="ECO\Client\RequireRevisionProperty.cs" />
+    <Compile Include="ECO\Client\ReqRevisionConverter.cs" />
+    <Compile Include="ECO\Client\DIObjectCreator.cs" />
+    <Compile Include="ECO\Client\RevIntegrator.cs" />
+    <Compile Include="ECO\Client\RevLaunchHandler.cs" />
+    <Compile Include="ECO\Client\EcoTreeViewDlg.cs" />
+    <Compile Include="ECO\Client\ECOTreeItem.cs" />
+    <Compile Include="ECO\Client\EditReason.cs" />
+    <Compile Include="ECO\Client\IEcoProperties.cs" />
+    <Compile Include="ECO\Client\EcoProperties.cs" />
+    <Compile Include="ECO\Client\IEcoPropertiesService.cs" />
+    <Compile Include="ECO\Client\EcoPropertiesService.cs" />
+    <Compile Include="ECO\Client\EcoPropertiesEditor.cs" />
+    <Compile Include="ECO\Client\EcoDeliveryListPropertiesEditor.cs" />
+    <Compile Include="ECO\Client\ECODeliveryListProperties.cs" />
+    <Compile Include="ECO\Client\HideTypesPropertyPage.cs" />
+    <Compile Include="ECO\Client\HideTypes.cs" />
+    <Compile Include="ECO\Client\IMCatalogsPropertyPage.cs" />
+    <Compile Include="ECO\Client\IMCatalogs.cs" />
+    <Compile Include="ECO\Client\IncludeGoal.cs" />
+    <Compile Include="ECO\Client\InputForm.cs" />
+    <Compile Include="ECO\Client\ObjSelect.cs" />
+    <Compile Include="ECO\Client\ProcChanges.cs" />
+    <Compile Include="ECO\Client\ProcParm.cs" />
+    <Compile Include="ECO\Client\ReplaceTemplateForm.cs" />
+    <Compile Include="ECO\Client\RevHelper.cs" />
+    <Compile Include="ECO\Client\ERevision.cs" />
+    <Compile Include="ECO\Client\ECOLinkCreator.cs" />
+    <Compile Include="ECO\Client\ECOLinkDeleter.cs" />
+    <Compile Include="ECO\Client\RevisionComplectClient.cs" />
+    <Compile Include="ECO\Client\RevisionContextProvider.cs" />
+    <Compile Include="ECO\Client\RevisionCreator.cs" />
+    <Compile Include="ECO\Client\RevCreateMode.cs" />
+    <Compile Include="ECO\Client\SelDate.cs" />
+    <Compile Include="ECO\Client\SelTemplateList.cs" />
+    <Compile Include="ECO\Client\SerDateDiap.cs" />
+    <Compile Include="ECO\Client\SeriesDatesForm.cs" />
+    <Compile Include="ECO\Client\SuggestRev.cs" />
+    <Compile Include="ECO\Client\RevisionComplect\InventoryNumberForm.cs" />
+    <Compile Include="ECO\Client\RevisionComplect\NumberGenerator.cs" />
+    <Compile Include="ECO\Client\Properties\Resources.cs" />
+    <Compile Include="ImSSP\sc_6342.cs" />
+    <Compile Include="ImSSP\sc_6361.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ECO\Client\AddObjsChanges.resx" />
+    <EmbeddedResource Include="ECO\Client\ChooseRev.resx" />
+    <EmbeddedResource Include="ECO\Client\ChooseSynchroDlg.resx" />
+    <EmbeddedResource Include="ECO\Client\CJEditorForm.resx" />
+    <EmbeddedResource Include="ECO\Client\DIEditorForm.resx" />
+    <EmbeddedResource Include="ECO\Client\ECOEditorForm.resx" />
+    <EmbeddedResource Include="ECO\Client\ECOorCJForm.resx" />
+    <EmbeddedResource Include="ECO\Client\EditReason.resx" />
+    <EmbeddedResource Include="ECO\Client\HideTypesPropertyPage.resx" />
+    <EmbeddedResource Include="ECO\Client\IMCatalogsPropertyPage.resx" />
+    <EmbeddedResource Include="ECO\Client\IncludeGoal.resx" />
+    <EmbeddedResource Include="ECO\Client\InputForm.resx" />
+    <EmbeddedResource Include="ECO\Client\ObjSelect.resx" />
+    <EmbeddedResource Include="ECO\Client\ProcChanges.resx" />
+    <EmbeddedResource Include="ECO\Client\ProcParm.resx" />
+    <EmbeddedResource Include="ECO\Client\Properties\Resources.resx" />
+    <EmbeddedResource Include="ECO\Client\ReplaceTemplateForm.resx" />
+    <EmbeddedResource Include="ECO\Client\Resources\CustomAttributesResources.resx" />
+    <EmbeddedResource Include="ECO\Client\Resources\Down.png" />
+    <EmbeddedResource Include="ECO\Client\Resources\ECOAddElem.png" />
+    <EmbeddedResource Include="ECO\Client\Resources\ECOAddElemAfter.png" />
+    <EmbeddedResource Include="ECO\Client\Resources\ECOAddElemBefore.png" />
+    <EmbeddedResource Include="ECO\Client\Resources\ECOAddList.png" />
+    <EmbeddedResource Include="ECO\Client\Resources\ECOAlwaysTable.png" />
+    <EmbeddedResource Include="ECO\Client\Resources\ECOCard.png" />
+    <EmbeddedResource Include="ECO\Client\Resources\ECOChangeGoal.png" />
+    <EmbeddedResource Include="ECO\Client\Resources\ECOClientResources.resx" />
+    <EmbeddedResource Include="ECO\Client\Resources\ECOCopyAllElems.png" />
+    <EmbeddedResource Include="ECO\Client\Resources\ECOCopyTable.png" />
+    <EmbeddedResource Include="ECO\Client\Resources\ECOCreateOLE.png" />
+    <EmbeddedResource Include="ECO\Client\Resources\ECODelElem.png" />
+    <EmbeddedResource Include="ECO\Client\Resources\ECODelList.png" />
+    <EmbeddedResource Include="ECO\Client\Resources\ECOExclude.png" />
+    <EmbeddedResource Include="ECO\Client\Resources\ECOFromNewPage.png" />
+    <EmbeddedResource Include="ECO\Client\Resources\ECOImgFromClip.png" />
+    <EmbeddedResource Include="ECO\Client\Resources\ECOImgFromFile.png" />
+    <EmbeddedResource Include="ECO\Client\Resources\ECOImgFromObj.png" />
+    <EmbeddedResource Include="ECO\Client\Resources\ECOInclude.png" />
+    <EmbeddedResource Include="ECO\Client\Resources\ECOIncludeExt.png" />
+    <EmbeddedResource Include="ECO\Client\Resources\ECOInsSpecSymbol.png" />
+    <EmbeddedResource Include="ECO\Client\Resources\ECOOrigSize.png" />
+    <EmbeddedResource Include="ECO\Client\Resources\ECOPasteElems.png" />
+    <EmbeddedResource Include="ECO\Client\Resources\ECOReason.png" />
+    <EmbeddedResource Include="ECO\Client\Resources\ECOSort.png" />
+    <EmbeddedResource Include="ECO\Client\Resources\ECOSortChange.png" />
+    <EmbeddedResource Include="ECO\Client\Resources\ECOTree.png" />
+    <EmbeddedResource Include="ECO\Client\Resources\ScrCapture.png" />
+    <EmbeddedResource Include="ECO\Client\Resources\testImg.png" />
+    <EmbeddedResource Include="ECO\Client\Resources\Up.png" />
+    <EmbeddedResource Include="ECO\Client\RevisionComplect\InventoryNumberForm.resx" />
+    <EmbeddedResource Include="ECO\Client\RevisionCreator.resx" />
+    <EmbeddedResource Include="ECO\Client\RevisionWizardForm.resx" />
+    <EmbeddedResource Include="ECO\Client\SelDate.resx" />
+    <EmbeddedResource Include="ECO\Client\SelIzvType.resx" />
+    <EmbeddedResource Include="ECO\Client\SelTemplateList.resx" />
+    <EmbeddedResource Include="ECO\Client\SerDateDiap.resx" />
+    <EmbeddedResource Include="ECO\Client\SeriesDatesForm.resx" />
+    <EmbeddedResource Include="ECO\Client\Step1.resx" />
+    <EmbeddedResource Include="ECO\Client\Step2.resx" />
+    <EmbeddedResource Include="ECO\Client\Step3.resx" />
+    <EmbeddedResource Include="ECO\Client\SuggestRev.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

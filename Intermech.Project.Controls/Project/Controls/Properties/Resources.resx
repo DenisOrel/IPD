@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CompletedWork" xml:space="preserve">
+    <value>Выполненная работа: {0}ч ({1:0.00}%)</value>
+  </data>
+  <data name="MoveProjectFinishPrompt" xml:space="preserve">
+    <value>Дата окончания задачи не может быть больше даты окончания проекта ({0}). Передвинуть окончание проекта на {1}?</value>
+  </data>
+  <data name="WeekAbr" xml:space="preserve">
+    <value>Неделя</value>
+  </data>
+  <data name="QuarterAbr" xml:space="preserve">
+    <value>Кв.</value>
+  </data>
+  <data name="DeselectAll" xml:space="preserve">
+    <value>Сбросить все</value>
+  </data>
+  <data name="MonthAbrShort" xml:space="preserve">
+    <value>M</value>
+  </data>
+  <data name="QuarterAbrShort" xml:space="preserve">
+    <value>Кв</value>
+  </data>
+  <data name="SixPages" xml:space="preserve">
+    <value>Шесть страниц</value>
+  </data>
+  <data name="Level2" xml:space="preserve">
+    <value>уровня</value>
+  </data>
+  <data name="Level1" xml:space="preserve">
+    <value>уровень</value>
+  </data>
+  <data name="Level5" xml:space="preserve">
+    <value>уровней</value>
+  </data>
+  <data name="StatisticsTitle" xml:space="preserve">
+    <value>Статистика</value>
+  </data>
+  <data name="Quarter" xml:space="preserve">
+    <value>Квартал {0}</value>
+  </data>
+  <data name="WeekAbrShort" xml:space="preserve">
+    <value>Н</value>
+  </data>
+  <data name="TenAbr" xml:space="preserve">
+    <value>Декада</value>
+  </data>
+  <data name="HundredAbr" xml:space="preserve">
+    <value>Hundred </value>
+  </data>
+  <data name="ThreePages" xml:space="preserve">
+    <value>Три страницы</value>
+  </data>
+  <data name="DeleteColumn" xml:space="preserve">
+    <value>Удалить колонку</value>
+  </data>
+  <data name="NotAllNodesExpanded" xml:space="preserve">
+    <value>В дереве имеются отмеченные узлы, не помеченные как проекты, состав которых не раскрывался и не был загружен. Не загруженные компоненты импортированы не будут, вы можете прервать операцию, раскрыть и отметить нужные узлы. Выполнить импорт в текущей конфигурации?</value>
+  </data>
+  <data name="ProjectLoadingErrors" xml:space="preserve">
+    <value>При загрузке проекта "{0}" произошли следующие ошибки:</value>
+  </data>
+  <data name="NoPrinter" xml:space="preserve">
+    <value>Принтер не установлен</value>
+  </data>
+  <data name="AddColumn" xml:space="preserve">
+    <value>Вставить колонку...</value>
+  </data>
+  <data name="loading" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAhSEAAAJHSUY4OWEgACAApQAABAIEhIKExMLEREJE5OLkZGJkpKKkJCYk1NLUVFJU9PL0dHJ0tLK0lJKUNDI0FBYUjIqMzMrMTEpM7OrsbGpsrKqs3NrcXFpc/Pr8fHp8vLq8DAoMLC4snJqcPDo8BAYEhIaExMbEREZE5ObkZGZkpKakLCos1NbUVFZU9Pb0dHZ0tLa0lJaUNDY0HB4cjI6MzM7MTE5M7O7sbG5srK6s3N7cXF5c/P78fH58vL68////AAAAAAAAAAAAAAAAAAAAIf8LTkVUU0NBUEUyLjADAQAAACH5BAkJADoALAAAAAAgACAAAAb+QJ1wSCRGWgdacckkTmTEgsvlIWJOmOay5HCshpepYygzATgpLTHGcXgUQpR4uADYGeqhytGGxA8uHEIWdgAfNXlCBHxdiHIuYzoihQuJQw1tHBQ6YZA6DIUPUEw3EBcscDoKIpkCnS0YB4UdQwoEBGk6AiIiAwk0WQyZLxqAHQSFHDc6GAQ1NRYEQhEDvNUFMDckHC0wqtI6HoYhGBMW0M8jQyUSvNYNGCHgRCkruM/n5wRZQxMBve5SaZmA7pzAIggo8LKxTI0MdDIaNrmhwcCERDcUyOBHxAKIDCBBBhBg6dutkyMwULjAsiUKG6PUYDj3DF8NAgVe6rTBUl3wnpnQLOQ7B2MBhaMUSMz4Yumhs5s3cxWREeFinowpJDZJwUDFAhUHmYyAhmtiBBwL0i7wpuYptAkcFb1IO2PBDBApNjLJKkMouhoRhWDIYDetCgb1IDS4mGLEMgQCBKSwNbRGKhl2vXZQVwMCBBACZFQosQJDjhwCvN14GNTqJxUQTgi50cFzbAQlShigijrHqHI342qN8BmCgRu4c0+YgFpACIlalyh4AeEFCHW4DZSICEMA6nl5NHx+wTR5iYsKeguIq4UF9Repsm8f1Nu1GgGeIwwx/9s7uZIj+CTECbkZIBUGepW0BAYC0IBASUEAACH5BAkJADkALAAAAAAgACAAhQQCBISChMTCxERCRKSipOTi5GRiZCQmJJSSlNTS1LSytPTy9HRydFRSVDQ2NBQSFIyKjMzKzKyqrOzq7GxqbJyanNza3Ly6vPz6/Hx6fFxaXExKTCwuLDw+PAwKDISGhMTGxERGRKSmpOTm5GRmZJSWlNTW1LS2tPT29HR2dFRWVDw6PBweHIyOjMzOzKyurOzu7GxubJyenNze3Ly+vPz+/Hx+fFxeXDQyNP///wAAAAAAAAAAAAAAAAAAAAAAAAb+wJxwSCS6BitFcckkTmDEGI4TImIsmObyFdrQhoZpZ7gIsTYoLdEwCDUWQhIHNxYGWAfWV20P+UtCYRx1M3l4BXxCIxttGzM5JGKBLJQBiUMyIW0ZOQZzYzSULDhwTDUVMQSlCyqaISAUUwM1A5QHBEMSHBwRQiAaGiokJzU5F34bJTQ4ODIFeGfFRwDUK0IJwTfAKQkYDAMbCTkwI0INeBETBtTsVUIvBsDAKjIYLuVFGAIFEQ/s1B0eDZnQIpuGG6W0rGPHQkQTExmCMSimpgU1DzYSmgIhYUKiGjICCCQyo0KLkycRuLiUY8GIAjBhjsBgg4HNmwxSQOFzZYb+hRlAf87IYDNGiqIMdqpB4dPnz58FEnywEcAG1QB7EsEoALRrAY1DYCRQqqXGggUUtWCg0QJCC7BLJgAtkMZUAgQQ8kKwwCeozwlZiIwg8KHFBwgfSmBYELgIihownjaFQREDXr0taGAAIUICFAyUc4yYUWBxAckWVhUu/ALKCBGwXaAQQMMFBqflIDe14FEIWxkCMSggIIIAVwG0F/gthWGChdJE0uYwAVvEhRozaCRXDjWt9CUYJBAn4HEGbQFouVqwQFYNZ9gghBTQTgMOU6GN1SgoLqGuee2lyPUTXEy4ABtfQvyHnhC3AfWdFhP0Jt95deVQAwr5sTREDQkGgIDIJUEAACH5BAkJADoALAAAAAAgACAAhQQCBISChMTCxERCRKSipOTi5GRmZCQiJJSSlNTS1FRSVLSytPTy9DQyNHR2dIyKjMzKzExKTKyqrOzq7GxubCwqLJyanNza3FxaXLy6vPz6/Dw6PBwaHHx+fISGhMTGxERGRKSmpOTm5GxqbCQmJJSWlNTW1FRWVLS2tPT29DQ2NHx6fIyOjMzOzExOTKyurOzu7HRydCwuLJyenNze3FxeXLy+vPz+/Dw+PBweHP///wAAAAAAAAAAAAAAAAAAAAb+QJ1wSCSaTq5McckkwhjEFWiAIWpomuYShal9hjEQSDFkKGSnlJYYw2AMal14PHzIGg3Beog4uQlCYQNkOjQqDTIqIntCIjUYJzUFcmKEI3cyLIxDEm4YHjoOU2QCmANQTDchAS+oKQaPGC0rAyAnNy6IDS9DCyARLUIJMcQrAjc6ApAYIQIRIBIiurc6Rwc5OYQmMRTcMQ8mNwE1NSY6DIs6NQ0qCRMO1znXNUMZDg7EFA4SGi0TSyk+iEggQ548DicmDYFBgBu+GHG0xDCYY8OCJjRYEPOAbM0MeSQQoGpyowUKGIxuSECgkIgICQRmEJgZwtwmCxsO6YwAocT6g58PPAAdqSUBgKNIj4YU6oHFz6Yo97RImjTHBQslsmqFsElHhxwcwoYloWQJAxpESTJg0FFLvxAhJERsMuECjQJzidy48AIu3JYYadilMSGLExRwCcBcoCFFWys3YNi9QJkGjI4aJIRQTCAEBA0mbAhQ0xiZCLsaGBSgIViwq8TNoEwQbQOL3QJX7C6K3PrCPyEtQixIp+GDANETJrROUWAyKg11ceslUuC4gBaRJ2uA0bpA28dLNFi3AUWyYMerKUdldIH2BSHKUetIwZq14T3GRRs2f8FwXbtpYXRcOjrwZxh9rIGnxVpOtHbfDSnc15VeIhSw3h5BAAAh+QQJCQA6ACwAAAAAIAAgAIUEAgSEgoTEwsREQkSkoqTk4uRkYmQkJiSUkpTU0tRUUlS0srT08vR0cnQcHhw0NjQMCgyMiozMysxMSkysqqzs6uxsamycmpzc2txcWly8urz8+vx8enw8PjwEBgSEhoTExsRERkSkpqTk5uRkZmQ0MjSUlpTU1tRUVlS0trT09vR0dnQ8OjwMDgyMjozMzsxMTkysrqzs7uxsbmycnpzc3txcXly8vrz8/vx8fnz///8AAAAAAAAAAAAAAAAAAAAG/kCdcEgkYiw2UHHJJDIYxAjKZiHiCpvmUjBbvYafTIY0ZJBCpKwW3GjkVMJABkUWXkKDkGQ9JLQbMXEZNgZCBSGIExV8QjIrXQ0jOmFjQhyIAxeMQyl/JjpydDoSiCEoUEw4KRcacDoqOX8nlBY4BnghC0MaKCgJQhgRHxEILzijDV0LLzYZMRWltTonBiXWNkI1EdvDNDU4Jg0rGDoMizozIRMJMgHWJQclVUIgLhH22xobGOdEGxIVEnR4d01SmRjctrnSksNavBApmhSgYc/EsTUErD0wsTDVCRCo1uCIYcIgkQo3UmhQqbLGJh0UUEyAMXOCjQQxRIggoLNn/scmGBwIHXrAwQAKPHXyJEAhpJYEQosOdcCiwIIYCyhcXfBrkwsWJcCCnXCDiYoRP5ls0KpGy4YaAuKmLWIAAIASSlKNACHgxg0B/Zo4sGs3Q4EiDF70XQxiw4aLRR7nIGwXwgc1OBb/FYBhw4gaNbJsUHFsBIbQMQ5QBoBAyIa/f1/AUVHjdAXaGLDUriFpw4cWhBsMgQtQyJXTGBjIAF1DRQHkqEaQ8HDA5RDIOmQgH4FD++kNy08XgNxWLejTcMJ3vlIbg4yXFXafi18bzj7m5bWcD93oNH8dn2GAwVxLaFfDe/3VpsZboGG3xmhOINcWDirk95JxIxSAICNBAQAAIfkECQkAOQAsAAAAACAAIACFBAIEhIKExMLEREJEpKKk5OLkZGJkJCIklJKU1NLUtLK09PL0dHJ0VFJUFBYUNDI0jIqMzMrMTEpMrKqs7OrsbGpsnJqc3NrcvLq8/Pr8fHp8LCosXFpcHB4cDA4MhIaExMbEREZEpKak5ObkZGZkJCYklJaU1NbUtLa09Pb0dHZ0HBocPDo8jI6MzM7MTE5MrK6s7O7sbG5snJ6c3N7cvL68/P78fH58XF5c////AAAAAAAAAAAAAAAAAAAAAAAABv7AnHBIJNICqkhxySQuUkQLgxEg2kaZ5tIFgZyGJobsNlyoOKqsdmjpIqC5MEMzFHHurvVQ8enWhHJ0OSM4dzgUekIxLRAfLYhhY0IQdxwiiUMCEIwTcVN0LpUkcEs2IAoRcCkmjRA0kQE2DJV/QjUkJBdCBSIEIhMnNjkJmxA1CSoqGBSVKsIXDCHSDEIjItfXCiM2Il0FOQsxQjccODSL0tIDgsMTvtcTETbnSxkuMScN6QMSDCNOAn4R8KVGC4QQA0JI4FBrCQUF2YStmSBNAgFSTGwUcLEgkQ0MBBAVWeCiZAQXJ0UmgmGg0p0KJ0AIqDGzZo2CWi5seLCT5/CDBy9sCsXY5MTPnz03hKAQAYTTpiC+YTKRLl0DEEwyLMDZJAUKDBK12KBA4wINrktUdDggQUnGBTTKlu24hkWHuwdk/COSooBcszRsZAhL5EIMBGvxlkAgUaPZxxTGms2SIYWwBgAcnMDA4gDeDgSEZHhMAws4uRRSlC1QAIDrATkymNjgucOHIWQLwHE8N0ZcGgtWuAYAQwgFFSUGSBVCOMbjbc7NphAx/AAptEQyxJWew/fkDCyG38ZE1uxe52WhgBjuYa+e7WcVPVaDY3jxROjp5igff5ADACuIg0llTsw3RAwoCIhJKSMUoKAeQQAAIfkECQkANgAsAAAAACAAIACFBAIEhIKExMLEREZE5OLkpKKkZGZkJCIk1NLU9PL0tLK0lJKUdHZ0XFpcNDI0HBocjIqMzMrMTE5M7OrsrKqsbG5s3Nrc/Pr8vLq8PDo8nJqcfH58DA4MhIaExMbETEpM5ObkpKakbGpsLCos1NbU9Pb0tLa0lJaUfHp8ZGJkNDY0HB4cjI6MzM7MVFJU7O7srK6sdHJ03N7c/P78vL68PD48////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABv5Am3BIJIJOLFJxySSWSkQYBHIiziaX5tISChGGoeliWILEIFntUFEIUdJhCGsdq8SUaqGgG4oI43M2EwwxMQwveUIJXW0JNoBCGoUVJolDCG0hNDYUHSxjJIQVAVBMMxYeFmklMHwEFFMnMxAVhB5DHigMFkITNAK/BDM2MhRtLRYsEB4vhTEswzIBDdQbQi/A2REvMxgFFBM2CYg2C4YyCRrU6x1DMtm/NKogjkUXJC8yKevV5EIlJOAJSKNF3boKt5i8iPDLwzA1JqilgFGqyRUZBLXMoAEDxJISIAiIDEnPkg0TMUSoVInCAgELMmTAnJmxiYwBOHPiTCGz5+lMjIks6NTZIAGBmEdlEPCXpwA1F09T+FlyIUFNJhdMCHiocULPq0U2OBjRoIXFBDFn1tMywIFbBwzCOTn6U8aMC1yJyCihYazbERk0PJzx0ueEKzCzEDABRcQKBxZoSHg7NoSQCz9BZEELcwICDgAcEFhBuoGNCwVUjFURSJDSUoTVbgBAu0WGFQdWYLi2QYUEj0PyvpgJYkYA2gBawMi9okbFvFTT7rUxu/YFF7hXVLHkFSbw47VttMh9YITcPNLTVE8uJAZp3ZaGoxuy3qwgBwdUrM1zoWI55DIMgQ1TJg2RgAQPtGNJEAAh+QQJCQA4ACwAAAAAIAAgAIUEAgSEgoTEwsREQkSkoqTk4uRkYmQkIiSUkpTU0tS0srT08vR0cnRcWlw0MjQUEhSMiozMysxMSkysqqzs6uxsamycmpzc2ty8urz8+vx8enwsKiw8OjwMDgyEhoTExsRERkSkpqTk5uRkZmQkJiSUlpTU1tS0trT09vR0dnRcXlw0NjQcHhyMjozMzsxMTkysrqzs7uxsbmycnpzc3ty8vrz8/vx8fnz///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAG/kCccEgkUmATWnHJJGZQRAEhBCPaYrbmslATUIaYUGgyzMwgs4yWGKnVPmpceDysQe7KtdAkENQuQjUhBGQ4MXceLQt6Qih+flBzhRN3EDWMQzSPCXKDZDQQiSVQTDYUNBRZOBkfjxSCVDYWlS5DCXcFQgs0NBc0C1kifjU0BWIJC4gEwQgMMikIjb7TBSg2Ln0xq4s4IRAtIgsTDOTkJUMxveoXqTGkTr8FKc4pzyXaZRTTvXFaIfPkAtRigqKALxqqtAigh+FdqQUx+mmxEQEDPiIoRBTYuDEcJhw1btzQQFIDhGIHeU2T2KRAg5cwXzJYt48GSyY0YsaUsaAA7S+fxS7qmSBjRNGiKQYWybDg5pIMbxI2MaXOKZEWIEBUMDF11zpuWhpkzerhC0afNW1cAEuEBgoCYyUMeBFClQ2D61KpANCB0ys1DBwMoPHBwIABWQcoEJJhnwg1CgBIZmBiA4sXBRxscDBi1YQXYy0MOVWtEQnJAEIgYHGARQIQDjRfMoRAggqzQqRCQL0iQwvWLEyc2OxAwjurQih0QC0AR4vWBxLYUBHbwYyPI1A3EPK7NacEmh2sEKrlgOQOuZy3Di7kRvXZelJIbjGkO3scFAZsAEFey4cIRMwAXXqGfNDfRzigYIAD52ASBAAh+QQJCQA3ACwAAAAAIAAgAIUEAgSEgoTEwsRERkTk4uSkpqQkIiRkYmSUkpTU0tT08vRUVlS0trQUEhQ0MjR0cnSMiozMysxMTkzs6uysrqycmpzc2tz8+vwMDgwsKixcXly8vrwcHhw8Ojx8enwEBgSEhoTExsRMSkzk5uSsqqxsbmyUlpTU1tT09vRcWly8urwUFhR0dnSMjozMzsxUUlTs7uy0srScnpzc3tz8/vwsLiw8Pjz///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAG/sCbcEgkKkKCUXHJJF4uxMRGECLSFLTmEjabKYYuwXR4iRUYUO2QYOlmb+Gx0FWoE9TD0cximczFAkIKdQUkX3g3F217UHFVNxuFBRGIQzBtFkpxgSOEJGlLNBMzE280XW0KUlQ0MSR1FkMnMjJ+NwqoXlkKmBMTYgQodTIqUBMFEMkFQiiYe8E0BF0oidQ3KoUTCirJ3SSWe+F9NCigZCMKIwggEOwgBYdCFxPOFm9aDN0tJrFMKGxu8ERI1iKEuVAKYBxkQuNEiHhDUIwgQJEiuko3QiBowZFjBYqLcllYuGTEg5MoT4IQ52wGySIETpZgIZNFAAXSZuQkAAMj9oMAATwADQDiBBMLMvqpuRDBxb0mCh58AIDhjhoTKVJ4UFqERoUVAMIC+KamRIoFGlKYsDUkggOxYTnAIABxDQoKWRdk1RDjjQIMcD88gPGAQ41YIwzeCDDgBQEXD9LmVSGEANwBRjdwMMABhIUONVKMGECaRaIYGiQvE/IAQAYG8mxw5hCjQg0HhxeQHhDolgkND9gmImJi9osLJnA7OLFBBOkUoJ4umVBjMwdKyW+foFFiN1lELGY/EJJ9+Q0Lu0X0RGRjcwYlN2zj7gdhd288EDhwqDBE/mEhE7wwQAp1aeFCAkQUoBx8t0RQIEY3oNAdf5UEAQAh+QQJCQA6ACwAAAAAIAAgAIUEAgSEgoTEwsRERkSkoqTk4uQkIiRkZmSUkpTU0tS0srT08vQ0MjR0dnRcWlwcGhyMiozMysysqqzs6uwsKixsbmycmpzc2ty8urz8+vw8OjwMDgxMTkx8fnxkYmQEBgSEhoTExsRMSkykpqTk5uQkJiRsamyUlpTU1tS0trT09vQ0NjR8enxcXlwcHhyMjozMzsysrqzs7uwsLix0cnScnpzc3ty8vrz8/vw8Pjz///8AAAAAAAAAAAAAAAAAAAAG/kCdcEgkqgq2RXHJJGYyRNLlYiPiVLjmUmZLDkndqjATEUSy2mGBakOvu0Ob4HaTpb+26UQIpgpVcwICKndjbBdQSH46CYEXhUMyVBckOopVMoECUEw4EzYTaDhdVAtSXTgRN3OVQgUpKXs6C6RJWQuTEyqlgKtnOjIYIwQjGH+TeQVYSDaET0IwcwsqEcMj1zeRedsXoSqcTjIZExLX1wQYSkPjyBdoWiHnEjEFTUds700XxBIJ4J0LxBUalUAdkRADVjBQuCIHAUiMhhGoQYCABBIPAGjcqLHenQkQIIAIKfKFhQ0cOT66Q6KkSwgnYpR4QJOmCxAQQ1g4wZNn7Q0xRQqM8JgGBwwU+ZgsAFHCBYVWWiTQoPECaBEcIxi4MLA1xZ0AFabSIGCHSAIRW11s1SBDGRMSKjBMrdCARgMMaFTMSGvAQIAFLGbkeDQhApQXDg6QQAFC7NQQfLiq9fDoBoMZDKpyGGBigoPPODPcYEG3goIhAQwMEDCGA+YZGAgMmH2hwmcHEYQsGNEAQtkxRGpcZtACh2zaAm5XAJe0iAwNrxPoOD7AXYfbMSAGGM5CSI3Z1XVcaPG5hcE0IjCvkEV95YnbMCAhwDxiSHshMg60MHE+TQIURMQAniyzwEAIREuoEIADD0ESBAAh+QQJCQA4ACwAAAAAIAAgAIUEAgSEgoTEwsREQkSkoqTk4uRkYmQkIiSUkpTU0tRUUlS0srT08vR0cnQ0MjQUEhSMiozMysxMSkysqqzs6uycmpzc2txcWly8urz8+vw8Ojxsamx8enwMCgyEhoTExsRERkSkpqTk5uQsKiyUlpTU1tRUVlS0trT09vQ0NjQcHhyMjozMzsxMTkysrqzs7uycnpzc3txcXly8vrz8/vw8Pjxsbmx8fnz///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAG/kCccEgkogoxRnHJJGYyRJHFEiPSMrTm8hVLDkXdqpBWsBSy2mG5i16LcZQYVZkWgqcUu1ycoVKhdTh9XRZQSFR6VHmBQi9+IjiHVSh+MWhLGTIqNos0hElSbG50cBERdBMAqh0IUAx+FJRJg2ZZDCwCMzMsQieqvyMnNKEoOFdCaxmUucwJQwEdv6obNCiAVtYMzDO5CcVDMSbSAC91Jdsfi0szI6oql00F3AKWaTQENwWBNHHfRBEyJLQQKMGEC0Y4LGA4sZDhjBcpVBxQIVHiAUh1GITYSIBjiAUjKE6sqEJfnRchOm5cuQDDAAcpUsDUQAJhAhcLcE5YsMBk65ECLnxqoTEFHhMGK2RqwKjlBAQIMJgWoeFiwAgHV2fUIfH06QJSQkpcuOqgLAgGIvwRifUBgocVbld8QINCQ1myK1B4AKGgyosEUGA0uEHBAoy4T3nBIevARpUPIEAMqFDAgAnCDTLXzBAB7lOtQlY4aPFBCAoDkUHMcHGhdYwANjI7w4HixIoKYOFNiDzABtXWF2KwyGzDwzWjRV60iCzBGWsTMiwhyNwAdCAEAyRDEDIBeJUC1DmUCySD+aLn0YWEaBC7BKMKkQ8KYe1aCIMbDTyoTVPCAhEMJrSmDgol7IeQaStsIF8gQQAAIfkECQkAOQAsAAAAACAAIACFBAIEhIKExMLEREJE5OLkpKKkZGJkJCIk1NLUVFJU9PL0tLK0lJKUdHJ0NDI0FBYUzMrMTEpM7OrsrKqsbGps3NrcXFpc/Pr8vLq8nJqcjIqMLC4sfHp8PDo8HB4cBAYExMbEREZE5ObkpKakZGZkJCYk1NbUVFZU9Pb0tLa0lJaUHBoczM7MTE5M7O7srK6sbG5s3N7cXF5c/P78vL68nJ6cjI6MfH58PD48////AAAAAAAAAAAAAAAAAAAAAAAABv7AnHBIJKIIMUVxySSKJM5KJUacXWbNJQMAGA2RMapwRqgQsNnhgftwCUVTcU4SmyrTwhMXABMip0IXU1MXeEIxH3smOX9iInUxUIZCDXshjJA5KIMxaEsXDR03bjkKD3sLcGFkcXelBAQoQikeHgcbNYU1ezAodQqCdWc5F40EQjQHtrYDAjM4AB8COVZ+hBcSnBUiQwwltiu1NygYckMzKBe+2iKFQyIUy8quTdmQSU0QIcodnk0ukFz4WzLjBYNjeGYocOGOCAsKFiJGNLBgUg4RLFhA0MgCgYIBGxxsCDnSgaQ0KATQUMmSBgQcImOS5IZHwcqbLEHQaBGiZ/bPCAUsxgABQQAIohBIFRGRgmaaYsNQZogQosXJJiBGjEhxtUqKBCEG9JyW5oVWrQJkEalAQaxPCwraMWGIYESBCQVGTECABgXPngMiZFCgwgKJYy4qFHqhgYEEEQvy5h1RQYgEwBE4HGMhcYQIDjBsuNBA2ssMExO0FmAxJEMIEhACwbBwwgIIDA1yi1BBWkNlTRBGLKDXMMeCiDJuzMAAQ7eJ3io8DSyiwMAJGRYW4W4AQ8SMAr1BWKwhUYUQ5rov9rahFs/sEwZIbW9AM0Xv33gmWJCRYgh6+kIQpoEK7eEByBAC5NaAUr4UaNEQKNRwAw0WBQEAIfkECQkAOwAsAAAAACAAIACFBAIEhIKExMLEREJE5OLkZGJkpKKkJCIk1NLUVFJU9PL0dHJ0tLK0lJaUFBIUNDI0jIqMzMrMTEpM7OrsbGpsrKqs3NrcXFpc/Pr8fHp8vLq8PDo8DAoMnJ6cHBocBAYEhIaExMbEREZE5ObkZGZkpKakJCYk1NbUVFZU9Pb0dHZ0tLa0nJqcNDY0jI6MzM7MTE5M7O7sbG5srK6s3N7cXF5c/P78fH58vL68PD48HB4c////AAAAAAAAAAAAAAAABv7AnXBIJIY8HENxySROJkQJAOAh2jC25rKjOzCGuSlnaCPQCFkt+KB7xIQD8TBGs1hS6iFF170JwwBjOzZ1NDQYeUIEJl0HJztxgUIjhVCJQhB8OjU7gGMphhY0aUsYNxIgbzsKD2wHGiJTDmWFCkMKBAR4OxoPvjkliDNdOgEzHwAgGIVoOxhmdQRCIb7VMCE2Fx4mETsTNIp1KRgToqI0I0MNLQ8m1QEYAuBFNuPLhaIEiEMjKtW+qrSUK0TDFpMIKNrBINWEjqgYDJfYWNEgXR4bCmLsI3IiA4WPHxfguLQql0kCIzCgEMGy5QARltSAMkTzHAwRL3G2tKgGg/udn8xCFEBx4QLRCxVI0oFmiIDBIiME8NRiYwLEPClK1LhQIGCTEwJwvHhKDweFoka7qQkhIKyAExuF0MhQ9KiMFBPizlnmFkfbUUJSkKhbo4aBrAsypFNwaIeAEjMUTGCLwy8OizEIQ0iHYMECGSsmuIBgQEGJ0xoGEWjrd94OAzVUIBCCAYTnBS9CQIAAYsKM0yWk7UhhAUeEXUIY4viswoUNAbtdjCBgoIQBBqQiFlGQ4TY43SCk29AAfPalCjI+l5i2GwKUCdZLVECuxnZiVbp5WwoBXHgeBp8JMAR4LliSwgzX0acGOkS80F5AGKREEhMYzNBACCQFAQA7Cw==</value>
+  </data>
+  <data name="ProjectPrintDocumentName" xml:space="preserve">
+    <value>Проект</value>
+  </data>
+  <data name="OnePage" xml:space="preserve">
+    <value>Одна страница</value>
+  </data>
+  <data name="SaveUserTaskQuestion" xml:space="preserve">
+    <value>Параметры задачи "{0}" были изменены. Сохранить изменения?</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="False" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>&amp;Закрыть</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Печать</value>
+  </data>
+  <data name="IconPlus" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5JY29uAgAAAAhJY29uRGF0YQhJY29uU2l6ZQcEAhNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAIAAAAJAwAAAAX8////E1N5c3RlbS5EcmF3aW5nLlNpemUCAAAABXdpZHRoBmhlaWdodAAACAgCAAAAAAAAAAAAAAAPAwAAAD4BAAACAAABAAEAEBAQAAAABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAABAAAAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAgICAAMDAwAAAAP8AAP8AAAD//wD/AAAA/wD/AP//AAD///8AAAAAAAAAAAAAAAD////wAAAAAP/w//AAAAAA//D/8AAAAADwAADwAAAAAP/w//AAAAAA//D/8AAAAAD////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4AwAA+AMAAPgDAAD4AwAA+AMAAPgDAAD4AwAA+AMAAPgDAAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAACw==</value>
+  </data>
+  <data name="IconMinus" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5JY29uAgAAAAhJY29uRGF0YQhJY29uU2l6ZQcEAhNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAIAAAAJAwAAAAX8////E1N5c3RlbS5EcmF3aW5nLlNpemUCAAAABXdpZHRoBmhlaWdodAAACAgCAAAAAAAAAAAAAAAPAwAAAD4BAAACAAABAAEAEBAQAAAABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAABAAAAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAgICAAMDAwAAAAP8AAP8AAAD//wD/AAAA/wD/AP//AAD///8AAAAAAAAAAAAAAAD////wAAAAAP////AAAAAA////8AAAAADwAADwAAAAAP////AAAAAA////8AAAAAD////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4AwAA+AMAAPgDAAD4AwAA+AMAAPgDAAD4AwAA+AMAAPgDAAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAACw==</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>Отметить все</value>
+  </data>
+  <data name="DueWork" xml:space="preserve">
+    <value>Просроченная работа: {0}ч ({1:0.00}%)</value>
+  </data>
+  <data name="RemainingWork" xml:space="preserve">
+    <value>Оставшаяся работа: {0}ч ({1:0.00}%)</value>
+  </data>
+  <data name="NotAllObjectsCouldBeSrcData" xml:space="preserve">
+    <value>Не все выбранные объекты могут применяться в качестве исходных данных. Настройками связи "Вложения ImProject" не допускается вхождение в задачи ImProject объектов следующих типов: {0}.
+Продолжить операцию с пропуском объектов данных типов?</value>
+  </data>
+  <data name="OrganizerNodeTasksIControl" xml:space="preserve">
+    <value>На контроле</value>
+  </data>
+  <data name="MoveProjectStartPrompt" xml:space="preserve">
+    <value>Дата начала задачи не может быть меньше даты начала проекта ({0}). Передвинуть начало проекта на {1}?</value>
+  </data>
+  <data name="UseSrcObjectQuery" xml:space="preserve">
+    <value>В исходных данных проекта обнаружена связь с объектом "{0}". Использовать его для импорта состава?</value>
+  </data>
+  <data name="YearAbr" xml:space="preserve">
+    <value>Год</value>
+  </data>
+  <data name="MonthAbr" xml:space="preserve">
+    <value>Месяц</value>
+  </data>
+  <data name="OrganizerNodeMyTasks" xml:space="preserve">
+    <value>Назначенные задачи</value>
+  </data>
+  <data name="ExpandComposition" xml:space="preserve">
+    <value>Раскрыть состав...</value>
+  </data>
+  <data name="CannotFind" xml:space="preserve">
+    <value>Не удается найти "{0}"</value>
+  </data>
+  <data name="ResetColumns" xml:space="preserve">
+    <value>&amp;Восстановить колонки</value>
+  </data>
+  <data name="PrintPreview" xml:space="preserve">
+    <value>Предварительный просмотр</value>
+  </data>
+  <data name="SelectByTypes" xml:space="preserve">
+    <value>Отметки по типам объектов...</value>
+  </data>
+  <data name="ResetColumnsConfirm" xml:space="preserve">
+    <value>Вы действительно хотите восстановить настройки колонок по умолчанию? Все пользовательские колонки будут удалены.</value>
+  </data>
+  <data name="FourPages" xml:space="preserve">
+    <value>Четыре страницы</value>
+  </data>
+  <data name="ImportAsSubproject" xml:space="preserve">
+    <value>Импортировать как подпроект</value>
+  </data>
+  <data name="QuarterShort" xml:space="preserve">
+    <value>Кв. {0}</value>
+  </data>
+  <data name="TwoPages" xml:space="preserve">
+    <value>Две страницы</value>
+  </data>
+  <data name="True" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Page" xml:space="preserve">
+    <value>&amp;Страница</value>
+  </data>
+  <data name="Zoom" xml:space="preserve">
+    <value>Масштаб</value>
+  </data>
+  <data name="QuarterFirst" xml:space="preserve">
+    <value>Квартал {0}, {1}</value>
+  </data>
+</root>

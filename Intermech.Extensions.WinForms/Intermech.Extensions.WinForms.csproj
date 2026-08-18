@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.Extensions.WinForms.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{87F393AE-AC19-427C-9A62-DE0DD73285E3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.Extensions.WinForms</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Extensions">
+      <HintPath>lib\Intermech.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ComponentModel\Design\Serialization\DesignSerializerInterceptor`1.cs" />
+    <Compile Include="UI\AutoHeightLabel.cs" />
+    <Compile Include="UI\PanelAdv.cs" />
+    <Compile Include="UI\CenterWinDialogHelper.cs" />
+    <Compile Include="UI\MessageBoxCentered.cs" />
+    <Compile Include="UI\FlatButton.cs" />
+    <Compile Include="UI\FlatDateTimePicker.cs" />
+    <Compile Include="UI\FlatNumericUpDown.cs" />
+    <Compile Include="UI\MouseMovedEvent.cs" />
+    <Compile Include="UI\GlobalMouseHandler.cs" />
+    <Compile Include="UI\FlatRadioButton.cs" />
+    <Compile Include="UI\LinkLabelAdv.cs" />
+    <Compile Include="UI\SmoothLabel.cs" />
+    <Compile Include="UI\Winforms\SplitButton.cs" />
+    <Compile Include="UI\Winforms\ShowMenuStripEventHandler.cs" />
+    <Compile Include="UI\Winforms\ShowMenuStripEventArgs.cs" />
+    <Compile Include="Common\LocksManager.cs" />
+    <Compile Include="Common\LockStatusChangedHandler.cs" />
+    <Compile Include="Common\IsExternalLockedHandler.cs" />
+    <Compile Include="Common\LockOperation.cs" />
+    <Compile Include="Extensions\ComboBoxExtensions.cs" />
+    <Compile Include="Extensions\ContentAlignmentExtensions.cs" />
+    <Compile Include="Extensions\ControlExtensions.cs" />
+    <Compile Include="Extensions\FormAutoFitMode.cs" />
+    <Compile Include="Extensions\LabelExtensions.cs" />
+    <Compile Include="Extensions\Controls.cs" />
+    <Compile Include="Extensions\DateTimePickerExtensions.cs" />
+    <Compile Include="Extensions\Win32WindowExtensions.cs" />
+    <Compile Include="Extensions\MessageExtensions.cs" />
+    <Compile Include="Extensions\ToolStripMenuItemExtensions.cs" />
+    <Compile Include="Extensions\Localization.cs" />
+    <Compile Include="Extensions\CustomDescription.cs" />
+    <Compile Include="Extensions\CustomDisplayName.cs" />
+    <Compile Include="Extensions\CustomCategory.cs" />
+    <Compile Include="Extensions\ColorExtensions.cs" />
+    <Compile Include="Extensions\RectangleExtensions.cs" />
+    <Compile Include="Extensions\TreeNodeExtensions.cs" />
+    <Compile Include="Extensions\TreeNodeCollectionExtensions.cs" />
+    <Compile Include="Extensions\TreeViewExtensions.cs" />
+    <Compile Include="Extensions\WinForms\FormExtensions.cs" />
+    <Compile Include="Windows\Forms\SimpleBaseControl.cs" />
+    <Compile Include="Windows\Forms\SimpleBaseForm.cs" />
+    <Compile Include="Windows\Forms\SimpleBaseUserControl.cs" />
+    <Compile Include="Windows\Forms\IDesignModeControlsContainer.cs" />
+    <Compile Include="Windows\Forms\AdvParentControlDesigner.cs" />
+    <Compile Include="Windows\Forms\ControlDesignTimeSerializationWrapper.cs" />
+    <Compile Include="Windows\Forms\UserControlDesignTimeSerializationWrapper.cs" />
+    <Compile Include="Controls\EnumPictureBox`1.cs" />
+    <Compile Include="Controls\MessageBoxPictureBox.cs" />
+    <Compile Include="Controls\AdvancedControl.cs" />
+    <Compile Include="Controls\AdvancedDialog.cs" />
+    <Compile Include="Controls\AdvancedForm.cs" />
+    <Compile Include="Controls\AdvancedUserControl.cs" />
+    <Compile Include="Controls\FlagCheckedListBox.cs" />
+    <Compile Include="Controls\FlagCheckedListBoxItem.cs" />
+    <Compile Include="Controls\FlagEnumUIEditor.cs" />
+    <Compile Include="Controls\ILastFocusedControlTracker.cs" />
+    <Compile Include="Controls\LastFocusedControlTracker.cs" />
+    <Compile Include="Controls\FlatComboBox.cs" />
+    <Compile Include="Controls\OnNavigateDelegate.cs" />
+    <Compile Include="Controls\IArrowKeysNavigationSupported.cs" />
+    <Compile Include="Controls\IFocusFromDirection.cs" />
+    <Compile Include="Controls\TreeViewExtendedInitException.cs" />
+    <Compile Include="Controls\LoadingCircle.cs" />
+    <Compile Include="Controls\MaskedEdit.cs" />
+    <Compile Include="Controls\MenuButton.cs" />
+    <Compile Include="Controls\TreeNodeExtendedCollection`1.cs" />
+    <Compile Include="Controls\TreeNodeList.cs" />
+    <Compile Include="Controls\TreeNodeCollection`1.cs" />
+    <Compile Include="Controls\TreeNodeExtendedBase.cs" />
+    <Compile Include="Controls\TreeNodeExtended`1.cs" />
+    <Compile Include="Controls\TreeNodeExtended.cs" />
+    <Compile Include="Controls\TreeNodeExtendedEventHandler.cs" />
+    <Compile Include="Controls\TreeNodeExtendedEventArgs.cs" />
+    <Compile Include="Controls\TreeNodeExtendedCancelEventHandler.cs" />
+    <Compile Include="Controls\TreeNodeExtendedCancelEventArgs.cs" />
+    <Compile Include="Controls\TreeViewExtended.cs" />
+    <Compile Include="Controls\TreeViewExtended`1.cs" />
+    <Compile Include="Controls\Win32Window.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Extensions\WinForms\Resources\Attributes.resx" />
+    <EmbeddedResource Include="Extensions\WinForms\Resources\Resources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

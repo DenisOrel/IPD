@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.Interfaces.Document.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AF224B72-CC65-459E-91F2-DDBE78CE0F11}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.Interfaces.Document</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>lib\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ReferenceViewType.cs" />
+    <Compile Include="Localization\LocalizationHolder.cs" />
+    <Compile Include="Localization\CustomDescription.cs" />
+    <Compile Include="Localization\CustomCategory.cs" />
+    <Compile Include="Localization\CustomDisplayName.cs" />
+    <Compile Include="Interfaces\Document\AdditionalAttributeCollection.cs" />
+    <Compile Include="Interfaces\Document\AttributeValueChanging_EventHandler.cs" />
+    <Compile Include="Interfaces\Document\AttributeValueChanged_EventHandler.cs" />
+    <Compile Include="Interfaces\Document\AttributeRemoving_EventHandler.cs" />
+    <Compile Include="Interfaces\Document\AttributeRemoved_EventHandler.cs" />
+    <Compile Include="Interfaces\Document\AttributeValueChanging_EventArgs.cs" />
+    <Compile Include="Interfaces\Document\AttributeValueChanged_EventArgs.cs" />
+    <Compile Include="Interfaces\Document\AttributeRemoving_EventArgs.cs" />
+    <Compile Include="Interfaces\Document\AttributeRemoved_EventArgs.cs" />
+    <Compile Include="Interfaces\Document\AdditionalAttributesConverter.cs" />
+    <Compile Include="Interfaces\Document\AttributeDescriptor.cs" />
+    <Compile Include="Interfaces\Document\AdditionalAttributesDescriptor.cs" />
+    <Compile Include="Interfaces\Document\UndoAttributeAdd.cs" />
+    <Compile Include="Interfaces\Document\UndoAttributeRemove.cs" />
+    <Compile Include="Interfaces\Document\UndoAttributeChanged.cs" />
+    <Compile Include="Interfaces\Document\AdditionalPropertiesManager.cs" />
+    <Compile Include="Interfaces\Document\GetAdditionalProperties_EventArgs.cs" />
+    <Compile Include="Interfaces\Document\GetAdditionalProperties_EventHandler.cs" />
+    <Compile Include="Interfaces\Document\ArrayEditHelper.cs" />
+    <Compile Include="Interfaces\Document\BorderLineTE.cs" />
+    <Compile Include="Interfaces\Document\BorderLine.cs" />
+    <Compile Include="Interfaces\Document\BorderLineConverter.cs" />
+    <Compile Include="Interfaces\Document\BorderLineConverterTE.cs" />
+    <Compile Include="Interfaces\Document\BorderStyles.cs" />
+    <Compile Include="Interfaces\Document\ImDocumentException.cs" />
+    <Compile Include="Interfaces\Document\CollectioncExtensionMethods.cs" />
+    <Compile Include="Interfaces\Document\ContainerData.cs" />
+    <Compile Include="Interfaces\Document\ImageScaleMode.cs" />
+    <Compile Include="Interfaces\Document\ContainerHorzAlignment.cs" />
+    <Compile Include="Interfaces\Document\DataSourceType.cs" />
+    <Compile Include="Interfaces\Document\DistributeContext.cs" />
+    <Compile Include="Interfaces\Document\DistributeContextStateInPositionAtCell.cs" />
+    <Compile Include="Interfaces\Document\DistributeDataEnumerator.cs" />
+    <Compile Include="Interfaces\Document\CellWithPosition.cs" />
+    <Compile Include="Interfaces\Document\DocumentsComplect.cs" />
+    <Compile Include="Interfaces\Document\RemoteDocumentsComplect.cs" />
+    <Compile Include="Interfaces\Document\ImDocumentEnumerator.cs" />
+    <Compile Include="Interfaces\Document\CellFlags.cs" />
+    <Compile Include="Interfaces\Document\TableDataExtension.cs" />
+    <Compile Include="Interfaces\Document\IDocumentNotifyService.cs" />
+    <Compile Include="Interfaces\Document\BeforePrintDocumentEventHandler.cs" />
+    <Compile Include="Interfaces\Document\BeforePrintDocumentEventArgs.cs" />
+    <Compile Include="Interfaces\Document\AfterPrintDocumentEventHandler.cs" />
+    <Compile Include="Interfaces\Document\AfterPrintDocumentEventArgs.cs" />
+    <Compile Include="Interfaces\Document\AutoSizeDirection.cs" />
+    <Compile Include="Interfaces\Document\PageNumExtensionStyle.cs" />
+    <Compile Include="Interfaces\Document\TextOrientation.cs" />
+    <Compile Include="Interfaces\Document\PageNumberingHelper.cs" />
+    <Compile Include="Interfaces\Document\PageNumBuilder.cs" />
+    <Compile Include="Interfaces\Document\TextOrientationExtension.cs" />
+    <Compile Include="Interfaces\Document\IExternalEditor.cs" />
+    <Compile Include="Interfaces\Document\ImageContainerConverter.cs" />
+    <Compile Include="Interfaces\Document\CustomBooleanConverter.cs" />
+    <Compile Include="Interfaces\Document\CustomBooleanNullableConverter.cs" />
+    <Compile Include="Interfaces\Document\CustomPropertyDescriptor.cs" />
+    <Compile Include="Interfaces\Document\PropertiesExtensionHelper.cs" />
+    <Compile Include="Interfaces\Document\DictionaryHelper.cs" />
+    <Compile Include="Interfaces\Document\LocalizedExpandableObjectConverter.cs" />
+    <Compile Include="Interfaces\Document\DocumentTreeNode.cs" />
+    <Compile Include="Interfaces\Document\ReadFieldFromXmlDelegate.cs" />
+    <Compile Include="Interfaces\Document\FindCondition.cs" />
+    <Compile Include="Interfaces\Document\BeforeAddChildNode_EventHandler.cs" />
+    <Compile Include="Interfaces\Document\ChildNodeAdded_EventHandler.cs" />
+    <Compile Include="Interfaces\Document\BeforeRemoveChildNode_EventHandler.cs" />
+    <Compile Include="Interfaces\Document\ChildNodeRemoved_EventHandler.cs" />
+    <Compile Include="Interfaces\Document\NodeRemoved_EventHandler.cs" />
+    <Compile Include="Interfaces\Document\ParentChanged_EventHandler.cs" />
+    <Compile Include="Interfaces\Document\NameChanged_EventHandler.cs" />
+    <Compile Include="Interfaces\Document\Changed_EventHandler.cs" />
+    <Compile Include="Interfaces\Document\ChildNodesPositionExchanged_EventHandler.cs" />
+    <Compile Include="Interfaces\Document\ChildNodePositionChanged_EventHandler.cs" />
+    <Compile Include="Interfaces\Document\StructureChanging_EventHandler.cs" />
+    <Compile Include="Interfaces\Document\EmptyConstructorDelegate.cs" />
+    <Compile Include="Interfaces\Document\CallDocNodeEditorDelegate.cs" />
+    <Compile Include="Interfaces\Document\CanCallDocNodeEditorDelegate.cs" />
+    <Compile Include="Interfaces\Document\GetPluginVirtualAttributeNames_EventHandler.cs" />
+    <Compile Include="Interfaces\Document\GetPluginVirtualAttributeValue_EventHandler.cs" />
+    <Compile Include="Interfaces\Document\BeforeAddChildNode_EventArgs.cs" />
+    <Compile Include="Interfaces\Document\BeforeRemoveChildNode_EventArgs.cs" />
+    <Compile Include="Interfaces\Document\Removed_EventArgs.cs" />
+    <Compile Include="Interfaces\Document\ChildNode_EventArgs.cs" />
+    <Compile Include="Interfaces\Document\ParentChanged_EventArgs.cs" />
+    <Compile Include="Interfaces\Document\NameChanged_EventArgs.cs" />
+    <Compile Include="Interfaces\Document\Changed_EventArgs.cs" />
+    <Compile Include="Interfaces\Document\ChildNodesPositionExchanged_EventArgs.cs" />
+    <Compile Include="Interfaces\Document\ChildNodePositionChanged_EventArgs.cs" />
+    <Compile Include="Interfaces\Document\StructureChanging_EventArgs.cs" />
+    <Compile Include="Interfaces\Document\DocumentTreeNodeConverter.cs" />
+    <Compile Include="Interfaces\Document\TemplateLinkConverter.cs" />
+    <Compile Include="Interfaces\Document\CustomExpandableObjectConverter.cs" />
+    <Compile Include="Interfaces\Document\StringKeyValue.cs" />
+    <Compile Include="Interfaces\Document\OverrideFlags.cs" />
+    <Compile Include="Interfaces\Document\OverrideFlags3.cs" />
+    <Compile Include="Interfaces\Document\OverrideFlags2.cs" />
+    <Compile Include="Interfaces\Document\PropertyAttributeWrapper.cs" />
+    <Compile Include="Interfaces\Document\PropertyAttributeForType.cs" />
+    <Compile Include="Interfaces\Document\SetVirtualAttributeResult.cs" />
+    <Compile Include="Interfaces\Document\GetVirtualAttributeResult.cs" />
+    <Compile Include="Interfaces\Document\ChildLinkAttribute.cs" />
+    <Compile Include="Interfaces\Document\SerializeAsLinkAttribute.cs" />
+    <Compile Include="Interfaces\Document\FindFieldHelper.cs" />
+    <Compile Include="Interfaces\Document\ExceptionMessages.cs" />
+    <Compile Include="Interfaces\Document\ContextFlags.cs" />
+    <Compile Include="Interfaces\Document\AdditionalContext.cs" />
+    <Compile Include="Interfaces\Document\DocNodeComparer.cs" />
+    <Compile Include="Interfaces\Document\DocumentTreeNodeCollection.cs" />
+    <Compile Include="Interfaces\Document\ExternalLinkAttribute.cs" />
+    <Compile Include="Interfaces\Document\CharFormat.cs" />
+    <Compile Include="Interfaces\Document\CharFormatConverter.cs" />
+    <Compile Include="Interfaces\Document\DefaultCharFormatConverter.cs" />
+    <Compile Include="Interfaces\Document\BoldItalicStyle.cs" />
+    <Compile Include="Interfaces\Document\UnderlineStyle.cs" />
+    <Compile Include="Interfaces\Document\StrikeoutLineStyle.cs" />
+    <Compile Include="Interfaces\Document\CharStyle.cs" />
+    <Compile Include="Interfaces\Document\FlowCollection.cs" />
+    <Compile Include="Interfaces\Document\PointFConverter.cs" />
+    <Compile Include="Interfaces\Document\SizeFConverter.cs" />
+    <Compile Include="Interfaces\Document\SMConverter.cs" />
+    <Compile Include="Interfaces\Document\MMConverter.cs" />
+    <Compile Include="Interfaces\Document\LineSpacingConverter.cs" />
+    <Compile Include="Interfaces\Document\PTConverter.cs" />
+    <Compile Include="Interfaces\Document\FloatConverter.cs" />
+    <Compile Include="Interfaces\Document\FontSizeConverter.cs" />
+    <Compile Include="Interfaces\Document\FontSizeMmConverter.cs" />
+    <Compile Include="Interfaces\Document\IDocumentElement.cs" />
+    <Compile Include="Interfaces\Document\IFlowElement.cs" />
+    <Compile Include="Interfaces\Document\FlowID.cs" />
+    <Compile Include="Interfaces\Document\ImDocumentData.cs" />
+    <Compile Include="Interfaces\Document\ShowExceptionDialogDelegate.cs" />
+    <Compile Include="Interfaces\Document\PageEnumerator.cs" />
+    <Compile Include="Interfaces\Document\StartPageEnumerator.cs" />
+    <Compile Include="Interfaces\Document\TemplateChanged_EventArgs.cs" />
+    <Compile Include="Interfaces\Document\PageDistribute_EventHandler.cs" />
+    <Compile Include="Interfaces\Document\PageDistribute_EventArgs.cs" />
+    <Compile Include="Interfaces\Document\TemplateChanged_EventHandler.cs" />
+    <Compile Include="Interfaces\Document\TemplateChanging_EventArgs.cs" />
+    <Compile Include="Interfaces\Document\TemplateChanging_EventHandler.cs" />
+    <Compile Include="Interfaces\Document\ImPrintSettings.cs" />
+    <Compile Include="Interfaces\Document\DistributePageFinishedArgs.cs" />
+    <Compile Include="Interfaces\Document\DistributePageFinished_EventHandler.cs" />
+    <Compile Include="Interfaces\Document\PageUnlockedArgs.cs" />
+    <Compile Include="Interfaces\Document\PageUnlocked_EventHandler.cs" />
+    <Compile Include="Interfaces\Document\DocumentBackgroundThreadType.cs" />
+    <Compile Include="Interfaces\Document\BackgroundThreadsFinishedArgs.cs" />
+    <Compile Include="Interfaces\Document\BackgroundThreadsFinished_EventHandler.cs" />
+    <Compile Include="Interfaces\Document\PageThreadStatus.cs" />
+    <Compile Include="Interfaces\Document\DistributeThreadArgs.cs" />
+    <Compile Include="Interfaces\Document\ModifiedChanged_EventHandler.cs" />
+    <Compile Include="Interfaces\Document\ModifiedChanged_EventArgs.cs" />
+    <Compile Include="Interfaces\Document\AfterUpdatePageNumbers_EventHandler.cs" />
+    <Compile Include="Interfaces\Document\AfterUpdatePageNumbers_EventArgs.cs" />
+    <Compile Include="Interfaces\Document\DocumentViewMode.cs" />
+    <Compile Include="Interfaces\Document\UpdateReferencesMode.cs" />
+    <Compile Include="Interfaces\Document\ImGraphics.cs" />
+    <Compile Include="Interfaces\Document\ImRemoteDocument.cs" />
+    <Compile Include="Interfaces\Document\IParentFlow.cs" />
+    <Compile Include="Interfaces\Document\IUndoManager.cs" />
+    <Compile Include="Interfaces\Document\IUndoAction.cs" />
+    <Compile Include="Interfaces\Document\ICloneAction.cs" />
+    <Compile Include="Interfaces\Document\IUniqueIdService.cs" />
+    <Compile Include="Interfaces\Document\IWriteReadXml.cs" />
+    <Compile Include="Interfaces\Document\IUnknownXmlElement.cs" />
+    <Compile Include="Interfaces\Document\XmlReadArgs.cs" />
+    <Compile Include="Interfaces\Document\LogManager.cs" />
+    <Compile Include="Interfaces\Document\MatrixWrapper.cs" />
+    <Compile Include="Interfaces\Document\DocumentNodesClipboardData.cs" />
+    <Compile Include="Interfaces\Document\NodeClipboardInfo.cs" />
+    <Compile Include="Interfaces\Document\PageData.cs" />
+    <Compile Include="Interfaces\Document\DocumentChanged_EventHandler.cs" />
+    <Compile Include="Interfaces\Document\DocumentChanged_EventArgs.cs" />
+    <Compile Include="Interfaces\Document\PageCoorSystem.cs" />
+    <Compile Include="Interfaces\Document\PageElementNode.cs" />
+    <Compile Include="Interfaces\Document\ShowOnPageOnly.cs" />
+    <Compile Include="Interfaces\Document\ShowOnPageOnlyConverter.cs" />
+    <Compile Include="Interfaces\Document\ShowOnPageOnlyPropertyWrapper.cs" />
+    <Compile Include="Interfaces\Document\ParagraphFormat.cs" />
+    <Compile Include="Interfaces\Document\ParagraphFormatConverter.cs" />
+    <Compile Include="Interfaces\Document\DefaultParagraphFormatConverter.cs" />
+    <Compile Include="Interfaces\Document\LineSpacingMethod.cs" />
+    <Compile Include="Interfaces\Document\HorzAlignment.cs" />
+    <Compile Include="Interfaces\Document\VertAlignment.cs" />
+    <Compile Include="Interfaces\Document\PictAlignmentInText.cs" />
+    <Compile Include="Interfaces\Document\PolylineData.cs" />
+    <Compile Include="Interfaces\Document\LineDashStyle.cs" />
+    <Compile Include="Interfaces\Document\PolylinePointArrayConverter.cs" />
+    <Compile Include="Interfaces\Document\PolylinePointDescriptor.cs" />
+    <Compile Include="Interfaces\Document\RectangleBorder.cs" />
+    <Compile Include="Interfaces\Document\CustomBorder.cs" />
+    <Compile Include="Interfaces\Document\RectangleBorderConverter.cs" />
+    <Compile Include="Interfaces\Document\RectangleElement.cs" />
+    <Compile Include="Interfaces\Document\ElementHorizontalAlign.cs" />
+    <Compile Include="Interfaces\Document\ElementVerticalAlign.cs" />
+    <Compile Include="Interfaces\Document\MarginsF.cs" />
+    <Compile Include="Interfaces\Document\DistributeContext_OLD.cs" />
+    <Compile Include="Interfaces\Document\CellBounds.cs" />
+    <Compile Include="Interfaces\Document\BoundsHelper.cs" />
+    <Compile Include="Interfaces\Document\TableGridPosition.cs" />
+    <Compile Include="Interfaces\Document\GridIdPosition.cs" />
+    <Compile Include="Interfaces\Document\BordersStatus.cs" />
+    <Compile Include="Interfaces\Document\BordersPosition.cs" />
+    <Compile Include="Interfaces\Document\ReferenceBase.cs" />
+    <Compile Include="Interfaces\Document\UnknownReferenceToObject.cs" />
+    <Compile Include="Interfaces\Document\UnknownReferenceToTextSource.cs" />
+    <Compile Include="Interfaces\Document\ReadOnlyForDlgAttribute.cs" />
+    <Compile Include="Interfaces\Document\ITextSourceWithCallChain.cs" />
+    <Compile Include="Interfaces\Document\ITextSource.cs" />
+    <Compile Include="Interfaces\Document\IEditableReferenceToObject.cs" />
+    <Compile Include="Interfaces\Document\IEditableReferenceToTextSource.cs" />
+    <Compile Include="Interfaces\Document\INodeWithReference.cs" />
+    <Compile Include="Interfaces\Document\ReferenceBaseConverter.cs" />
+    <Compile Include="Interfaces\Document\ReferenceToDBObjectAttributeBase.cs" />
+    <Compile Include="Interfaces\Document\ReferenceToDBObjectBase.cs" />
+    <Compile Include="Interfaces\Document\DBObjectInfoBase.cs" />
+    <Compile Include="Interfaces\Document\DBObjectInfo.cs" />
+    <Compile Include="Interfaces\Document\DBRelationInfo.cs" />
+    <Compile Include="Interfaces\Document\RefToDBObjectType.cs" />
+    <Compile Include="Interfaces\Document\AttributeValueCache.cs" />
+    <Compile Include="Interfaces\Document\ReferenceToGraphicsBase.cs" />
+    <Compile Include="Interfaces\Document\ReferenceToNode.cs" />
+    <Compile Include="Interfaces\Document\ReferenceToNodeAttributeBase.cs" />
+    <Compile Include="Interfaces\Document\BaseReferenceNodeType.cs" />
+    <Compile Include="Interfaces\Document\ReferenceToNodeId.cs" />
+    <Compile Include="Interfaces\Document\ReferenceToSignBase.cs" />
+    <Compile Include="Interfaces\Document\SignTypeEnum.cs" />
+    <Compile Include="Interfaces\Document\ReferenceToNodeInTemplate.cs" />
+    <Compile Include="Interfaces\Document\ReferenceToTemplate.cs" />
+    <Compile Include="Interfaces\Document\RowColParams.cs" />
+    <Compile Include="Interfaces\Document\RowColumnParamsConverter.cs" />
+    <Compile Include="Interfaces\Document\DocumentSection.cs" />
+    <Compile Include="Interfaces\Document\ScriptResult.cs" />
+    <Compile Include="Interfaces\Document\TableData.cs" />
+    <Compile Include="Interfaces\Document\CellNodesEnumerator.cs" />
+    <Compile Include="Interfaces\Document\DataNodesEnumerator.cs" />
+    <Compile Include="Interfaces\Document\TextCellEnumerator.cs" />
+    <Compile Include="Interfaces\Document\DataCellTypeConverter.cs" />
+    <Compile Include="Interfaces\Document\GridColumnsConverter.cs" />
+    <Compile Include="Interfaces\Document\GridColumnDescriptor.cs" />
+    <Compile Include="Interfaces\Document\HeaderShowType.cs" />
+    <Compile Include="Interfaces\Document\DistributeResult.cs" />
+    <Compile Include="Interfaces\Document\CellType.cs" />
+    <Compile Include="Interfaces\Document\BeforeDistribute_EventHandler.cs" />
+    <Compile Include="Interfaces\Document\DistributeDataEnumeratorOld.cs" />
+    <Compile Include="Interfaces\Document\TableCellDistributeContextOld.cs" />
+    <Compile Include="Interfaces\Document\TextData.cs" />
+    <Compile Include="Interfaces\Document\PlaneTextFormat.cs" />
+    <Compile Include="Interfaces\Document\FontXmlWrapper.cs" />
+    <Compile Include="Interfaces\Document\AfterChangeValue_EventHandler.cs" />
+    <Compile Include="Interfaces\Document\AfterChangeValue_EventArgs.cs" />
+    <Compile Include="Interfaces\Document\TextChanged_EventHandler.cs" />
+    <Compile Include="Interfaces\Document\TextChanged_EventArgs.cs" />
+    <Compile Include="Interfaces\Document\TextValidating_EventHandler.cs" />
+    <Compile Include="Interfaces\Document\TextValidating_EventArgs.cs" />
+    <Compile Include="Interfaces\Document\TextReadOnly_EventHandler.cs" />
+    <Compile Include="Interfaces\Document\TextReadOnly_EventArgs.cs" />
+    <Compile Include="Interfaces\Document\AddAttrValue.cs" />
+    <Compile Include="Interfaces\Document\UniqueIdGenerator.cs" />
+    <Compile Include="Interfaces\Document\UnitsConverter.cs" />
+    <Compile Include="Interfaces\Document\VisualNode.cs" />
+    <Compile Include="Interfaces\Document\VisibleChanged_EventArgs.cs" />
+    <Compile Include="Interfaces\Document\VisibleChanged_EventHandler.cs" />
+    <Compile Include="Interfaces\Document\UIGeometryChanged_EventArgs.cs" />
+    <Compile Include="Interfaces\Document\UIGeometryChanged_EventHandler.cs" />
+    <Compile Include="Interfaces\Document\DrawContext.cs" />
+    <Compile Include="Interfaces\Document\CellContext.cs" />
+    <Compile Include="Interfaces\Document\SnapPoint.cs" />
+    <Compile Include="Interfaces\Document\SnapPointType.cs" />
+    <Compile Include="Interfaces\Document\LeftCoorComparer.cs" />
+    <Compile Include="Interfaces\Document\RightCoorComparer.cs" />
+    <Compile Include="Interfaces\Document\TopCoorComparer.cs" />
+    <Compile Include="Interfaces\Document\BottomCoorComparer.cs" />
+    <Compile Include="Interfaces\Document\WriteReadXmlHelper.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Interfaces\Document\Resources\CustomAttributesResources.resx" />
+    <EmbeddedResource Include="Interfaces\Document\Resources\InterfacesDocumentResources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

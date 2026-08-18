@@ -1,0 +1,19 @@
+﻿
+// Type: Intermech.Docking.DocumentClosedEventArgs
+// Assembly: Intermech.Docking, Version=4.0.25.0, Culture=neutral, PublicKeyToken=null
+// MVID: 5F97F850-2D29-46D1-A3D7-6B2A02E86D46
+:\IPS\Client\Intermech.Docking.dll
+
+using System;
+
+
+namespace Intermech.Docking;
+
+public class DocumentClosedEventArgs : EventArgs
+{
+  private DockControl _document;
+
+  internal DocumentClosedEventArgs(DockControl document) => this._document = document;
+
+  public DockControl Document => this._document;
+}

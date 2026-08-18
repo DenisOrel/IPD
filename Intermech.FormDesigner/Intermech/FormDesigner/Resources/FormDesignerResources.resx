@@ -1,0 +1,1198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EditorForm.SelectionObjectDialog.Message" xml:space="preserve">
+    <value>Выберите форму</value>
+  </data>
+  <data name="Attribute_DormDesigner_MaskFormat_IncludeLiterals" xml:space="preserve">
+    <value>Текст и символьные литералы, определенные в маске</value>
+  </data>
+  <data name="FormDesigner_PropGroupName_Behavior" xml:space="preserve">
+    <value>Поведение</value>
+  </data>
+  <data name="Attribute_DormDesigner_MaskFormat_IncludePrompt" xml:space="preserve">
+    <value>Текст и символ приглашения</value>
+  </data>
+  <data name="FormDesigner_PropDescr_DisableColumnsGrouping" xml:space="preserve">
+    <value>Запрещает группировку колонок в элементе управления</value>
+  </data>
+  <data name="FormDesigner.TabPages.Name" xml:space="preserve">
+    <value>Страницы</value>
+  </data>
+  <data name="FormDesigner_PropDescr_UseColumnsAliases" xml:space="preserve">
+    <value>Использование наименований колонок определенных пользователем</value>
+  </data>
+  <data name="FormDesigner_PropDescr_ObjectsType_Description" xml:space="preserve">
+    <value>Тип отображаемых объектов</value>
+  </data>
+  <data name="FormDesigner_182_t" xml:space="preserve">
+    <value>Список ссылок на объекты (табличная форма)</value>
+  </data>
+  <data name="FormDesigner_CheckSelection" xml:space="preserve">
+    <value>Выберите выборку</value>
+  </data>
+  <data name="FormDesigner.BackgroundImageLayoutConverter.Center" xml:space="preserve">
+    <value>По центру</value>
+  </data>
+  <data name="FormDesigner_MsgDlg_ViewSettings_Message" xml:space="preserve">
+    <value>Определенный набор колонок может не соответствовать выбранному типу объектов.
+Сбросить настройки отображения?</value>
+  </data>
+  <data name="FormDesigner.ToolBoxCategory.Lists" xml:space="preserve">
+    <value>Списки</value>
+  </data>
+  <data name="FormDesigner_PropDescr_FlatStyle" xml:space="preserve">
+    <value>Задает плоский внешний вид для элемента управления.</value>
+  </data>
+  <data name="FormDesigner.FontUnitsConverter.Pixel" xml:space="preserve">
+    <value>Пиксел</value>
+  </data>
+  <data name="FormDesigner.FontUnitsConverter.Point" xml:space="preserve">
+    <value>Точка</value>
+  </data>
+  <data name="FormDesigner_PropDescr_AutoSize" xml:space="preserve">
+    <value>Задает значение, показывающее, изменяет ли элемент управления размеры автоматически для отображения всего содержимого.</value>
+  </data>
+  <data name="FormDesigner.FontUnitsConverter.World" xml:space="preserve">
+    <value>Мировая</value>
+  </data>
+  <data name="FormDesigner_DateTime_Format_AttributeMask" xml:space="preserve">
+    <value>Маска атрибута</value>
+  </data>
+  <data name="FormDesigner.Attribute.AutoSizeMode.Name" xml:space="preserve">
+    <value>Режим авторазмера</value>
+  </data>
+  <data name="FormDesigner_ListContextConverter_Composition" xml:space="preserve">
+    <value>Состав</value>
+  </data>
+  <data name="FormDesigner_PropDescr_Margin" xml:space="preserve">
+    <value>Задает расстояние между элементами управления.</value>
+  </data>
+  <data name="EditorForm.SelectionObjectDialog.Caption" xml:space="preserve">
+    <value>Диалог выбора</value>
+  </data>
+  <data name="FormDesigner_PropDescr_Image" xml:space="preserve">
+    <value>Задает фоновое изображение, выводимое на элементе управления.</value>
+  </data>
+  <data name="FormDesigner.FontUnitsConverter.Inch" xml:space="preserve">
+    <value>Дюйм</value>
+  </data>
+  <data name="FormDesigner.DialogResultConverter.None" xml:space="preserve">
+    <value>Ничего</value>
+  </data>
+  <data name="FormDesigner_PropDescr_Anchor" xml:space="preserve">
+    <value>Задает значение, указывающее, какие края элемента управления будут привязаны к краям контейнера.</value>
+  </data>
+  <data name="FormDesigner_PropDescr_ForeColor" xml:space="preserve">
+    <value>Задает основной цвет элемента управления, который используется для отображаемого текста.</value>
+  </data>
+  <data name="FormDesigner.DialogResultConverter.Cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="Attribute_DormDesigner_MaskFormat_ExcludePromptAndLiterals" xml:space="preserve">
+    <value>Только текст</value>
+  </data>
+  <data name="FormDesigner_PropDescr_FormDesignerAction" xml:space="preserve">
+    <value>Задает действие, выполняемое при нажатии на кнопку.</value>
+  </data>
+  <data name="FormDesigner_PropDescr_Columns_Description" xml:space="preserve">
+    <value>Набор отображаемых колонок</value>
+  </data>
+  <data name="FormDesigner_Prop_AlwaysEnabled" xml:space="preserve">
+    <value>Всегда активна</value>
+  </data>
+  <data name="FormDesigner_Sort_DESC" xml:space="preserve">
+    <value>По убыванию</value>
+  </data>
+  <data name="FormDesigner.FontUnitsConverter.Millimeter" xml:space="preserve">
+    <value>Миллиметр</value>
+  </data>
+  <data name="FormDesigner_ContextSelections" xml:space="preserve">
+    <value>Контекстные выборки</value>
+  </data>
+  <data name="FormDesigner.DialogResultConverter.Retry" xml:space="preserve">
+    <value>Повторить</value>
+  </data>
+  <data name="FormDesigner.DialogResultConverter.Abort" xml:space="preserve">
+    <value>Прервать</value>
+  </data>
+  <data name="FormDesigner.FontUnitsConverter.Document" xml:space="preserve">
+    <value>Документ</value>
+  </data>
+  <data name="FormDesigner_PropDescr_DataSourceName" xml:space="preserve">
+    <value>Наименование объекта, который будет являться источником информации</value>
+  </data>
+  <data name="FormDesigner_PropName_Name" xml:space="preserve">
+    <value>Наименование</value>
+  </data>
+  <data name="FormDesigner_PropDescr_EditMode_Name" xml:space="preserve">
+    <value>Режим редактирования</value>
+  </data>
+  <data name="FormDesigner.AttrDTPWrapper.OutOfRangeValue.Message" xml:space="preserve">
+    <value>Значение '{0}' недопустимо для свойства 'Значение'.
+'Значение' должно лежать в диапазоне от 'Минимальная дата' до 'Максимальная дата'.
+Имя параметра: Значение</value>
+  </data>
+  <data name="FormDesigner_ContextSelection" xml:space="preserve">
+    <value>Контекстная выборка</value>
+  </data>
+  <data name="FormDesigner_PropName_Tag" xml:space="preserve">
+    <value>Тег</value>
+  </data>
+  <data name="FormDesigner_PropDescr_Location" xml:space="preserve">
+    <value>Задает координаты левого верхнего угла элемента управления.</value>
+  </data>
+  <data name="FormDesigner.DialogResultConverter.Ignore" xml:space="preserve">
+    <value>Игнорировать</value>
+  </data>
+  <data name="FormDesigner_9" xml:space="preserve">
+    <value>Тип связи</value>
+  </data>
+  <data name="FormDesigner_8" xml:space="preserve">
+    <value>Тип объекта</value>
+  </data>
+  <data name="FormDesigner_1" xml:space="preserve">
+    <value>Все атрибуты</value>
+  </data>
+  <data name="FormDesigner_3" xml:space="preserve">
+    <value>Атрибут "{0}" не найден.
+</value>
+  </data>
+  <data name="FormDesigner_2" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="FormDesigner_5" xml:space="preserve">
+    <value>Метка "{0}" установлена на позицию {1}.
+</value>
+  </data>
+  <data name="FormDesigner_4" xml:space="preserve">
+    <value>Тип элемента управления для атрибута "{0}" не задан.
+</value>
+  </data>
+  <data name="FormDesigner_7" xml:space="preserve">
+    <value>Завершить</value>
+  </data>
+  <data name="FormDesigner_6" xml:space="preserve">
+    <value>Элемент управления "{0}" типа "{1}" установлен на позицию {2}.
+</value>
+  </data>
+  <data name="FormDesigner_AfterDoubleClickConverter_Card" xml:space="preserve">
+    <value>Открыть карточку объекта</value>
+  </data>
+  <data name="Attribute_DormDesigner_MaskFormat_IncludePromptAndLiterals" xml:space="preserve">
+    <value>Текст, символьные литералы и символ приглашения</value>
+  </data>
+  <data name="FormDesigner_PropName_DataSourceName" xml:space="preserve">
+    <value>Наименование источника</value>
+  </data>
+  <data name="FormDesigner.DialogResultConverter.Yes" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="FormDesigner_PropDescr_ColumnsAliases" xml:space="preserve">
+    <value>Возможность переименовать колонки с данными.</value>
+  </data>
+  <data name="FormDesigner_PropDescr_ShowContextMenu_Name" xml:space="preserve">
+    <value>Контекстное меню</value>
+  </data>
+  <data name="FormDesigner_PropDescr_ShowContextMenu_Description" xml:space="preserve">
+    <value>Включает/отключает возможность отображения контекстного меню команд навигатора.</value>
+  </data>
+  <data name="FormDesigner.BooleanConverter.True" xml:space="preserve">
+    <value>Разрешить</value>
+  </data>
+  <data name="FormDesigner_Sort_ASC" xml:space="preserve">
+    <value>По возрастанию</value>
+  </data>
+  <data name="FormDesigner_MsgDlg_ViewSettings_Caption" xml:space="preserve">
+    <value>Настройка отображения</value>
+  </data>
+  <data name="FormDesigner.Attribute.AttributeDestinationPoint.Relation" xml:space="preserve">
+    <value>Атрибут дополнительной связи</value>
+  </data>
+  <data name="FormDesigner_PropDescr_AutoSizeMode" xml:space="preserve">
+    <value>Задает режим установки автоматического размера элемента управления.</value>
+  </data>
+  <data name="FormDesigner_FormProp_Events_ConverterText" xml:space="preserve">
+    <value>События назначены</value>
+  </data>
+  <data name="FormDesigner_PropDescr_StatusBar_Description" xml:space="preserve">
+    <value>Отображать строку состояния</value>
+  </data>
+  <data name="FormDesigner_PropDescr_DefaultSortingColumns_Name" xml:space="preserve">
+    <value>Сортировка по умолчанию</value>
+  </data>
+  <data name="FormDesigner_PropName_ColumnsAliases" xml:space="preserve">
+    <value>Псевдонимы колонок</value>
+  </data>
+  <data name="FormDesigner_AllObjectsTypes" xml:space="preserve">
+    <value>Все типы объектов</value>
+  </data>
+  <data name="FormDesigner_PropDescr_Padding" xml:space="preserve">
+    <value>Задает величину отступа вокруг текста в элементе управления.</value>
+  </data>
+  <data name="FormDesigner_PropName_DisableColumnsGrouping" xml:space="preserve">
+    <value>Запрет группировки колонок</value>
+  </data>
+  <data name="FormDesigner_PropDescr_Tag" xml:space="preserve">
+    <value>Дополнительное описание.</value>
+  </data>
+  <data name="FormDesigner_PropDescr_DefaultSortingColumns_Description" xml:space="preserve">
+    <value>Набор колонок для сортировки по умолчанию</value>
+  </data>
+  <data name="FormDesigner_PropName_AfterDoubleClick" xml:space="preserve">
+    <value>По двойному клику</value>
+  </data>
+  <data name="FormDesigner.AttrDTPWrapper.InvalidValue.Caption" xml:space="preserve">
+    <value>Недопустимое значение свойства</value>
+  </data>
+  <data name="FormDesigner.AttrDTPWrapper.InvalidValue.Message" xml:space="preserve">
+    <value>{0} не является допустимым значением для "Календаря".</value>
+  </data>
+  <data name="FormDesigner_Collection" xml:space="preserve">
+    <value>Коллекция</value>
+  </data>
+  <data name="FormDesigner_PropGroupName_Appearance" xml:space="preserve">
+    <value>Внешний вид</value>
+  </data>
+  <data name="FormDesigner.ToolBox.DefaultCategory" xml:space="preserve">
+    <value>Категория по умолчанию</value>
+  </data>
+  <data name="FormDesigner_PropDescr_ToolTip" xml:space="preserve">
+    <value>Представляет всплывающее окно с кратким описанием назначения элемента управления, когда пользователь наводит указатель мыши на элемент управления.</value>
+  </data>
+  <data name="FormDesigner_170a" xml:space="preserve">
+    <value>Предварительный просмотр</value>
+  </data>
+  <data name="FormDesigner_PropDescr_BackColor" xml:space="preserve">
+    <value>Задает цвет фона элемента управления.</value>
+  </data>
+  <data name="FormDesigner_AfterDoubleClickConverter_InTree" xml:space="preserve">
+    <value>Перейти в дерево</value>
+  </data>
+  <data name="FormDesigner_PropDescr_PictureSelectMode" xml:space="preserve">
+    <value>Метод выбора изображения: фиксированный при редактировании объекта формы или пользовательский при заполнении формы данными объекта/связи</value>
+  </data>
+  <data name="FormDesigner.ToolBoxCategory.TextElements" xml:space="preserve">
+    <value>Текстовые элементы</value>
+  </data>
+  <data name="FormDesigner_AllRelationsTypes" xml:space="preserve">
+    <value>Все типы связей</value>
+  </data>
+  <data name="FormDesigner_PropName_PictureSelectMode" xml:space="preserve">
+    <value>Выбор изображения</value>
+  </data>
+  <data name="FormDesigner.ImbaseCatalog.List" xml:space="preserve">
+    <value>Список каталогов</value>
+  </data>
+  <data name="FormDesigner_PropDescr_Name" xml:space="preserve">
+    <value>Задает наименование элемента управления.</value>
+  </data>
+  <data name="FormDesigner_PropDescr_Font" xml:space="preserve">
+    <value>Задает шрифт текста, отображаемого элементом управления.</value>
+  </data>
+  <data name="FormDesigner_PropDescr_Dock" xml:space="preserve">
+    <value>Задает край родительского контейнера, к которому прикрепляется элемент управления.</value>
+  </data>
+  <data name="FormDesigner_PropDescr_Size" xml:space="preserve">
+    <value>Задает высоту и ширину элемента управления.</value>
+  </data>
+  <data name="FormDesigner_PropDescr_Text" xml:space="preserve">
+    <value>Задает текст, связанный с элементом управления.</value>
+  </data>
+  <data name="FormDesigner_PropDescr_EditMode_Description" xml:space="preserve">
+    <value>Включает/отключает возможность редактирования атрибутов в элементе управления.</value>
+  </data>
+  <data name="FormDesigner.ToolBoxCategory.Buttons" xml:space="preserve">
+    <value>Кнопки и переключатели</value>
+  </data>
+  <data name="FormDesigner.DateTimePickerDropDownAlignConverter.Left" xml:space="preserve">
+    <value>Слева</value>
+  </data>
+  <data name="FormDesigner_PropGroupName_Data" xml:space="preserve">
+    <value>Данные</value>
+  </data>
+  <data name="FormDesigner.ToolBoxCategory.Grouping" xml:space="preserve">
+    <value>Группировка и оформление</value>
+  </data>
+  <data name="FormDesigner.BackgroundImageLayout.Name" xml:space="preserve">
+    <value>Размещение изображения</value>
+  </data>
+  <data name="FormDesigner_90" xml:space="preserve">
+    <value>Ручной</value>
+  </data>
+  <data name="FormDesigner_91" xml:space="preserve">
+    <value>Прижатый вправо</value>
+  </data>
+  <data name="FormDesigner_92" xml:space="preserve">
+    <value>По ширине</value>
+  </data>
+  <data name="FormDesigner_93" xml:space="preserve">
+    <value>По центру</value>
+  </data>
+  <data name="FormDesigner_94" xml:space="preserve">
+    <value>Оба</value>
+  </data>
+  <data name="FormDesigner_95" xml:space="preserve">
+    <value>Горизонтальный</value>
+  </data>
+  <data name="FormDesigner_96" xml:space="preserve">
+    <value>Вертикальный</value>
+  </data>
+  <data name="FormDesigner_97" xml:space="preserve">
+    <value>Пользовательский</value>
+  </data>
+  <data name="FormDesigner_98" xml:space="preserve">
+    <value>Длинный</value>
+  </data>
+  <data name="FormDesigner_99" xml:space="preserve">
+    <value>Короткий</value>
+  </data>
+  <data name="FormDesigner_81" xml:space="preserve">
+    <value>8 бит</value>
+  </data>
+  <data name="FormDesigner_80" xml:space="preserve">
+    <value>4 бита</value>
+  </data>
+  <data name="FormDesigner_83" xml:space="preserve">
+    <value>24 бита</value>
+  </data>
+  <data name="FormDesigner_82" xml:space="preserve">
+    <value>16 бит</value>
+  </data>
+  <data name="FormDesigner_85" xml:space="preserve">
+    <value>Авторазмер</value>
+  </data>
+  <data name="FormDesigner_84" xml:space="preserve">
+    <value>32 бита</value>
+  </data>
+  <data name="FormDesigner_87" xml:space="preserve">
+    <value>Растягивать</value>
+  </data>
+  <data name="FormDesigner_86" xml:space="preserve">
+    <value>Центрировать</value>
+  </data>
+  <data name="FormDesigner_89" xml:space="preserve">
+    <value>Плоские кнопки</value>
+  </data>
+  <data name="FormDesigner_88" xml:space="preserve">
+    <value>Кнопки</value>
+  </data>
+  <data name="FormDesigner_18" xml:space="preserve">
+    <value>Поместить вниз</value>
+  </data>
+  <data name="FormDesigner_19" xml:space="preserve">
+    <value>Поместить наверх</value>
+  </data>
+  <data name="FormDesigner_10" xml:space="preserve">
+    <value>Типы объектов</value>
+  </data>
+  <data name="FormDesigner_11" xml:space="preserve">
+    <value>Тип объекта не найден</value>
+  </data>
+  <data name="FormDesigner_12" xml:space="preserve">
+    <value>Типы связей</value>
+  </data>
+  <data name="FormDesigner_13" xml:space="preserve">
+    <value>Тип связи не найден</value>
+  </data>
+  <data name="FormDesigner_14" xml:space="preserve">
+    <value>Форма взята на изменение другим пользователем</value>
+  </data>
+  <data name="FormDesigner_15" xml:space="preserve">
+    <value>Форму нельзя редактировать на данном этапе жизненного цикла</value>
+  </data>
+  <data name="FormDesigner_16" xml:space="preserve">
+    <value>Контекстное меню</value>
+  </data>
+  <data name="FormDesigner_17" xml:space="preserve">
+    <value>Связать форму</value>
+  </data>
+  <data name="FormDesigner_38" xml:space="preserve">
+    <value>Изменяемый</value>
+  </data>
+  <data name="FormDesigner_39" xml:space="preserve">
+    <value>Изменяемый Окно Инструментов</value>
+  </data>
+  <data name="FormDesigner_32" xml:space="preserve">
+    <value>Расширенное длинное дата-время</value>
+  </data>
+  <data name="FormDesigner_33" xml:space="preserve">
+    <value>Неверная строка формата даты-времени</value>
+  </data>
+  <data name="FormDesigner_30" xml:space="preserve">
+    <value>Базовое длинное дата время</value>
+  </data>
+  <data name="FormDesigner_31" xml:space="preserve">
+    <value>Расширенное краткое дата-время</value>
+  </data>
+  <data name="FormDesigner_36" xml:space="preserve">
+    <value>Фиксир. Простой</value>
+  </data>
+  <data name="FormDesigner_37" xml:space="preserve">
+    <value>Фиксир. Окно Инструментов</value>
+  </data>
+  <data name="FormDesigner_34" xml:space="preserve">
+    <value>Фиксир. 3D</value>
+  </data>
+  <data name="FormDesigner_35" xml:space="preserve">
+    <value>Фиксир. Диалоговый</value>
+  </data>
+  <data name="FormDesigner_58" xml:space="preserve">
+    <value>Мультирасширенный</value>
+  </data>
+  <data name="FormDesigner_59" xml:space="preserve">
+    <value>Мультипростой</value>
+  </data>
+  <data name="FormDesigner_54" xml:space="preserve">
+    <value>Обычный</value>
+  </data>
+  <data name="FormDesigner_55" xml:space="preserve">
+    <value>Установлено</value>
+  </data>
+  <data name="FormDesigner_56" xml:space="preserve">
+    <value>Неопределено</value>
+  </data>
+  <data name="FormDesigner_57" xml:space="preserve">
+    <value>Неустановлено</value>
+  </data>
+  <data name="FormDesigner_50" xml:space="preserve">
+    <value>Вниз-Влево</value>
+  </data>
+  <data name="FormDesigner_51" xml:space="preserve">
+    <value>Вниз-По центру</value>
+  </data>
+  <data name="FormDesigner_52" xml:space="preserve">
+    <value>Вниз-Вправо</value>
+  </data>
+  <data name="FormDesigner_53" xml:space="preserve">
+    <value>Кнопка</value>
+  </data>
+  <data name="FormDesigner_29" xml:space="preserve">
+    <value>Базовое краткое дата-время</value>
+  </data>
+  <data name="FormDesigner_28" xml:space="preserve">
+    <value>Длинное время</value>
+  </data>
+  <data name="FormDesigner_23" xml:space="preserve">
+    <value>Вырезать</value>
+  </data>
+  <data name="FormDesigner_22" xml:space="preserve">
+    <value>Копировать</value>
+  </data>
+  <data name="FormDesigner_21" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="FormDesigner_20" xml:space="preserve">
+    <value>Выровнять по сетке</value>
+  </data>
+  <data name="FormDesigner_27" xml:space="preserve">
+    <value>Краткое время</value>
+  </data>
+  <data name="FormDesigner_26" xml:space="preserve">
+    <value>Длинная дата</value>
+  </data>
+  <data name="FormDesigner_25" xml:space="preserve">
+    <value>Краткая дата</value>
+  </data>
+  <data name="FormDesigner_24" xml:space="preserve">
+    <value>Вставить</value>
+  </data>
+  <data name="FormDesigner_78" xml:space="preserve">
+    <value>Скрыто</value>
+  </data>
+  <data name="FormDesigner_79" xml:space="preserve">
+    <value>Отображать</value>
+  </data>
+  <data name="FormDesigner_76" xml:space="preserve">
+    <value>Нормально</value>
+  </data>
+  <data name="FormDesigner_77" xml:space="preserve">
+    <value>Автоматически</value>
+  </data>
+  <data name="FormDesigner_74" xml:space="preserve">
+    <value>Минимизировано</value>
+  </data>
+  <data name="FormDesigner_75" xml:space="preserve">
+    <value>Максимизировано</value>
+  </data>
+  <data name="FormDesigner_72" xml:space="preserve">
+    <value>по умолчанию границ Windows</value>
+  </data>
+  <data name="FormDesigner_73" xml:space="preserve">
+    <value>по умолчанию Windows</value>
+  </data>
+  <data name="FormDesigner_70" xml:space="preserve">
+    <value>По центру экрана</value>
+  </data>
+  <data name="FormDesigner_71" xml:space="preserve">
+    <value>Ручная</value>
+  </data>
+  <data name="FormDesigner_49" xml:space="preserve">
+    <value>По центру-Вправо</value>
+  </data>
+  <data name="FormDesigner_48" xml:space="preserve">
+    <value>По центру</value>
+  </data>
+  <data name="FormDesigner_45" xml:space="preserve">
+    <value>Вверх-По центру</value>
+  </data>
+  <data name="FormDesigner_44" xml:space="preserve">
+    <value>Вверх-Влево</value>
+  </data>
+  <data name="FormDesigner_47" xml:space="preserve">
+    <value>По центру-Влево</value>
+  </data>
+  <data name="FormDesigner_46" xml:space="preserve">
+    <value>Вверх-Вправо</value>
+  </data>
+  <data name="FormDesigner_41" xml:space="preserve">
+    <value>Всплывающий</value>
+  </data>
+  <data name="FormDesigner_40" xml:space="preserve">
+    <value>Плоский</value>
+  </data>
+  <data name="FormDesigner_43" xml:space="preserve">
+    <value>Системный</value>
+  </data>
+  <data name="FormDesigner_42" xml:space="preserve">
+    <value>Стандартный</value>
+  </data>
+  <data name="FormDesigner_69" xml:space="preserve">
+    <value>По центру предка</value>
+  </data>
+  <data name="FormDesigner_68" xml:space="preserve">
+    <value>Вверх</value>
+  </data>
+  <data name="FormDesigner_67" xml:space="preserve">
+    <value>Вправо</value>
+  </data>
+  <data name="FormDesigner_66" xml:space="preserve">
+    <value>Влево</value>
+  </data>
+  <data name="FormDesigner_65" xml:space="preserve">
+    <value>Заполнить</value>
+  </data>
+  <data name="FormDesigner_64" xml:space="preserve">
+    <value>Вниз</value>
+  </data>
+  <data name="FormDesigner_63" xml:space="preserve">
+    <value>Простой</value>
+  </data>
+  <data name="FormDesigner_62" xml:space="preserve">
+    <value>Список</value>
+  </data>
+  <data name="FormDesigner_61" xml:space="preserve">
+    <value>Выпадающий</value>
+  </data>
+  <data name="FormDesigner_60" xml:space="preserve">
+    <value>Одиночный</value>
+  </data>
+  <data name="FormDesigner_PropDescr_TabStop" xml:space="preserve">
+    <value>Задает значение, показывающее, можно ли передать фокус данному элементу управления при помощи клавиши TAB.</value>
+  </data>
+  <data name="FormDesigner_PropDescr_MinimumSize" xml:space="preserve">
+    <value>Задает минимальный размер элемента управления.</value>
+  </data>
+  <data name="FormDesigner.DialogResultConverter.OK" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="FormDesigner.DialogResultConverter.No" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="FormDesigner_ClearColumnsAliases_DialogCaption" xml:space="preserve">
+    <value>Удаление псевдонимов колонок</value>
+  </data>
+  <data name="FormDesigner.Attribute.AttributeDestinationPoint.Default" xml:space="preserve">
+    <value>Атрибут главного объекта/связи</value>
+  </data>
+  <data name="FormDesigner_PropDescr_ObjectsType_Name" xml:space="preserve">
+    <value>Тип объектов</value>
+  </data>
+  <data name="FormDesigner_PropDescr_MaximumSize" xml:space="preserve">
+    <value>Задает максимальный размер элемента управления.</value>
+  </data>
+  <data name="FormDesigner.BackgroundImageLayoutConverter.Stretch" xml:space="preserve">
+    <value>Растянуть</value>
+  </data>
+  <data name="FormDesigner_ClearColumnsAliases_DialogMsg" xml:space="preserve">
+    <value>Вы действительно хотите очистить псевдонимы колонок?</value>
+  </data>
+  <data name="FormDesigner_191" xml:space="preserve">
+    <value>Текст</value>
+  </data>
+  <data name="FormDesigner_190" xml:space="preserve">
+    <value>Подсказка</value>
+  </data>
+  <data name="FormDesigner_193" xml:space="preserve">
+    <value>Изображение с диска</value>
+  </data>
+  <data name="FormDesigner_192" xml:space="preserve">
+    <value>Плоский вид</value>
+  </data>
+  <data name="FormDesigner_195" xml:space="preserve">
+    <value>Индекс изображения</value>
+  </data>
+  <data name="FormDesigner_194" xml:space="preserve">
+    <value>Выравнивание изображения</value>
+  </data>
+  <data name="FormDesigner_197" xml:space="preserve">
+    <value>Авторазмер</value>
+  </data>
+  <data name="FormDesigner_196" xml:space="preserve">
+    <value>Выравнивание текста</value>
+  </data>
+  <data name="FormDesigner_199" xml:space="preserve">
+    <value>Вид</value>
+  </data>
+  <data name="FormDesigner_198" xml:space="preserve">
+    <value>Цвет фона</value>
+  </data>
+  <data name="FormDesigner_180" xml:space="preserve">
+    <value>Ссылка на объект</value>
+  </data>
+  <data name="FormDesigner_181" xml:space="preserve">
+    <value>Ссылка на объект справочника IMBASE</value>
+  </data>
+  <data name="FormDesigner_182" xml:space="preserve">
+    <value>Список ссылок на объекты</value>
+  </data>
+  <data name="FormDesigner_183" xml:space="preserve">
+    <value>Число в единицах измерения</value>
+  </data>
+  <data name="FormDesigner_184" xml:space="preserve">
+    <value>Список чисел в единицах измерения</value>
+  </data>
+  <data name="FormDesigner_185" xml:space="preserve">
+    <value>Кнопка</value>
+  </data>
+  <data name="FormDesigner_186" xml:space="preserve">
+    <value>Надпись с атрибутом</value>
+  </data>
+  <data name="FormDesigner_187" xml:space="preserve">
+    <value>Действие</value>
+  </data>
+  <data name="FormDesigner_188" xml:space="preserve">
+    <value>Параметры действия</value>
+  </data>
+  <data name="FormDesigner_189" xml:space="preserve">
+    <value>Изображение из библиотеки</value>
+  </data>
+  <data name="FormDesigner_119" xml:space="preserve">
+    <value>Форма</value>
+  </data>
+  <data name="FormDesigner_118" xml:space="preserve">
+    <value>Неизвестная команда</value>
+  </data>
+  <data name="FormDesigner_111" xml:space="preserve">
+    <value>Невозможно редактировать форму т.к. она взята на изменение пользователем "{0}"</value>
+  </data>
+  <data name="FormDesigner_110" xml:space="preserve">
+    <value>Для редактирования формы необходимо взять её на изменение.</value>
+  </data>
+  <data name="FormDesigner_113" xml:space="preserve">
+    <value>Ошибка редактора форм</value>
+  </data>
+  <data name="FormDesigner_112" xml:space="preserve">
+    <value>Ошибка при чтении формы. Будет создана новая форма.</value>
+  </data>
+  <data name="FormDesigner_115" xml:space="preserve">
+    <value>Сохранить данные формы ввода?</value>
+  </data>
+  <data name="FormDesigner_114" xml:space="preserve">
+    <value>Редактор форм</value>
+  </data>
+  <data name="FormDesigner_117" xml:space="preserve">
+    <value>на форму "{0}"</value>
+  </data>
+  <data name="FormDesigner_116" xml:space="preserve">
+    <value>Форма ввода изменена</value>
+  </data>
+  <data name="FormDesigner_108" xml:space="preserve">
+    <value>(строки)</value>
+  </data>
+  <data name="FormDesigner_109" xml:space="preserve">
+    <value>Форма Редактирования</value>
+  </data>
+  <data name="FormDesigner_100" xml:space="preserve">
+    <value>Временной</value>
+  </data>
+  <data name="FormDesigner_101" xml:space="preserve">
+    <value>Шрифт</value>
+  </data>
+  <data name="FormDesigner_102" xml:space="preserve">
+    <value>Наследуется</value>
+  </data>
+  <data name="FormDesigner_103" xml:space="preserve">
+    <value>Закладка</value>
+  </data>
+  <data name="FormDesigner_104" xml:space="preserve">
+    <value>Выберите объект-справочник</value>
+  </data>
+  <data name="FormDesigner_105" xml:space="preserve">
+    <value>Сначала выберите значение поля "Атрибут</value>
+  </data>
+  <data name="FormDesigner_106" xml:space="preserve">
+    <value>Неправильный PropertyDescriptor</value>
+  </data>
+  <data name="FormDesigner_107" xml:space="preserve">
+    <value>Выберите изображение</value>
+  </data>
+  <data name="FormDesigner_139" xml:space="preserve">
+    <value>Порядок</value>
+  </data>
+  <data name="FormDesigner_138" xml:space="preserve">
+    <value>По вертикали</value>
+  </data>
+  <data name="FormDesigner_133" xml:space="preserve">
+    <value>Уменьшить</value>
+  </data>
+  <data name="FormDesigner_132" xml:space="preserve">
+    <value>Увеличить</value>
+  </data>
+  <data name="FormDesigner_131" xml:space="preserve">
+    <value>Равное</value>
+  </data>
+  <data name="FormDesigner_130" xml:space="preserve">
+    <value>Горизонтальное расстояние</value>
+  </data>
+  <data name="FormDesigner_137" xml:space="preserve">
+    <value>По горизонтали</value>
+  </data>
+  <data name="FormDesigner_136" xml:space="preserve">
+    <value>Центрирование</value>
+  </data>
+  <data name="FormDesigner_135" xml:space="preserve">
+    <value>Вертикальное расстояние</value>
+  </data>
+  <data name="FormDesigner_134" xml:space="preserve">
+    <value>Убрать</value>
+  </data>
+  <data name="FormDesigner_128" xml:space="preserve">
+    <value>Ширине элемента</value>
+  </data>
+  <data name="FormDesigner_129" xml:space="preserve">
+    <value>Высоте элемента</value>
+  </data>
+  <data name="FormDesigner_122" xml:space="preserve">
+    <value>Авторазмещение</value>
+  </data>
+  <data name="FormDesigner_123" xml:space="preserve">
+    <value>Выравнивание</value>
+  </data>
+  <data name="FormDesigner_120" xml:space="preserve">
+    <value>Связать форму с...</value>
+  </data>
+  <data name="FormDesigner_121" xml:space="preserve">
+    <value>Условие</value>
+  </data>
+  <data name="FormDesigner_126" xml:space="preserve">
+    <value>Размер к</value>
+  </data>
+  <data name="FormDesigner_127" xml:space="preserve">
+    <value>Элементу</value>
+  </data>
+  <data name="FormDesigner_124" xml:space="preserve">
+    <value>По центру (горизонтально)</value>
+  </data>
+  <data name="FormDesigner_125" xml:space="preserve">
+    <value>По центру (вертикально)</value>
+  </data>
+  <data name="FormDesigner_159" xml:space="preserve">
+    <value>Вертикальное расстояние увеличить</value>
+  </data>
+  <data name="FormDesigner_158" xml:space="preserve">
+    <value>Вертикальное расстояние равное</value>
+  </data>
+  <data name="FormDesigner_155" xml:space="preserve">
+    <value>Горизонтальное расстояние увеличить</value>
+  </data>
+  <data name="FormDesigner_154" xml:space="preserve">
+    <value>Горизонтальное расстояние равное</value>
+  </data>
+  <data name="FormDesigner_157" xml:space="preserve">
+    <value>Горизонтальное расстояние убрать</value>
+  </data>
+  <data name="FormDesigner_156" xml:space="preserve">
+    <value>Горизонтальное расстояние уменьшить</value>
+  </data>
+  <data name="FormDesigner_151" xml:space="preserve">
+    <value>Размер по сетке</value>
+  </data>
+  <data name="FormDesigner_150" xml:space="preserve">
+    <value>Размер к ширине контрола</value>
+  </data>
+  <data name="FormDesigner_153" xml:space="preserve">
+    <value>Размер по контролу</value>
+  </data>
+  <data name="FormDesigner_152" xml:space="preserve">
+    <value>Размер по высоте контрола</value>
+  </data>
+  <data name="FormDesigner_148" xml:space="preserve">
+    <value>Выравнивание по центру (вертикально)</value>
+  </data>
+  <data name="FormDesigner_149" xml:space="preserve">
+    <value>Выравнивание вниз</value>
+  </data>
+  <data name="FormDesigner_144" xml:space="preserve">
+    <value>Выравнивание влево</value>
+  </data>
+  <data name="FormDesigner_145" xml:space="preserve">
+    <value>Выравнивание по центру (горизонтально)</value>
+  </data>
+  <data name="FormDesigner_146" xml:space="preserve">
+    <value>Выравнивание вправо</value>
+  </data>
+  <data name="FormDesigner_147" xml:space="preserve">
+    <value>Выравнивание вверх</value>
+  </data>
+  <data name="FormDesigner_140" xml:space="preserve">
+    <value>Последовательность</value>
+  </data>
+  <data name="FormDesigner_141" xml:space="preserve">
+    <value>Сбросить настройки рабочей области</value>
+  </data>
+  <data name="FormDesigner_142" xml:space="preserve">
+    <value>Редактор Форм</value>
+  </data>
+  <data name="FormDesigner_143" xml:space="preserve">
+    <value>Выравнивание по сетке</value>
+  </data>
+  <data name="FormDesigner_179" xml:space="preserve">
+    <value>Переключатель</value>
+  </data>
+  <data name="FormDesigner_178" xml:space="preserve">
+    <value>Календарь</value>
+  </data>
+  <data name="FormDesigner_177" xml:space="preserve">
+    <value>Многострочное поле</value>
+  </data>
+  <data name="FormDesigner_176" xml:space="preserve">
+    <value>Список с множественным выбором</value>
+  </data>
+  <data name="FormDesigner_175" xml:space="preserve">
+    <value>Выпадающий список</value>
+  </data>
+  <data name="FormDesigner_174" xml:space="preserve">
+    <value>Список</value>
+  </data>
+  <data name="FormDesigner_173" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="FormDesigner_172" xml:space="preserve">
+    <value>Текстовое поле</value>
+  </data>
+  <data name="FormDesigner_171" xml:space="preserve">
+    <value>Разделитель</value>
+  </data>
+  <data name="FormDesigner_170" xml:space="preserve">
+    <value>Изображение</value>
+  </data>
+  <data name="FormDesigner_168" xml:space="preserve">
+    <value>Закладки</value>
+  </data>
+  <data name="FormDesigner_169" xml:space="preserve">
+    <value>Группа</value>
+  </data>
+  <data name="FormDesigner_166" xml:space="preserve">
+    <value>Надпись</value>
+  </data>
+  <data name="FormDesigner_167" xml:space="preserve">
+    <value>Панель</value>
+  </data>
+  <data name="FormDesigner_164" xml:space="preserve">
+    <value>Элемент-редактор для формы с ID={0} не задан</value>
+  </data>
+  <data name="FormDesigner_165" xml:space="preserve">
+    <value>Выбор объекта</value>
+  </data>
+  <data name="FormDesigner_162" xml:space="preserve">
+    <value>Центрировать по горизонтали</value>
+  </data>
+  <data name="FormDesigner_163" xml:space="preserve">
+    <value>Центрировать по вертикали</value>
+  </data>
+  <data name="FormDesigner_160" xml:space="preserve">
+    <value>Вертикальное расстояние уменьшить</value>
+  </data>
+  <data name="FormDesigner_161" xml:space="preserve">
+    <value>Вертикальное расстояние убрать</value>
+  </data>
+  <data name="FormDesigner_218" xml:space="preserve">
+    <value>Минимальный размер</value>
+  </data>
+  <data name="FormDesigner_219" xml:space="preserve">
+    <value>Максимальный размер</value>
+  </data>
+  <data name="FormDesigner_212" xml:space="preserve">
+    <value>Переключение</value>
+  </data>
+  <data name="FormDesigner_213" xml:space="preserve">
+    <value>Индекс переключения</value>
+  </data>
+  <data name="FormDesigner_210" xml:space="preserve">
+    <value>Привязка</value>
+  </data>
+  <data name="FormDesigner_211" xml:space="preserve">
+    <value>Дополнительно</value>
+  </data>
+  <data name="FormDesigner_216" xml:space="preserve">
+    <value>Цвет текста</value>
+  </data>
+  <data name="FormDesigner_217" xml:space="preserve">
+    <value>Цвет фона</value>
+  </data>
+  <data name="FormDesigner_214" xml:space="preserve">
+    <value>Текст</value>
+  </data>
+  <data name="FormDesigner_215" xml:space="preserve">
+    <value>Шрифт</value>
+  </data>
+  <data name="FormDesigner_221" xml:space="preserve">
+    <value>Внутренние отступы</value>
+  </data>
+  <data name="FormDesigner_220" xml:space="preserve">
+    <value>Внешние отступы</value>
+  </data>
+  <data name="FormDesigner_223" xml:space="preserve">
+    <value>Положение</value>
+  </data>
+  <data name="FormDesigner_222" xml:space="preserve">
+    <value>имя</value>
+  </data>
+  <data name="FormDesigner_225" xml:space="preserve">
+    <value>Мин.внутр. расстояние</value>
+  </data>
+  <data name="FormDesigner_224" xml:space="preserve">
+    <value>Мин.внешн. расcтояние</value>
+  </data>
+  <data name="FormDesigner_227" xml:space="preserve">
+    <value>Список объектов</value>
+  </data>
+  <data name="FormDesigner_226" xml:space="preserve">
+    <value>Стиль границ</value>
+  </data>
+  <data name="FormDesigner_209" xml:space="preserve">
+    <value>Положение</value>
+  </data>
+  <data name="FormDesigner_208" xml:space="preserve">
+    <value>Размер</value>
+  </data>
+  <data name="FormDesigner_203" xml:space="preserve">
+    <value>Выравнивание текста</value>
+  </data>
+  <data name="FormDesigner_202" xml:space="preserve">
+    <value>Состояние</value>
+  </data>
+  <data name="FormDesigner_201" xml:space="preserve">
+    <value>Выделено</value>
+  </data>
+  <data name="FormDesigner_200" xml:space="preserve">
+    <value>Выравнивание окна</value>
+  </data>
+  <data name="FormDesigner_207" xml:space="preserve">
+    <value>Видимость</value>
+  </data>
+  <data name="FormDesigner_206" xml:space="preserve">
+    <value>Расположение</value>
+  </data>
+  <data name="FormDesigner_205" xml:space="preserve">
+    <value>Три состояния</value>
+  </data>
+  <data name="FormDesigner_204" xml:space="preserve">
+    <value>Автоустановка</value>
+  </data>
+  <data name="FormDesigner_p01" xml:space="preserve">
+    <value>Фиксированный выбор</value>
+  </data>
+  <data name="FormDesigner_p02" xml:space="preserve">
+    <value>Пользовательский выбор</value>
+  </data>
+  <data name="FormDesigner_MenuItem_ShowProperties" xml:space="preserve">
+    <value>Показать панель свойств</value>
+  </data>
+  <data name="FormDesigner_ListContextConverter_Applicability" xml:space="preserve">
+    <value>Применяемость</value>
+  </data>
+  <data name="FormDesigner_PropDescr_ImageAlign" xml:space="preserve">
+    <value>Задает выравнивание изображения, отображаемого в элементе управления.</value>
+  </data>
+  <data name="FormDesigner_PropDescr_TabIndex" xml:space="preserve">
+    <value>Задает порядок переключения элементов.</value>
+  </data>
+  <data name="FormDesigner_PropDescr_FormDesignerActionParams" xml:space="preserve">
+    <value>Задает параметры действия.</value>
+  </data>
+  <data name="FormDesigner.BackgroundImageLayoutConverter.None" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="FormDesigner.BackgroundImageLayoutConverter.Tile" xml:space="preserve">
+    <value>Мозаика</value>
+  </data>
+  <data name="FormDesigner.BackgroundImageLayoutConverter.Zoom" xml:space="preserve">
+    <value>Увеличение</value>
+  </data>
+  <data name="FormDesigner_PropDescr_StatusBar_Name" xml:space="preserve">
+    <value>Строка состояния</value>
+  </data>
+  <data name="FormDesigner_PropName_FlatStyle" xml:space="preserve">
+    <value>Плоский стиль</value>
+  </data>
+  <data name="FormDesigner.BooleanConverter.False" xml:space="preserve">
+    <value>Запретить</value>
+  </data>
+  <data name="FormDesigner_PropDescr_Columns_Name" xml:space="preserve">
+    <value>Отображаемые колонки</value>
+  </data>
+  <data name="FormDesigner.DateTimePickerDropDownAlignConverter.Right" xml:space="preserve">
+    <value>Справа</value>
+  </data>
+  <data name="FormDesigner.AutoSizeModeConverter.GrowAndShrink" xml:space="preserve">
+    <value>Увеличение и уменьшение</value>
+  </data>
+  <data name="FormDesigner.AutoSizeModeConverter.GrowOnly" xml:space="preserve">
+    <value>Только увеличение</value>
+  </data>
+  <data name="FormDesigner_ListContextConverter_Objects" xml:space="preserve">
+    <value>Объекты</value>
+  </data>
+  <data name="FormDesigner_PropGroupName_Design" xml:space="preserve">
+    <value>Проектирование</value>
+  </data>
+  <data name="FormDesigner.Button.Attribute.DialogResult.Name" xml:space="preserve">
+    <value>Результат</value>
+  </data>
+  <data name="FormDesigner_PropName_UseColumnsAliases" xml:space="preserve">
+    <value>Использовать псевдонимы колонок</value>
+  </data>
+  <data name="FormDesigner_PropDescr_AfterDoubleClick" xml:space="preserve">
+    <value>Действия, которые нужно предпринять, после двойного клика по выделенному объекту</value>
+  </data>
+  <data name="FormDesigner_PropDescr_TextAlign" xml:space="preserve">
+    <value>Задает выравнивание текста в элементе управления.</value>
+  </data>
+  <data name="FormDesigner_MenuItem_ShowToolBox" xml:space="preserve">
+    <value>Показать панель инструментов</value>
+  </data>
+  <data name="FormDesigner_PropGroupName_Layout" xml:space="preserve">
+    <value>Размещение</value>
+  </data>
+  <data name="Attribute_FormDesigner_Controls_AttrMaskedTextEdit" xml:space="preserve">
+    <value>Текстовое поле с маской</value>
+  </data>
+</root>

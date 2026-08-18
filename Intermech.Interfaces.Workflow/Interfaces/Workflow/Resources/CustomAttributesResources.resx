@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Attribute.Workflow.Design_UserComboDesc" xml:space="preserve">
+    <value>Определяет, обязателен ли выбор пользователя, или разрешен выбор пустого значения</value>
+  </data>
+  <data name="Attribute.Workflow.Design_43" xml:space="preserve">
+    <value>Ожидает определения исполнителя</value>
+  </data>
+  <data name="Attribute.Workflow.Design_42" xml:space="preserve">
+    <value>Ожидает доопределения</value>
+  </data>
+  <data name="Attribute.Workflow.Design_41" xml:space="preserve">
+    <value>Ожидает выполнения предыдущих действий</value>
+  </data>
+  <data name="Attribute.Workflow.Design_40" xml:space="preserve">
+    <value>Готово к выполнению</value>
+  </data>
+  <data name="Attribute.Workflow.Design_47" xml:space="preserve">
+    <value>Выполнено автоматически</value>
+  </data>
+  <data name="Attribute.Workflow.Design_46" xml:space="preserve">
+    <value>Выполнено</value>
+  </data>
+  <data name="Attribute.Workflow.Design_45" xml:space="preserve">
+    <value>Прервано</value>
+  </data>
+  <data name="Attribute.Workflow.Design_44" xml:space="preserve">
+    <value>Выполняется</value>
+  </data>
+  <data name="Attribute.Workflow.Design_49" xml:space="preserve">
+    <value>Корректный</value>
+  </data>
+  <data name="Attribute.Workflow.Design_48" xml:space="preserve">
+    <value>Некорректный</value>
+  </data>
+  <data name="Attribute.Workflow.Design_52" xml:space="preserve">
+    <value>Высокий</value>
+  </data>
+  <data name="Attribute.Workflow.Design_53" xml:space="preserve">
+    <value>Минут</value>
+  </data>
+  <data name="Attribute.Workflow.Design_50" xml:space="preserve">
+    <value>Низкий</value>
+  </data>
+  <data name="Attribute.Workflow.Design_51" xml:space="preserve">
+    <value>Нормальный</value>
+  </data>
+  <data name="Attribute.Workflow.Design_56" xml:space="preserve">
+    <value>Недель</value>
+  </data>
+  <data name="Attribute.Workflow.Design_57" xml:space="preserve">
+    <value>Месяцев</value>
+  </data>
+  <data name="Attribute.Workflow.Design_54" xml:space="preserve">
+    <value>Часов</value>
+  </data>
+  <data name="Attribute.Workflow.Design_55" xml:space="preserve">
+    <value>Дней</value>
+  </data>
+  <data name="Attribute.Workflow.Design_58" xml:space="preserve">
+    <value>Лет</value>
+  </data>
+  <data name="Attribute.Workflow.Design_25" xml:space="preserve">
+    <value>Задаёт переменную типа "Список пользователей", содержимое которой будет отображаться</value>
+  </data>
+  <data name="Attribute.Workflow.Design_24" xml:space="preserve">
+    <value>Данные</value>
+  </data>
+  <data name="Attribute.Workflow.Design_27" xml:space="preserve">
+    <value>Данные</value>
+  </data>
+  <data name="Attribute.Workflow.Design_26" xml:space="preserve">
+    <value>Выходная переменная</value>
+  </data>
+  <data name="Attribute.Workflow.Design_21" xml:space="preserve">
+    <value>Данные</value>
+  </data>
+  <data name="Attribute.Workflow.Design_20" xml:space="preserve">
+    <value>Выходная переменная</value>
+  </data>
+  <data name="Attribute.Workflow.Design_22" xml:space="preserve">
+    <value>Задает переменную типа "Число", куда будет записан индекс выделенного элемента</value>
+  </data>
+  <data name="Attribute.Workflow.Design_29" xml:space="preserve">
+    <value>Только группы</value>
+  </data>
+  <data name="Attribute.Workflow.Design_28" xml:space="preserve">
+    <value>Задаёт переменную типа "Список пользователей", куда будет записан выбор пользователя</value>
+  </data>
+  <data name="Attribute.Workflow.Design_34" xml:space="preserve">
+    <value>Определяет, можно ли выбирать в дереве более одного элемента</value>
+  </data>
+  <data name="Attribute.Workflow.Design_35" xml:space="preserve">
+    <value>Заполнить обязательно</value>
+  </data>
+  <data name="Attribute.Workflow.Design_36" xml:space="preserve">
+    <value>Данные</value>
+  </data>
+  <data name="Attribute.Workflow.Design_37" xml:space="preserve">
+    <value>Определяет, требуется ли от пользователя выбор хотя бы одного элемента в дереве</value>
+  </data>
+  <data name="Attribute.Workflow.Design_30" xml:space="preserve">
+    <value>Данные</value>
+  </data>
+  <data name="Attribute.Workflow.Design_31" xml:space="preserve">
+    <value>Делать выбор только среди групп пользователей</value>
+  </data>
+  <data name="Attribute.Workflow.Design_32" xml:space="preserve">
+    <value>Множественный выбор</value>
+  </data>
+  <data name="Attribute.Workflow.Design_33" xml:space="preserve">
+    <value>Данные</value>
+  </data>
+  <data name="Attribute.Workflow.Design_38" xml:space="preserve">
+    <value>Вперёд</value>
+  </data>
+  <data name="Attribute.Workflow.Design_39" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="Attribute.Workflow.Design_12" xml:space="preserve">
+    <value>Цвет фона</value>
+  </data>
+  <data name="Attribute.Workflow.Design_10" xml:space="preserve">
+    <value>Оформление</value>
+  </data>
+  <data name="Attribute.Workflow.Design_11" xml:space="preserve">
+    <value>Цвет фона</value>
+  </data>
+  <data name="Attribute.Workflow.Design_18" xml:space="preserve">
+    <value>Данные</value>
+  </data>
+  <data name="Attribute.Workflow.Design_19" xml:space="preserve">
+    <value>Задаёт переменную типа "Список строк", содержимое которой будет отображаться</value>
+  </data>
+  <data name="CollSkipEmptyVars" xml:space="preserve">
+    <value>Не копировать в коллекторы пустые значения переменных</value>
+  </data>
+  <data name="Attribute.Workflow.Design_7" xml:space="preserve">
+    <value>Указывает цвет, которым отображается сетка.</value>
+  </data>
+  <data name="Attribute.Workflow.Design_6" xml:space="preserve">
+    <value>Цвет сетки</value>
+  </data>
+  <data name="Attribute.Workflow.Design_5" xml:space="preserve">
+    <value>Изменяет размер ячейки сетки.</value>
+  </data>
+  <data name="Attribute.Workflow.Design_4" xml:space="preserve">
+    <value>Размер ячейки</value>
+  </data>
+  <data name="Attribute.Workflow.Design_3" xml:space="preserve">
+    <value>Стиль сетки</value>
+  </data>
+  <data name="Attribute.Workflow.Design_1" xml:space="preserve">
+    <value>Настройки сетки</value>
+  </data>
+  <data name="Attribute.Workflow.Design_9" xml:space="preserve">
+    <value>Определяет, будут ли выравниваться по сетке перетаскиваемые обьекты.</value>
+  </data>
+  <data name="Attribute.Workflow.Design_8" xml:space="preserve">
+    <value>Выравнивать при перетаскивании</value>
+  </data>
+  <data name="SendTempRightsErrorDesc" xml:space="preserve">
+    <value>Уведомлять пользователя, который запускал объекты по процессу, в случае, если у него недостаточно прав доступа для назначения временных прав</value>
+  </data>
+  <data name="LaunchBaseSchemesOnly" xml:space="preserve">
+    <value>Разрешать запуск процессов только по базовым версиям шаблонов</value>
+  </data>
+  <data name="CalendarID" xml:space="preserve">
+    <value>Календарь для вычисления сроков</value>
+  </data>
+  <data name="Attribute.Workflow.Design_InVar" xml:space="preserve">
+    <value>Входная переменная</value>
+  </data>
+  <data name="CreateActivitiesOnDemandDesc" xml:space="preserve">
+    <value>Позволяет сократить время запуска процессов и уменьшить число создаваемых объектов за счет того, что действия и связи наследуются от шаблона и не копируются полностью при запуске процесса. Если настройка включена, объекты действий будут созданы только тогда, когда до них дошло выполнение. С другой стороны, включение данной настройки "замораживает" шаблон процесса от изменений до тех пор, пока существуют процессы по этому шаблону. В случае необходимости внесения изменений в шаблон, нужно будет или удалить процессы, запущенные по этому шаблону (доступно администраторам), или создать новую версию шаблона.</value>
+  </data>
+  <data name="DeletionStatus.CompletelyDeleted" xml:space="preserve">
+    <value>Уничтожено</value>
+  </data>
+  <data name="DeletionStatus.Deleted" xml:space="preserve">
+    <value>Удалено</value>
+  </data>
+  <data name="LaunchBaseSchemesOnlyDesc" xml:space="preserve">
+    <value>Если включено, разрешает пользователям запускать процессы только на основе базовых версий шаблонов процессов. Не распространяется на администраторов.</value>
+  </data>
+  <data name="Attribute.Workflow.Design_CheckBoxes" xml:space="preserve">
+    <value>Переключатели</value>
+  </data>
+  <data name="Attribute.Interfaces.Workflow_23" xml:space="preserve">
+    <value>Уведомление о создании связи.</value>
+  </data>
+  <data name="Attribute.Interfaces.Workflow_25" xml:space="preserve">
+    <value>Уведомление о создании объекта.</value>
+  </data>
+  <data name="Attribute.Interfaces.Workflow_24" xml:space="preserve">
+    <value>Уведомление об удалении связи.</value>
+  </data>
+  <data name="Attribute.Interfaces.Workflow_27" xml:space="preserve">
+    <value>Уведомление о перемещении на шаг жизненного цикла.</value>
+  </data>
+  <data name="Attribute.Interfaces.Workflow_26" xml:space="preserve">
+    <value>Уведомление об удалении объекта/версии.</value>
+  </data>
+  <data name="Attribute.Interfaces.Workflow_29" xml:space="preserve">
+    <value>Уведомление об отмене изменений объекта.</value>
+  </data>
+  <data name="Attribute.Interfaces.Workflow_28" xml:space="preserve">
+    <value>Уведомление о перемещении на уровень продвижения.</value>
+  </data>
+  <data name="Attribute.Interfaces.Workflow_30" xml:space="preserve">
+    <value>Уведомление о завершении редактирования объекта.</value>
+  </data>
+  <data name="Attribute.Interfaces.Workflow_31" xml:space="preserve">
+    <value>Уведомление о взятии на редактирование объекта.</value>
+  </data>
+  <data name="Attribute.Interfaces.Workflow_32" xml:space="preserve">
+    <value>Уведомление о восстановлении в объект итерации.</value>
+  </data>
+  <data name="Attribute.Interfaces.Workflow_33" xml:space="preserve">
+    <value>Уведомление об изменении атрибута объекта.</value>
+  </data>
+  <data name="Attribute.Interfaces.Workflow_34" xml:space="preserve">
+    <value>Уведомление об отказе в праве доступа.</value>
+  </data>
+  <data name="Attribute.Interfaces.Workflow_35" xml:space="preserve">
+    <value>Уведомление о создании версии объекта.</value>
+  </data>
+  <data name="Attribute.Interfaces.Workflow_10" xml:space="preserve">
+    <value>Текст</value>
+  </data>
+  <data name="Attribute.Workflow.Design_CheckBoxesHint" xml:space="preserve">
+    <value>Выбор элементов в дереве при помощи переключателей</value>
+  </data>
+  <data name="Attribute.Interfaces.Workflow_3" xml:space="preserve">
+    <value>об отмене изменений</value>
+  </data>
+  <data name="Attribute.Interfaces.Workflow_2" xml:space="preserve">
+    <value>о взятии на изменение</value>
+  </data>
+  <data name="Attribute.Interfaces.Workflow_1" xml:space="preserve">
+    <value>Опции уведомления</value>
+  </data>
+  <data name="Attribute.Interfaces.Workflow_7" xml:space="preserve">
+    <value>Список пользователей</value>
+  </data>
+  <data name="Attribute.Interfaces.Workflow_6" xml:space="preserve">
+    <value>Список строк</value>
+  </data>
+  <data name="Attribute.Interfaces.Workflow_5" xml:space="preserve">
+    <value>о выпуске версии</value>
+  </data>
+  <data name="Attribute.Interfaces.Workflow_4" xml:space="preserve">
+    <value>об удалении</value>
+  </data>
+  <data name="Attribute.Interfaces.Workflow_9" xml:space="preserve">
+    <value>об изменении значения атрибута</value>
+  </data>
+  <data name="Attribute.Interfaces.Workflow_8" xml:space="preserve">
+    <value>Архив</value>
+  </data>
+  <data name="SendEmailNotifications" xml:space="preserve">
+    <value>Рассылать уведомления о новой почте по email</value>
+  </data>
+  <data name="SendTempRightsError" xml:space="preserve">
+    <value>Уведомлять о невозможности назначить временные права на вложения</value>
+  </data>
+  <data name="ForumChanged" xml:space="preserve">
+    <value>о новых сообщениях на форуме</value>
+  </data>
+  <data name="CalendarIDDesc" xml:space="preserve">
+    <value>Если назначен, используется для вычисления периодов срабатывания таймеров, сообщений и т.д. Если не назначен, то используется упрощенный метод расчета по 24-часовым дням без учета выходных и праздничных дней.</value>
+  </data>
+  <data name="CreateActivitiesOnDemand" xml:space="preserve">
+    <value>Создавать действия процессов по факту выполнения</value>
+  </data>
+  <data name="SendEmailNotificationsDesc" xml:space="preserve">
+    <value>Включает режим дублирования на email пользователей сообщений и информации о задачах, поступивших в почту IPS. Внимание! Включение данного режима замедляет скорость работы процессов.</value>
+  </data>
+  <data name="ActStatusRecalled" xml:space="preserve">
+    <value>Отозвано</value>
+  </data>
+  <data name="Attribute.Workflow.Server_1" xml:space="preserve">
+    <value>Удалять задачи из почты после выполнения процесса</value>
+  </data>
+  <data name="Attribute.Workflow.Server_2" xml:space="preserve">
+    <value>Очищать задачи и сообщения, относящиеся к процессу, после его выполнения</value>
+  </data>
+  <data name="Attribute.Workflow.Server_3" xml:space="preserve">
+    <value>Удалять задачи из почты после прерывания процесса</value>
+  </data>
+  <data name="Attribute.Workflow.Server_4" xml:space="preserve">
+    <value>Очищать задачи и сообщения, относящиеся к процессу, после его прерывания</value>
+  </data>
+  <data name="Attribute.Workflow.Server_5" xml:space="preserve">
+    <value>Администратор workflow</value>
+  </data>
+  <data name="Attribute.Workflow.Server_6" xml:space="preserve">
+    <value>Пользователь, который будет получать уведомления об исключительных ситуациях при выполнении процессов workflow</value>
+  </data>
+  <data name="Attribute.Workflow.Server_7" xml:space="preserve">
+    <value>Уведомлять администратора об ошибках в процессах</value>
+  </data>
+  <data name="Attribute.Workflow.Server_8" xml:space="preserve">
+    <value>Отправлять администратору Workflow уведомления при возникновении ошибок в процессах</value>
+  </data>
+  <data name="Attribute.Workflow.Client_4" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="Attribute.Workflow.Client_5" xml:space="preserve">
+    <value>Пароль для авторизации на почтовом сервере</value>
+  </data>
+  <data name="Attribute.Workflow.Client_1" xml:space="preserve">
+    <value>Логин</value>
+  </data>
+  <data name="Attribute.Workflow.Client_2" xml:space="preserve">
+    <value>Логин для авторизации на  почтовом сервере</value>
+  </data>
+  <data name="Attribute.Workflow.Client_3" xml:space="preserve">
+    <value>Общие</value>
+  </data>
+  <data name="CollSkipEmptyVarsDesc" xml:space="preserve">
+    <value>Пропускать пустые значения переменных при передаче значений переменных в коллекторы, которые ожидают выполнения предыдущих действий</value>
+  </data>
+</root>

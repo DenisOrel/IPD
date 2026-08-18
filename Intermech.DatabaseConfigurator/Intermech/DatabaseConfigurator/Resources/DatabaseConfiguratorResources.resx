@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FixLCStepsCommand" xml:space="preserve">
+    <value>Исправить шаги ЖЦ</value>
+  </data>
+  <data name="DatabaseConfigurator_Attention" xml:space="preserve">
+    <value>Внимание!</value>
+  </data>
+  <data name="StepInHours" xml:space="preserve">
+    <value>Укажите шаг в часах</value>
+  </data>
+  <data name="DatabaseConfigurator_Find" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="DatabaseConfigurator_108b" xml:space="preserve">
+    <value>Физические величины для атрибута "Количество"</value>
+  </data>
+  <data name="DatabaseConfigurator_108a" xml:space="preserve">
+    <value>Система\Конфигуратор БД\Физические величины для атрибута "Количество"</value>
+  </data>
+  <data name="Can_not_open" xml:space="preserve">
+    <value>Выбранный элемент пространства навигации нельзя открывать в новом окне</value>
+  </data>
+  <data name="GetIdleAttributes" xml:space="preserve">
+    <value>Поиск неиспользуемых атрибутов</value>
+  </data>
+  <data name="DatabaseConfigurator_PrevAutoMove" xml:space="preserve">
+    <value>Переводить на шаг</value>
+  </data>
+  <data name="DatabaseConfigurator_208" xml:space="preserve">
+    <value>Наименование</value>
+  </data>
+  <data name="DatabaseConfigurator_209" xml:space="preserve">
+    <value>Наименование шага жизненного цикла</value>
+  </data>
+  <data name="DatabaseConfigurator_200" xml:space="preserve">
+    <value>Выберите пользователей</value>
+  </data>
+  <data name="DatabaseConfigurator_201" xml:space="preserve">
+    <value>пользователи, в профили которых будут сохранены данные</value>
+  </data>
+  <data name="DatabaseConfigurator_202" xml:space="preserve">
+    <value>Журнал событий</value>
+  </data>
+  <data name="DatabaseConfigurator_203" xml:space="preserve">
+    <value>Администратор базы данных</value>
+  </data>
+  <data name="DatabaseConfigurator_204" xml:space="preserve">
+    <value>Перегенерация таблицы для типа связей '{0}'</value>
+  </data>
+  <data name="DatabaseConfigurator_205" xml:space="preserve">
+    <value>Идентификатор</value>
+  </data>
+  <data name="DatabaseConfigurator_206" xml:space="preserve">
+    <value>Идентификатор шага схемы жизненного цикла</value>
+  </data>
+  <data name="DatabaseConfigurator_207" xml:space="preserve">
+    <value>Уровень продвижения</value>
+  </data>
+  <data name="DatabaseConfigurator_228" xml:space="preserve">
+    <value>Удаление</value>
+  </data>
+  <data name="DatabaseConfigurator_229" xml:space="preserve">
+    <value>Вы действительно желаете удалить запись о почтовом сервере включая все учётные записи?</value>
+  </data>
+  <data name="DatabaseConfigurator_222" xml:space="preserve">
+    <value>Размер файла не может принимать отрицательные значения</value>
+  </data>
+  <data name="DatabaseConfigurator_223" xml:space="preserve">
+    <value>Пользователь {0}</value>
+  </data>
+  <data name="DatabaseConfigurator_220" xml:space="preserve">
+    <value>Назначить системный GUID</value>
+  </data>
+  <data name="DatabaseConfigurator_221" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="DatabaseConfigurator_226" xml:space="preserve">
+    <value>Настройка E-mail</value>
+  </data>
+  <data name="DatabaseConfigurator_227" xml:space="preserve">
+    <value>Настройки электронной почты</value>
+  </data>
+  <data name="DatabaseConfigurator_224" xml:space="preserve">
+    <value>База данных</value>
+  </data>
+  <data name="DatabaseConfigurator_225" xml:space="preserve">
+    <value>Система\Электронная почта\Общая почта</value>
+  </data>
+  <data name="DatabaseConfigurator_219" xml:space="preserve">
+    <value>Информация</value>
+  </data>
+  <data name="DatabaseConfigurator_218" xml:space="preserve">
+    <value>Информация сохранена</value>
+  </data>
+  <data name="DatabaseConfigurator_211" xml:space="preserve">
+    <value>Первый шаг</value>
+  </data>
+  <data name="DatabaseConfigurator_210" xml:space="preserve">
+    <value>Комментарий</value>
+  </data>
+  <data name="DatabaseConfigurator_213" xml:space="preserve">
+    <value>Глобальный идентификатор</value>
+  </data>
+  <data name="DatabaseConfigurator_212" xml:space="preserve">
+    <value>Первый шаг жизненного цикла</value>
+  </data>
+  <data name="DatabaseConfigurator_215" xml:space="preserve">
+    <value>Назначить сиcтемный GUID?</value>
+  </data>
+  <data name="DatabaseConfigurator_214" xml:space="preserve">
+    <value>Рекомендуемый способ оптимизации</value>
+  </data>
+  <data name="DatabaseConfigurator_217" xml:space="preserve">
+    <value>Поиск недопустимых атрибутов</value>
+  </data>
+  <data name="DatabaseConfigurator_216" xml:space="preserve">
+    <value>Система\Типы документов</value>
+  </data>
+  <data name="DatabaseConfigurator_248" xml:space="preserve">
+    <value>Удалить выбранные файлы?</value>
+  </data>
+  <data name="DatabaseConfigurator_249" xml:space="preserve">
+    <value>При выполнении удалении файла возникла ошибка. Какие действия следует выполнить?</value>
+  </data>
+  <data name="DatabaseConfigurator_244" xml:space="preserve">
+    <value>Игнорировать все ошибки</value>
+  </data>
+  <data name="DatabaseConfigurator_245" xml:space="preserve">
+    <value>Показать текст ошибки</value>
+  </data>
+  <data name="DatabaseConfigurator_246" xml:space="preserve">
+    <value>Внимание</value>
+  </data>
+  <data name="DatabaseConfigurator_247" xml:space="preserve">
+    <value>При выполнении удалении возникла ошибка. Какие действия следует выполнить?</value>
+  </data>
+  <data name="DatabaseConfigurator_240" xml:space="preserve">
+    <value>Удалить выбранные объекты?</value>
+  </data>
+  <data name="DatabaseConfigurator_241" xml:space="preserve">
+    <value>Прервать удаление</value>
+  </data>
+  <data name="DatabaseConfigurator_242" xml:space="preserve">
+    <value>Уничтожить объект</value>
+  </data>
+  <data name="DatabaseConfigurator_243" xml:space="preserve">
+    <value>Игнорировать ошибку</value>
+  </data>
+  <data name="DatabaseConfigurator_239" xml:space="preserve">
+    <value>Атрибут {0}. Файл {1}</value>
+  </data>
+  <data name="DatabaseConfigurator_238" xml:space="preserve">
+    <value> с id={0}</value>
+  </data>
+  <data name="DatabaseConfigurator_233" xml:space="preserve">
+    <value>Редактирование</value>
+  </data>
+  <data name="DatabaseConfigurator_232" xml:space="preserve">
+    <value>Новая учётная запись</value>
+  </data>
+  <data name="DatabaseConfigurator_231" xml:space="preserve">
+    <value>На закладке остались не сохраненные данные. Сохранить?</value>
+  </data>
+  <data name="DatabaseConfigurator_230" xml:space="preserve">
+    <value>Сохранение</value>
+  </data>
+  <data name="DatabaseConfigurator_237" xml:space="preserve">
+    <value>{0}Проверка атрибута {1}</value>
+  </data>
+  <data name="DatabaseConfigurator_236" xml:space="preserve">
+    <value>Поиск нечитаемых файлов</value>
+  </data>
+  <data name="DatabaseConfigurator_268" xml:space="preserve">
+    <value>Система\Итерации</value>
+  </data>
+  <data name="DatabaseConfigurator_266" xml:space="preserve">
+    <value>Указанного имени нет в списке. Продолжить?</value>
+  </data>
+  <data name="DatabaseConfigurator_267" xml:space="preserve">
+    <value>Система\Итерации</value>
+  </data>
+  <data name="DatabaseConfigurator_264" xml:space="preserve">
+    <value>"Повторять каждую(ые) {0} мин"</value>
+  </data>
+  <data name="DatabaseConfigurator_265" xml:space="preserve">
+    <value>"Повторять каждый(ые) {0} ч"</value>
+  </data>
+  <data name="DatabaseConfigurator_262" xml:space="preserve">
+    <value>Задание по обработке импортированных извещений успешно остановлено</value>
+  </data>
+  <data name="DatabaseConfigurator_263" xml:space="preserve">
+    <value>Планировщик задач</value>
+  </data>
+  <data name="DatabaseConfigurator_260" xml:space="preserve">
+    <value>Остановить его выполнение?</value>
+  </data>
+  <data name="DatabaseConfigurator_261" xml:space="preserve">
+    <value>Задание по обработке импортированных извещений успешно запущено</value>
+  </data>
+  <data name="DatabaseConfigurator_259" xml:space="preserve">
+    <value>Задание по обработке импортированных извещений уже выполняется (обработано {0} шт.).
+</value>
+  </data>
+  <data name="DatabaseConfigurator_258" xml:space="preserve">
+    <value>Не найден сервис IEcoImportService на сервере приложений.</value>
+  </data>
+  <data name="DatabaseConfigurator_255" xml:space="preserve">
+    <value>Информация</value>
+  </data>
+  <data name="DatabaseConfigurator_254" xml:space="preserve">
+    <value>Система\Электронная почта\Общие</value>
+  </data>
+  <data name="DatabaseConfigurator_257" xml:space="preserve">
+    <value>Номер группы изменений был успешно откорректирован</value>
+  </data>
+  <data name="DatabaseConfigurator_256" xml:space="preserve">
+    <value>У всех указанных объектов номер группы изменений заполнен корректно</value>
+  </data>
+  <data name="DatabaseConfigurator_251" xml:space="preserve">
+    <value>Обработка импортированных извещений</value>
+  </data>
+  <data name="DatabaseConfigurator_250" xml:space="preserve">
+    <value>Проверить номера групп изменений</value>
+  </data>
+  <data name="DatabaseConfigurator_253" xml:space="preserve">
+    <value>Исполнение обязанностей</value>
+  </data>
+  <data name="DatabaseConfigurator_252" xml:space="preserve">
+    <value>Удаление объекта(заготовки)/связи</value>
+  </data>
+  <data name="DatabaseConfigurator_183" xml:space="preserve">
+    <value>Замена произошла успешно</value>
+  </data>
+  <data name="DatabaseConfigurator_182" xml:space="preserve">
+    <value>ПРЕВЕД</value>
+  </data>
+  <data name="DatabaseConfigurator_181" xml:space="preserve">
+    <value>Внимание! Операция может выполняться долго!</value>
+  </data>
+  <data name="DatabaseConfigurator_180" xml:space="preserve">
+    <value>Перестроить нормализованные индексы?</value>
+  </data>
+  <data name="DatabaseConfigurator_187" xml:space="preserve">
+    <value>Проверить целостность базы данных?</value>
+  </data>
+  <data name="DatabaseConfigurator_186" xml:space="preserve">
+    <value>Сервис IAdminUtilsService не найден.</value>
+  </data>
+  <data name="DatabaseConfigurator_185" xml:space="preserve">
+    <value>Внимание!</value>
+  </data>
+  <data name="DatabaseConfigurator_184" xml:space="preserve">
+    <value>Перечитать кэш сервера приложений из базы данных?</value>
+  </data>
+  <data name="DatabaseConfigurator_189" xml:space="preserve">
+    <value>Сервис IAdminUtilsService не найден.</value>
+  </data>
+  <data name="DatabaseConfigurator_188" xml:space="preserve">
+    <value>Внимание! Операция может выполняться длительное время!</value>
+  </data>
+  <data name="DatabaseConfigurator_192" xml:space="preserve">
+    <value>Импортировать профиль выделенного пользователя?</value>
+  </data>
+  <data name="DatabaseConfigurator_193" xml:space="preserve">
+    <value>Импортировать профиль выделенных пользователей?</value>
+  </data>
+  <data name="DatabaseConfigurator_190" xml:space="preserve">
+    <value>Ошибка импорта пользователя</value>
+  </data>
+  <data name="DatabaseConfigurator_197" xml:space="preserve">
+    <value>Импорт профиля пользователя</value>
+  </data>
+  <data name="DatabaseConfigurator_198" xml:space="preserve">
+    <value>Импорт профиля пользователей</value>
+  </data>
+  <data name="DatabaseConfigurator_199" xml:space="preserve">
+    <value>Ошибка импорта профиля пользователя</value>
+  </data>
+  <data name="DatabaseConfigurator_129" xml:space="preserve">
+    <value>Удаление устаревших данных завершено.</value>
+  </data>
+  <data name="DatabaseConfigurator_128" xml:space="preserve">
+    <value>Внимание!</value>
+  </data>
+  <data name="DatabaseConfigurator_121" xml:space="preserve">
+    <value>Создан файл схемы </value>
+  </data>
+  <data name="DatabaseConfigurator_120" xml:space="preserve">
+    <value> выполнено успешно.
+</value>
+  </data>
+  <data name="DatabaseConfigurator_123" xml:space="preserve">
+    <value>Инициализация удаления устаревших данных...</value>
+  </data>
+  <data name="DatabaseConfigurator_122" xml:space="preserve">
+    <value>Не найден файл схемы </value>
+  </data>
+  <data name="DatabaseConfigurator_125" xml:space="preserve">
+    <value>Удаление устаревших данных прервано пользователем.</value>
+  </data>
+  <data name="DatabaseConfigurator_124" xml:space="preserve">
+    <value>Сервис IAdminUtilsService не найден.</value>
+  </data>
+  <data name="DatabaseConfigurator_127" xml:space="preserve">
+    <value>Удаление устаревших данных завершено с ошибками.</value>
+  </data>
+  <data name="DatabaseConfigurator_126" xml:space="preserve">
+    <value>Внимание!</value>
+  </data>
+  <data name="DatabaseConfigurator_138" xml:space="preserve">
+    <value>Перестройка индексов</value>
+  </data>
+  <data name="DatabaseConfigurator_139" xml:space="preserve">
+    <value>Перегенерация таблиц представления данных</value>
+  </data>
+  <data name="DatabaseConfigurator_130" xml:space="preserve">
+    <value>Удаление устаревших данных</value>
+  </data>
+  <data name="DatabaseConfigurator_131" xml:space="preserve">
+    <value>Инициализация перестройки индексов...</value>
+  </data>
+  <data name="DatabaseConfigurator_132" xml:space="preserve">
+    <value>Сервис IAdminUtilsService не найден.</value>
+  </data>
+  <data name="DatabaseConfigurator_133" xml:space="preserve">
+    <value>Перестройка индексов прервана пользователем.</value>
+  </data>
+  <data name="DatabaseConfigurator_134" xml:space="preserve">
+    <value>Внимание!</value>
+  </data>
+  <data name="DatabaseConfigurator_135" xml:space="preserve">
+    <value>Перестройка индексов завершена с ошибками.</value>
+  </data>
+  <data name="DatabaseConfigurator_136" xml:space="preserve">
+    <value>Внимание!</value>
+  </data>
+  <data name="DatabaseConfigurator_137" xml:space="preserve">
+    <value>Перестройка индексов завершена.</value>
+  </data>
+  <data name="DatabaseConfigurator_11a" xml:space="preserve">
+    <value>Безопасность атрибутов</value>
+  </data>
+  <data name="DatabaseConfigurator_109" xml:space="preserve">
+    <value>Настройка правил безопасности учётных записей</value>
+  </data>
+  <data name="DatabaseConfigurator_108" xml:space="preserve">
+    <value>Пользователи\Безопасность учётных записей</value>
+  </data>
+  <data name="DatabaseConfigurator_103" xml:space="preserve">
+    <value>Изменение параметров</value>
+  </data>
+  <data name="DatabaseConfigurator_102" xml:space="preserve">
+    <value>Параметры фильтра были изменены. Сохранить изменения?</value>
+  </data>
+  <data name="DatabaseConfigurator_101" xml:space="preserve">
+    <value>Параметры фильтра</value>
+  </data>
+  <data name="DatabaseConfigurator_100" xml:space="preserve">
+    <value>Фильтр с таким Guid уже существует!</value>
+  </data>
+  <data name="DatabaseConfigurator_107" xml:space="preserve">
+    <value>Выберите имя пользователя, события которого Вас интересуют</value>
+  </data>
+  <data name="DatabaseConfigurator_106" xml:space="preserve">
+    <value>Выбор пользователя</value>
+  </data>
+  <data name="DatabaseConfigurator_105" xml:space="preserve">
+    <value>Провайдер условий запроса в журнал событий не задан!</value>
+  </data>
+  <data name="DatabaseConfigurator_104" xml:space="preserve">
+    <value>Отфильтрованные события</value>
+  </data>
+  <data name="DatabaseConfigurator_118" xml:space="preserve">
+    <value>Выполнить очистку статистики запросов?</value>
+  </data>
+  <data name="DatabaseConfigurator_119" xml:space="preserve">
+    <value>Сохранение файла </value>
+  </data>
+  <data name="DatabaseConfigurator_112" xml:space="preserve">
+    <value>Отчёт и рекомендации по статистике запросов</value>
+  </data>
+  <data name="DatabaseConfigurator_113" xml:space="preserve">
+    <value>Атрибут "{0}"</value>
+  </data>
+  <data name="DatabaseConfigurator_110" xml:space="preserve">
+    <value>Включая обязательные атрибуты</value>
+  </data>
+  <data name="DatabaseConfigurator_111" xml:space="preserve">
+    <value>Не включая обязательные атрибуты</value>
+  </data>
+  <data name="DatabaseConfigurator_116" xml:space="preserve">
+    <value>поиск={0}, чтение={1}, запись={2}, оптимизация: {3}</value>
+  </data>
+  <data name="DatabaseConfigurator_117" xml:space="preserve">
+    <value>рекомендуемая оптимизация: {0}</value>
+  </data>
+  <data name="DatabaseConfigurator_114" xml:space="preserve">
+    <value> для типа объекта "{0}"</value>
+  </data>
+  <data name="DatabaseConfigurator_115" xml:space="preserve">
+    <value> для типа связи "{0}"</value>
+  </data>
+  <data name="DatabaseConfigurator_169" xml:space="preserve">
+    <value>Конфигуратор базы данных</value>
+  </data>
+  <data name="DatabaseConfigurator_168" xml:space="preserve">
+    <value>Перестроить нормализованные индексы</value>
+  </data>
+  <data name="DatabaseConfigurator_165" xml:space="preserve">
+    <value>Перечитать кэш сервера</value>
+  </data>
+  <data name="DatabaseConfigurator_164" xml:space="preserve">
+    <value>Перегенерировать представления данных</value>
+  </data>
+  <data name="DatabaseConfigurator_167" xml:space="preserve">
+    <value>Удаление устаревших данных</value>
+  </data>
+  <data name="DatabaseConfigurator_166" xml:space="preserve">
+    <value>Проверить целостность данных</value>
+  </data>
+  <data name="DatabaseConfigurator_161" xml:space="preserve">
+    <value>Администратор базы данных</value>
+  </data>
+  <data name="DatabaseConfigurator_160" xml:space="preserve">
+    <value>Конфигуратор базы данных</value>
+  </data>
+  <data name="DatabaseConfigurator_163" xml:space="preserve">
+    <value>Утилиты администратора</value>
+  </data>
+  <data name="DatabaseConfigurator_162" xml:space="preserve">
+    <value>Статистика запросов</value>
+  </data>
+  <data name="DatabaseConfigurator_178" xml:space="preserve">
+    <value>Очистить базу от устаревших и временных данных?</value>
+  </data>
+  <data name="DatabaseConfigurator_179" xml:space="preserve">
+    <value>Внимание! Операция может выполняться долго!</value>
+  </data>
+  <data name="DatabaseConfigurator_174" xml:space="preserve">
+    <value>Информация о файловом шкафе</value>
+  </data>
+  <data name="DatabaseConfigurator_175" xml:space="preserve">
+    <value>Администратор базы данных</value>
+  </data>
+  <data name="DatabaseConfigurator_176" xml:space="preserve">
+    <value>Перегенерировать представления данных для всех типов объектов и связей?</value>
+  </data>
+  <data name="DatabaseConfigurator_177" xml:space="preserve">
+    <value>Внимание!</value>
+  </data>
+  <data name="DatabaseConfigurator_170" xml:space="preserve">
+    <value>Администратор базы данных</value>
+  </data>
+  <data name="DatabaseConfigurator_171" xml:space="preserve">
+    <value>Статистика запросов</value>
+  </data>
+  <data name="DatabaseConfigurator_172" xml:space="preserve">
+    <value>Импорт из домена</value>
+  </data>
+  <data name="DatabaseConfigurator_173" xml:space="preserve">
+    <value>Импортировать профиль пользователя</value>
+  </data>
+  <data name="DatabaseConfigurator_149" xml:space="preserve">
+    <value>Типы объектов</value>
+  </data>
+  <data name="DatabaseConfigurator_148" xml:space="preserve">
+    <value>Типы атрибутов</value>
+  </data>
+  <data name="DatabaseConfigurator_147" xml:space="preserve">
+    <value>Типы объектов</value>
+  </data>
+  <data name="DatabaseConfigurator_146" xml:space="preserve">
+    <value>Перегенерация таблиц представления данных</value>
+  </data>
+  <data name="DatabaseConfigurator_145" xml:space="preserve">
+    <value>Внимание!</value>
+  </data>
+  <data name="DatabaseConfigurator_144" xml:space="preserve">
+    <value>Перегенерация данных завершена с ошибками.</value>
+  </data>
+  <data name="DatabaseConfigurator_143" xml:space="preserve">
+    <value>Ошибка перегенерации данных для типа связей '{0}': '{1}'</value>
+  </data>
+  <data name="DatabaseConfigurator_142" xml:space="preserve">
+    <value>Ошибка перегенерации данных для типа объектов '{0}': '{1}'</value>
+  </data>
+  <data name="DatabaseConfigurator_141" xml:space="preserve">
+    <value>Перегенерация таблицы для типа объектов '{0}'</value>
+  </data>
+  <data name="DatabaseConfigurator_140" xml:space="preserve">
+    <value>Сервис IAdminUtilsService не найден.</value>
+  </data>
+  <data name="DatabaseConfigurator_158" xml:space="preserve">
+    <value>Подтверждение</value>
+  </data>
+  <data name="DatabaseConfigurator_159" xml:space="preserve">
+    <value>Конфигуратор базы данных</value>
+  </data>
+  <data name="DatabaseConfigurator_156" xml:space="preserve">
+    <value>Система</value>
+  </data>
+  <data name="DatabaseConfigurator_157" xml:space="preserve">
+    <value>Сохранить изменения?</value>
+  </data>
+  <data name="DatabaseConfigurator_154" xml:space="preserve">
+    <value>Предметные области</value>
+  </data>
+  <data name="DatabaseConfigurator_155" xml:space="preserve">
+    <value>Языковые варианты</value>
+  </data>
+  <data name="DatabaseConfigurator_152" xml:space="preserve">
+    <value>Уровни продвижения</value>
+  </data>
+  <data name="DatabaseConfigurator_153" xml:space="preserve">
+    <value>Схемы жизненного цикла</value>
+  </data>
+  <data name="DatabaseConfigurator_150" xml:space="preserve">
+    <value>Типы связей</value>
+  </data>
+  <data name="DatabaseConfigurator_151" xml:space="preserve">
+    <value>Атрибуты</value>
+  </data>
+  <data name="DatabaseConfigurator_93" xml:space="preserve">
+    <value>Типы объектов</value>
+  </data>
+  <data name="DatabaseConfigurator_92" xml:space="preserve">
+    <value>Настройка регистрации событий</value>
+  </data>
+  <data name="DatabaseConfigurator_91" xml:space="preserve">
+    <value>Предупреждение</value>
+  </data>
+  <data name="DatabaseConfigurator_90" xml:space="preserve">
+    <value>Вы действительно хотите удалить фильтр "{0}"?</value>
+  </data>
+  <data name="DatabaseConfigurator_97" xml:space="preserve">
+    <value>Имя фильтра не может быть пустым!</value>
+  </data>
+  <data name="DatabaseConfigurator_96" xml:space="preserve">
+    <value>Guid фильтра не может быть пустым!</value>
+  </data>
+  <data name="DatabaseConfigurator_95" xml:space="preserve">
+    <value>Типы объектов</value>
+  </data>
+  <data name="DatabaseConfigurator_94" xml:space="preserve">
+    <value>Объекты</value>
+  </data>
+  <data name="DatabaseConfigurator_99" xml:space="preserve">
+    <value>Фильтр с таким именем уже существует!</value>
+  </data>
+  <data name="DatabaseConfigurator_98" xml:space="preserve">
+    <value>Новый фильтр-{0}</value>
+  </data>
+  <data name="DatabaseConfigurator_82" xml:space="preserve">
+    <value>Настройки индексов</value>
+  </data>
+  <data name="DatabaseConfigurator_83" xml:space="preserve">
+    <value>Вы изменили параметры индексации. Сейчас будет стартован фоновый процесс переиндексации атрибутов. Переиндексация может выполняться долго, но прерывать этот процесс не рекомендуется, т.к. это может привести к неправильному функционированию системы.</value>
+  </data>
+  <data name="DatabaseConfigurator_80" xml:space="preserve">
+    <value>День недели</value>
+  </data>
+  <data name="DatabaseConfigurator_81" xml:space="preserve">
+    <value>Система\Нормализованные индексы\По умолчанию</value>
+  </data>
+  <data name="DatabaseConfigurator_86" xml:space="preserve">
+    <value>Настройки замен для индексов</value>
+  </data>
+  <data name="DatabaseConfigurator_87" xml:space="preserve">
+    <value>Вы изменили параметры индексации. Сейчас будет стартован фоновый процесс переиндексации атрибутов. Переиндексация может выполняться долго, но прерывать этот процесс не рекомендуется, т.к. это может привести к неправильному функционированию системы.</value>
+  </data>
+  <data name="DatabaseConfigurator_84" xml:space="preserve">
+    <value>Внимание!</value>
+  </data>
+  <data name="DatabaseConfigurator_85" xml:space="preserve">
+    <value>Система\Нормализованные индексы\По умолчанию\Замены</value>
+  </data>
+  <data name="DatabaseConfigurator_88" xml:space="preserve">
+    <value>Внимание!</value>
+  </data>
+  <data name="DatabaseConfigurator_89" xml:space="preserve">
+    <value>Параметры фильтра</value>
+  </data>
+  <data name="DatabaseConfigurator_39" xml:space="preserve">
+    <value>Файлы</value>
+  </data>
+  <data name="DatabaseConfigurator_38" xml:space="preserve">
+    <value>{0} файлов файлового шкафа "{1}"</value>
+  </data>
+  <data name="DatabaseConfigurator_33" xml:space="preserve">
+    <value>Система\Подстановка окончаний</value>
+  </data>
+  <data name="DatabaseConfigurator_35" xml:space="preserve">
+    <value>Настройка окончаний слов</value>
+  </data>
+  <data name="DatabaseConfigurator_34" xml:space="preserve">
+    <value>Результат проверки</value>
+  </data>
+  <data name="DatabaseConfigurator_37" xml:space="preserve">
+    <value>файлов: {0} из {1}</value>
+  </data>
+  <data name="DatabaseConfigurator_36" xml:space="preserve">
+    <value>Выделено: </value>
+  </data>
+  <data name="DatabaseConfigurator_20" xml:space="preserve">
+    <value>Замена схемы</value>
+  </data>
+  <data name="DatabaseConfigurator_21" xml:space="preserve">
+    <value>Наименование</value>
+  </data>
+  <data name="DatabaseConfigurator_19" xml:space="preserve">
+    <value>Пытаться заменить схему у существующих объектов данного типа?</value>
+  </data>
+  <data name="DatabaseConfigurator_18" xml:space="preserve">
+    <value>Схемы</value>
+  </data>
+  <data name="DatabaseConfigurator_13" xml:space="preserve">
+    <value>Односторонняя</value>
+  </data>
+  <data name="DatabaseConfigurator_12" xml:space="preserve">
+    <value>Вид схемы по умолчанию</value>
+  </data>
+  <data name="DatabaseConfigurator_11" xml:space="preserve">
+    <value>Безопасность</value>
+  </data>
+  <data name="DatabaseConfigurator_10" xml:space="preserve">
+    <value>Развернуть</value>
+  </data>
+  <data name="DatabaseConfigurator_17" xml:space="preserve">
+    <value>Первый шаг схемы жизненного цикла удалён не будет</value>
+  </data>
+  <data name="DatabaseConfigurator_16" xml:space="preserve">
+    <value>Первый шаг схемы жизненного цикла не может быть удалён</value>
+  </data>
+  <data name="DatabaseConfigurator_15" xml:space="preserve">
+    <value>Развернуть</value>
+  </data>
+  <data name="DatabaseConfigurator_14" xml:space="preserve">
+    <value>Двусторонняя</value>
+  </data>
+  <data name="DatabaseConfigurator_79" xml:space="preserve">
+    <value>Число</value>
+  </data>
+  <data name="DatabaseConfigurator_78" xml:space="preserve">
+    <value>Месяц</value>
+  </data>
+  <data name="DatabaseConfigurator_75" xml:space="preserve">
+    <value>Число</value>
+  </data>
+  <data name="DatabaseConfigurator_74" xml:space="preserve">
+    <value>Месяц</value>
+  </data>
+  <data name="DatabaseConfigurator_77" xml:space="preserve">
+    <value>Время</value>
+  </data>
+  <data name="DatabaseConfigurator_76" xml:space="preserve">
+    <value>Время</value>
+  </data>
+  <data name="DatabaseConfigurator_71" xml:space="preserve">
+    <value>Время</value>
+  </data>
+  <data name="DatabaseConfigurator_70" xml:space="preserve">
+    <value>Число</value>
+  </data>
+  <data name="DatabaseConfigurator_73" xml:space="preserve">
+    <value>Время</value>
+  </data>
+  <data name="DatabaseConfigurator_72" xml:space="preserve">
+    <value>День недели</value>
+  </data>
+  <data name="DatabaseConfigurator_68" xml:space="preserve">
+    <value>Удаление мусора</value>
+  </data>
+  <data name="DatabaseConfigurator_69" xml:space="preserve">
+    <value>Время</value>
+  </data>
+  <data name="DatabaseConfigurator_64" xml:space="preserve">
+    <value>Пятница</value>
+  </data>
+  <data name="DatabaseConfigurator_65" xml:space="preserve">
+    <value>Суббота</value>
+  </data>
+  <data name="DatabaseConfigurator_66" xml:space="preserve">
+    <value>Воскресенье</value>
+  </data>
+  <data name="DatabaseConfigurator_67" xml:space="preserve">
+    <value>Система\Удаление мусора</value>
+  </data>
+  <data name="DatabaseConfigurator_60" xml:space="preserve">
+    <value>Понедельник</value>
+  </data>
+  <data name="DatabaseConfigurator_61" xml:space="preserve">
+    <value>Вторник</value>
+  </data>
+  <data name="DatabaseConfigurator_62" xml:space="preserve">
+    <value>Среда</value>
+  </data>
+  <data name="DatabaseConfigurator_63" xml:space="preserve">
+    <value>Четверг</value>
+  </data>
+  <data name="DatabaseConfigurator_59" xml:space="preserve">
+    <value>Декабрь</value>
+  </data>
+  <data name="DatabaseConfigurator_58" xml:space="preserve">
+    <value>Ноябрь</value>
+  </data>
+  <data name="DatabaseConfigurator_57" xml:space="preserve">
+    <value>Октябрь</value>
+  </data>
+  <data name="DatabaseConfigurator_56" xml:space="preserve">
+    <value>Сентябрь</value>
+  </data>
+  <data name="DatabaseConfigurator_55" xml:space="preserve">
+    <value>Август</value>
+  </data>
+  <data name="DatabaseConfigurator_54" xml:space="preserve">
+    <value>Июль</value>
+  </data>
+  <data name="DatabaseConfigurator_53" xml:space="preserve">
+    <value>Июнь</value>
+  </data>
+  <data name="DatabaseConfigurator_52" xml:space="preserve">
+    <value>Май</value>
+  </data>
+  <data name="DatabaseConfigurator_51" xml:space="preserve">
+    <value>Апрель</value>
+  </data>
+  <data name="DatabaseConfigurator_50" xml:space="preserve">
+    <value>Март</value>
+  </data>
+  <data name="DatabaseConfigurator_48" xml:space="preserve">
+    <value>Январь</value>
+  </data>
+  <data name="DatabaseConfigurator_49" xml:space="preserve">
+    <value>Февраль</value>
+  </data>
+  <data name="DatabaseConfigurator_46" xml:space="preserve">
+    <value>Фильтрация списка</value>
+  </data>
+  <data name="DatabaseConfigurator_47" xml:space="preserve">
+    <value> (включено)</value>
+  </data>
+  <data name="DatabaseConfigurator_44" xml:space="preserve">
+    <value>Выделено: </value>
+  </data>
+  <data name="DatabaseConfigurator_45" xml:space="preserve">
+    <value>файлов: {0} из {1}</value>
+  </data>
+  <data name="DatabaseConfigurator_42" xml:space="preserve">
+    <value>Нельзя скопировать файл сам в себя. Выберите другой файловый шкаф.</value>
+  </data>
+  <data name="DatabaseConfigurator_43" xml:space="preserve">
+    <value>Список файлов</value>
+  </data>
+  <data name="DatabaseConfigurator_40" xml:space="preserve">
+    <value>Не удалось выполнить указанное действие</value>
+  </data>
+  <data name="DatabaseConfigurator_41" xml:space="preserve">
+    <value>{0} файлов файлового шкафа "{1}"</value>
+  </data>
+  <data name="GetAccessReportForObjects" xml:space="preserve">
+    <value>Отчет о правах доступа к объектам</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Укажите дату запуска</value>
+  </data>
+  <data name="StartTime" xml:space="preserve">
+    <value>Укажите время запуска</value>
+  </data>
+  <data name="Open_in_new window" xml:space="preserve">
+    <value>Открыть в новом окне</value>
+  </data>
+  <data name="StepInDays" xml:space="preserve">
+    <value>Укажите время запуска</value>
+  </data>
+  <data name="LdapSync" xml:space="preserve">
+    <value>Синхронизация со службой каталогов</value>
+  </data>
+  <data name="DatabaseConfigurator_ToggleStatFlag" xml:space="preserve">
+    <value>"Выполнить переключение режима сбора статистики?"</value>
+  </data>
+  <data name="DatabaseConfigurator_8" xml:space="preserve">
+    <value>Односторонняя</value>
+  </data>
+  <data name="DatabaseConfigurator_9" xml:space="preserve">
+    <value>Двусторонняя</value>
+  </data>
+  <data name="DatabaseConfigurator_2" xml:space="preserve">
+    <value>файлов: {0} из {1}</value>
+  </data>
+  <data name="DatabaseConfigurator_3" xml:space="preserve">
+    <value>{0} файлов файлового шкафа "{1}"</value>
+  </data>
+  <data name="DatabaseConfigurator_1" xml:space="preserve">
+    <value>Выделено: </value>
+  </data>
+  <data name="DatabaseConfigurator_6" xml:space="preserve">
+    <value>Схема жизненного цикла</value>
+  </data>
+  <data name="DatabaseConfigurator_7" xml:space="preserve">
+    <value>Схема</value>
+  </data>
+  <data name="DatabaseConfigurator_4" xml:space="preserve">
+    <value>Файлы</value>
+  </data>
+  <data name="DatabaseConfigurator_5" xml:space="preserve">
+    <value>Нельзя скопировать файл сам в себя. Выберите другой файловый шкаф.</value>
+  </data>
+  <data name="GetAccessReport" xml:space="preserve">
+    <value>Отчет о правах доступа</value>
+  </data>
+  <data name="DatabaseConfigurator_NeedManualUpdate" xml:space="preserve">
+    <value>Для обновления отображаемых в дереве конфигуратора данных указывайте на папке дерева команду всплывающего меню "Обновить"</value>
+  </data>
+  <data name="DatabaseConfigurator_PrevAutoMoveDescr" xml:space="preserve">
+    <value>Автоматически переводить предыдущую версию на шаг</value>
+  </data>
+  <data name="DatabaseConfigurator_NotFound" xml:space="preserve">
+    <value>Поиск не дал результатов</value>
+  </data>
+  <data name="StepInMinutes" xml:space="preserve">
+    <value>Укажите шаг в минутах</value>
+  </data>
+  <data name="DataBaseSettings" xml:space="preserve">
+    <value>Система\База данных и оптимизация</value>
+  </data>
+</root>

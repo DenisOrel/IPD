@@ -1,0 +1,28 @@
+﻿<tr>
+    <td class="block">
+        <table>
+            <tr  class="w">
+                <td  class="left">Отправитель:</td>
+                <td  class="from_right"><a href="#object={$SenderID}">{$Sender}</a></td>
+            </tr>
+
+            <tr  class="w">
+                <td  class="left">Шаг:</td>
+                <td class="right">{$ActivityImage} <a href="#activity={$ActivityID}">{$ActivityName}</a></td>
+            </tr>
+
+            <tr  class="w">
+                <td  class="left">Отправлено:</td>
+                <td class="right">{$ActivityResultImage} {$ActivityResult}</td>
+            </tr>
+
+            <tr  class="w">
+                <td  class="left">Дата:</td>
+                <td class="right">{$Time}</td>
+            </tr>
+            <tr>
+                <td class="answer" colspan="2">{$Text}</td>
+            </tr>
+        </table>
+    </td>
+</tr>

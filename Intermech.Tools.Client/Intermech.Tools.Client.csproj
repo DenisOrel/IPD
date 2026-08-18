@@ -1,0 +1,687 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.Tools.Client.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E8BFBA58-0D8E-4CC7-B0E0-4AF56FDFF182}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.Tools.Client</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Infralution.Controls.VirtualTree">
+      <HintPath>lib\Infralution.Controls.VirtualTree.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.AVS">
+      <HintPath>lib\Intermech.AVS.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bars">
+      <HintPath>lib\Intermech.Bars.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bcl.Wpf">
+      <HintPath>lib\Intermech.Bcl.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Client.Core">
+      <HintPath>lib\Intermech.Client.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Docking">
+      <HintPath>lib\Intermech.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.AVS">
+      <HintPath>lib\Intermech.Interfaces.AVS.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Client">
+      <HintPath>lib\Intermech.Interfaces.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Imbase">
+      <HintPath>lib\Intermech.Interfaces.Imbase.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Pdm">
+      <HintPath>lib\Intermech.Interfaces.Pdm.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.PdmConfigurator">
+      <HintPath>lib\Intermech.Interfaces.PdmConfigurator.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.PdmConfigurator">
+      <HintPath>lib\Intermech.PdmConfigurator.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Tools.Components">
+      <HintPath>lib\Intermech.Tools.Components.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.CADInterface">
+      <HintPath>lib\Interop.CADInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.Cadmech">
+      <HintPath>lib\Interop.Cadmech.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Ninject">
+      <HintPath>lib\Ninject.dll</HintPath>
+    </Reference>
+    <Reference Include="Ninject.Extensions.Factory">
+      <HintPath>lib\Ninject.Extensions.Factory.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="QuickGraph">
+      <HintPath>lib\QuickGraph.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.Windows.Controls">
+      <HintPath>lib\Telerik.Windows.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Controls.GridView">
+      <HintPath>lib\Telerik.Windows.Controls.GridView.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Controls.Navigation">
+      <HintPath>lib\Telerik.Windows.Controls.Navigation.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Controls.VirtualGrid">
+      <HintPath>lib\Telerik.Windows.Controls.VirtualGrid.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Data">
+      <HintPath>lib\Telerik.Windows.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents">
+      <HintPath>lib\Telerik.Windows.Documents.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.FormatProviders.Html">
+      <HintPath>lib\Telerik.Windows.Documents.FormatProviders.Html.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Documents.FormatProviders.Rtf">
+      <HintPath>lib\Telerik.Windows.Documents.FormatProviders.Rtf.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+    <Reference Include="WpfBindingErrors">
+      <HintPath>lib\WpfBindingErrors.dll</HintPath>
+    </Reference>
+    <Reference Include="iGrid">
+      <HintPath>lib\iGrid.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>lib\itextsharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Localization\LocalizationHolder.cs" />
+    <Compile Include="Localization\CustomDescription.cs" />
+    <Compile Include="Localization\CustomCategory.cs" />
+    <Compile Include="Localization\CustomDisplayName.cs" />
+    <Compile Include="Tools\EnterpriseArchive\ArchiveParametersEditorModel.cs" />
+    <Compile Include="Tools\EnterpriseArchive\BackgroundCommandPresenter.cs" />
+    <Compile Include="Tools\EnterpriseArchive\BackgroundCommandWindow.cs" />
+    <Compile Include="Tools\EnterpriseArchive\ExtendedPresenter`1.cs" />
+    <Compile Include="Tools\EnterpriseArchive\IBackgroundCommandView.cs" />
+    <Compile Include="Tools\EnterpriseArchive\AddFileToQueueCommand.cs" />
+    <Compile Include="Tools\EnterpriseArchive\ArchiveFiles.cs" />
+    <Compile Include="Tools\EnterpriseArchive\ArchiveParametersControl.cs" />
+    <Compile Include="Tools\EnterpriseArchive\ArchiveParametersPresenter.cs" />
+    <Compile Include="Tools\EnterpriseArchive\CancelCommandException.cs" />
+    <Compile Include="Tools\EnterpriseArchive\ClearQueueCommand.cs" />
+    <Compile Include="Tools\EnterpriseArchive\EnterpriseArchiveCommand.cs" />
+    <Compile Include="Tools\EnterpriseArchive\FileListGridWrapper.cs" />
+    <Compile Include="Tools\EnterpriseArchive\FileStatesPresenter.cs" />
+    <Compile Include="Tools\EnterpriseArchive\FileStatesWindow.cs" />
+    <Compile Include="Tools\EnterpriseArchive\FileStatisticsWindow.cs" />
+    <Compile Include="Tools\EnterpriseArchive\IArchiveParametersView.cs" />
+    <Compile Include="Tools\EnterpriseArchive\IFileListView.cs" />
+    <Compile Include="Tools\EnterpriseArchive\IFileStatesView.cs" />
+    <Compile Include="Tools\EnterpriseArchive\IFileStatisticsView.cs" />
+    <Compile Include="Tools\EnterpriseArchive\IImportSourceView.cs" />
+    <Compile Include="Tools\EnterpriseArchive\ImportSource.cs" />
+    <Compile Include="Tools\EnterpriseArchive\ImportFilesCommand.cs" />
+    <Compile Include="Tools\EnterpriseArchive\ImportSourcePresenter.cs" />
+    <Compile Include="Tools\EnterpriseArchive\ImportSourceWindow.cs" />
+    <Compile Include="Tools\EnterpriseArchive\Module.cs" />
+    <Compile Include="Tools\EnterpriseArchive\CopyToVaultException.cs" />
+    <Compile Include="Tools\EnterpriseArchive\FileBucket.cs" />
+    <Compile Include="Tools\EnterpriseArchive\FileStatisticsPresenter.cs" />
+    <Compile Include="Tools\EnterpriseArchive\TraceUtils.cs" />
+    <Compile Include="Tools\EnterpriseArchive\IQueueFileView.cs" />
+    <Compile Include="Tools\EnterpriseArchive\ViewQueueFileForm.cs" />
+    <Compile Include="Tools\EnterpriseArchive\ViewQueueFilePresenter.cs" />
+    <Compile Include="Tools\EnterpriseArchive\UI\FileErrorsExplainationPresenter.cs" />
+    <Compile Include="Tools\EnterpriseArchive\UI\IFileErrorsExplainationView.cs" />
+    <Compile Include="Tools\EnterpriseArchive\UI\FileErrorsExplainationWindow.cs" />
+    <Compile Include="Tools\EnterpriseArchive\UI\ExplanationViewModel.cs" />
+    <Compile Include="Tools\EnterpriseArchive\UI\FileError.cs" />
+    <Compile Include="Tools\EnterpriseArchive\UI\FileErrorsExplanationViewModel.cs" />
+    <Compile Include="Tools\EnterpriseArchive\UI\FileListExplainationPresenter.cs" />
+    <Compile Include="Tools\EnterpriseArchive\UI\FileListExplanationViewModel.cs" />
+    <Compile Include="Tools\EnterpriseArchive\UI\FileListExplainationWindow.cs" />
+    <Compile Include="Tools\EnterpriseArchive\UI\IFileListExplainationView.cs" />
+    <Compile Include="Tools\EnterpriseArchive\UI\ViewModel.cs" />
+    <Compile Include="Tools\EnterpriseArchive\SpecialFiles\IImportStage.cs" />
+    <Compile Include="Tools\EnterpriseArchive\SpecialFiles\LockFileServices.cs" />
+    <Compile Include="Tools\EnterpriseArchive\SpecialFiles\QueueFile.cs" />
+    <Compile Include="Tools\EnterpriseArchive\SpecialFiles\QueueFileServices.cs" />
+    <Compile Include="Tools\EnterpriseArchive\SpecialFiles\SpecialFileServices.cs" />
+    <Compile Include="Tools\MSOffice\MsoApiService.cs" />
+    <Compile Include="Tools\MSOffice\MsoDocumentFormatter.cs" />
+    <Compile Include="Tools\MSOffice\IMsoApiResourceTracker.cs" />
+    <Compile Include="Tools\MSOffice\MsoSavedState.cs" />
+    <Compile Include="Tools\MSOffice\MsoDocumentCodec.cs" />
+    <Compile Include="Tools\MSOffice\MsoResources.cs" />
+    <Compile Include="Tools\MSOffice\Word\MSWordAuthenticFilesService.cs" />
+    <Compile Include="Tools\MSOffice\Word\MSWordLauncherService.cs" />
+    <Compile Include="Tools\MSOffice\Word\MSWordApiResourceManager.cs" />
+    <Compile Include="Tools\MSOffice\Word\MSWordCaptureChangesDriver.cs" />
+    <Compile Include="Tools\MSOffice\Word\MSWordDataExchangeFactory.cs" />
+    <Compile Include="Tools\MSOffice\Word\MSWordDocumentHandler.cs" />
+    <Compile Include="Tools\MSOffice\Word\MSWordEmbedAttributesDriver.cs" />
+    <Compile Include="Tools\MSOffice\Word\MSWordApiHelper.cs" />
+    <Compile Include="Tools\MSOffice\Word\MSWordFileTypesService.cs" />
+    <Compile Include="Tools\MSOffice\Word\MSWordIntegrator.cs" />
+    <Compile Include="Tools\MSOffice\Word\MSWordOpenFilesManager.cs" />
+    <Compile Include="Tools\MSOffice\Word\OpenFilesHandler.cs" />
+    <Compile Include="Tools\MSOffice\Word\MSWordIntegratorSettings.cs" />
+    <Compile Include="Tools\MSOffice\Word\MSWordIntegratorSettingsService.cs" />
+    <Compile Include="Tools\MSOffice\Word\MSWordIntegratorSettingsCodec.cs" />
+    <Compile Include="Tools\MSOffice\Word\MSWordIntegratorPackage.cs" />
+    <Compile Include="Tools\MSOffice\Word\MSWordApiService.cs" />
+    <Compile Include="Tools\MSOffice\Excel\ExcelAuthenticFilesService.cs" />
+    <Compile Include="Tools\MSOffice\Excel\ExcelLauncherService.cs" />
+    <Compile Include="Tools\MSOffice\Excel\ExcelCaptureChangesDriver.cs" />
+    <Compile Include="Tools\MSOffice\Excel\ExcelDataExchangeFactory.cs" />
+    <Compile Include="Tools\MSOffice\Excel\ExcelDocumentHandler.cs" />
+    <Compile Include="Tools\MSOffice\Excel\ExcelEmbedAttributesDriver.cs" />
+    <Compile Include="Tools\MSOffice\Excel\ExcelIntegratorSettings.cs" />
+    <Compile Include="Tools\MSOffice\Excel\ExcelIntegratorSettingsCodec.cs" />
+    <Compile Include="Tools\MSOffice\Excel\ExcelIntegratorSettingsService.cs" />
+    <Compile Include="Tools\MSOffice\Excel\ExcelApiResourceManager.cs" />
+    <Compile Include="Tools\MSOffice\Excel\ExcelOpenFilesManager.cs" />
+    <Compile Include="Tools\MSOffice\Excel\ExcelFileTypesService.cs" />
+    <Compile Include="Tools\MSOffice\Excel\ExcelIntegrator.cs" />
+    <Compile Include="Tools\MSOffice\Excel\ExcelApiHelper.cs" />
+    <Compile Include="Tools\MSOffice\Excel\ExcelApiService.cs" />
+    <Compile Include="Tools\MSOffice\Excel\OpenFilesHandler.cs" />
+    <Compile Include="Tools\MSOffice\Excel\ExcelIntegratorPackage.cs" />
+    <Compile Include="Tools\MSOffice\ComInterop\WdAutoMacros.cs" />
+    <Compile Include="Tools\MSOffice\ComInterop\WdExportFormat.cs" />
+    <Compile Include="Tools\MSOffice\ComInterop\WdWindowState.cs" />
+    <Compile Include="Tools\MSOffice\ComInterop\XlFixedFormatQuality.cs" />
+    <Compile Include="Tools\MSOffice\ComInterop\XlFixedFormatType.cs" />
+    <Compile Include="Tools\MSOffice\ComInterop\XlRunAutoMacro.cs" />
+    <Compile Include="Tools\MSOffice\ComInterop\MsoDocProperties.cs" />
+    <Compile Include="Tools\MSOffice\ComInterop\XlWindowState.cs" />
+    <Compile Include="Tools\MSOffice\ComInterop\WdBuiltInProperty.cs" />
+    <Compile Include="Tools\ShellVerbs\ShellVerbLaunchHandler.cs" />
+    <Compile Include="Tools\ShellVerbs\ShellVerbSettingsEditor.cs" />
+    <Compile Include="Tools\ExtApps\ExtAppActionsEditor.cs" />
+    <Compile Include="Tools\ExtApps\ExtAppLaunchHandler.cs" />
+    <Compile Include="Tools\ExtApps\SystemVariablesForm.cs" />
+    <Compile Include="Tools\StandardParts\ImportConsts.cs" />
+    <Compile Include="Tools\StandardParts\ImportedStandardPart.cs" />
+    <Compile Include="Tools\StandardParts\Module.cs" />
+    <Compile Include="Tools\StandardParts\Custom\ImportContext.cs" />
+    <Compile Include="Tools\StandardParts\Custom\ImportLibraryForm.cs" />
+    <Compile Include="Tools\StandardParts\Custom\StandardPartImporter.cs" />
+    <Compile Include="Tools\StandardParts\Cadmech\ImportContextTask.cs" />
+    <Compile Include="Tools\StandardParts\Cadmech\ImportModelLibraryForm.cs" />
+    <Compile Include="Tools\StandardParts\Cadmech\ImportContext.cs" />
+    <Compile Include="Tools\StandardParts\Cadmech\StandardPartImporter.cs" />
+    <Compile Include="Tools\StandardParts\Cadmech\StandardPartRelinker.cs" />
+    <Compile Include="Tools\Setup\HostControlSizeManager.cs" />
+    <Compile Include="Tools\Setup\StandaloneViewPage.cs" />
+    <Compile Include="Tools\Setup\StandaloneViewSettingsControl.cs" />
+    <Compile Include="Tools\Setup\IntegratorsPageEvents.cs" />
+    <Compile Include="Tools\Setup\IntegratorArgs.cs" />
+    <Compile Include="Tools\Setup\ToolSecurityPage.cs" />
+    <Compile Include="Tools\Setup\LaunchActionDataPage.cs" />
+    <Compile Include="Tools\Setup\DefaultActionsEditor.cs" />
+    <Compile Include="Tools\Setup\IntegratorDataPage.cs" />
+    <Compile Include="Tools\Setup\IntegratorsPage.cs" />
+    <Compile Include="Tools\Setup\LaunchActionEditorEvents.cs" />
+    <Compile Include="Tools\Setup\LaunchActionArgs.cs" />
+    <Compile Include="Tools\Setup\LaunchActionsEditor.cs" />
+    <Compile Include="Tools\Setup\LaunchActionsPage.cs" />
+    <Compile Include="Tools\Setup\IPageControl.cs" />
+    <Compile Include="Tools\Setup\IPagerControl.cs" />
+    <Compile Include="Tools\Setup\PageDescriptor.cs" />
+    <Compile Include="Tools\Setup\PagerControl.cs" />
+    <Compile Include="Tools\Setup\TargetDescriptor.cs" />
+    <Compile Include="Tools\Setup\TargetSelector.cs" />
+    <Compile Include="Tools\Setup\ToolSecurityContext.cs" />
+    <Compile Include="Tools\Setup\ToolSetupWindow.cs" />
+    <Compile Include="Tools\Setup\XmlTextEditor.cs" />
+    <Compile Include="Tools\PDMTree\PDMAttributeManager.cs" />
+    <Compile Include="Tools\PDMTree\PDMObjectParameterContainer.cs" />
+    <Compile Include="Tools\PDMTree\OutputViewLogWriter.cs" />
+    <Compile Include="Tools\PDMTree\PDMObjectVersionOperations.cs" />
+    <Compile Include="Tools\PDMTree\PDMDocumentVersionInfo.cs" />
+    <Compile Include="Tools\PDMTree\PDMDocumentSynchronizationInfo.cs" />
+    <Compile Include="Tools\PDMTree\IPDMSystemContext.cs" />
+    <Compile Include="Tools\PDMTree\PDMDocumentFileInfo.cs" />
+    <Compile Include="Tools\PDMTree\PDMSystemNinjectConsts.cs" />
+    <Compile Include="Tools\PDMTree\PDMSystemNinjectModule.cs" />
+    <Compile Include="Tools\PDMTree\SynchronizeOperations.cs" />
+    <Compile Include="Tools\PDMTree\AsmComponentLocatorData.cs" />
+    <Compile Include="Tools\PDMTree\AVSCommandsBuilder.cs" />
+    <Compile Include="Tools\PDMTree\CommandNotSupportedException.cs" />
+    <Compile Include="Tools\PDMTree\PDMEditContext.cs" />
+    <Compile Include="Tools\PDMTree\PDMObject.cs" />
+    <Compile Include="Tools\PDMTree\PDMSystemComponent.cs" />
+    <Compile Include="Tools\PDMTree\SynchronizeAction.cs" />
+    <Compile Include="Tools\PDMTree\IPDMStandardLibrary.cs" />
+    <Compile Include="Tools\PDMTree\IPDMSystemProvider.cs" />
+    <Compile Include="Tools\PDMTree\NotSupportedStandardLibrary.cs" />
+    <Compile Include="Tools\PDMTree\PDMObjectNotFoundException.cs" />
+    <Compile Include="Tools\PDMTree\PDMParameterContainer.cs" />
+    <Compile Include="Tools\PDMTree\PDMStandardLibrary.cs" />
+    <Compile Include="Tools\PDMTree\PDMSystemAction.cs" />
+    <Compile Include="Tools\PDMTree\SeparateStandardSizesLibrary.cs" />
+    <Compile Include="Tools\PDMTree\EmbeddedStandardSizesLibrary.cs" />
+    <Compile Include="Tools\PDMTree\PDMSystem.cs" />
+    <Compile Include="Tools\PDMTree\PDMSystemConsts.cs" />
+    <Compile Include="Tools\PDMTree\PDMArticle.cs" />
+    <Compile Include="Tools\PDMTree\PDMDocument.cs" />
+    <Compile Include="Tools\PDMTree\PDMSystemSpecRecordWrapper.cs" />
+    <Compile Include="Tools\PDMTree\PDMSystemTrace.cs" />
+    <Compile Include="Tools\PDMTree\PDMSystemException.cs" />
+    <Compile Include="Tools\PDMTree\PDMSystemModule.cs" />
+    <Compile Include="Tools\PDF\HexEncodedValuesConverter.cs" />
+    <Compile Include="Tools\PDF\OpenPDFFile.cs" />
+    <Compile Include="Tools\PDF\PDFCaptureChangesDriver.cs" />
+    <Compile Include="Tools\PDF\PDFCodec.cs" />
+    <Compile Include="Tools\PDF\PDFConsts.cs" />
+    <Compile Include="Tools\PDF\PDFDataExchangeFactory.cs" />
+    <Compile Include="Tools\PDF\PDFApiService.cs" />
+    <Compile Include="Tools\PDF\PDFDocumentHandler.cs" />
+    <Compile Include="Tools\PDF\PDFFileTypesService.cs" />
+    <Compile Include="Tools\PDF\PDFFormatter.cs" />
+    <Compile Include="Tools\PDF\PDFIntegrator.cs" />
+    <Compile Include="Tools\PDF\PDFIntegratorSettings.cs" />
+    <Compile Include="Tools\PDF\PDFIntegratorSettingsService.cs" />
+    <Compile Include="Tools\PDF\PDFIntegratorPackage.cs" />
+    <Compile Include="Tools\PDF\PDFResources.cs" />
+    <Compile Include="Tools\PDF\PDFIntegratorSettingsCodec.cs" />
+    <Compile Include="Tools\Client\ArticleDocumentationLaunchHandler.cs" />
+    <Compile Include="Tools\Client\AuthenticFilesLaunchHandler.cs" />
+    <Compile Include="Tools\Client\LaunchHandlersModule.cs" />
+    <Compile Include="Tools\Client\CadmechServicesModule.cs" />
+    <Compile Include="Tools\Client\ExceptionHandlersModule.cs" />
+    <Compile Include="Tools\Client\ExtAppModule.cs" />
+    <Compile Include="Tools\Client\ToolsControlPanelControl.cs" />
+    <Compile Include="Tools\Client\PairedLaunchCommandsModule.cs" />
+    <Compile Include="Tools\Client\FileCommandsModule.cs" />
+    <Compile Include="Tools\Client\ToolsControlPanelModule.cs" />
+    <Compile Include="Tools\Client\ToolsControlPanelForm.cs" />
+    <Compile Include="Tools\Client\MainPackage.cs" />
+    <Compile Include="Tools\Client\ArticlePreviewModule.cs" />
+    <Compile Include="Tools\Client\Cadmech3DServices.cs" />
+    <Compile Include="Tools\Client\FileImportModule.cs" />
+    <Compile Include="Tools\Client\SetupWindowModule.cs" />
+    <Compile Include="Tools\Client\ShellVerbModule.cs" />
+    <Compile Include="Tools\Client\WeldingJoints\MenuCommandsProvider.cs" />
+    <Compile Include="Tools\Client\WeldingJoints\MenuConsts.cs" />
+    <Compile Include="Tools\Client\WeldingJoints\MenuModule.cs" />
+    <Compile Include="Tools\Client\Properties\Resources.cs" />
+    <Compile Include="Tools\Client\Requirement\RequirementMenuCommandProvider.cs" />
+    <Compile Include="Tools\Client\Requirement\RequirementMenuConsts.cs" />
+    <Compile Include="Tools\Client\Requirement\RequirementModule.cs" />
+    <Compile Include="Tools\Client\Requirement\RequirementsSettings.cs" />
+    <Compile Include="Tools\Client\Requirement\RequirementsSettingsPage.cs" />
+    <Compile Include="Tools\Client\MultiCAD\JTCommandsNinjectModule.cs" />
+    <Compile Include="Tools\Client\MultiCAD\JTCommandsProvider.cs" />
+    <Compile Include="Tools\Client\MultiCAD\JTCommandsModule.cs" />
+    <Compile Include="Tools\Client\MultiCAD\JTSourceDocumentTypesHelper.cs" />
+    <Compile Include="Tools\Client\IntegratorsContextMenu\MenuConsts.cs" />
+    <Compile Include="Tools\Client\IntegratorsContextMenu\MenuModule.cs" />
+    <Compile Include="Tools\Client\IntegrationErrors\MenuConsts.cs" />
+    <Compile Include="Tools\Client\IntegrationErrors\MenuCommandsProvider.cs" />
+    <Compile Include="Tools\Client\IntegrationErrors\MenuModule.cs" />
+    <Compile Include="Tools\Client\IntegrationErrors\IntegrationErrorsWindow.cs" />
+    <Compile Include="Tools\Client\Subsystems\Import_from_Excel\AdvancedImportSettingsFrm.cs" />
+    <Compile Include="Tools\Client\Subsystems\Import_from_Excel\ComExcelReader.cs" />
+    <Compile Include="Tools\Client\Subsystems\Import_from_Excel\Consts.cs" />
+    <Compile Include="Tools\Client\Subsystems\Import_from_Excel\ImportDataBackGroundTask.cs" />
+    <Compile Include="Tools\Client\Subsystems\Import_from_Excel\DataImporter.cs" />
+    <Compile Include="Tools\Client\Subsystems\Import_from_Excel\RelationAlreadyExists.cs" />
+    <Compile Include="Tools\Client\Subsystems\Import_from_Excel\ImportSettings.cs" />
+    <Compile Include="Tools\Client\Subsystems\Import_from_Excel\SettingItem.cs" />
+    <Compile Include="Tools\Client\Subsystems\Import_from_Excel\ImportFlags.cs" />
+    <Compile Include="Tools\Client\Subsystems\Import_from_Excel\StoredSettings.cs" />
+    <Compile Include="Tools\Client\Subsystems\Import_from_Excel\Module.cs" />
+    <Compile Include="Tools\Client\Subsystems\Import_from_Excel\SettingItemTypeDescriptor.cs" />
+    <Compile Include="Tools\Client\Subsystems\Import_from_Excel\ObjectTypeLinkEditor.cs" />
+    <Compile Include="Tools\Client\Subsystems\Import_from_Excel\RelationTypeAttEditor.cs" />
+    <Compile Include="Tools\Client\Subsystems\Import_from_Excel\RelationTypeLinkConverter.cs" />
+    <Compile Include="Tools\Client\Subsystems\Import_from_Excel\SettingItemPropertyDescriptor.cs" />
+    <Compile Include="Tools\Client\Subsystems\Import_from_Excel\ColumnConfiguration.cs" />
+    <Compile Include="Tools\Client\Subsystems\Import_from_Excel\Configuration.cs" />
+    <Compile Include="Tools\Client\Subsystems\Import_from_Excel\ConfigurationManager.cs" />
+    <Compile Include="Tools\Client\Subsystems\Import_from_Excel\ConfigurationType.cs" />
+    <Compile Include="Tools\Client\Subsystems\Import_from_Excel\CommonImportOptions.cs" />
+    <Compile Include="Tools\Client\Subsystems\Import_from_Excel\SettingItemType.cs" />
+    <Compile Include="Tools\Client\Subsystems\Import_from_Excel\SettingItemValueKind.cs" />
+    <Compile Include="Tools\Client\Subsystems\Import_from_Excel\SettingItemDataType.cs" />
+    <Compile Include="Tools\Client\Subsystems\Import_from_Excel\SettingItemAttributeSourceType.cs" />
+    <Compile Include="Tools\Client\Subsystems\Import_from_Excel\SettingItemAttributeUpdateMode.cs" />
+    <Compile Include="Tools\Client\Subsystems\Import_from_Excel\CustomDescription.cs" />
+    <Compile Include="Tools\Client\Subsystems\Import_from_Excel\CustomDisplayNameAttribute.cs" />
+    <Compile Include="Tools\Client\Subsystems\Import_from_Excel\CustomCategoryAttribute.cs" />
+    <Compile Include="Tools\Client\Subsystems\Import_from_Excel\Dialogs\DialogConfigControl.cs" />
+    <Compile Include="Tools\Client\Subsystems\Import_from_Excel\Dialogs\DialogConfigControlType.cs" />
+    <Compile Include="Tools\Client\Subsystems\Import_from_Excel\Dialogs\OpenConfigDialogForm.cs" />
+    <Compile Include="Tools\Client\Subsystems\Import_from_Excel\Dialogs\SaveConfigDialogForm.cs" />
+    <Compile Include="Tools\Client\DraftDocuments\CommandsProvider.cs" />
+    <Compile Include="Tools\Client\DraftDocuments\Module.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\RootDocumentTypesCache.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\CADDocumentCopyingDispatcherHandler.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\CADDocumentCopyingInitializerModule.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\CADDocumentCopyingNinjectModule.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Views\UserWorkPageView.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Views\AttributesEditPageDataProvider.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Views\AttributesEditPageView.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Views\AttributesEditPageVM.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Views\BackgroundOperationContext.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Views\RunBackgroundOperation`1.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Views\ProcessBackgroundOperationResult`1.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Views\BackgroundOperationDescriptor`1.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Views\BackgroundOperationVM`1.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Views\CompositionCopyingWizardForm.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Views\CompositionCopyingWizardControl.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Views\CompositionCopyingWizardVM.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Views\CopyingSelectorVM.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Views\CopyDocumentsPageView.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Views\CopyDocumentsPageVM.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Views\CopyFilesPageView.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Views\CopyFilesPageVM.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Views\DialogConsts.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Views\IBackgroundOperation.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Views\DialogService.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Views\IBackgroundOperationOwner.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Views\ICompositionCopyingWizardServices.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Views\UserWorkPageVM.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Views\WizardPageOperationErrorsVM.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Views\PrescanDocumentsPageView.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Views\PrescanDocumentsPageVM.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Views\RegisterNames.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Views\SelectDocumentsTreeBuilder.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Views\SelectDocumentsTreeNodeVM.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Views\DBObjectGraphVertexReference.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Views\CompositionCopyingImages.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Views\SelectDocumentsPageVM.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Views\SelectDocumentsView.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Views\VirtualTreePropertyDescriptor.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Views\WizardPageErrorsControl.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\ArticleDocumentationTrait.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\ArticleTrait.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\CADCloneDataCapabilities.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\CADHeuristics.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\CADVirtualParametersContainer.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\CascadeUpdatesAfterEditingAttributes.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\CascadeUpdatesAfterReselectingDocuments.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\CopyingSelectorOperation.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\CopyingSessionProcessingHistory.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\DBObjectFileCollection.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\DBObjectAttributesChangedDeferredEvent.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\DBObjectAttributeCollection.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\DBObjectAttributeEntry.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\DBObjectContent.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\DBObjectEmptyContent.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\CADModelContent.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\CADModelDesignationSettings.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\CADGeneralDocumentContent.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\NonCADDocumentContent.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\DBObjectContentExtensions.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\DBObjectContentTag.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\DBObjectFileContent.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\CADMainFileContent.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\CADAncillaryFileContent.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\CADModelConfigurationFileContent.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\NonCADMainFileContent.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\NonCADAncillaryFileContent.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\DBObjectFileContentExtensions.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\DBObjectFileContentTag.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\DBObjectFileEntry.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\CopyingSessionDeferredEventSource.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\DBObjectGraphTrait.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\DBObjectGraphTraitCollection.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\DBObjectGraphVertexExtensions.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\DBObjectReselectedDeferredEvent.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\DBObjectGraphVertexDeferredEvent.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\DeferredEvent.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\DeferredEventDispatcher.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\DeferredEventHandler`1.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\DeferredEventCollection.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\DocumentTrait.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\ErrorsBuilder`1.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\ICopyingSessionServices.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\CADConfigurationTableRow.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\CADConfigurationTable.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\CADModelDrawingTrait.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\IDBObjectGraphTraitOwner.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\IDeferredEventHandler.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\IDeferredEventSource.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\LateBound`1.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\CleanupCopyStateOperation.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\CADVirtualParametersContainerSet.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\CopyingSelectorHeuristics.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\CopyingSelectorEntry.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\OperationError.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\ICleanupCopyStateRegistry.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\CopyingSelector.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\DBObjectIdAndType.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\CopyingSessionProcessingStep.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\UserWorkItem.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\CADDocumentGraphBuilder.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\CADDocumentEdgeProperties.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\DBObjectRecord.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\IDBObjectGraphBuilder.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\RecursiveDBObjectGraphBuilder`1.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\CopyingSession.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\DBObjectGraph.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\DBObjectGraphEdge.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\DBObjectGraphVertex.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\Operations\CloneDataManualFileInfo.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\Operations\DenyCopyingForNonCADDocuments.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\Operations\DenyCopyingForMinorMaterialModels.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\Operations\DocumentsValidator.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\Operations\AutoRenameOperation.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\Operations\CopyCADFilesOperation.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\Operations\CopyDBObjectsOperation.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\Operations\DenyCopyingForCadmechStandardParts.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\Operations\DenyCopyingForUsersStandardParts.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\Operations\ForceCopyingForRootCADDocument.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\Operations\FullModelConsistencyValidator.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\Operations\IObjectValidator`1.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\Operations\LongRunningOperation.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\Operations\ArticlesValidator.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\Operations\CADModelDrawingsValidator.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\Operations\PrescanDBObjectsOperation.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\Operations\PrescanDBObjectRecord.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\Operations\PrescanDBObjectFileNamesOperation.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\Operations\RemoveCopyingSelectorEntryRecursive.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\Operations\AddCopyingSelectorEntryRecursive.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\Operations\PrescanFilesOperation.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\Operations\ScannedVerticesValidator.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\Operations\ValidationContext.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\Operations\ValidationServices.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\Operations\CleanupFullStateOperation.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\CAD\AgnosticHeuristics.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\CAD\AIDocumentParametersPreparer.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\CAD\NXHeuristics.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\CAD\SWHeuristics.cs" />
+    <Compile Include="Tools\Client\CompositionCopying\Model\CAD\AIHeuristics.cs" />
+    <Compile Include="Tools\Client\Commands\ArticleAttributesLockHandler.cs" />
+    <Compile Include="Tools\Client\Commands\CheckinCommandOptionsProvider.cs" />
+    <Compile Include="Tools\Client\Commands\CommandsNinjectModule.cs" />
+    <Compile Include="Tools\Client\Commands\ExtendedSaveCommand.cs" />
+    <Compile Include="Tools\Client\Commands\ExtendedSaveCommandProvider.cs" />
+    <Compile Include="Tools\Client\Commands\ExtendedSaveHelper.cs" />
+    <Compile Include="Tools\Client\Commands\ICommandsModuleFactory.cs" />
+    <Compile Include="Tools\Client\Commands\MenuConsts.cs" />
+    <Compile Include="Tools\Client\Commands\DBObjectPrototypeFixup.cs" />
+    <Compile Include="Tools\Client\Commands\DBObjectAttributesToFileWriter.cs" />
+    <Compile Include="Tools\Client\Commands\ObjectCommandReflector.cs" />
+    <Compile Include="Tools\Client\Commands\ReplaceObjectReflector.cs" />
+    <Compile Include="Tools\Client\Commands\LauncherCommand.cs" />
+    <Compile Include="Tools\Client\Commands\OpenWithCommand.cs" />
+    <Compile Include="Tools\Client\Commands\SelectToolForm.cs" />
+    <Compile Include="Tools\Client\Commands\CommandsModule.cs" />
+    <Compile Include="Tools\Client\AuthenticFiles\CreateAuthenticFileExtender.cs" />
+    <Compile Include="Tools\Client\AuthenticFiles\AuthenticFilesInitializerModule.cs" />
+    <Compile Include="Tools\Client\AuthenticFiles\UpdateAuthenticFileOnSaveChangesExtender.cs" />
+    <Compile Include="Tools\Client\IMViewer\ModelFileReplaceModule.cs" />
+    <Compile Include="Tools\Client\IMViewer\MenuCommandsFlags.cs" />
+    <Compile Include="Tools\Client\IMViewer\IMViewerNinjectModule.cs" />
+    <Compile Include="Tools\Client\IMViewer\ISystemSettingsEditorView.cs" />
+    <Compile Include="Tools\Client\IMViewer\MenuCommandsProvider.cs" />
+    <Compile Include="Tools\Client\IMViewer\MenuConsts.cs" />
+    <Compile Include="Tools\Client\IMViewer\MenuModule.cs" />
+    <Compile Include="Tools\Client\IMViewer\SystemSettingsEditorModel.cs" />
+    <Compile Include="Tools\Client\IMViewer\SystemSettingsInitializerModule.cs" />
+    <Compile Include="Tools\Client\IMViewer\SystemSettingsEditorView.cs" />
+    <Compile Include="Tools\Client\IMViewer\SystemSettingsEditorPresenter.cs" />
+    <Compile Include="Tools\Client\MSOffice\Word\DocsComparison\DocsComparisonCommandsProvider.cs" />
+    <Compile Include="Tools\Client\MSOffice\Word\DocsComparison\DocsComparisonConsts.cs" />
+    <Compile Include="Tools\Client\MSOffice\Word\DocsComparison\DocsComparisonModule.cs" />
+    <Compile Include="Tools\Client\MSOffice\Word\DocsComparison\DocsComparisonPlugin.cs" />
+    <Compile Include="Redline\ClientRxmlService.cs" />
+    <Compile Include="Redline\RedliningComObjectServiceLink.cs" />
+    <Compile Include="Redline\RedliningIdCache.cs" />
+    <Compile Include="Redline\RxmlFileConsts.cs" />
+    <Compile Include="Redline\RxmlFileServicesModule.cs" />
+    <Compile Include="Redline\LastViewedDocumentsService.cs" />
+    <Compile Include="Redline\LastViewedDocumentsView.cs" />
+    <Compile Include="Redline\LastViewedDocumentsViewsProvider.cs" />
+    <Compile Include="Redline\RedliningComObject.cs" />
+    <Compile Include="Redline\RedliningComObjectModule.cs" />
+    <Compile Include="Redline\RxmlPackage.cs" />
+    <Compile Include="Redline\RxmlCommandsModule.cs" />
+    <Compile Include="Redline\RxmlCommandsProvider.cs" />
+    <Compile Include="XamlGeneratedNamespace\GeneratedInternalTypeHelper.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resources\erroricon.png" />
+    <Resource Include="resources\warningicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Tools\Client\Commands\SelectToolForm.resx" />
+    <EmbeddedResource Include="Tools\Client\CompositionCopying\Views\CompositionCopyingWizardForm.resx" />
+    <EmbeddedResource Include="Tools\Client\dll.licenses" />
+    <EmbeddedResource Include="Tools\Client\IMViewer\SystemSettingsEditorView.resx" />
+    <EmbeddedResource Include="Tools\Client\IntegrationErrors\IntegrationErrorsWindow.resx" />
+    <EmbeddedResource Include="Tools\Client\MSOffice\MsoResources.resx" />
+    <EmbeddedResource Include="Tools\Client\PDF\PDFResources.resx" />
+    <EmbeddedResource Include="Tools\Client\Properties\Resources.resx" />
+    <EmbeddedResource Include="Tools\Client\Requirement\RequirementsSettingsPage.resx" />
+    <EmbeddedResource Include="Tools\Client\Resources\CancelChanges.bmp" />
+    <EmbeddedResource Include="Tools\Client\Resources\CommonTool.bmp" />
+    <EmbeddedResource Include="Tools\Client\Resources\CustomAttributesResources.resx" />
+    <EmbeddedResource Include="Tools\Client\Resources\PersonalTool.bmp" />
+    <EmbeddedResource Include="Tools\Client\Resources\Refresh.bmp" />
+    <EmbeddedResource Include="Tools\Client\Resources\RemoveTool.bmp" />
+    <EmbeddedResource Include="Tools\Client\Resources\SaveChanges.bmp" />
+    <EmbeddedResource Include="Tools\Client\Resources\ToolsClientResources.resx" />
+    <EmbeddedResource Include="Tools\Client\Subsystems\Import_from_Excel\AdvancedImportSettingsFrm.resx" />
+    <EmbeddedResource Include="Tools\Client\Subsystems\Import_from_Excel\Dialogs\DialogConfigControl.resx" />
+    <EmbeddedResource Include="Tools\Client\Subsystems\Import_from_Excel\Dialogs\OpenConfigDialogForm.resx" />
+    <EmbeddedResource Include="Tools\Client\Subsystems\Import_from_Excel\Dialogs\SaveConfigDialogForm.resx" />
+    <EmbeddedResource Include="Tools\Client\ToolsControlPanelControl.resx" />
+    <EmbeddedResource Include="Tools\Client\ToolsControlPanelForm.resx" />
+    <EmbeddedResource Include="Tools\EnterpriseArchive\ArchiveParametersControl.resx" />
+    <EmbeddedResource Include="Tools\EnterpriseArchive\BackgroundCommandWindow.resx" />
+    <EmbeddedResource Include="Tools\EnterpriseArchive\FileStatesWindow.resx" />
+    <EmbeddedResource Include="Tools\EnterpriseArchive\FileStatisticsWindow.resx" />
+    <EmbeddedResource Include="Tools\EnterpriseArchive\ImportSourceWindow.resx" />
+    <EmbeddedResource Include="Tools\EnterpriseArchive\UI\FileErrorsExplainationWindow.resx" />
+    <EmbeddedResource Include="Tools\EnterpriseArchive\UI\FileListExplainationWindow.resx" />
+    <EmbeddedResource Include="Tools\EnterpriseArchive\ViewQueueFileForm.resx" />
+    <EmbeddedResource Include="Tools\ExtApps\ExtAppActionsEditor.resx" />
+    <EmbeddedResource Include="Tools\ExtApps\SystemVariablesForm.resx" />
+    <EmbeddedResource Include="Tools\Setup\DefaultActionsEditor.resx" />
+    <EmbeddedResource Include="Tools\Setup\IntegratorDataPage.resx" />
+    <EmbeddedResource Include="Tools\Setup\IntegratorsPage.resx" />
+    <EmbeddedResource Include="Tools\Setup\LaunchActionDataPage.resx" />
+    <EmbeddedResource Include="Tools\Setup\LaunchActionsEditor.resx" />
+    <EmbeddedResource Include="Tools\Setup\LaunchActionsPage.resx" />
+    <EmbeddedResource Include="Tools\Setup\PagerControl.resx" />
+    <EmbeddedResource Include="Tools\Setup\StandaloneViewPage.resx" />
+    <EmbeddedResource Include="Tools\Setup\StandaloneViewSettingsControl.resx" />
+    <EmbeddedResource Include="Tools\Setup\ToolSecurityPage.resx" />
+    <EmbeddedResource Include="Tools\Setup\ToolSetupWindow.resx" />
+    <EmbeddedResource Include="Tools\Setup\XmlTextEditor.resx" />
+    <EmbeddedResource Include="Tools\ShellVerbs\ShellVerbSettingsEditor.resx" />
+    <EmbeddedResource Include="Tools\StandardParts\Cadmech\ImportModelLibraryForm.resx" />
+    <EmbeddedResource Include="Tools\StandardParts\Custom\ImportLibraryForm.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="subsystems\compositioncopying\views\attributeseditpageview.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="subsystems\compositioncopying\views\compositioncopyingcommonresources.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="subsystems\compositioncopying\views\compositioncopyingwizardcontrol.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="subsystems\compositioncopying\views\copydocumentspageview.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="subsystems\compositioncopying\views\copyfilespageview.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="subsystems\compositioncopying\views\prescandocumentspageview.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="subsystems\compositioncopying\views\selectdocumentsview.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="subsystems\compositioncopying\views\userworkpageview.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="subsystems\compositioncopying\views\wizardpageerrorscontrol.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

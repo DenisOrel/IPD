@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.IpsXmlViewer.Interfaces.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2DD68FD1-CCF9-4816-BE0F-4CA386CAFB58}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.IpsXmlViewer.Interfaces</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech.IpsXmlViewer.Interfaces</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.XmlExchange.IpsXml.Interfaces">
+      <HintPath>lib\Intermech.XmlExchange.IpsXml.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Consts.cs" />
+    <Compile Include="IndexerState.cs" />
+    <Compile Include="IndexerEventArgs.cs" />
+    <Compile Include="IndexProgressEventHandler.cs" />
+    <Compile Include="ExceptionEventArgs.cs" />
+    <Compile Include="ExceptionHandler.cs" />
+    <Compile Include="IExceptionHandlerService.cs" />
+    <Compile Include="IAdvancedServiceContainer.cs" />
+    <Compile Include="AdvancedServiceContainer.cs" />
+    <Compile Include="FieldTypes.cs" />
+    <Compile Include="GuidHelper.cs" />
+    <Compile Include="IAssignable.cs" />
+    <Compile Include="IDisplayable.cs" />
+    <Compile Include="RegexHelper.cs" />
+    <Compile Include="IImAttribute.cs" />
+    <Compile Include="IImAttributeType.cs" />
+    <Compile Include="IImBaseElement.cs" />
+    <Compile Include="IImCompositeAttrElement.cs" />
+    <Compile Include="IImCompositeElement.cs" />
+    <Compile Include="IImDataElement.cs" />
+    <Compile Include="IImGuidElement.cs" />
+    <Compile Include="IImMetaData.cs" />
+    <Compile Include="IImMetaDataConverter.cs" />
+    <Compile Include="IImMetaDataElement.cs" />
+    <Compile Include="IImObject.cs" />
+    <Compile Include="IImXmlObject.cs" />
+    <Compile Include="IImObjectType.cs" />
+    <Compile Include="IImRelation.cs" />
+    <Compile Include="IImRelationType.cs" />
+    <Compile Include="IImXmlRelation.cs" />
+    <Compile Include="IIndexer.cs" />
+    <Compile Include="IKernel.cs" />
+    <Compile Include="ImGlobals.cs" />
+    <Compile Include="IPackage.cs" />
+    <Compile Include="IPackageCollection.cs" />
+    <Compile Include="IPackageExtension.cs" />
+    <Compile Include="IPlugin.cs" />
+    <Compile Include="IPluginCollection.cs" />
+    <Compile Include="IPluginManager.cs" />
+    <Compile Include="PluginEventHandler.cs" />
+    <Compile Include="PluginEventArgs.cs" />
+    <Compile Include="IOutputView.cs" />
+    <Compile Include="MainServicesContainer.cs" />
+    <Compile Include="UICultureHack.cs" />
+    <Compile Include="Interfaces\IDataValidator.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

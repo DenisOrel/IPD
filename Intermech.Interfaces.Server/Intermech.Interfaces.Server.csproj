@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\IPS.Installer.Full\InstServer\Server\Intermech.Interfaces.Server.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C6F0E895-4C95-4E7E-9F4F-B73249DFF68D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.Interfaces.Server</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Workflow">
+      <HintPath>lib\Intermech.Interfaces.Workflow.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Localization\LocalizationHolder.cs" />
+    <Compile Include="Interfaces\MetadataUpdates\IDBVersionUpdater.cs" />
+    <Compile Include="Interfaces\MetadataUpdates\IExtendedUpdatable.cs" />
+    <Compile Include="Interfaces\MetadataUpdates\ObligatoryElementKey.cs" />
+    <Compile Include="Interfaces\MetadataUpdates\ObligatoryElementKind.cs" />
+    <Compile Include="Interfaces\MetadataUpdates\IObligatoryObjectsService.cs" />
+    <Compile Include="Interfaces\MetadataUpdates\IUpdatable.cs" />
+    <Compile Include="Interfaces\MetadataUpdates\IUpdateService.cs" />
+    <Compile Include="Interfaces\Briefcase\ICategoryExport.cs" />
+    <Compile Include="Interfaces\Server\IImportingEntityCustomChecker.cs" />
+    <Compile Include="Interfaces\Server\IImportingEntityCustomCheckService.cs" />
+    <Compile Include="Interfaces\Server\IAppServerFilesCache.cs" />
+    <Compile Include="Interfaces\Server\IRolesCache.cs" />
+    <Compile Include="Interfaces\Server\IUsersGroupsListCache.cs" />
+    <Compile Include="Interfaces\Server\DataProviderConsts.cs" />
+    <Compile Include="Interfaces\Server\DbBatchCommandParameter.cs" />
+    <Compile Include="Interfaces\Server\DbTypedValue.cs" />
+    <Compile Include="Interfaces\Server\IConnectionStringService.cs" />
+    <Compile Include="Interfaces\Server\IDbDataProviderCreator.cs" />
+    <Compile Include="Interfaces\Server\ITraceLoggerService.cs" />
+    <Compile Include="Interfaces\Server\ExtendedTransferedObject.cs" />
+    <Compile Include="Interfaces\Server\ILinkedObjectsHandler.cs" />
+    <Compile Include="Interfaces\Server\IPublisher.cs" />
+    <Compile Include="Interfaces\Server\IUserSessionsCleaner.cs" />
+    <Compile Include="Interfaces\Server\ServerServiceAttribute.cs" />
+    <Compile Include="Interfaces\Server\CategoryHolder.cs" />
+    <Compile Include="Interfaces\Server\ExportCategoryHolder.cs" />
+    <Compile Include="Interfaces\Server\ExportHashHolder.cs" />
+    <Compile Include="Interfaces\Server\ICategoryExportManager.cs" />
+    <Compile Include="Interfaces\Server\IPossibleValuesCache.cs" />
+    <Compile Include="Interfaces\Server\ICSharpScriptServerContext.cs" />
+    <Compile Include="Interfaces\Server\ISystemDiagnosticsTask.cs" />
+    <Compile Include="Interfaces\Server\IUserSessionClientConnections.cs" />
+    <Compile Include="Interfaces\Server\ServerDiagnosticsConsts.cs" />
+    <Compile Include="Interfaces\Server\IAppServers.cs" />
+    <Compile Include="Interfaces\Server\IServerSynchronizersManager.cs" />
+    <Compile Include="Interfaces\Server\IAttachedSelectionsServerService.cs" />
+    <Compile Include="Interfaces\Server\IBaseObjectCreator.cs" />
+    <Compile Include="Interfaces\Server\IBlobStorage.cs" />
+    <Compile Include="Interfaces\Server\FileInfoStruct.cs" />
+    <Compile Include="Interfaces\Server\FileInfoStructHelper.cs" />
+    <Compile Include="Interfaces\Server\IBlobStoragesPool.cs" />
+    <Compile Include="Interfaces\Server\GetStorageIDEventArgs.cs" />
+    <Compile Include="Interfaces\Server\GetStorageIDHandler.cs" />
+    <Compile Include="Interfaces\Server\IBriefcaseProcesses.cs" />
+    <Compile Include="Interfaces\Server\StartImportEventHandler.cs" />
+    <Compile Include="Interfaces\Server\StopImportEventHandler.cs" />
+    <Compile Include="Interfaces\Server\ImportObjectEventHandler.cs" />
+    <Compile Include="Interfaces\Server\BriefcaseInfoEventArgs.cs" />
+    <Compile Include="Interfaces\Server\ImportedObjectInfoEventArgs.cs" />
+    <Compile Include="Interfaces\Server\ICacheDataset.cs" />
+    <Compile Include="Interfaces\Server\Attribute4ID.cs" />
+    <Compile Include="Interfaces\Server\FilePrototypeID.cs" />
+    <Compile Include="Interfaces\Server\ICaptionsHelper.cs" />
+    <Compile Include="Interfaces\Server\ICreatorContainer.cs" />
+    <Compile Include="Interfaces\Server\ICustomImport.cs" />
+    <Compile Include="Interfaces\Server\AfterCustomImport.cs" />
+    <Compile Include="Interfaces\Server\AfterCustomImportEventArgs.cs" />
+    <Compile Include="Interfaces\Server\CustomImported.cs" />
+    <Compile Include="Interfaces\Server\CustomImportedEventArgs.cs" />
+    <Compile Include="Interfaces\Server\ICustomServices.cs" />
+    <Compile Include="Interfaces\Server\IDbDataProvider.cs" />
+    <Compile Include="Interfaces\Server\IDBAttributeService.cs" />
+    <Compile Include="Interfaces\Server\IDBAttributeCreator.cs" />
+    <Compile Include="Interfaces\Server\IDBAttributeTypeService.cs" />
+    <Compile Include="Interfaces\Server\IDBConfigurationService.cs" />
+    <Compile Include="Interfaces\Server\IDBEditingContextsServerService.cs" />
+    <Compile Include="Interfaces\Server\IDBLastAccessInfo.cs" />
+    <Compile Include="Interfaces\Server\ExecuteReaderArgs.cs" />
+    <Compile Include="Interfaces\Server\ExecuteReaderDelegate.cs" />
+    <Compile Include="Interfaces\Server\IDbManager.cs" />
+    <Compile Include="Interfaces\Server\DbCommandParam.cs" />
+    <Compile Include="Interfaces\Server\IDbManagerStatus.cs" />
+    <Compile Include="Interfaces\Server\IDbManagerConnectionInfo.cs" />
+    <Compile Include="Interfaces\Server\IDbManagerTransactions.cs" />
+    <Compile Include="Interfaces\Server\IDbManagerTransactionState.cs" />
+    <Compile Include="Interfaces\Server\IDbManagerOwnerControl.cs" />
+    <Compile Include="Interfaces\Server\IDbManagerLogger.cs" />
+    <Compile Include="Interfaces\Server\IDbManagerService.cs" />
+    <Compile Include="Interfaces\Server\IDBObjectCollectionService.cs" />
+    <Compile Include="Interfaces\Server\IDBObjectCollectionCreator.cs" />
+    <Compile Include="Interfaces\Server\IDBObjectService.cs" />
+    <Compile Include="Interfaces\Server\IDBObjectCreator.cs" />
+    <Compile Include="Interfaces\Server\IDBRelationCollectionService.cs" />
+    <Compile Include="Interfaces\Server\IDBRelationCollectionCreator.cs" />
+    <Compile Include="Interfaces\Server\IDBRelationService.cs" />
+    <Compile Include="Interfaces\Server\IDBRelationCreator.cs" />
+    <Compile Include="Interfaces\Server\IDBTimedEvents.cs" />
+    <Compile Include="Interfaces\Server\IDBTimedService.cs" />
+    <Compile Include="Interfaces\Server\IDBManualScheduledService.cs" />
+    <Compile Include="Interfaces\Server\IDelayedUpdaterService.cs" />
+    <Compile Include="Interfaces\Server\IEventLogHelper.cs" />
+    <Compile Include="Interfaces\Server\TraceFileRecord.cs" />
+    <Compile Include="Interfaces\Server\IFiltrationTableService.cs" />
+    <Compile Include="Interfaces\Server\IBackupWriter.cs" />
+    <Compile Include="Interfaces\Server\IImportAttributesHandlerService.cs" />
+    <Compile Include="Interfaces\Server\ImportAttributeHandler.cs" />
+    <Compile Include="Interfaces\Server\ILinkedObjectsService.cs" />
+    <Compile Include="Interfaces\Server\IExportAttributesHandlerService.cs" />
+    <Compile Include="Interfaces\Server\ExportAttributeHandler.cs" />
+    <Compile Include="Interfaces\Server\IServerDBRelationCollection.cs" />
+    <Compile Include="Interfaces\Server\IServerSynchronizer.cs" />
+    <Compile Include="Interfaces\Server\SynchonizerEventProperties.cs" />
+    <Compile Include="Interfaces\Server\IPortalEventsService.cs" />
+    <Compile Include="Interfaces\Server\RelationImportedEventHandler.cs" />
+    <Compile Include="Interfaces\Server\RelationImportedEventArgs.cs" />
+    <Compile Include="Interfaces\Server\BeforeObjectRefreshEventHandler.cs" />
+    <Compile Include="Interfaces\Server\BeforeObjectRefreshEventArgs.cs" />
+    <Compile Include="Interfaces\Server\CheckPublishCompositionEventHandler.cs" />
+    <Compile Include="Interfaces\Server\CheckPublishCompositionEventArgs.cs" />
+    <Compile Include="Interfaces\Server\StartResolveBaseVersionConflictEventHandler.cs" />
+    <Compile Include="Interfaces\Server\StartResolveBaseVersionConflictEventArgs.cs" />
+    <Compile Include="Interfaces\Server\ObjectAutoPublishEventHandler.cs" />
+    <Compile Include="Interfaces\Server\ObjectAutoPublishEventArgs.cs" />
+    <Compile Include="Interfaces\Server\SessionableEventArgs.cs" />
+    <Compile Include="Interfaces\Server\GetTaskByTypeEventHandler.cs" />
+    <Compile Include="Interfaces\Server\GetTaskByTypeEventArgs.cs" />
+    <Compile Include="Interfaces\Server\ObjectImportedEventHandler.cs" />
+    <Compile Include="Interfaces\Server\ObjectsPublishedEventHandler.cs" />
+    <Compile Include="Interfaces\Server\ObjectsPublishedEventArgs.cs" />
+    <Compile Include="Interfaces\Server\ObjectImportedEventArgs.cs" />
+    <Compile Include="Interfaces\Server\ImportTaskErrorEventHandler.cs" />
+    <Compile Include="Interfaces\Server\ImportTaskErrorEventArgs.cs" />
+    <Compile Include="Interfaces\Server\ImportTaskCompletedEventHandler.cs" />
+    <Compile Include="Interfaces\Server\ImportTaskCompletedEventArgs.cs" />
+    <Compile Include="Interfaces\Server\RemoteData.cs" />
+    <Compile Include="Interfaces\Server\RemoteMessage.cs" />
+    <Compile Include="Interfaces\Server\ICustomPublisherService.cs" />
+    <Compile Include="Interfaces\Server\IServerSession.cs" />
+    <Compile Include="Interfaces\Server\IStringNormalizer.cs" />
+    <Compile Include="Interfaces\Server\ITask.cs" />
+    <Compile Include="Interfaces\Server\TaskEventArgs.cs" />
+    <Compile Include="Interfaces\Server\TaskStartEventHandler.cs" />
+    <Compile Include="Interfaces\Server\TaskStartEventArgs.cs" />
+    <Compile Include="Interfaces\Server\TaskStatusChangedEventHandler.cs" />
+    <Compile Include="Interfaces\Server\TaskStatusChangedEventArgs.cs" />
+    <Compile Include="Interfaces\Server\TaskSaveDataEventHandler.cs" />
+    <Compile Include="Interfaces\Server\TaskSaveDataEventArgs.cs" />
+    <Compile Include="Interfaces\Server\TaskStepCompletedEventHandler.cs" />
+    <Compile Include="Interfaces\Server\TaskStepCompletedEventArgs.cs" />
+    <Compile Include="Interfaces\Server\TaskObjectImportedEventHandler.cs" />
+    <Compile Include="Interfaces\Server\TaskObjectImportedEventArgs.cs" />
+    <Compile Include="Interfaces\Server\ImportedInfo.cs" />
+    <Compile Include="Interfaces\Server\DocImportedInfo.cs" />
+    <Compile Include="Interfaces\Server\TypedImportedInfo.cs" />
+    <Compile Include="Interfaces\Server\ITimedAccessService.cs" />
+    <Compile Include="Interfaces\Server\IUserSessionCollection.cs" />
+    <Compile Include="Interfaces\Server\BeforeAddEventHandler.cs" />
+    <Compile Include="Interfaces\Server\AfterAddEventHandler.cs" />
+    <Compile Include="Interfaces\Server\OnCloseEventHandler.cs" />
+    <Compile Include="Interfaces\Server\OnCloseEventHandler2.cs" />
+    <Compile Include="Interfaces\Server\AttributeDefaultValueEventArgs.cs" />
+    <Compile Include="Interfaces\Server\BoundaryCreateObjectHandler.cs" />
+    <Compile Include="Interfaces\Server\AfterCreateObjectHandler.cs" />
+    <Compile Include="Interfaces\Server\GetAttributeDefaultValueHandler.cs" />
+    <Compile Include="Interfaces\Server\AfterCreateAttributeTypeHandler.cs" />
+    <Compile Include="Interfaces\Server\AfterCreateObjectTypeHandler.cs" />
+    <Compile Include="Interfaces\Server\DeleteAttributeTypeHandler.cs" />
+    <Compile Include="Interfaces\Server\DeleteAttributePossibleValueHandler.cs" />
+    <Compile Include="Interfaces\Server\ChangeAttributeDataTypeHandler.cs" />
+    <Compile Include="Interfaces\Server\DeleteObjectTypeHandler.cs" />
+    <Compile Include="Interfaces\Server\CreateAttributeHandler.cs" />
+    <Compile Include="Interfaces\Server\ObjectEventHandler.cs" />
+    <Compile Include="Interfaces\Server\ObjectTypeChangeHandler.cs" />
+    <Compile Include="Interfaces\Server\SnapshotHandler.cs" />
+    <Compile Include="Interfaces\Server\GetObjectSecurityEventArgs.cs" />
+    <Compile Include="Interfaces\Server\CombineAttributesHandler.cs" />
+    <Compile Include="Interfaces\Server\GetObjectSecurityHandler.cs" />
+    <Compile Include="Interfaces\Server\GetRecordsListHandler.cs" />
+    <Compile Include="Interfaces\Server\BeforeRecordsSelectEventArgs.cs" />
+    <Compile Include="Interfaces\Server\BeforeRecordsSelectHandler.cs" />
+    <Compile Include="Interfaces\Server\BeforeObjectsCollectionSelectEventArgs.cs" />
+    <Compile Include="Interfaces\Server\BeforeObjectsCollectionSelectHandler.cs" />
+    <Compile Include="Interfaces\Server\CreateRelationHandler.cs" />
+    <Compile Include="Interfaces\Server\CreateRelationExHandler.cs" />
+    <Compile Include="Interfaces\Server\BeforeCreateRelationHandler.cs" />
+    <Compile Include="Interfaces\Server\DeleteRelationHandler.cs" />
+    <Compile Include="Interfaces\Server\RemoveRelationHandler.cs" />
+    <Compile Include="Interfaces\Server\ReplacePartObjectHandler.cs" />
+    <Compile Include="Interfaces\Server\NextLCStepHandler.cs" />
+    <Compile Include="Interfaces\Server\ObjectModifyModeEventArgs.cs" />
+    <Compile Include="Interfaces\Server\GetObjectModifyModeHandler.cs" />
+    <Compile Include="Interfaces\Server\AttributeValueEventArgs.cs" />
+    <Compile Include="Interfaces\Server\WriteAttributeValueHandler.cs" />
+    <Compile Include="Interfaces\Server\AttributeValuesEventArgs.cs" />
+    <Compile Include="Interfaces\Server\WriteAttributeValuesHandler.cs" />
+    <Compile Include="Interfaces\Server\AttributeDeleteEventArgs.cs" />
+    <Compile Include="Interfaces\Server\DeleteAttributeHandler.cs" />
+    <Compile Include="Interfaces\Server\AttributeDeleteValueEventArgs.cs" />
+    <Compile Include="Interfaces\Server\DeleteAttributeValueHandler.cs" />
+    <Compile Include="Interfaces\Server\LoginHandler.cs" />
+    <Compile Include="Interfaces\Server\TransactionHandler.cs" />
+    <Compile Include="Interfaces\Server\CacheReloadHandler.cs" />
+    <Compile Include="Interfaces\Server\ServerSettingsReloadHandler.cs" />
+    <Compile Include="Interfaces\Server\ClearTrashHandler.cs" />
+    <Compile Include="Interfaces\Server\RelationsApplicabilityHandler.cs" />
+    <Compile Include="Interfaces\Server\ObjectDeleteEventArgs.cs" />
+    <Compile Include="Interfaces\Server\CheckoutEventHandler.cs" />
+    <Compile Include="Interfaces\Server\ObjectDeleteEventHandler.cs" />
+    <Compile Include="Interfaces\Server\AttributeGroupIncludeExcludeHandler.cs" />
+    <Compile Include="Interfaces\Server\ObligatoryAttributeValueEventArgs.cs" />
+    <Compile Include="Interfaces\Server\ObligatoryAttributeWriteHandler.cs" />
+    <Compile Include="Interfaces\Server\AttributesValuesEventArgs.cs" />
+    <Compile Include="Interfaces\Server\SetAttributesValuesHandler.cs" />
+    <Compile Include="Interfaces\Server\UsedAttributesEventArgs.cs" />
+    <Compile Include="Interfaces\Server\GetUsedAttributesHandler.cs" />
+    <Compile Include="Interfaces\Server\IDBSecurityService.cs" />
+    <Compile Include="Interfaces\Server\ServerServices.cs" />
+    <Compile Include="Interfaces\Server\IImportUnitHandlerService.cs" />
+    <Compile Include="Interfaces\Server\ImportRelationHandler.cs" />
+    <Compile Include="Interfaces\Server\LinkedObjectsHandler.cs" />
+    <Compile Include="Interfaces\Server\LinkedObject.cs" />
+    <Compile Include="Interfaces\Server\LinkedObjectComparer.cs" />
+    <Compile Include="Interfaces\Server\Security\ITemporaryAccessService.cs" />
+    <Compile Include="Interfaces\Server\Misc\IPerformer.cs" />
+    <Compile Include="Interfaces\Server\GlobalIndex\IIndexerFileConverter.cs" />
+    <Compile Include="Interfaces\Server\GlobalIndex\WordLanguageEnum.cs" />
+    <Compile Include="Interfaces\Server\GlobalIndex\IGlobalIndexService.cs" />
+    <Compile Include="Interfaces\Server\GlobalIndex\IStemmer.cs" />
+    <Compile Include="Interfaces\Server\DelayedNotifications\DelayedNotification.cs" />
+    <Compile Include="Interfaces\Server\DelayedNotifications\TypableDelayedNotification.cs" />
+    <Compile Include="Interfaces\Server\DelayedNotifications\AttributableDelayedNotification.cs" />
+    <Compile Include="Interfaces\Server\DelayedNotifications\AttributeValuesWriteDelayedNotification.cs" />
+    <Compile Include="Interfaces\Server\DelayedNotifications\AttributeValueWriteDelayedNotification.cs" />
+    <Compile Include="Interfaces\Server\DelayedNotifications\SetAttributesValuesDelayedNotification.cs" />
+    <Compile Include="Interfaces\Server\DelayedNotifications\ObjectDelayedNotification.cs" />
+    <Compile Include="Interfaces\Server\DelayedNotifications\SetLCStepDelayedNotification.cs" />
+    <Compile Include="Interfaces\Server\DelayedNotifications\RelationDelayedNotification.cs" />
+    <Compile Include="Interfaces\Server\DelayedNotifications\AccessDeniedDelayedNotification.cs" />
+    <Compile Include="Interfaces\Server\DelayedNotifications\DelayedNotificationHandler.cs" />
+    <Compile Include="Interfaces\Server\WebPortal\Attributes4ObjectTag.cs" />
+    <Compile Include="Interfaces\Server\WebPortal\Attributes4RelationTag.cs" />
+    <Compile Include="Interfaces\Server\WebPortal\Attributes4Tag.cs" />
+    <Compile Include="Interfaces\Server\WebPortal\AttributesFile.cs" />
+    <Compile Include="Interfaces\Server\WebPortal\PersistentObject.cs" />
+    <Compile Include="Interfaces\Server\WebPortal\PersistentRelation.cs" />
+    <Compile Include="Interfaces\Server\WebPortal\ValueConverters\BooleanValueConverter.cs" />
+    <Compile Include="Interfaces\Server\WebPortal\ValueConverters\DateTimeValueConverter.cs" />
+    <Compile Include="Interfaces\Server\WebPortal\ValueConverters\DoubleValueConverter.cs" />
+    <Compile Include="Interfaces\Server\WebPortal\ValueConverters\GuidValueConverter.cs" />
+    <Compile Include="Interfaces\Server\WebPortal\ValueConverters\IntegerValueConverter.cs" />
+    <Compile Include="Interfaces\Server\WebPortal\ValueConverters\IValueConverter.cs" />
+    <Compile Include="Interfaces\Server\WebPortal\ValueConverters\MeasuredValueConverter.cs" />
+    <Compile Include="Interfaces\Server\WebPortal\ValueConverters\StringValueConverter.cs" />
+    <Compile Include="Interfaces\Server\WebPortal\ValueConverters\ValueConverter.cs" />
+    <Compile Include="Security\RBSServer.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Interfaces\Server\InterfacesServerResources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

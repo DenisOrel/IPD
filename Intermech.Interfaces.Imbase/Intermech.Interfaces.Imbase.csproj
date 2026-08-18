@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.Interfaces.Imbase.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C39F2FE6-BB7A-4E60-96C2-0D19F92AAFB9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.Interfaces.Imbase</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Expert">
+      <HintPath>lib\Intermech.Expert.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Localization\LocalizationHolder.cs" />
+    <Compile Include="Localization\CustomDescription.cs" />
+    <Compile Include="Localization\CustomDisplayName.cs" />
+    <Compile Include="Localization\CustomCategory.cs" />
+    <Compile Include="Interfaces\Imbase\AttributesComparison.cs" />
+    <Compile Include="Interfaces\Imbase\AttributesComparisonHelper.cs" />
+    <Compile Include="Interfaces\Imbase\BackgroundTaskMessage.cs" />
+    <Compile Include="Interfaces\Imbase\BackgroundTaskResult.cs" />
+    <Compile Include="Interfaces\Imbase\IServiceForBackgroundTask.cs" />
+    <Compile Include="Interfaces\Imbase\CalculatedColumn.cs" />
+    <Compile Include="Interfaces\Imbase\ICatalogInfo.cs" />
+    <Compile Include="Interfaces\Imbase\CatalogInfo.cs" />
+    <Compile Include="Interfaces\Imbase\IFolderFilterService.cs" />
+    <Compile Include="Interfaces\Imbase\ICustomUsersTableFilterService.cs" />
+    <Compile Include="Interfaces\Imbase\UserFilter.cs" />
+    <Compile Include="Interfaces\Imbase\UserFilterData.cs" />
+    <Compile Include="Interfaces\Imbase\IImbaseAPI.cs" />
+    <Compile Include="Interfaces\Imbase\IImMaterial.cs" />
+    <Compile Include="Interfaces\Imbase\IImbaseDBObject.cs" />
+    <Compile Include="Interfaces\Imbase\IImbaseFilterSelector.cs" />
+    <Compile Include="Interfaces\Imbase\IImbaseIndexingService.cs" />
+    <Compile Include="Interfaces\Imbase\IndexesField.cs" />
+    <Compile Include="Interfaces\Imbase\IndexesConsts.cs" />
+    <Compile Include="Interfaces\Imbase\SearchesAccuracy.cs" />
+    <Compile Include="Interfaces\Imbase\IndexesFlags.cs" />
+    <Compile Include="Interfaces\Imbase\IndexesStates.cs" />
+    <Compile Include="Interfaces\Imbase\IndexingException.cs" />
+    <Compile Include="Interfaces\Imbase\IndexNotFoundException.cs" />
+    <Compile Include="Interfaces\Imbase\NotUniqueIndexValueException.cs" />
+    <Compile Include="Interfaces\Imbase\StringEx.cs" />
+    <Compile Include="Interfaces\Imbase\IIPSImbaseCatalog.cs" />
+    <Compile Include="Interfaces\Imbase\IIPSImbaseFolders.cs" />
+    <Compile Include="Interfaces\Imbase\IIPSImbaseFolder.cs" />
+    <Compile Include="Interfaces\Imbase\IIPSImbaseTable.cs" />
+    <Compile Include="Interfaces\Imbase\IIPSImbaseRawTable.cs" />
+    <Compile Include="Interfaces\Imbase\IpsFindObject.cs" />
+    <Compile Include="Interfaces\Imbase\IImbaseNotificationService.cs" />
+    <Compile Include="Interfaces\Imbase\TableEventHandler.cs" />
+    <Compile Include="Interfaces\Imbase\ImbaseTableEventArgs.cs" />
+    <Compile Include="Interfaces\Imbase\IImbaseObjInfoService.cs" />
+    <Compile Include="Interfaces\Imbase\ImbaseObjInfoConst.cs" />
+    <Compile Include="Interfaces\Imbase\ImbaseObjCreateInfo.cs" />
+    <Compile Include="Interfaces\Imbase\ImbaseObjCreateMode.cs" />
+    <Compile Include="Interfaces\Imbase\IImbaseServer.cs" />
+    <Compile Include="Interfaces\Imbase\IImbaseUpdatingService.cs" />
+    <Compile Include="Interfaces\Imbase\ImbaseApplicablityException.cs" />
+    <Compile Include="Interfaces\Imbase\ImbaseFolderCreator.cs" />
+    <Compile Include="Interfaces\Imbase\ImbaseKeyInfo.cs" />
+    <Compile Include="Interfaces\Imbase\ImbaseObjectTypes.cs" />
+    <Compile Include="Interfaces\Imbase\IContextedDBObject.cs" />
+    <Compile Include="Interfaces\Imbase\IImbaseSynchObjectsService.cs" />
+    <Compile Include="Interfaces\Imbase\IInverseImbaseSynchObjectsService.cs" />
+    <Compile Include="Interfaces\Imbase\SynchObjectsStatus.cs" />
+    <Compile Include="Interfaces\Imbase\ExtensionForList.cs" />
+    <Compile Include="Interfaces\Imbase\SynchStrHelper.cs" />
+    <Compile Include="Interfaces\Imbase\IImbaseRestructuringTablesService.cs" />
+    <Compile Include="Interfaces\Imbase\RestructuringTablesAttrSettings.cs" />
+    <Compile Include="Interfaces\Imbase\RestructuringTablesExteption.cs" />
+    <Compile Include="Interfaces\Imbase\IReplaceAttributeTaskService.cs" />
+    <Compile Include="Interfaces\Imbase\ISynchronizationObjService.cs" />
+    <Compile Include="Interfaces\Imbase\ITablesIndexerService.cs" />
+    <Compile Include="Interfaces\Imbase\IImbaseRestrictiveCache.cs" />
+    <Compile Include="Interfaces\Imbase\ITablesIndexer.cs" />
+    <Compile Include="Interfaces\Imbase\ITablesCache.cs" />
+    <Compile Include="Interfaces\Imbase\IKeyConverter.cs" />
+    <Compile Include="Interfaces\Imbase\ITablesDisplayService.cs" />
+    <Compile Include="Interfaces\Imbase\DisplayMode.cs" />
+    <Compile Include="Interfaces\Imbase\ITablesMergingService.cs" />
+    <Compile Include="Interfaces\Imbase\IUpdateObjectsFromImbaseService.cs" />
+    <Compile Include="Interfaces\Imbase\ObjectInfoForExteption.cs" />
+    <Compile Include="Interfaces\Imbase\ScanOldKeyStatus.cs" />
+    <Compile Include="Interfaces\Imbase\TablesMergingHelper.cs" />
+    <Compile Include="Interfaces\Imbase\Sync\IImbaseSyncService.cs" />
+    <Compile Include="Interfaces\Imbase\Sync\IImbaseTableMixPumpService.cs" />
+    <Compile Include="Interfaces\Imbase\Receptures\IRecepturesService.cs" />
+    <Compile Include="Interfaces\Imbase\Receptures\ReceptureItemInfo.cs" />
+    <Compile Include="Interfaces\Imbase\Params\ApplicabilityStatusHelper.cs" />
+    <Compile Include="Interfaces\Imbase\Params\DeleteRecordMode.cs" />
+    <Compile Include="Interfaces\Imbase\Params\FolderApplicabilityStatusIcons.cs" />
+    <Compile Include="Interfaces\Imbase\Params\IImbaseParamsService.cs" />
+    <Compile Include="Interfaces\Imbase\Params\ImbaseCommonParams.cs" />
+    <Compile Include="Interfaces\Imbase\Params\AttributeForObjectTypeInfo.cs" />
+    <Compile Include="Interfaces\Imbase\Params\ImbaseUserParams.cs" />
+    <Compile Include="Interfaces\Imbase\Params\TableRecordsApplicabilityColors.cs" />
+    <Compile Include="Interfaces\Imbase\Params\CommonParams\BaseType.cs" />
+    <Compile Include="Interfaces\Imbase\Params\CommonParams\ImbaseSyncParams.cs" />
+    <Compile Include="Interfaces\Imbase\Params\CommonParams\SourceDBParams.cs" />
+    <Compile Include="Interfaces\Imbase\Helpers\ImbaseSearchTool.cs" />
+    <Compile Include="Interfaces\Imbase\Filters\ICommonFilterService.cs" />
+    <Compile Include="Interfaces\Imbase\Filters\ObjectFilterConsts.cs" />
+    <Compile Include="Interfaces\Imbase\Filters\IObjectFilterService.cs" />
+    <Compile Include="Interfaces\Imbase\Filters\ImbaseObjFilterItem.cs" />
+    <Compile Include="Interfaces\Imbase\Filters\ImbaseObjFilterItemList.cs" />
+    <Compile Include="Interfaces\Imbase\Filters\ImbaseObjFilterData.cs" />
+    <Compile Include="Interfaces\Imbase\Filters\ImbaseObjFilterInfo.cs" />
+    <Compile Include="Imbase\Consts.cs" />
+    <Compile Include="Imbase\ExtendedServiceHelper.cs" />
+    <Compile Include="Imbase\ImbaseHelper.cs" />
+    <Compile Include="Imbase\IDBNamedSecurityCollection.cs" />
+    <Compile Include="Imbase\TableLoadHelper.cs" />
+    <Compile Include="Imbase\CalcContext.cs" />
+    <Compile Include="Imbase\ValuesArray.cs" />
+    <Compile Include="Imbase\Portal\DataTableImporter.cs" />
+    <Compile Include="Imbase\Portal\MeasureAttributesService.cs" />
+    <Compile Include="Imbase\Portal\ImEnterMode.cs" />
+    <Compile Include="Imbase\Portal\FieldRecord.cs" />
+    <Compile Include="Imbase\Portal\Consts.cs" />
+    <Compile Include="Imbase\Portal\ImTablesType.cs" />
+    <Compile Include="Imbase\Portal\ImFileAtt.cs" />
+    <Compile Include="Imbase\Portal\ImDataMode.cs" />
+    <Compile Include="Imbase\Portal\ImDataTypeEx.cs" />
+    <Compile Include="Imbase\Portal\locComparer.cs" />
+    <Compile Include="Imbase\Portal\FormulaParser.cs" />
+    <Compile Include="Imbase\Portal\ImbaseFormulaParser.cs" />
+    <Compile Include="Imbase\Portal\MeasureDefine.cs" />
+    <Compile Include="Imbase\Portal\ImbaseMeasureDefine.cs" />
+    <Compile Include="Imbase\Portal\ImbaseImportHelper.cs" />
+    <Compile Include="Imbase\Portal\TableAttribute.cs" />
+    <Compile Include="Imbase\Server\ApplicabilityStatusEnum.cs" />
+    <Compile Include="Imbase\Server\ApplicabilityValue.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Interfaces\Imbase\Resources\CustomAttributesResources.resx" />
+    <EmbeddedResource Include="Interfaces\Imbase\Resources\InterfacesImbaseResources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

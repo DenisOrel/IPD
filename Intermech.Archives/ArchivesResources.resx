@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="String1" xml:space="preserve">
+    <value>String.Format(ServiceHolder.rm.GetString("Archives_128"), //Archives_128=Повторная регистрация документов {0} невозможна. Продолжить регистрацию незарегистрированных документов?</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value>objectsNames),</value>
+  </data>
+  <data name="String3" xml:space="preserve">
+    <value>MessageBoxButtonsAdv.OKCancel,</value>
+  </data>
+  <data name="String4" xml:space="preserve">
+    <value>IMMessageBoxImage.Warning) == DialogResultAdv.Cancel)</value>
+  </data>
+  <data name="String5" xml:space="preserve">
+    <value>// открыть документ</value>
+  </data>
+  <data name="String6" xml:space="preserve">
+    <value>template.Nodes.Add(new MenuTemplateNode("OpenDocumentInNewWindow", ServiceHolder.rm.GetString("Archives_147"), -1, 80, 2)); //ssp:archives:1// Archives_147=Открыть документ</value>
+  </data>
+  <data name="Archives_193" xml:space="preserve">
+    <value>Добавить атрибут</value>
+  </data>
+  <data name="Archives_192" xml:space="preserve">
+    <value>Атрибуты</value>
+  </data>
+  <data name="Archives_191" xml:space="preserve">
+    <value>Выберите документ для копирования листа рассылки</value>
+  </data>
+  <data name="Archives_190" xml:space="preserve">
+    <value>Документы, входящие в состав извещения связью Изменяется по извещению</value>
+  </data>
+  <data name="Archives_197" xml:space="preserve">
+    <value>Удалить атрибут</value>
+  </data>
+  <data name="Archives_196" xml:space="preserve">
+    <value>Изменить значение атрибута</value>
+  </data>
+  <data name="Archives_195" xml:space="preserve">
+    <value>История значений атрибута</value>
+  </data>
+  <data name="Archives_194" xml:space="preserve">
+    <value>Добавить группу атрибутов</value>
+  </data>
+  <data name="Archives_199" xml:space="preserve">
+    <value>Вы действительно хотите снять документ с регистрации?</value>
+  </data>
+  <data name="Archives_198" xml:space="preserve">
+    <value>Удалить группу атрибутов</value>
+  </data>
+  <data name="Archives_182" xml:space="preserve">
+    <value>Копировать лист рассылки в документы</value>
+  </data>
+  <data name="Archives_183" xml:space="preserve">
+    <value>У извещения {0} отсутствует лист рассылки.</value>
+  </data>
+  <data name="Archives_180" xml:space="preserve">
+    <value>Недостаточно прав для работы с документом {0}.</value>
+  </data>
+  <data name="Archives_181" xml:space="preserve">
+    <value>Недостаточно прав для работы с копией {0}</value>
+  </data>
+  <data name="Archives_186" xml:space="preserve">
+    <value>Пользователи</value>
+  </data>
+  <data name="Archives_187" xml:space="preserve">
+    <value>Выберите пользователей</value>
+  </data>
+  <data name="Archives_184" xml:space="preserve">
+    <value>Автоматическое размещение</value>
+  </data>
+  <data name="Archives_185" xml:space="preserve">
+    <value>Типы документов</value>
+  </data>
+  <data name="Archives_188" xml:space="preserve">
+    <value>Следующие типы не добавлены в список из-за конфликта с настройкой Разрешенные типы документов:</value>
+  </data>
+  <data name="Archives_189" xml:space="preserve">
+    <value>При включении данного режима закладка "Автоматическое размещение" будет недоступна. Рекомендуется очистить списки на закладке "Автоматическое размещение" во избежание ошибок при размещении документов в архиве. Продолжить выполнение операции?</value>
+  </data>
+  <data name="Archives_139" xml:space="preserve">
+    <value>Не возвращены устаревшие копии документа</value>
+  </data>
+  <data name="Archives_138" xml:space="preserve">
+    <value>Не высланы актуальные копии документа</value>
+  </data>
+  <data name="Archives_131" xml:space="preserve">
+    <value>Классификаторы для рассчёта инвентарного номера ОТД</value>
+  </data>
+  <data name="Archives_130" xml:space="preserve">
+    <value>Настройка ОТД</value>
+  </data>
+  <data name="Archives_133" xml:space="preserve">
+    <value>Версия документа, на основе которой создан документ "{0}", уже зарегистрирована в ОТД (инвентарный номер - "{1}"). 
+Оставить старый инвентарный номер?</value>
+  </data>
+  <data name="Archives_132" xml:space="preserve">
+    <value>Выберите классификаторы для рассчёта инвентарного номера ОТД</value>
+  </data>
+  <data name="Archives_135" xml:space="preserve">
+    <value>Зарегистрированные документы</value>
+  </data>
+  <data name="Archives_137" xml:space="preserve">
+    <value>Незарегистрированные документы на уровне "Производство</value>
+  </data>
+  <data name="Archives_136" xml:space="preserve">
+    <value>Незарегистрированные документы </value>
+  </data>
+  <data name="Archives_128" xml:space="preserve">
+    <value>Повторная регистрация документов {0} невозможна. Продолжить регистрацию незарегистрированных документов?</value>
+  </data>
+  <data name="Archives_129" xml:space="preserve">
+    <value>Введите инвентарный номер</value>
+  </data>
+  <data name="Archives_120" xml:space="preserve">
+    <value>Абоненты</value>
+  </data>
+  <data name="Archives_121" xml:space="preserve">
+    <value>Выберите получателя копии</value>
+  </data>
+  <data name="Archives_122" xml:space="preserve">
+    <value>Выберите абонента</value>
+  </data>
+  <data name="Archives_123" xml:space="preserve">
+    <value>Выберите абонентов</value>
+  </data>
+  <data name="Archives_124" xml:space="preserve">
+    <value>Добавление абонентов</value>
+  </data>
+  <data name="Archives_125" xml:space="preserve">
+    <value>Невозможно добавить абонентов: 
+для документов ещё не созданы листы рассылки</value>
+  </data>
+  <data name="Archives_126" xml:space="preserve">
+    <value>Невозможно зарегистрировать документы, которым назначены разные формулы автогенерации номера ОТД</value>
+  </data>
+  <data name="Archives_127" xml:space="preserve">
+    <value>Повторная регистрация документа {0} невозможна. Продолжить регистрацию незарегистрированных документов?</value>
+  </data>
+  <data name="Archives_119" xml:space="preserve">
+    <value>Выберите альбом</value>
+  </data>
+  <data name="Archives_118" xml:space="preserve">
+    <value>Выберите высылаемые копии</value>
+  </data>
+  <data name="Archives_113" xml:space="preserve">
+    <value>Выберите пользователя, вернувшего копию </value>
+  </data>
+  <data name="Archives_112" xml:space="preserve">
+    <value>Cохранить сделанные изменения?</value>
+  </data>
+  <data name="Archives_111" xml:space="preserve">
+    <value>Внимание!</value>
+  </data>
+  <data name="Archives_110" xml:space="preserve">
+    <value>Сбросить настройки отображения</value>
+  </data>
+  <data name="Archives_117" xml:space="preserve">
+    <value>Не выбраны копии документа</value>
+  </data>
+  <data name="Archives_116" xml:space="preserve">
+    <value>Не выбран получатель копий документа</value>
+  </data>
+  <data name="Archives_115" xml:space="preserve">
+    <value>Не выбран абонент, которому будут высланы копии документа</value>
+  </data>
+  <data name="Archives_114" xml:space="preserve">
+    <value>Выберите пользователя, вернувшего копии</value>
+  </data>
+  <data name="Archives_108" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="Archives_109" xml:space="preserve">
+    <value>Настройка отображения ...</value>
+  </data>
+  <data name="Archives_102" xml:space="preserve">
+    <value>Разосланные копии</value>
+  </data>
+  <data name="Archives_103" xml:space="preserve">
+    <value>Возвращённые копии</value>
+  </data>
+  <data name="Archives_100" xml:space="preserve">
+    <value>Все копии</value>
+  </data>
+  <data name="Archives_101" xml:space="preserve">
+    <value>Невысланные копии</value>
+  </data>
+  <data name="Archives_106" xml:space="preserve">
+    <value>Выслать...</value>
+  </data>
+  <data name="Archives_107" xml:space="preserve">
+    <value>Вернуть</value>
+  </data>
+  <data name="Archives_104" xml:space="preserve">
+    <value>Свойства (карточка)</value>
+  </data>
+  <data name="Archives_105" xml:space="preserve">
+    <value>Cоздать копии</value>
+  </data>
+  <data name="Archives_179" xml:space="preserve">
+    <value>Документ {0} не зарегистрирован в ОТД. Копии для него не могут быть созданы.</value>
+  </data>
+  <data name="Archives_178" xml:space="preserve">
+    <value>Нельзя вызвать команду Выслать... для копий с разными значениями поля абонент.</value>
+  </data>
+  <data name="Archives_175" xml:space="preserve">
+    <value>У выбранного документа отсутствует лист рассылки.</value>
+  </data>
+  <data name="Archives_174" xml:space="preserve">
+    <value>Не выбран расцеховочный маршрут.</value>
+  </data>
+  <data name="Archives_177" xml:space="preserve">
+    <value>Невозможно выполнить команду. В списке выделенных документов находятся разные версии одного документа.</value>
+  </data>
+  <data name="Archives_176" xml:space="preserve">
+    <value>Создать копии по листу рассылки</value>
+  </data>
+  <data name="Archives_171" xml:space="preserve">
+    <value>Добавить по расцеховке</value>
+  </data>
+  <data name="Archives_170" xml:space="preserve">
+    <value>У документов {0} отсутствуют листы рассылок. Создать листы рассылки для документов и продолжить выполнение команды?</value>
+  </data>
+  <data name="Archives_173" xml:space="preserve">
+    <value>Не найдено Подразделение, соответствующее Расцеховочному элементу {0}.</value>
+  </data>
+  <data name="Archives_172" xml:space="preserve">
+    <value>Документ не входит связью Документация на изделие ни в одно изделие.</value>
+  </data>
+  <data name="Archives_168" xml:space="preserve">
+    <value>Необходимо сохранить внесенные изменения. Сохранить изменения?</value>
+  </data>
+  <data name="Archives_169" xml:space="preserve">
+    <value>У документа {0} отсутствует лист рассылки. Создать лист рассылки для документа и продолжить выполнение команды?</value>
+  </data>
+  <data name="Archives_164" xml:space="preserve">
+    <value>Выберите документ у которого будет скопирован лист рассылки.</value>
+  </data>
+  <data name="Archives_165" xml:space="preserve">
+    <value>Скопировать лист рассылки у документа</value>
+  </data>
+  <data name="Archives_167" xml:space="preserve">
+    <value>Не удалось создать лист рассылки.</value>
+  </data>
+  <data name="Archives_160" xml:space="preserve">
+    <value>Для типа объекта {0} не назначена формула вычисления инвентарного номера.</value>
+  </data>
+  <data name="Archives_161" xml:space="preserve">
+    <value>Снять документ с регистрации</value>
+  </data>
+  <data name="Archives_162" xml:space="preserve">
+    <value>Повторная регистрация документа {0} невозможна.</value>
+  </data>
+  <data name="Archives_163" xml:space="preserve">
+    <value>Инвентарный номер не может быть пустым.</value>
+  </data>
+  <data name="Archives_159" xml:space="preserve">
+    <value>Ошибка получения идентификатора архива.</value>
+  </data>
+  <data name="Archives_158" xml:space="preserve">
+    <value>Настройки не могут быть применены, т.к. не все документы в архиве соответствуют новым условиям хранения.</value>
+  </data>
+  <data name="Archives_157" xml:space="preserve">
+    <value>Типы документов</value>
+  </data>
+  <data name="Archives_156" xml:space="preserve">
+    <value>Сохранить изменения?</value>
+  </data>
+  <data name="Archives_155" xml:space="preserve">
+    <value>Разрешенные типы документов</value>
+  </data>
+  <data name="Archives_154" xml:space="preserve">
+    <value>Количество копий, которые высланы абоненту, {0}</value>
+  </data>
+  <data name="Archives_153" xml:space="preserve">
+    <value>Количество копий, которые должны быть высланы абоненту, {0}
+</value>
+  </data>
+  <data name="Archives_152" xml:space="preserve">
+    <value>Абоненты из листа рассылки</value>
+  </data>
+  <data name="Archives_151" xml:space="preserve">
+    <value>Альбомы</value>
+  </data>
+  <data name="Archives_150" xml:space="preserve">
+    <value>Перемещение архива</value>
+  </data>
+  <data name="Archives_148" xml:space="preserve">
+    <value>Позволяет определить принадлежность выборки нескольким архивам одновременно</value>
+  </data>
+  <data name="Archives_149" xml:space="preserve">
+    <value>Исключить выделенный архив "{0}" из состава архива  "{1}"?</value>
+  </data>
+  <data name="Archives_146" xml:space="preserve">
+    <value>Лист рассылки</value>
+  </data>
+  <data name="Archives_147" xml:space="preserve">
+    <value>Открыть документ</value>
+  </data>
+  <data name="Archives_144" xml:space="preserve">
+    <value>Система\Настройка ОТД</value>
+  </data>
+  <data name="Archives_145" xml:space="preserve">
+    <value>Зарегистрировать в ОТД</value>
+  </data>
+  <data name="Archives_142" xml:space="preserve">
+    <value>Архивы</value>
+  </data>
+  <data name="Archives_143" xml:space="preserve">
+    <value>Закладка для просмотра листа рассылки и списка копий документа</value>
+  </data>
+  <data name="Archives_140" xml:space="preserve">
+    <value>ОТД</value>
+  </data>
+  <data name="Archives_141" xml:space="preserve">
+    <value>Закладка для управления регистрацией документов в ОТД</value>
+  </data>
+  <data name="Archives_210" xml:space="preserve">
+    <value>Высланные копии документа</value>
+  </data>
+  <data name="Archives_211" xml:space="preserve">
+    <value>Выберите копии, которые нужно вернуть </value>
+  </data>
+  <data name="Archives_212" xml:space="preserve">
+    <value>У абонента отсутствуют копии на шаге ЖЦ Выслана.</value>
+  </data>
+  <data name="Archives_213" xml:space="preserve">
+    <value>Настройка колонок</value>
+  </data>
+  <data name="Archives_214" xml:space="preserve">
+    <value>Настройка колонок по умолчанию для архива.</value>
+  </data>
+  <data name="Archives_215" xml:space="preserve">
+    <value>Ошибка чтения из атрибута настроек колонок по умолчанию для архива {0} ИД {1}.</value>
+  </data>
+  <data name="Archives_216" xml:space="preserve">
+    <value>Настройка по умолчанию</value>
+  </data>
+  <data name="Archives_209" xml:space="preserve">
+    <value>Выберите маршрут обработки</value>
+  </data>
+  <data name="Archives_208" xml:space="preserve">
+    <value>Выбор маршрута обработки для добавления абонентов по расцеховке</value>
+  </data>
+  <data name="Archives_201" xml:space="preserve">
+    <value>Сбросить значение по умолчанию</value>
+  </data>
+  <data name="Archives_200" xml:space="preserve">
+    <value>Изменить значение по умолчанию атрибута {0}?</value>
+  </data>
+  <data name="Archives_203" xml:space="preserve">
+    <value>Настройка разрешенных типов документов на архив</value>
+  </data>
+  <data name="Archives_202" xml:space="preserve">
+    <value>Настройка автоматического размещения документов в архиве</value>
+  </data>
+  <data name="Archives_205" xml:space="preserve">
+    <value>Регистрационные данные документа будут удалены.</value>
+  </data>
+  <data name="Archives_204" xml:space="preserve">
+    <value>Структура архива</value>
+  </data>
+  <data name="Archives_207" xml:space="preserve">
+    <value>Маршруты обработки</value>
+  </data>
+  <data name="Archives_206" xml:space="preserve">
+    <value>Регистрационные данные документов будут удалены.</value>
+  </data>
+  <data name="Archives_9" xml:space="preserve">
+    <value>Очистить</value>
+  </data>
+  <data name="Archives_8" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="Archives_3" xml:space="preserve">
+    <value>Архивы</value>
+  </data>
+  <data name="Archives_2" xml:space="preserve">
+    <value>Все документы</value>
+  </data>
+  <data name="Archives_1" xml:space="preserve">
+    <value>Все архивы</value>
+  </data>
+  <data name="Archives_7" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="Archives_6" xml:space="preserve">
+    <value>Создать новый</value>
+  </data>
+  <data name="Archives_5" xml:space="preserve">
+    <value>Контекстное меню</value>
+  </data>
+  <data name="Archives_4" xml:space="preserve">
+    <value>Документы</value>
+  </data>
+  <data name="String" xml:space="preserve">
+    <value>if (IMMessageBox.Show(ServiceHolder.rm.GetString("Archives_111"),               // Archives_111=Внимание</value>
+  </data>
+  <data name="Archives_CopiesClientServiceNotFind" xml:space="preserve">
+    <value>Не найден сервис для работы с копиями объектов.</value>
+  </data>
+  <data name="Archives_92" xml:space="preserve">
+    <value>Невозможно найти атрибут типа {0} у объекта {1}</value>
+  </data>
+  <data name="Archives_93" xml:space="preserve">
+    <value>Для выполнения данной операции недостаточно оперативной памяти, попробуйте уменьшить изображение</value>
+  </data>
+  <data name="Archives_90" xml:space="preserve">
+    <value>Сканировать документ</value>
+  </data>
+  <data name="Archives_91" xml:space="preserve">
+    <value>Невозможно найти объект с идентификатором {0}</value>
+  </data>
+  <data name="Archives_96" xml:space="preserve">
+    <value>Драйвер сканирующего устройства не найден</value>
+  </data>
+  <data name="Archives_97" xml:space="preserve">
+    <value>Драйвер сканирующего устройства не отвечает</value>
+  </data>
+  <data name="Archives_94" xml:space="preserve">
+    <value>Во время сканирования документа возникла следующая ошибка: </value>
+  </data>
+  <data name="Archives_95" xml:space="preserve">
+    <value>Подходящий кодек для формата {0} не найден, используйте другой формат</value>
+  </data>
+  <data name="Archives_98" xml:space="preserve">
+    <value>Сбросить настройки отображения</value>
+  </data>
+  <data name="Archives_99" xml:space="preserve">
+    <value>Копии документа</value>
+  </data>
+  <data name="Archives_83" xml:space="preserve">
+    <value>Нельзя включать объекты типа '{0}' в состав объектов типа '{1}'.
+В архивах могут храниться только объекты типа "Документы".</value>
+  </data>
+  <data name="Archives_82" xml:space="preserve">
+    <value>Добавить атрибут в структуру текущего архива?</value>
+  </data>
+  <data name="Archives_81" xml:space="preserve">
+    <value>Вы действительно хотите переместить {0} объект в архив "{1}"?</value>
+  </data>
+  <data name="Archives_80" xml:space="preserve">
+    <value>Вы действительно хотите переместить 1 объект в архив "{1}"?</value>
+  </data>
+  <data name="Archives_85" xml:space="preserve">
+    <value>Атрибут номер {0} не найден.</value>
+  </data>
+  <data name="Archives_84" xml:space="preserve">
+    <value>Выберите файлы для регистрации в архиве</value>
+  </data>
+  <data name="Archives_38" xml:space="preserve">
+    <value>Выберите документы для добавления в архив</value>
+  </data>
+  <data name="Archives_39" xml:space="preserve">
+    <value>Ошибка ключа защиты для плагина "Архивы".</value>
+  </data>
+  <data name="Archives_31" xml:space="preserve">
+    <value>Очистить список атрибутов у всех вложенных архивов?</value>
+  </data>
+  <data name="Archives_33" xml:space="preserve">
+    <value>Очистить список атрибутов у архива?</value>
+  </data>
+  <data name="Archives_35" xml:space="preserve">
+    <value>Любой</value>
+  </data>
+  <data name="Archives_36" xml:space="preserve">
+    <value>да</value>
+  </data>
+  <data name="Archives_37" xml:space="preserve">
+    <value>нет</value>
+  </data>
+  <data name="Archives_19" xml:space="preserve">
+    <value>Атрибуты будут удалены у всех документов, находящихся в данном архиве?</value>
+  </data>
+  <data name="Archives_12" xml:space="preserve">
+    <value>Добавить атрибут в структуру всех вложенных архивов?
+    "Да" - добавит атрибут в структуры всех вложенных архивов
+    "Нет" - добавит атрибут в структуру текущего архива</value>
+  </data>
+  <data name="Archives_13" xml:space="preserve">
+    <value>Добавить атрибуты в структуру всех вложенных архивов?
+    "Да" - добавит атрибуты в структуры всех вложенных архивов
+    "Нет" - добавит атрибуты в структуру текущего архива</value>
+  </data>
+  <data name="Archives_10" xml:space="preserve">
+    <value>Настройка отображения ...</value>
+  </data>
+  <data name="Archives_17" xml:space="preserve">
+    <value>Нельзя добавлять в структуру архива обязательные атрибуты.</value>
+  </data>
+  <data name="Archives_14" xml:space="preserve">
+    <value>Изменение структуры архива</value>
+  </data>
+  <data name="Archives_15" xml:space="preserve">
+    <value>Добавить атрибуты в структуру текущего архива?</value>
+  </data>
+  <data name="Archives_29" xml:space="preserve">
+    <value>Нельзя добавлять в структуру архива обязательный атрибут.</value>
+  </data>
+  <data name="Archives_21" xml:space="preserve">
+    <value>Атрибут будет удалён у всех документов, находящихся в данном архиве.
+    Удалить атрибут у всех документов во вложенных архивах?</value>
+  </data>
+  <data name="Archives_20" xml:space="preserve">
+    <value>Атрибуты будут удалены у всех документов, находящихся в данном архиве.
+    Удалить атрибуты у всех документов во вложенных архивах?</value>
+  </data>
+  <data name="Archives_24" xml:space="preserve">
+    <value>Атрибут будет удалён у всех документов, находящихся в данном архиве?</value>
+  </data>
+  <data name="Archives_27" xml:space="preserve">
+    <value>Добавить атрибут во все вложенные архивы?</value>
+  </data>
+  <data name="Archives_26" xml:space="preserve">
+    <value>Задайте новый атрибут:</value>
+  </data>
+  <data name="Archives_78" xml:space="preserve">
+    <value>Вы действительно хотите переместить {0} объектов в архив "{1}"?</value>
+  </data>
+  <data name="Archives_79" xml:space="preserve">
+    <value>Вы действительно хотите переместить {0} объекта в архив "{1}"?</value>
+  </data>
+  <data name="Archives_74" xml:space="preserve">
+    <value>Структура архива</value>
+  </data>
+  <data name="Archives_75" xml:space="preserve">
+    <value>Изменения не сохранены. Сохранить?</value>
+  </data>
+  <data name="Archives_77" xml:space="preserve">
+    <value>Колонки структуры архива</value>
+  </data>
+  <data name="Archives_70" xml:space="preserve">
+    <value>Выберите архив</value>
+  </data>
+  <data name="Archives_58" xml:space="preserve">
+    <value>Добавить документы</value>
+  </data>
+  <data name="Archives_59" xml:space="preserve">
+    <value>Зарегистрировать в архиве</value>
+  </data>
+  <data name="Archives_56" xml:space="preserve">
+    <value>Серверная часть плагина "Архивы" (сборка Intermech.Archives.Server.dll) не загружена.</value>
+  </data>
+  <data name="Archives_57" xml:space="preserve">
+    <value>Загрузка плагина</value>
+  </data>
+  <data name="Archives_54" xml:space="preserve">
+    <value>Интерфейс лицензий не найден</value>
+  </data>
+  <data name="Archives_51" xml:space="preserve">
+    <value>Документ помещён в базу, но не может быть зарегистрирован в архиве, т.к. не имеет необходимых подписей.</value>
+  </data>
+  <data name="Archives_69" xml:space="preserve">
+    <value>Архив с ID={0}</value>
+  </data>
+  <data name="Archives_68" xml:space="preserve">
+    <value>Не назначен</value>
+  </data>
+  <data name="Archives_65" xml:space="preserve">
+    <value>Архивы документов</value>
+  </data>
+  <data name="Archives_64" xml:space="preserve">
+    <value>Отображать содержимое дочерних архивов</value>
+  </data>
+  <data name="Archives_61" xml:space="preserve">
+    <value>Архив</value>
+  </data>
+  <data name="Archives_60" xml:space="preserve">
+    <value>Документ</value>
+  </data>
+  <data name="Archives_62" xml:space="preserve">
+    <value>Архив по прототипу</value>
+  </data>
+  <data name="Archives_49" xml:space="preserve">
+    <value>Перемещение документов в архив</value>
+  </data>
+  <data name="Archives_48" xml:space="preserve">
+    <value>Вы действительно хотите переместить {0} документ{1} в архив "{2}"?</value>
+  </data>
+  <data name="SendFast" xml:space="preserve">
+    <value>Выслать</value>
+  </data>
+  <data name="Archives_ChangeCopiesByDeliveryList" xml:space="preserve">
+    <value>Заменить копии по листу рассылки</value>
+  </data>
+</root>

@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;lvServers.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="toolBar1.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAM0AAAAYAAAACw==</value>
+  </data>
+  <data name="toolBar1.Text" xml:space="preserve">
+    <value>toolBar1</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="toolBar2.Text" xml:space="preserve">
+    <value>toolBar2</value>
+  </data>
+  <data name="toolBar2.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAIwBAAAYAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1.Name" xml:space="preserve">
+    <value>columnHeader1</value>
+  </data>
+  <data name="tabPage1.Padding" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0B19ib3R0b20AAAAAAAEICAgIAgAAAAEDAAAAAwAAAAMAAAADAAAACw==</value>
+  </data>
+  <data name="tabPage2.Padding" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAABxTeXN0ZW0uV2luZG93cy5Gb3Jtcy5QYWRkaW5nBQAAAARfYWxsBF90b3AFX2xlZnQGX3JpZ2h0B19ib3R0b20AAAAAAAEICAgIAgAAAAEDAAAAAwAAAAMAAAADAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;columnHeader3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader3.Name" xml:space="preserve">
+    <value>columnHeader3</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Name" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader2.Name" xml:space="preserve">
+    <value>columnHeader2</value>
+  </data>
+  <data name="biDelServer.ToolTipText" xml:space="preserve">
+    <value>Удалить почтовый сервер</value>
+  </data>
+  <data name="pgServerProps.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAIwBAACNAQAACw==</value>
+  </data>
+  <data name="pgServerProps.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="$this.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGsCAACtAQAACw==</value>
+  </data>
+  <data name="biAddAccaunt.Text" xml:space="preserve">
+    <value>Новая учётная запись</value>
+  </data>
+  <data name="tabPage1.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAEAAAAFgAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Name" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabControl1.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="tabControl1.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAJoBAACtAQAACw==</value>
+  </data>
+  <data name="tabPage2.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAEAAAAFgAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;toolBar2.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lvAccaunts.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="lvAccaunts.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAIwBAAB1AQAACw==</value>
+  </data>
+  <data name="&gt;&gt;toolBar1.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="tabPage1.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAJIBAACTAQAACw==</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>Свойства</value>
+  </data>
+  <data name="lvAccaunts.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAADAAAAGwAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;lvAccaunts.Name" xml:space="preserve">
+    <value>lvAccaunts</value>
+  </data>
+  <data name="&gt;&gt;lvAccaunts.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="columnHeader1.Text" xml:space="preserve">
+    <value>Имя почтового сервера</value>
+  </data>
+  <data name="&gt;&gt;pgServerProps.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="biAccauntCheck.CommandName" xml:space="preserve">
+    <value>biAccauntCheck</value>
+  </data>
+  <data name="toolBar1.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAAAAAAAs=</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>Учётные записи</value>
+  </data>
+  <data name="tabPage2.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAJIBAACTAQAACw==</value>
+  </data>
+  <data name="&gt;&gt;pgServerProps.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="toolBar2.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAADAAAAAwAAAAs=</value>
+  </data>
+  <data name="biAccauntCheck.ToolTipText" xml:space="preserve">
+    <value>Проверить учётную запись</value>
+  </data>
+  <data name="columnHeader3.Text" xml:space="preserve">
+    <value>Логин</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pgServerProps.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="columnHeader2.Text" xml:space="preserve">
+    <value>Имя почтового ящика</value>
+  </data>
+  <data name="biAccauntCheck.Text" xml:space="preserve">
+    <value>Проверить учётную запись</value>
+  </data>
+  <data name="&gt;&gt;toolBar1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;toolBar2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lvAccaunts.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="biEditAccaunt.ToolTipText" xml:space="preserve">
+    <value>Редактировать учётную запись</value>
+  </data>
+  <data name="splitContainer1.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="splitContainer1.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGsCAACtAQAACw==</value>
+  </data>
+  <data name="lvAccaunts.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="biDelServer.CommandName" xml:space="preserve">
+    <value>buttonItem2</value>
+  </data>
+  <data name="biAccauntUsers.Text" xml:space="preserve">
+    <value>Пользователи учётной записи</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lvAccaunts.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="lvServers.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAGAAAAAs=</value>
+  </data>
+  <data name="biAddServer.ToolTipText" xml:space="preserve">
+    <value>Новый почтовый сервер</value>
+  </data>
+  <data name="toolBar1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPage1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="columnHeader3.Width" type="System.Int32, mscorlib">
+    <value>171</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;biAccauntUsers.Name" xml:space="preserve">
+    <value>biAccauntUsers</value>
+  </data>
+  <data name="&gt;&gt;biAccauntUsers.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="splitContainer1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lvServers.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="lvServers.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAM0AAACVAQAACw==</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Parent" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;pgServerProps.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PropertyGrid, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pgServerProps.Name" xml:space="preserve">
+    <value>pgServerProps</value>
+  </data>
+  <data name="splitContainer1.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAAAAAAAs=</value>
+  </data>
+  <data name="biDelAccaunt.ToolTipText" xml:space="preserve">
+    <value>Удалить учётную запись</value>
+  </data>
+  <data name="biAddServer.Text" xml:space="preserve">
+    <value>Новый почтовый сервер</value>
+  </data>
+  <data name="&gt;&gt;biDelAccaunt.Name" xml:space="preserve">
+    <value>biDelAccaunt</value>
+  </data>
+  <data name="&gt;&gt;biDelAccaunt.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="biAddServer.CommandName" xml:space="preserve">
+    <value>buttonItem1</value>
+  </data>
+  <data name="splitContainer1.SplitterDistance" type="System.Int32, mscorlib">
+    <value>205</value>
+  </data>
+  <data name="&gt;&gt;biEditAccaunt.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;biEditAccaunt.Name" xml:space="preserve">
+    <value>biEditAccaunt</value>
+  </data>
+  <data name="&gt;&gt;biAccauntCheck.Name" xml:space="preserve">
+    <value>biAccauntCheck</value>
+  </data>
+  <data name="&gt;&gt;biAccauntCheck.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;toolBar1.Type" xml:space="preserve">
+    <value>Intermech.Bars.ToolBar, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;toolBar1.Name" xml:space="preserve">
+    <value>toolBar1</value>
+  </data>
+  <data name="imageList1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABuGwAAAk1TRnQBSQFMAgEBBwEAAcABAAHAAQABEAEAARABAAT/ARkBEAj/AUIBTQE2BwABNgMAASgDAAFAAwABIAMAAQEBAAEYBgABGBgADP8eAAP9A/cD9Ab1A/YD+QP8Bv4D/w8AA/0D9wP1A/YD+AP6A/sD+gP2A/QD8wP0A/gD/gP/MwAD/wP8A/YD9QP4A/oD/AP+Cf8PAAP3A8UDqQOrA7EDugPKA+ED7APxA/cD/QwAA/cDxQOrA7YDxQPRA9cD0QO6A6cDowOnA8cD7wP6A/4wAAP8A+kDvQOyA8ED0wPiA+0D9AP4A/oD/AP+A/8GAAHAAYoBiwHZApoBzwKWAcoClgG+ApcBuwOcApoBnwKeA58DowPBA/ID/QP+A/8DAAG/AogByQKYAb4CmQGyAp4BqgKfAaYCngO7A58DfQGaAVsBNgF6AXMBcAOWA40DtwPZA/owAAHrAeYB4gHAAXwBTwG+AX4BWAGwAY4BegGrAZgBjgGmAZwBmAGeAZwBmwOfA68DwQPTA+ID7QP1A/wD/wHjApgB6AK3Af8C6gH/AuIB/ALPAfoCvAHyAbIBsQHnAakBqAHcAqEBmgGEAYMDjgPKA+YD8AP3A/4ByQKaAdsBqwGsAf8C4gH/AtoB/wLZAf8C0gH1AtsDhQHxAdwBzwGoAUMBBQHGAXIBOgOBAbcDsAKuA68D9TAAAd8BwQGpAfQBtQFyAfIBsAFpAe4BqQFfAeYBmwFTAdsBiAFCAbEBhAFgAY0BkgGXA5EDmgOeA50DnwO8A+cD/AHlAp0B8gLKAewCzwH/Av4B/wLyAf8C7wH/Au4B/wLzAb4CmwGzApEBogKeAZoCmQObA6MDyQP4Ac0CnQHmAcUBxwHkAbwBvQH/AuwB/wLkAf8C4AH/AvMBkgGPAY4BtgFlAS4BqQFEAQMBsgFMAQEBsQFvAT4B6QLQAb4CqQOjA/MwAAHvAdQBuQHyAa8BbAHvAasBZQHrAaMBWwHmAZ0BUgHnAZYBRAHiAbABfQHWAdwB4gPSA8MDrgOXA4wDmwPAA/gB5QKfAf8C+gHtArkB8QHcAdsJ/wHAAp8B/wLjAbwBjAGOAdwCywGHAlcBeQJPAXsCaAOoA/QBzgKcAf8C+AHoArIB8wLgAf8C/gH/AvUB/wL6AbABdQFLAasBRgEAAbkBbgE7AbsBZQEhAcABXAEEAesBuQGXAdECtgOiA/MwAAHwAdQBtwHqAaIBVwHnAaQBagHxAbABcQH0AbMBbgHtAaQBVQHdAbABfgHWAd0B4wPQA8cDuwOwA90DhgOwA/UB6AGgAZ8E/wHvAe0BzQGfAaMB4QK6AegBxQHCAbgBiwGOAf0B6wHpA/8BvwGSAZMB1gHFAcsBmAFnAXEBkgFeAWUBdgFUAVgDpQP0AdACnQH/Av0B/wLpAeMCpwH2Au8G/wG2AWgBMgGzAXIBOQHHAsYBvgGWAXQBwwFhAQoBzwFrAQUB8QGwAV8DogPzMAAB8wHWAbcBzQFzASIBpQFFAQIBrwFTAQwBrwFVARMBrQFOAQ8B7QHEAZcB1QHbAeEDwgO7A7MDsQPZA4gDrAP1AekCoAH5AtQBzgHDAc8BvAHwAf8BvgHtAf8BvgHqAf8BvQHzAf8BvwHBAc8B3QK+AcIBkgGRAe0B0AGvAcIBdgEjAbwBdAExAYwBYgFLA6QD8wHSAp4E/wL0Af8C7wHpAbIBsQH3AeMB4QP/AfMB3AHKAf0B+QH2Ae8B5AHjAfIC5wHjAaYBcQHRAWoBAQHiAYABCQOiA/MwAAH3AdUBswHyAcQBigHAAVkBEwHaAaIBYgHkAacBXwHCAXMBNwHvAcMBlwHYAd0B4gPHA9sD5gPcA+YDhQOpA/UB5wGXAZYBqAGqAbAB6wL/AekB/gH/AekB/QH/AekB/QH/AekB/gH/Ae0C/wG1AcEBxgG1AYABggHUAcMBxwGqAXoBawGzAXcBTwGYAWcBTgOkA/MB1AKdB/8B9wH1AdoBtAG3ArIBxQHhAcABwwHrAs0BuwGqAbQByAGkAakB/gLyA/8B5gGbAU4B3AF2AQMDogPzMAAB9wHUAa8B9wHIAZEBAAF2AbIBOgGqAf8BTAGgAfEB8AHsAe4B8gHBAY8B5AHpAe8D1gPlA+4D6QPxA4YDpwP0AfgC8wG4AqsBygLQAcYByQHIAcYCxQHGAcQBwwHJAcUBxAHNAccByAGwAZQBjgHwAdcBvQHfAZ0BTwHPAXoBBwHLAX0BGgGiAWwBSQOkA/MB1gKhA/8B8AHKAcsBzQG4AcABuAHtAf8BuwHvAf8BuQHuAf8BugHsAf8BuwHvAf8BugHwAf8BvQG5AcYB4ALEA/8B3wGDASADqwP1MAAB/QHWAbIByQGuAYABAAFmAacBhwHKAf8BkgHYAf8BvQHXAfEB+AHEAZIB4gHoAe0DygO8A6wD1AP4A4gDpAP0AwAD+wHpArUB7QK4AfcCxgH/AtAB8AG4AbcB2gGVAY4B3wHLAcIBwAGnAaIBrAGTAZwBpQGLAZsBqQGBAX0BmwFwAWkDpAPzAeECoQHhAqgBuQHFAdQB1gH4Af8B1gHxAf8B1gHwAf8B1gHwAf8B1gHwAf8B1gHwAf8B1gHxAf8B1gH2Af8BzQHtAf0BygGtAa4B7ALfA84D+TAAAf4B1wGyAfYByQGWAQUBggG9AQABgwHCAQABfwHDAcEB0QHgAfsBywGdAeoB8AH3At8B4APkA+gD6gP5A4gDowPzCQAB8ALZAdoBngGfAd8BnQGZAfMB2AHLAeQByQGzAdgBqAF6AccBeQEpAc0BdwESAdMBewEBAdcBfwEAAbMBcgE4A6UD9AHpArUBuQGdAZwBwAHLAdYB9gL/AfMB/gH/AfMC/wHzAv8B8wL/AfMC/wHzAv8B9QL/AfAC/wHBAqIBxAKwA/MD/jAAAf4B2gG5Ae0BtgFoAewBxwGZAZIBnwGFAagBqQGMAe8BzQGfAfkBzAGdAfUB/AH/AeYB6wHzAd0B5gHvAdMB2QHjAcUBzQHWAccBzwHYAYoBlQGcA6sD9QkAA/8B6wHeAdQB+gHrAdwB/wHsAfYBxAG8AcMBvQG4Ab8BuAGtAbcBsgGiAa0BrAGWAaMBpgGLAZgBngF4AYADpgP0A/4B5QLFAbcBvQHHAb4BwwHOAbwBwAHMAbsBvgHLAbwBwAHLAbsBvwHKAb0BwgHKAb0BwAHJAb8BwgHLAcQByAHNAcQCtgP0A/4zAAH6Ad4BvwH9AcEBhAH+Ab0BfwH/AbsBdwH8AbQBcAHzAawBZwHwAagBXgHuAaABUgHsAZ0BTAHrAZwBTQHtAZ8BUQHvAaUBWwH4AbUBbAG7AWQBKwPTA/kMAAHNAcoBzwP/AfsC4QHHAr8BuwK3AbUCqgGyAqABrQKVAaoCjAGiAnkDwAP3AwAD/wHxAuAB3wKlAeoCwQHzAsQB+QLIAf8CzAH/As4B/wHSAdEB8AK5AdECvQP2A/42AAH0Ae8B6wH2AeMBzQH4Ad8BxAH3AdwBvgH2AdYBuQH2AdQBsgH2AdIBqgH4AcwBogH5AckBnQH5AccBlAH6AcQBjwH3Ab8BhwHjAZ4BZwHMAakBlgP5A/4MAAHHAsAB/wLkAf8C3wH/At0B/gLVAfcCzwHqAr8B1QKpAbkCjAGiAnkD8gP9CQAB9wL0AegCtwHvAsEB9ALKAfwCzgH/AtMB4AKvAdwC0AP6A/4/ACf/DwAB0ALOAc8CzAHKAsgBxgK/AcMCtgHBAqsBvQKjAccCtwHgAtoB+QL4A/4D/wwAA/4B7wLiAd8CtAHgAq0B2wK+AfQC8gP9A/9FAAz/JwAD/gP4A/QG8wP0A/gD/gwAA/8D/QP4A/YD+wP+CQAD/gb7A/0D/wYAA/8D/Ab2A/kD+wP9A/4G/xUAA/4D/AP5BvgD+QP8A/4M/xUAA/kDzwOoBqIDqQPRA/kMAAP+A/EDyQO7A9cD8gP8A/8D/gP1A90D1wPqA/gD/gMAA/0D7AO/A7gDygPbA+kD8gP3A/oD/QP/DAAD/gP1A+EDywO/A8ADywPdA/AD+Ab5A/oD/AP+DwABUgGkAVUBDgGOARgBCwGKARUBCgGIARQBCQGFARIBUAGRAVIDuwP2DAAC9AH2AVIBVAG7ATMBOAGvAoQBpgKUAZUDvQPpA/kD9AKWAcIChAGsApYBngOlA9QD9wP+AeoC5gGtAoABswKVAacBlQGUAaUCngGgAp4DnAOoA70D1QPvA/0MAAH4AvcBxwG3Aa8BsQGGAXMBrgF1AVkBrgF2AVwBqwGEAXMBpwGVAY0BmQGXAZYDrAPIA8sDyQPRA+ID9AP9AwAJ/wFTAacBVgFRAdoBewE6Ac8BaQE5Ac0BZwEyAcIBWwFQAZEBUAO5A/YJ/wMAAqEB0wEYAUQB9gEZAU0B+AEQATEB0gFGAUcBqwKOAZUDrwPVAokBvwEJASgB1wEJAS4B1wEDARMBswJ6AagDnQPhA/wB4gLbAdIBqwGpA/8BmAGpAf8B8AHYAdQB0wGxAbMBuQGYAZkBrQKTAagCmQGrAqcD1QP6DAABugGCAWcBoAE9AQcBrwFVARQBwgFxASYByAF5ASoBxgF2ASgBtQFeARoBrAFJAR0BjwGdAYcBdwGmAYEBcQGiAXgBfQGhAYEBkgGhAZMDmgPHA/gD/gP4A/YD9QFSAaQBVQFcAeABhAE+AdQBbgE9AdMBbQE0AcUBXwFQAZIBUQOvA+oG9gP5A/4BTgFPAcMBJAFRAfkBHwFSAf8BHQFPAf8BFwFEAegBJAEoAa8CjQGZAnoBrgENAS4B3QERAUIB+QENAT0B9QELATsB8AEEARoBvAKRAagD0AP6AdwC0wHZAbMBrwH/AfcB4AGZAaMB6AH/AfEB2AH5AeEBzgH/AewB3QH/AfUB8QH6AeYB5wGrApcD0AP6DAABsAFoAUEBtwFgARoBvwFsASMBygF7ASkBqQFJAQoBqQFJAQsBzAF/AS0BuQFHAQ0BXgGtAUMBXwHgAWMBXAHaAVkBRwHKAUYBFgGUASoBRAGLAUcDrgP1A/gDzQO1A7QBTQGcAVEBZAHkAYoBQQHXAXEBPwHVAW8BNwHIAWEBUAGSAVIDjQOuA7cDuAPPA/gC4gHvARgBMgHbASgBWwH/ASQBVgH/ASIBUwH/ARsBSwHxAQwBFAGwAQ8BMAHdARYBSgH+ARMBRAH5ARABQQH2AQ4BPgH2AQoBPAHwAlwBrQPnA/wB1wLLAeABvAG0Af8B9gHdAZ0BpQHoAfgB4wHQAdYByQHGAf8B9wHzAf8B6wHdAf8B4AHNAawCnQPXA/sMAAHPAawBnAG2AV8BGgHHAXcBKQGpAUcBBwHbAakBbQHGAYYBTwHDAWsBHwGrATEBAAFyAe8CegHtAXsBbwHkAW4BWQHWAVcBQgHNAUABFQGHARsDwwP4AU0BqwFSAUcBnwFNAUUBmwFLAUUBmQFKASEBkwEnAVYB4gGCAUQB2gF0AUEB2AFyATkBywFkASMBiQEmAUoBkQFLAUoBkAFLAUkBjwFKAUgBjQFKA6gD9ALbAe4BHwE3Ad0BOgFvAf8BLAFeAf8BKQFaAf8BJgFXAf8BIAFSAfwBHAFPAf8BGQFKAf0BFgFGAfoBFAFFAfoBDwE9AfIBKgEwAbQC0AHeA/sD/wHTAsMB6AHIAcYB/wH+AfQBoAGxAf0B8AHnAeIBQgFLAVMBeAFxAWoBtgGyAY0B/gHZAcoBrAGgAaED1wP7DAAB+QL3AbMBUwEmAdQBcAEWAb0BUAENAv8BvQHjAaIBYgG2AT8BAAGBAXgBKgGQAf8BlgGPAfsBigFIAcYBTwFNAcsBTwFJAc8BRgFdAZgBYgPoA/0BIQGnAS0BYAHkAYcBSwHdAXkBSgHcAXgBSQHcAXcBSgHgAXoBRgHdAXcBRAHbAXUBQAHWAXABOwHNAWcBOQHLAWUBNgHIAWIBMwHEAV4BCgGEARMDogPzA/8CywHrASoBNAHKAT0BagH7ATUBZwH/ASwBXQH/ASgBWQH/ASIBUwH/AR0BTgH/ARoBTQH/ARIBPQHtAU0BTwGyAuMB5wP8A/8DAAHOArsB8QHUAdIB/wH6AekBowGsAesB/wH0Ad0BZgGeAagBJAGpAUIBEwGaASsBNgF9ATIBpwKeA8ED8wP+CQAD/gHPAdIB0wEZAVYBdgEAAXABuAEsAaMB/wE0AZQB9QGdAYEBgAF0Ab8BhwFwAegBdAEOAYQBagFCAYgBnQElAZYBRgE0AaIBNgHEAc0BxQP5A/8BIgGpAS8BdgHwAZkBXgHqAYoBWgHoAYgBVgHmAYQBUwHkAYEBTgHhAX0BRwHeAXgBRAHbAXUBQQHYAXIBPwHVAW8BPQHTAW0BOQHNAWcBCwGHARUDogPzBgAC9wH6AmwBywEuAU4B5wE2AWgB/wEuAV4B/wEoAVkB/wEiAVQB/wEWAT0B6gJZAaoCrwGwA+4D/gYAAcgCsgH3AdoB0QH/AfYB4AGkAa4B6gH/AfQB4AFOAbsBcgFiAf8BlgFSAeEBewEeAZwBMwFvAZcBcAOVA9ED9gP+BgAB8wH1AfYBGQF6AawBAAFqAZ4BWQGwAfYBdwHEAf8BcwHGAf8BXwGmAeEBjQGPAY4BHgFzAZ4BAAF0AbQBAAF3AbMBAAFkAaYBkwGhAZ4D0wP6AwABJAGrATABfgHzAZ8BaAHuAZEBZAHtAY4BYAHqAYsBWQHoAYYBVAHkAYIBTgHhAX0BRgHdAXcBRAHaAXQBQQHXAXEBPgHUAW4BOgHPAWkBDAGJARYDqAP0BgAD/wLUAeYBJQE/Ad8BOwFtAf8BNAFkAf8BLgFeAf8BJwFZAf8BGwFGAeoBRwFIAawCkQGSA88D+AP+AwABxwKsAfsB5QHfAf8B/QHvAagBtwH1Af8B+wH1AZkB2QGkATsB3AFsAWQB/gGWAU0B2gF0AR4BlgEvAX0BnAF+A5gD1QP3A/4DAAHCAdQB3QEAAXYBqQEAAWQBlgF8AcYB/wGKAc8B/wGOAdIB/wFZAboB/wFkAWMBZAEAAXYBqwEAAZMByAEAAYsBvgEAAX8BtAGAAZ0BrQPMA/kDAAElAa0BMgGRAfcBqwGNAfYBqAGLAfUBpgGJAfQBpQF6AfABmwFZAegBhgFTAeQBgQFKAd8BegFbAeQBhgFnAeUBjAFeAeEBhgFTAdsBfAEPAY0BGgPPA/gGAAP9AmEBzgFLAXwB/wFBAXAB/wE7AWsB/wE5AWwB/wEtAV4B/wElAVgB/wETATYB1wJ4AawDnwPhA/sD/wHFAqcB/QHsAekC/wH0AaoBugH1Af8B+AHpAf8B9AHuAWQBzwGGAUoB5wF5AWMB+wGVAUkB0wFsARgBjwEnAYQBnAGEA5wD2QP5A/8BwQHVAd4BAAF7Aa0BAAFvAaIBYgGuAecBpQHiAf8BqAHkAf8BZwHIAf8BCQEOARgEAAGoAeMBAAGgAdcBAAGSAcoBdwGeAbID0QP6AwABWAG4AV8BVwG0AV0BVgGzAV0BVgGxAV0BJgGeAS8BiQH0AaUBYAHqAYsBVgHmAYQBRQHYAXIBJgGTASwBTQGcAVEBUwGkAVYBVAGlAVgBUwGjAVYD+QP+BgAC6gHyASgBPgHbAVABgAH/AUUBdQH/ATYBYgH6AQ8BFgHCATwBbQH/ASoBWwH/ASABUwH9AQ8BIQHDAo4BnwO0A+8D/gHGAaIBowH+AesB3gH/AfoB4gGwAbsB7gH/AfgB3wH/AfIB4AH/Ae8B3wFLAc0BcQFVAfMBhgFdAf4BkAFbAaEBaQJwAWkBnAGbAZoDowPiA/wB8gH1AfYBBAF1AaoBAAGLAb4BAAFtAZ8BDQFzAaUBAAFwAaIBFQGDAcwBPgI5AUsBQgE/AQ0BDwEQAQABMQFDAQABIgEvA4AD5AP8BgAJ/wFWAbEBXQGLAfUBpgFkAe0BjgFaAegBiAFFAdcBcQFSAZoBVgO5A/YJ/wkAAqIB3QFSAXwB+gFQAYEB/wFLAX0B/wEsATMBxQLEAdQBMgE4AcoBOAFqAf8BJAFWAf8BGgFKAfIBMAEyAbECkwGVA9ID+gHJAqAB4wHcAd4B4gHkAeMBqAGzAdYBswG0AbMBoQGiAaMBpgGiAaQBrAGuAa0BJQHAAVYBigG/AZkB3wHUAdIBagF3AcEBGwEpAbUCkQGfA8ED+AMAAaUBygHcAQABgQG1AQABmAHLAQABoQHUAQABnQHPASABhgG2A7wBNAIyATcBNQE0ARUBEAEOAwIDvgP5A/4PAAFXAbMBXQGNAfYBqAFoAe4BkQFeAeoBigFGAdgBcgFUAZ0BWAO7A/YSAAFFAUwB3wFqAZwB/wFXAYgB/wErAUYB5wKpAcYD9QLsAfQBJQEwAc4BMAFlAf8BHwFRAf8BFAE5Ad0CeAGzA9ED+QHLAp0BwwG6AbkBgQF+AYEBaQFlAWwBbQFiAWEBkAKAAYkCegGOAXoBewFiAXcBZwHUAcsBxgF5AZIB8wE4AWIB8gEfATYBxwIwAaADzAP5AwAD/wHKAd4B6AFfAaMBxgFNAZ0BwgGKAbUBzAHrAe8B8QP9A/cD6APMA94D/QP/EgABWAG0AV0BkQH3AasBfwHzAZ8BdgHwAZkBWAHfAX8BVgGiAVsD0QP5EgACoQHoATwBVAHkAVcBggH7Al0BzgPuA/0DAALiAfIBHQEtAdcBJgFaAf8BDwEuAeMBTgFPAcID9QP+AcUDtwKnAY0CiQFyAnEBcwJxAYkChwOGAYgCiQPLAdsB3QHoAS0BUgHmAUMBbAH0ARYBJQG4AmkBsAPxA/0MAAn/JwABWQG3AWEBJgGtATMBJQGrATIBIwGpATABIQGmAS4BXgGwAWMD+AP+FQAC6AH0AooB2ALpAfED/QP/BgACzQHrAWsBbAHNAtkB6QP8A/4DAAP2AaQCpgO5A88D3wPrA/QD+wP+A/8BtwG6AeMBIwEqAa8CdAG9AvIB9AP9A/8BQgFNAT4HAAE+AwABKAMAAUADAAEgAwABAQEAAQEGAAEBFgAD/wEAAcMB/wEAAR8BAAEBAwABHwEAAQ8FAAEDAQABAT4AAYAHAAHgBwAB4AIAAQEEAAHwAQABgAEDBAAB8AEAAeABBwIAAcABAQHwAQAB8AEPAgAB4QH/AfABDwEDAYMBAAE/AYABBwHwAQ8BAAEBAQABDwEAAQEB8AEPAwABDwIAAYABAQMAAQ8HAAEPBwABDwcAAQ8FAAEBAQABBwQAAcABAwEAAQMBAAEBAgABwAEBAQABAQEAAQECAAHABAABAQIAAcAEAAEBAYABAQHAAwABgAEBAfABDwHAAwABgAEDAfABDwHAAYACAAHxAf8B8AEPAeABwRgACw==</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;toolBar2.Type" xml:space="preserve">
+    <value>Intermech.Bars.ToolBar, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;toolBar2.Name" xml:space="preserve">
+    <value>toolBar2</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Name" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;biAddServer.Name" xml:space="preserve">
+    <value>biAddServer</value>
+  </data>
+  <data name="&gt;&gt;biAddServer.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="biEditAccaunt.Text" xml:space="preserve">
+    <value>Редактировать учётную запись</value>
+  </data>
+  <data name="lvServers.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Name" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="biEditAccaunt.CommandName" xml:space="preserve">
+    <value>biEditAccaunt</value>
+  </data>
+  <data name="tabPage2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MailSettingsControl</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="columnHeader2.Width" type="System.Int32, mscorlib">
+    <value>170</value>
+  </data>
+  <data name="biDelAccaunt.CommandName" xml:space="preserve">
+    <value>biDelAccaunt</value>
+  </data>
+  <data name="&gt;&gt;biDelServer.Name" xml:space="preserve">
+    <value>biDelServer</value>
+  </data>
+  <data name="&gt;&gt;biDelServer.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="biAddAccaunt.CommandName" xml:space="preserve">
+    <value>biAddAccaunt</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Parent" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="pgServerProps.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAADAAAAAwAAAAs=</value>
+  </data>
+  <data name="biAccauntUsers.CommandName" xml:space="preserve">
+    <value>biAccauntUsers</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Name" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="biDelServer.Text" xml:space="preserve">
+    <value>Удалить почтовый сервер</value>
+  </data>
+  <data name="&gt;&gt;biAddAccaunt.Name" xml:space="preserve">
+    <value>biAddAccaunt</value>
+  </data>
+  <data name="&gt;&gt;biAddAccaunt.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="biAccauntUsers.ToolTipText" xml:space="preserve">
+    <value>Пользователи учётной записи</value>
+  </data>
+  <data name="biAddAccaunt.ToolTipText" xml:space="preserve">
+    <value>Новая учётная запись</value>
+  </data>
+  <data name="&gt;&gt;lvServers.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="columnHeader1.Width" type="System.Int32, mscorlib">
+    <value>250</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5TaXplRgIAAAAFd2lkdGgGaGVpZ2h0AAALCwIAAAAAAMBAAABQQQs=</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="biDelAccaunt.Text" xml:space="preserve">
+    <value>Удалить учётную запись</value>
+  </data>
+  <data name="&gt;&gt;lvServers.Name" xml:space="preserve">
+    <value>lvServers</value>
+  </data>
+  <data name="&gt;&gt;lvServers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolBar2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="tabControl1.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAAAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;imageList1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imageList1.Name" xml:space="preserve">
+    <value>imageList1</value>
+  </data>
+</root>

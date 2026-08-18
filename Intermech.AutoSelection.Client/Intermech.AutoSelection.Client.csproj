@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.AutoSelection.Client.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{00E94101-4193-491B-8A70-5F4F049C874A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.AutoSelection.Client</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevAge.Drawing">
+      <HintPath>lib\DevAge.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="DevAge.SourceGrid3">
+      <HintPath>lib\DevAge.SourceGrid3.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bars">
+      <HintPath>lib\Intermech.Bars.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Client.Core">
+      <HintPath>lib\Intermech.Client.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Docking">
+      <HintPath>lib\Intermech.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Document.Model">
+      <HintPath>lib\Intermech.Document.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Expert">
+      <HintPath>lib\Intermech.Expert.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Expert.Editor">
+      <HintPath>lib\Intermech.Expert.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Expert.User">
+      <HintPath>lib\Intermech.Expert.User.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Extensions.WinForms">
+      <HintPath>lib\Intermech.Extensions.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Imbase">
+      <HintPath>lib\Intermech.Imbase.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.AutoSelection">
+      <HintPath>lib\Intermech.Interfaces.AutoSelection.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Client">
+      <HintPath>lib\Intermech.Interfaces.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Document">
+      <HintPath>lib\Intermech.Interfaces.Document.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Imbase">
+      <HintPath>lib\Intermech.Interfaces.Imbase.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionClientPlugin.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionClientCache.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionAttrMode.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionMandatoryMode.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectonItemObjectMode.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionExecObjMode.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionNodeCondRule.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionNodeType.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionFolderType.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelExecuteStatus.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionTestObjectMode.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutosSelectConsts.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionProtectionKey.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionUtils.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelEnumUtils.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\LocalizationHolder.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\CustomDescription.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\CustomDisplayName.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\CustomCategory.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\Views\AutoSelectionView.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\Views\AutoSelectionViewProvider.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\Properties\Resources.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\ObjectCreator\AutoSelectionRuleCreatorService.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\Forms\AutoSelectionEditForm.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\Forms\GradientFlatHeader.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\Forms\AutoSelectionExpTableSetup.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\Forms\AutoSelectionLogForm.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\Forms\AutoSelectionRowSelectForm.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\Forms\AutoSelectionTestForm.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\Forms\AutoSelectionTreeSetupForm.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\Forms\ImbaseFoldersViewMode.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\Forms\ObjectTypeRec.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\Forms\SelectionTreeViewUtils.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\Forms\AutoSelectionTypeSelectionForm.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\Forms\AutoSelectionTableEditForm.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\Forms\AutoSelectionImbaseObjSelectForm.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\Converters\SimpleMemoEditor.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\Converters_Editors\AttributeTypeConverter.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\Converters_Editors\AutoSelAttrCollEditor.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\Converters_Editors\AutoSelAttrCollTypeConverter.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\Converters_Editors\AutoSelAttrEditor.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\Converters_Editors\AutoSelectionItemCommonConverter.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\Converters_Editors\AutoSelectionNodeItemObjectConverter.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\Converters_Editors\AutoSelectionNodeItemImbaseConverter.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\Converters_Editors\AutoSelectionNodeFolderConverter.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\Converters_Editors\AutoSelectionNodeTestConverter.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\Converters_Editors\AutoSelectionReadOnlyPropDescriptor.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\Converters_Editors\AutoSelectionTestNodeExpConverter.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\Converters_Editors\ObjectTypeConverter.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\Converters_Editors\PropertyDescriptorFx.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\Converters_Editors\RelationTypeConverter.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\Converters_Editors\SelectionEmptyEditor.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\Converters_Editors\SelectionExpTableConverter.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\Converters_Editors\SelectionExpTableEditor.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\Converters_Editors\SelectionImbaseFolder.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\Converters_Editors\SelectionGuidObjectConverter.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\Converters_Editors\SelectionLongObjectConverter.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\Converters_Editors\SelectionObjectEditor.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\Converters_Editors\SelectionRuleObjectEditor.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\Converters_Editors\SelectionObjectTypeEditor.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\Converters_Editors\SelectionRelationTypeEditor.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\Converters_Editors\SelectionScriptObjectEditor.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\Converters_Editors\SelectionTestObjectEditor.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\ContextProviders\AutoSelectionContextProvider.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\ContextProviders\AutoSelectionExecuteContextProvider.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\Common\AS_ImTableView.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionType\AutoSelectionTypeRec.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionType\AutoSelectionTypesDescriptor.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionType\AutoSelectionTypesNode.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionType\AutoSelectionTypesQuery.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionType\AutoSelectionTypesPart.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionType\AutoSelectionTypesView.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionType\AutoSelectionTypesProvider.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionType\AutoSelectionTypeDescriptor.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionType\AutoSelectionTypeNode.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionType\AutoSelectionTypeNodeID.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionService\AutoSelectionService.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionService\SessionContextInfo.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionService\AutoSelectionSession.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionRule\AutoSelectionRule.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionRule\AutoSelectionRuleComparer.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionNodeSupport\AutoSelectionObject.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionNodeSupport\AutoSelectionObjHelper.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionNodeSupport\AutoSelectionNodeScript.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionNode\AS_Guid.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionNode\AS_GuidObjStorage.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionNode\AS_Long.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionNode\AS_LongObjStorage.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionNode\AutoSelectionNodeBase.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionNode\AutoSelectionBaseComparer.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionNode\AutoSelectionNodeFillAttributes.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionNode\AutoSelAttrTypeMode.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionNode\IAutoSelAttrType.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionNode\AutoSelAttr.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionNode\AutoSelAttrList.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionNode\AutoSelAttrVal.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionNode\AutoSelAttrValList.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionNode\AutoSelAttrListExt.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionNode\AutoSelectionNodeItemFillAttributes.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionNode\AutoSelectionNodeItemImbase.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionNode\AutoSelectionNodeCommon.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionNode\AutoSelNodeList.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionNode\AutoSelectionImbaseLink.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionNode\AutoSelectionNodeTreeComparer.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionNode\AutoSelectionNodeCommonComparer.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionNode\AutoSelectionNodeCondition.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionNode\AutoSelectionNodeCondList.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionNode\AutoSelectionDefRow.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionNode\AutoSelectionDefRowList.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionNode\AutoSelectionTableInfo.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionNode\AutoSelectionNodeFolder.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionNode\AutoSelectionNodeItemObject.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionNode\AutoSelectionNodeItemCommon.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionNode\AutoSelectionNodeProc.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionNode\AutoSelectionNodeQuest.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionNode\AutoSelectionNodeTest.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionNode\IItemCommon.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionNode\IImsGlobalsSupport.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionNode\Forms\AutoSelectionTreeSelectForm.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionLog\AutoSelectionLog.cs" />
+    <Compile Include="Intermech\AutoSelection\Client\AutoSelectionLog\AutoSelectionLogRec.cs" />
+    <Compile Include="ImSSP\sc_651.cs" />
+    <Compile Include="ImSSP\sc_660.cs" />
+    <Compile Include="ImSSP\sc_631.cs" />
+    <Compile Include="ImSSP\sc_664.cs" />
+    <Compile Include="ImSSP\sc_668.cs" />
+    <Compile Include="ImSSP\sc_671.cs" />
+    <Compile Include="ImSSP\sc_685.cs" />
+    <Compile Include="ImSSP\sc_688.cs" />
+    <Compile Include="ImSSP\sc_697.cs" />
+    <Compile Include="ImSSP\sc_690.cs" />
+    <Compile Include="ImSSP\sc_693.cs" />
+    <Compile Include="ImSSP\sc_701.cs" />
+    <Compile Include="ImSSP\sc_703.cs" />
+    <Compile Include="ImSSP\sc_708.cs" />
+    <Compile Include="ImSSP\sc_734.cs" />
+    <Compile Include="ImSSP\sc_746.cs" />
+    <Compile Include="ImSSP\sc_727.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Intermech\AutoSelection\Client\AutoSelectionNode\Forms\AutoSelectionTreeSelectForm.resx" />
+    <EmbeddedResource Include="Intermech\AutoSelection\Client\Forms\AutoSelectionEditForm.resx" />
+    <EmbeddedResource Include="Intermech\AutoSelection\Client\Forms\AutoSelectionImbaseObjSelectForm.resx" />
+    <EmbeddedResource Include="Intermech\AutoSelection\Client\Forms\AutoSelectionLogForm.resx" />
+    <EmbeddedResource Include="Intermech\AutoSelection\Client\Forms\AutoSelectionRowSelectForm.resx" />
+    <EmbeddedResource Include="Intermech\AutoSelection\Client\Forms\AutoSelectionTableEditForm.resx" />
+    <EmbeddedResource Include="Intermech\AutoSelection\Client\Forms\AutoSelectionTestForm.resx" />
+    <EmbeddedResource Include="Intermech\AutoSelection\Client\Forms\AutoSelectionTreeSetupForm.resx" />
+    <EmbeddedResource Include="Intermech\AutoSelection\Client\Forms\AutoSelectionTypeSelectionForm.resx" />
+    <EmbeddedResource Include="Intermech\AutoSelection\Client\Properties\Resources.resx" />
+    <EmbeddedResource Include="Intermech\AutoSelection\Client\Resources\AutoSelection\ClientResources.resx" />
+    <EmbeddedResource Include="Intermech\AutoSelection\Client\Resources\CustomAttributesResources.resx" />
+    <EmbeddedResource Include="Intermech\AutoSelection\Client\Resources\i0.bmp" />
+    <EmbeddedResource Include="Intermech\AutoSelection\Client\Resources\i1.bmp" />
+    <EmbeddedResource Include="Intermech\AutoSelection\Client\Resources\i100.bmp" />
+    <EmbeddedResource Include="Intermech\AutoSelection\Client\Resources\i101.bmp" />
+    <EmbeddedResource Include="Intermech\AutoSelection\Client\Resources\i102.bmp" />
+    <EmbeddedResource Include="Intermech\AutoSelection\Client\Resources\i103.bmp" />
+    <EmbeddedResource Include="Intermech\AutoSelection\Client\Resources\i104.bmp" />
+    <EmbeddedResource Include="Intermech\AutoSelection\Client\Resources\i105.bmp" />
+    <EmbeddedResource Include="Intermech\AutoSelection\Client\Resources\i2.bmp" />
+    <EmbeddedResource Include="Intermech\AutoSelection\Client\Resources\i3.bmp" />
+    <EmbeddedResource Include="Intermech\AutoSelection\Client\Resources\i4.bmp" />
+    <EmbeddedResource Include="Intermech\AutoSelection\Client\Resources\i5.bmp" />
+    <EmbeddedResource Include="Intermech\AutoSelection\Client\Resources\i6.bmp" />
+    <EmbeddedResource Include="Intermech\AutoSelection\Client\Views\AutoSelectionView.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Interop.CADInterface.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2BB5A21B-08B1-4AEA-8F25-87B9A5051598}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Interop.CADInterface</AssemblyName>
+    <ApplicationVersion>7.4.0.0</ApplicationVersion>
+    <RootNamespace>Interop.CADInterface</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="stdole">
+      <HintPath>lib\stdole.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ICADSystem.cs" />
+    <Compile Include="IFileResolver.cs" />
+    <Compile Include="ICADDocument.cs" />
+    <Compile Include="ECADDocType.cs" />
+    <Compile Include="ECADProperty.cs" />
+    <Compile Include="AttributeLocalizer.cs" />
+    <Compile Include="ICADSystem2.cs" />
+    <Compile Include="ICADDocument2.cs" />
+    <Compile Include="EOpenStatus.cs" />
+    <Compile Include="ICADSystem3.cs" />
+    <Compile Include="ECADSystemModeType.cs" />
+    <Compile Include="ICADSystem4.cs" />
+    <Compile Include="EGroupOperationTypes.cs" />
+    <Compile Include="ICADSystem5.cs" />
+    <Compile Include="ICADDocument3.cs" />
+    <Compile Include="ICADSystem6.cs" />
+    <Compile Include="ICADSystem7.cs" />
+    <Compile Include="CloneData.cs" />
+    <Compile Include="PROE_CAD_SYSTEM.cs" />
+    <Compile Include="PROE_CAD_SYSTEMClass.cs" />
+    <Compile Include="SW_CAD_SYSTEM.cs" />
+    <Compile Include="SW_CAD_SYSTEMClass.cs" />
+    <Compile Include="SE_CAD_SYSTEM.cs" />
+    <Compile Include="SE_CAD_SYSTEMClass.cs" />
+    <Compile Include="INVENTOR_CAD_SYSTEM.cs" />
+    <Compile Include="INVENTOR_CAD_SYSTEMClass.cs" />
+    <Compile Include="UG_CAD_SYSTEM.cs" />
+    <Compile Include="UG_CAD_SYSTEMClass.cs" />
+    <Compile Include="COMPASS_CAD_SYSTEM.cs" />
+    <Compile Include="COMPASS_CAD_SYSTEMClass.cs" />
+    <Compile Include="IMVIEWER_CAD_SYSTEM.cs" />
+    <Compile Include="IMVIEWER_CAD_SYSTEMClass.cs" />
+    <Compile Include="IAttributeLocalizer.cs" />
+    <Compile Include="EAttributeID.cs" />
+    <Compile Include="AttributeLocalizerClass.cs" />
+    <Compile Include="IPhysicalQuantity.cs" />
+    <Compile Include="EMainUnits.cs" />
+    <Compile Include="PhysicalQuantity.cs" />
+    <Compile Include="IPhysicalQuantity2.cs" />
+    <Compile Include="PhysicalUnit.cs" />
+    <Compile Include="PhysicalQuantityClass.cs" />
+    <Compile Include="IParametersContainer.cs" />
+    <Compile Include="ParametersContainer.cs" />
+    <Compile Include="ParametersContainerClass.cs" />
+    <Compile Include="IStructureManager.cs" />
+    <Compile Include="StructureElement.cs" />
+    <Compile Include="ICADDrawing.cs" />
+    <Compile Include="PositionNote.cs" />
+    <Compile Include="StructureManager.cs" />
+    <Compile Include="StructureManagerClass.cs" />
+    <Compile Include="IStructureElement.cs" />
+    <Compile Include="StructureModification.cs" />
+    <Compile Include="IModelConfiguration.cs" />
+    <Compile Include="StructureElementClass.cs" />
+    <Compile Include="IStructureModification.cs" />
+    <Compile Include="IModelComponent.cs" />
+    <Compile Include="IDrawingView.cs" />
+    <Compile Include="StructureModificationClass.cs" />
+    <Compile Include="IModelMaterial.cs" />
+    <Compile Include="EMaterialParameters.cs" />
+    <Compile Include="ModelMaterial.cs" />
+    <Compile Include="ModelMaterialClass.cs" />
+    <Compile Include="IPositionNote.cs" />
+    <Compile Include="PositionNoteClass.cs" />
+    <Compile Include="ITesselation.cs" />
+    <Compile Include="Tesselation.cs" />
+    <Compile Include="TesselationClass.cs" />
+    <Compile Include="IPhysicalUnit.cs" />
+    <Compile Include="PhysicalUnitClass.cs" />
+    <Compile Include="ICloneData.cs" />
+    <Compile Include="CloneDataFile.cs" />
+    <Compile Include="CloneDataFileParameters.cs" />
+    <Compile Include="ICloneProgressSink.cs" />
+    <Compile Include="CloneDataClass.cs" />
+    <Compile Include="ICloneDataFile.cs" />
+    <Compile Include="ECloneResult.cs" />
+    <Compile Include="CloneDataFileClass.cs" />
+    <Compile Include="IParametersContainer2.cs" />
+    <Compile Include="ICloneDataFileParameters.cs" />
+    <Compile Include="CloneDataFileParametersClass.cs" />
+    <Compile Include="EPreviewType.cs" />
+    <Compile Include="IDrawingSheet.cs" />
+    <Compile Include="IModelConfiguration2.cs" />
+    <Compile Include="IModelBody.cs" />
+    <Compile Include="IModelComponent2.cs" />
+    <Compile Include="IStructureModification2.cs" />
+    <Compile Include="IStructureManager2.cs" />
+    <Compile Include="IStructureManager3.cs" />
+    <Compile Include="IStructureElement2.cs" />
+    <Compile Include="IStructureElement3.cs" />
+    <Compile Include="IStructureElement4.cs" />
+    <Compile Include="IStructureModification3.cs" />
+    <Compile Include="IStructureModification4.cs" />
+    <Compile Include="EPhysicalQuantities.cs" />
+    <Compile Include="IModelComponent3.cs" />
+    <Compile Include="IModelComponent4.cs" />
+    <Compile Include="IModelComponent5.cs" />
+    <Compile Include="ICADSystemEvents.cs" />
+    <Compile Include="ICADDocument4.cs" />
+    <Compile Include="ICADDocument5.cs" />
+    <Compile Include="IModelConfiguration3.cs" />
+    <Compile Include="IModelConfiguration4.cs" />
+    <Compile Include="IModelConfiguration5.cs" />
+    <Compile Include="IModelConfiguration6.cs" />
+    <Compile Include="IMFGDocument.cs" />
+    <Compile Include="IPDMDocument.cs" />
+    <Compile Include="EDocumentStatus.cs" />
+    <Compile Include="IPDMDocument2.cs" />
+    <Compile Include="IPDMDocument3.cs" />
+    <Compile Include="IPDMArticle2.cs" />
+    <Compile Include="IPDMArticle.cs" />
+    <Compile Include="IPDMDocument4.cs" />
+    <Compile Include="IPDMDocument5.cs" />
+    <Compile Include="IPDMArticle3.cs" />
+    <Compile Include="IEditContext.cs" />
+    <Compile Include="EPDMSystemFeatures.cs" />
+    <Compile Include="IPDMSystem.cs" />
+    <Compile Include="IPDMSystem2.cs" />
+    <Compile Include="IPDMSystem3.cs" />
+    <Compile Include="IPDMSystem4.cs" />
+    <Compile Include="IPDMSystem5.cs" />
+    <Compile Include="IPDMSystem6.cs" />
+    <Compile Include="IPDMSystem7.cs" />
+    <Compile Include="EUnitsSubset.cs" />
+    <Compile Include="IPDMSystem8.cs" />
+    <Compile Include="ESelectObjectsType.cs" />
+    <Compile Include="IPDMSystem9.cs" />
+    <Compile Include="IPDMSystemEvents.cs" />
+    <Compile Include="IPDMDocument6.cs" />
+    <Compile Include="IPDMDocument7.cs" />
+    <Compile Include="IPDMDocument8.cs" />
+    <Compile Include="IPDMDocumentEvents.cs" />
+    <Compile Include="IPDMEvents.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

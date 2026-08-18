@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\IMClient.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A1468F78-83AB-4989-971F-1DBE07E05CD5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>IMClient</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>IMClient</RootNamespace>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ninject">
+      <HintPath>lib\Ninject.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="Telerik.WinControls">
+      <HintPath>lib\Telerik.WinControls.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.Windows8">
+      <HintPath>lib\Telerik.WinControls.Themes.Windows8.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.WinControls.UI">
+      <HintPath>lib\Telerik.WinControls.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+    <Reference Include="WpfBindingErrors">
+      <HintPath>lib\WpfBindingErrors.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Intermech\Client\Core\Services\UndoService.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="XamlGeneratedNamespace\GeneratedInternalTypeHelper.cs" />
+    <Compile Include="CreateObjTypesMenuMRU.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LocalizationHolder.cs" />
+    <Compile Include="DockControlProxy.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DocumentComparer.cs" />
+    <Compile Include="OptimizationSettingsPage.cs" />
+    <Compile Include="OptimizationSettingsWrapper.cs" />
+    <Compile Include="CustomDescription.cs" />
+    <Compile Include="CustomDisplayName.cs" />
+    <Compile Include="UISettingsWrapper.cs" />
+    <Compile Include="UserConfigurationFromDBModule.cs" />
+    <Compile Include="ProgramConsts.cs" />
+    <Compile Include="UserConfigurationFromFileModule.cs" />
+    <Compile Include="ProgramAutoExitHandler.cs" />
+    <Compile Include="MainFormClientService.cs" />
+    <Compile Include="MainFormInitParams.cs" />
+    <Compile Include="SessionPluginsLoader.cs" />
+    <Compile Include="PersonalPluginsLoader.cs" />
+    <Compile Include="ProgramComObjectFactory.cs" />
+    <Compile Include="ProgramAssemblyResolveFilter.cs" />
+    <Compile Include="StartupService.cs" />
+    <Compile Include="RemovablePluginView.cs" />
+    <Compile Include="UINotificationMessageAndActions.cs" />
+    <Compile Include="UINotificationsItemToInlinesConverter.cs" />
+    <Compile Include="UINotificationsItemVM.cs" />
+    <Compile Include="UINotificationsVM.cs" />
+    <Compile Include="UINotificationIconToImageSourceConverter.cs" />
+    <Compile Include="UINotificationsResources.cs" />
+    <Compile Include="UINotificationsItemsCollection.cs" />
+    <Compile Include="UINotificationsStorage.cs" />
+    <Compile Include="UINotificationViewControl.cs" />
+    <Compile Include="ViewGuids.cs" />
+    <Compile Include="AssemblyAttributes.cs" />
+    <Compile Include="AuthorizeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomCategory.cs" />
+    <Compile Include="NavigateManager.cs" />
+    <Compile Include="UISettingsPage.cs" />
+    <Compile Include="UserPropertiesPage.cs" />
+    <Compile Include="AppPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DocumentNavigator.cs" />
+    <Compile Include="PluginView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BackgroundView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OutputView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UINotificationView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ServerObjectsView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ServerOutputView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ClipboardView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NamedImagesView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PropertyGridView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RequestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlertMessageService.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\Resources.cs" />
+    <Compile Include="PropertyPages\PropertyPagesService.cs" />
+    <Compile Include="PropertyPages\PropertyPagesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splash\SplashScreenService.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splash\SynchronizationMode.cs" />
+    <Compile Include="Splash\AnimatorBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Splash\ControlForeColorAnimator.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Splash\FliyngText.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Splash\FormOpacityAnimator.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ToolbarControls\ProjectsDropDownControl.cs" />
+    <Compile Include="ToolbarControls\RulesDropDownControl.cs" />
+    <Compile Include="Services\ClientProtectionServiceProxy.cs" />
+    <Compile Include="UI\Winforms\SelectPluginsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\DocumentOverview.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\DocumentLayoutView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AboutBox\AboutIPS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox\PluginInfo.cs" />
+    <Compile Include="AutoUpdater\Module.cs" />
+    <Compile Include="AutoUpdater\AutoUpdaterServerProxy.cs" />
+    <Compile Include="AutoUpdater\AutoUpdaterClient.cs" />
+    <Compile Include="AutoUpdater\AutoUpdaterServerConnection.cs" />
+    <Compile Include="AutoUpdater\AutoUpdaterServerGuardian.cs" />
+    <Compile Include="UserSessions\IMClientSessionPool.cs" />
+    <Compile Include="UserSessions\ActingUserHelper.cs" />
+    <Compile Include="UserSessions\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserSessions\LoginHelper.cs" />
+    <Compile Include="UserSessions\SessionLoginWithPasswordInfo.cs" />
+    <Compile Include="UserSessions\SelectRoleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Remoting\RemotingServicesNinjectModule.cs" />
+    <Compile Include="Remoting\RemotingServicesModule.cs" />
+    <Compile Include="Remoting\RemotingClientSponsorValidator.cs" />
+    <Compile Include="Remoting\RemotingClientSponsorLogger.cs" />
+    <Compile Include="Tests\InitializeLoginInfoEventArgs.cs" />
+    <Compile Include="Tests\AutoLoginHelper.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AboutBox\AboutIPS.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppPanel.resx" />
+    <EmbeddedResource Include="AuthorizeForm.resx" />
+    <EmbeddedResource Include="BackgroundView.resx" />
+    <EmbeddedResource Include="ClipboardView.resx" />
+    <EmbeddedResource Include="exe.licenses" />
+    <EmbeddedResource Include="MainForm.resx" />
+    <EmbeddedResource Include="NamedImagesView.resx" />
+    <EmbeddedResource Include="OutputView.resx" />
+    <EmbeddedResource Include="PluginView.resx" />
+    <EmbeddedResource Include="Properties\Resources.resx" />
+    <EmbeddedResource Include="PropertyGridView.resx" />
+    <EmbeddedResource Include="PropertyPages\PropertyPagesForm.resx" />
+    <EmbeddedResource Include="RequestForm.resx" />
+    <EmbeddedResource Include="Resources\BigImages.bmp" />
+    <EmbeddedResource Include="Resources\CustomAttributesResources.resx" />
+    <EmbeddedResource Include="Resources\EventLogCreateFilter.ico" />
+    <EmbeddedResource Include="Resources\FiltrationIcons.bmp" />
+    <EmbeddedResource Include="Resources\IMClientResources.resx" />
+    <EmbeddedResource Include="Resources\loading.gif" />
+    <EmbeddedResource Include="Resources\StandardIcons.bmp" />
+    <EmbeddedResource Include="Resources\StandardIcons2.bmp" />
+    <EmbeddedResource Include="ServerObjectsView.resx" />
+    <EmbeddedResource Include="ServerOutputView.resx" />
+    <EmbeddedResource Include="Splash\SplashScreenService.resx" />
+    <EmbeddedResource Include="UI\Winforms\SelectPluginsForm.resx" />
+    <EmbeddedResource Include="UINotificationView.resx" />
+    <EmbeddedResource Include="UserSessions\LoginForm.resx" />
+    <EmbeddedResource Include="UserSessions\SelectRoleForm.resx" />
+    <EmbeddedResource Include="Views\DocumentLayoutView.resx" />
+    <EmbeddedResource Include="Views\DocumentOverview.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="views\uinotificationviewcontrol.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Intermech.Bars\Intermech.Bars.csproj">
+      <Project>{9430170d-56b1-461e-806e-8ad3cb5a3eb4}</Project>
+      <Name>Intermech.Bars</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Intermech.Bcl.Wpf\Intermech.Bcl.Wpf.csproj">
+      <Project>{eb23ac97-79e5-4e33-92f7-32e87b55a64d}</Project>
+      <Name>Intermech.Bcl.Wpf</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Intermech.Bcl\Intermech.Bcl.csproj">
+      <Project>{5ea6618c-7c68-4d72-b50f-5f7b40f0f690}</Project>
+      <Name>Intermech.Bcl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Intermech.Calendars.Editor\Intermech.Calendars.Editor.csproj">
+      <Project>{30700eb4-27cf-41f0-ae6e-7ede56573a17}</Project>
+      <Name>Intermech.Calendars.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Intermech.Client.Base\Intermech.Client.Base.csproj">
+      <Project>{107a0aa4-a9f9-4476-bd10-edf6a13acf10}</Project>
+      <Name>Intermech.Client.Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Intermech.Client.Core\Intermech.Client.Core.csproj">
+      <Project>{5efb0783-4924-4305-87ee-cc8c78ec5a43}</Project>
+      <Name>Intermech.Client.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Intermech.Controls\Intermech.Controls.csproj">
+      <Project>{474705ca-fdc6-43ac-b586-8cc03468bc4d}</Project>
+      <Name>Intermech.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Intermech.Docking\Intermech.Docking.csproj">
+      <Project>{676c9ea3-a6c3-400d-8d5e-f63809158d99}</Project>
+      <Name>Intermech.Docking</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Intermech.Interfaces.Client\Intermech.Interfaces.Client.csproj">
+      <Project>{fd6c9c99-1c05-4a29-9edb-454d4dc67e09}</Project>
+      <Name>Intermech.Interfaces.Client</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Intermech.Interfaces\Intermech.Interfaces.csproj">
+      <Project>{1176ece5-5c7b-456c-b9f6-622e89184ea3}</Project>
+      <Name>Intermech.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Intermech.Map2\Intermech.Map2.csproj">
+      <Project>{6891bf4f-5589-446d-bcee-90c7f329ca40}</Project>
+      <Name>Intermech.Map2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IPSAutoUpdater.Interfaces\IPSAutoUpdater.Interfaces.csproj">
+      <Project>{09c8ca40-27e9-4004-8817-d9ad73258a80}</Project>
+      <Name>IPSAutoUpdater.Interfaces</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

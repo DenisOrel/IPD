@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.Interfaces.Pdm.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F07C4881-AEA7-468A-A9AE-75215C7113AE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.Interfaces.Pdm</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Expert">
+      <HintPath>lib\Intermech.Expert.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Client">
+      <HintPath>lib\Intermech.Interfaces.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Document">
+      <HintPath>lib\Intermech.Interfaces.Document.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Localization\LocalizationHolder.cs" />
+    <Compile Include="Localization\CustomDescription.cs" />
+    <Compile Include="Localization\CustomDisplayName.cs" />
+    <Compile Include="Localization\CustomCategory.cs" />
+    <Compile Include="Interfaces\Pdm\ArticleService.cs" />
+    <Compile Include="Interfaces\Pdm\IArticleService.cs" />
+    <Compile Include="Interfaces\Pdm\CompositionAttributeState.cs" />
+    <Compile Include="Interfaces\Pdm\CompositionItem.cs" />
+    <Compile Include="Interfaces\Pdm\CompositionItemAttribute.cs" />
+    <Compile Include="Interfaces\Pdm\CompositionItemAttributeValue.cs" />
+    <Compile Include="Interfaces\Pdm\CompositionItemFlags.cs" />
+    <Compile Include="Interfaces\Pdm\ComponentSelectionConsts.cs" />
+    <Compile Include="Interfaces\Pdm\ComponentSelectionHelper.cs" />
+    <Compile Include="Interfaces\Pdm\IAdditionalCompositionFiltrationService.cs" />
+    <Compile Include="Interfaces\Pdm\GetCompositionFiltrationCommandEventHandler.cs" />
+    <Compile Include="Interfaces\Pdm\GetCompositionFiltrationCommandEventArgs.cs" />
+    <Compile Include="Interfaces\Pdm\AdditionalFiltrationToolBarOptions.cs" />
+    <Compile Include="Interfaces\Pdm\IArticleAttributesSyncService.cs" />
+    <Compile Include="Interfaces\Pdm\ArticleAttributesSyncSettings.cs" />
+    <Compile Include="Interfaces\Pdm\IComponentSelectionCommandService.cs" />
+    <Compile Include="Interfaces\Pdm\IComponentSelectionService.cs" />
+    <Compile Include="Interfaces\Pdm\ICompositionFiltrationCommand.cs" />
+    <Compile Include="Interfaces\Pdm\IInstancesClientService.cs" />
+    <Compile Include="Interfaces\Pdm\ISearchSchemeSettingsService.cs" />
+    <Compile Include="Interfaces\Pdm\SearchSchemaInfo.cs" />
+    <Compile Include="Interfaces\Pdm\SubstituteObject.cs" />
+    <Compile Include="Interfaces\Pdm\SubstituteObjects.cs" />
+    <Compile Include="Interfaces\Pdm\CompareObjectsInfo.cs" />
+    <Compile Include="Interfaces\Pdm\CompositionModes.cs" />
+    <Compile Include="Interfaces\Pdm\BackgroundState.cs" />
+    <Compile Include="Interfaces\Pdm\CompareDifferences.cs" />
+    <Compile Include="Interfaces\Pdm\IBackgroundReader.cs" />
+    <Compile Include="Interfaces\Pdm\ICompareBackgroundReader.cs" />
+    <Compile Include="Interfaces\Pdm\ICompareObjectNode.cs" />
+    <Compile Include="Interfaces\Pdm\CompositionSelect.cs" />
+    <Compile Include="Interfaces\Pdm\CompositionSelectEventArgs.cs" />
+    <Compile Include="Interfaces\Pdm\IDBArticle.cs" />
+    <Compile Include="Interfaces\Pdm\IGroupInstanceService.cs" />
+    <Compile Include="Interfaces\Pdm\CreateGroupInstanceType.cs" />
+    <Compile Include="Interfaces\Pdm\GroupInstanceHelper.cs" />
+    <Compile Include="Interfaces\Pdm\IListInstancesInfo.cs" />
+    <Compile Include="Interfaces\Pdm\IOrderPointService.cs" />
+    <Compile Include="Interfaces\Pdm\PDMHelper.cs" />
+    <Compile Include="Interfaces\Pdm\IRelVisObserverService.cs" />
+    <Compile Include="Interfaces\Pdm\IPDMSpecificationsService.cs" />
+    <Compile Include="Interfaces\Pdm\ISubstitutesRemarksService.cs" />
+    <Compile Include="Interfaces\Pdm\SubstitutesRemarksService.cs" />
+    <Compile Include="Interfaces\Pdm\ICompositionService.cs" />
+    <Compile Include="Interfaces\Pdm\AttributeSource.cs" />
+    <Compile Include="Interfaces\Pdm\RuntimeSearchScheme.cs" />
+    <Compile Include="Interfaces\Pdm\IPDMCompareObject.cs" />
+    <Compile Include="Interfaces\Pdm\IFileNameGenerator.cs" />
+    <Compile Include="Interfaces\Pdm\IPdmServerPlugin.cs" />
+    <Compile Include="Interfaces\Pdm\IRelationsComparerService.cs" />
+    <Compile Include="Interfaces\Pdm\RelationsAttributeComparerCaps.cs" />
+    <Compile Include="Interfaces\Pdm\IRelationsComparer.cs" />
+    <Compile Include="Interfaces\Pdm\ISearchScheme.cs" />
+    <Compile Include="Interfaces\Pdm\ContainsMode.cs" />
+    <Compile Include="Interfaces\Pdm\ISubstitutesService.cs" />
+    <Compile Include="Interfaces\Pdm\SearchDirection.cs" />
+    <Compile Include="Interfaces\Pdm\SearchOptions.cs" />
+    <Compile Include="Interfaces\Pdm\SearchConsts.cs" />
+    <Compile Include="Interfaces\Pdm\RelationAsSubstitutes.cs" />
+    <Compile Include="Interfaces\Pdm\PurposeDocument.cs" />
+    <Compile Include="Interfaces\Pdm\PDMPluginConsts.cs" />
+    <Compile Include="Interfaces\Pdm\ServerPDMPluginConsts.cs" />
+    <Compile Include="Interfaces\Pdm\ISubstitutesSettings.cs" />
+    <Compile Include="Interfaces\Pdm\SubstitutesSettings.cs" />
+    <Compile Include="Interfaces\Pdm\PDMSubstitutesEditorOptionsHolder.cs" />
+    <Compile Include="Interfaces\Pdm\AVSSpecificationForm.cs" />
+    <Compile Include="Interfaces\Pdm\PDMSubstitutesEditorMode.cs" />
+    <Compile Include="Interfaces\Pdm\PDMSubstitutesCommands.cs" />
+    <Compile Include="Interfaces\Pdm\IPDMSubstitutesService.cs" />
+    <Compile Include="Interfaces\Pdm\RelVisState.cs" />
+    <Compile Include="Interfaces\Pdm\RelFilter.cs" />
+    <Compile Include="Interfaces\Pdm\IVisualizerService.cs" />
+    <Compile Include="Interfaces\Pdm\ISchemeSaveLoad.cs" />
+    <Compile Include="Interfaces\Pdm\VisSchemeParms.cs" />
+    <Compile Include="Interfaces\Pdm\GlobalType.cs" />
+    <Compile Include="Interfaces\Pdm\RelationVisualizer\IRelVisSettings.cs" />
+    <Compile Include="Interfaces\Pdm\RelationVisualizer\RelVisPred.cs" />
+    <Compile Include="Interfaces\Pdm\RelationVisualizer\RelVisSettings.cs" />
+    <Compile Include="Interfaces\Pdm\RelationVisualizer\UserSettings.cs" />
+    <Compile Include="Search\Pdm\Substitutes\AnalyzeSaveSubsitutesResult.cs" />
+    <Compile Include="Search\Pdm\Substitutes\ISubstitutesServerService.cs" />
+    <Compile Include="Search\Pdm\Substitutes\RemoveSubstitutesParams.cs" />
+    <Compile Include="Search\Pdm\Substitutes\SaveSubstitutesParams.cs" />
+    <Compile Include="Search\Pdm\Substitutes\SubsituteNumberEventArgs.cs" />
+    <Compile Include="Search\Pdm\Substitutes\Substitute.cs" />
+    <Compile Include="Search\Pdm\Substitutes\SubstituteCollection.cs" />
+    <Compile Include="Search\Pdm\Substitutes\SubstituteGroup.cs" />
+    <Compile Include="Search\Pdm\Substitutes\SubstituteGroupCollection.cs" />
+    <Compile Include="Search\Pdm\Substitutes\SubstituteGroupNumberEventArgs.cs" />
+    <Compile Include="Search\Pdm\Substitutes\SubstitutePack.cs" />
+    <Compile Include="Search\Pdm\Substitutes\SubstitutePosition.cs" />
+    <Compile Include="Search\Pdm\Substitutes\SubstitutePositionCollection.cs" />
+    <Compile Include="Search\Pdm\Substitutes\SubstitutePositionType.cs" />
+    <Compile Include="Search\Pdm\Substitutes\SubstitutesConstants.cs" />
+    <Compile Include="Search\Pdm\Substitutes\SubstitutesHelper.cs" />
+    <Compile Include="Search\Pdm\Substitutes\SubstituteType.cs" />
+    <Compile Include="Search\Pdm\Substitutes\SynchronizeSubstitutesParams.cs" />
+    <Compile Include="Search\Pdm\SeriesDates\DateRange.cs" />
+    <Compile Include="Search\Pdm\SeriesDates\DateRangeCollection.cs" />
+    <Compile Include="Search\Pdm\SeriesDates\IRange.cs" />
+    <Compile Include="Search\Pdm\SeriesDates\ISeriesDatesServerService.cs" />
+    <Compile Include="Search\Pdm\SeriesDates\RangeCollectionBase`1.cs" />
+    <Compile Include="Search\Pdm\SeriesDates\SeriesDatesConstants.cs" />
+    <Compile Include="Search\Pdm\SeriesDates\SeriesDatesGroup.cs" />
+    <Compile Include="Search\Pdm\SeriesDates\SeriesDatesGroupCollection.cs" />
+    <Compile Include="Search\Pdm\SeriesDates\SeriesDatesHelper.cs" />
+    <Compile Include="Search\Pdm\SeriesDates\SeriesDatesPack.cs" />
+    <Compile Include="Search\Pdm\SeriesDates\SeriesRange.cs" />
+    <Compile Include="Search\Pdm\SeriesDates\SeriesRangeCollection.cs" />
+    <Compile Include="Search\Pdm\PreciseProducts\CreatePreciseProductResult.cs" />
+    <Compile Include="Search\Pdm\PreciseProducts\CreatePreciseProductsBlanksParams.cs" />
+    <Compile Include="Search\Pdm\PreciseProducts\CreatePreciseProductParams.cs" />
+    <Compile Include="Search\Pdm\PreciseProducts\IPreciseProductsServerService.cs" />
+    <Compile Include="Search\Pdm\PreciseProducts\PreciseProductBlank.cs" />
+    <Compile Include="Search\Pdm\PreciseProducts\PreciseProductsConstants.cs" />
+    <Compile Include="Search\Pdm\PreciseProducts\PreciseProductsHelper.cs" />
+    <Compile Include="Search\Pdm\Instances\CreateInstancesParams.cs" />
+    <Compile Include="Search\Pdm\Instances\InstanceBlank.cs" />
+    <Compile Include="Search\Pdm\Instances\InstancesConstants.cs" />
+    <Compile Include="Search\Pdm\Instances\IInstancesServerService.cs" />
+    <Compile Include="Search\Pdm\Instances\InstancesHelper.cs" />
+    <Compile Include="Search\Pdm\CompositionCopying\CompositionCopyingConstants.cs" />
+    <Compile Include="Search\Pdm\CompositionCopying\CompositionCopyingHelper.cs" />
+    <Compile Include="Search\Pdm\CompositionCopying\CreateCompositionByPrototypeParams.cs" />
+    <Compile Include="Search\Pdm\CompositionCopying\CreateObjectsResult.cs" />
+    <Compile Include="Search\Pdm\CompositionCopying\FindCompositionParams.cs" />
+    <Compile Include="Search\Pdm\CompositionCopying\ICompositionCopyingServerService.cs" />
+    <Compile Include="Search\Pdm\Analogs\AnalogsConstants.cs" />
+    <Compile Include="Search\Pdm\Analogs\AnalogSelectionMode.cs" />
+    <Compile Include="Search\Pdm\Analogs\AnalogsFilter.cs" />
+    <Compile Include="Search\Pdm\Analogs\AnalogsHelper.cs" />
+    <Compile Include="Search\Pdm\Analogs\AnalogsSelectionStatuses.cs" />
+    <Compile Include="Search\MSOfficeAddins\IMSOfficeAddinsServerService.cs" />
+    <Compile Include="Search\MSOfficeAddins\MSOfficeAddinsConstants.cs" />
+    <Compile Include="Search\MSOfficeAddins\MSOfficeAddinsHelper.cs" />
+    <Compile Include="Search\Mbom\AddingToMbomInfo.cs" />
+    <Compile Include="Search\Mbom\AddingToMbomParams.cs" />
+    <Compile Include="Search\Mbom\AddingToMbomStatuses.cs" />
+    <Compile Include="Search\Mbom\IMbomServerService.cs" />
+    <Compile Include="Search\Mbom\MbomConstants.cs" />
+    <Compile Include="Search\Mbom\MbomHelper.cs" />
+    <Compile Include="Pdm\ICreateSpecificationAsyncTask.cs" />
+    <Compile Include="Pdm\ISearchAPISpecifications.cs" />
+    <Compile Include="Pdm\ISearchAPI.cs" />
+    <Compile Include="Pdm\Substitutes\Constants.cs" />
+    <Compile Include="Pdm\InstancesAndParties\Constants.cs" />
+    <Compile Include="Pdm\InstancesAndParties\InstancePartyObjectType4ObjectTypeHelper.cs" />
+    <Compile Include="Pdm\InstancesAndParties\MaterialHelper.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Interfaces\Pdm\Resources\CustomAttributesResources.resx" />
+    <EmbeddedResource Include="Interfaces\Pdm\Resources\InterfacesPdmResources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

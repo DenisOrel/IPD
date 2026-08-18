@@ -1,0 +1,778 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.Document.Model.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{62119280-192A-47AD-AFB9-48F079B55946}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.Document.Model</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.IM.Utils">
+      <HintPath>lib\DevExpress.IM.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.IM.XtraEditors">
+      <HintPath>lib\DevExpress.IM.XtraEditors.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.IM.XtraGrid">
+      <HintPath>lib\DevExpress.IM.XtraGrid.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.IM.XtraTreeList">
+      <HintPath>lib\DevExpress.IM.XtraTreeList.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus">
+      <HintPath>lib\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>lib\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Infralution.Controls">
+      <HintPath>lib\Infralution.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Infralution.Controls.VirtualTree">
+      <HintPath>lib\Infralution.Controls.VirtualTree.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bars">
+      <HintPath>lib\Intermech.Bars.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Controls">
+      <HintPath>lib\Intermech.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Docking">
+      <HintPath>lib\Intermech.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Extensions.WinForms">
+      <HintPath>lib\Intermech.Extensions.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Client">
+      <HintPath>lib\Intermech.Interfaces.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Document">
+      <HintPath>lib\Intermech.Interfaces.Document.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Pdf">
+      <HintPath>lib\Intermech.Pdf.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.VirtualTreeView">
+      <HintPath>lib\Intermech.VirtualTreeView.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="iGrid">
+      <HintPath>lib\iGrid.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Intermech\Localization\LocalizationHolder.cs" />
+    <Compile Include="Intermech\Localization\CustomDescription.cs" />
+    <Compile Include="Intermech\Localization\CustomDisplayName.cs" />
+    <Compile Include="Intermech\Localization\CustomCategory.cs" />
+    <Compile Include="Intermech\Interfaces\Document\NodeTypeCaptionConverter.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\CBar.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\CBlk.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\CCtl.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\CDash.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\CDrag.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\CDraw.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\CEdit.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\CFct.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\CFld.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\CFnt.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\CFrm.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\CInit.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\CIo.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\CLink.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\CMisc.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\CMnu.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\CMsg.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\COle.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\COp.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\CPage.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\CPar.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\CPos.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\CPrt.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\CRtfr.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\CRtfw.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\CSec.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\CSpl.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\CTbl.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\CTrk.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\CUndo.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\CWrap.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\IIEWrapperEvents.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\OurDataObject.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\OurMenuItem.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\OurStreamReader.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\PvTlbControl.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\tc.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_bookmark.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_cell_border.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_cell_border_color.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_cell_color.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_cell_rotation.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_cell_shading.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_cell_vert_align.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_cell_width.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_cell_width_flag.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_char_space.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_checkbox_field.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_clear_tab.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_data_field.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_date.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_del_cell.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_draw_object.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_edit_input_field.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_edit_pict.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_edit_style.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_font.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_footnote.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_hyperlink.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_input_field.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_jump.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_listor_prop.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_listor_select.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_list_level.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_list_para.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_list_prop.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_list_select.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_object_attrib.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_object_pos.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_page.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_para_box.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_para_space.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_para_text_flow.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_paste_spec.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_replace.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_row_height.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_row_position.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_row_text_flow.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_search.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_section.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_select_style.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_set_tab.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_table.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_text_rotation.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\terdlg_zoom.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\ImRtfEditor.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\DisposeInvoker.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\PreprocessMouseEventHandler.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\PreprocessEventHandler.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\PreprocessKeyPressEventHandler.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\PreprocessKeyEventHandler.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\SelectionBlock.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\ImRtfEditorEnumerableWraper.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\ImRtfEditorTextEnumerator.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\TlbComboBox.cs" />
+    <Compile Include="Intermech\Document\RtfEditor\ToolbarControl.cs" />
+    <Compile Include="Intermech\Document\UI\EditPolylinePathPointsDlg.cs" />
+    <Compile Include="Intermech\Document\UI\BarcodeElementCreator.cs" />
+    <Compile Include="Intermech\Document\UI\ErrorsUserControl.cs" />
+    <Compile Include="Intermech\Document\UI\ImErrorMessage.cs" />
+    <Compile Include="Intermech\Document\UI\PolylinePointArrayEditor.cs" />
+    <Compile Include="Intermech\Document\UI\ReferenceToGraphicsUIEditor.cs" />
+    <Compile Include="Intermech\Document\UI\ReferenceToGraphicsEditorDlg.cs" />
+    <Compile Include="Intermech\Document\UI\ImDocumentEditorConfig.cs" />
+    <Compile Include="Intermech\Document\UI\IDocEditorPropertyPage.cs" />
+    <Compile Include="Intermech\Document\UI\DocEditorPropertyPageType.cs" />
+    <Compile Include="Intermech\Document\UI\DocumentPrinterSettings.cs" />
+    <Compile Include="Intermech\Document\UI\SpecSymbol.cs" />
+    <Compile Include="Intermech\Document\UI\CommonSetttings.cs" />
+    <Compile Include="Intermech\Document\UI\DefaultFileNameSource.cs" />
+    <Compile Include="Intermech\Document\UI\InsertSymbolDockControl.cs" />
+    <Compile Include="Intermech\Document\UI\PageControlUI.cs" />
+    <Compile Include="Intermech\Document\UI\RectangleDlg.cs" />
+    <Compile Include="Intermech\Document\UI\RectangleUIEditor.cs" />
+    <Compile Include="Intermech\Document\UI\SetupParagraphDlg.cs" />
+    <Compile Include="Intermech\Document\UI\AddAttributeDlg.cs" />
+    <Compile Include="Intermech\Document\UI\AdditionalAttributesEditor.cs" />
+    <Compile Include="Intermech\Document\UI\AdditionalAttributesEditorDlg.cs" />
+    <Compile Include="Intermech\Document\UI\AddTableRowFromTemplateDlg.cs" />
+    <Compile Include="Intermech\Document\UI\BlankTreeListNodeWrapper.cs" />
+    <Compile Include="Intermech\Document\UI\BlankTreeViewDlg.cs" />
+    <Compile Include="Intermech\Document\UI\ContainerCreator.cs" />
+    <Compile Include="Intermech\Document\UI\DocumentControl.cs" />
+    <Compile Include="Intermech\Document\UI\SelectOperation.cs" />
+    <Compile Include="Intermech\Document\UI\ActiveElementChanged_EventArgs.cs" />
+    <Compile Include="Intermech\Document\UI\RowSelection_EventArgs.cs" />
+    <Compile Include="Intermech\Document\UI\HyperLinkActivated_EventArgs.cs" />
+    <Compile Include="Intermech\Document\UI\SelectionChanged_EventArgs.cs" />
+    <Compile Include="Intermech\Document\UI\BeforeSelectionChanged_EventArgs.cs" />
+    <Compile Include="Intermech\Document\UI\CanShiftSelect_EventArgs.cs" />
+    <Compile Include="Intermech\Document\UI\PageCursorPositionChanged_EventArgs.cs" />
+    <Compile Include="Intermech\Document\UI\GetCustomElementContextMenu_EventArgs.cs" />
+    <Compile Include="Intermech\Document\UI\BoundsChangingEventArgs.cs" />
+    <Compile Include="Intermech\Document\UI\PreProcessCmdKey_EventArgs.cs" />
+    <Compile Include="Intermech\Document\UI\ScrollValueChanged_EventArgs.cs" />
+    <Compile Include="Intermech\Document\UI\PreProcessCmdKey_EventHandler.cs" />
+    <Compile Include="Intermech\Document\UI\SelectedElementBoundsChanging_EventHandler.cs" />
+    <Compile Include="Intermech\Document\UI\ActiveElementChanged_EventHandler.cs" />
+    <Compile Include="Intermech\Document\UI\HyperLinkActivated_EventHandler.cs" />
+    <Compile Include="Intermech\Document\UI\RowSelection_EventHandler.cs" />
+    <Compile Include="Intermech\Document\UI\BeforeSelectionChanged_EventHandler.cs" />
+    <Compile Include="Intermech\Document\UI\CanShiftSelect_EventHandler.cs" />
+    <Compile Include="Intermech\Document\UI\SelectionChanged_EventHandler.cs" />
+    <Compile Include="Intermech\Document\UI\PageAdded_EventHandler.cs" />
+    <Compile Include="Intermech\Document\UI\PageRemoved_EventHandler.cs" />
+    <Compile Include="Intermech\Document\UI\ActivePageChanged_EventHandler.cs" />
+    <Compile Include="Intermech\Document\UI\PageCursorPositionChanged_EventHandler.cs" />
+    <Compile Include="Intermech\Document\UI\GetCustomElementContextMenu_EventHandler.cs" />
+    <Compile Include="Intermech\Document\UI\ScrollValueChanged_EventHandler.cs" />
+    <Compile Include="Intermech\Document\UI\MethodInvokeUpdateUIGeometry.cs" />
+    <Compile Include="Intermech\Document\UI\MethodInvoke_ChildNodeEvent.cs" />
+    <Compile Include="Intermech\Document\UI\DocumentTreeViewDlg.cs" />
+    <Compile Include="Intermech\Document\UI\ExportToImagesDlg.cs" />
+    <Compile Include="Intermech\Document\UI\FontSetupDlg.cs" />
+    <Compile Include="Intermech\Document\UI\IImDocumentManager.cs" />
+    <Compile Include="Intermech\Document\UI\IStandaloneEditor.cs" />
+    <Compile Include="Intermech\Document\UI\ImDocumentEditorFormBase.cs" />
+    <Compile Include="Intermech\Document\UI\QueryStatusInvoker.cs" />
+    <Compile Include="Intermech\Document\UI\FormatCommandsList.cs" />
+    <Compile Include="Intermech\Document\UI\BordersCommandsList.cs" />
+    <Compile Include="Intermech\Document\UI\NavigationCommandsList.cs" />
+    <Compile Include="Intermech\Document\UI\LabelCreator.cs" />
+    <Compile Include="Intermech\Document\UI\PageControl.cs" />
+    <Compile Include="Intermech\Document\UI\MethodInvoker_BoolArg.cs" />
+    <Compile Include="Intermech\Document\UI\InvalidateInvoker_Arg.cs" />
+    <Compile Include="Intermech\Document\UI\BeforeDoDragDrop_EventHandler.cs" />
+    <Compile Include="Intermech\Document\UI\BeforeDoDragDrop_EventArgs.cs" />
+    <Compile Include="Intermech\Document\UI\RubberBand.cs" />
+    <Compile Include="Intermech\Document\UI\PageElementCreator.cs" />
+    <Compile Include="Intermech\Document\UI\PageElementUI.cs" />
+    <Compile Include="Intermech\Document\UI\PageElementUI_EventArgs.cs" />
+    <Compile Include="Intermech\Document\UI\PageElementUICollection.cs" />
+    <Compile Include="Intermech\Document\UI\PolylineCreator.cs" />
+    <Compile Include="Intermech\Document\UI\PolylineUI.cs" />
+    <Compile Include="Intermech\Document\UI\PropertyGridForm.cs" />
+    <Compile Include="Intermech\Document\UI\RectanglePageElementCreator.cs" />
+    <Compile Include="Intermech\Document\UI\RectanglePageElementUI.cs" />
+    <Compile Include="Intermech\Document\UI\GrabHandlePoint.cs" />
+    <Compile Include="Intermech\Document\UI\ReferenceToNodeAttributeEditor.cs" />
+    <Compile Include="Intermech\Document\UI\ReferenceToObjectEditorDlg.cs" />
+    <Compile Include="Intermech\Document\UI\ReferenceToObjectUIEditor.cs" />
+    <Compile Include="Intermech\Document\UI\ReferenceToTextSourceEditorDlg.cs" />
+    <Compile Include="Intermech\Document\UI\ReferenceToTextSourceUIEditor.cs" />
+    <Compile Include="Intermech\Document\UI\SelectNodeDlg.cs" />
+    <Compile Include="Intermech\Document\UI\SetupTextDirrectionDlg.cs" />
+    <Compile Include="Intermech\Document\UI\CreateTableDialog.cs" />
+    <Compile Include="Intermech\Document\UI\SplitCellDlg.cs" />
+    <Compile Include="Intermech\Document\UI\TableSize.cs" />
+    <Compile Include="Intermech\Document\UI\TableCellUI.cs" />
+    <Compile Include="Intermech\Document\UI\GrabHandleZone.cs" />
+    <Compile Include="Intermech\Document\UI\TableCreator.cs" />
+    <Compile Include="Intermech\Document\UI\TableUI.cs" />
+    <Compile Include="Intermech\Document\UI\TemplateEditor.cs" />
+    <Compile Include="Intermech\Document\UI\TextBoxCreator.cs" />
+    <Compile Include="Intermech\Document\UI\TreeListNodeWrapper.cs" />
+    <Compile Include="Intermech\Document\UI\NodeFilter.cs" />
+    <Compile Include="Intermech\Document\UI\TypeNodeFilter.cs" />
+    <Compile Include="Intermech\Document\UI\UEDocTreeListNodeWrapper.cs" />
+    <Compile Include="Intermech\Document\UI\UEDocTreeViewDlg.cs" />
+    <Compile Include="Intermech\Document\Model\CodeSet.cs" />
+    <Compile Include="Intermech\Document\Model\Code128Content.cs" />
+    <Compile Include="Intermech\Document\Model\Code128Code.cs" />
+    <Compile Include="Intermech\Document\Model\Code128Rendering.cs" />
+    <Compile Include="Intermech\Document\Model\ImExternalDocument.cs" />
+    <Compile Include="Intermech\Document\Model\ImWordDocumentViewer.cs" />
+    <Compile Include="Intermech\Document\Model\FilesEditor.cs" />
+    <Compile Include="Intermech\Document\Model\FileData.cs" />
+    <Compile Include="Intermech\Document\Model\BorderLineUIEditor.cs" />
+    <Compile Include="Intermech\Document\Model\BorderStylesUIEditor.cs" />
+    <Compile Include="Intermech\Document\Model\CharFormatUIEditor.cs" />
+    <Compile Include="Intermech\Document\Model\ChooseFontComboBoxToolbarItem.cs" />
+    <Compile Include="Intermech\Document\Model\ToolbarItemBaseConverter.cs" />
+    <Compile Include="Intermech\Document\Model\ClipboardDataAdditionalInfo.cs" />
+    <Compile Include="Intermech\Document\Model\ColorUIEditor.cs" />
+    <Compile Include="Intermech\Document\Model\ContainerElement.cs" />
+    <Compile Include="Intermech\Document\Model\GetShowDwgObjectDelegate.cs" />
+    <Compile Include="Intermech\Document\Model\ENHMETAHEADER.cs" />
+    <Compile Include="Intermech\Document\Model\ContinuationTableIdEditor.cs" />
+    <Compile Include="Intermech\Document\Model\ContinuationTablesFilter.cs" />
+    <Compile Include="Intermech\Document\Model\Formula.cs" />
+    <Compile Include="Intermech\Document\Model\TemplateHolderBase.cs" />
+    <Compile Include="Intermech\Document\Model\FormSearch.cs" />
+    <Compile Include="Intermech\Document\Model\FormList.cs" />
+    <Compile Include="Intermech\Document\Model\LineDashStyleUIEditor.cs" />
+    <Compile Include="Intermech\Document\Model\DocumentMenuHelper.cs" />
+    <Compile Include="Intermech\Document\Model\RemoveCellOptions.cs" />
+    <Compile Include="Intermech\Document\Model\DocumentPlugin.cs" />
+    <Compile Include="Intermech\Document\Model\DrawContextWithUI.cs" />
+    <Compile Include="Intermech\Document\Model\FontComboBox.cs" />
+    <Compile Include="Intermech\Document\Model\FontNameUIEditor.cs" />
+    <Compile Include="Intermech\Document\Model\IDocumentPlugin.cs" />
+    <Compile Include="Intermech\Document\Model\InSiteEditorWrapper.cs" />
+    <Compile Include="Intermech\Document\Model\TextSelection.cs" />
+    <Compile Include="Intermech\Document\Model\ImDocument.cs" />
+    <Compile Include="Intermech\Document\Model\DocumentFileType.cs" />
+    <Compile Include="Intermech\Document\Model\DocZoomMode.cs" />
+    <Compile Include="Intermech\Document\Model\IPageElementWithInterface.cs" />
+    <Compile Include="Intermech\Document\Model\LabelElement.cs" />
+    <Compile Include="Intermech\Document\Model\LabelElementType.cs" />
+    <Compile Include="Intermech\Document\Model\NodeClipboardHelper.cs" />
+    <Compile Include="Intermech\Document\Model\PasteType.cs" />
+    <Compile Include="Intermech\Document\Model\NodeContextMenu.cs" />
+    <Compile Include="Intermech\Document\Model\Page.cs" />
+    <Compile Include="Intermech\Document\Model\NextPageTemplateIdEditor.cs" />
+    <Compile Include="Intermech\Document\Model\LastPageTemplateIdEditor.cs" />
+    <Compile Include="Intermech\Document\Model\ParagraphFormatUIEditor.cs" />
+    <Compile Include="Intermech\Document\Model\PlaneTextFormat.cs" />
+    <Compile Include="Intermech\Document\Model\PlaneTextFormatConverter.cs" />
+    <Compile Include="Intermech\Document\Model\LocalizedHorzAlignmentConverter.cs" />
+    <Compile Include="Intermech\Document\Model\LocalizedVertAlignmentConverter.cs" />
+    <Compile Include="Intermech\Document\Model\LocalizedEnumConverter.cs" />
+    <Compile Include="Intermech\Document\Model\Polyline.cs" />
+    <Compile Include="Intermech\Document\Model\ReferenceToNodeAttribute.cs" />
+    <Compile Include="Intermech\Document\Model\ReferenceToNodeAttributeConverter.cs" />
+    <Compile Include="Intermech\Document\Model\RtfInSiteEditorWrapper.cs" />
+    <Compile Include="Intermech\Document\Model\TextPosition.cs" />
+    <Compile Include="Intermech\Document\Model\EditorTextBlock.cs" />
+    <Compile Include="Intermech\Document\Model\IconicMenu.cs" />
+    <Compile Include="Intermech\Document\Model\IconicMenuPopup.cs" />
+    <Compile Include="Intermech\Document\Model\IconicMenuItem.cs" />
+    <Compile Include="Intermech\Document\Model\PredefinedBordersForTableUserControl.cs" />
+    <Compile Include="Intermech\Document\Model\SetupBorders.cs" />
+    <Compile Include="Intermech\Document\Model\TableElement.cs" />
+    <Compile Include="Intermech\Document\Model\CreateTableParams.cs" />
+    <Compile Include="Intermech\Document\Model\TextBoxElement.cs" />
+    <Compile Include="Intermech\Document\Model\VectorOperation.cs" />
+    <Compile Include="Intermech\Document\Model\LineEquation.cs" />
+    <Compile Include="Intermech\Document\Model\VirtualColumn.cs" />
+    <Compile Include="Intermech\Document\Model\VirtualColumnCell.cs" />
+    <Compile Include="Intermech\Document\Model\Undo\UndoEditorAction.cs" />
+    <Compile Include="Intermech\Document\Model\Undo\UndoAddAction.cs" />
+    <Compile Include="Intermech\Document\Model\Undo\UndoFunctionAction.cs" />
+    <Compile Include="Intermech\Document\Model\Undo\UndoManager.cs" />
+    <Compile Include="Intermech\Document\Model\Undo\UndoMultyAction.cs" />
+    <Compile Include="Intermech\Document\Model\Undo\UndoPositionChangedAction.cs" />
+    <Compile Include="Intermech\Document\Model\Undo\UndoPropertyChangedAction.cs" />
+    <Compile Include="Intermech\Document\Model\Undo\UndoObjectPropertyAction.cs" />
+    <Compile Include="Intermech\Document\Model\Undo\UndoRemoveAction.cs" />
+    <Compile Include="Intermech\Document\Model\Properties\Resources.cs" />
+    <Compile Include="Intermech\Document\Model\Properties\Settings.cs" />
+    <Compile Include="Intermech\Document\Model\FindReplace\FindReplaceManager.cs" />
+    <Compile Include="Intermech\Document\Model\FindReplace\FindOperation.cs" />
+    <Compile Include="Intermech\Document\Model\FindReplace\UserControlFindReplace.cs" />
+    <Compile Include="Intermech\Document\Model\FindReplace\SearchDirrection.cs" />
+    <Compile Include="Intermech\Document\Model\UI\CustomNumericUpDown.cs" />
+    <Compile Include="Intermech\Document\Model\UI\TextStyleDlg.cs" />
+    <Compile Include="Intermech\Document\Model\UI\ControlExtensions.cs" />
+    <Compile Include="Intermech\Document\Model\UI\FindByIdForm.cs" />
+    <Compile Include="Intermech\Document\Model\UI\ImDocumentDockManagerStorage.cs" />
+    <Compile Include="Intermech\Document\Model\UI\PageNumberingDlg.cs" />
+    <Compile Include="Intermech\Document\Model\UI\PageSelectionType.cs" />
+    <Compile Include="Intermech\Document\Model\UI\DockControlLayoutSettings.cs" />
+    <Compile Include="Intermech\Document\Model\UI\IMControlLayoutSystem.cs" />
+    <Compile Include="Intermech\Document\Model\UI\IMSplitLayoutSystem.cs" />
+    <Compile Include="Intermech\Document\Model\UI\EditTextDlg.cs" />
+    <Compile Include="Intermech\Document\Model\UI\FindReplaceForm.cs" />
+    <Compile Include="Intermech\Document\Model\UI\PageUI.cs" />
+    <Compile Include="Intermech\Document\Model\UI\PrintComplectDialog.cs" />
+    <Compile Include="Intermech\Document\Model\UI\PrintDocumentDialog.cs" />
+    <Compile Include="Intermech\Document\Model\UI\PrintPreviewDlg.cs" />
+    <Compile Include="Intermech\Document\Model\UI\RectangleEditPanel.cs" />
+    <Compile Include="Intermech\Document\Model\UI\SetOkApplyEnabledDelegate.cs" />
+    <Compile Include="Intermech\Document\Model\UI\Ruler.cs" />
+    <Compile Include="Intermech\Document\Model\UI\enumOrientation.cs" />
+    <Compile Include="Intermech\Document\Model\UI\enumTypeDrag.cs" />
+    <Compile Include="Intermech\Document\Model\UI\enumScaleMode.cs" />
+    <Compile Include="Intermech\Document\Model\UI\IdentChanged_EventArgs.cs" />
+    <Compile Include="Intermech\Document\Model\UI\BorderPositionChanged_EventArgs.cs" />
+    <Compile Include="Intermech\Document\Model\UI\RulerButton.cs" />
+    <Compile Include="Intermech\Document\Model\UI\ShiftPageForPrinter.cs" />
+    <Compile Include="Intermech\Document\Model\UI\TableEditorDialog.cs" />
+    <Compile Include="Intermech\Document\Model\UI\ControlColors.cs" />
+    <Compile Include="Intermech\Document\Model\UI\GridColumnKeys.cs" />
+    <Compile Include="Intermech\Document\Model\UI\ViewWithForm.cs" />
+    <Compile Include="Intermech\Document\Model\UI\Extensions\VisualNodeExtensions.cs" />
+    <Compile Include="Intermech\Document\Model\TypographicFont\FontExtensions.cs" />
+    <Compile Include="Intermech\Document\Model\TypographicFont\TypographicFont.cs" />
+    <Compile Include="Intermech\Document\Model\TypographicFont\TypographicFontWeight.cs" />
+    <Compile Include="Intermech\Document\Model\TypographicFont\PlatformId.cs" />
+    <Compile Include="Intermech\Document\Model\TypographicFont\TypographicFontStyle.cs" />
+    <Compile Include="Intermech\Document\Model\TypographicFont\NameId.cs" />
+    <Compile Include="Intermech\Document\Model\TypographicFont\TypographicFontFamily.cs" />
+    <Compile Include="Intermech\Document\Model\PdfGenerator\ExcelConverter.cs" />
+    <Compile Include="Intermech\Document\Model\PdfGenerator\Converter.cs" />
+    <Compile Include="Intermech\Document\Model\PdfGenerator\PdfImGraphics.cs" />
+    <Compile Include="Intermech\Document\Model\PdfGenerator\PDFCreatePrinter.cs" />
+    <Compile Include="Intermech\Document\Model\PdfGenerator\ProgressPdfForm.cs" />
+    <Compile Include="Intermech\Document\Model\ImportBlanks\PrimitiveLoader.cs" />
+    <Compile Include="Intermech\Document\Model\ImportBlanks\BlankLoader.cs" />
+    <Compile Include="Intermech\Document\Model\ImportBlanks\PrimitiveBase.cs" />
+    <Compile Include="Intermech\Document\Model\ImportBlanks\RectPrimitive.cs" />
+    <Compile Include="Intermech\Document\Model\ImportBlanks\TextPrimitive.cs" />
+    <Compile Include="Intermech\Document\Model\ImportBlanks\AutoText.cs" />
+    <Compile Include="Intermech\Document\Model\ImportBlanks\TextField.cs" />
+    <Compile Include="Intermech\Document\Model\ImportBlanks\PolyLinePrimitive.cs" />
+    <Compile Include="Intermech\Document\Model\ImportBlanks\PictPrimitive.cs" />
+    <Compile Include="Intermech\Document\Model\ImportBlanks\OlePrimitive.cs" />
+    <Compile Include="Intermech\Document\Model\ImportBlanks\UserPrimitive.cs" />
+    <Compile Include="Intermech\Document\Model\ImportBlanks\GroupPrimitive.cs" />
+    <Compile Include="Intermech\Document\Model\ImportBlanks\TablePrimitive.cs" />
+    <Compile Include="Intermech\Document\Model\ImportBlanks\Area.cs" />
+    <Compile Include="Intermech\Document\Model\ImportBlanks\ContainerPrimitive.cs" />
+    <Compile Include="Intermech\Document\Model\ImportBlanks\BlankList.cs" />
+    <Compile Include="Intermech\Document\Model\ImportBlanks\BlankHeader.cs" />
+    <Compile Include="Intermech\Document\Model\ImportBlanks\PrimitiveType.cs" />
+    <Compile Include="Intermech\Document\Model\ImportBlanks\TypeSet.cs" />
+    <Compile Include="Intermech\Document\Model\ImportBlanks\HorAlignment.cs" />
+    <Compile Include="Intermech\Document\Model\ImportBlanks\VertAlignment.cs" />
+    <Compile Include="Intermech\Document\Model\ImportBlanks\GenAlignment.cs" />
+    <Compile Include="Intermech\Document\Model\ImportBlanks\FontFlags.cs" />
+    <Compile Include="Intermech\Document\Model\ImportBlanks\EditorType.cs" />
+    <Compile Include="Intermech\Document\Model\ImportBlanks\FldType.cs" />
+    <Compile Include="Intermech\Document\Model\ImportBlanks\TextOrient.cs" />
+    <Compile Include="Intermech\Document\Model\ImportBlanks\FrameStyle.cs" />
+    <Compile Include="Intermech\Document\Model\ImportBlanks\EditEvent.cs" />
+    <Compile Include="Intermech\Document\Model\ImportBlanks\LeftCoorForPrimiteveComparer.cs" />
+    <Compile Include="Intermech\Document\Model\ImportBlanks\PrimLibraryLoader.cs" />
+    <Compile Include="Intermech\Document\Model\ImportBlanks\LibHeader.cs" />
+    <Compile Include="Intermech\Document\Model\ImportBlanks\UEditDocument.cs" />
+    <Compile Include="Intermech\Document\Model\ImportBlanks\CloneBase.cs" />
+    <Compile Include="Intermech\Document\Model\ImportBlanks\AreaClone.cs" />
+    <Compile Include="Intermech\Document\Model\ImportBlanks\BlankListClone.cs" />
+    <Compile Include="Intermech\Document\Model\ImportBlanks\ContainerClone.cs" />
+    <Compile Include="Intermech\Document\Model\ImportBlanks\GroupClone.cs" />
+    <Compile Include="Intermech\Document\Model\ImportBlanks\OLEClone.cs" />
+    <Compile Include="Intermech\Document\Model\ImportBlanks\PictClone.cs" />
+    <Compile Include="Intermech\Document\Model\ImportBlanks\TableClone.cs" />
+    <Compile Include="Intermech\Document\Model\ImportBlanks\TextClone.cs" />
+    <Compile Include="Intermech\Document\Model\ImportBlanks\DocHeader.cs" />
+    <Compile Include="Intermech\Document\Model\ImportBlanks\CloneClassId.cs" />
+    <Compile Include="Intermech\Document\Model\ExternalDocuments\ImExternalDocumentViewer.cs" />
+    <Compile Include="BarcodeLib\BarcodeCommon.cs" />
+    <Compile Include="BarcodeLib\TYPE.cs" />
+    <Compile Include="BarcodeLib\SaveTypes.cs" />
+    <Compile Include="BarcodeLib\AlignmentPositions.cs" />
+    <Compile Include="BarcodeLib\LabelPositions.cs" />
+    <Compile Include="BarcodeLib\Barcode.cs" />
+    <Compile Include="BarcodeLib\IBarcode.cs" />
+    <Compile Include="BarcodeLib\Symbologies\Blank.cs" />
+    <Compile Include="BarcodeLib\Symbologies\Codabar.cs" />
+    <Compile Include="BarcodeLib\Symbologies\Code11.cs" />
+    <Compile Include="BarcodeLib\Symbologies\Code128.cs" />
+    <Compile Include="BarcodeLib\Symbologies\Code39.cs" />
+    <Compile Include="BarcodeLib\Symbologies\Code93.cs" />
+    <Compile Include="BarcodeLib\Symbologies\EAN13.cs" />
+    <Compile Include="BarcodeLib\Symbologies\EAN8.cs" />
+    <Compile Include="BarcodeLib\Symbologies\FIM.cs" />
+    <Compile Include="BarcodeLib\Symbologies\Interleaved2of5.cs" />
+    <Compile Include="BarcodeLib\Symbologies\ISBN.cs" />
+    <Compile Include="BarcodeLib\Symbologies\ITF14.cs" />
+    <Compile Include="BarcodeLib\Symbologies\JAN13.cs" />
+    <Compile Include="BarcodeLib\Symbologies\MSI.cs" />
+    <Compile Include="BarcodeLib\Symbologies\Pharmacode.cs" />
+    <Compile Include="BarcodeLib\Symbologies\Postnet.cs" />
+    <Compile Include="BarcodeLib\Symbologies\Standard2of5.cs" />
+    <Compile Include="BarcodeLib\Symbologies\Telepen.cs" />
+    <Compile Include="BarcodeLib\Symbologies\UPCA.cs" />
+    <Compile Include="BarcodeLib\Symbologies\UPCE.cs" />
+    <Compile Include="BarcodeLib\Symbologies\UPCSupplement2.cs" />
+    <Compile Include="BarcodeLib\Symbologies\UPCSupplement5.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Intermech\Document\Model\FindReplace\UserControlFindReplace.resx" />
+    <EmbeddedResource Include="Intermech\Document\Model\PdfGenerator\ProgressPdfForm.resx" />
+    <EmbeddedResource Include="Intermech\Document\Model\PredefinedBordersForTableUserControl.resx" />
+    <EmbeddedResource Include="Intermech\Document\Model\Properties\Resources.resx" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Align_BottomLeft.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Align_BottomMiddle.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Align_BottomRight.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Align_MiddleLeft.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Align_MiddleMiddle.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Align_MiddleRight.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Align_UpLeft.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Align_UpMiddle.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Align_UpRight.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Align-Centre-3.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Align-Full-3.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Align-Left-3.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Align-Right-3.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\allslider.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\allslidernull.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\AutoFitContent.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\AutoFitFixed.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Bar Code.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Bold1.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Bold-2.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\border.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\BorderBottom.gif" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\bordericon.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\bordericonnull.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\BorderLeft.gif" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\BorderRight.gif" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Borders_All.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Borders_Diagonal_DownToUp.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Borders_Diagonal_UpToDown.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Borders_Down.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Borders_Inner.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Borders_InnerHorizontal.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Borders_InnerVertical.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Borders_Left.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Borders_None.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Borders_Out.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Borders_Right.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Borders_Top.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\BordersAll.gif" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\BordersDelete.gif" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\BordersDiagonalTopLeft.gif" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\BordersDiagonalTopRight.gif" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\BordersHorizontal.gif" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\BordersInner.gif" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\BordersOuter.gif" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\BordersVertical.gif" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\BorderTop.gif" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\bottomslider.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\bottomslidernull.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Bullets1.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Bullets-2.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\CA-Center-Bottom.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\CA-Center-Center.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\CA-Center-Top.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\CA-Justify-Bottom.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\CA-Justify-Center.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\CA-Justify-Top.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\CA-Left-Bottom.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\CA-Left-Center.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\CA-Left-Top.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\CA-Right-Bottom.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\CA-Right-Center.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\CA-Right-Top.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\CheckErrors_v70.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\CheckIn.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\CheckOut.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\ClearAttribute.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\ClearAttributeSmotri_v70.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\ClearNumberPositions.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\ClearNumberPositions_v70.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\ContainerElement.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Copy.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Copy_v70.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\CopyCursor.cur" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\CreateNewRecord.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\CreateNewRecord_v70.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\CustomAttributesResources.resx" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Cut.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Cut_v70.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\defaultformulas.imdx" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Delete.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Delete_v70.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\DeleteRecord.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\DeleteRecord_v70.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\DistributeColumns.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\DistributeRows.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\DistributeTableForPageWidth.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Document.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\DocumentModelResources.resx" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\DocumentNext.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\DocumentPrev.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\DocumentsComplect.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\error.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\FillColor.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\FindAndReplace.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\FindHS.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\FindNextHS.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\FirstPage.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\font.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\FontColor.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Format-Font.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Format-Paragraph.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Format-Paragraph-3.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Group_16x16.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\GroupRecords_v70.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\hor.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\hor_l.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\hor_r.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Indent-Decrease.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Indent-Increase.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\InsertCells.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\InsertColumnLeft.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\InsertColumnLeft.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\InsertColumnRight.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\InsertColumnRight.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\InsertFromImbase.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\InsertFromImbase_v70.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Insert-Object.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Insert-Object_v70.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\InsertRowAbove.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\InsertRowAbove.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\InsertRowBelow.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\InsertRowBelow.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Italic-2.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\kursive1.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\LabelElement.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\LabelElement.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\LastPage.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\LineColor.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\LineColor.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\LineSpacing.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\MoveToSection.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\NextPage.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\NumberPositions.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\NumberPositions_v70.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\NumberPositionsSetup.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Numbers1.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\OnePage.PNG" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\OutputSetup.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Page.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\PageFirst.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\PageLast.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\PageNext.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\PagePrevious.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Paste.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Paste_v70.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Polyline.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Polyline.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\PrevPage.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Print.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\PropertiesHS.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\PropertiesHS_v70.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Redo.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\RefreshFormat.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\RefreshFormat_v70.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Registr.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\RemoveCells.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\RemoveColumns.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\RemoveColumns.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\RemoveRows.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\RemoveRows.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Section-New2.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Section-New2_v70.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\SelectArrow.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\SelectCell.cur" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\SelectColumn.cur" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\SelectionColor.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\SelectRow.cur" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\SetFont.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\SkipLines.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\SortAscend.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\SortAscend_v70.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\SortRazdel.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\SortRazdel_v70.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\SortSetup.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\strikeout.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\strikeoutdouble.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Subscript.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Subscript.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Superscript.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Superscript.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\TableElement.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\TableElement.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\TableMergeCells.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\TableMergeCells.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\TableRow.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\TableSplitCells.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\TableSplitCells.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Text_DownToUp.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Text_LeftToRight.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Text_UpToDown.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\TextBoxElement.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\TextBoxElement.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\TextDirrection.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\TextDirrection1.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\topslider.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\topslidernull.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\TwoPages.PNG" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Underline1.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Underline-2.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Undo.bmp" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Ungroup_16x16.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\UngroupRecords_v70.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\UpdateMass.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\UpdateMass_v70.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\ver.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\ver_b.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\ver_t.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\Versions.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\zoom -.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\zoom +.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\Resources\zoom100.png" />
+    <EmbeddedResource Include="Intermech\Document\Model\RtfEditor\ter_din.resx" />
+    <EmbeddedResource Include="Intermech\Document\Model\RtfEditor\ter_dinc.resx" />
+    <EmbeddedResource Include="Intermech\Document\Model\RtfEditor\ter_dout.resx" />
+    <EmbeddedResource Include="Intermech\Document\Model\RtfEditor\ter_horz.resx" />
+    <EmbeddedResource Include="Intermech\Document\Model\RtfEditor\ter_link.resx" />
+    <EmbeddedResource Include="Intermech\Document\Model\RtfEditor\ter_plus.resx" />
+    <EmbeddedResource Include="Intermech\Document\Model\RtfEditor\ter_tab1.resx" />
+    <EmbeddedResource Include="Intermech\Document\Model\RtfEditor\ter_tbl1.resx" />
+    <EmbeddedResource Include="Intermech\Document\Model\RtfEditor\ter_tbl2.resx" />
+    <EmbeddedResource Include="Intermech\Document\Model\RtfEditor\ter_tbl3.resx" />
+    <EmbeddedResource Include="Intermech\Document\Model\RtfEditor\ter_tlb.resx" />
+    <EmbeddedResource Include="Intermech\Document\Model\RtfEditor\ter_whl1.resx" />
+    <EmbeddedResource Include="Intermech\Document\Model\RtfEditor\ter_whl2.resx" />
+    <EmbeddedResource Include="Intermech\Document\Model\RtfEditor\ter_whl3.resx" />
+    <EmbeddedResource Include="Intermech\Document\Model\SetupBorders.resx" />
+    <EmbeddedResource Include="Intermech\Document\Model\UI\EditTextDlg.resx" />
+    <EmbeddedResource Include="Intermech\Document\Model\UI\FindByIdForm.resx" />
+    <EmbeddedResource Include="Intermech\Document\Model\UI\FindReplaceForm.resx" />
+    <EmbeddedResource Include="Intermech\Document\Model\UI\PageNumberingDlg.resx" />
+    <EmbeddedResource Include="Intermech\Document\Model\UI\PrintComplectDialog.resx" />
+    <EmbeddedResource Include="Intermech\Document\Model\UI\PrintDocumentDialog.resx" />
+    <EmbeddedResource Include="Intermech\Document\Model\UI\PrintPreviewDlg.resx" />
+    <EmbeddedResource Include="Intermech\Document\Model\UI\RectangleEditPanel.resx" />
+    <EmbeddedResource Include="Intermech\Document\Model\UI\ShiftPageForPrinter.resx" />
+    <EmbeddedResource Include="Intermech\Document\Model\UI\TableEditorDialog.resx" />
+    <EmbeddedResource Include="Intermech\Document\Model\UI\TextStyleDlg.resx" />
+    <EmbeddedResource Include="Intermech\Document\Model\UI\ViewWithForm.resx" />
+    <EmbeddedResource Include="Intermech\Document\UI\AddAttributeDlg.resx" />
+    <EmbeddedResource Include="Intermech\Document\UI\AdditionalAttributesEditorDlg.resx" />
+    <EmbeddedResource Include="Intermech\Document\UI\AddTableRowFromTemplateDlg.resx" />
+    <EmbeddedResource Include="Intermech\Document\UI\BlankTreeViewDlg.resx" />
+    <EmbeddedResource Include="Intermech\Document\UI\CreateTableDialog.resx" />
+    <EmbeddedResource Include="Intermech\Document\UI\DocumentControl.resx" />
+    <EmbeddedResource Include="Intermech\Document\UI\DocumentTreeViewDlg.resx" />
+    <EmbeddedResource Include="Intermech\Document\UI\EditPolylinePathPointsDlg.resx" />
+    <EmbeddedResource Include="Intermech\Document\UI\ErrorsUserControl.resx" />
+    <EmbeddedResource Include="Intermech\Document\UI\ExportToImagesDlg.resx" />
+    <EmbeddedResource Include="Intermech\Document\UI\FontSetupDlg.resx" />
+    <EmbeddedResource Include="Intermech\Document\UI\ImDocumentEditorFormBase.resx" />
+    <EmbeddedResource Include="Intermech\Document\UI\InsertSymbolDockControl.resx" />
+    <EmbeddedResource Include="Intermech\Document\UI\PageControl.resx" />
+    <EmbeddedResource Include="Intermech\Document\UI\PropertyGridForm.resx" />
+    <EmbeddedResource Include="Intermech\Document\UI\RectangleDlg.resx" />
+    <EmbeddedResource Include="Intermech\Document\UI\ReferenceToGraphicsEditorDlg.resx" />
+    <EmbeddedResource Include="Intermech\Document\UI\ReferenceToObjectEditorDlg.resx" />
+    <EmbeddedResource Include="Intermech\Document\UI\ReferenceToTextSourceEditorDlg.resx" />
+    <EmbeddedResource Include="Intermech\Document\UI\SelectNodeDlg.resx" />
+    <EmbeddedResource Include="Intermech\Document\UI\SetupParagraphDlg.resx" />
+    <EmbeddedResource Include="Intermech\Document\UI\SetupTextDirrectionDlg.resx" />
+    <EmbeddedResource Include="Intermech\Document\UI\SplitCellDlg.resx" />
+    <EmbeddedResource Include="Intermech\Document\UI\UEDocTreeViewDlg.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

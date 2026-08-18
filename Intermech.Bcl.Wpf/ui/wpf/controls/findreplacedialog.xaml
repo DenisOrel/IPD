@@ -1,0 +1,73 @@
+<Window x:Class="Intermech.UI.Wpf.Controls.FindReplaceDialog" x:ClassModifier="internal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:Intermech.UI.Wpf.Controls"
+        SizeChanged="Window_SizeChanged" Title="Найти и заменить" WindowStyle="ToolWindow"
+        ShowInTaskbar="false" Width="300" Height="Auto" ResizeMode="CanResize" SizeToContent="Height"
+        MinWidth="300" FocusManager.IsFocusScope="true" SnapsToDevicePixels="true"
+        Left="{Binding WindowLeft, Mode=TwoWay}" Top="{Binding WindowTop, Mode=TwoWay}">
+  <FrameworkElement.Resources>
+    <local:FindReplaceSearchScopeToInt x:Key="searchScopeToInt"/>
+    <BooleanToVisibilityConverter x:Key="boolToVis"/>
+    <local:BoolToInt x:Key="boolToInt"/>
+    <DataTemplate x:Key="FindPageTemplate">
+      <StackPanel>
+        <TextBlock Margin="3">Найти:</TextBlock>
+        <ContentPresenter Content="{Binding}"/>
+        <StackPanel DataContext="{Binding DataContext}">
+          <TextBlock Margin="3" Visibility="{Binding ShowSearchIn, Converter={StaticResource boolToVis}}">Найти в:</TextBlock>
+          <ComboBox Margin="0 0 0 3" HorizontalAlignment="Stretch"
+                    SelectedIndex="{Binding SearchIn, Mode=TwoWay, Converter={StaticResource searchScopeToInt}}"
+                    Visibility="{Binding ShowSearchIn, Converter={StaticResource boolToVis}}">
+            <ComboBoxItem>Текущий документ</ComboBoxItem>
+            <ComboBoxItem>Все документы</ComboBoxItem>
+          </ComboBox>
+          <Expander Header="Опции поиска" IsExpanded="false">
+            <StackPanel>
+              <CheckBox Name="chkCaseSensitive" Margin="1" IsChecked="{Binding CaseSensitive, Mode=TwoWay}">Учитывать регистр</CheckBox>
+              <CheckBox Name="chkSearchUp" Margin="1" IsChecked="{Binding SearchUp, Mode=TwoWay}">
+                Обратное направление поиска
+              </CheckBox>
+              <CheckBox Name="chkWholeWord" Margin="1" IsChecked="{Binding WholeWord, Mode=TwoWay}">Только целые слова</CheckBox>
+              <CheckBox Name="chkRegex" Margin="1" IsChecked="{Binding UseRegEx, Mode=TwoWay}">
+                Регулярные выражения
+              </CheckBox>
+            </StackPanel>
+          </Expander>
+        </StackPanel>
+      </StackPanel>
+    </DataTemplate>
+  </FrameworkElement.Resources>
+  <Grid>
+    <TabControl Name="tabMain" Height="Auto"
+                BorderThickness="{Binding AllowReplace, Converter={StaticResource boolToInt}}">
+      <TabItem Name="tabFind" Header="Найти" ContentTemplate="{StaticResource FindPageTemplate}"
+               Visibility="{Binding AllowReplace, Converter={StaticResource boolToVis}}">
+        <StackPanel>
+          <TextBox Name="txtFind" Margin="3" AcceptsReturn="{Binding AcceptsReturn}"
+                   Text="{Binding TextToFind, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+          <Button Margin="3" IsDefault="true" HorizontalAlignment="Right" Width="83" Content="Найти далее"
+                  Command="{x:Static local:FindReplaceDialogCommands.FindNext}"/>
+        </StackPanel>
+      </TabItem>
+      <TabItem Name="tabReplace" Header="Заменить" ContentTemplate="{StaticResource FindPageTemplate}"
+               Visibility="{Binding AllowReplace, Converter={StaticResource boolToVis}}">
+        <StackPanel>
+          <TextBox Name="txtFind2" Margin="3" AcceptsReturn="{Binding AcceptsReturn}"
+                   Text="{Binding TextToFind, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+          <TextBlock Margin="3">Заменить на:</TextBlock>
+          <TextBox Name="txtReplace" Margin="3" AcceptsReturn="{Binding AcceptsReturn}"
+                   Text="{Binding ReplacementText, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+          <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Width="271">
+            <Button IsDefault="true" Margin="3" HorizontalAlignment="Right" Width="83" Content="Найти далее"
+                    Command="{x:Static local:FindReplaceDialogCommands.FindNext}"/>
+            <Button Margin="3" HorizontalAlignment="Right" Width="83" Content="Заменить"
+                    Command="{x:Static local:FindReplaceDialogCommands.Replace}"/>
+            <Button Margin="3" HorizontalAlignment="Right" Width="83" Content="Заменить все"
+                    Command="{x:Static local:FindReplaceDialogCommands.ReplaceAll}"/>
+          </StackPanel>
+        </StackPanel>
+      </TabItem>
+    </TabControl>
+  </Grid>
+</Window>

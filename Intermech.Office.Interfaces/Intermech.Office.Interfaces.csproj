@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.Office.Interfaces.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{037BC665-4A46-41E2-AC2F-5249D43FAE53}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.Office.Interfaces</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Extensions">
+      <HintPath>lib\Intermech.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Extensions.Interfaces">
+      <HintPath>lib\Intermech.Extensions.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Extensions\UserSessionExtensions.cs" />
+    <Compile Include="Search\MSOfficeReviews\IMSOfficeReviewsServerService.cs" />
+    <Compile Include="Search\MSOfficeReviews\MSOfficeReviewsConfigurationOptionKeys.cs" />
+    <Compile Include="Search\MSOfficeReviews\MSOfficeReviewsConstants.cs" />
+    <Compile Include="Search\MSOfficeReviews\MSOfficeReviewsHelper.cs" />
+    <Compile Include="Search\MSOfficeReviews\MSOfficeReviewsModule.cs" />
+    <Compile Include="Search\MSOfficeReviews\ObjectTypeIdsTypeConverter.cs" />
+    <Compile Include="Office\Interfaces\IDBResolution.cs" />
+    <Compile Include="Office\Interfaces\ObjectIsNotIDBResolutionException.cs" />
+    <Compile Include="Office\Interfaces\ResolutionNotFoundException.cs" />
+    <Compile Include="Office\Interfaces\OfficeHelper.cs" />
+    <Compile Include="Office\Interfaces\OfficeConsts.cs" />
+    <Compile Include="Office\Interfaces\IOfficeDocumentTypeService.cs" />
+    <Compile Include="Office\Interfaces\OrderProcessTemplates.cs" />
+    <Compile Include="Office\Interfaces\OfficeDocumentTypeSettings.cs" />
+    <Compile Include="Office\Interfaces\OfficeDocumentTypeSettingsForUnit.cs" />
+    <Compile Include="Office\Interfaces\OfficeDocumentTypes.cs" />
+    <Compile Include="Office\Interfaces\RegNumberSettings.cs" />
+    <Compile Include="Office\Interfaces\CountResetTypes.cs" />
+    <Compile Include="Office\Interfaces\IOfficeGeneralSettingsService.cs" />
+    <Compile Include="Office\Interfaces\IOfficeRegistrationService.cs" />
+    <Compile Include="Office\Interfaces\IRegistrationNumberGenerator.cs" />
+    <Compile Include="Office\Interfaces\IResolutionAccessService.cs" />
+    <Compile Include="Office\Interfaces\ISMDOSettingsService.cs" />
+    <Compile Include="Office\Interfaces\SMDOSettings.cs" />
+    <Compile Include="Office\Interfaces\ResolutionExecution.cs" />
+    <Compile Include="Office\Interfaces\ResolutionUserRoles.cs" />
+    <Compile Include="Office\Interfaces\ResolutionParentType.cs" />
+    <Compile Include="Office\Interfaces\OfficeGeneralSettings.cs" />
+    <Compile Include="Office\Interfaces\ResolutionContextInfo.cs" />
+    <Compile Include="Office\Interfaces\ResolutionProgressReportRecord.cs" />
+    <Compile Include="Office\Interfaces\VariableMissingException.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

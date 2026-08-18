@@ -1,0 +1,68 @@
+<UserControl x:Class="Intermech.Controls.ExceptionViewerControl" x:ClassModifier="internal"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:bcl="http://schemas.intermech.org/bcl/wpf"
+             xmlns:local="clr-namespace:Intermech.Controls"
+             MaxHeight="500" VerticalContentAlignment="Top" SnapsToDevicePixels="true"
+             FontSize="{Binding FontSize}">
+  <FrameworkElement.Resources>
+    <local:ExceptionToInlinesConverter x:Key="ExceptionToInlines"/>
+    <bcl:BooleanToVisibilityConverter x:Key="BooleanToVisibility"/>
+    <bcl:RelativeSizeConverter x:Key="SmallerFont" Ratio="0.9"/>
+    <bcl:RelativeSizeConverter x:Key="BiggerFont" Ratio="1.2"/>
+  </FrameworkElement.Resources>
+  <DockPanel>
+    <TextBlock DockPanel.Dock="Top" Margin="0,0,0,8" TextAlignment="Right"
+               Text="{Binding DateTime, StringFormat=F}"
+               FontSize="{Binding FontSize, RelativeSource={RelativeSource AncestorType=UserControl}, Converter={StaticResource SmallerFont}}"/>
+    <DockPanel Margin="0,0,0,8">
+      <Image Margin="0,0,8,0" DockPanel.Dock="Left" VerticalAlignment="Top"
+             Source="{x:Static local:ExceptionViewerResources.ErrorIcon}" Stretch="None"/>
+      <Grid>
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="Auto"/>
+          <RowDefinition/>
+          <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <RichTextBox Grid.Column="0" Grid.Row="0" Margin="0,0,0,8" MinHeight="100" MaxHeight="120" BorderThickness="1"
+                     BorderBrush="{x:Static JetSystemColors.ControlDarkBrush}"
+                     Background="{x:Static JetSystemColors.WindowBrush}" IsReadOnly="true" IsDocumentEnabled="true"
+                     VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled"
+                     bcl:RichTextBoxExtender.Document="{Binding Path=., Mode=OneWay, Converter={StaticResource ExceptionToInlines}}"
+                     FontSize="{Binding FontSize, RelativeSource={RelativeSource AncestorType=UserControl}, Converter={StaticResource BiggerFont}}"/>
+        <Expander Grid.Column="0" Grid.Row="1" Margin="0,0,0,8" Header="Технические сведения" BorderThickness="1"
+                  BorderBrush="{x:Static JetSystemColors.ControlDarkBrush}" IsExpanded="false" Focusable="false"
+                  VerticalContentAlignment="Top"
+                  Visibility="{Binding HasTechnicalInfo, Converter={StaticResource BooleanToVisibility}}">
+          <TextBox Padding="0,8,0,0" IsReadOnly="true" FontFamily="Consolas" VerticalScrollBarVisibility="Auto"
+                   HorizontalScrollBarVisibility="Auto" BorderThickness="0,1,0,0"
+                   BorderBrush="{x:Static JetSystemColors.ControlDarkBrush}"
+                   Text="{Binding TechnicalInfo, Mode=OneWay}" Background="{x:Null}"/>
+        </Expander>
+        <DockPanel Grid.Column="0" Grid.Row="2" Margin="0,16,0,0">
+          <FrameworkElement.Resources>
+            <Style TargetType="{x:Type Button}">
+              <Setter Property="Control.Padding" Value="30,5"/>
+              <Setter Property="FrameworkElement.MinWidth" Value="140"/>
+            </Style>
+          </FrameworkElement.Resources>
+          <StackPanel DockPanel.Dock="Left" Orientation="Horizontal" HorizontalAlignment="Left">
+            <Button Margin="0,0,8,0" Content="Записать в файл" Command="{Binding SaveToFileCommand}"/>
+            <Button Margin="0,0,8,0" Content="Отправить по почте" Command="{Binding EmailReportCommand}"/>
+            <Button Margin="0,0,8,0" Content="Закрыть приложение" Command="{Binding AbortCommand}"
+                    IsEnabled="{Binding ShowAbortCommand}"
+                    Visibility="{Binding ShowAbortCommand, Converter={StaticResource BooleanToVisibility}}"/>
+          </StackPanel>
+          <StackPanel DockPanel.Dock="Right" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button Content="Пропустить" IsDefault="true" Command="{Binding CloseCommand}"/>
+          </StackPanel>
+        </DockPanel>
+      </Grid>
+    </DockPanel>
+  </DockPanel>
+</UserControl>

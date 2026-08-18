@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.DatabaseConfigurator.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FD8ACAD5-FF60-405D-8877-40C7D775BC19}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.DatabaseConfigurator</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CollapsibleSplitter">
+      <HintPath>lib\CollapsibleSplitter.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.IM.Utils">
+      <HintPath>lib\DevExpress.IM.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.IM.XtraEditors">
+      <HintPath>lib\DevExpress.IM.XtraEditors.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.IM.XtraGrid">
+      <HintPath>lib\DevExpress.IM.XtraGrid.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.IM.XtraTreeList">
+      <HintPath>lib\DevExpress.IM.XtraTreeList.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bars">
+      <HintPath>lib\Intermech.Bars.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Client.Core">
+      <HintPath>lib\Intermech.Client.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Controls">
+      <HintPath>lib\Intermech.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Docking">
+      <HintPath>lib\Intermech.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Client">
+      <HintPath>lib\Intermech.Interfaces.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Workflow">
+      <HintPath>lib\Intermech.Interfaces.Workflow.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Map2">
+      <HintPath>lib\Intermech.Map2.dll</HintPath>
+    </Reference>
+    <Reference Include="Ninject">
+      <HintPath>lib\Ninject.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="iGrid">
+      <HintPath>lib\iGrid.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Intermech\Localization\LocalizationHolder.cs" />
+    <Compile Include="Intermech\Localization\CustomDescription.cs" />
+    <Compile Include="Intermech\Localization\CustomDisplayName.cs" />
+    <Compile Include="Intermech\Localization\CustomCategory.cs" />
+    <Compile Include="Intermech\Security\AttrSecurity4LCStep4ObjType.cs" />
+    <Compile Include="Intermech\Security\AccountsPolicyPage.cs" />
+    <Compile Include="Intermech\Security\SecurityNodeDescriptor.cs" />
+    <Compile Include="Intermech\Security\SecurityNode.cs" />
+    <Compile Include="Intermech\Security\SecurityRootView.cs" />
+    <Compile Include="Intermech\Security\SecurityRootViewProvider.cs" />
+    <Compile Include="Intermech\Security\SecurityViewProvider.cs" />
+    <Compile Include="Intermech\Security\EventLog\ComputerNameItemController.cs" />
+    <Compile Include="Intermech\Security\EventLog\SelectCompNameForm.cs" />
+    <Compile Include="Intermech\Security\EventLog\BigNumberFilterItem.cs" />
+    <Compile Include="Intermech\Security\EventLog\CheckedListBoxItemController.cs" />
+    <Compile Include="Intermech\Security\EventLog\ComboBoxItemController.cs" />
+    <Compile Include="Intermech\Security\EventLog\CommandsProvider.cs" />
+    <Compile Include="Intermech\Security\EventLog\EventsConfigView.cs" />
+    <Compile Include="Intermech\Security\EventLog\DateTimeFilterItem.cs" />
+    <Compile Include="Intermech\Security\EventLog\DateTimePickerItemController.cs" />
+    <Compile Include="Intermech\Security\EventLog\Descriptor.cs" />
+    <Compile Include="Intermech\Security\EventLog\EventLogDeleteForm.cs" />
+    <Compile Include="Intermech\Security\EventLog\Filter.cs" />
+    <Compile Include="Intermech\Security\EventLog\FilterChangedAnalyser.cs" />
+    <Compile Include="Intermech\Security\EventLog\FilterCollection.cs" />
+    <Compile Include="Intermech\Security\EventLog\FilterConfigView.cs" />
+    <Compile Include="Intermech\Security\EventLog\FilterCreatedAnalyser.cs" />
+    <Compile Include="Intermech\Security\EventLog\FilterEventArgs.cs" />
+    <Compile Include="Intermech\Security\EventLog\FilterEventsView.cs" />
+    <Compile Include="Intermech\Security\EventLog\FilterItem.cs" />
+    <Compile Include="Intermech\Security\EventLog\FilterItemController.cs" />
+    <Compile Include="Intermech\Security\EventLog\FilterNode.cs" />
+    <Compile Include="Intermech\Security\EventLog\FilterNodeID.cs" />
+    <Compile Include="Intermech\Security\EventLog\FilterNodePart.cs" />
+    <Compile Include="Intermech\Security\EventLog\FilterRemovedAnalyser.cs" />
+    <Compile Include="Intermech\Security\EventLog\FiltersManager.cs" />
+    <Compile Include="Intermech\Security\EventLog\FiltersNodeItems.cs" />
+    <Compile Include="Intermech\Security\EventLog\FiltersNodePart.cs" />
+    <Compile Include="Intermech\Security\EventLog\FiltersQuery.cs" />
+    <Compile Include="Intermech\Security\EventLog\FilterViewsProvider.cs" />
+    <Compile Include="Intermech\Security\EventLog\IdTextItem.cs" />
+    <Compile Include="Intermech\Security\EventLog\IFilterGuid.cs" />
+    <Compile Include="Intermech\Security\EventLog\IFilterNode.cs" />
+    <Compile Include="Intermech\Security\EventLog\Node.cs" />
+    <Compile Include="Intermech\Security\EventLog\SmallNumberFilterItem.cs" />
+    <Compile Include="Intermech\Security\EventLog\SmallNumberListFilterItem.cs" />
+    <Compile Include="Intermech\Security\EventLog\StringFilterItem.cs" />
+    <Compile Include="Intermech\Security\EventLog\TextBoxItemController.cs" />
+    <Compile Include="Intermech\Security\EventLog\UserNameItemController.cs" />
+    <Compile Include="Intermech\Security\EventLog\ViewsProvider.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\AttributesGroupSelector.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\ChangeAttribute.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\ListViewItemComparer.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\ListViewComparer.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\DatabaseConfiguratorConsts.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\DatabaseConfiguratorFindForm.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\SearchOptions.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\DBCResourcesAccess.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\DatabaseConfiguratorControl.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\ApplyEventHandler.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\ApplyEventArgs.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\DatabaseConfiguratorNodeSorter.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\DatabaseConfiguratorService.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\DatabaseConfiguratorServiceForm.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\DatabaseConfiguratorStartup.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\Holder.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\ImportUsersProfile.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\TimedEventsSheduler\FormMode.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\TimedEventsSheduler\TimedEventPropertiesForm.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\TimedEventsSheduler\DateStringWithPeriod.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\TimeTable\TimedEventsShedulerForm.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\Security\GetAccessReportProvider.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\Scripts\LCStepScriptProperty.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\Scripts\LCStepPropDescriptor.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\Scripts\LCStepScriptValue.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\Scripts\LCStepScriptConverter.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\Scripts\LCStepScriptEditor.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\Scripts\LCStepScriptManager.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\Properties\Resources.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\Utils\IdleAttributes.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\Utils\IdleAttributesDockControl.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\Utils\DBTrashCleaner.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\Utils\FixBlobsClass.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\Utils\FixInvalidBlobsControl.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\Utils\InvalidAttributes.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\Utils\InvalidAttributesClass.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\Utils\InvalidAttributesForm.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\Utils\IndexRebuilder.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\Utils\ViewsBuilder.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\Dictionary\DictStartup.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\Dictionary\DictHolder.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\Dictionary\Forms\DictSetup.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\FileStorage\ClipboardFiles.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\FileStorage\FileNodeID.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\FileStorage\FileNodeItems.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\FileStorage\FilesNodePart.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\FileStorage\FilesProvider.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\FileStorage\FilesQuery.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\FileStorage\FileStorageFilterForm.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\FileStorage\FileStorageInfoCommands.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\FileStorage\FileStorageInfoForm.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\FileStorage\FileStorageInfoProvider.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\FileStorage\FileStorageNode.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\FileStorage\FileStorageProvider.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\FileStorage\FileStorageView.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\FileStorage\Helper.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\FileStorage\IFileID.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\Scripting\CSharp\ScriptCheckerConsts.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\Scripting\CSharp\CheckScriptStructureUIAction.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\Scripting\CSharp\WorkflowMessagesService.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\Scripting\CSharp\AdminUtilsCommandProvider.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\Scripting\CSharp\ScriptCheckerMenuConsts.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\Scripting\CSharp\UpdatedDBObjectInfo.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\Scripting\CSharp\HtmlReportGenerator.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\Scripting\CSharp\HtmlReportGeneratorExtensions.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\Scripting\CSharp\HtmlReportWriter.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\Scripting\CSharp\NavigatorCommandProvider.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\Scripting\CSharp\ScriptCheckerInitializerModule.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\Scripting\CSharp\ScriptCheckerIDCache.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\Scripting\CSharp\ScriptCheckerNinjectModule.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\Scripting\CSharp\ScriptCheckerService.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\Scripting\CSharp\ScriptInfo.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\Scripting\CSharp\ScriptCheckResult.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\PropertyPages\LdapConfigsPurgeForm.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\PropertyPages\LdapSettingsPage.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\PropertyPages\LdapProperties.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\PropertyPages\LdapTypeConverter.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\PropertyPages\QuantityPhysListSettingsPage.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\PropertyPages\QuantityPhysListSelectForm.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\PropertyPages\AccauntForm.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\PropertyPages\AccauntUsersForm.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\PropertyPages\CheckAccauntForm.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\PropertyPages\MailProxySettings.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\PropertyPages\MailSettingsControl.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\PropertyPages\NewEmailServerForm.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\PropertyPages\NormalizedIndexesPage.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\PropertyPages\NormalizedIndexesReplacesPage.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\PropertyPages\DocTypesPage.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\PropertyPages\DatabasePropertiesPage.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\PropertyPages\AlgorithmVersionEnum.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\PropertyPages\SnapshotSettingsPage.cs" />
+    <Compile Include="Intermech\DatabaseConfigurator\PropertyPages\SystemDiagnosticsSettingsPage.cs" />
+    <Compile Include="Intermech\PropertyEditors\ClassifiedObjectType.cs" />
+    <Compile Include="Intermech\PropertyEditors\LCStepPropertyClass.cs" />
+    <Compile Include="Intermech\PropertyEditors\LCStepPropertyEditor.cs" />
+    <Compile Include="Intermech\PropertyEditors\LCStepPropertyConverter.cs" />
+    <Compile Include="Intermech\PropertyEditors\SystemFolder.cs" />
+    <Compile Include="Intermech\PropertyEditors\ILCObject.cs" />
+    <Compile Include="Intermech\PropertyEditors\LCDocument.cs" />
+    <Compile Include="Intermech\PropertyEditors\LCLink.cs" />
+    <Compile Include="Intermech\PropertyEditors\LCLinkObject.cs" />
+    <Compile Include="Intermech\PropertyEditors\LCNode.cs" />
+    <Compile Include="Intermech\PropertyEditors\LCSchema.cs" />
+    <Compile Include="Intermech\PropertyEditors\LCSchema4ObjTypeForm.cs" />
+    <Compile Include="Intermech\PropertyEditors\LCSchema4ObjTypeFormProvider.cs" />
+    <Compile Include="Intermech\PropertyEditors\LCStepObject.cs" />
+    <Compile Include="Intermech\PropertyEditors\LCStepPaintData.cs" />
+    <Compile Include="Intermech\PropertyEditors\LCStepPainter.cs" />
+    <Compile Include="Intermech\PropertyEditors\LCView.cs" />
+    <Compile Include="Intermech\Ldap\ImportFromNTDomainForm.cs" />
+    <Compile Include="Intermech\Ldap\ImportFromNTMenuProvider.cs" />
+    <Compile Include="Intermech\Ldap\ImportFromNTMenuCommands.cs" />
+    <Compile Include="Intermech\Ldap\LdapSyncConfigForm.cs" />
+    <Compile Include="Intermech\Ldap\LdapSyncMenuProvider.cs" />
+    <Compile Include="Intermech\Ldap\LdapSyncMenuCommands.cs" />
+    <Compile Include="Intermech\Statistics\StatisticsControl.cs" />
+    <Compile Include="Intermech\Statistics\StatisticsReportForm.cs" />
+    <Compile Include="ImSSP\sc_5721.cs" />
+    <Compile Include="ImSSP\sc_5850.cs" />
+    <Compile Include="ImSSP\sc_5854.cs" />
+    <Compile Include="ImSSP\sc_5892.cs" />
+    <Compile Include="ImSSP\sc_5894.cs" />
+    <Compile Include="ImSSP\sc_5896.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Intermech\DatabaseConfigurator\AttributesGroupSelector.resx" />
+    <EmbeddedResource Include="Intermech\DatabaseConfigurator\ChangeAttribute.resx" />
+    <EmbeddedResource Include="Intermech\DatabaseConfigurator\DatabaseConfiguratorControl.resx" />
+    <EmbeddedResource Include="Intermech\DatabaseConfigurator\DatabaseConfiguratorFindForm.resx" />
+    <EmbeddedResource Include="Intermech\DatabaseConfigurator\DatabaseConfiguratorServiceForm.resx" />
+    <EmbeddedResource Include="Intermech\DatabaseConfigurator\Dictionary\Forms\DictSetup.resx" />
+    <EmbeddedResource Include="Intermech\DatabaseConfigurator\FileStorage\FileStorageFilterForm.resx" />
+    <EmbeddedResource Include="Intermech\DatabaseConfigurator\FileStorage\FileStorageInfoForm.resx" />
+    <EmbeddedResource Include="Intermech\DatabaseConfigurator\FileStorage\FileStorageView.resx" />
+    <EmbeddedResource Include="Intermech\DatabaseConfigurator\Properties\Resources.resx" />
+    <EmbeddedResource Include="Intermech\DatabaseConfigurator\PropertyPages\AccauntForm.resx" />
+    <EmbeddedResource Include="Intermech\DatabaseConfigurator\PropertyPages\AccauntUsersForm.resx" />
+    <EmbeddedResource Include="Intermech\DatabaseConfigurator\PropertyPages\CheckAccauntForm.resx" />
+    <EmbeddedResource Include="Intermech\DatabaseConfigurator\PropertyPages\LdapConfigsPurgeForm.resx" />
+    <EmbeddedResource Include="Intermech\DatabaseConfigurator\PropertyPages\MailSettingsControl.resx" />
+    <EmbeddedResource Include="Intermech\DatabaseConfigurator\PropertyPages\NewEmailServerForm.resx" />
+    <EmbeddedResource Include="Intermech\DatabaseConfigurator\PropertyPages\NormalizedIndexesReplacesPage.resx" />
+    <EmbeddedResource Include="Intermech\DatabaseConfigurator\PropertyPages\QuantityPhysListSelectForm.resx" />
+    <EmbeddedResource Include="Intermech\DatabaseConfigurator\PropertyPages\QuantityPhysListSettingsPage.resx" />
+    <EmbeddedResource Include="Intermech\DatabaseConfigurator\Resources\Add.png" />
+    <EmbeddedResource Include="Intermech\DatabaseConfigurator\Resources\CustomAttributesResources.resx" />
+    <EmbeddedResource Include="Intermech\DatabaseConfigurator\Resources\DatabaseConfiguratorResources.resx" />
+    <EmbeddedResource Include="Intermech\DatabaseConfigurator\Resources\dc.ico" />
+    <EmbeddedResource Include="Intermech\DatabaseConfigurator\Resources\Delete.png" />
+    <EmbeddedResource Include="Intermech\DatabaseConfigurator\Resources\EventLog.ico" />
+    <EmbeddedResource Include="Intermech\DatabaseConfigurator\Resources\EventLogFilter.ico" />
+    <EmbeddedResource Include="Intermech\DatabaseConfigurator\Resources\EventLogFiltered.ico" />
+    <EmbeddedResource Include="Intermech\DatabaseConfigurator\Resources\MeasuredItems.ico" />
+    <EmbeddedResource Include="Intermech\DatabaseConfigurator\Resources\Roles.ico" />
+    <EmbeddedResource Include="Intermech\DatabaseConfigurator\Resources\SecurityRoot.ico" />
+    <EmbeddedResource Include="Intermech\DatabaseConfigurator\Resources\user_gr.ico" />
+    <EmbeddedResource Include="Intermech\DatabaseConfigurator\Resources\UsersGroups.ico" />
+    <EmbeddedResource Include="Intermech\DatabaseConfigurator\TimedEventsSheduler\TimedEventPropertiesForm.resx" />
+    <EmbeddedResource Include="Intermech\DatabaseConfigurator\TimeTable\TimedEventsShedulerForm.resx" />
+    <EmbeddedResource Include="Intermech\DatabaseConfigurator\Utils\FixInvalidBlobsControl.resx" />
+    <EmbeddedResource Include="Intermech\DatabaseConfigurator\Utils\IdleAttributesDockControl.resx" />
+    <EmbeddedResource Include="Intermech\DatabaseConfigurator\Utils\InvalidAttributesForm.resx" />
+    <EmbeddedResource Include="Intermech\Ldap\ImportFromNTDomainForm.resx" />
+    <EmbeddedResource Include="Intermech\Ldap\LdapSyncConfigForm.resx" />
+    <EmbeddedResource Include="Intermech\PropertyEditors\LCSchema4ObjTypeForm.resx" />
+    <EmbeddedResource Include="Intermech\PropertyEditors\LCView.resx" />
+    <EmbeddedResource Include="Intermech\Security\EventLog\EventLogDeleteForm.resx" />
+    <EmbeddedResource Include="Intermech\Security\EventLog\EventsConfigView.resx" />
+    <EmbeddedResource Include="Intermech\Security\EventLog\FilterConfigView.resx" />
+    <EmbeddedResource Include="Intermech\Security\EventLog\FilterEventsView.resx" />
+    <EmbeddedResource Include="Intermech\Security\EventLog\SelectCompNameForm.resx" />
+    <EmbeddedResource Include="Intermech\Security\SecurityRootView.resx" />
+    <EmbeddedResource Include="Intermech\Statistics\StatisticsControl.resx" />
+    <EmbeddedResource Include="Intermech\Statistics\StatisticsReportForm.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

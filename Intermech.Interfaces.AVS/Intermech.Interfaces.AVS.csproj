@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.Interfaces.AVS.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F61ABFF2-20F4-418B-8B7D-E769D6DDD2BF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.Interfaces.AVS</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech.Interfaces</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>lib\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Document.DBCore">
+      <HintPath>lib\Intermech.Document.DBCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Expert">
+      <HintPath>lib\Intermech.Expert.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Document">
+      <HintPath>lib\Intermech.Interfaces.Document.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Pdm\SpecificationCreationMode.cs" />
+    <Compile Include="Pdm\SpecificationCreationParams.cs" />
+    <Compile Include="AVS\AdditionalChapterSettings.cs" />
+    <Compile Include="AVS\AvsSettings.cs" />
+    <Compile Include="AVS\AvsIDCache.cs" />
+    <Compile Include="AVS\AVSObjectInfo.cs" />
+    <Compile Include="AVS\VirtualAttributeAttribute.cs" />
+    <Compile Include="AVS\AvsSettingFlagsSection.cs" />
+    <Compile Include="AVS\SettingData.cs" />
+    <Compile Include="AVS\AvsSettingsSection.cs" />
+    <Compile Include="AVS\AVSCheckInException.cs" />
+    <Compile Include="AVS\IAVSServerService.cs" />
+    <Compile Include="AVS\IDBAVSDocumentObject.cs" />
+    <Compile Include="AVS\KeywordReplacementScheme.cs" />
+    <Compile Include="AVS\SettingsSchemeBase.cs" />
+    <Compile Include="AVS\SettingsStructure.cs" />
+    <Compile Include="AVS\SpecificationSettingsStructure.cs" />
+    <Compile Include="AVS\ExportSpecificationSettingsStructure.cs" />
+    <Compile Include="AVS\AutopromSpecificationSettingsStructure.cs" />
+    <Compile Include="AVS\ElementListSettingsStructure.cs" />
+    <Compile Include="AVS\UserAVSDocumentSettingsStructure.cs" />
+    <Compile Include="AVS\VedomostiSettingsStructure.cs" />
+    <Compile Include="AVS\InheritanceSettingsLevel.cs" />
+    <Compile Include="AVS\SettingsLevel.cs" />
+    <Compile Include="AVS\VersionAttributesOptions.cs" />
+    <Compile Include="AVS\VersionAttribute.cs" />
+    <Compile Include="AVS\VersionAttributesHelper.cs" />
+    <Compile Include="AVS\IDocumentTypeWeight.cs" />
+    <Compile Include="AVS\DocumentTypeWeight.cs" />
+    <Compile Include="AVS\DocumentTypeWeightCollection.cs" />
+    <Compile Include="AVS\DocumentTypeWeightHelper.cs" />
+    <Compile Include="AVS\NoteFieldOptions.cs" />
+    <Compile Include="AVS\RemarkAttribute.cs" />
+    <Compile Include="AVS\NoteFieldSettings.cs" />
+    <Compile Include="AVS\AttributeSortSchema.cs" />
+    <Compile Include="AVS\SubstringStartFinishType.cs" />
+    <Compile Include="AVS\CompareType.cs" />
+    <Compile Include="AVS\SortOrder.cs" />
+    <Compile Include="AVS\EmptyOrder.cs" />
+    <Compile Include="AVS\SectionSortSchema.cs" />
+    <Compile Include="AVS\SortSchema.cs" />
+    <Compile Include="AVS\SpecificationSectionInfo.cs" />
+    <Compile Include="AVS\AVSDocumentsSettings.cs" />
+    <Compile Include="AVS\AVSDocumentTypeSettings.cs" />
+    <Compile Include="AVS\AVSDocumentType.cs" />
+    <Compile Include="AVS\AVSDocumentForm.cs" />
+    <Compile Include="AVS\DefaultGroupSpecificationForm.cs" />
+    <Compile Include="AVS\SpecificationFormMethods.cs" />
+    <Compile Include="AVS\AVSSpecificationType.cs" />
+    <Compile Include="AVS\AvsRowAttributeInfo.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

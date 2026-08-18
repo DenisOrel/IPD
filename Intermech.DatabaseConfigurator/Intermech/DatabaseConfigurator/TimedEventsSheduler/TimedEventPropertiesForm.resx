@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;cbImmediatly.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btnCancel.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAACbAQAAUAEAAAs=</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="dtSchedule.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="dtSchedule.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAO4AAAAUAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbEventName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbEventName.Name" xml:space="preserve">
+    <value>tbEventName</value>
+  </data>
+  <data name="cbTask.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAPAAAAGgAAAAs=</value>
+  </data>
+  <data name="cbTask.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="cbImmediatly.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAOAQAAqAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;lbDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbDate.Name" xml:space="preserve">
+    <value>lbDate</value>
+  </data>
+  <data name="$this.Icon" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5JY29uAgAAAAhJY29uRGF0YQhJY29uU2l6ZQcEAhNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAIAAAAJAwAAAAX8////E1N5c3RlbS5EcmF3aW5nLlNpemUCAAAABXdpZHRoBmhlaWdodAAACAgCAAAAAAAAAAAAAAAPAwAAAO46AAACAAABAAMAMDAAAAEAIACoJQAANgAAACAgAAABACAAqBAAAN4lAAAQEAAAAQAgAGgEAACGNgAAKAAAADAAAABgAAAAAQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOuINP/riTT/7Ik0/+yJNP/siTT/7Ik0/+yJNP/sijX/7Ikz/+yJMv/tiDH/7Ycv/+2GLf/thiv/7YMn/+yCJf/sgSL/7H8f/+x/Hv/sfh3/7H0a/+t8Gf/sfRr/7H0Z/+x9Gv/tfhr/7X4b/+1+HP/tgB//7YEg/+2CI//uhCj/7oQo/++HK//viC7/74kw/++KMv/vjDX/74s0/++LNf/vizX/74s1/++LNf/vjDf/74s1/++LNf/xizX/AAAAAOuJNP/sizT/7Io0/+yKNP/sijT/7Io0/+yKM//sizT/7Iky/+yIMP/thy3/7YYq/+2EJ//shCX/7IEg/+x/HP/rgh//86lB//vKYv//4Hr//+6I///4kv///Jb///+b///8lv//+JP//+6L///gfP/8y2P/9axD/+yDIP/tgh7/7YIh/+2EJf/vhij/74gr/++JLv/vizP/74sz/++MNP/vjDT/74w1/++MNf/vjTf/74w1/++MNf/vjDX/AAAAAOyKNP/sijX/7Io0/+yKNP/sijT/7Ioz/+yKM//sijL/7Igu/+2HLP/thSj/7IMl/+yBH//sfhv/86g9//3Vbf//74v//+yP///ZgP/5y2j/9r9T//K0QP/wojX/7Zos/+6jNv/ztkL/98BX//zObv//3oP//+yV///xkv/+1nH/86lA/+1/G//ugyD/74Um/++HKf/viS//74ov/++LMv/vjDT/74w0/++MNf/vjDf/74w1/++MNf/vjDX/AAAAAOyLNP/sizX/7Is0/+yLNP/sizP/7Isy/+yKMf/siS//7Ycq/+yFJv/sgiH/7H8b//OsQ///4Xn//++P//3VeP/zuUv/65Um/+2bLf/unTD/7p8y//ClNv/wqDn/86k7//OpO//zqTn/86c2//GkNf/xozL/8Z8u//bBVP//2H///++W///if//2r0X/7oIc/+6EIv/vhyr/74kr/++LL//vjDL/740z/++NNP/vjTf/7401/++NNf/vjTX/AAAAAO2LNf/tizf/7Ys1/+2LNP/tizP/7Yoy/+2ILv/thy3/7oQm/+2CIP/xljD//tVw///tjv/7y2z/8KY3/+2YLf/umi//7p80//GiNv/xpTn/8qo8//SuRP/0skb/9bRJ//W2Sv/1tkr/9rVJ//a0SP/2s0b/9a9B//OqPP/ypjf/8q8+//zSc///7JX//tZ2//KXM//whCP/8YYo//GJLf/xijH/8Yw0//GNNf/xjTf/8Y03//GNN//xjTf/AAAAAO2MNf/tjDX/7Yw0/+2MM//tizL/7Yku/+2IK//uhSb/7IAf//axSP//7oj//dZ5//GwOf/snC3/7Z8w/+2gNP/vpDf/76Y6//KoPf/yrUD/9LRF//a3S//2uE//97tS//e8Uf/3wFH/979R//e+UP/3vlD/9rtN//a4S//1tET/87FA//OqOf/1t0P//teC///rjf/2s0v/7oIg//GIKP/xiy3/8Ywx//GONP/xjzX/8Y82//GPN//xjzf/AAAAAO2MNf/tjDT/7Yw0/+2LMv/tiS7/7Ygr/+yFJv/sgR3/+MBX///xjv/2wlr/7Z4t/+2hMf/tpDX/7qU4/+6nO//vrD//8a1C//OyRP/ztUj/9bhO//a8UP/3wFT/98FW//fCV//3wlj/+MNY//fDV//3xFj/9sJU//bAUv/2wFD/9btM//S3Rv/zsUH/8Kc3//jGY///6pH/+MFa/+6EHv/viCj/8Ywt//GNMf/xjzT/8ZA2//GQNv/xkDf/AAAAAO2MNf/tjTT/7Ysy/+2KL//shyv/7IUm/+yBHf/5xF///+mL//S4Rf/soC3/7aMy/+6lN//uqDr/76s9/++sP//vrUX/8bFG//SzRv/0t0n/9rpO//a7T//2vVH/975S//fAVP/2wFX/98FW//bBV//3wVb/9sJY//XEWf/2w1f/9sNW//XAUf/0u07/87NF//GrO//0vk3//+GM//jEYP/ugx7/74gm/++LLf/xjjH/8Y80//GQNv/xkDf/AAAAAO2NNv/tjjb/7Ysx/+6LLf/shij/7IEf//jBWv//6Yz/8bI8/+6lMf/spjf/7qc6/+2rPv/urUH/7q5D/++xRP/xsUb/8bRJ//O2Sf/zuU7/9blP//W6T//2uk//9rtQ//a8Uf/2vVL/9b1U//a9Uv/1vVT/9L5W//XBV//0wlr/9MNZ//TDWP/0wVj/9L1S//O2SP/wqz3/8bVD///hi//3wVz/7oMg/++KKP/vjC7/8Y8y//GQNv/xkTf/AAAAAO2NNf/tizP/7owv/+yHKv/sgyD/9bNL///ykv/0u0n/7aUy/+6oN//uqjz/7as//+2tQf/ur0X/7rBF/++wR//vsUf/8bNI//O0S//1t03/9blN//W6T//2u0//9rtP//a8T//1u0//9bpP//a6UP/0uE7/8rlQ//K6Uf/yu1X/875X//PAV//1wln/88FX//O7Uf/ztEf/7qk8//K7Uf//6ZD/9bFL/+6FIf/viyr/740w//GPNP/xkTb/AAAAAO6PNP/ujTH/7osr/+yFIv/wmTH///GP//jIYP/uqjH/7qo3/+2rO//trED/7KxA/+2tQ//trUT/7a1F/+6vRv/usEf/8bNI//O2S//1uE3/9blO//a6T//2vE//9rxP//a7T//2uk//9blO//S5Tf/zt0z/8rZM//G0TP/vtE7/8bhQ//G7U//ywFf/8sBX//K9Vf/yuVD/8bJE/+2mN//1w2H//+uN//CYMv/uiCP/74ws//GPMv/xkTX/AAAAAO6PMv/ujS3/7Ioo/+yDHP/913X//tyB//CrL//urDX/7qw7/+yrPf/rqUD/66tB/+utQv/rq0T/661D/+yuQ//trkX/77FH//K0S//zuEz/9LlN//a7Tv/3vE//97xP//e8T//2vE//9bpO//S5Tf/ytkz/8bNJ/+6xR//vsEj/7bBH/+2ySf/ut0//77tV//G9VP/xvFL/8bZL/+2uPv/tpDP/+9V+//vUcf/thh3/74wo/++OLv/xkTP/AAAAAO6OMP/ujCr/7Ich//WxQ///9Zr/9bZC/+6sNv/urDv/7aw+//K9Z//0wnP/88J0/+20Wv/qqD//7rZc//TDdf/1xHX/9MFr//GxRP/zt0n/9LlM//W6Tf/2u07/9rtO//a7Tv/2vE//9btO//O4S//xs0b/+M6G//3fqv/93qr//N6q//zeqv/2zYf/7LhW/+64T//vulH/7rZP/+6wRP/tqTf/7rM9///rjv/yrkX/7Ygh/++NLP/xkDH/AAAAAO+OLv/ujCj/7YUd///kg//91nf/8640//KvOf/vrj7/7aw+///34P////////////vbqv/opj7/+9yq///////////////////////ytEj/9LhN//W5Tf/1u07/9rxP//a8T//2vFD/9bpP//7Zl//////////////////////////////////////////////y1P/vvmT/7bZM/+6zSP/tqz//7KQy//nKcf//4Hz/7ocd//GNKP/ykC//AAAAAO+NLP/uiST/9rFE///5ov/2tkH/87E5//KvPv/vr0H/7K1A///23P////////////nZp//npDv/+9mn/////////////////+yrQf/vskf/8rZL//S4TP/0uU3/9btO//W7T//1u0//9blM///ir///////////////////////////////////////////////////////88Ru/+2xSf/trkT/7Kg3/+6sOf//7pT/861C//CJJP/yjy3/AAAAAO+NKf/uiB7//913///giv/1szj/9LQ+//KzQv/vsUT/7KtC///13v////////////nYpv/koTr/+dim//////////////Xc/+qqQf/usEf/8bJJ//K0S//zt0z/9LlN//S6Tv/1uk7/9LpN//zSiP/////////4///rxf/93qr//dyp///pw//////////////////////////5/+uyRf/tsET/7Ks6/+yiMP/51nz//NZ0//CJIP/xjir/AAAAAO6MJ//wiyT///yj//vJXv/1tTv/87NB//KyRf/usEf/66tC///13v////////////jYp//jnzv/+Nim//////////////Xc/+moQv/srkf/7rBI/++ySf/xtEv/8rdN//O4T//0uE//9LhO//XCZv/4zH3/7rFH/+6xR//srkb/66tF/+moQv/prUv///zr//////////////////jVlP/sr0f/7KxB/+ylNv/zvVP///OT//CKJP/xjSj/AAAAAO6LJP/5tUj///yu//e2OP/2tkD/9LZF//K1SP/vskr/66tF///13v////////////jXpv/inzr/99em//////////////Tc/+elP//rq0X/7K9H/+6xSP/vskv/8bZN//K3Tf/yuE7/8rhO//K3TP/xtEv/7rNL/+2wSf/sr0j/6q1H/+qrRv/oqEL/6rJZ///////////////////sxv/sr0P/7a1C/+2pOf/soSz//++X//OxR//wjCX/AAAAAO6LI///1HH//+qh//i7Pv/2uUP/9LdG//K2Sf/vskr/66tE///13v////////////fXpv/hnTn/99al//////////////Tc/+SjPv/pqUT/66tF/+yvR//tsEn/7rFJ/++zS//xs0z/8bRM/++0TP/us0v/7bFJ/+yvSP/srkf/661G/+mqRf/pqUT/56Y////12//////////////33//rsEX/7a9D/+2rPv/tozH//t+H//nLaf/wjCT/AAAAAO6KIP//65X//+CK//m+Rv/3vUn/9btK//O3S//vtEz/6q1F///13v////////////fXpv/gnTj/9tal//////////////Pb/+OhPP/np0P/6alE/+qtRv/rrkf/7K9I/+2xSf/uskn/7rJL/+6yS//tsEn/7K9I/+uvR//rrUb/6qtG/+mqRf/oqUT/56c+////9//////////////34P/tsUX/7bFE/+yrPf/tpDP/+c1s///kgf/wiyH/AAAAAPCKIP///bH//9d6//nDTf/4wU//9r5R//S7U//xtk//7K1H///23v////////////fWpv/gnDj/9tWl//////////////La/+OfOv/koz3/6aZC/+inQ//pqUP/66tG/+ytR//tr0n/7a9J/+2vSf/srkn/7K1I/+ytR//rq0b/66pG/+qqRf/oqEP/9s6P///////////////////luv/usUv/7rFF/++uPv/uqTb/9MFX///1kf/yjCL/AAAAAO6KHv///8L//tJo//nGU//4wlT/9sFV//S9Vf/xt1H/7K9I///23v////////////fWpv/gnTj/9tal///////////////////02///9Nz///Xe///13v//9d//+9up//G8af/pqUP/661G/+utR//qq0b/6qpG/+qrRv/qq0X/6qlD/+uwTv/+4rb///////////////////////XIef/uskz/77RI/++wQP/wrDb/87dF////nf/yjSH/AAAAAO6LHv///9D//c5g//vJV//5xVn/9sNY//TAWP/xuVL/7LBL///23/////////////fXpv/gnTj/9tal////////////////////////////////////////////////////////9d//6a5M/+ioQ//oqUT/6alE/+moQv/opz7/+Nac/////////////////////////////+zF/+6ySP/vtkv/8bVG//KyQv/wrzr/8bA5////pf/yjiH/AAAAAO6LHf///9f//dBa//vNXP/5yVz/98Vc//XCW//xu1X/7LJM///23/////////////fXp//gnTj/9tal/////////////////////////////////////////////////////////////////+eqSf/lpT//5aQ9//XMjf//////////////////////////////////7Mb/7rFH/++2TP/xt0v/8rVG//GyQv/wsTn/8awu////qf/yjSD/AAAAAO6KHv///9f//tVn//3PYf/5zWT/98li//XEYP/yvVn/7LNP///23/////////////fXp//gnTj/9tal//////////////jo/+26b//uvHP/775z/+29cv/837T////////////////////////z3P/lpEX///Te//////////////////////////////////bMhf/usUb/77RM//G3Tf/yuE7/8rVI//KzQf/ysTf/87E6////pf/yjSH/AAAAAO6JHv///9D//91+//3TaP/70Gr/+Mxn//XGY//ywF7/7LdQ///24P////////////fXp//hnTn/99al//////////////Pc/+KfPP/koUH/5KFB/+ShQf/koD3/5KVI////9////////////////////Oz////////////////////////////826n/7bBQ/+2vR//vskz/8bRN//K4Tv/zuE3/87ZI//OzQ//zsjn/9rtH////o//yiyH/AAAAAO6KH////8L//+ed//7Xa//81G3/+c9q//bKaf/zwWH/7LZS///34P////////////fXp//gnTn/99al//////////////Pb/+KePP/joz//46M//+OhP//ioD7/4p48/+7BfP///////////////////////////////////////N+0/+mrTP/qqUT/665H/+2xSf/vskv/8rZM//K4TP/yuEz/87ZG//OzP//zsjb/+Mdc///4lv/xiyD/AAAAAO6LIf//9a7//+63///bc//82Hb/+9Rz//fOcP/0xWX/7rpW///34P////////////jYp//inzv/99am//////////////Pb/+KfPP/ko0H/5KNB/+OjP//joD//4p49/+mxYP/////////////////////////////////tum7/5KE+/+ioQ//rq0b/7K9I/+6ySf/vs0z/8rZM//K4Tf/0t0n/9LVE//S0Pv/0sDn//ddz///mhf/xiyH/AAAAAO6LIv//34n///nI///gev/+3H3//Nh7//jRdf/1yGr/8b1b///44f////////////nZqP/ioDz/+Nem//////////////Pb/+OfPP/koz//5aNB/+ShP//joD7/4p88/+7BfP/////////////////////////////z2v/jnjr/56Q//+mnQ//rqkX/7K9I/+6wR//vskn/87ZL//O3Sv/0t0n/9LVD//SzPv/0sDP//+iL//7Oa//xiyP/AAAAAPCMJP/9wVn////d///jfv//4If//d2F//vWfv/2zXL/88Jg///54v////////////naqf/loz3/+Nin//////////////Pc/+SfPf/lpEH/5aRB/+WjQf/koD3/5KRG///76v/////////////////////////////z2v/koDv/6KZC/+moQ//sq0X/7a5I/+6wSP/xs0v/87ZL//O3TP/0tkj/9LVC//SzPP/1rzH///uh//iyR//yiiT/AAAAAPGOJ//ykyb////Q///wsf//5o7//+GQ//vbh//41Hv/9cZl///74/////////////vbqv/lpT//+din//////////////Tb/+WgOv/loTz/5aE8/+WhO//yw37///vq///////////////////////////////////////stmH/5aQ9/+moQf/rqkP/7a1E/+6vRP/zt1L/9LlU//O1R//0tUX/9LRA//SzNf/7xlX///uZ//GKI//xiyb/AAAAAPGOKv/xjiT//+6q///8zf//6pX//+iZ///jmP/72Yr/9850///75P////////////zerv/pqUX/+9up///////////////////02///9dz///vr//////////////////////////////////jVoP///////////////////////+fC//fOj//1w3T//d6q///y0P///////daT//OzRf/0s0L/9LM9//WxNv//34P//9l2//CGIP/xiyn/AAAAAPGPLv/ykij//cdh////4f//8an//+2l///qpv/+4pn/+NeC//////////////////7hr//rr0j//N6q////////////////////////////////////////////////////////////982P/+mlPP/+4bb//////////////////////////////////////////////////+Gq//OyQf/0skD/9LM6//a2Pv//+Z3/9q1A//CHIv/xiyr/AAAAAPGQMP/zlC7/8pYl///5w////dX///Oy///xtP//66z////////////////////////ls//xtk///uKv//////////////////////////////////////////////zr//3cqf/ytlv/7apD/+2rRP/rqkH/+9ee//////////////////////////////////////////////TU//SxP//0sz7/9bE3//7Yd///44H/7oEc//GIJ//yiy3/AAAAAPGPMv/ylDD/85gq//7Tdv///+j///jI///2wP//873//+yu///qrv//5KT//dyU//jPd//zvln/9cRr//jMf//3ynz/98h6//fHeP/3x3f/98d3//K6Xv/urkT/8a9F//GwRv/xsUf/8bFI//GxSP/vsUf/77BG//K0UP/71ZL//9+r///34P//+OD//+W3///gqv/5yXX/9LJA//WyPf/1sTb/97tD///3l//2r0P/7YIg/++GKP/xiS7/AAAAAO+PNP/ykzP/9Jw0//WiLv//+Mf////o///8yv//+8z///XD///utf/+5Jr//NqD//nRcP/2y2b/9sRb//O9WP/0vVT/87hR//O5T//ztk7/8rdN//K2S//ytEz/87ZN//O2TP/ztkz/87ZN//O2Tf/ztk3/8rZN//K2TP/ytEz/87ZM//O2S//0tkj/9LRI//WyRf/0skT/9bRB//ayPP/1sDL//9+E//7Xdv/tfhz/74Qm/++HK//xiTD/AAAAAO+PNf/ykzX/9Js0//WiMv/9yFj////n////5////9T///3U///4zf//8rj//+ee//7ciP/71HT/+85q//jHYf/3w1v/9sBY//a+Vv/2vVX/9rxU//a7Uf/2u1D/9rpQ//a7Uf/2u1H/9rtR//a7Uf/2vFH/9rtQ//a7UP/2u1D/9rtQ//a7T//1uk7/9bhL//a3R//3tUL/9rQ+//axNf/9y2P///KO//KVL//tgCH/74Uo//GHLf/xiTH/AAAAAO+NNf/xkTb/85g2//WjN//3rDX//+ec////9P///+f////g////3///+9P///W////sqP//45D//tt+//3Uc//7zWn/+ctj//nGXv/4xFz/+cRa//nDWP/5wlf/+cFX//nBV//5wVb/+cJW//nCVv/5wVb/+cFW//nCV//5wVb/+MBU//e+U//4vVH/+LxN//e6R//4tT//+LQ4//zCT///9JP/+LNL/+1+H//vgyb/74Ys//GHMP/xiTL/AAAAAO6LNP/vjzb/8pU1//SgOP/3rDr/+7k4///2zv////f////r////6P///+X///7X///4w///8a3//+qZ///gh///2Xb//tRu//zQaf/8zmT//Mtg//vKX//7yFz/+8dc//vHW//8x1z//Mhc//zHW//7xlr/+8Za//vGWf/7xVn/+8VW//nCVP/5wlH/+b5L//i6Rf/5uD3/+71F///skv/8wVn/7Hwd/+yAJP/uhCn/74Yt/++HMf/viDL/AAAAAO+JNf/vjDb/8pI3//ScOf/3pzz/+7U+//7EPv///Nn////7////8v///+v////n////2v//+8n///a5///upv//55L//+CD///aef//2HL//tRt//3Raf/90Gb//c5k//7NZP/+zWP//s1i//7MYv/+zGH//ctg//3LXv/8x13//MdZ//zGVP/8wlD/+8BJ//y+RP/9yFv//+6a//3IX//seRz/7n8k/+6CKf/uhC3/74Uw/++GMv/vhjP/AAAAAO+IM//vijP/8Y82//OWOP/1ojv/+K4+//y8P///yD7///jY/////P////f////r////5////9v////M///7v///9Kz//+2Y///oi///44P//+B9///adf//2XL//9Zu///WbP//1Wr//9Jq///QZv//0GX//9Bi//7PXv/+zFv//stY//7JVP/9x0z//cJF///Ydv//+KT//sNc/+15Gv/ufiL/7oEo/+6CK//vhC//74Ux/++FMf/vhTL/AAAAAO6FMv/vhjP/74kz//KRNv/0mjn/9qM7//mvPf/8uj7//8g9///yrP////j////9////6////+H////X////y////b3///ev///zof//7JL//+mI///kgf//4Xn//991///dcf//22///9ls///YZ///12b//9Ri///TYP//z1r//85U///KUP//0Fz//+uh///3nP/7tEj/7XYZ/+57If/ufSf/7n8q/++BLv/vgi//74Iw/++CMf/vgjH/AAAAAO2CMv/tgzL/7ocz/++LNP/ykjf/85o5//WjPP/4rT3/+7k+//7DPv//3Wn////o/////f////P////c////z////8T///63///5rP//9KT///GY///tjv//6ob//+h+///kev//43f//99w///ebf//3Gr//9ll///WX///0Vj//9Rj///qnP///7j//99///KTKv/sdxv/7Hoh/+18J//tfir/7n8u/+6BL//ugTD/7oEx/+6BMf/ugTH/AAAAAO2AMP/tgTD/7oIx/+6GMv/vizT/8pI2//OZOP/1oTr/96o7//mzPP/8ujv//cA4///qkv///+P////4////6////9f///+1///+q///+aL///ac///zlP//8Ir//+2F///rf///6Hn//+Vy///ibv//3mX//9tg///miP//87f////B///tkf/5skT/63QW/+x2HP/seiL/7Xsm/+59Kv/ufi3/7n8u/+5/L//ugDD/7oAw/+6AMP/ugDD/AAAAAO1+MP/tfjD/7X8w/+6BMf/uhTP/74k0//GNNv/zkzf/9Jo4//ahOf/3pjn/+Ks4//uvNP/7sC///918///8y////+j////y////4f///9P///7A///4pv//9ZL///GF///tiP//8JP///Kk///2uP///cP////Q////vP//44j/+K1C/+tvFf/sdBr/7Hcg/+14JP/teij/7nsq/+58Lf/ufS//7n0v/+5+MP/ufjD/7n4w/+5+MP/ufjD/AAAAAO1+L//tfi//7X4v/+2AMP/ugjH/7oMx/++GMf/xijP/8o81//OUNf/0mTX/9Zsz//ahM//3ozL/96Ev//efJ//4oy3//9Jr///ro////cH////T////4f///+j////s////4v///9T////D///2qP//3Xv/+bZH/+x4Gv/scxX/7HUa/+x3Hv/teCL/7Xkl/+57KP/ufCv/7n0t/+59Lv/ufS7/7n4v/+5+L//ufi//7n4v/+5+L//ufi//AAAAAOx6Lv/sei7/7Hou/+x8Lv/sfS//7X4v/+1/MP/tgTH/7oUx/++IMf/xijL/8Y0y//KPMf/zkjD/85Iu//ORK//zjif/84wk//GJIv/wgxz/7n4a/+18Fv/tehX/7HYT/+x1FP/schT/63IU/+xzFv/schf/63MZ/+txG//rdB7/7HYh/+13JP/teSb/7Xop/+16K//teyz/7Xst/+18Lv/tfC7/7Xwu/+18Lv/tfC7/7Xwu/+18Lv/tfC7/AAAAAP///////wSRAAAAAAABBJEAAAAAAAEEkQAAAAAAAQSRAAAAAAABBJEAAAAAAAEEkQAAAAAAAQSRAAAAAAABBJEAAAAAAAEEkQAAAAAAAQSRAAAAAAABBJEAAAAAAAEEkQAAAAAAAQSRAAAAAAABBJEAAAAAAAEEkQAAAAAAAQSRAAAAAAABBJEAAAAAAAEEkQAAAAAAAQSRAAAAAAABBJEAAAAAAAEEkQAAAAAAAQSRAAAAAAABBJEAAAAAAAEEkQAAAAAAAQSRAAAAAAABBJEAAAAAAAEEkQAAAAAAAQSRAAAAAAABBJEAAAAAAAEEkQAAAAAAAQSRAAAAAAABBJEAAAAAAAEEkQAAAAAAAQSRAAAAAAABBJEAAAAAAAEEkQAAAAAAAQSRAAAAAAABBJEAAAAAAAEEkQAAAAAAAQSRAAAAAAABBJEAAAAAAAEEkQAAAAAAAQSRAAAAAAABBJEAAAAAAAEEkQAAAAAAAQSRAAAAAAABBJEAAAAAAAEEkSgAAAAgAAAAQAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADlijT/5Yo0/+WKNP/jijP/44oy/+OIMf/jhy//44Uq/+KFKP/igyT/4oAi/+N/HP/jehr/4ngY/+J3Fv/idRT/4XMU/+F1Fv/hdhb/4HcZ/+F4HP/hfyH/4YEk/+GDKP/ihCr/4oYv/+KHMf/iiDL/4ogy/+KIM//iiDP/4ogz/+WLNP/lizT/5Ysz/+OLMv/jiDD/44cs/+KGKv/ihSX/4oEg/+N7Gf/kiiT/6rdX//PVgP/455j//PCk//70qP/+8qj/+/Cg//bllf/w03j/6bNR/+GGIf/fdxj/4H0f/+CBJf/ghCr/4oYs/+KHMP/iijH/4ooy/+KKM//iijP/5Ys0/+WLM//jijL/44gw/+KGLP/hhCn/4YIi/+B5GP/nli//8M54//nuov/235//786H/+zAY//ntEP/5qEv/+ScLv/mrj7/67xc/+7Mfv/025T/+Oie/+/Kcv/lky7/33YY/+B+Iv/ggyj/4YUs/+GGMP/iiDH/4ooy/+KKM//mjDT/5owz/+WKMf/jhyz/4oUo/+KAIP/hdhj/675j//junv/w04v/6bdQ/+WfL//npzf/56s8/+evQP/psUX/6a9D/+etQP/nqDr/56Ux/+SbKf/otE7/7s2J//jpnv/qvGD/33YY/+B+IP/hgyj/4oYr/+KHMf/iizL/4osz/+aMM//mijH/44ct/+KFKP/ifiD/44gm//DRf//y2pH/6LRL/+OdLP/lpDX/5qw+/+exRv/ns0j/6bhM/+q5T//quE//6bpQ/+m2TP/ptUn/6LJH/+apP//lnS//6LRO//HUk//v0ID/4YYl/+B9IP/ggij/4oYs/+KHMf/hijL/5owy/+WILf/ihyn/4YAg/+OHJP/x1oT/7tF+/+OeJf/joS//46c3/+WqPP/mr0L/57FG/+i2Sf/pt0v/6rtP/+q8Uf/rvVb/679X/+q9VP/rvFX/6LtO/+e0SP/lrDr/4Zwq/+vKgP/x1oX/4Igl/+CAIf/ghCn/4oYs/+KKMv/lijL/44cr/+KCJP/gdhj/8NKA/+7PgP/jnyj/4qIz/+KmOP/hqD7/46pC/+OrRP/mr0r/57FL/+i0T//ptVL/6LdR/+m5Vv/qvFr/6sFb/+vAXP/rwVv/6b5X/+e5UP/lrkT/4Z8w/+vIhf/u0IH/33cY/+CBJP/ghSv/4ogw/+WKLP/jhCX/4Hoa/+y/Yv/y3Jn/4p8n/+KkM//hpzn/4qc9/+GnP//hqEL/4alF/+KrRP/jrkn/5a9I/+axTP/ms03/5rNO/+e1Uf/ouFX/6LtZ/+i+Wv/pvlv/6L9Y/+a5T//irkX/4Jwu/+/Ulf/pumH/3nwa/+CDJv/ihiv/44cp/+KAIP/mljD/+Oym/+m1TP/joy//4qMz/+GfMf/goTT/4aQ9/9+jOP/fojb/4KI4/+GoQf/jrEf/5a5I/+WvSv/lr0v/5a1G/+KqQv/krD//5LBC/+S1SP/mtkz/5bhK/+OySP/iqDz/5rRT//Tmnv/hlDL/338g/+CFKf/jhyX/4XkZ//HOeP/w1Y//5aYs/+OmNP/lq0H/+fDh//fo0v/hp0P/7tOj//nv4v/469n/6Lxw/+GpQ//jrEf/4qtH/+OsR//jrEn/8ty5//vz5//9+vX//fr1//v16//369H/7Ml5/+KtPP/gozD/7M2L/+3Jdf/fehr/4IUl/+WCI//niiP/+O6s/+u4Tv/mqDT/46c3/+WrQv///////fnz/+OnQ//z3rz///////Xlyf/gpDz/4ahF/+KrSP/jq0f/46pF/+atTv/9+fP///////z27P/89uz//////////////vz/7c6E/+GoOv/ms1P/9Oij/+OKJf/hgiP/5X8d/+25Vv/246j/6agu/+erO//lqTv/5a1D///////79ez/4KVA//Lbtv//////9ubJ/9+jOv/hqUX/4apG/+KrR//iqkb/4qlF/+zJjf/pvGz/4qxM/+GrSf/nu2r/+/Tn///////47Nv/4qo3/+CiL//x257/6bVY/+KAHv/ifhv/89iL//LVjP/prjb/57BA/+aqP//mrUf///////z27P/goz7/8tu1///////25sv/3qE4/9+nRv/fqEb/4KlH/+KqRv/gp0P/4KY//9+lP//epED/3qNA/92gOf/nv3D///79//79+//hqDX/4qc2/+zMiP/v0YP/4YEb/+J7F//46q//8Mhy/+u2Q//otEb/5q9D/+aySP//////+/bs/9+jPv/x2rX///////blx//cmzP/3qE+/9+jP//fpUL/36ZE/9+mRf/gp0X/36ZF/96lQ//do0H/3KE6/+OxVP///v3//////+GnNP/iqjn/6L9j//Tknv/hfxn/4noX//vzw//uw2H/7LlP/+i4Uf/msUf/5rNO///////79uz/3qM+//Hatf//////8ty4/+KuW//ktGT/5LZo/+CoSv/cnjb/3aI//96kQv/do0P/3aNC/9yeOP/fokL/9OTG///////369n/4KQz/+KnO//msUX/+PCu/+F+Gv/kdhX/+/jR/+/CVf/twVv/671b/+i0T//ntlX///////v27P/foz//8dq1////////////////////////////+vPo//Hat//dnj3/25w6/9ydOf/cmjf/6seJ//rx5P///////////+jAe//gpTr/46k+/+SnNP/697X/4XsY/+J5FP/7+dX/78Zg/+3FZf/rwWL/6LhZ/+i5XP//////+/bt/9+kQf/w2rT///////v07P/16dP/9+nV//ry5/////////////fq2P/clzL/5LVo//nv4v////////////z48P/nvnX/354z/+GoPf/jqTv/5acx//r3tP/heRf/4noW//v1z//x0oL/7stv/+3Gbf/pv1//6cBh///////89u3/4KhE//Hbt///////9uXI/9mTK//aljT/3qNB/+3Nmf///v7///////Xnzf/9+vf////////////048j/4q1R/96hNf/hpDr/4qk+/+OqOf/oskX/+fKt/+F7Gf/kexb/+e7B//Xdpf/v0nj/7st4/+vFaf/rxWr///////z27f/gp0P/8dy2///////25cr/2pk1/9ufP//anDz/2pQs//fo0//////////////////68ub/57xz/92cMP/eoz3/4KZB/+GoPv/iqTr/5ag0/+rAXf/25qD/4XoY/+aAG//346z/9+nB//PWg//w1Ij/7Mp4/+3Jd////////Pfu/+GqRP/y3br///////bmy//bmzj/3KBB/9yfPv/alSz/9+rU/////////////v78/+e4Zv/enTT/36RC/+CmRP/hp0L/4ac8/+OpOP/lpi7/79GF//LTgv/jeRr/5YMg//HMfv/58NP/9NuP//HZk//u0Yf/7tGF///////89+//4qtG//Pfuv//////9uXH/9ueM//cnjf/3Zs1/+3Mk//+/vz//////////////vz/57Zj/96cMv/gozr/4KU7/+ChNP/gpDb/46gz/+aiKP/04Z3/67RW/+J7Gv/miCb/6qIx//v01v/357j/9OCi//HZlf/x2ZD///////348P/jrUr/9OG9///////57dn/8NWj//LeuP/47Nf////////////78ub/+vHk///////78ub/7smL/+e2V//txoL/9uLD/+q+bP/lpCz/6LZM//juof/liCT/4X4g/+aOLP/mjSD/9+W3//nw1v/35aj/9OCl//rx2f///////vv2/+SyUv/358j////////////////////////////+/vz/+OvV/+a0V//ouGD//Pfu////////////////////////////8tWg/+WhJP/w1YX/8Mxy/+B1Gf/hfyH/5o4w/+iUKv/vvFX/+/be//jsyv/04KP/9ue+//blvP/y4a3/7dB6//DYlf/z3q7/8tun//Lbqf/x16D/7syI/+vCb//lsEb/5a1K/+WvRP/pt1z/8dSg//flxv/67tz/9+XF//PXpv/rtE3/67ZL//jsof/nkyz/4Xkg/+GAJ//mjTH/55Qv/+qZJf/44bf/+/Th//jtvv/367v/9Oay//LdnP/w1Yr/7c51/+vGY//qwFz/6bxT/+m6Uv/ptlT/6LZS/+i1T//ntlP/57RM/+exS//nrUH/5qo4/+anMP/loC7/5aAn/+ajJf/03pj/7b5d/99tFf/gfST/4X4n/+aMNP/olDP/6Z8x/+uiJ//679H/+/Ph//nwyP/57cT/9+m3//Xlqv/z3pj/8tmM//DUgf/vznH/7sxx/+7Ia//tx2b/7cVl/+3DYf/swF3/671Z/+u7VP/suE//6rVF/+uxPf/qqCv/8dSH//LRgP/eaxT/4Hog/+B/K//igCr/5ow0/+iUM//pnDX/66Yy//DARv/789r/+/bj//rxyf/578b/+Oy5//fpr//1457/896S//HZgv/x1n3/8dN1//DOb//vzGf/7spm/+7GYf/vxVr/7sBV/+y7TP/tuED/7LA4//LWjf/02If/44Ei/+BzG//geyT/4X8r/+KBLf/mhzT/5481/+mYNv/roDn/7Kgy//DES//78tj//Pnp//z02P/78cL/+e66//jrr//36KP/9+OU//Teiv/02oT/89d8//PUc//yz2//8cxl//DIXP/vw1X/7rxG//DHZP/45bL/9NWC/+OAIf/gch3/4Hsk/+F8KP/igC//4oEv/+OFMv/ljDP/55E1/+mZN//rpDn/7Kow/+6uKf/66cT//frn//z44v/7887/+u+p//nto//46Jj/9+WP//fhh//13n7/9Nlz//TWa//x0lz/8ctT//LTeP/34rP/+vC3/+/EY//eZxL/33IZ/997Jv/gfCf/4X0q/+GCMP/hgC//44Ez/+WFMv/mizT/55E2/+mZNv/rojj/7aY3/+2jKP/xyV3/++3J//375P/9+uP//PbT//vxwf/57KX/+OaH//jjef/434r/+OKl//nquf/778f/+/XF//TWhf/okiz/3mkX/99yHv/geCP/4Xwr/+F8K//hfCz/4X8x/+F+L//ifzH/44Ix/+WFMv/mizT/5440/+mVNP/qmTX/6psx/+qaK//qliP/7q02//fXjv/77L3//fjP//783////uj///7j//781v/89cH/+OOd/+/CWv/lhSD/32QR/+BuF//gdiL/4Hgj/+F5Jv/hfCz/4X0s/+F8LP/hfjL/4X0t/+J8L//jfS//438w/+WBMf/lhDH/5oky/+eLMv/ojjD/540t/+eNKv/niCP/5YAa/+V4GP/kcRH/4msQ/+JnDf/hZAz/4WMN/+FmD//fYxH/32kT/+BvGv/gch3/4HMg/+F4J//heCb/4Xgp/+F8Lf/heyv/4Xos/+F8MP/heyz/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAEAAAACAAAAABACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOutAP/uuwD/78AD//DDC//xxA//8cUU//LIGf/yyyT/89Av//XURv/22lf/9txe//TWSv/uvAz/AAAAAOytAP/uswD/77kA/++7AP/vuQD/8LgA/+64AP/utgD/77gA//C7AP/wwAH/8skZ//TRN//12FD/9NI9/+y3AP/srAD/660A/+qsAP/qqgD/66kA/+upAP/srQD/7KwA/+uqAP/qqAD/6KQA/+inAP/qswD/78MS//LLKf/xxRL/66wA/+mlAP/nowD/5ZwA/+WbAP/nowD/6qoA/+unAP/qpwD/56IA/+WfAP/jmwD/4ZgA/+WjAP/suwD/8MMH/+qpAP/knAD//////+axMP/lmwD//////+u4JP/nnwD/6KAA//XcoP/++/j//vr1//Tesv/jowD/458A/+u1AP/ppwD/4pYA///////kskv/5ZsA///////diwD/5ZsA/+afAP/uvTf/5qwb/+KoI//89u7/9N6x/+CTAP/npwD/6aoA/+CSAP//////4apB/+WbAP//////1HcA/9yIAP/hkAD/4Y8A/9l7AP/PZQD/8NSk//rx4f/ilAD/5ZwA/+mwAP/gkwD//////+CoOf/lmwD/////////////////57Ep/9l/AP/YhAD/8NSk/////v//vjP/45wA/+aeAP/ruy3/4JwA///////grE7/5ZsA///////mt17/47FB///////ltlL/+OvU///////w1KT/4aIB/+OcAP/psBj/6r5B/+CjGP//////4LBl/+WbAP//////yWUA/8t0AP/ltlL///////ny6f/gqlL/2YsA/+GbAP/orBT/6a4S/+zHUv/gpQ///////+KzZ//lmwD//////857AP/OewD/+uXE///////pypv/z3YA/9uTAP/kpAv/56oM/+muEP/w0G3/6cJU///////lvHT/5ZsA//////////////////ny6f/pypv//v7+////////////89ib/+WjAP/prRD/8+Gf//DSc//szHf/47E0/+OxQf/ltlL/5bZS/+W2Uv/cnhb/2pMA/+W2Uv/ltlL/5bZS/+enBf/npwX/6aoM//nwyv/z3Yn/7Mpb/+nAMv/mtiv/5KwS/+OpGP/jpwf/5KoW/+WsG//ipQz/4qMF/+OiAf/lqAz/6KwQ/+ipDP/9993/+fC8//blnP/y2Gf/8NBb/+7JQ//uxUv/68I1/+vBOv/rwDf/6703/+u7L//qtyT/6rYo/+itD//y1Gf/AAAAAPz3zP/68b7/9+iS//Xggv/z2F//8tRn//LUZ//y1Gf/8tRn//LUZ//y1Gf/8tRn//LUZ//y1Gf/AAAAAIABnEEAAJxBAACcQQAAnEEAAJxBAACcQQAAnEEAAJxBAACcQQAAnEEAAJxBAACcQQAAnEEAAJxBAACcQYABnEEL</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Создание задачи</value>
+  </data>
+  <data name="&gt;&gt;cbTaskType.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lbDays.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cbTaskType.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAPAAAAuAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;numHours.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbImmediatly.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tbEventName.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;numHours.Name" xml:space="preserve">
+    <value>numHours</value>
+  </data>
+  <data name="&gt;&gt;numHours.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="numHours.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="$this.ClientSize" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACACAAB7AQAACw==</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cbServerName.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAPAAAAfQAAAAs=</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbDate.Text" xml:space="preserve">
+    <value>Введите числа и/или диапазоны чисел, разделённые запятыми.
+Например 1,3, 5-12</value>
+  </data>
+  <data name="lbDate.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABUBAAAnAAAACw==</value>
+  </data>
+  <data name="label2.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAHkAAAANAAAACw==</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Наименование задачи</value>
+  </data>
+  <data name="lbDate.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAALAQAA0AAAAAs=</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Расписание задачи</value>
+  </data>
+  <data name="label3.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAGoAAAANAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;cbTaskType.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Выполняемая задача</value>
+  </data>
+  <data name="label1.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAHQAAAANAAAACw==</value>
+  </data>
+  <data name="label4.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAEoAAAANAAAACw==</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Имя сервера</value>
+  </data>
+  <data name="&gt;&gt;lblStep.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dtSchedule.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Периодичность</value>
+  </data>
+  <data name="label5.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAFUAAAANAAAACw==</value>
+  </data>
+  <data name="cbTask.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAUCAAAVAAAACw==</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="btnCancel.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAHkAAAAbAAAACw==</value>
+  </data>
+  <data name="dtSchedule.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAPAAAA4wAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;lbDays.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lbDate.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnOK.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAcAQAAUAEAAAs=</value>
+  </data>
+  <data name="&gt;&gt;clbWeek.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Name" xml:space="preserve">
+    <value>btnOK</value>
+  </data>
+  <data name="&gt;&gt;dtSchedule.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;lbDays.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblStep.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbImmediatly.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAO4AAAAvAAAACw==</value>
+  </data>
+  <data name="cbImmediatly.Text" xml:space="preserve">
+    <value>Немедленно запускать задачу, если пропущен плановый запуск</value>
+  </data>
+  <data name="&gt;&gt;clbWeek.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbTaskType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbTaskType.Name" xml:space="preserve">
+    <value>cbTaskType</value>
+  </data>
+  <data name="&gt;&gt;lbDays.Name" xml:space="preserve">
+    <value>lbDays</value>
+  </data>
+  <data name="&gt;&gt;lbDays.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblStep.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cbTask.Anchor" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BbmNob3JTdHlsZXMBAAAAB3ZhbHVlX18ACAIAAAANAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;cbImmediatly.Name" xml:space="preserve">
+    <value>cbImmediatly</value>
+  </data>
+  <data name="&gt;&gt;cbImmediatly.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbDays.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="cbServerName.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;lblStep.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblStep.Name" xml:space="preserve">
+    <value>lblStep</value>
+  </data>
+  <data name="cbImmediatly.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;cbTask.Name" xml:space="preserve">
+    <value>cbTask</value>
+  </data>
+  <data name="&gt;&gt;cbTask.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="clbWeek.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAYBAABAAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;btnOK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cbTaskType.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lbDays.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAEMAAAANAAAACw==</value>
+  </data>
+  <data name="lbDays.Text" xml:space="preserve">
+    <value>Дни недели</value>
+  </data>
+  <data name="&gt;&gt;dtSchedule.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtSchedule.Name" xml:space="preserve">
+    <value>dtSchedule</value>
+  </data>
+  <data name="&gt;&gt;btnOK.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="btnCancel.Anchor" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BbmNob3JTdHlsZXMBAAAAB3ZhbHVlX18ACAIAAAAKAAAACw==</value>
+  </data>
+  <data name="tbDate.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="label2.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAMAAAAOwAAAAs=</value>
+  </data>
+  <data name="label1.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAMAAAACQAAAAs=</value>
+  </data>
+  <data name="dtSchedule.CustomFormat" xml:space="preserve">
+    <value>HH:mm dd/MM/yyyy</value>
+  </data>
+  <data name="&gt;&gt;tbDate.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnOK.Anchor" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BbmNob3JTdHlsZXMBAAAAB3ZhbHVlX18ACAIAAAAKAAAACw==</value>
+  </data>
+  <data name="lbDate.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tbDate.Name" xml:space="preserve">
+    <value>tbDate</value>
+  </data>
+  <data name="&gt;&gt;tbDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbDate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;clbWeek.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clbWeek.Name" xml:space="preserve">
+    <value>clbWeek</value>
+  </data>
+  <data name="&gt;&gt;tbDate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tbEventName.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAPAAAATAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStep.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;lbDate.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbDays.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;cbServerName.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbDays.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAALAQAA0wAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;cbServerName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label3.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAMAAAAmwAAAAs=</value>
+  </data>
+  <data name="cbTaskType.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAO4AAAAVAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>TimedEventPropertiesForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.MinimumSize" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAADACAAB8AQAACw==</value>
+  </data>
+  <data name="tbDate.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAABIBAAAUAAAACw==</value>
+  </data>
+  <data name="tbEventName.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAUCAAAUAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="clbWeek.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="btnOK.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="lblStep.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAACMAAAANAAAACw==</value>
+  </data>
+  <data name="lblStep.Text" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;tbEventName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cbServerName.Anchor" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BbmNob3JTdHlsZXMBAAAAB3ZhbHVlX18ACAIAAAANAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="cbServerName.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAUCAAAVAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.StartPosition" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Gb3JtU3RhcnRQb3NpdGlvbgEAAAAHdmFsdWVfXwAIAgAAAAQAAAAL</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="numHours.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAO4AAAAUAAAACw==</value>
+  </data>
+  <data name="numHours.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAPAAAA4wAAAAs=</value>
+  </data>
+  <data name="cbImmediatly.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tbEventName.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="tbEventName.Anchor" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BbmNob3JTdHlsZXMBAAAAB3ZhbHVlX18ACAIAAAANAAAACw==</value>
+  </data>
+  <data name="lblStep.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAMAAAA0AAAAAs=</value>
+  </data>
+  <data name="numHours.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label4.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAMAAAAbAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;cbTask.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="clbWeek.Anchor" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BbmNob3JTdHlsZXMBAAAAB3ZhbHVlX18ACAIAAAAPAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;cbTask.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5TaXplRgIAAAAFd2lkdGgGaGVpZ2h0AAALCwIAAAAAAMBAAABQQQs=</value>
+  </data>
+  <data name="&gt;&gt;cbServerName.Name" xml:space="preserve">
+    <value>cbServerName</value>
+  </data>
+  <data name="&gt;&gt;cbServerName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnOK.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="btnOK.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAHkAAAAbAAAACw==</value>
+  </data>
+  <data name="label5.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAMAAAAqAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;numHours.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tbDate.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAOAQAABQEAAAs=</value>
+  </data>
+  <data name="clbWeek.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAOAQAA4wAAAAs=</value>
+  </data>
+</root>

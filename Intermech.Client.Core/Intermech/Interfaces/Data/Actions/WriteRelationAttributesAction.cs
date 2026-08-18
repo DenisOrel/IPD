@@ -1,0 +1,36 @@
+﻿
+// Type: Intermech.Interfaces.Data.Actions.WriteRelationAttributesAction
+// Assembly: Intermech.Client.Core, Version=7.0.2.1112, Culture=neutral, PublicKeyToken=null
+// MVID: 7B8171F9-1AF1-4B71-8ADB-BCA094F21940
+:\IPS\Client\Intermech.Client.Core.dll
+// XML documentation location: D:\IPS\Client\Intermech.Client.Core.xml
+
+using Intermech.Localization;
+using System;
+using System.Collections.Generic;
+
+
+namespace Intermech.Interfaces.Data.Actions;
+
+public sealed class WriteRelationAttributesAction : WriteAttributesActionBase
+{
+  private readonly IDBRelationRef relationRef;
+
+  public WriteRelationAttributesAction(
+    IDBRelationRef relationRef,
+    params AttributeValues[] attrValues)
+    : base(attrValues)
+  {
+    this.relationRef = relationRef != null ? relationRef : throw new ArgumentNullException();
+  }
+
+  protected override Dictionary<string, Exception> PerformWrite()
+  {
+    Guid relationGuid = this.relationRef.GetRelationGuid();
+    long projectId = this.relationRef.GetProjectId();
+    using (SessionKeeper sessionKeeper = new SessionKeeper())
+      return sessionKeeper.Session.GetRelation(relationGuid, projectId, true).SetAttributesValuesEx(this.attrValues, false, true, false, GetAttributeValuesModes.None);
+  }
+
+  protected override string GetActionName() => LocalizationHolder.rm.GetString("SR_1658");
+}

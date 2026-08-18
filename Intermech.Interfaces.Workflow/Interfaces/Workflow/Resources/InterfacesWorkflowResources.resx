@@ -1,0 +1,1648 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="HasForm" xml:space="preserve">
+    <value>Назначена форма</value>
+  </data>
+  <data name="ErrOnCheckIn" xml:space="preserve">
+    <value>При сохранении изменений в архивную копию произошла ошибка:</value>
+  </data>
+  <data name="ErrLaunchCheckedOutScheme" xml:space="preserve">
+    <value>Нельзя создать процесс в режиме "Создавать действия процессов по факту выполнения", т.к. шаблон процесса "{0}" взят на изменение пользователем "{1}". Для успешного запуска требуется вернуть шаблон в архив или отменить изменения.</value>
+  </data>
+  <data name="Workflow.Design_5" xml:space="preserve">
+    <value>Смотреть процесс</value>
+  </data>
+  <data name="Workflow.Design_4" xml:space="preserve">
+    <value>Выполненные процессы</value>
+  </data>
+  <data name="Workflow.Design_7" xml:space="preserve">
+    <value>Свойства действия</value>
+  </data>
+  <data name="Workflow.Design_6" xml:space="preserve">
+    <value>Свойства</value>
+  </data>
+  <data name="Workflow.Design_1" xml:space="preserve">
+    <value>Время работы</value>
+  </data>
+  <data name="Workflow.Design_3" xml:space="preserve">
+    <value>Прерванные процессы</value>
+  </data>
+  <data name="Workflow.Design_2" xml:space="preserve">
+    <value>Выполняющиеся процессы</value>
+  </data>
+  <data name="Workflow.Design_9" xml:space="preserve">
+    <value>Свойства процесса</value>
+  </data>
+  <data name="Workflow.Design_8" xml:space="preserve">
+    <value>Свойства шаблона процесса</value>
+  </data>
+  <data name="Workflow.Editor_17" xml:space="preserve">
+    <value>Настройки редактора...</value>
+  </data>
+  <data name="Workflow.Editor_15" xml:space="preserve">
+    <value>Выровнять по сетке</value>
+  </data>
+  <data name="Workflow.Editor_14" xml:space="preserve">
+    <value>Проверить корректность</value>
+  </data>
+  <data name="Workflow.Editor_13" xml:space="preserve">
+    <value>Шаблон</value>
+  </data>
+  <data name="Workflow.Editor_12" xml:space="preserve">
+    <value>Шаблон процесса</value>
+  </data>
+  <data name="Workflow.Editor_11" xml:space="preserve">
+    <value>Невозможно загрузить плагин "{0}": серверная часть маршрутизатора не загружена!</value>
+  </data>
+  <data name="Workflow.Editor_10" xml:space="preserve">
+    <value>Интерфейс лицензий не найден</value>
+  </data>
+  <data name="Workflow.Editor_19" xml:space="preserve">
+    <value>Отменить изменения </value>
+  </data>
+  <data name="Workflow.Editor_18" xml:space="preserve">
+    <value>Шаблоны процессов</value>
+  </data>
+  <data name="BriefcaseImportErr" xml:space="preserve">
+    <value>При импорте портфеля произошли следующие ошибки:</value>
+  </data>
+  <data name="ImportPrompt" xml:space="preserve">
+    <value>Импортировать {0} "{1}" из файла "{2}"?</value>
+  </data>
+  <data name="Workflow.Editor_5" xml:space="preserve">
+    <value>Завершить изменение </value>
+  </data>
+  <data name="Workflow.Editor_1" xml:space="preserve">
+    <value>Отменить изменения </value>
+  </data>
+  <data name="Workflow.Editor_8" xml:space="preserve">
+    <value>Завершить изменение</value>
+  </data>
+  <data name="Workflow.Editor_9" xml:space="preserve">
+    <value>Редактор шаблонов процессов</value>
+  </data>
+  <data name="CheckingSigns" xml:space="preserve">
+    <value>Проверка подписей...</value>
+  </data>
+  <data name="WOCompleted" xml:space="preserve">
+    <value>Невозможно выполнить операцию: задание "{0}" не найдено, вероятно оно уже было принято к выполнению или удалено.</value>
+  </data>
+  <data name="AccessRightProcessAdmin" xml:space="preserve">
+    <value>Администрировать процесс</value>
+  </data>
+  <data name="PortalReturnProcessPrefix" xml:space="preserve">
+    <value>Возврат в процесс</value>
+  </data>
+  <data name="Interfaces.Workflow_ObjectReference" xml:space="preserve">
+    <value>Вас упомянули в обсуждении объекта &lt;a href ="#object={0}"&gt;{1} {2}&lt;/a&gt;</value>
+  </data>
+  <data name="Workflow.Design_UserComboEmpty" xml:space="preserve">
+    <value>Выпадающий список пользователей требует обязательного выбора. Не выбран ни один пользователь.</value>
+  </data>
+  <data name="Workflow.Editor_CheckIn2" xml:space="preserve">
+    <value>Завершить изменение шаблонов процессов ({0})?</value>
+  </data>
+  <data name="ErrExecActsPrompt" xml:space="preserve">
+    <value>Удалить ошибочные действия?</value>
+  </data>
+  <data name="InProcesses" xml:space="preserve">
+    <value>процессах</value>
+  </data>
+  <data name="SettingsPropertyPageAutoLaunch" xml:space="preserve">
+    <value>Автоматический запуск процессов</value>
+  </data>
+  <data name="LCStep" xml:space="preserve">
+    <value>шаг ЖЦ</value>
+  </data>
+  <data name="Interfaces.Workflow_MentionInDiscussion" xml:space="preserve">
+    <value>Упоминание в обсуждении.</value>
+  </data>
+  <data name="CantAddVarNameAlreadyExists" xml:space="preserve">
+    <value>Невозможно добавить переменную: 
+Имя переменной не должно пересекаться с именами уже заведенных атрибутов в IPS.</value>
+  </data>
+  <data name="Workflow.Design_AllObjects" xml:space="preserve">
+    <value>Все объекты</value>
+  </data>
+  <data name="RecallEvent" xml:space="preserve">
+    <value>Отзыв выполняющихся</value>
+  </data>
+  <data name="ShortNotifyName" xml:space="preserve">
+    <value>Ф</value>
+  </data>
+  <data name="ErrExecActsFound" xml:space="preserve">
+    <value>В шаблоне обнаружены выполняющиеся действия ({0}), которые могут приводить к некорректной работе шаблона и порожденных процессов.</value>
+  </data>
+  <data name="ExecScriptError" xml:space="preserve">
+    <value>Ошибка выполнения сценария: {0}</value>
+  </data>
+  <data name="AutoStartedDesc" xml:space="preserve">
+    <value>Запущено автоматически</value>
+  </data>
+  <data name="Workflow.Design_151" xml:space="preserve">
+    <value>Форма</value>
+  </data>
+  <data name="Workflow.Design_153" xml:space="preserve">
+    <value>Список пользователей</value>
+  </data>
+  <data name="Workflow.Design_152" xml:space="preserve">
+    <value>Дерево пользователей</value>
+  </data>
+  <data name="Workflow.Design_155" xml:space="preserve">
+    <value>Предоставляет возможность выбрать пользователей и записывает результат выбора в выходную переменную</value>
+  </data>
+  <data name="Workflow.Design_154" xml:space="preserve">
+    <value>Групповой переключатель</value>
+  </data>
+  <data name="Workflow.Design_157" xml:space="preserve">
+    <value>Групповой переключатель</value>
+  </data>
+  <data name="Workflow.Design_156" xml:space="preserve">
+    <value>Выпадающий список пользователей</value>
+  </data>
+  <data name="Workflow.Design_159" xml:space="preserve">
+    <value>Свойства</value>
+  </data>
+  <data name="Workflow.Design_158" xml:space="preserve">
+    <value>Смотреть процесс</value>
+  </data>
+  <data name="Workflow.Design_142" xml:space="preserve">
+    <value>Тип объекта</value>
+  </data>
+  <data name="Workflow.Design_143" xml:space="preserve">
+    <value>'{0} {1}' после начала выполнения действия</value>
+  </data>
+  <data name="Workflow.Design_144" xml:space="preserve">
+    <value>Шаблоны процессов</value>
+  </data>
+  <data name="Workflow.Design_145" xml:space="preserve">
+    <value>Шаблоны процессов</value>
+  </data>
+  <data name="Workflow.Design_146" xml:space="preserve">
+    <value>Шаблоны процессов</value>
+  </data>
+  <data name="Workflow.Design_147" xml:space="preserve">
+    <value>Шаблон процесса "{0}" был изменён. Сохранить изменения?</value>
+  </data>
+  <data name="Workflow.Design_148" xml:space="preserve">
+    <value>Сохранить?</value>
+  </data>
+  <data name="Workflow.Design_149" xml:space="preserve">
+    <value>Вы действительно хотите удалить форму?</value>
+  </data>
+  <data name="Workflow.Design_173" xml:space="preserve">
+    <value>Цитата </value>
+  </data>
+  <data name="Workflow.Design_172" xml:space="preserve">
+    <value>Открыть обсуждаемый объект в новом окне</value>
+  </data>
+  <data name="Workflow.Design_171" xml:space="preserve">
+    <value>Объект с Guid="{}"</value>
+  </data>
+  <data name="Workflow.Design_170" xml:space="preserve">
+    <value>&lt;small&gt;Дата последней модификации сообщения {0}&lt;/small&gt;</value>
+  </data>
+  <data name="Workflow.Design_177" xml:space="preserve">
+    <value>Открыть обсуждение в новом окне</value>
+  </data>
+  <data name="Workflow.Design_176" xml:space="preserve">
+    <value>Открыть объект в новом окне</value>
+  </data>
+  <data name="Workflow.Design_175" xml:space="preserve">
+    <value>Пользователь с GUID={0} (цитата)</value>
+  </data>
+  <data name="Workflow.Design_174" xml:space="preserve">
+    <value>{0} (цитата)</value>
+  </data>
+  <data name="Workflow.Design_179" xml:space="preserve">
+    <value>Ссылка на объект</value>
+  </data>
+  <data name="Workflow.Design_178" xml:space="preserve">
+    <value>Перейти по ссылке</value>
+  </data>
+  <data name="Workflow.Design_162" xml:space="preserve">
+    <value>Обсуждение видимого состава. На один уровень</value>
+  </data>
+  <data name="Workflow.Design_163" xml:space="preserve">
+    <value>Обсуждение видимого состава. На все уровни</value>
+  </data>
+  <data name="Workflow.Design_160" xml:space="preserve">
+    <value>Обсуждение версии объекта</value>
+  </data>
+  <data name="Workflow.Design_161" xml:space="preserve">
+    <value>Обсуждение всех версий объекта</value>
+  </data>
+  <data name="Workflow.Design_166" xml:space="preserve">
+    <value>Пользователь с GUID="{0}"</value>
+  </data>
+  <data name="Workflow.Design_167" xml:space="preserve">
+    <value>&lt;a href="#change={0};{1}" title="Изменить сообщение"&gt;Изменить&lt;a&gt;</value>
+  </data>
+  <data name="Workflow.Design_164" xml:space="preserve">
+    <value>Обсуждение изменений по извещению/контексту {0}</value>
+  </data>
+  <data name="Workflow.Design_165" xml:space="preserve">
+    <value>Содержимое обсуждения</value>
+  </data>
+  <data name="Workflow.Design_168" xml:space="preserve">
+    <value>&lt;a href="#delete={0};{1}" title="Удалить сообщение"&gt;Удалить&lt;a&gt;</value>
+  </data>
+  <data name="Workflow.Design_169" xml:space="preserve">
+    <value>&lt;a href="#answer={0};{1}"&gt;Ответить&lt;/a&gt;</value>
+  </data>
+  <data name="Workflow.Design_115" xml:space="preserve">
+    <value>Вычислено, результат: </value>
+  </data>
+  <data name="Workflow.Design_114" xml:space="preserve">
+    <value>Ложь</value>
+  </data>
+  <data name="Workflow.Design_117" xml:space="preserve">
+    <value>Вычисление данного выражения возможно только на этапе выполнения процесса!</value>
+  </data>
+  <data name="Workflow.Design_116" xml:space="preserve">
+    <value>Вычисленное выражение не логического типа!</value>
+  </data>
+  <data name="Workflow.Design_111" xml:space="preserve">
+    <value>Прикрепление вложений</value>
+  </data>
+  <data name="Workflow.Design_110" xml:space="preserve">
+    <value>Не все выбранные объекты можно отправлять по процессу. Следующие типы объектов не могут быть прикреплены и были отфильтрованы:  
+</value>
+  </data>
+  <data name="Workflow.Design_113" xml:space="preserve">
+    <value>Истина</value>
+  </data>
+  <data name="Workflow.Design_112" xml:space="preserve">
+    <value>Вычислено, результат: Ложь</value>
+  </data>
+  <data name="Workflow.Design_119" xml:space="preserve">
+    <value>Проверка условия</value>
+  </data>
+  <data name="Workflow.Design_118" xml:space="preserve">
+    <value>Ошибка вычисления выражения: </value>
+  </data>
+  <data name="Workflow.Design_104" xml:space="preserve">
+    <value>Действие Старт не найдено!</value>
+  </data>
+  <data name="Workflow.Design_105" xml:space="preserve">
+    <value>Задание условия</value>
+  </data>
+  <data name="Workflow.Design_106" xml:space="preserve">
+    <value>Выбор шаблона</value>
+  </data>
+  <data name="Workflow.Design_100" xml:space="preserve">
+    <value>Шаблон процесса</value>
+  </data>
+  <data name="Workflow.Design_101" xml:space="preserve">
+    <value>Не все выбранные объекты можно отправлять по процессу. Следующие типы объектов не могут быть прикреплены и были отфильтрованы:  
+</value>
+  </data>
+  <data name="Workflow.Design_102" xml:space="preserve">
+    <value>. 
+Игнорировать отфильтрованные объекты и запустить процесс?</value>
+  </data>
+  <data name="Workflow.Design_103" xml:space="preserve">
+    <value>Прикрепление вложений</value>
+  </data>
+  <data name="Workflow.Design_108" xml:space="preserve">
+    <value>Выбор объектов</value>
+  </data>
+  <data name="Workflow.Design_109" xml:space="preserve">
+    <value>Объекты</value>
+  </data>
+  <data name="Workflow.Design_137" xml:space="preserve">
+    <value>Копировать</value>
+  </data>
+  <data name="Workflow.Design_136" xml:space="preserve">
+    <value>Вырезать</value>
+  </data>
+  <data name="Workflow.Design_134" xml:space="preserve">
+    <value>Подпроцесс...</value>
+  </data>
+  <data name="Workflow.Design_133" xml:space="preserve">
+    <value>Удалить форму</value>
+  </data>
+  <data name="Workflow.Design_132" xml:space="preserve">
+    <value>Редактировать форму</value>
+  </data>
+  <data name="Workflow.Design_131" xml:space="preserve">
+    <value>Смотреть форму</value>
+  </data>
+  <data name="Workflow.Design_130" xml:space="preserve">
+    <value>Создать связь</value>
+  </data>
+  <data name="Workflow.Design_139" xml:space="preserve">
+    <value>Свойства</value>
+  </data>
+  <data name="Workflow.Design_138" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="Workflow.Design_127" xml:space="preserve">
+    <value>Копия </value>
+  </data>
+  <data name="Workflow.Design_124" xml:space="preserve">
+    <value>Действие не до конца определено:  
+</value>
+  </data>
+  <data name="Workflow.Design_125" xml:space="preserve">
+    <value>Коллектор</value>
+  </data>
+  <data name="Workflow.Design_122" xml:space="preserve">
+    <value>&amp;Готово</value>
+  </data>
+  <data name="Workflow.Design_123" xml:space="preserve">
+    <value>&amp;Далее &gt;</value>
+  </data>
+  <data name="Workflow.Design_121" xml:space="preserve">
+    <value>Ошибка выполнения сценария [{0}]: </value>
+  </data>
+  <data name="Workflow.Design_128" xml:space="preserve">
+    <value>НЕ </value>
+  </data>
+  <data name="Workflow.Design_129" xml:space="preserve">
+    <value>Создать обратную связь</value>
+  </data>
+  <data name="Workflow.Design_194" xml:space="preserve">
+    <value>Ошибка получения списка опубликованных шаблонов процессов узла портала "{0}":
+
+</value>
+  </data>
+  <data name="Workflow.Design_197" xml:space="preserve">
+    <value>Обсуждения</value>
+  </data>
+  <data name="Workflow.Design_191" xml:space="preserve">
+    <value>Тип не поддерживается</value>
+  </data>
+  <data name="Workflow.Design_190" xml:space="preserve">
+    <value>Пользователь с guid={0}</value>
+  </data>
+  <data name="Workflow.Design_193" xml:space="preserve">
+    <value>Ссылка на сообщение</value>
+  </data>
+  <data name="Workflow.Design_192" xml:space="preserve">
+    <value>Выберите сообщения из обсуждений</value>
+  </data>
+  <data name="Workflow.Design_188" xml:space="preserve">
+    <value>Удалить сообщение из обсуждения?</value>
+  </data>
+  <data name="Workflow.Design_189" xml:space="preserve">
+    <value>Удаление</value>
+  </data>
+  <data name="Workflow.Design_184" xml:space="preserve">
+    <value>Загрузка изображения</value>
+  </data>
+  <data name="Workflow.Design_185" xml:space="preserve">
+    <value>Все файлы({0})|{0}</value>
+  </data>
+  <data name="Workflow.Design_186" xml:space="preserve">
+    <value>Невозможно открыть файл </value>
+  </data>
+  <data name="Workflow.Design_187" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="Workflow.Design_180" xml:space="preserve">
+    <value>Выберите объект</value>
+  </data>
+  <data name="Workflow.Design_181" xml:space="preserve">
+    <value>Сообщение из обсуждения {0}</value>
+  </data>
+  <data name="Workflow.Design_182" xml:space="preserve">
+    <value>Сортировать по убыванию</value>
+  </data>
+  <data name="Workflow.Design_183" xml:space="preserve">
+    <value>Сортировать по возрастанию</value>
+  </data>
+  <data name="PortalRemoteExecError" xml:space="preserve">
+    <value>Ошибка выполнения на удаленном узле:</value>
+  </data>
+  <data name="ReplaceParticipantEvent" xml:space="preserve">
+    <value>Замена исполнителя "{0}" на "{1}"</value>
+  </data>
+  <data name="WasCheckedOutWarning" xml:space="preserve">
+    <value>Некоторые изменения могли быть записаны напрямую в рабочие копии объектов и не были отменены, т.к. шаблон был взят на изменение до открытия редактора. В этом случае, чтобы полностью отменить изменения, выполните команду "Отменить изменения" для шаблона.</value>
+  </data>
+  <data name="AutoRollbackError" xml:space="preserve">
+    <value>Возвращено автоматически. При выполнении действия "{0}" произошла ошибка: 
+{1}</value>
+  </data>
+  <data name="Workflow.Client_86" xml:space="preserve">
+    <value>Не удалось подписать пользователя {0} на уведомление об изменении атрибута {1} объекта {2}. Нельзя подписаться больше чем на {3} атрибутов.</value>
+  </data>
+  <data name="Workflow.Client_87" xml:space="preserve">
+    <value>Не удалось подписать пользователя {0} на уведомления об изменении атрибутов {1} объекта {2}. Нельзя подписаться больше чем на {3} атрибутов.</value>
+  </data>
+  <data name="Workflow.Client_84" xml:space="preserve">
+    <value>Система\Электронная почта\Мои аккаунты</value>
+  </data>
+  <data name="Workflow.Client_85" xml:space="preserve">
+    <value>Нельзя подписаться больше чем на {0} атрибутов</value>
+  </data>
+  <data name="Workflow.Client_83" xml:space="preserve">
+    <value>Система\Электронная почта\Расписание приема почты</value>
+  </data>
+  <data name="Workflow.Client_80" xml:space="preserve">
+    <value>История утверждения</value>
+  </data>
+  <data name="Workflow.Client_81" xml:space="preserve">
+    <value>Получить почту</value>
+  </data>
+  <data name="Workflow.Client_88" xml:space="preserve">
+    <value>В меню Настройка|Параметры IPS|Cистема|База данных и оптимизация выключена настройка "Разрешить передачу значений атрибутов в службу автоматических уведомлений". Вы можете задать настройки для уведомления об изменении атрибута объекта, но приходить такие уведомления будут только после включения данной настройки.</value>
+  </data>
+  <data name="Workflow.Client_89" xml:space="preserve">
+    <value>Внимание!</value>
+  </data>
+  <data name="Workflow.Client_68" xml:space="preserve">
+    <value>Входящие</value>
+  </data>
+  <data name="Workflow.Client_69" xml:space="preserve">
+    <value>Атрибуты электронных писем</value>
+  </data>
+  <data name="Workflow.Client_60" xml:space="preserve">
+    <value>Расписание по месяцам</value>
+  </data>
+  <data name="Workflow.Client_61" xml:space="preserve">
+    <value>Не задан</value>
+  </data>
+  <data name="Workflow.Client_62" xml:space="preserve">
+    <value>Настройка приема почты</value>
+  </data>
+  <data name="Workflow.Client_63" xml:space="preserve">
+    <value>Не указано имя компьютера, на котором будет выполняться получение почты!</value>
+  </data>
+  <data name="Workflow.Client_64" xml:space="preserve">
+    <value>Не указан календарь!</value>
+  </data>
+  <data name="Workflow.Client_65" xml:space="preserve">
+    <value>Выберите календарь</value>
+  </data>
+  <data name="Workflow.Client_66" xml:space="preserve">
+    <value>Получение почты для {0}</value>
+  </data>
+  <data name="Workflow.Client_67" xml:space="preserve">
+    <value>Импортировано писем в базу: {0}</value>
+  </data>
+  <data name="Workflow.Client_97" xml:space="preserve">
+    <value>Перемещение на шаг жизненного цикла</value>
+  </data>
+  <data name="Workflow.Client_96" xml:space="preserve">
+    <value>Перемещение на уровень продвижения</value>
+  </data>
+  <data name="Workflow.Client_95" xml:space="preserve">
+    <value>Отмена изменений</value>
+  </data>
+  <data name="Workflow.Client_94" xml:space="preserve">
+    <value>Отказ в правах доступа</value>
+  </data>
+  <data name="Workflow.Client_93" xml:space="preserve">
+    <value>Изменение атрибутов объектов</value>
+  </data>
+  <data name="Workflow.Client_92" xml:space="preserve">
+    <value>Завершение редактирования</value>
+  </data>
+  <data name="Workflow.Client_91" xml:space="preserve">
+    <value>Восстановление в объект итерации</value>
+  </data>
+  <data name="Workflow.Client_90" xml:space="preserve">
+    <value>Взятие на редактирование</value>
+  </data>
+  <data name="Workflow.Client_99" xml:space="preserve">
+    <value>Создание связи</value>
+  </data>
+  <data name="Workflow.Client_98" xml:space="preserve">
+    <value>Создание объекта</value>
+  </data>
+  <data name="Workflow.Client_48" xml:space="preserve">
+    <value>Прикрепить</value>
+  </data>
+  <data name="Workflow.Client_49" xml:space="preserve">
+    <value>Открепить</value>
+  </data>
+  <data name="Workflow.Client_42" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
+  <data name="Workflow.Client_43" xml:space="preserve">
+    <value>Прервать</value>
+  </data>
+  <data name="Workflow.Client_40" xml:space="preserve">
+    <value>Процесс</value>
+  </data>
+  <data name="Workflow.Client_41" xml:space="preserve">
+    <value>Смотреть</value>
+  </data>
+  <data name="Workflow.Client_46" xml:space="preserve">
+    <value>Удалить сообщение</value>
+  </data>
+  <data name="Workflow.Client_47" xml:space="preserve">
+    <value>Восстановить сообщение</value>
+  </data>
+  <data name="Workflow.Client_44" xml:space="preserve">
+    <value>История выполнения</value>
+  </data>
+  <data name="Workflow.Client_79" xml:space="preserve">
+    <value>Используется в процессах</value>
+  </data>
+  <data name="Workflow.Client_71" xml:space="preserve">
+    <value>Веб-страница HTML (*.html)|*.html|All files (*.*)|*.*</value>
+  </data>
+  <data name="Workflow.Client_70" xml:space="preserve">
+    <value>Текст письма</value>
+  </data>
+  <data name="Workflow.Client_75" xml:space="preserve">
+    <value>Уведомления</value>
+  </data>
+  <data name="Workflow.Client_74" xml:space="preserve">
+    <value>Настройки аккаунтов</value>
+  </data>
+  <data name="Workflow.Client_77" xml:space="preserve">
+    <value>Выберите пользователей, которых необходимо подписать на уведомления</value>
+  </data>
+  <data name="Workflow.Client_76" xml:space="preserve">
+    <value>Выбор пользователей</value>
+  </data>
+  <data name="Workflow.Client_28" xml:space="preserve">
+    <value>Исходящие</value>
+  </data>
+  <data name="Workflow.Client_29" xml:space="preserve">
+    <value>Удалённые</value>
+  </data>
+  <data name="Workflow.Client_24" xml:space="preserve">
+    <value>Вы действительно хотите удалить выбранные сообщения?</value>
+  </data>
+  <data name="Workflow.Client_25" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="Workflow.Client_26" xml:space="preserve">
+    <value>Информационное пространство\Почта\Входящие</value>
+  </data>
+  <data name="Workflow.Client_27" xml:space="preserve">
+    <value>Почта\Входящие</value>
+  </data>
+  <data name="Workflow.Client_20" xml:space="preserve">
+    <value>Выполнение всех заданий, относящихся к выбранным процессам, будет отменено! Всё равно прервать процессы?</value>
+  </data>
+  <data name="Workflow.Client_21" xml:space="preserve">
+    <value>Прервать</value>
+  </data>
+  <data name="Workflow.Client_22" xml:space="preserve">
+    <value>Удаление действия "{0}" запрещено</value>
+  </data>
+  <data name="Workflow.Client_23" xml:space="preserve">
+    <value>Удаление</value>
+  </data>
+  <data name="Workflow.Client_59" xml:space="preserve">
+    <value>Расписание по неделям</value>
+  </data>
+  <data name="Workflow.Client_58" xml:space="preserve">
+    <value>Расписание по дням</value>
+  </data>
+  <data name="Workflow.Client_53" xml:space="preserve">
+    <value>История утверждения</value>
+  </data>
+  <data name="Workflow.Client_52" xml:space="preserve">
+    <value>Используется в процессах</value>
+  </data>
+  <data name="Workflow.Client_50" xml:space="preserve">
+    <value>Про&amp;цессы</value>
+  </data>
+  <data name="Workflow.Client_57" xml:space="preserve">
+    <value>Однократное выполнение</value>
+  </data>
+  <data name="Workflow.Client_56" xml:space="preserve">
+    <value>Очистка папки "Удалённые"..</value>
+  </data>
+  <data name="Workflow.Client_55" xml:space="preserve">
+    <value>Закладка позволяет подписаться/отписаться на действия выполняемые над объектом</value>
+  </data>
+  <data name="Workflow.Client_54" xml:space="preserve">
+    <value>Копии</value>
+  </data>
+  <data name="Workflow.Client_39" xml:space="preserve">
+    <value>Отказаться от рассмотрения</value>
+  </data>
+  <data name="Workflow.Client_38" xml:space="preserve">
+    <value>Принять к рассмотрению</value>
+  </data>
+  <data name="Workflow.Client_35" xml:space="preserve">
+    <value>Пометить как непрочитанное</value>
+  </data>
+  <data name="Workflow.Client_34" xml:space="preserve">
+    <value>Пометить как прочитанное</value>
+  </data>
+  <data name="Workflow.Client_37" xml:space="preserve">
+    <value>Вернуть назад</value>
+  </data>
+  <data name="Workflow.Client_36" xml:space="preserve">
+    <value>Отправить дальше</value>
+  </data>
+  <data name="Workflow.Client_31" xml:space="preserve">
+    <value>Запустить процесс</value>
+  </data>
+  <data name="Workflow.Client_30" xml:space="preserve">
+    <value>Почта</value>
+  </data>
+  <data name="Workflow.Client_33" xml:space="preserve">
+    <value>Невозможно загрузить плагин "{0}": серверная часть маршрутизатора не загружена!</value>
+  </data>
+  <data name="Workflow.Client_32" xml:space="preserve">
+    <value>Интерфейс лицензий не найден</value>
+  </data>
+  <data name="Workflow.Client_19" xml:space="preserve">
+    <value>Завершение изменения объектов..</value>
+  </data>
+  <data name="Workflow.Client_18" xml:space="preserve">
+    <value>Завершить изменение?</value>
+  </data>
+  <data name="Workflow.Client_17" xml:space="preserve">
+    <value>Отправляемое действие {0} содержит вложения, взятые вами на изменение. Для успешной отправки требуется завершить их изменение. Завершить изменение этих объектов?</value>
+  </data>
+  <data name="Workflow.Client_16" xml:space="preserve">
+    <value>Почта</value>
+  </data>
+  <data name="Workflow.Client_15" xml:space="preserve">
+    <value>Удалённые</value>
+  </data>
+  <data name="Workflow.Client_14" xml:space="preserve">
+    <value>Исходящие</value>
+  </data>
+  <data name="Workflow.Client_13" xml:space="preserve">
+    <value>Выполненные</value>
+  </data>
+  <data name="Workflow.Client_12" xml:space="preserve">
+    <value>Входящие</value>
+  </data>
+  <data name="Workflow.Client_11" xml:space="preserve">
+    <value>Сообщения</value>
+  </data>
+  <data name="Workflow.Client_10" xml:space="preserve">
+    <value>Почта</value>
+  </data>
+  <data name="ErrEditFixedScheme" xml:space="preserve">
+    <value>Шаблон процесса "{0}" заблокирован от изменений, т.к. имеются процессы на его основе ({1}), которые запущены с настройкой "Создавать действия процессов по факту выполнения". Модификация шаблона может быть возможна только с созданием новой версии или после удаления всех порожденных процессов.</value>
+  </data>
+  <data name="ActivityDescription" xml:space="preserve">
+    <value>Описание действия</value>
+  </data>
+  <data name="Preview" xml:space="preserve">
+    <value>Просмотр</value>
+  </data>
+  <data name="SettingsPropertyPagePath" xml:space="preserve">
+    <value>Система\Workflow</value>
+  </data>
+  <data name="AccessRightCategoryLaunch" xml:space="preserve">
+    <value>Инициировать процессы по вложенным шаблонам</value>
+  </data>
+  <data name="Interfaces.Workflow_1" xml:space="preserve">
+    <value>ВИ</value>
+  </data>
+  <data name="Interfaces.Workflow_3" xml:space="preserve">
+    <value>У</value>
+  </data>
+  <data name="Interfaces.Workflow_2" xml:space="preserve">
+    <value>ОИ</value>
+  </data>
+  <data name="Interfaces.Workflow_5" xml:space="preserve">
+    <value>Уведомление {0}</value>
+  </data>
+  <data name="Interfaces.Workflow_4" xml:space="preserve">
+    <value>В</value>
+  </data>
+  <data name="Interfaces.Workflow_7" xml:space="preserve">
+    <value>Объект: &lt;a href ="#object={1}"&gt;{2} {3}&lt;/a&gt;&lt;br&gt;{4}</value>
+  </data>
+  <data name="Interfaces.Workflow_6" xml:space="preserve">
+    <value>Уведомление {0}&lt;br&gt;</value>
+  </data>
+  <data name="Interfaces.Workflow_9" xml:space="preserve">
+    <value>НД</value>
+  </data>
+  <data name="Interfaces.Workflow_8" xml:space="preserve">
+    <value>Пользователь: {5}</value>
+  </data>
+  <data name="Workflow.Editor_CancelChanges2" xml:space="preserve">
+    <value>Отменить изменения шаблонов процессов ({0})?</value>
+  </data>
+  <data name="TempRightsErr" xml:space="preserve">
+    <value>Ошибка назначения временных прав</value>
+  </data>
+  <data name="Activity" xml:space="preserve">
+    <value>Действие</value>
+  </data>
+  <data name="ActingAs" xml:space="preserve">
+    <value>И.о.</value>
+  </data>
+  <data name="SendToBack" xml:space="preserve">
+    <value>вернуть назад</value>
+  </data>
+  <data name="SendToNext" xml:space="preserve">
+    <value>отправить дальше</value>
+  </data>
+  <data name="ErrStartActivityNotFound" xml:space="preserve">
+    <value>Действие "Старт" не найдено!</value>
+  </data>
+  <data name="HasScripts" xml:space="preserve">
+    <value>Назначены сценарии</value>
+  </data>
+  <data name="ShowMessages" xml:space="preserve">
+    <value>Показывать сообщения</value>
+  </data>
+  <data name="InvalidVariables" xml:space="preserve">
+    <value>Список переменных содержит недопустимые элементы</value>
+  </data>
+  <data name="Interfaces.Workflow_UntunedEmail" xml:space="preserve">
+    <value>Ошибка отправки автоуведомления. Почтовый адрес {0} не настроен ни на один сервер.</value>
+  </data>
+  <data name="Confirmation" xml:space="preserve">
+    <value>Подтверждение</value>
+  </data>
+  <data name="InvalidGraphs" xml:space="preserve">
+    <value>Указаны несуществующие графы для подписи</value>
+  </data>
+  <data name="Interfaces.Workflow_ChooseUsersForMention" xml:space="preserve">
+    <value>Выберите пользователей, которым должно прийти сообщение об упоминании их в обсуждении</value>
+  </data>
+  <data name="RelationTypes" xml:space="preserve">
+    <value>Типы связей</value>
+  </data>
+  <data name="NoItemsSelected" xml:space="preserve">
+    <value>Требуется выбрать объект, в контексте которого будет выполняться команда.</value>
+  </data>
+  <data name="InvalidObject" xml:space="preserve">
+    <value>Ошибочный объект</value>
+  </data>
+  <data name="InvalidNotifs" xml:space="preserve">
+    <value>Сообщения ссылаются на несуществующие объекты</value>
+  </data>
+  <data name="Discussion" xml:space="preserve">
+    <value>Обсуждение</value>
+  </data>
+  <data name="ActivityNotFound" xml:space="preserve">
+    <value>Действие "{0}" не найдено, вероятно оно было удалено.</value>
+  </data>
+  <data name="ErrBaseVersionConflict" xml:space="preserve">
+    <value>Произошел конфликт базовой версии объекта &lt;a href="#object={0}"&gt;{1}&lt;/a&gt;.</value>
+  </data>
+  <data name="InvisibleObjectCaption" xml:space="preserve">
+    <value>(Объект, невидимый для текущего уровня доступа)</value>
+  </data>
+  <data name="InSchemes" xml:space="preserve">
+    <value>шаблонах процессов</value>
+  </data>
+  <data name="WORejectResult" xml:space="preserve">
+    <value>Отказ</value>
+  </data>
+  <data name="BoolFalse" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="Workflow.Editor_CheckIn" xml:space="preserve">
+    <value>Завершить изменение шаблона процесса "{0}"?</value>
+  </data>
+  <data name="HasLC" xml:space="preserve">
+    <value>Изменение статуса</value>
+  </data>
+  <data name="EmptyAttrValue" xml:space="preserve">
+    <value>Пусто</value>
+  </data>
+  <data name="LCLevel" xml:space="preserve">
+    <value>уровень продвижения</value>
+  </data>
+  <data name="ReplaceParticipantCmd" xml:space="preserve">
+    <value>Заменить исполнителя...</value>
+  </data>
+  <data name="ActivityMessageHeader" xml:space="preserve">
+    <value>Сообщение на текущем шаге</value>
+  </data>
+  <data name="ImportToMuchObjects" xml:space="preserve">
+    <value>Импорт большого числа объектов может занять длительное время.</value>
+  </data>
+  <data name="PortalStartProcessPrefix" xml:space="preserve">
+    <value>Запуск процесса</value>
+  </data>
+  <data name="AnswerRequiredErr" xml:space="preserve">
+    <value>В соответствии с настройками задачи, для возврата назад требуется заполнить ответ.</value>
+  </data>
+  <data name="ErrDifferentDBVersion" xml:space="preserve">
+    <value>Модуль Workflow может работать некорректно, т.к. версия БД модуля отличается от требуемой (найдена: {0}, требуется: {1})!</value>
+  </data>
+  <data name="NoCommonAttrsForObjectsMessage" xml:space="preserve">
+    <value>У выбранных типов объектов отсутствуют общие атрибуты.</value>
+  </data>
+  <data name="ImportCmd" xml:space="preserve">
+    <value>Импорт шаблона/процесса...</value>
+  </data>
+  <data name="RecallPrompt" xml:space="preserve">
+    <value>Будут отозваны следующие задачи: {0}Это повлечет за собой удаление их из почты получателей и возврат их назад. Всё равно отозвать задачи?</value>
+  </data>
+  <data name="ErrExecActsAdminNeeded" xml:space="preserve">
+    <value>Для удаления ошибочных действий требуются права администратора системы.</value>
+  </data>
+  <data name="ReplaceFile" xml:space="preserve">
+    <value>Заменить файл...</value>
+  </data>
+  <data name="Workflow.Client_109" xml:space="preserve">
+    <value>Создание версии объекта</value>
+  </data>
+  <data name="Workflow.Client_108" xml:space="preserve">
+    <value>Выбор схемы поиска</value>
+  </data>
+  <data name="Workflow.Client_107" xml:space="preserve">
+    <value>Выбор групп</value>
+  </data>
+  <data name="Workflow.Client_106" xml:space="preserve">
+    <value>Выбор роли</value>
+  </data>
+  <data name="Workflow.Client_105" xml:space="preserve">
+    <value>Сохранить настройки автоуведомления?</value>
+  </data>
+  <data name="Workflow.Client_104" xml:space="preserve">
+    <value>Сохранение настроек.</value>
+  </data>
+  <data name="Workflow.Client_103" xml:space="preserve">
+    <value>Настройки автоуведомления</value>
+  </data>
+  <data name="Workflow.Client_102" xml:space="preserve">
+    <value>Удаление связи</value>
+  </data>
+  <data name="Workflow.Client_101" xml:space="preserve">
+    <value>Удаление объекта/версии</value>
+  </data>
+  <data name="Workflow.Client_100" xml:space="preserve">
+    <value>Пользователь: {0} 
+Подписан на уведомления:</value>
+  </data>
+  <data name="MailRefreshNeeded" xml:space="preserve">
+    <value>Попробуйте обновить список сообщений почты.</value>
+  </data>
+  <data name="ErrLCStepNotFound" xml:space="preserve">
+    <value>Невозможно изменить статус объекта "{0}": шаг ЖЦ, настроенный в шаблоне ({1} [{2}]), не найден на схеме жизненного цикла для типа объектов "{3}"</value>
+  </data>
+  <data name="ChooseFile" xml:space="preserve">
+    <value>Выберите файл</value>
+  </data>
+  <data name="ImportedObjectExists" xml:space="preserve">
+    <value>Импортируемый объект "{0}" найден в текущей БД. Обновить его данными из портфеля?</value>
+  </data>
+  <data name="RecallCmd" xml:space="preserve">
+    <value>&amp;Отозвать выполняющиеся</value>
+  </data>
+  <data name="ErrDetachDenied1" xml:space="preserve">
+    <value>Открепление вложений на данном шаге запрещено</value>
+  </data>
+  <data name="ErrDetachDenied2" xml:space="preserve">
+    <value>Вложения могут быть откреплены только во время выполнения и только исполнителями действий процесса</value>
+  </data>
+  <data name="Workflow.Editor_CancelChanges" xml:space="preserve">
+    <value>Отменить изменения шаблона процесса "{0}"?</value>
+  </data>
+  <data name="Workflow.Design_ComponentsCategory" xml:space="preserve">
+    <value>Компоненты маршрутизатора</value>
+  </data>
+  <data name="Imported" xml:space="preserve">
+    <value>Импортировано</value>
+  </data>
+  <data name="ObjectTypes" xml:space="preserve">
+    <value>Типы объектов</value>
+  </data>
+  <data name="CreateVarsPrompt" xml:space="preserve">
+    <value>содержит переменные, типы которых не зарегистрированы в текущей базе данных. Создать переменные?</value>
+  </data>
+  <data name="InvalidTerms" xml:space="preserve">
+    <value>Сроки ссылаются на несуществующие переменные</value>
+  </data>
+  <data name="InvalidTypes" xml:space="preserve">
+    <value>Действие ссылается на несуществующие типы объектов</value>
+  </data>
+  <data name="AttachFile" xml:space="preserve">
+    <value>Прикрепить файл...</value>
+  </data>
+  <data name="UncheckAll" xml:space="preserve">
+    <value>Выключить все</value>
+  </data>
+  <data name="CreateSchemeGroup" xml:space="preserve">
+    <value>Создать группу шаблонов процессов...</value>
+  </data>
+  <data name="Variables_Cmd" xml:space="preserve">
+    <value>Переменные...</value>
+  </data>
+  <data name="Workflow.Server_2" xml:space="preserve">
+    <value>Требуется подпись в любой графе.</value>
+  </data>
+  <data name="Workflow.Server_3" xml:space="preserve">
+    <value>Невозможно отправить сообщение дальше, так как подписаны не все объекты.</value>
+  </data>
+  <data name="Workflow.Server_1" xml:space="preserve">
+    <value>Требуются подписи в графах: </value>
+  </data>
+  <data name="Workflow.Server_7" xml:space="preserve">
+    <value> произошла ошибка: 
+</value>
+  </data>
+  <data name="Workflow.Server_4" xml:space="preserve">
+    <value> 
+Проверку не прошли объекты:  
+</value>
+  </data>
+  <data name="Workflow.Server_5" xml:space="preserve">
+    <value>Не найдена служба подписей, возможно она не установлена на сервере.</value>
+  </data>
+  <data name="Workflow.Server_9" xml:space="preserve">
+    <value>[Ошибка]</value>
+  </data>
+  <data name="ViewTemplate" xml:space="preserve">
+    <value>Шаблон отображения</value>
+  </data>
+  <data name="CheckAll" xml:space="preserve">
+    <value>Включить все</value>
+  </data>
+  <data name="Interfaces.Workflow_10" xml:space="preserve">
+    <value>Пользователь: %Пользователь%.&lt;br&gt;</value>
+  </data>
+  <data name="Interfaces.Workflow_11" xml:space="preserve">
+    <value>Изменено значение атрибута: [Наим. измененного атрибута].&lt;br&gt;</value>
+  </data>
+  <data name="Interfaces.Workflow_12" xml:space="preserve">
+    <value>Старое значение: %Старое значение%.&lt;br&gt;</value>
+  </data>
+  <data name="Interfaces.Workflow_13" xml:space="preserve">
+    <value>Новое значение: %Новое значение%.&lt;br&gt;</value>
+  </data>
+  <data name="Interfaces.Workflow_14" xml:space="preserve">
+    <value>%Текст уведомления об отказе в правах доступа%</value>
+  </data>
+  <data name="Interfaces.Workflow_15" xml:space="preserve">
+    <value>&lt;br&gt;Тип проверки прав: %Тип проверки прав%.&lt;br&gt;</value>
+  </data>
+  <data name="Interfaces.Workflow_16" xml:space="preserve">
+    <value>Переведен на шаг жизненного цикла: %Шаг жизненного цикла%.&lt;br&gt;</value>
+  </data>
+  <data name="Interfaces.Workflow_17" xml:space="preserve">
+    <value>Переведен на уровень продвижения: %Уровень продвижения%&lt;br&gt;</value>
+  </data>
+  <data name="Interfaces.Workflow_18" xml:space="preserve">
+    <value>Уровень продвижения: %Уровень продвижения%&lt;br&gt;</value>
+  </data>
+  <data name="Interfaces.Workflow_19" xml:space="preserve">
+    <value>&lt;br&gt;Родительский объект: [Заголовок родительского объекта].</value>
+  </data>
+  <data name="Interfaces.Workflow_32" xml:space="preserve">
+    <value>%Уровень продвижения%</value>
+  </data>
+  <data name="Interfaces.Workflow_33" xml:space="preserve">
+    <value>[Заголовок родительского объекта]</value>
+  </data>
+  <data name="Interfaces.Workflow_30" xml:space="preserve">
+    <value>%Тип проверки прав%</value>
+  </data>
+  <data name="Interfaces.Workflow_31" xml:space="preserve">
+    <value>%Шаг жизненного цикла%</value>
+  </data>
+  <data name="Interfaces.Workflow_36" xml:space="preserve">
+    <value>&lt;a href ="#object={0}"&gt;{1} {2}&lt;/a&gt;</value>
+  </data>
+  <data name="Interfaces.Workflow_37" xml:space="preserve">
+    <value>[Наим. измененного атрибута]</value>
+  </data>
+  <data name="Interfaces.Workflow_34" xml:space="preserve">
+    <value>[Заголовок дочернего объекта]</value>
+  </data>
+  <data name="Interfaces.Workflow_35" xml:space="preserve">
+    <value>%Значение%</value>
+  </data>
+  <data name="Interfaces.Workflow_38" xml:space="preserve">
+    <value>%Тип связи%</value>
+  </data>
+  <data name="Interfaces.Workflow_39" xml:space="preserve">
+    <value>Невозможно отправить электронное письмо пользователю {0}. Уведомление будет отправлено на внутреннюю почту.</value>
+  </data>
+  <data name="Interfaces.Workflow_23" xml:space="preserve">
+    <value>Ошибка чтения настроек Автоматического уведомления Id №{0}.</value>
+  </data>
+  <data name="Interfaces.Workflow_22" xml:space="preserve">
+    <value>&lt;br&gt;Тип связи: %Тип связи%.&lt;br&gt;</value>
+  </data>
+  <data name="Interfaces.Workflow_21" xml:space="preserve">
+    <value>&lt;br&gt;Объект: [Заголовок объекта].&lt;br&gt;</value>
+  </data>
+  <data name="Interfaces.Workflow_20" xml:space="preserve">
+    <value>&lt;br&gt;Дочерний объект: [Заголовок дочернего объекта].</value>
+  </data>
+  <data name="Interfaces.Workflow_27" xml:space="preserve">
+    <value>%Старое значение%</value>
+  </data>
+  <data name="Interfaces.Workflow_26" xml:space="preserve">
+    <value>[Наим. атрибута]</value>
+  </data>
+  <data name="Interfaces.Workflow_25" xml:space="preserve">
+    <value>%Пользователь%</value>
+  </data>
+  <data name="Interfaces.Workflow_24" xml:space="preserve">
+    <value>[Заголовок объекта]</value>
+  </data>
+  <data name="Interfaces.Workflow_29" xml:space="preserve">
+    <value>&lt;br&gt;%Текст уведомления об отказе в правах доступа%&lt;br&gt;</value>
+  </data>
+  <data name="Interfaces.Workflow_28" xml:space="preserve">
+    <value>%Новое значение%</value>
+  </data>
+  <data name="Interfaces.Workflow_44" xml:space="preserve">
+    <value>[Заголовок родительской версии объекта]</value>
+  </data>
+  <data name="Interfaces.Workflow_41" xml:space="preserve">
+    <value>Пользователь не идентифицирован.</value>
+  </data>
+  <data name="Interfaces.Workflow_40" xml:space="preserve">
+    <value>Невозможно отправить уведомление по адресу {0}.</value>
+  </data>
+  <data name="Interfaces.Workflow_43" xml:space="preserve">
+    <value>Родительская версия объекта: [Заголовок родительской версии объекта].&lt;br&gt;</value>
+  </data>
+  <data name="Interfaces.Workflow_42" xml:space="preserve">
+    <value>Комментарий: </value>
+  </data>
+  <data name="CreateParallelBlock" xml:space="preserve">
+    <value>Создать параллельный блок</value>
+  </data>
+  <data name="Workflow.ConfirmFormEdit" xml:space="preserve">
+    <value>Найдены ({0}) действий, также ссылающихся на эту форму. При редактировании формы все действия, её использующие, будут использовать её новое содержимое, что может повлиять на работу уже запущенных процессов маршрутизатора. Вы действительно хотите отредактировать форму?</value>
+  </data>
+  <data name="BoolTrue" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="EmptyMsg" xml:space="preserve">
+    <value>(Нет)</value>
+  </data>
+  <data name="SendToPrompt" xml:space="preserve">
+    <value>Вы действительно хотите {0} действия:{1}?</value>
+  </data>
+  <data name="Workflow.Client_6" xml:space="preserve">
+    <value>Вложения</value>
+  </data>
+  <data name="Workflow.Client_4" xml:space="preserve">
+    <value>Пользователь: {0}
+Подписан с: {1}
+На уведомления:</value>
+  </data>
+  <data name="Workflow.Client_5" xml:space="preserve">
+    <value>Входящие</value>
+  </data>
+  <data name="Workflow.Client_2" xml:space="preserve">
+    <value>Выполненные</value>
+  </data>
+  <data name="Workflow.Client_3" xml:space="preserve">
+    <value>Копии</value>
+  </data>
+  <data name="Workflow.Client_1" xml:space="preserve">
+    <value>Ответ</value>
+  </data>
+  <data name="HiddenAttachsWarning" xml:space="preserve">
+    <value>Внимание! Некоторые прикрепленные вложения не были отображены из-за недостаточного уровня доступа текущего пользователя.</value>
+  </data>
+  <data name="ActivityAlreadyCompleted" xml:space="preserve">
+    <value>Невозможно выполнить операцию: действие "{0}" уже выполнено!</value>
+  </data>
+  <data name="Workflow.Server_20" xml:space="preserve">
+    <value>Обязательный атрибут "Блокировка" не найден!</value>
+  </data>
+  <data name="Workflow.Server_21" xml:space="preserve">
+    <value>Действие "{0}" должно иметь исходящие связи</value>
+  </data>
+  <data name="Workflow.Server_22" xml:space="preserve">
+    <value>Шаблон должен иметь действие "Старт"</value>
+  </data>
+  <data name="Workflow.Server_23" xml:space="preserve">
+    <value>Шаблон не должен иметь более чем одно действие "Старт"</value>
+  </data>
+  <data name="Workflow.Server_24" xml:space="preserve">
+    <value>Шаблон должен иметь по крайней мере одно действие "Стоп"</value>
+  </data>
+  <data name="Workflow.Server_25" xml:space="preserve">
+    <value>Действие "{0}" должно иметь назначенные шаги/уровни ЖЦ</value>
+  </data>
+  <data name="Workflow.Server_26" xml:space="preserve">
+    <value>Невозможно изменить статус объекта "{0}": нет подходящих шагов для передвижения</value>
+  </data>
+  <data name="Workflow.Server_27" xml:space="preserve">
+    <value>Действие "{0}" должно иметь назначенный архив для документов</value>
+  </data>
+  <data name="Workflow.Server_28" xml:space="preserve">
+    <value>Запущенный процесс не корректный и был удалён. Ошибки: 
+</value>
+  </data>
+  <data name="Workflow.Server_29" xml:space="preserve">
+    <value>Действие "{0}" должно иметь исполнителей</value>
+  </data>
+  <data name="Workflow.Server_31" xml:space="preserve">
+    <value>Исполнителем действия должен быть один исполнитель, найдено </value>
+  </data>
+  <data name="Workflow.Server_30" xml:space="preserve">
+    <value>Вы являетесь одним из возможных исполнителей действия "{0}" процесса "&lt;a href="#process={1}"&gt;{2}&lt;/a&gt;". Возьмёте его на рассмотрение?</value>
+  </data>
+  <data name="Workflow.Server_33" xml:space="preserve">
+    <value>прочитано</value>
+  </data>
+  <data name="Workflow.Server_32" xml:space="preserve">
+    <value>выполнено</value>
+  </data>
+  <data name="Workflow.Server_35" xml:space="preserve">
+    <value> в назначенный срок.</value>
+  </data>
+  <data name="Workflow.Server_34" xml:space="preserve">
+    <value>Действие было возвращено назад автоматически, так как не было {0}  в назначенный срок.</value>
+  </data>
+  <data name="Workflow.Server_36" xml:space="preserve">
+    <value>Возвращено автоматически: ни один пользователь не согласился рассмотреть задание, которое вы ему отправили.</value>
+  </data>
+  <data name="Workflow.Server_39" xml:space="preserve">
+    <value>Интерфейс лицензий не найден</value>
+  </data>
+  <data name="Workflow.Server_13" xml:space="preserve">
+    <value>Действие может быть удалено только в контексте шаблона/процесса. Откройте шаблон/процесс в редакторе и удалите действие оттуда</value>
+  </data>
+  <data name="Workflow.Server_12" xml:space="preserve">
+    <value>Возврат назад с текущего шага запрещён.</value>
+  </data>
+  <data name="Workflow.Server_11" xml:space="preserve">
+    <value>Прервано системой</value>
+  </data>
+  <data name="Workflow.Server_10" xml:space="preserve">
+    <value>Процесс автоматически прерван, потому что найдено длинное зацикливание ({0} действий без исполнителей подряд)</value>
+  </data>
+  <data name="Workflow.Server_17" xml:space="preserve">
+    <value>" уже обрабатывается в процессах: </value>
+  </data>
+  <data name="Workflow.Server_16" xml:space="preserve">
+    <value>Шаблон процесса "{0}" имеет ограничение на повторную отправку одних и тех же объектов по нескольким процессам:</value>
+  </data>
+  <data name="Workflow.Server_15" xml:space="preserve">
+    <value>Удаление объекта "{0}" запрещено. Объект отправлен по процессу "{1}", в котором настроен запрет на удаление вложенных объектов, и обрабатывается на шаге "{2}". Удаление может быть возможно только после завершения этого процесса.</value>
+  </data>
+  <data name="Workflow.Server_14" xml:space="preserve">
+    <value>Связь может быть удалена только в контексте шаблона/процесса. Откройте шаблон/процесс в редакторе и удалите связь оттуда</value>
+  </data>
+  <data name="Workflow.Server_19" xml:space="preserve">
+    <value>Процесс "{0}" заблокирован пользователем "{1}" (открыт "{2}"), невозможно открыть для выполнения!</value>
+  </data>
+  <data name="Workflow.Server_18" xml:space="preserve">
+    <value>Обязательный атрибут "Блокировка" не найден!</value>
+  </data>
+  <data name="Workflow.Server_46" xml:space="preserve">
+    <value>{0}. Публикация "{1}"</value>
+  </data>
+  <data name="Workflow.Server_47" xml:space="preserve">
+    <value>Ошибка при импорте связанных обсуждений
+ {0} 
+ {1}</value>
+  </data>
+  <data name="Workflow.Server_44" xml:space="preserve">
+    <value>Прием почты не выполнен: {0}</value>
+  </data>
+  <data name="Workflow.Server_45" xml:space="preserve">
+    <value>Обсуждение {0}</value>
+  </data>
+  <data name="Workflow.Server_42" xml:space="preserve">
+    <value>{0} не зарегистрирован в системе</value>
+  </data>
+  <data name="Workflow.Server_43" xml:space="preserve">
+    <value>Ошибка при получении почты для {0}: {1}</value>
+  </data>
+  <data name="Workflow.Server_41" xml:space="preserve">
+    <value>Серверная часть маршрутизатора</value>
+  </data>
+  <data name="Workflow.Server_48" xml:space="preserve">
+    <value>Невозможно вычислить условие (</value>
+  </data>
+  <data name="Workflow.Server_49" xml:space="preserve">
+    <value>), результат: </value>
+  </data>
+  <data name="Workflow.Server_54" xml:space="preserve">
+    <value>Не удалось подписать пользователя {0} на изменение атрибутов объекта {1}. Нельзя подписать пользователя на изменение больше чем {3} атрибутов.</value>
+  </data>
+  <data name="Workflow.Server_53" xml:space="preserve">
+    <value>Ошибка при перезаписи атрибутов уведомления c ИД {0}, связанная  с переполнением строкового атрибута Перечень ГУИДов атрибутов для уведомления.  </value>
+  </data>
+  <data name="Workflow.Server_52" xml:space="preserve">
+    <value>Узел с глобальным идентификатором {0} не найден</value>
+  </data>
+  <data name="Workflow.Server_51" xml:space="preserve">
+    <value>При выполнении процесса "&lt;a href="#process={0}"&gt;{1}&lt;/a&gt;" на шаге "&lt;a href="#activity={2}"&gt;{3}&lt;/a&gt;" произошла ошибка:&lt;br /&gt;</value>
+  </data>
+  <data name="Workflow.Server_50" xml:space="preserve">
+    <value>Ошибка в процессе "</value>
+  </data>
+  <data name="InvalidParticipants" xml:space="preserve">
+    <value>Список исполнителей содержит недопустимые элементы</value>
+  </data>
+  <data name="CantDeleteVarAttribute" xml:space="preserve">
+    <value>Тип атрибута "{0}" не может быть удалён, т.к. используется в качестве переменной маршрутизатора в {1}</value>
+  </data>
+  <data name="NoCommonAttrsForRelationsMessage" xml:space="preserve">
+    <value>У выбранных типов связей отсутствуют общие атрибуты.</value>
+  </data>
+  <data name="Workflow.Design_50" xml:space="preserve">
+    <value>Результат проверки корректности:
+</value>
+  </data>
+  <data name="Workflow.Design_51" xml:space="preserve">
+    <value>Проверка шаблона</value>
+  </data>
+  <data name="Workflow.Design_52" xml:space="preserve">
+    <value>Шаблон нужно сохранить!</value>
+  </data>
+  <data name="Workflow.Design_53" xml:space="preserve">
+    <value>Вставить</value>
+  </data>
+  <data name="Workflow.Design_54" xml:space="preserve">
+    <value>История выполнения</value>
+  </data>
+  <data name="Workflow.Design_55" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="Workflow.Design_56" xml:space="preserve">
+    <value>Сохранить как</value>
+  </data>
+  <data name="Workflow.Design_57" xml:space="preserve">
+    <value>Проверить корректность</value>
+  </data>
+  <data name="Workflow.Design_58" xml:space="preserve">
+    <value>Запустить процесс</value>
+  </data>
+  <data name="Workflow.Design_73" xml:space="preserve">
+    <value>Система</value>
+  </data>
+  <data name="Workflow.Design_70" xml:space="preserve">
+    <value>Действие "{0}" не до конца определено</value>
+  </data>
+  <data name="Workflow.Design_76" xml:space="preserve">
+    <value>Шаблон "{0}" некорректный, невозможно запускать процессы на его основе!</value>
+  </data>
+  <data name="Workflow.Design_77" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="Workflow.Design_74" xml:space="preserve">
+    <value> или </value>
+  </data>
+  <data name="Workflow.Design_78" xml:space="preserve">
+    <value>Все рабочие копии были успешно сданы</value>
+  </data>
+  <data name="Workflow.Design_79" xml:space="preserve">
+    <value>Из переменной "{0}"</value>
+  </data>
+  <data name="Workflow.Design_40" xml:space="preserve">
+    <value>Помимо текущего шаблона, переменная "{0}" используется в {1}. Изменение списка доступных значений повлечёт изменение этих значений и во всех этих шаблонах/процессах, что может повлиять на их работу. Продолжить редактирование?</value>
+  </data>
+  <data name="Workflow.Design_43" xml:space="preserve">
+    <value>Просмотр формы</value>
+  </data>
+  <data name="Workflow.Design_42" xml:space="preserve">
+    <value>Выбор архива</value>
+  </data>
+  <data name="Workflow.Design_45" xml:space="preserve">
+    <value>Связь с номером {0} не найдена</value>
+  </data>
+  <data name="Workflow.Design_44" xml:space="preserve">
+    <value>Действие "{0}" ({1}) не найдено</value>
+  </data>
+  <data name="Workflow.Design_47" xml:space="preserve">
+    <value>Действие (to) с номером ({0}) не найдено</value>
+  </data>
+  <data name="Workflow.Design_46" xml:space="preserve">
+    <value>Действие (from) с номером ({0}) не найдено</value>
+  </data>
+  <data name="Workflow.Design_49" xml:space="preserve">
+    <value>Шаблон корректный</value>
+  </data>
+  <data name="Workflow.Design_48" xml:space="preserve">
+    <value> [Только чтение]</value>
+  </data>
+  <data name="Workflow.Design_14" xml:space="preserve">
+    <value>%3% - Дата запуска подпроцесса
+</value>
+  </data>
+  <data name="Workflow.Design_15" xml:space="preserve">
+    <value>%4% - Время запуска подпроцесса</value>
+  </data>
+  <data name="Workflow.Design_16" xml:space="preserve">
+    <value>Информация</value>
+  </data>
+  <data name="Workflow.Design_17" xml:space="preserve">
+    <value>ИЛИ</value>
+  </data>
+  <data name="Workflow.Design_10" xml:space="preserve">
+    <value>Свойства </value>
+  </data>
+  <data name="Workflow.Design_11" xml:space="preserve">
+    <value>Строка формата может содержать следующие  идентификаторы:
+</value>
+  </data>
+  <data name="Workflow.Design_12" xml:space="preserve">
+    <value>%1% - Название родительского процесса
+</value>
+  </data>
+  <data name="Workflow.Design_13" xml:space="preserve">
+    <value>%2% - Название подпроцесса
+</value>
+  </data>
+  <data name="Workflow.Design_18" xml:space="preserve">
+    <value>Выбор архива</value>
+  </data>
+  <data name="Workflow.Design_19" xml:space="preserve">
+    <value>Не назначен</value>
+  </data>
+  <data name="Workflow.Design_63" xml:space="preserve">
+    <value>Сообщения</value>
+  </data>
+  <data name="Workflow.Design_62" xml:space="preserve">
+    <value>Удалить?</value>
+  </data>
+  <data name="Workflow.Design_61" xml:space="preserve">
+    <value>Переменная "{0}" используется в следующих действиях: {1}. 
+Вы действительно хотите удалить эту переменную? Все ссылки на неё будут удалены.</value>
+  </data>
+  <data name="Workflow.Design_60" xml:space="preserve">
+    <value>Свойства</value>
+  </data>
+  <data name="Workflow.Design_67" xml:space="preserve">
+    <value>&lt;a href="#message={0}"&gt;Сообщение полностью &amp;raquo;&lt;/a&gt;</value>
+  </data>
+  <data name="Workflow.Design_66" xml:space="preserve">
+    <value>&lt;table&gt;&lt;tr&gt;&lt;td&gt;От :&lt;/td&gt;&lt;td&gt;{0}&lt;/td&gt;&lt;/tr&gt; 
+&lt;tr&gt;&lt;td&gt;Шаг :&lt;/td&gt;&lt;td&gt;{1}&lt;a href="#activity={3}"&gt;{5}&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt; 
+&lt;tr&gt;&lt;td&gt;Отправлено :&lt;/td&gt;&lt;td&gt;{4}&lt;/td&gt;&lt;/tr&gt; 
+&lt;tr&gt;&lt;td&gt;Написано :&lt;/td&gt;&lt;td&gt;{2}&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt; 
+</value>
+  </data>
+  <data name="Workflow.Design_65" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="Workflow.Design_64" xml:space="preserve">
+    <value>Система</value>
+  </data>
+  <data name="Workflow.Design_69" xml:space="preserve">
+    <value>&lt;h5&gt;Сообщения пользователей на предыдущих этапах выполнения  процесса:&lt;/h5&gt;</value>
+  </data>
+  <data name="Workflow.Design_68" xml:space="preserve">
+    <value>&lt;p&gt;(Нет сообщений)&lt;/p&gt;</value>
+  </data>
+  <data name="Workflow.Design_36" xml:space="preserve">
+    <value>Сценарий был изменён. Сохранить изменения?</value>
+  </data>
+  <data name="Workflow.Design_37" xml:space="preserve">
+    <value>Сохранить?</value>
+  </data>
+  <data name="Workflow.Design_34" xml:space="preserve">
+    <value>Название сценария</value>
+  </data>
+  <data name="Workflow.Design_35" xml:space="preserve">
+    <value>Укажите название сохраняемого сценария</value>
+  </data>
+  <data name="Workflow.Design_32" xml:space="preserve">
+    <value>//Вставьте ваш код сценария здесь
+</value>
+  </data>
+  <data name="Workflow.Design_33" xml:space="preserve">
+    <value>Новый сценарий</value>
+  </data>
+  <data name="Workflow.Design_30" xml:space="preserve">
+    <value>Текст сообщения не может быть пустым.</value>
+  </data>
+  <data name="Workflow.Design_31" xml:space="preserve">
+    <value>ИНАЧЕ</value>
+  </data>
+  <data name="Workflow.Design_38" xml:space="preserve">
+    <value>Выбор сценария</value>
+  </data>
+  <data name="Workflow.Design_39" xml:space="preserve">
+    <value>Имя переменной не может быть пустым!</value>
+  </data>
+  <data name="Workflow.Design_27" xml:space="preserve">
+    <value>Атрибуты объектов</value>
+  </data>
+  <data name="Workflow.Design_26" xml:space="preserve">
+    <value>Стандартные атрибуты объектов</value>
+  </data>
+  <data name="Workflow.Design_25" xml:space="preserve">
+    <value>Системные переменные</value>
+  </data>
+  <data name="Workflow.Design_24" xml:space="preserve">
+    <value>Переменные</value>
+  </data>
+  <data name="Workflow.Design_23" xml:space="preserve">
+    <value>Открепить</value>
+  </data>
+  <data name="Workflow.Design_22" xml:space="preserve">
+    <value>Открепить</value>
+  </data>
+  <data name="Workflow.Design_21" xml:space="preserve">
+    <value>Прикрепить</value>
+  </data>
+  <data name="Workflow.Design_20" xml:space="preserve">
+    <value>Прикрепить</value>
+  </data>
+  <data name="Workflow.Design_29" xml:space="preserve">
+    <value>Тема сообщения не может быть пустой.</value>
+  </data>
+  <data name="Workflow.Design_28" xml:space="preserve">
+    <value>Должны быть выбраны получатели сообщения.</value>
+  </data>
+  <data name="Workflow.Design_98" xml:space="preserve">
+    <value>Редактирование переменной</value>
+  </data>
+  <data name="Workflow.Design_99" xml:space="preserve">
+    <value>Вычисляемые колонки</value>
+  </data>
+  <data name="Workflow.Design_94" xml:space="preserve">
+    <value>Выбрано: </value>
+  </data>
+  <data name="Workflow.Design_95" xml:space="preserve">
+    <value>Данное дерево пользователей требует обязательного выбора. Не выбран ни один пользователь / группа пользователей.</value>
+  </data>
+  <data name="Workflow.Design_96" xml:space="preserve">
+    <value>Пользователи</value>
+  </data>
+  <data name="Workflow.Design_97" xml:space="preserve">
+    <value>Должности</value>
+  </data>
+  <data name="Workflow.Design_90" xml:space="preserve">
+    <value>Свойства</value>
+  </data>
+  <data name="Workflow.Design_91" xml:space="preserve">
+    <value>(Нет)</value>
+  </data>
+  <data name="Workflow.Design_92" xml:space="preserve">
+    <value>Выберите исполнителей</value>
+  </data>
+  <data name="Workflow.Design_93" xml:space="preserve">
+    <value>Входная и выходная переменная должны быть разными!</value>
+  </data>
+  <data name="Workflow.Design_88" xml:space="preserve">
+    <value>Выберите исполнителей</value>
+  </data>
+  <data name="Workflow.Design_84" xml:space="preserve">
+    <value>Шаблон с именем "{0}" уже существует? Хотите заменить его?</value>
+  </data>
+  <data name="Workflow.Design_87" xml:space="preserve">
+    <value>Выбор пользователя/группы</value>
+  </data>
+  <data name="Workflow.Design_81" xml:space="preserve">
+    <value>История утверждения - </value>
+  </data>
+  <data name="Workflow.Design_80" xml:space="preserve">
+    <value>Переменная (тип атрибута {0}) не найдена!</value>
+  </data>
+  <data name="Workflow.Design_83" xml:space="preserve">
+    <value>Название шаблона не может быть пустым!</value>
+  </data>
+  <data name="Workflow.Design_82" xml:space="preserve">
+    <value>Используется в процессах - </value>
+  </data>
+  <data name="Legend_Command" xml:space="preserve">
+    <value>Расшифровка цветов...</value>
+  </data>
+  <data name="HasMessages" xml:space="preserve">
+    <value>Назначены сообщения</value>
+  </data>
+  <data name="Workflow.Client_Select" xml:space="preserve">
+    <value>Выбрать...</value>
+  </data>
+  <data name="TempRightsErrText" xml:space="preserve">
+    <value>Не удалось назначить временные права на объекты, которые вы прикрепили, так как вы не имеете прав назначать на них права доступа. Временные права не были назначены для следующих объектов:&lt;br /&gt;</value>
+  </data>
+  <data name="PrevActivitiesMessageHeader" xml:space="preserve">
+    <value>Сообщения пользователей на предыдущих шагах выполнения</value>
+  </data>
+  <data name="Workflow.Design_ActivityNotFound" xml:space="preserve">
+    <value>Невозможно прочитать свойства действия (ID={0}), вероятно оно было удалено. Обновите список сообщений почты.</value>
+  </data>
+  <data name="ObjectNotFound" xml:space="preserve">
+    <value>Объект с идентификатором "{0}" не найден, возможно он был удален!</value>
+  </data>
+  <data name="NothingToRecall" xml:space="preserve">
+    <value>Не найдены выполняющиеся задачи, которые могли бы быть отозваны.</value>
+  </data>
+  <data name="InvalidLC" xml:space="preserve">
+    <value>Статусы ссылаются на несуществующие объекты</value>
+  </data>
+  <data name="ExportCmd" xml:space="preserve">
+    <value>Экспорт шаблона/процесса...</value>
+  </data>
+</root>

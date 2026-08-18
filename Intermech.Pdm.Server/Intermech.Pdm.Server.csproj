@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\IPS.Installer.Full\InstServer\Server\Intermech.Pdm.Server.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AB5F1513-44B3-47AF-803F-DEDBB5F87E12}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.Pdm.Server</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Expert">
+      <HintPath>lib\Intermech.Expert.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Extensions.Interfaces">
+      <HintPath>lib\Intermech.Extensions.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.AVS">
+      <HintPath>lib\Intermech.Interfaces.AVS.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Imbase">
+      <HintPath>lib\Intermech.Interfaces.Imbase.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Pdm">
+      <HintPath>lib\Intermech.Interfaces.Pdm.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.PdmConfigurator">
+      <HintPath>lib\Intermech.Interfaces.PdmConfigurator.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Server">
+      <HintPath>lib\Intermech.Interfaces.Server.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Kernel">
+      <HintPath>lib\Intermech.Kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Intermech\Localization\LocalizationHolder.cs" />
+    <Compile Include="Intermech\Localization\CustomDescription.cs" />
+    <Compile Include="Intermech\Localization\CustomCategory.cs" />
+    <Compile Include="Intermech\Localization\CustomDisplayName.cs" />
+    <Compile Include="Intermech\Search\Pdm\Substitutes\SubstitutesServerService.cs" />
+    <Compile Include="Intermech\Search\Pdm\SeriesDates\SeriesDatesServerService.cs" />
+    <Compile Include="Intermech\Search\Pdm\PreciseProducts\PreciseProductsServerModule.cs" />
+    <Compile Include="Intermech\Search\Pdm\PreciseProducts\PreciseProductsServerService.cs" />
+    <Compile Include="Intermech\Search\Pdm\Instances\InstancesServerService.cs" />
+    <Compile Include="Intermech\Search\Pdm\CompositionCopying\CompositionCopyingServerModule.cs" />
+    <Compile Include="Intermech\Search\Pdm\CompositionCopying\CompositionCopyingServerService.cs" />
+    <Compile Include="Intermech\Search\Pdm\Analogs\AnalogsResource.cs" />
+    <Compile Include="Intermech\Search\Pdm\Analogs\AnalogsServerModule.cs" />
+    <Compile Include="Intermech\Search\MSOfficeAddins\MSOfficeAddinsServerModule.cs" />
+    <Compile Include="Intermech\Search\MSOfficeAddins\MSOfficeAddinsServerService.cs" />
+    <Compile Include="Intermech\Search\Mbom\MbomServerModule.cs" />
+    <Compile Include="Intermech\Search\Mbom\MbomServerService.cs" />
+    <Compile Include="Intermech\Pdm\Server\DocumentVersionHandle.cs" />
+    <Compile Include="Intermech\Pdm\Server\ElementListVersionHandle.cs" />
+    <Compile Include="Intermech\Pdm\Server\SpecificationVersionHandle.cs" />
+    <Compile Include="Intermech\Pdm\Server\SearchSchemeSettingsService.cs" />
+    <Compile Include="Intermech\Pdm\Server\VisDataObject.cs" />
+    <Compile Include="Intermech\Pdm\Server\VisSchemeSynchroCache.cs" />
+    <Compile Include="Intermech\Pdm\Server\VisDataObjectCreator.cs" />
+    <Compile Include="Intermech\Pdm\Server\Articles4DocumentFinder`1.cs" />
+    <Compile Include="Intermech\Pdm\Server\LinkedObject4DocumentFinder.cs" />
+    <Compile Include="Intermech\Pdm\Server\OnlyArticles4DocumentFinder.cs" />
+    <Compile Include="Intermech\Pdm\Server\VisServer.cs" />
+    <Compile Include="Intermech\Pdm\Server\VisTask.cs" />
+    <Compile Include="Intermech\Pdm\Server\PDMObjectsCancelChangesAnalyzer.cs" />
+    <Compile Include="Intermech\Pdm\Server\RelationsComparer.cs" />
+    <Compile Include="Intermech\Pdm\Server\RelationsComparerHelper.cs" />
+    <Compile Include="Intermech\Pdm\Server\RelationsComparer_F_PART_ID.cs" />
+    <Compile Include="Intermech\Pdm\Server\DBArticle.cs" />
+    <Compile Include="Intermech\Pdm\Server\DBArticleCollection.cs" />
+    <Compile Include="Intermech\Pdm\Server\DBArticleCollectionCreator.cs" />
+    <Compile Include="Intermech\Pdm\Server\DBArticleCreator.cs" />
+    <Compile Include="Intermech\Pdm\Server\DBArticleRelationCreator.cs" />
+    <Compile Include="Intermech\Pdm\Server\DBArticleRelation.cs" />
+    <Compile Include="Intermech\Pdm\Server\DBExemplar.cs" />
+    <Compile Include="Intermech\Pdm\Server\DBExemplarCreator.cs" />
+    <Compile Include="Intermech\Pdm\Server\PDMObjectsDeleteAnalyzer.cs" />
+    <Compile Include="Intermech\Pdm\Server\DBSearchScheme.cs" />
+    <Compile Include="Intermech\Pdm\Server\DBSearchSchemeObjectCreator.cs" />
+    <Compile Include="Intermech\Pdm\Server\SearchSchemesCache.cs" />
+    <Compile Include="Intermech\Pdm\Server\ServerPDMPlugin.cs" />
+    <Compile Include="Intermech\Pdm\Server\ArticleSrvService.cs" />
+    <Compile Include="Intermech\Pdm\Server\OrderPointService.cs" />
+    <Compile Include="Intermech\Pdm\Server\PDMLinkedObjectsHandler.cs" />
+    <Compile Include="Intermech\Pdm\Server\PDMSystemService.cs" />
+    <Compile Include="Intermech\Pdm\Server\RelationsComparerService.cs" />
+    <Compile Include="Intermech\Pdm\Server\RelVisObserverService.cs" />
+    <Compile Include="Intermech\Pdm\Server\RelVisInfo.cs" />
+    <Compile Include="Intermech\Pdm\Server\TaskInfo.cs" />
+    <Compile Include="Intermech\Pdm\Server\SubstitutesService.cs" />
+    <Compile Include="Intermech\Pdm\Server\VersionApplicabilitiesService.cs" />
+    <Compile Include="Intermech\Pdm\Server\UpdatePDM.cs" />
+    <Compile Include="Intermech\Pdm\Server\Classes\ArticleVersionProcess.cs" />
+    <Compile Include="Intermech\Pdm\Server\Classes\ArticleWithSpecificationVersionCreator.cs" />
+    <Compile Include="Intermech\Pdm\Server\Classes\IgnoredSessionsBag.cs" />
+    <Compile Include="Intermech\Pdm\Server\Classes\GroupInstanceProcess.cs" />
+    <Compile Include="Intermech\Pdm\Server\Classes\SpecificationVersionCreator.cs" />
+    <Compile Include="Intermech\Pdm\Server\Classes\SpecificationVersionCreatorIDCache.cs" />
+    <Compile Include="Intermech\Pdm\Server\Services\SelectCompositionThread.cs" />
+    <Compile Include="Intermech\Pdm\Server\Services\SelectionTableFilter.cs" />
+    <Compile Include="Intermech\Pdm\Server\Services\ArticleAttributesSyncService.cs" />
+    <Compile Include="Intermech\Pdm\Server\Services\ComponentSelectionService.cs" />
+    <Compile Include="Intermech\Pdm\Server\Services\CompositionService.cs" />
+    <Compile Include="Intermech\Pdm\Server\Services\GroupInstanceService.cs" />
+    <Compile Include="ImSSP\sc_17058.cs" />
+    <Compile Include="ImSSP\sc_16997.cs" />
+    <Compile Include="ImSSP\sc_16993.cs" />
+    <Compile Include="ImSSP\sc_17056.cs" />
+    <Compile Include="ImSSP\sc_17065.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Intermech\Pdm\Server\Intermech\Search\Pdm\Analogs\AnalogsResource.resx" />
+    <EmbeddedResource Include="Intermech\Pdm\Server\Resources\alt.png" />
+    <EmbeddedResource Include="Intermech\Pdm\Server\Resources\CustomAttributesResources.resx" />
+    <EmbeddedResource Include="Intermech\Pdm\Server\Resources\fsVarianceSeriesDate.ico" />
+    <EmbeddedResource Include="Intermech\Pdm\Server\Resources\fsVersionByDate.ico" />
+    <EmbeddedResource Include="Intermech\Pdm\Server\Resources\fsVersionBySeries.ico" />
+    <EmbeddedResource Include="Intermech\Pdm\Server\Resources\main.png" />
+    <EmbeddedResource Include="Intermech\Pdm\Server\Resources\PdmServerResources.resx" />
+    <EmbeddedResource Include="Intermech\Pdm\Server\Resources\rsActualSubstitute.ico" />
+    <EmbeddedResource Include="Intermech\Pdm\Server\Resources\rsArticleCommonPart.ico" />
+    <EmbeddedResource Include="Intermech\Pdm\Server\Resources\rsCommonContext.ico" />
+    <EmbeddedResource Include="Intermech\Pdm\Server\Resources\rsDesignContext.ico" />
+    <EmbeddedResource Include="Intermech\Pdm\Server\Resources\rsEmptyIcon.ico" />
+    <EmbeddedResource Include="Intermech\Pdm\Server\Resources\rsHiddenChilds.ico" />
+    <EmbeddedResource Include="Intermech\Pdm\Server\Resources\rsNoSubstitutes.ico" />
+    <EmbeddedResource Include="Intermech\Pdm\Server\Resources\rsSubstitute.ico" />
+    <EmbeddedResource Include="Intermech\Pdm\Server\Resources\rsTechContext.ico" />
+    <EmbeddedResource Include="Intermech\Pdm\Server\Resources\rsTechnologicalContext.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\IPS.Installer.Full\InstServer\Server\Intermech.Workflow.Server.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{897A798E-60E9-48FB-AB90-9F4D4A08A997}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.Workflow.Server</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Intermech.Archives.Server">
+      <HintPath>lib\Intermech.Archives.Server.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Expert">
+      <HintPath>lib\Intermech.Expert.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Extensions.Interfaces">
+      <HintPath>lib\Intermech.Extensions.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Pdm">
+      <HintPath>lib\Intermech.Interfaces.Pdm.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Server">
+      <HintPath>lib\Intermech.Interfaces.Server.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Workflow">
+      <HintPath>lib\Intermech.Interfaces.Workflow.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Kernel">
+      <HintPath>lib\Intermech.Kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Project">
+      <HintPath>lib\Intermech.Project.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Scripting">
+      <HintPath>lib\Intermech.Scripting.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Search.Interfaces">
+      <HintPath>lib\Intermech.Search.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Workflow.Base">
+      <HintPath>lib\Intermech.Workflow.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Intermech\Workflow\ScriptsTester.cs" />
+    <Compile Include="Intermech\Workflow\Server\ActivityAttributeCollection.cs" />
+    <Compile Include="Intermech\Workflow\Server\ApproveGraphValueReplaceService.cs" />
+    <Compile Include="Intermech\Workflow\Server\AttachListEnumerator.cs" />
+    <Compile Include="Intermech\Workflow\Server\Attributes4ProcessTag.cs" />
+    <Compile Include="Intermech\Workflow\Server\WFActivity.cs" />
+    <Compile Include="Intermech\Workflow\Server\WFLink.cs" />
+    <Compile Include="Intermech\Workflow\Server\WFProcess.cs" />
+    <Compile Include="Intermech\Workflow\Server\WFScheme.cs" />
+    <Compile Include="Intermech\Workflow\Server\WorkflowExporter.cs" />
+    <Compile Include="Intermech\Workflow\Server\WFActivityProxy.cs" />
+    <Compile Include="Intermech\Workflow\Server\ActivityNextStepInfo.cs" />
+    <Compile Include="Intermech\Workflow\Server\DBAttachmentRelation.cs" />
+    <Compile Include="Intermech\Workflow\Server\DBMailObject.cs" />
+    <Compile Include="Intermech\Workflow\Server\DBMessage.cs" />
+    <Compile Include="Intermech\Workflow\Server\DBNotify.cs" />
+    <Compile Include="Intermech\Workflow\Server\DBNotifyCreator.cs" />
+    <Compile Include="Intermech\Workflow\Server\DBProcessCollection.cs" />
+    <Compile Include="Intermech\Workflow\Server\DBSchemeCategory.cs" />
+    <Compile Include="Intermech\Workflow\Server\DBScriptRelation.cs" />
+    <Compile Include="Intermech\Workflow\Server\EmailSender.cs" />
+    <Compile Include="Intermech\Workflow\Server\EmailDownloadService.cs" />
+    <Compile Include="Intermech\Workflow\Server\EmptyRemoteProcessPublisher.cs" />
+    <Compile Include="Intermech\Workflow\Server\FormsHandler.cs" />
+    <Compile Include="Intermech\Workflow\Server\IDelayProcessStarter.cs" />
+    <Compile Include="Intermech\Workflow\Server\LinkWalker.cs" />
+    <Compile Include="Intermech\Workflow\Server\ObjChangedNotifService.cs" />
+    <Compile Include="Intermech\Workflow\Server\WorkflowPortalHandler.cs" />
+    <Compile Include="Intermech\Workflow\Server\ProcessXMLFileFormer.cs" />
+    <Compile Include="Intermech\Workflow\Server\RemoteProcessPublisher.cs" />
+    <Compile Include="Intermech\Workflow\Server\RemoteProcessWithAttachmentsPublisher.cs" />
+    <Compile Include="Intermech\Workflow\Server\AttachEventHandler.cs" />
+    <Compile Include="Intermech\Workflow\Server\RemotingAttachList.cs" />
+    <Compile Include="Intermech\Workflow\Server\RemotingAttachment.cs" />
+    <Compile Include="Intermech\Workflow\Server\RemotingVarList.cs" />
+    <Compile Include="Intermech\Workflow\Server\RemotingVariable.cs" />
+    <Compile Include="Intermech\Workflow\Server\RouterService.cs" />
+    <Compile Include="Intermech\Workflow\Server\ServerFunx.cs" />
+    <Compile Include="Intermech\Workflow\Server\StartProcessAfterTransactionCommitService.cs" />
+    <Compile Include="Intermech\Workflow\Server\Updater.cs" />
+    <Compile Include="Intermech\Workflow\Server\VarListEnumerator.cs" />
+    <Compile Include="Intermech\Workflow\Server\VarListServer.cs" />
+    <Compile Include="Intermech\Workflow\Server\WFAttachmentRelationCollection.cs" />
+    <Compile Include="Intermech\Workflow\Server\WFAttachmentRelationCollectionCreator.cs" />
+    <Compile Include="Intermech\Workflow\Server\WFObjectCreator.cs" />
+    <Compile Include="Intermech\Workflow\Server\WFProcessCollectionCreator.cs" />
+    <Compile Include="Intermech\Workflow\Server\wfRelationCreator.cs" />
+    <Compile Include="Intermech\Workflow\Server\wfServerPlugin.cs" />
+    <Compile Include="Intermech\Workflow\Server\WorkflowImporter.cs" />
+    <Compile Include="Intermech\Workflow\Server\WorkflowPortalDelayStarter.cs" />
+    <Compile Include="Intermech\Workflow\Server\WorkflowTimerService.cs" />
+    <Compile Include="Intermech\Workflow\Server\Email\DownloadCompleteEventArgs.cs" />
+    <Compile Include="Intermech\Workflow\Server\Email\DownloadCompleteEventHandler.cs" />
+    <Compile Include="Intermech\Workflow\Server\Email\EmailDownloader.cs" />
+    <Compile Include="Intermech\Workflow\Server\BM2\ExecuteService.cs" />
+    <Compile Include="Intermech\Workflow\Server\Activities\Abort.cs" />
+    <Compile Include="Intermech\Workflow\Server\Activities\Approve.cs" />
+    <Compile Include="Intermech\Workflow\Server\Activities\Case.cs" />
+    <Compile Include="Intermech\Workflow\Server\Activities\Condition.cs" />
+    <Compile Include="Intermech\Workflow\Server\Activities\LifeCycle.cs" />
+    <Compile Include="Intermech\Workflow\Server\Activities\Register.cs" />
+    <Compile Include="Intermech\Workflow\Server\Activities\RemoteProcess.cs" />
+    <Compile Include="Intermech\Workflow\Server\Activities\Script.cs" />
+    <Compile Include="Intermech\Workflow\Server\Activities\Start.cs" />
+    <Compile Include="Intermech\Workflow\Server\Activities\Stop.cs" />
+    <Compile Include="Intermech\Workflow\Server\Activities\SubProcess.cs" />
+    <Compile Include="Intermech\Workflow\Server\Activities\SystemActivity.cs" />
+    <Compile Include="Intermech\Workflow\Server\Activities\Task.cs" />
+    <Compile Include="Intermech\Workflow\Server\Activities\Timer.cs" />
+    <Compile Include="Intermech\Workflow\Server\Activities\UserActivity.cs" />
+    <Compile Include="Intermech\Workflow\Server\AutoNotifications\AutoNotificationsService.cs" />
+    <Compile Include="Intermech\Forums\ForumExtend.cs" />
+    <Compile Include="Intermech\Forums\ForumsService.cs" />
+    <Compile Include="Intermech\Forums\ForumsLinkedObjectsHandler.cs" />
+    <Compile Include="ImSSP\sc_22131.cs" />
+    <Compile Include="ImSSP\sc_22135.cs" />
+    <Compile Include="ImSSP\sc_22142.cs" />
+    <Compile Include="ImSSP\sc_22148.cs" />
+    <Compile Include="ImSSP\sc_22158.cs" />
+    <Compile Include="ImSSP\sc_22160.cs" />
+    <Compile Include="ImSSP\sc_22118.cs" />
+    <Compile Include="ImSSP\sc_22127.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

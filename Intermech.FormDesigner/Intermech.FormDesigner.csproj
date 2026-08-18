@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.FormDesigner.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{68AA2F56-22DB-4A4B-AB1A-3AAF2CD4BE72}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.FormDesigner</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.IM.Utils">
+      <HintPath>lib\DevExpress.IM.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bars">
+      <HintPath>lib\Intermech.Bars.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Client.Core">
+      <HintPath>lib\Intermech.Client.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Docking">
+      <HintPath>lib\Intermech.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Expert">
+      <HintPath>lib\Intermech.Expert.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Client">
+      <HintPath>lib\Intermech.Interfaces.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Intermech\Localization\LocalizationHolder.cs" />
+    <Compile Include="Intermech\Localization\CustomDescription.cs" />
+    <Compile Include="Intermech\Localization\CustomDisplayName.cs" />
+    <Compile Include="Intermech\Localization\CustomCategory.cs" />
+    <Compile Include="Intermech\FormDesigner\KeystrokeMessageFilter.cs" />
+    <Compile Include="Intermech\FormDesigner\FormDesignerControl.cs" />
+    <Compile Include="Intermech\FormDesigner\FormDesignerEditorService.cs" />
+    <Compile Include="Intermech\FormDesigner\FormDesignerToolBar.cs" />
+    <Compile Include="Intermech\FormDesigner\FormDesignerView.cs" />
+    <Compile Include="Intermech\FormDesigner\MenuItemForm.cs" />
+    <Compile Include="Intermech\FormDesigner\FormDesignerPropertiesPage.cs" />
+    <Compile Include="Intermech\FormDesigner\FormDesignerProperties.cs" />
+    <Compile Include="Intermech\FormDesigner\DesignerSerializationService.cs" />
+    <Compile Include="Intermech\FormDesigner\IMessageService.cs" />
+    <Compile Include="Intermech\FormDesigner\MessageService.cs" />
+    <Compile Include="Intermech\FormDesigner\IHostView.cs" />
+    <Compile Include="Intermech\FormDesigner\MenuCommandService.cs" />
+    <Compile Include="Intermech\FormDesigner\NameCreationService.cs" />
+    <Compile Include="Intermech\FormDesigner\ToolboxService.cs" />
+    <Compile Include="Intermech\FormDesigner\FormDesignerControlToolBoxUpdateEvent.cs" />
+    <Compile Include="Intermech\FormDesigner\UIService.cs" />
+    <Compile Include="Intermech\FormDesigner\Startup.cs" />
+    <Compile Include="Intermech\FormDesigner\FormDesignerStateHolder.cs" />
+    <Compile Include="Intermech\FormDesigner\FormDesignerConsts.cs" />
+    <Compile Include="Intermech\FormDesigner\ProviderHolder.cs" />
+    <Compile Include="Intermech\FormDesigner\DesignerToolBoxTab.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\AttrCheckBoxWrapper.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\AttrCustomWrapper.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\AttrLabelWrapper.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\AttrMaskedTextEditWrapper.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\AttrPasswordWrapper.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\AttrTextEditWrapper.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\ColumnsNamesEditorForm.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\BaseEnumConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\BaseTypeConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\AnchorStylesConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\AutoSizeModeConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\BackgroundImageLayoutConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\BooleanConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\YesNoConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\BorderStyleConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\PictureSelectModeConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\ComboBoxStyleConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\ContentAlignmentConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\DateTimePickerDropDownAlignConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\DateTimePickerFormatConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\DockStyleConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\FlatStyleConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\FontConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\HelpPathToFileConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\HorizontalAlignmentConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\ImageConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\ImageFromLibraryConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\MarginPaddingConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\MaskFormatConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\ParentPointConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\PointConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\ScrollBarsConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\SelectionModeConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\SizeConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\TabAlignmentConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\TabAppearanceConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\TabSizeModeConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\UnitsConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\FontUnitsConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\DockPaddingEdgesConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\FormBorderStyleConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\AppearanceConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\CheckStateConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\FormStartPositionConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\FormWindowStateConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\SizeGripStyleConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\ColorDepthConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\PictureBoxSizeModeConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\TabDrawModeConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\LeftRightAlignmentConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\AutoScaleModeConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\DialogResultConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\BaseDropDownEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\AutoSizeModeEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\BackgroundImageLayoutEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\BooleanEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\YesNoEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\BorderStyleEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\PictureSelectModeEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\ComboBoxStyleEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\DateTimePickerDropDownAlignEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\DateTimePickerFormatEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\FlatStyleEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\HelpPathToFileEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\HorizontalAlignmentEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\ImagesLibraryEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\ImageFromLibraryEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\MaskFormatEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\ParentPointEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\ScrollBarsEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\SelectionModeEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\TabAlignmentEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\TabAppearanceEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\TabSizeModeEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\UnitsEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\MeasuredValueEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\AttributeInfoEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\TabPageCollectionEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\FormBorderStyleEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\AppearanceEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\CheckStateEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\FormStartPositionEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\FormWindowStateEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\SizeGripStyleEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\ColorDepthEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\FontUnitsEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\PictureBoxSizeModeEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\TabDrawModeEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\AutoScaleModeEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\DialogResultEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\ContainerControlWrapper.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\ColumnsSortingEditorForm.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\TabPageCollectionEditorForm.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\ControlWrapper.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\AttrTextBtnCompWrapper.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\DesFormWrapper.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\FormDesignerEventsConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\FormDesignerEventsEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\FormWrapper.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\IMGroupBoxWrapper.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\IMPanelWrapper.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\LabelWrapper.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\PropertySetValue.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\AddCustomAttribute.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\SetValueEventArgs.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\lPropertyDescriptor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\lTypeDescriptor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\lPropertyTranslate.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\lPropertyTemplate.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\ObjectsListDescriptor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\ColumnCollectionConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\ListContextConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\AfterDoubleClickConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\SelectionsConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\ObjectsTypeConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\RelationsTypeConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\ColumnCollectionEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\DefaultSortingColumnsEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\ColumnsNamesEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\DataSourceNameEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\ListContextEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\AfterDoubleClickEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\SelectionsEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\ObjectsTypeEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\RelationsTypeEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\PanelWrapper.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\PictureBoxWrapper.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\PreviewBoxWrapper.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\ScrollableControlWrapper.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\SplitterWrapper.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\TabControlWrapper.cs" />
+    <Compile Include="Intermech\FormDesigner\Wrappers\TabPageWrapper.cs" />
+    <Compile Include="Intermech\FormDesigner\Undo\ComponentAddedUndoAction.cs" />
+    <Compile Include="Intermech\FormDesigner\Undo\ComponentChangedUndoAction.cs" />
+    <Compile Include="Intermech\FormDesigner\Undo\ComponentRemovedUndoAction.cs" />
+    <Compile Include="Intermech\FormDesigner\Undo\IUndoableOperation.cs" />
+    <Compile Include="Intermech\FormDesigner\Undo\SelectComponentsUndoAction.cs" />
+    <Compile Include="Intermech\FormDesigner\Undo\UndoHandler.cs" />
+    <Compile Include="Intermech\FormDesigner\Undo\UndoQueue.cs" />
+    <Compile Include="Intermech\FormDesigner\Undo\UndoStack.cs" />
+    <Compile Include="Intermech\FormDesigner\Properties\Resources.cs" />
+    <Compile Include="Intermech\FormDesigner\Navigator\FormDesignerCommands.cs" />
+    <Compile Include="Intermech\FormDesigner\Navigator\FormDesignerEditorViewProvider.cs" />
+    <Compile Include="Intermech\FormDesigner\Links\FormDesignerFormLinksManager.cs" />
+    <Compile Include="Intermech\FormDesigner\Links\ObjectTypeFormLinkProvider.cs" />
+    <Compile Include="Intermech\FormDesigner\Links\ObjectTypeFormLink.cs" />
+    <Compile Include="Intermech\FormDesigner\Links\RelationTypeFormLinkProvider.cs" />
+    <Compile Include="Intermech\FormDesigner\Links\RelationTypeFormLink.cs" />
+    <Compile Include="Intermech\FormDesigner\Descriptors\AttrObjectsListDescriptor.cs" />
+    <Compile Include="Intermech\FormDesigner\Descriptors\AttrTextBtnControlDescriptor.cs" />
+    <Compile Include="Intermech\FormDesigner\Descriptors\AttrTextBtnDataSourceNameEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Descriptors\FormDesignerControlDescriptor.cs" />
+    <Compile Include="Intermech\FormDesigner\Descriptors\FormDesignerPropertyDescriptor.cs" />
+    <Compile Include="Intermech\FormDesigner\Descriptors\AttrButtonDescriptor.cs" />
+    <Compile Include="Intermech\FormDesigner\Descriptors\FormDesignerControlsPropertyDescriptor.cs" />
+    <Compile Include="Intermech\FormDesigner\Descriptors\AttrCheckedListBoxDescriptor.cs" />
+    <Compile Include="Intermech\FormDesigner\Descriptors\AttrComboBoxDescriptor.cs" />
+    <Compile Include="Intermech\FormDesigner\Descriptors\AttrDateEditDescriptor.cs" />
+    <Compile Include="Intermech\FormDesigner\Descriptors\AttrListBoxBtnDescriptor.cs" />
+    <Compile Include="Intermech\FormDesigner\Descriptors\AttrListBoxDescriptor.cs" />
+    <Compile Include="Intermech\FormDesigner\Descriptors\AttrMeasuredEditDescriptor.cs" />
+    <Compile Include="Intermech\FormDesigner\Descriptors\AttrMeasuredListBoxDescriptor.cs" />
+    <Compile Include="Intermech\FormDesigner\Descriptors\AttrMemoEditDescriptor.cs" />
+    <Compile Include="Intermech\FormDesigner\AutoPlace\AutoPlaceWizard.cs" />
+    <Compile Include="Intermech\FormDesigner\AutoPlace\Step1.cs" />
+    <Compile Include="Intermech\FormDesigner\AutoPlace\Step2.cs" />
+    <Compile Include="Intermech\FormDesigner\AutoPlace\LabelArrange.cs" />
+    <Compile Include="Intermech\FormDesigner\AutoPlace\LabelArrangeHelper.cs" />
+    <Compile Include="Intermech\FormDesigner\AutoPlace\AttributeModel.cs" />
+    <Compile Include="Intermech\FormDesigner\AutoPlace\Step3.cs" />
+    <Compile Include="Intermech\FormDesigner\Attributes\ResetValueAttribute.cs" />
+    <Compile Include="Intermech\FormDesigner\Actions\FormDesignerActionEditor.cs" />
+    <Compile Include="Intermech\FormDesigner\Actions\FormDesignerActionTypeConverter.cs" />
+    <Compile Include="Intermech\FormDesigner\Actions\FormDesignerActionUITypeEditor.cs" />
+    <Compile Include="ImSSP\sc_7169.cs" />
+    <Compile Include="ImSSP\sc_7178.cs" />
+    <Compile Include="ImSSP\sc_7190.cs" />
+    <Compile Include="ImSSP\sc_7192.cs" />
+    <Compile Include="ImSSP\sc_7194.cs" />
+    <Compile Include="ImSSP\sc_7145.cs" />
+    <Compile Include="ImSSP\sc_7147.cs" />
+    <Compile Include="ImSSP\sc_7149.cs" />
+    <Compile Include="ImSSP\sc_7197.cs" />
+    <Compile Include="ImSSP\sc_7151.cs" />
+    <Compile Include="ImSSP\sc_7153.cs" />
+    <Compile Include="ImSSP\sc_7199.cs" />
+    <Compile Include="ImSSP\sc_7155.cs" />
+    <Compile Include="ImSSP\sc_7157.cs" />
+    <Compile Include="ImSSP\sc_7159.cs" />
+    <Compile Include="ImSSP\sc_7201.cs" />
+    <Compile Include="ImSSP\sc_7205.cs" />
+    <Compile Include="ImSSP\sc_7210.cs" />
+    <Compile Include="ImSSP\sc_7214.cs" />
+    <Compile Include="ImSSP\sc_7216.cs" />
+    <Compile Include="ImSSP\sc_7218.cs" />
+    <Compile Include="ImSSP\sc_7224.cs" />
+    <Compile Include="ImSSP\sc_7226.cs" />
+    <Compile Include="ImSSP\sc_7230.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Intermech\FormDesigner\Actions\FormDesignerActionEditor.resx" />
+    <EmbeddedResource Include="Intermech\FormDesigner\AutoPlace\AutoPlaceWizard.resx" />
+    <EmbeddedResource Include="Intermech\FormDesigner\AutoPlace\Step1.resx" />
+    <EmbeddedResource Include="Intermech\FormDesigner\AutoPlace\Step2.resx" />
+    <EmbeddedResource Include="Intermech\FormDesigner\AutoPlace\Step3.resx" />
+    <EmbeddedResource Include="Intermech\FormDesigner\DesignerToolBoxTab.resx" />
+    <EmbeddedResource Include="Intermech\FormDesigner\FormDesignerControl.resx" />
+    <EmbeddedResource Include="Intermech\FormDesigner\FormDesignerView.resx" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Properties\Resources.resx" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\Actions\Copy.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\Actions\Cut.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\Actions\Delete.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\Actions\Paste.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\Actions\Properties.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\Align\Bottoms.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\Align\Center.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\Align\Lefts.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\Align\Middles.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\Align\Rights.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\Align\ToGrid.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\Align\Tops.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\CenterInForm\Horizontally.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\CenterInForm\Vertically.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\CustomAttributesResources.resx" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\form.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\FormDesignerResources.resx" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\HorizontalSpacing\Decrease.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\HorizontalSpacing\Increase.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\HorizontalSpacing\MakeEqual.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\HorizontalSpacing\Remove.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\MakeSameSize\Both.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\MakeSameSize\Height.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\MakeSameSize\SizeToGrid.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\MakeSameSize\Width.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\newform.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\Order\BringToFront.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\Order\SendToBack.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\Order\TabOrder.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\Panel.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\Pointer.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\ToolBoxItemImages\AttrButton.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\ToolBoxItemImages\AttrCheckBox.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\ToolBoxItemImages\AttrCheckedListBox.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\ToolBoxItemImages\AttrComboBox.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\ToolBoxItemImages\AttrDateTimePicker.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\ToolBoxItemImages\AttrLabel.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\ToolBoxItemImages\AttrListBox.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\ToolBoxItemImages\AttrListBoxBtn.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\ToolBoxItemImages\AttrMeasuredEdit.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\ToolBoxItemImages\AttrMeasuredListBox.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\ToolBoxItemImages\AttrMemoEdit.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\ToolBoxItemImages\AttrPassword.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\ToolBoxItemImages\AttrTextBtn.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\ToolBoxItemImages\AttrTextBtnComp.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\ToolBoxItemImages\AttrTextEdit.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\ToolBoxItemImages\GroupBox.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\ToolBoxItemImages\IMPanel.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\ToolBoxItemImages\Label.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\ToolBoxItemImages\PictureBox.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\ToolBoxItemImages\Pointer.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\ToolBoxItemImages\RadioButton.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\ToolBoxItemImages\Splitter.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\ToolBoxItemImages\TabControl.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\VerticalSpacing\Decrease.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\VerticalSpacing\Increase.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\VerticalSpacing\MakeEqual.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Resources\VerticalSpacing\Remove.bmp" />
+    <EmbeddedResource Include="Intermech\FormDesigner\ToolboxService.resx" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Wrappers\AttrCheckBoxWrapper.resx" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Wrappers\AttrMaskedTextEditWrapper.resx" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Wrappers\AttrPasswordWrapper.resx" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Wrappers\AttrTextBtnCompWrapper.resx" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Wrappers\AttrTextBtnWrapper.resx" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Wrappers\AttrTextEditWrapper.resx" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Wrappers\BaseDropDownEditor.resx" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Wrappers\ColumnsNamesEditorForm.resx" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Wrappers\ColumnsSortingEditorForm.resx" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Wrappers\ContainerControlWrapper.resx" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Wrappers\ControlWrapper.resx" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Wrappers\DesFormWrapper.resx" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Wrappers\FormWrapper.resx" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Wrappers\LabelWrapper.resx" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Wrappers\PanelWrapper.resx" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Wrappers\PictureBoxWrapper.resx" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Wrappers\ScrollableControlWrapper.resx" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Wrappers\TabControlWrapper.resx" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Wrappers\TabPageCollectionEditorForm.resx" />
+    <EmbeddedResource Include="Intermech\FormDesigner\Wrappers\TabPageWrapper.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.XmlExchange.IpsXml.Converter.TechcardToIps.App.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0830683B-8876-4390-8454-67F765BF85AB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>Intermech.XmlExchange.IpsXml.Converter.TechcardToIps.App</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech.XmlExchange.IpsXml.Converter.TechcardToIps.App</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Intermech.Client.Base">
+      <HintPath>lib\Intermech.Client.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Client">
+      <HintPath>lib\Intermech.Interfaces.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.XmlExchange.IpsXml.Converter.TechcardToIps">
+      <HintPath>lib\Intermech.XmlExchange.IpsXml.Converter.TechcardToIps.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.XmlExchange.IpsXml.Converter.TechcardToIps.ConfigEditor">
+      <HintPath>lib\Intermech.XmlExchange.IpsXml.Converter.TechcardToIps.ConfigEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppConfig.cs" />
+    <Compile Include="Converter.cs" />
+    <Compile Include="ConverterClientApplicationHost.cs" />
+    <Compile Include="InputParams.cs" />
+    <Compile Include="InputParamsForm.cs" />
+    <Compile Include="IpsConnector.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="ProgressForm.cs" />
+    <Compile Include="Properties\Resources.cs" />
+    <Compile Include="Properties\Settings.cs" />
+    <Compile Include="Resources\CustomAttributesResources.cs" />
+    <Compile Include="Resources\LocalizationHolder.cs" />
+    <Compile Include="Resources\CustomDescription.cs" />
+    <Compile Include="Resources\CustomDisplayName.cs" />
+    <Compile Include="Resources\CustomCategory.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="InputParamsForm.resx" />
+    <EmbeddedResource Include="ProgressForm.resx" />
+    <EmbeddedResource Include="Properties\Resources.resx" />
+    <EmbeddedResource Include="Resources\CustomAttributesResources.resx" />
+    <EmbeddedResource Include="Resources\MessagesResources.resx" />
+    <EmbeddedResource Include="Resources\MessagesResources\Designer.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

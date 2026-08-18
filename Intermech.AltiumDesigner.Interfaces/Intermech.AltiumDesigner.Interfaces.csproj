@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.AltiumDesigner.Interfaces.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FCF2D5D9-6ACB-4439-A82A-C750AAF7E45F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.AltiumDesigner.Interfaces</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech.AltiumDesigner.Interfaces</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AltiumConsts.cs" />
+    <Compile Include="DocumentInfo.cs" />
+    <Compile Include="IPCBDocument.cs" />
+    <Compile Include="Parameter.cs" />
+    <Compile Include="ParameterAlreadyPresentException.cs" />
+    <Compile Include="IADProject.cs" />
+    <Compile Include="IFileDocument.cs" />
+    <Compile Include="IIdentification.cs" />
+    <Compile Include="IIPSAddIn.cs" />
+    <Compile Include="IParametrable.cs" />
+    <Compile Include="ISchComponent.cs" />
+    <Compile Include="ISchDocument.cs" />
+    <Compile Include="ISchSheetSymbol.cs" />
+    <Compile Include="IVariant.cs" />
+    <Compile Include="IVariation.cs" />
+    <Compile Include="ModifiedTypes.cs" />
+    <Compile Include="EntityNotFoundException.cs" />
+    <Compile Include="ObligatorySchParameters.cs" />
+    <Compile Include="RegistryHelper.cs" />
+    <Compile Include="SchemaDocumentInfo.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

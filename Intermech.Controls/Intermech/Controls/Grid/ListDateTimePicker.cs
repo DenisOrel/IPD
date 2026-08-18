@@ -1,0 +1,77 @@
+﻿
+// Type: Intermech.Controls.Grid.ListDateTimePicker
+// Assembly: Intermech.Controls, Version=7.0.2.1112, Culture=neutral, PublicKeyToken=null
+// MVID: B2BFE6FF-0AA3-422C-A374-1A460CB041DD
+:\IPS\Client\Intermech.Controls.dll
+// XML documentation location: D:\IPS\Client\Intermech.Controls.xml
+
+using System;
+using System.Windows.Forms;
+
+
+namespace Intermech.Controls.Grid;
+
+/// <summary>Summary description for GLDateTimePicker.</summary>
+internal class ListDateTimePicker : DateTimePicker, IEmbeddedControl
+{
+  /// <summary>Required designer variable.</summary>
+  private System.ComponentModel.Container components;
+  protected ListItem _item;
+  protected ListSubItem _subItem;
+  protected ListGrid _parent;
+
+  public ListDateTimePicker() => this.InitializeComponent();
+
+  /// <summary>Clean up any resources being used.</summary>
+  protected override void Dispose(bool disposing)
+  {
+    if (disposing && this.components != null)
+      this.components.Dispose();
+    base.Dispose(disposing);
+  }
+
+  /// <summary>
+  /// Required method for Designer support - do not modify
+  /// the contents of this method with the code editor.
+  /// </summary>
+  private void InitializeComponent() => this.components = new System.ComponentModel.Container();
+
+  public ListItem Item
+  {
+    get => this._item;
+    set => this._item = value;
+  }
+
+  public ListSubItem SubItem
+  {
+    get => this._subItem;
+    set => this._subItem = value;
+  }
+
+  public ListGrid ListControl
+  {
+    get => this._parent;
+    set => this._parent = value;
+  }
+
+  public string ReturnText() => this.Text;
+
+  public bool Load(ListItem item, ListSubItem subItem, ListGrid listctrl)
+  {
+    this.Format = DateTimePickerFormat.Long;
+    try
+    {
+      this._item = item;
+      this._subItem = subItem;
+      this._parent = listctrl;
+      this.Text = subItem.Text;
+    }
+    catch (Exception ex)
+    {
+      this.Text = DateTime.Now.ToString();
+    }
+    return true;
+  }
+
+  public void Unload() => this._subItem.Text = this.Text;
+}

@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\IPS.Installer.Full\InstServer\Server\Intermech.Imbase.Server.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{074CDDE5-8856-4062-9CDE-7F7FE2E34C81}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.Imbase.Server</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.DataProvider.Oracle">
+      <HintPath>lib\Intermech.DataProvider.Oracle.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Expert">
+      <HintPath>lib\Intermech.Expert.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Imbase">
+      <HintPath>lib\Intermech.Interfaces.Imbase.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Pdm">
+      <HintPath>lib\Intermech.Interfaces.Pdm.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Server">
+      <HintPath>lib\Intermech.Interfaces.Server.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Kernel">
+      <HintPath>lib\Intermech.Kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Localization\LocalizationHolder.cs" />
+    <Compile Include="Localization\CustomDescription.cs" />
+    <Compile Include="Localization\CustomDisplayName.cs" />
+    <Compile Include="Localization\CustomCategory.cs" />
+    <Compile Include="Imbase\Server\BackgroundTaskService.cs" />
+    <Compile Include="Imbase\Server\BaseTaskForBackgroundTaskService.cs" />
+    <Compile Include="Imbase\Server\BriefcaseSupport.cs" />
+    <Compile Include="Imbase\Server\CheckPublishComposition.cs" />
+    <Compile Include="Imbase\Server\CustomUsersTableFilterService.cs" />
+    <Compile Include="Imbase\Server\CustomUsersTableFilterSynchronizer.cs" />
+    <Compile Include="Imbase\Server\FolderFilterService.cs" />
+    <Compile Include="Imbase\Server\ImbaseFolderStatusesProvider.cs" />
+    <Compile Include="Imbase\Server\ImbaseClearDisplayTablesCacheService.cs" />
+    <Compile Include="Imbase\Server\ImbaseEventsSupportBaseService.cs" />
+    <Compile Include="Imbase\Server\ImEventSession.cs" />
+    <Compile Include="Imbase\Server\ImEventType.cs" />
+    <Compile Include="Imbase\Server\ImEventBaseData.cs" />
+    <Compile Include="Imbase\Server\ImEventRelData.cs" />
+    <Compile Include="Imbase\Server\ImEventObjData.cs" />
+    <Compile Include="Imbase\Server\ImEventObjLCStepData.cs" />
+    <Compile Include="Imbase\Server\ImEventAttrData.cs" />
+    <Compile Include="Imbase\Server\ImbaseIndexingService.cs" />
+    <Compile Include="Imbase\Server\ImbaseIndexSecurity.cs" />
+    <Compile Include="Imbase\Server\ImbaseNtdDocLink.cs" />
+    <Compile Include="Imbase\Server\ImbaseObjectsCreator.cs" />
+    <Compile Include="Imbase\Server\ImbaseObjInfoService.cs" />
+    <Compile Include="Imbase\Server\ImClassiffDiffMode.cs" />
+    <Compile Include="Imbase\Server\ImClassiff.cs" />
+    <Compile Include="Imbase\Server\ImbaseRecordSecurity.cs" />
+    <Compile Include="Imbase\Server\ImbaseAttSecurity.cs" />
+    <Compile Include="Imbase\Server\ImbaseRestrictiveCache.cs" />
+    <Compile Include="Imbase\Server\ImbaseRestructuringTablesService.cs" />
+    <Compile Include="Imbase\Server\ImbaseApplicabilityEventHandler.cs" />
+    <Compile Include="Imbase\Server\ImbaseServer.cs" />
+    <Compile Include="Imbase\Server\StrWithFlag.cs" />
+    <Compile Include="Imbase\Server\ImbaseServerStartup.cs" />
+    <Compile Include="Imbase\Server\ImbaseExtendedService.cs" />
+    <Compile Include="Imbase\Server\ProcessedItemsInfo.cs" />
+    <Compile Include="Imbase\Server\ImbaseSynchObjectsService.cs" />
+    <Compile Include="Imbase\Server\ImbaseUpdatingService.cs" />
+    <Compile Include="Imbase\Server\InverseImbaseSynchObjectsService.cs" />
+    <Compile Include="Imbase\Server\KeyConverterService.cs" />
+    <Compile Include="Imbase\Server\ImbaseDBObject.cs" />
+    <Compile Include="Imbase\Server\TableRecordDBObject.cs" />
+    <Compile Include="Imbase\Server\TableRecordsCollection.cs" />
+    <Compile Include="Imbase\Server\ImportTableBlobHandler.cs" />
+    <Compile Include="Imbase\Server\PublishTableLinksHandler.cs" />
+    <Compile Include="Imbase\Server\ReplaceAttributeTaskService.cs" />
+    <Compile Include="Imbase\Server\SynchronizationObjService.cs" />
+    <Compile Include="Imbase\Server\TableLoader.cs" />
+    <Compile Include="Imbase\Server\TablesIndexerService.cs" />
+    <Compile Include="Imbase\Server\TablesMergingService.cs" />
+    <Compile Include="Imbase\Server\TablesCache.cs" />
+    <Compile Include="Imbase\Server\TablesDisplayService.cs" />
+    <Compile Include="Imbase\Server\TablesIndexer.cs" />
+    <Compile Include="Imbase\Server\IndexingData.cs" />
+    <Compile Include="Imbase\Server\UpdateObjectsFromImbaseService.cs" />
+    <Compile Include="Imbase\Server\ImbaseUpdate.cs" />
+    <Compile Include="Imbase\Server\Sync\CatalogCodeHandler.cs" />
+    <Compile Include="Imbase\Server\Sync\CodeHandler.cs" />
+    <Compile Include="Imbase\Server\Sync\ImbaseFormulaParser.cs" />
+    <Compile Include="Imbase\Server\Sync\CodeHandlersFactory.cs" />
+    <Compile Include="Imbase\Server\Sync\FolderCodeHandler.cs" />
+    <Compile Include="Imbase\Server\Sync\ImbaseCodes.cs" />
+    <Compile Include="Imbase\Server\Sync\BaseSyncTaskService.cs" />
+    <Compile Include="Imbase\Server\Sync\WriteLogHandler.cs" />
+    <Compile Include="Imbase\Server\Sync\ImbaseSyncTaskService.cs" />
+    <Compile Include="Imbase\Server\Sync\ImbaseTableMixPumpService.cs" />
+    <Compile Include="Imbase\Server\Sync\PumpSettings.cs" />
+    <Compile Include="Imbase\Server\Sync\MeasureAttributesCache.cs" />
+    <Compile Include="Imbase\Server\Sync\RecordCodeHandler.cs" />
+    <Compile Include="Imbase\Server\Sync\Consts.cs" />
+    <Compile Include="Imbase\Server\Sync\EventType.cs" />
+    <Compile Include="Imbase\Server\Sync\ImTablesType.cs" />
+    <Compile Include="Imbase\Server\Sync\ImFileAtt.cs" />
+    <Compile Include="Imbase\Server\Sync\ImDataMode.cs" />
+    <Compile Include="Imbase\Server\Sync\ImDataTypeEx.cs" />
+    <Compile Include="Imbase\Server\Sync\TableCodeHandler.cs" />
+    <Compile Include="Imbase\Server\Sync\SheduledTask\SyncSheduledTask.cs" />
+    <Compile Include="Imbase\Server\Sync\Records\BlobRecord.cs" />
+    <Compile Include="Imbase\Server\Sync\Records\EventRecord.cs" />
+    <Compile Include="Imbase\Server\Sync\Records\FieldRecord.cs" />
+    <Compile Include="Imbase\Server\Sync\Records\FolderRecord.cs" />
+    <Compile Include="Imbase\Server\Sync\Records\TableRecord.cs" />
+    <Compile Include="Imbase\Server\Sync\Services\IChangedTableIndexer.cs" />
+    <Compile Include="Imbase\Server\Sync\Services\ChangedTableIndexer.cs" />
+    <Compile Include="Imbase\Server\Sync\Services\IDelayedEvents.cs" />
+    <Compile Include="Imbase\Server\Sync\Services\DelayedEvents.cs" />
+    <Compile Include="Imbase\Server\Sync\Services\HandlerEventDelegate.cs" />
+    <Compile Include="Imbase\Server\Sync\Services\HandlerExceptionDelegate.cs" />
+    <Compile Include="Imbase\Server\Sync\Services\IEventLoggerService.cs" />
+    <Compile Include="Imbase\Server\Sync\Services\EventLoggerService.cs" />
+    <Compile Include="Imbase\Server\Sync\Services\SyncServices.cs" />
+    <Compile Include="Imbase\Server\Sync\Helper\SearchLinksHelper.cs" />
+    <Compile Include="Imbase\Server\Sync\Helper\VisibleAttHelper.cs" />
+    <Compile Include="Imbase\Server\Sync\DataBase\DataBase.cs" />
+    <Compile Include="Imbase\Server\Sync\DataBase\DatabaseHelper.cs" />
+    <Compile Include="Imbase\Server\Sync\DataBase\IDataBase.cs" />
+    <Compile Include="Imbase\Server\Sync\DataBase\InterbaseBase.cs" />
+    <Compile Include="Imbase\Server\Sync\DataBase\MssqlBase.cs" />
+    <Compile Include="Imbase\Server\Sync\DataBase\OracleBase.cs" />
+    <Compile Include="Imbase\Server\UpdaterStates\CantModifyObjUpdaterState.cs" />
+    <Compile Include="Imbase\Server\UpdaterStates\CheckoutObjUpdaterState.cs" />
+    <Compile Include="Imbase\Server\UpdaterStates\CreateVersionObjUpdaterState.cs" />
+    <Compile Include="Imbase\Server\UpdaterStates\InBaseObjUpdaterState.cs" />
+    <Compile Include="Imbase\Server\UpdaterStates\IObjUpdaterState.cs" />
+    <Compile Include="Imbase\Server\Synchronization\CheckBaseMaterialAttributeState.cs" />
+    <Compile Include="Imbase\Server\Synchronization\IAttributeAnalyzerState.cs" />
+    <Compile Include="Imbase\Server\Synchronization\BaseCompareState.cs" />
+    <Compile Include="Imbase\Server\Synchronization\RowCompareState.cs" />
+    <Compile Include="Imbase\Server\Synchronization\HierarchyCompareState.cs" />
+    <Compile Include="Imbase\Server\Synchronization\ILogSupport.cs" />
+    <Compile Include="Imbase\Server\Synchronization\MessageType.cs" />
+    <Compile Include="Imbase\Server\Synchronization\LogSupport.cs" />
+    <Compile Include="Imbase\Server\Synchronization\SynchronizationAttributesAnalyzer.cs" />
+    <Compile Include="Imbase\Server\Synchronization\SynchronizationAttributesUpdater.cs" />
+    <Compile Include="Imbase\Server\Synchronization\TableCompareState.cs" />
+    <Compile Include="Imbase\Server\Synchronization\CheckBindWithImbaseState.cs" />
+    <Compile Include="Imbase\Server\Receptures\RecepturesCacheSyncronizer.cs" />
+    <Compile Include="Imbase\Server\Receptures\RecepturesService.cs" />
+    <Compile Include="Imbase\Server\Params\ParamsServerSynchronizer.cs" />
+    <Compile Include="Imbase\Server\Params\ImbaseParamsService.cs" />
+    <Compile Include="Imbase\Server\Filters\ObjFilterCache.cs" />
+    <Compile Include="Imbase\Server\Filters\ObjFilterCacheItem.cs" />
+    <Compile Include="Imbase\Server\Filters\ObjFilterCacheItemList.cs" />
+    <Compile Include="Imbase\Server\Filters\ObjectFilterCacheLoader.cs" />
+    <Compile Include="Imbase\Server\Filters\ImbaseObjFilterDataHelper.cs" />
+    <Compile Include="Imbase\Server\Filters\ObjFilterCacheService.cs" />
+    <Compile Include="Imbase\Server\Filters\ObjectFilterCacheThreadLoader.cs" />
+    <Compile Include="Imbase\Server\Filters\ObjectFilterService.cs" />
+    <Compile Include="ImSSP\sc_8027.cs" />
+    <Compile Include="ImSSP\sc_8122.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Imbase\Server\Resources\CustomAttributesResources.resx" />
+    <EmbeddedResource Include="Imbase\Server\Resources\ImbaseServerResources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

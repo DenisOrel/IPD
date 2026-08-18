@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.AltiumDesigner.Integrator.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DDFAE512-2B62-4E90-8CC3-CD38AB157226}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.AltiumDesigner.Integrator</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech.AltiumDesigner.Integrator</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Altium.SDK">
+      <HintPath>lib\Altium.SDK.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.AltiumDesigner.Interfaces">
+      <HintPath>lib\Intermech.AltiumDesigner.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Client.Core">
+      <HintPath>lib\Intermech.Client.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Client">
+      <HintPath>lib\Intermech.Interfaces.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Pdm">
+      <HintPath>lib\Intermech.Interfaces.Pdm.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Tools.Components">
+      <HintPath>lib\Intermech.Tools.Components.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ADApplicationLauncherService.cs" />
+    <Compile Include="ADArticleAttributesProcessingService.cs" />
+    <Compile Include="ADArticleDocumentationService.cs" />
+    <Compile Include="ADArticleTypesService.cs" />
+    <Compile Include="ADClientSponsor.cs" />
+    <Compile Include="ADCommandsModule.cs" />
+    <Compile Include="ADCommandsProvider.cs" />
+    <Compile Include="ADComponent.cs" />
+    <Compile Include="ADComponentProperty.cs" />
+    <Compile Include="ADDBAutoSetupModule.cs" />
+    <Compile Include="AdditionalFiles.cs" />
+    <Compile Include="AdditionalFilesFilter.cs" />
+    <Compile Include="ADDocumentApi.cs" />
+    <Compile Include="DocumentHelper.cs" />
+    <Compile Include="ADIntegratorModule.cs" />
+    <Compile Include="ADLicenseService.cs" />
+    <Compile Include="ADEmbedAttributesService.cs" />
+    <Compile Include="ADProject.cs" />
+    <Compile Include="ADSchSheetSymbol.cs" />
+    <Compile Include="ADVariant.cs" />
+    <Compile Include="ADVariation.cs" />
+    <Compile Include="ProjectExternalKeysService.cs" />
+    <Compile Include="AssemblyPropertiesFormatter.cs" />
+    <Compile Include="ParametrableCompoundValue.cs" />
+    <Compile Include="ADComponentsListFilter.cs" />
+    <Compile Include="ADElementList.cs" />
+    <Compile Include="ADApiSession.cs" />
+    <Compile Include="ADIntegratorAPI.cs" />
+    <Compile Include="DocumentNotRegisteredException.cs" />
+    <Compile Include="IADIntegratorAPI.cs" />
+    <Compile Include="PCBDocumentApi.cs" />
+    <Compile Include="EmptyBagContainer.cs" />
+    <Compile Include="ProjectDependenciesBuilder.cs" />
+    <Compile Include="ProjectDocumentApi.cs" />
+    <Compile Include="ParametersContainer.cs" />
+    <Compile Include="PCBDocumentCodec.cs" />
+    <Compile Include="ProjectDocumentCodec.cs" />
+    <Compile Include="SchemaComponentCodec.cs" />
+    <Compile Include="ADCompositionReader.cs" />
+    <Compile Include="ProjectBoardsReader.cs" />
+    <Compile Include="MaterialQuantityHelper.cs" />
+    <Compile Include="SchDocumentApi.cs" />
+    <Compile Include="SchemaDocumentCodec.cs" />
+    <Compile Include="ADExtendedSaveService.cs" />
+    <Compile Include="ADMechanicalDriver.cs" />
+    <Compile Include="ApiHelper.cs" />
+    <Compile Include="AssemblyCodec.cs" />
+    <Compile Include="SynchronizedADAssemblyAttributes.cs" />
+    <Compile Include="SynchronizedADComponentAttributes.cs" />
+    <Compile Include="SynchronizedADPCBDocumentAttributes.cs" />
+    <Compile Include="SynchronizedADProjectAttributes.cs" />
+    <Compile Include="SynchronizedADSchemaDocumentAttributes.cs" />
+    <Compile Include="SynchronizedProjectDocumentAttributes.cs" />
+    <Compile Include="SchemaPropertiesFormatter.cs" />
+    <Compile Include="VirtualAttributes.cs" />
+    <Compile Include="AttributeTable.cs" />
+    <Compile Include="ADConsts.cs" />
+    <Compile Include="AttributesTableKind.cs" />
+    <Compile Include="ComponentKinds.cs" />
+    <Compile Include="ADDocumentType.cs" />
+    <Compile Include="AltiumAttributes.cs" />
+    <Compile Include="AltiumObjectTypeGuids.cs" />
+    <Compile Include="ADCaptureChangesService.cs" />
+    <Compile Include="EmbeddedAttributesService.cs" />
+    <Compile Include="FileDocumentProxy.cs" />
+    <Compile Include="FileTypeService.cs" />
+    <Compile Include="ImportService.cs" />
+    <Compile Include="ADIntegrator.cs" />
+    <Compile Include="ADInterfaceService.cs" />
+    <Compile Include="ADDocument.cs" />
+    <Compile Include="AddInProxy.cs" />
+    <Compile Include="PCBDocumentDependenciesBuilder.cs" />
+    <Compile Include="SchDocumentProxy.cs" />
+    <Compile Include="SchemaComponent.cs" />
+    <Compile Include="AttributesCompliance.cs" />
+    <Compile Include="ComponentsFilterForm.cs" />
+    <Compile Include="ADComponentsCompositionVariants.cs" />
+    <Compile Include="ComponentKindAttribute.cs" />
+    <Compile Include="CompositionVariantsEditor.cs" />
+    <Compile Include="ComponentsFilterUIEditor.cs" />
+    <Compile Include="NotImportedVariantSettingsSurrogate.cs" />
+    <Compile Include="ParametersHelper.cs" />
+    <Compile Include="FileDocumentTypesUIEditor.cs" />
+    <Compile Include="ADIntegratorSettings.cs" />
+    <Compile Include="ADPlugin.cs" />
+    <Compile Include="SettingsCodec.cs" />
+    <Compile Include="ADSettingsSurrogate.cs" />
+    <Compile Include="SettingsValidator.cs" />
+    <Compile Include="SettingsService.cs" />
+    <Compile Include="AttributesComplianceUIEditor.cs" />
+    <Compile Include="SimpleADCompositionRelation.cs" />
+    <Compile Include="TypedParametersContainer`1.cs" />
+    <Compile Include="UnionADCompositionRelation.cs" />
+    <Compile Include="Properties\Resources.cs" />
+    <Compile Include="ImSSP\sc_361.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ComponentsFilterForm.resx" />
+    <EmbeddedResource Include="Properties\Resources.resx" />
+    <EmbeddedResource Include="Resources\Integrator template.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,73 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: Intermech.Tools.Client.Subsystems.Import_from_Excel.Dialogs.OpenConfigDialogForm
+// Assembly: Intermech.Tools.Client, Version=7.0.2.1112, Culture=neutral, PublicKeyToken=null
+// MVID: ED7849C5-DE41-4371-894D-DD4E15C9E1D9
+// Assembly location: D:\IPS\Client\Intermech.Tools.Client.dll
+
+using Intermech.Localization;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Drawing;
+using System.Windows.Forms;
+
+#nullable disable
+namespace Intermech.Tools.Client.Subsystems.Import_from_Excel.Dialogs;
+
+public class OpenConfigDialogForm : Form
+{
+  private DialogConfigControl _dialogConfigControl;
+  private IContainer components;
+
+  public OpenConfigDialogForm(IEnumerable<Configuration> configurations, bool isAdmin = true)
+  {
+    this.InitializeComponent();
+    DialogConfigControl dialogConfigControl = new DialogConfigControl(DialogConfigControlType.Open, configurations, isAdmin);
+    dialogConfigControl.Dock = DockStyle.Fill;
+    this._dialogConfigControl = dialogConfigControl;
+    this._dialogConfigControl.OnAccept += new EventHandler(this.DialogConfigControl_Accept);
+    this._dialogConfigControl.OnCancel += new EventHandler(this.DialogConfigControl_Cancel);
+    this.Controls.Add((Control) this._dialogConfigControl);
+  }
+
+  private void DialogConfigControl_Cancel(object sender, EventArgs e)
+  {
+    this.DialogResult = DialogResult.Cancel;
+  }
+
+  private void DialogConfigControl_Accept(object sender, EventArgs e)
+  {
+    if (this._dialogConfigControl.Configuration == null)
+    {
+      int num = (int) MessageBox.Show(LocalizationHolder.rm.GetString("Tools.Client_238"), LocalizationHolder.rm.GetString("Tools.Client_44"), MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+    }
+    else
+      this.DialogResult = DialogResult.OK;
+  }
+
+  public Configuration Configuration => this._dialogConfigControl?.Configuration;
+
+  protected override void Dispose(bool disposing)
+  {
+    if (disposing && this.components != null)
+      this.components.Dispose();
+    base.Dispose(disposing);
+  }
+
+  private void InitializeComponent()
+  {
+    this.SuspendLayout();
+    this.AutoScaleDimensions = new SizeF(6f, 13f);
+    this.AutoScaleMode = AutoScaleMode.Font;
+    this.ClientSize = new Size(384, 361);
+    this.MaximizeBox = false;
+    this.MinimizeBox = false;
+    this.MinimumSize = new Size(150, 150);
+    this.Name = nameof (OpenConfigDialogForm);
+    this.ShowIcon = false;
+    this.ShowInTaskbar = false;
+    this.StartPosition = FormStartPosition.CenterParent;
+    this.Text = "Выберите конфигурацию";
+    this.ResumeLayout(false);
+  }
+}

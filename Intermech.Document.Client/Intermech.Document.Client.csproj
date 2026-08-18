@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.Document.Client.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3C2F4D6F-BAA8-4445-86D4-75912BDF6AA9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.Document.Client</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.IM.Utils">
+      <HintPath>lib\DevExpress.IM.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.IM.XtraEditors">
+      <HintPath>lib\DevExpress.IM.XtraEditors.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.IM.XtraGrid">
+      <HintPath>lib\DevExpress.IM.XtraGrid.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.IM.XtraTreeList">
+      <HintPath>lib\DevExpress.IM.XtraTreeList.dll</HintPath>
+    </Reference>
+    <Reference Include="Infralution.Controls">
+      <HintPath>lib\Infralution.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Infralution.Controls.VirtualTree">
+      <HintPath>lib\Infralution.Controls.VirtualTree.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bars">
+      <HintPath>lib\Intermech.Bars.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Client.Core">
+      <HintPath>lib\Intermech.Client.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Controls">
+      <HintPath>lib\Intermech.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Docking">
+      <HintPath>lib\Intermech.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Document.DBCore">
+      <HintPath>lib\Intermech.Document.DBCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Document.Model">
+      <HintPath>lib\Intermech.Document.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.AVS">
+      <HintPath>lib\Intermech.Interfaces.AVS.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Client">
+      <HintPath>lib\Intermech.Interfaces.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Document">
+      <HintPath>lib\Intermech.Interfaces.Document.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Map2">
+      <HintPath>lib\Intermech.Map2.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Search.Interfaces">
+      <HintPath>lib\Intermech.Search.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Tools.Components">
+      <HintPath>lib\Intermech.Tools.Components.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.VirtualTreeView">
+      <HintPath>lib\Intermech.VirtualTreeView.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="iGrid">
+      <HintPath>lib\iGrid.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Localization\LocalizationHolder.cs" />
+    <Compile Include="Localization\CustomDescription.cs" />
+    <Compile Include="Localization\CustomDisplayName.cs" />
+    <Compile Include="Localization\CustomCategory.cs" />
+    <Compile Include="Interfaces\Document\ImRemoteClientDocument.cs" />
+    <Compile Include="Document\Model\ExternalDocuments\ExternalDocumentCreator.cs" />
+    <Compile Include="Document\Model\ExternalDocuments\ImMSWordExternalDocumentCreator.cs" />
+    <Compile Include="Document\Client\AdditionalPropertiesManagerHelper.cs" />
+    <Compile Include="Document\Client\AdditionalPropertiesWrapper.cs" />
+    <Compile Include="Document\Client\AdditionalPropertiesDescriptor.cs" />
+    <Compile Include="Document\Client\TextBoxElementPropertiesWrapper.cs" />
+    <Compile Include="Document\Client\DBObjectHelper.cs" />
+    <Compile Include="Document\Client\DocGenerateSample.cs" />
+    <Compile Include="Document\Client\DocumentConverterService.cs" />
+    <Compile Include="Document\Client\DocumentEditorPlugin.cs" />
+    <Compile Include="Document\Client\SaveAsEventHandler.cs" />
+    <Compile Include="Document\Client\SaveAsEventHandlerArgs.cs" />
+    <Compile Include="Document\Client\DocumentWindowData.cs" />
+    <Compile Include="Document\Client\AfterLoadDocumentEventHandler.cs" />
+    <Compile Include="Document\Client\AfterLoadDocumentEventHandlerArgs.cs" />
+    <Compile Include="Document\Client\DocumentEditorPluginScriptService.cs" />
+    <Compile Include="Document\Client\IDocumentEditorPluginScriptService.cs" />
+    <Compile Include="Document\Client\IMDocEditorToolSettingsCodec.cs" />
+    <Compile Include="Document\Client\DataEditor.cs" />
+    <Compile Include="Document\Client\DocumentEditorIntegrator.cs" />
+    <Compile Include="Document\Client\DocumentEditorLaunchHandler.cs" />
+    <Compile Include="Document\Client\IMDocObjectTypeSettings.cs" />
+    <Compile Include="Document\Client\IMDocEditorToolSettings.cs" />
+    <Compile Include="Document\Client\DocumentExternalEditor.cs" />
+    <Compile Include="Document\Client\EditSymbolForm.cs" />
+    <Compile Include="Document\Client\TemplateHolder.cs" />
+    <Compile Include="Document\Client\ImClientFilesEditor.cs" />
+    <Compile Include="Document\Client\ImDocumentAuthFileGenerator.cs" />
+    <Compile Include="Document\Client\ImDocumentClientConfig.cs" />
+    <Compile Include="Document\Client\ImDocumentEditorForm.cs" />
+    <Compile Include="Document\Client\DocumentWindowCreatorDelegate.cs" />
+    <Compile Include="Document\Client\IMDocumentEditorService.cs" />
+    <Compile Include="Document\Client\ImDocumentRedlineController.cs" />
+    <Compile Include="Document\Client\ImDocumentShowObject.cs" />
+    <Compile Include="Document\Client\ImDocumentVisualizer.cs" />
+    <Compile Include="Document\Client\ImRtfViewService.cs" />
+    <Compile Include="Document\Client\OldDocumentImportProvider.cs" />
+    <Compile Include="Document\Client\OrderReportTest.cs" />
+    <Compile Include="Document\Client\RedlineDocControlWrapper.cs" />
+    <Compile Include="Document\Client\RedlineViewer.cs" />
+    <Compile Include="Document\Client\ReferenceToDBObject.cs" />
+    <Compile Include="Document\Client\AttributeProcessorDictionary.cs" />
+    <Compile Include="Document\Client\TextDataReferenceExtensions.cs" />
+    <Compile Include="Document\Client\ReferenceToDBObjectExtensions.cs" />
+    <Compile Include="Document\Client\ReferenceToDBObjectAttribute.cs" />
+    <Compile Include="Document\Client\ReferenceToGraphics.cs" />
+    <Compile Include="Document\Client\ReferenceToSign.cs" />
+    <Compile Include="Document\Client\UI\EditFirstPageNumberForm.cs" />
+    <Compile Include="Document\Client\UI\ImDocumentComparisonForm.cs" />
+    <Compile Include="Document\Client\UI\ImDocumentComparisonWindow.cs" />
+    <Compile Include="Document\Client\UI\ImDocumentRedlineNotesDlg.cs" />
+    <Compile Include="Document\Client\Reports\SelectionTabControl.cs" />
+    <Compile Include="Document\Client\Reports\DocumentGeneratorHelper.cs" />
+    <Compile Include="Document\Client\Reports\TableColumnSettings.cs" />
+    <Compile Include="Document\Client\Reports\ReportItemInfo.cs" />
+    <Compile Include="Document\Client\Reports\IColumnHandler.cs" />
+    <Compile Include="Document\Client\Reports\MemoColumnHandler.cs" />
+    <Compile Include="Document\Client\Reports\MultiValuesColumnHandler.cs" />
+    <Compile Include="Document\Client\Reports\Controls\SelectFormat.cs" />
+    <Compile Include="Document\Client\Report\Attr4ObjTypesSelectorForm.cs" />
+    <Compile Include="Document\Client\Report\SelectReportForm.cs" />
+    <Compile Include="Document\Client\Report\TableReportEditor.cs" />
+    <Compile Include="Document\Client\Report\ReportGuids.cs" />
+    <Compile Include="Document\Client\Report\ShowReport.cs" />
+    <Compile Include="Document\Client\Report\MathTotal.cs" />
+    <Compile Include="Document\Client\Report\ReportColumn.cs" />
+    <Compile Include="Document\Client\Report\TableReport.cs" />
+    <Compile Include="Document\Client\Report\DatePrintFormatValue.cs" />
+    <Compile Include="Document\Client\Report\ReportValuesFormatter.cs" />
+    <Compile Include="Document\Client\Report\DatePrintFormats.cs" />
+    <Compile Include="Document\Client\Report\PageNumberPosition.cs" />
+    <Compile Include="Document\Client\Report\ReportParameters.cs" />
+    <Compile Include="Document\Client\Report\ReportFormer.cs" />
+    <Compile Include="Document\Client\Report\TableReportCreatorForm.cs" />
+    <Compile Include="Document\Client\Report\TableReportPropAttProxy.cs" />
+    <Compile Include="Document\Client\Report\TableReportProvider.cs" />
+    <Compile Include="Document\Client\Report\TableReportView.cs" />
+    <Compile Include="Document\Client\Properties\Resources.cs" />
+    <Compile Include="Document\Client\Comparison\ComparisonTreeNode.cs" />
+    <Compile Include="Document\Client\Comparison\ComparisonVerdict.cs" />
+    <Compile Include="Document\Client\Comparison\ImDocumentComparisonResult.cs" />
+    <Compile Include="Document\Client\Comparison\ImDocumentFilesComparisonPlugin.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Document\Client\DataEditor.resx" />
+    <EmbeddedResource Include="Document\Client\EditSymbolForm.resx" />
+    <EmbeddedResource Include="Document\Client\ImDocumentEditorForm.resx" />
+    <EmbeddedResource Include="Document\Client\Properties\Resources.resx" />
+    <EmbeddedResource Include="Document\Client\Report\Attr4ObjTypesSelectorForm.resx" />
+    <EmbeddedResource Include="Document\Client\Report\SelectReportForm.resx" />
+    <EmbeddedResource Include="Document\Client\Report\TableReportEditor.resx" />
+    <EmbeddedResource Include="Document\Client\Report\TableReportView.resx" />
+    <EmbeddedResource Include="Document\Client\Reports\Controls\SelectFormat.resx" />
+    <EmbeddedResource Include="Document\Client\Resources\CustomAttributesResources.resx" />
+    <EmbeddedResource Include="Document\Client\Resources\DocumentClientResources.resx" />
+    <EmbeddedResource Include="Document\Client\UI\EditFirstPageNumberForm.resx" />
+    <EmbeddedResource Include="Document\Client\UI\ImDocumentRedlineNotesDlg.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

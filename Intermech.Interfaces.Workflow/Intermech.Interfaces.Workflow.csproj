@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.Interfaces.Workflow.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BF9DFDBD-D9F5-4FA2-8A19-0C3D8C9C1B8E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.Interfaces.Workflow</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Expert">
+      <HintPath>lib\Intermech.Expert.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Client">
+      <HintPath>lib\Intermech.Interfaces.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Search.Interfaces">
+      <HintPath>lib\Intermech.Search.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MultiFlag.cs" />
+    <Compile Include="ISessionProvider.cs" />
+    <Compile Include="GuidInfo.cs" />
+    <Compile Include="IReadOnlyEnabledControl.cs" />
+    <Compile Include="MessageFuncs.cs" />
+    <Compile Include="SimpleThreadPool.cs" />
+    <Compile Include="StringList.cs" />
+    <Compile Include="DictionaryConverter`2.cs" />
+    <Compile Include="StringListValues.cs" />
+    <Compile Include="WinApi.cs" />
+    <Compile Include="ControlFuncs.cs" />
+    <Compile Include="HashHelper.cs" />
+    <Compile Include="IDInfo.cs" />
+    <Compile Include="SimpleFuncs.cs" />
+    <Compile Include="ProcessStreamDelegate.cs" />
+    <Compile Include="StreamHelper.cs" />
+    <Compile Include="StringFuncs.cs" />
+    <Compile Include="XmlIni.cs" />
+    <Compile Include="Interfaces\IRollbackException.cs" />
+    <Compile Include="Interfaces\AutoHint.cs" />
+    <Compile Include="Interfaces\BriefcaseAccessor.cs" />
+    <Compile Include="Interfaces\GraphicFuncs.cs" />
+    <Compile Include="Interfaces\ObjectInfoCache.cs" />
+    <Compile Include="Interfaces\WorkflowMakeBaseVersionException.cs" />
+    <Compile Include="Interfaces\WorkflowException.cs" />
+    <Compile Include="Interfaces\InvalidSchemeException.cs" />
+    <Compile Include="Interfaces\NotAllSignedException.cs" />
+    <Compile Include="Interfaces\RollbackException.cs" />
+    <Compile Include="Interfaces\Workflow\IActivity.cs" />
+    <Compile Include="Interfaces\Workflow\IExecutedActivity.cs" />
+    <Compile Include="Interfaces\Workflow\IProcess.cs" />
+    <Compile Include="Interfaces\Workflow\IScheme.cs" />
+    <Compile Include="Interfaces\Workflow\ISchemeActivityCreator.cs" />
+    <Compile Include="Interfaces\Workflow\ISchemeCheckOut.cs" />
+    <Compile Include="Interfaces\Workflow\ISubProcess.cs" />
+    <Compile Include="Interfaces\Workflow\CustomCategory.cs" />
+    <Compile Include="Interfaces\Workflow\CustomDescription.cs" />
+    <Compile Include="Interfaces\Workflow\CustomDisplayName.cs" />
+    <Compile Include="Interfaces\Workflow\EcoDocumentsInAttachments.cs" />
+    <Compile Include="Interfaces\Workflow\ExpressionVerifyError.cs" />
+    <Compile Include="Interfaces\Workflow\ExtensionMethods.cs" />
+    <Compile Include="Interfaces\Workflow\IApproveActivity.cs" />
+    <Compile Include="Interfaces\Workflow\IApproveGraphValueReplaceService.cs" />
+    <Compile Include="Interfaces\Workflow\IAttachment.cs" />
+    <Compile Include="Interfaces\Workflow\IAttachments.cs" />
+    <Compile Include="Interfaces\Workflow\IAutoNotificationsService.cs" />
+    <Compile Include="Interfaces\Workflow\IBriefcaseContext.cs" />
+    <Compile Include="Interfaces\Workflow\IGlobalVariable.cs" />
+    <Compile Include="Interfaces\Workflow\IGlobalVariablesList.cs" />
+    <Compile Include="Interfaces\Workflow\IMailObject.cs" />
+    <Compile Include="Interfaces\Workflow\INotifySubscriberService.cs" />
+    <Compile Include="Interfaces\Workflow\IRouterService.cs" />
+    <Compile Include="Interfaces\Workflow\IUserActivity.cs" />
+    <Compile Include="Interfaces\Workflow\IValidatedItem.cs" />
+    <Compile Include="Interfaces\Workflow\IVariable.cs" />
+    <Compile Include="Interfaces\Workflow\IVariables.cs" />
+    <Compile Include="Interfaces\Workflow\AttachmentFuncs.cs" />
+    <Compile Include="Interfaces\Workflow\OldWorkflowGraph.cs" />
+    <Compile Include="Interfaces\Workflow\XMLGraph.cs" />
+    <Compile Include="Interfaces\Workflow\LocalizationHolder.cs" />
+    <Compile Include="Interfaces\Workflow\Notify.cs" />
+    <Compile Include="Interfaces\Workflow\NotifyHelper.cs" />
+    <Compile Include="Interfaces\Workflow\NotifyOptionsAttribute.cs" />
+    <Compile Include="Interfaces\Workflow\ResultEcoDocumentsInformation.cs" />
+    <Compile Include="Interfaces\Workflow\SignsDataItem.cs" />
+    <Compile Include="Interfaces\Workflow\SignsDataItemChildren.cs" />
+    <Compile Include="Interfaces\Workflow\SignsDataItemModel.cs" />
+    <Compile Include="Interfaces\Workflow\SignsGroup.cs" />
+    <Compile Include="Interfaces\Workflow\Email\EmailDownloadSettings.cs" />
+    <Compile Include="Interfaces\Workflow\Email\IEmailDownloadService.cs" />
+    <Compile Include="Interfaces\Workflow\Email\EmailDownloadProperties.cs" />
+    <Compile Include="Interfaces\Workflow\Email\EmailDownloadState.cs" />
+    <Compile Include="Interfaces\Workflow\BM2\IExecuteService.cs" />
+    <Compile Include="Interfaces\Workflow\AutoNotification\AccessDeniedAutoNotificationSettings.cs" />
+    <Compile Include="Interfaces\Workflow\AutoNotification\ActuationCondition.cs" />
+    <Compile Include="Interfaces\Workflow\AutoNotification\Adressee.cs" />
+    <Compile Include="Interfaces\Workflow\AutoNotification\AdresseeSource.cs" />
+    <Compile Include="Interfaces\Workflow\AutoNotification\AdresseeSourceType.cs" />
+    <Compile Include="Interfaces\Workflow\AutoNotification\AttrChangingAutoNotificationSettings.cs" />
+    <Compile Include="Interfaces\Workflow\AutoNotification\AttributableAutoNotificationSettings.cs" />
+    <Compile Include="Interfaces\Workflow\AutoNotification\AuthorInAttribute.cs" />
+    <Compile Include="Interfaces\Workflow\AutoNotification\AuthorInScript.cs" />
+    <Compile Include="Interfaces\Workflow\AutoNotification\AutoNotificationSettingsException.cs" />
+    <Compile Include="Interfaces\Workflow\AutoNotification\AutoNotificationSettings.cs" />
+    <Compile Include="Interfaces\Workflow\AutoNotification\ComputeAdressee.cs" />
+    <Compile Include="Interfaces\Workflow\AutoNotification\FormulaForAttribute.cs" />
+    <Compile Include="Interfaces\Workflow\AutoNotification\LCLevelAutoNotificationSettings.cs" />
+    <Compile Include="Interfaces\Workflow\AutoNotification\LCStepAutoNotificationSettings.cs" />
+    <Compile Include="Interfaces\Workflow\AutoNotification\AutoNotificationMessageHelper.cs" />
+    <Compile Include="Interfaces\Workflow\AutoNotification\NotificationEventType.cs" />
+    <Compile Include="Interfaces\Workflow\AutoNotification\ObjectSetFromApplicabilityOrComposition.cs" />
+    <Compile Include="Interfaces\Workflow\AutoNotification\ObjectSetFromScript.cs" />
+    <Compile Include="Interfaces\Workflow\AutoNotification\ObjectSetFromSearchScheme.cs" />
+    <Compile Include="Interfaces\Workflow\AutoNotification\ObjectsCollectMethod.cs" />
+    <Compile Include="Interfaces\Workflow\AutoNotification\ObjectSetSource.cs" />
+    <Compile Include="Interfaces\Workflow\AutoNotification\RelationAutoNotificationSettings.cs" />
+    <Compile Include="Interfaces\Workflow\AutoNotification\SpecificAdressee.cs" />
+    <Compile Include="Interfaces\Workflow\AutoNotification\WayOfNotificationEnum.cs" />
+    <Compile Include="Workflow\ActGuidMapper.cs" />
+    <Compile Include="Workflow\ActivityInfo.cs" />
+    <Compile Include="Workflow\ActivityInfoList.cs" />
+    <Compile Include="Workflow\ActivityInfos.cs" />
+    <Compile Include="Workflow\ConditionInfo.cs" />
+    <Compile Include="Workflow\ConditionList.cs" />
+    <Compile Include="Workflow\ExpressionInfo.cs" />
+    <Compile Include="Workflow\ExtProperties.cs" />
+    <Compile Include="Workflow\LCInfo.cs" />
+    <Compile Include="Workflow\LCInfoList.cs" />
+    <Compile Include="Workflow\MessageRow.cs" />
+    <Compile Include="Workflow\IWFAttachmentRelationCollection.cs" />
+    <Compile Include="Workflow\ActivityGraphData.cs" />
+    <Compile Include="Workflow\ActivityLink.cs" />
+    <Compile Include="Workflow\ActivityNode.cs" />
+    <Compile Include="Workflow\Attachment.cs" />
+    <Compile Include="Workflow\AttachmentList.cs" />
+    <Compile Include="Workflow\SaveAttachmentHandler.cs" />
+    <Compile Include="Workflow\AutoLaunchInfo.cs" />
+    <Compile Include="Workflow\AutoLaunchSettings.cs" />
+    <Compile Include="Workflow\DupRemover`1.cs" />
+    <Compile Include="Workflow\GraphData.cs" />
+    <Compile Include="Workflow\GroupingInfo.cs" />
+    <Compile Include="Workflow\MiscFunx.cs" />
+    <Compile Include="Workflow\Participant.cs" />
+    <Compile Include="Workflow\RequiredSigns.cs" />
+    <Compile Include="Workflow\VarsHelper.cs" />
+    <Compile Include="Workflow\WorkflowGraph.cs" />
+    <Compile Include="Workflow\ParticipantList.cs" />
+    <Compile Include="Workflow\Order.cs" />
+    <Compile Include="Workflow\RealtimeFlagAttribute.cs" />
+    <Compile Include="Workflow\RemoteProcessKind.cs" />
+    <Compile Include="Workflow\GetEcoDocumentsHandler.cs" />
+    <Compile Include="Workflow\wfConsts.cs" />
+    <Compile Include="Workflow\VarType.cs" />
+    <Compile Include="Workflow\DeletionStatus.cs" />
+    <Compile Include="Workflow\FType.cs" />
+    <Compile Include="Workflow\ActivityStatus.cs" />
+    <Compile Include="Workflow\ProcessPriority.cs" />
+    <Compile Include="Workflow\DBEnum.cs" />
+    <Compile Include="Workflow\RemoteProcessStatus.cs" />
+    <Compile Include="Workflow\TemporaryRights.cs" />
+    <Compile Include="Workflow\MailFolder.cs" />
+    <Compile Include="Workflow\MailType.cs" />
+    <Compile Include="Workflow\GraphOptions.cs" />
+    <Compile Include="Workflow\LCKind.cs" />
+    <Compile Include="Workflow\LCExec.cs" />
+    <Compile Include="Workflow\ExtPropertiesFlag.cs" />
+    <Compile Include="Workflow\ParticipantKind.cs" />
+    <Compile Include="Workflow\OnGetParticipantName.cs" />
+    <Compile Include="Workflow\VarFlag.cs" />
+    <Compile Include="Workflow\VarKind.cs" />
+    <Compile Include="Workflow\NotifyOptions.cs" />
+    <Compile Include="Workflow\VersionFlags.cs" />
+    <Compile Include="Workflow\ActivityChanged.cs" />
+    <Compile Include="Workflow\StrongSignMode.cs" />
+    <Compile Include="Workflow\UsersViewMode.cs" />
+    <Compile Include="Workflow\ColumnFormat.cs" />
+    <Compile Include="Workflow\EventKind.cs" />
+    <Compile Include="Workflow\ActivityState.cs" />
+    <Compile Include="Workflow\LinkDirection.cs" />
+    <Compile Include="Workflow\ActivityFlags.cs" />
+    <Compile Include="Workflow\ActivityKind.cs" />
+    <Compile Include="Workflow\ActivityResult.cs" />
+    <Compile Include="Workflow\RollbackKind.cs" />
+    <Compile Include="Workflow\LinkKind.cs" />
+    <Compile Include="Workflow\SchemeStatus.cs" />
+    <Compile Include="Workflow\TimeUnits.cs" />
+    <Compile Include="Workflow\RecipStatus.cs" />
+    <Compile Include="Workflow\SenderStatus.cs" />
+    <Compile Include="Workflow\ScriptKind.cs" />
+    <Compile Include="Workflow\ScriptExecSide.cs" />
+    <Compile Include="Workflow\WhatToSign.cs" />
+    <Compile Include="Workflow\WorkflowScriptType.cs" />
+    <Compile Include="Workflow\SettingsGroup.cs" />
+    <Compile Include="Workflow\SpecialRule.cs" />
+    <Compile Include="Workflow\Domain.cs" />
+    <Compile Include="Workflow\ProcessLCDirection.cs" />
+    <Compile Include="Workflow\Briefcase\MapperObject.cs" />
+    <Compile Include="Workflow\Briefcase\MapperVariable.cs" />
+    <Compile Include="Workflow\Briefcase\SerializableDictionary`2.cs" />
+    <Compile Include="Workflow\Briefcase\SimpleBriefcase.cs" />
+    <Compile Include="Forums\Forum.cs" />
+    <Compile Include="Forums\SortField.cs" />
+    <Compile Include="Forums\ForumsConsts.cs" />
+    <Compile Include="Forums\ForumFormat.cs" />
+    <Compile Include="Forums\IForumsService.cs" />
+    <Compile Include="Forums\IUserMessageSelector.cs" />
+    <Compile Include="Forums\UserMessage.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Interfaces\Workflow\Resources\CustomAttributesResources.resx" />
+    <EmbeddedResource Include="Interfaces\Workflow\Resources\InterfacesWorkflowResources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

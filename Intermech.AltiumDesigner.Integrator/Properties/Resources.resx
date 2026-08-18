@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Integrator_template" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="UTF-16"?&gt;
+&lt;Settings&gt;
+  &lt;FileFormat version="2" /&gt;
+  &lt;DocumentTypes&gt;
+    &lt;Project&gt;cadd94be-306c-11d8-b4e9-00304f19f545&lt;/Project&gt;
+    &lt;ElectricSchema&gt;cadd94f6-306c-11d8-b4e9-00304f19f545;cadd94f7-306c-11d8-b4e9-00304f19f545;cadd94f8-306c-11d8-b4e9-00304f19f545;cadd94f9-306c-11d8-b4e9-00304f19f545;cadd94fa-306c-11d8-b4e9-00304f19f545;cadd94fe-306c-11d8-b4e9-00304f19f545;cadd94fb-306c-11d8-b4e9-00304f19f545;cadd94fc-306c-11d8-b4e9-00304f19f545;cadd94fd-306c-11d8-b4e9-00304f19f545&lt;/ElectricSchema&gt;
+    &lt;PCBDocumentTypes&gt;cadd9a27-306c-11d8-b4e9-00304f19f545&lt;/PCBDocumentTypes&gt;
+  &lt;/DocumentTypes&gt;
+  &lt;Attributes&gt;
+    &lt;Project&gt;Обозначение=Обозначение;Наименование=Наименование&lt;/Project&gt;
+  &lt;/Attributes&gt;
+  &lt;AttributeTables&gt;
+    &lt;AttributeTable type="Part"&gt;
+      &lt;Attribute obligatory="false"&gt;
+        &lt;DataBaseName&gt;Наименование&lt;/DataBaseName&gt;
+        &lt;CADName&gt;Наименование&lt;/CADName&gt;
+      &lt;/Attribute&gt;
+    &lt;/AttributeTable&gt;
+    &lt;AttributeTable type="Document"&gt;
+      &lt;Attribute obligatory="false"&gt;
+        &lt;DataBaseName&gt;Обозначение&lt;/DataBaseName&gt;
+        &lt;CADName&gt;Обозначение&lt;/CADName&gt;
+      &lt;/Attribute&gt;
+      &lt;Attribute obligatory="false"&gt;
+        &lt;DataBaseName&gt;Наименование&lt;/DataBaseName&gt;
+        &lt;CADName&gt;Наименование&lt;/CADName&gt;
+      &lt;/Attribute&gt;
+    &lt;/AttributeTable&gt;
+    &lt;AttributeTable type="Assembly"&gt;
+      &lt;Attribute obligatory="false"&gt;
+        &lt;DataBaseName&gt;Наименование&lt;/DataBaseName&gt;
+        &lt;CADName&gt;Наименование&lt;/CADName&gt;
+      &lt;/Attribute&gt;
+      &lt;Attribute obligatory="false"&gt;
+        &lt;DataBaseName&gt;Обозначение&lt;/DataBaseName&gt;
+        &lt;CADName&gt;Обозначение&lt;/CADName&gt;
+      &lt;/Attribute&gt;
+    &lt;/AttributeTable&gt;
+  &lt;/AttributeTables&gt;
+  &lt;General&gt;
+    &lt;AdditionalFilesExt&gt;schlib,pcblib&lt;/AdditionalFilesExt&gt;
+    &lt;PartTypeParameter&gt;Раздел СП&lt;/PartTypeParameter&gt;
+    &lt;ComponentsCompositionVariants&gt;3,0,1,3,0,0&lt;/ComponentsCompositionVariants&gt;
+    &lt;OnlyElementListCondition_Parameter&gt;&lt;/OnlyElementListCondition_Parameter&gt;
+    &lt;OnlyElementListCondition_Value&gt;&lt;/OnlyElementListCondition_Value&gt;
+  &lt;/General&gt;
+  &lt;LookupData displayName="Интегратор с Altium Designer"&gt;
+    &lt;ObjectType guid="cadd94be-306c-11d8-b4e9-00304f19f545"&gt;
+      &lt;Flag name="model" /&gt;
+      &lt;Flag name="esave" /&gt;
+    &lt;/ObjectType&gt;
+    &lt;ObjectType guid="cadd94f6-306c-11d8-b4e9-00304f19f545"&gt;
+      &lt;Flag name="drawing" /&gt;
+      &lt;Flag name="esave" /&gt;
+    &lt;/ObjectType&gt;
+    &lt;ObjectType guid="cadd94f7-306c-11d8-b4e9-00304f19f545"&gt;
+      &lt;Flag name="drawing" /&gt;
+      &lt;Flag name="esave" /&gt;
+    &lt;/ObjectType&gt;
+    &lt;ObjectType guid="cadd94f8-306c-11d8-b4e9-00304f19f545"&gt;
+      &lt;Flag name="drawing" /&gt;
+      &lt;Flag name="esave" /&gt;
+    &lt;/ObjectType&gt;
+    &lt;ObjectType guid="cadd94f9-306c-11d8-b4e9-00304f19f545"&gt;
+      &lt;Flag name="drawing" /&gt;
+      &lt;Flag name="esave" /&gt;
+    &lt;/ObjectType&gt;
+    &lt;ObjectType guid="cadd94fa-306c-11d8-b4e9-00304f19f545"&gt;
+      &lt;Flag name="drawing" /&gt;
+      &lt;Flag name="esave" /&gt;
+    &lt;/ObjectType&gt;
+    &lt;ObjectType guid="cadd94fe-306c-11d8-b4e9-00304f19f545"&gt;
+      &lt;Flag name="drawing" /&gt;
+      &lt;Flag name="esave" /&gt;
+    &lt;/ObjectType&gt;
+    &lt;ObjectType guid="cadd94fb-306c-11d8-b4e9-00304f19f545"&gt;
+      &lt;Flag name="drawing" /&gt;
+      &lt;Flag name="esave" /&gt;
+    &lt;/ObjectType&gt;
+    &lt;ObjectType guid="cadd94fc-306c-11d8-b4e9-00304f19f545"&gt;
+      &lt;Flag name="drawing" /&gt;
+      &lt;Flag name="esave" /&gt;
+    &lt;/ObjectType&gt;
+    &lt;ObjectType guid="cadd94fd-306c-11d8-b4e9-00304f19f545"&gt;
+      &lt;Flag name="drawing" /&gt;
+      &lt;Flag name="esave" /&gt;
+    &lt;/ObjectType&gt;
+  &lt;/LookupData&gt;
+&lt;/Settings&gt;</value>
+  </data>
+  <data name="ad16x16" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5CaXRtYXABAAAABERhdGEHAgIAAAAJAwAAAA8DAAAApQIAAAKJUE5HDQoaCgAAAA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAAk9JREFUOE+lku1PklEYxvHfaavplCEoIKAgBgiIjzJ815wazN7cNGpulRbL5tosRx+c72brxQ+1yjITDfK1+uJy+qDg1r/x6xFw5ORL9eHaOee67+s6933uI5PJsv4TGcm/QUYyiWfPX9Ptv0tHpx/f5RtkyslAJNHT+wBn1QXKhWZsrkYcQtMJg1i4B3E9KHF/kMe4PziCXWjB4vBgsXs476jF6qhhLtjGYfga8aUWot9nOZTWU+IPC8u4632Yy2uoE0xUCZWYrG7KrFW8f2TiV6iW2FJzopp4qO20gb93AJPFjdFcwcQdA9WCC0OpC2NZJZHFmYQwGu5D/NSe2J8Qv5h7K5Vdh87opNJuZH2mAsHlRGOwoS9xpARZMnH9MdHwrdMGbd7riWS1zkLwpg7xYwtOhxWV1oxGZ2buiY/Yly4OvvYRWwuwv9KdbmFkbJaiEjsqTSkFWiMN1Ubam2xodUYUBcUUqA28GdRzuOhhb2uGg41hopHbaQPB0yollqBQFSNX6pHn68nL16VQJMX0rMyPIm5NsrfQyu7S0e2pFgYGhxPiXClZq1EzcLWQh12FXKpVkZOnTkAuxY4vi4b72d2aTRsYzQI5cjXZeYVcqVey/cqF+K6GsYCNczlKzmYryZUrmR/vJB7qYH8zSPxzY9Kgx1tNu/0M/sYc7vnyWRjSSn02SPOuY+Olm0Cniv6LCgI+BZ+HNNL4vAlh8g+kKvgRmmA7MsnO6hQ7a1OI355KvR6t09I5xa9O8zMyLr28n9iyF3FzNG3w78iS/QYhPWjaa7/JIQAAAABJRU5ErkJgggs=</value>
+  </data>
+  <data name="ad32x32" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>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</value>
+  </data>
+</root>

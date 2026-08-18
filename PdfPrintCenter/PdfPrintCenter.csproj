@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\PdfPrintCenter\PdfPrintCenter.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BA0F2431-F1EE-4335-A6A0-0EB09773BF61}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>PdfPrintCenter</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech.PdfPrintCenter</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CollapsibleSplitter">
+      <HintPath>lib\CollapsibleSplitter.dll</HintPath>
+    </Reference>
+    <Reference Include="Infralution.Controls">
+      <HintPath>lib\Infralution.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Infralution.Controls.VirtualTree">
+      <HintPath>lib\Infralution.Controls.VirtualTree.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Ninject">
+      <HintPath>lib\Ninject.dll</HintPath>
+    </Reference>
+    <Reference Include="Ninject.Extensions.Factory">
+      <HintPath>lib\Ninject.Extensions.Factory.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfiumViewer">
+      <HintPath>lib\PdfiumViewer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="itextsharp">
+      <HintPath>lib\itextsharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PrintCenterConsts.cs" />
+    <Compile Include="PrintCenterNinjectModule.cs" />
+    <Compile Include="PrintCenterSystem.cs" />
+    <Compile Include="IntermechPageSize.cs" />
+    <Compile Include="FormatLocation.cs" />
+    <Compile Include="PdfUtils.cs" />
+    <Compile Include="PrintCenterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Utils\AddingPagesToLayoutResult.cs" />
+    <Compile Include="Utils\AddNodesToLayoutDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utils\AutoAddDocumentResult.cs" />
+    <Compile Include="Utils\DeleteFilesDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utils\DragData.cs" />
+    <Compile Include="Utils\ExceptionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utils\NodesToPrintQueue.cs" />
+    <Compile Include="Utils\PageInterval.cs" />
+    <Compile Include="Utils\PrintParameters.cs" />
+    <Compile Include="Utils\ReadOnlyComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Utils\RenamedLayout.cs" />
+    <Compile Include="Utils\WorkspaceAddNodesResult.cs" />
+    <Compile Include="Utils\UtilMethods\ControlUtils.cs" />
+    <Compile Include="Utils\UtilMethods\LayoutsUtils.cs" />
+    <Compile Include="Utils\UtilMethods\PdfDocumentUtils.cs" />
+    <Compile Include="Utils\UtilMethods\PdfViewerUtils.cs" />
+    <Compile Include="Utils\UtilMethods\PageIntervalsUtils.cs" />
+    <Compile Include="Utils\UtilMethods\PdfWriterUtils.cs" />
+    <Compile Include="Utils\Events\Delegates.cs" />
+    <Compile Include="Utils\Events\ListViewItemDuplicatedEventArgs.cs" />
+    <Compile Include="Utils\Events\OnModifyVirtualTreeEventArgs.cs" />
+    <Compile Include="Services\LayoutsAnalyzerService.cs" />
+    <Compile Include="Services\LayoutSettingsService.cs" />
+    <Compile Include="Services\PDMSystemService.cs" />
+    <Compile Include="Services\PrintCenterStartupService.cs" />
+    <Compile Include="Services\PrintersSettingsService.cs" />
+    <Compile Include="Services\WatermarkSettingsService.cs" />
+    <Compile Include="Services\WindowSettingsService.cs" />
+    <Compile Include="Properties\Resources.cs" />
+    <Compile Include="PrintCenterTreeUtils\TreeNodes\PrintCenterNode.cs" />
+    <Compile Include="PrintCenterTreeUtils\TreeNodes\WorkspaceNodes\WorkspaceObjectTreeNode.cs" />
+    <Compile Include="PrintCenterTreeUtils\TreeNodes\WorkspaceNodes\WorkspacePagesTreeNode.cs" />
+    <Compile Include="PrintCenterTreeUtils\TreeNodes\WorkspaceNodes\WorkspaceTreeNode.cs" />
+    <Compile Include="PrintCenterTreeUtils\TreeNodes\PrintQueueNodes\LayoutNode.cs" />
+    <Compile Include="PrintCenterTreeUtils\TreeNodes\PrintQueueNodes\PrinterNode.cs" />
+    <Compile Include="PrintCenterTreeUtils\TreeNodes\PrintQueueNodes\PrintQueueNode.cs" />
+    <Compile Include="PrintCenterTreeUtils\TreeNodes\PrintQueueNodes\PrintQueuePagesNode.cs" />
+    <Compile Include="PrintCenterTreeUtils\TreeModels\PrintQueueTreeModel.cs" />
+    <Compile Include="PrintCenterTreeUtils\TreeModels\PrintCenterTreeModel.cs" />
+    <Compile Include="PrintCenterTreeUtils\TreeModels\WorkspaceTreeModel.cs" />
+    <Compile Include="PrintCenterTreeUtils\Trees\PrintQueueTree.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PrintCenterTreeUtils\Trees\PrintCenterTree.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PrintCenterTreeUtils\Trees\WorkspaceTree.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PrintCenterTreeUtils\DocumentPrintSettings\EditDocumentPrintSettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintCenterTreeUtils\DocumentPrintSettings\PagePrintSettings.cs" />
+    <Compile Include="PrintCenterTools\WindowSettings\WindowSettings.cs" />
+    <Compile Include="PrintCenterTools\WatermarkSettings\WatermarkForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintCenterTools\WatermarkSettings\WatermarkLayer.cs" />
+    <Compile Include="PrintCenterTools\WatermarkSettings\WatermarkPosition.cs" />
+    <Compile Include="PrintCenterTools\WatermarkSettings\WatermarkSettings.cs" />
+    <Compile Include="PrintCenterTools\PrintReportTools\PrintReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintCenterTools\PrintReportTools\PrintReportCreator.cs" />
+    <Compile Include="PrintCenterTools\PrintReportTools\HtmlWriterTools\HtmlAttributes.cs" />
+    <Compile Include="PrintCenterTools\PrintReportTools\HtmlWriterTools\HtmlTags.cs" />
+    <Compile Include="PrintCenterTools\PrintReportTools\HtmlWriterTools\HtmlWriter.cs" />
+    <Compile Include="PrintCenterTools\PrintReportTools\HtmlWriterTools\Properties\Property.cs" />
+    <Compile Include="PrintCenterTools\PrintReportTools\HtmlWriterTools\Properties\CssProperty.cs" />
+    <Compile Include="PrintCenterTools\PrintReportTools\HtmlWriterTools\Properties\HtmlProperty.cs" />
+    <Compile Include="PrintCenterTools\PrintersSettings\PrintersSettings.cs" />
+    <Compile Include="PrintCenterTools\PrintersSettings\PrintersSettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintCenterTools\PdfFileSettings\KnownPaperFormat.cs" />
+    <Compile Include="PrintCenterTools\PdfFileSettings\KnownPaperFormats.cs" />
+    <Compile Include="PrintCenterTools\LayoutsSettings\LayoutEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintCenterTools\LayoutsSettings\SheetPanelLocation.cs" />
+    <Compile Include="PrintCenterTools\LayoutsSettings\IPdfPageProducer.cs" />
+    <Compile Include="PrintCenterTools\LayoutsSettings\LayoutAsItIs.cs" />
+    <Compile Include="PrintCenterTools\LayoutsSettings\LayoutDescriptor.cs" />
+    <Compile Include="PrintCenterTools\LayoutsSettings\NewSheetDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintCenterTools\LayoutsSettings\OptimalLayoutCreator.cs" />
+    <Compile Include="PrintCenterTools\LayoutsSettings\SelectFormatDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintCenterTools\LayoutsSettings\DocumentCreators\AsItIsDocCreator.cs" />
+    <Compile Include="PrintCenterTools\LayoutsSettings\DocumentCreators\ConcreteLayoutDocCreator.cs" />
+    <Compile Include="PrintCenterTools\LayoutsSettings\DocumentCreators\DocCreator.cs" />
+    <Compile Include="PrintCenterTools\LayoutsSettings\DocumentCreators\DocCreatorsFactory.cs" />
+    <Compile Include="Interfaces\ILayoutsAnalyzerService.cs" />
+    <Compile Include="Interfaces\ILayoutSettingsService.cs" />
+    <Compile Include="Interfaces\IPDMSystemService.cs" />
+    <Compile Include="Interfaces\IPrintCenterFormServices.cs" />
+    <Compile Include="Interfaces\IPrintersSettingsService.cs" />
+    <Compile Include="Interfaces\IWatermarkSettingsService.cs" />
+    <Compile Include="Interfaces\IWindowSettingsService.cs" />
+    <Compile Include="Interfaces\IPrintCenterSettingsFactory.cs" />
+    <Compile Include="Controls\PdfViewer\AdvToolbarPdfViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\PdfViewer\BordersToolStripRenderer.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\PdfViewer\AdvToolbarPdfViewer.resx" />
+    <EmbeddedResource Include="PrintCenterForm.resx" />
+    <EmbeddedResource Include="PrintCenterTools\LayoutsSettings\LayoutEditor.resx" />
+    <EmbeddedResource Include="PrintCenterTools\LayoutsSettings\NewSheetDialog.resx" />
+    <EmbeddedResource Include="PrintCenterTools\LayoutsSettings\SelectFormatDialog.resx" />
+    <EmbeddedResource Include="PrintCenterTools\PrintersSettings\PrintersSettingsForm.resx" />
+    <EmbeddedResource Include="PrintCenterTools\PrintReportTools\PrintReportForm.resx" />
+    <EmbeddedResource Include="PrintCenterTools\WatermarkSettings\WatermarkForm.resx" />
+    <EmbeddedResource Include="PrintCenterTreeUtils\DocumentPrintSettings\EditDocumentPrintSettingsForm.resx" />
+    <EmbeddedResource Include="Properties\Resources.resx" />
+    <EmbeddedResource Include="Utils\AddNodesToLayoutDialog.resx" />
+    <EmbeddedResource Include="Utils\DeleteFilesDialog.resx" />
+    <EmbeddedResource Include="Utils\ExceptionForm.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Intermech.PdfPrintCenter.Connector\Intermech.PdfPrintCenter.Connector.csproj">
+      <Project>{93bccdaf-b06c-4eb9-98de-923f10a81450}</Project>
+      <Name>Intermech.PdfPrintCenter.Connector</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

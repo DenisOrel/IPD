@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\IPS.Installer.Full\InstServer\Server\Intermech.MRP.Server.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BBD3C5BC-C547-4414-8F35-5148A932929C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.MRP.Server</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.MRP">
+      <HintPath>lib\Intermech.Interfaces.MRP.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Pdm">
+      <HintPath>lib\Intermech.Interfaces.Pdm.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.PdmConfigurator">
+      <HintPath>lib\Intermech.Interfaces.PdmConfigurator.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Server">
+      <HintPath>lib\Intermech.Interfaces.Server.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Kernel">
+      <HintPath>lib\Intermech.Kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Localization\LocalizationHolder.cs" />
+    <Compile Include="Localization\CustomDescription.cs" />
+    <Compile Include="Localization\CustomDisplayName.cs" />
+    <Compile Include="Localization\CustomCategory.cs" />
+    <Compile Include="Interfaces\MRP\ServerMRPSettings.cs" />
+    <Compile Include="MRP\Server\MRPArticleToInstanceAction.cs" />
+    <Compile Include="MRP\Server\MRPCopyArticleToInstanceAttrs.cs" />
+    <Compile Include="MRP\Server\MRPCreateBlankInstanceAction.cs" />
+    <Compile Include="MRP\Server\MRPFindTechRouteAction.cs" />
+    <Compile Include="MRP\Server\MRPTaskCancelEventHandler.cs" />
+    <Compile Include="MRP\Server\MRPActionsExecuteTask.cs" />
+    <Compile Include="MRP\Server\MRPActionsOfMasterTask.cs" />
+    <Compile Include="MRP\Server\MRPCheckInObjectsTask.cs" />
+    <Compile Include="MRP\Server\MRPDestroyQueueTask.cs" />
+    <Compile Include="MRP\Server\MRPFillEditingContextTask.cs" />
+    <Compile Include="MRP\Server\MRPTechRouteChangeTask.cs" />
+    <Compile Include="MRP\Server\MRPTechRoutesChangeTask.cs" />
+    <Compile Include="MRP\Server\MRPServerSessionHelper.cs" />
+    <Compile Include="MRP\Server\IMRPCompositionTask.cs" />
+    <Compile Include="MRP\Server\IMRPTasksQueue.cs" />
+    <Compile Include="MRP\Server\MRPCompositionBrowseTask.cs" />
+    <Compile Include="MRP\Server\MRPCompositionsBrowser.cs" />
+    <Compile Include="MRP\Server\ServerAutosortRuleEvents.cs" />
+    <Compile Include="MRP\Server\MRPCompositionBaseTask.cs" />
+    <Compile Include="MRP\Server\MRPCompositionsBrowseTask.cs" />
+    <Compile Include="MRP\Server\MRPIntermediateTaskResult.cs" />
+    <Compile Include="MRP\Server\MRPTaskCompleteEventHandler.cs" />
+    <Compile Include="MRP\Server\MRPTasksQueue.cs" />
+    <Compile Include="MRP\Server\IMRPCompositionsServerBrowser.cs" />
+    <Compile Include="MRP\Server\MRPServerPlugin.cs" />
+    <Compile Include="MRP\Server\DBMRPProductionCopy.cs" />
+    <Compile Include="MRP\Server\DBMRPProductionOrder.cs" />
+    <Compile Include="MRP\Server\DBMRPObjectsCreator.cs" />
+    <Compile Include="MRP\Server\MRP2ServerService.cs" />
+    <Compile Include="MRP\Server\UpdatesMRP.cs" />
+    <Compile Include="MRP\Server\Compositions\Tasks\MRPCompositionCreatorTask.cs" />
+    <Compile Include="MRP\Server\Compositions\Filtration\FiltrationCompositionService.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MRP\Server\Resources\MRPServerResources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

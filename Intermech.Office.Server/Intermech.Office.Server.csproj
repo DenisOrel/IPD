@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\IPS.Installer.Full\InstServer\Server\Intermech.Office.Server.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5D4034A6-1796-4F65-8EF7-4439DA73F438}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.Office.Server</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Extensions">
+      <HintPath>lib\Intermech.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Extensions.Interfaces">
+      <HintPath>lib\Intermech.Extensions.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Extensions.Server">
+      <HintPath>lib\Intermech.Extensions.Server.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Server">
+      <HintPath>lib\Intermech.Interfaces.Server.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces.Workflow">
+      <HintPath>lib\Intermech.Interfaces.Workflow.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Kernel">
+      <HintPath>lib\Intermech.Kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Office.Interfaces">
+      <HintPath>lib\Intermech.Office.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Search\MSOfficeReviews\MSOfficeReviewsServerModule.cs" />
+    <Compile Include="Search\MSOfficeReviews\MSOfficeReviewsServerService.cs" />
+    <Compile Include="Office\Server\IResolutionProcess.cs" />
+    <Compile Include="Office\Server\ResolutionProcessExecuteArgs.cs" />
+    <Compile Include="Office\Server\OfficeCacheSynchronizer.cs" />
+    <Compile Include="Office\Server\ParallelResolutionProcess.cs" />
+    <Compile Include="Office\Server\ResolutionProcess.cs" />
+    <Compile Include="Office\Server\SuccessiveResolutionProcess.cs" />
+    <Compile Include="Office\Server\DbConfidentialResolution.cs" />
+    <Compile Include="Office\Server\DbResolutionCreator.cs" />
+    <Compile Include="Office\Server\DBOfficeDocument.cs" />
+    <Compile Include="Office\Server\DBOfficeDocumentCreator.cs" />
+    <Compile Include="Office\Server\DBResolution.cs" />
+    <Compile Include="Office\Server\ObjectIsNotDBResolutionException.cs" />
+    <Compile Include="Office\Server\UserSessionExtensions.cs" />
+    <Compile Include="Office\Server\Localization.cs" />
+    <Compile Include="Office\Server\CustomDescription.cs" />
+    <Compile Include="Office\Server\CustomDisplayName.cs" />
+    <Compile Include="Office\Server\CustomCategory.cs" />
+    <Compile Include="Office\Server\NumberCounter.cs" />
+    <Compile Include="Office\Server\OfficeDocumentTypeService.cs" />
+    <Compile Include="Office\Server\OfficeGeneralSettingsService.cs" />
+    <Compile Include="Office\Server\OfficeRegistrationService.cs" />
+    <Compile Include="Office\Server\OfficeServer.cs" />
+    <Compile Include="Office\Server\CounterValue.cs" />
+    <Compile Include="Office\Server\GeneralRegistrationNumberGenerator.cs" />
+    <Compile Include="Office\Server\PrivateRegistrationNumberGenerator.cs" />
+    <Compile Include="Office\Server\RegistrationNumberGeneratorService.cs" />
+    <Compile Include="Office\Server\RegistrationNumberGenerator.cs" />
+    <Compile Include="Office\Server\RegistrationNumberHelper.cs" />
+    <Compile Include="Office\Server\ResolutionAccessService.cs" />
+    <Compile Include="Office\Server\SupervisorHelper.cs" />
+    <Compile Include="Office\Server\TypeSettingsForUnitsCache.cs" />
+    <Compile Include="Office\Server\UnitContainer.cs" />
+    <Compile Include="Office\Server\UnitSettingsFile.cs" />
+    <Compile Include="Office\Server\AdditionalAttributes\IAdditionalActivitiesAttributes.cs" />
+    <Compile Include="Office\Server\AdditionalAttributes\AdditionalActivitiesAttributes.cs" />
+    <Compile Include="Office\Server\AdditionalAttributes\IsControlAdditionalAttribute.cs" />
+    <Compile Include="Office\Server\AdditionalAttributes\PrivateRegNumAdditionalAttribute.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Office\Server\Resources\CustomAttributesResources.resx" />
+    <EmbeddedResource Include="Office\Server\Resources\OfficeServerResources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

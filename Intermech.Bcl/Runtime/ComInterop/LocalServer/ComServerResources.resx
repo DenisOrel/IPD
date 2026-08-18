@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SR_ComServerIsNotInitialized" xml:space="preserve">
+    <value>Инициализация COM-сервера не была выполнена.</value>
+  </data>
+  <data name="SR_BadComXmlFileFormat" xml:space="preserve">
+    <value>Конфигурационный файл '{0}' не является валидным xml-файлом.</value>
+  </data>
+  <data name="SR_HostApplicationAssemblyGuidRequired" xml:space="preserve">
+    <value>.NET-сборка приложения должна содержать атрибут типа GuidAttribute.</value>
+  </data>
+  <data name="SR_ComServerIsDisabled" xml:space="preserve">
+    <value>Возможности приложения, предоставляемые с помощью COM, отключены.</value>
+  </data>
+  <data name="SR_UnregisterComClassError" xml:space="preserve">
+    <value>Не удалось отменить регистрацию COM-класса '{0}', реализуемого типом '{1}'.</value>
+  </data>
+  <data name="SR_UnknownTypeLibSpecified" xml:space="preserve">
+    <value>COM-класс использует неизвестную библиотеку типов с LIBID = {0} версии {1}.</value>
+  </data>
+  <data name="Trace_LiveComObjectsCountChanged" xml:space="preserve">
+    <value>COM: теперь приложение контролирует {0} используемых COM-объектов</value>
+  </data>
+  <data name="SR_UnregisterCommandError" xml:space="preserve">
+    <value>Отмена регистрации COM-классов приложения выполнена с ошибками.</value>
+  </data>
+  <data name="Trace_ComClassDeactivated" xml:space="preserve">
+    <value>COM: удалена фабрика объектов для COM-класса '{0}', реализуемого типом '{1}'</value>
+  </data>
+  <data name="SR_STAThreadRequired" xml:space="preserve">
+    <value>Для создания объекта '{0}' требуется поток с COM Apartment = STA.</value>
+  </data>
+  <data name="SR_CantClearLastRegisteredHostApplication" xml:space="preserve">
+    <value>Не удалось удалить из реестра путь к приложению COM-сервера.</value>
+  </data>
+  <data name="SR_LiveComObjectsTrackerIsNotActive" xml:space="preserve">
+    <value>Трекер используемых COM-объектов не был активирован.</value>
+  </data>
+  <data name="SR_UnregisterCommandRejected" xml:space="preserve">
+    <value>Отмена регистрации COM-классов приложения не может быть выполнена, так как приложение не было зарегистрировано как COM-сервер.</value>
+  </data>
+  <data name="SR_CantOpenRegistryKey" xml:space="preserve">
+    <value>Не удалось открыть раздел реестра '{0}'.</value>
+  </data>
+  <data name="SR_HostApplicationIsExiting" xml:space="preserve">
+    <value>Приложение завершает работу и не может обработать запрос.</value>
+  </data>
+  <data name="SR_UnlinkedComXmlFile" xml:space="preserve">
+    <value>Для конфигурационного файла '{0}' не найдена соответствующая ему .NET-сборка.</value>
+  </data>
+  <data name="SR_UnsupportedHostApplicationType" xml:space="preserve">
+    <value>Неподдерживаемый тип приложения COM-сервера. Приложение должно быть исполняемым файлом.</value>
+  </data>
+  <data name="Trace_CantDisableComServerUntilUnregisterCommand" xml:space="preserve">
+    <value>COM: поддержка COM не может быть отключена, так как регистрация приложения не была отменена</value>
+  </data>
+  <data name="Trace_UnregisterCommandStarted" xml:space="preserve">
+    <value>COM: выполняется отмена регистрации COM-классов приложения</value>
+  </data>
+  <data name="SR_TypeIsNotComClass" xml:space="preserve">
+    <value>Указанный тип '{0}' не является COM-классом.</value>
+  </data>
+  <data name="SR_RegisterTypeLibError" xml:space="preserve">
+    <value>Не удалось зарегистрировать библиотеку типов '{0}'.</value>
+  </data>
+  <data name="SR_CantSaveLastRegisteredHostApplication" xml:space="preserve">
+    <value>Не удалось сохранить в реестре путь к приложению COM-сервера.</value>
+  </data>
+  <data name="Arg_HostApplicationIdRequired" xml:space="preserve">
+    <value>Не задан уникальный идентификатор приложения COM-сервера.</value>
+  </data>
+  <data name="SR_ComServerIsAlreadyInitialized" xml:space="preserve">
+    <value>Инициализация COM-сервера уже была выполнена.</value>
+  </data>
+  <data name="Trace_FileProcessed" xml:space="preserve">
+    <value>COM: файл {0} обработан</value>
+  </data>
+  <data name="SR_RegisterComClassError" xml:space="preserve">
+    <value>Не удалось зарегистрировать COM-класс '{0}', реализуемый типом '{1}'.</value>
+  </data>
+  <data name="SR_CantCreateRegistryKey" xml:space="preserve">
+    <value>Не удалось создать раздел реестра '{0}'.</value>
+  </data>
+  <data name="SR_ComClassIsUnknown" xml:space="preserve">
+    <value>Невозможно создать экземпляр COM-объекта '{0}', реализуемого типом '{1}', так как его активация не была выполнена приложением. Возможно, соответствующий плагин приложения не был загружен. </value>
+  </data>
+  <data name="Arg_HostApplicationExecutablePathRequired" xml:space="preserve">
+    <value>Не задан путь к исполняемому файлу приложения COM-сервера.</value>
+  </data>
+  <data name="SR_LiveComObjectsTrackerIsAlreadyActive" xml:space="preserve">
+    <value>Трекер используемых COM-объектов уже был активирован.</value>
+  </data>
+  <data name="Trace_ComServerInitializedAndActive" xml:space="preserve">
+    <value>COM: приложение успешно инициализировано и ожидает подключения клиентов...</value>
+  </data>
+  <data name="Trace_AutoExitIsRequested" xml:space="preserve">
+    <value>COM: запланировано завершение работы приложения, так как все созданные COM-объекты освобождены</value>
+  </data>
+  <data name="SR_ComPluginAssemblyLoadError" xml:space="preserve">
+    <value>Не удалось загрузить сборку '{0}' для обработки содержащихся в ней COM-классов.</value>
+  </data>
+  <data name="SR_UnregisterTypeLibError" xml:space="preserve">
+    <value>Не удалось отменить регистрацию библиотеки типов '{0}'.</value>
+  </data>
+  <data name="Trace_AutoExitHandlerIsInstalled" xml:space="preserve">
+    <value>COM: установлен обработчик для автоматического завершения работы приложения, запущенного по запросу COM-клиента</value>
+  </data>
+  <data name="Arg_HostApplicationExecutablePathMustBeAbsolute" xml:space="preserve">
+    <value>Путь к исполняемому файлу приложения COM-сервера '{0}' должен быть задан в абсолютной форме.</value>
+  </data>
+  <data name="Trace_NewObjectInstanceCreated" xml:space="preserve">
+    <value>COM: создан новый экземпляр COM-объекта, реализуемого типом '{0}'</value>
+  </data>
+  <data name="Trace_ComClassActivated" xml:space="preserve">
+    <value>COM: создана фабрика объектов для COM-класса '{0}', реализуемого типом '{1}'</value>
+  </data>
+  <data name="SR_HostApplicationNameIsNotSpecified" xml:space="preserve">
+    <value>В конфигурационном файле '{0}' не задано имя приложения COM-сервера. Поэтому .NET-сборка '{1}' не будет обработана, так как невозможно установить ее принадлежность к приложению.</value>
+  </data>
+  <data name="SR_ComClassIsAlreadyActivated" xml:space="preserve">
+    <value>Активация COM-класса '{0}', реализуемого типом '{1}', уже была выполнена.</value>
+  </data>
+  <data name="SR_RegisterCommandError" xml:space="preserve">
+    <value>Регистрация COM-классов приложения выполнена с ошибками.</value>
+  </data>
+  <data name="Trace_AutoExitIsInvoked" xml:space="preserve">
+    <value>COM: завершение работы приложения, запущенного по запросу COM-клиента</value>
+  </data>
+  <data name="SR_RegisterCommandRejected" xml:space="preserve">
+    <value>Регистрация COM-классов приложения не может быть выполнена, так как поддержка COM отключена.</value>
+  </data>
+  <data name="SR_CreationThreadRequired" xml:space="preserve">
+    <value>Активация и деактивация COM-классов разрешены только в том потоке, который использовался для создания объекта '{0}'.</value>
+  </data>
+  <data name="Trace_RegisterCommandStarted" xml:space="preserve">
+    <value>COM: выполняется регистрация COM-классов приложения</value>
+  </data>
+</root>

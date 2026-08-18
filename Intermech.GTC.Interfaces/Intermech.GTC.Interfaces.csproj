@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.GTC.Interfaces.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F1616C7A-8280-4D9E-952B-8B7E4BB2FAB4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.GTC.Interfaces</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech.GTC.Interfaces</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AttributeCategoriesHelper.cs" />
+    <Compile Include="Const.cs" />
+    <Compile Include="FileFolderEnum.cs" />
+    <Compile Include="IFileFolderInfo.cs" />
+    <Compile Include="IBrowseFileFolder.cs" />
+    <Compile Include="IEntityObjects.cs" />
+    <Compile Include="IGtcToolObjectCreator.cs" />
+    <Compile Include="IGtcItemObject.cs" />
+    <Compile Include="GtcVersion.cs" />
+    <Compile Include="IImportConfig.cs" />
+    <Compile Include="ImportConfig.cs" />
+    <Compile Include="IServiceForBackgroundTask.cs" />
+    <Compile Include="BackgroundTaskResult.cs" />
+    <Compile Include="BackgroundTaskMessage.cs" />
+    <Compile Include="Entities\IAliasIdentification.cs" />
+    <Compile Include="Entities\IAssemblyAssociation.cs" />
+    <Compile Include="Entities\IAssemblyDefinition.cs" />
+    <Compile Include="Entities\ICartesianCoordinateSpace2D.cs" />
+    <Compile Include="Entities\ICartesianCoordinateSpace3D.cs" />
+    <Compile Include="Entities\ICartesianPoint.cs" />
+    <Compile Include="Entities\IClassificationAssociation.cs" />
+    <Compile Include="Entities\IClassificationAssociationRelationship.cs" />
+    <Compile Include="Entities\ICoating.cs" />
+    <Compile Include="Entities\ICuttingCondition.cs" />
+    <Compile Include="Entities\IDateTime.cs" />
+    <Compile Include="Entities\IDigitalDocument.cs" />
+    <Compile Include="Entities\IDigitalFile.cs" />
+    <Compile Include="Entities\IDirection.cs" />
+    <Compile Include="Entities\IDocument.cs" />
+    <Compile Include="Entities\IDocumentAssignment.cs" />
+    <Compile Include="Entities\IDocumentCreationProperty.cs" />
+    <Compile Include="Entities\IDocumentFormatProperty.cs" />
+    <Compile Include="Entities\IDocumentLocationProperty.cs" />
+    <Compile Include="Entities\IDocumentVersion.cs" />
+    <Compile Include="Entities\IDuration.cs" />
+    <Compile Include="Entities\IEffectivity.cs" />
+    <Compile Include="Entities\IEffectivityAssignment.cs" />
+    <Compile Include="Entities\IEffectivityRelationship.cs" />
+    <Compile Include="Entities\IExternalFileIdAndLocation.cs" />
+    <Compile Include="Entities\IExternalGeometricModel.cs" />
+    <Compile Include="Entities\IExternalLibraryReference.cs" />
+    <Compile Include="Entities\IFittingBounds.cs" />
+    <Compile Include="Entities\IGeneralClassification.cs" />
+    <Compile Include="Entities\IGeometricModelRelationshipWithTransformation.cs" />
+    <Compile Include="Entities\IGrade.cs" />
+    <Compile Include="Entities\IItem.cs" />
+    <Compile Include="Entities\IItemCharacteristicAssociation.cs" />
+    <Compile Include="Entities\IItemDefinition.cs" />
+    <Compile Include="Entities\IItemDefinitionRelationship.cs" />
+    <Compile Include="Entities\IItemInstance.cs" />
+    <Compile Include="Entities\IItemVersion.cs" />
+    <Compile Include="Entities\IItemVersionRelationship.cs" />
+    <Compile Include="Entities\ILanguage.cs" />
+    <Compile Include="Entities\ILimitsAndFits.cs" />
+    <Compile Include="Entities\ILocation.cs" />
+    <Compile Include="Entities\IMatedItemRelationship.cs" />
+    <Compile Include="Entities\IMaterialDesignation.cs" />
+    <Compile Include="Entities\IMatingAssociation.cs" />
+    <Compile Include="Entities\IMatingDefinition.cs" />
+    <Compile Include="Entities\IMultiLanguageString.cs" />
+    <Compile Include="Entities\IDocumentContentProperty.cs" />
+    <Compile Include="Entities\IExternalPicture.cs" />
+    <Compile Include="Entities\INumericalValue.cs" />
+    <Compile Include="Entities\IOrganization.cs" />
+    <Compile Include="Entities\IBaseObject.cs" />
+    <Compile Include="Entities\IPerson.cs" />
+    <Compile Include="Entities\IPersonInOrganization.cs" />
+    <Compile Include="Entities\IPersonOrganizationAssignment.cs" />
+    <Compile Include="Entities\IPhysicalItem.cs" />
+    <Compile Include="Entities\IPhysicalItemDefinition.cs" />
+    <Compile Include="Entities\IPhysicalItemLocationAssociation.cs" />
+    <Compile Include="Entities\IPhysicalItemStateAssociation.cs" />
+    <Compile Include="Entities\IPhysicalItemStructureAssociation.cs" />
+    <Compile Include="Entities\IPhysicalItemVersion.cs" />
+    <Compile Include="Entities\IPlibClassReference.cs" />
+    <Compile Include="Entities\IPlibPropertyReference.cs" />
+    <Compile Include="Entities\IPlusMinusBounds.cs" />
+    <Compile Include="Entities\PropertyType.cs" />
+    <Compile Include="Entities\IProperty.cs" />
+    <Compile Include="Entities\IPropertyRelationship.cs" />
+    <Compile Include="Entities\IPropertyValueAssociation.cs" />
+    <Compile Include="Entities\IPropertyValueRepresentation.cs" />
+    <Compile Include="Entities\IPropertyValueRepresentationRelationship.cs" />
+    <Compile Include="Entities\IRealizedItemAssociation.cs" />
+    <Compile Include="Entities\ISpecificItemClassification.cs" />
+    <Compile Include="Entities\IState.cs" />
+    <Compile Include="Entities\IStringValue.cs" />
+    <Compile Include="Entities\IStringWithLanguage.cs" />
+    <Compile Include="Entities\ISubstrate.cs" />
+    <Compile Include="Entities\ITransformation2D.cs" />
+    <Compile Include="Entities\ITransformation3D.cs" />
+    <Compile Include="Entities\IUnit.cs" />
+    <Compile Include="Entities\IPropertyValue.cs" />
+    <Compile Include="Entities\IValueLimit.cs" />
+    <Compile Include="Entities\IValueLimitation.cs" />
+    <Compile Include="Entities\IValueList.cs" />
+    <Compile Include="Entities\IValueRange.cs" />
+    <Compile Include="Entities\IWorkpieceFeature.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

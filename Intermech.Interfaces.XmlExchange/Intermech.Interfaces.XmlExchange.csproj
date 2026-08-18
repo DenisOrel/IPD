@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\IPS\Client\Intermech.Interfaces.XmlExchange.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BFB87374-0FB6-4011-BA35-6814E3F70FCC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Intermech.Interfaces.XmlExchange</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>7.0.2.1112</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>Intermech</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>lib\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Bcl">
+      <HintPath>lib\Intermech.Bcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Expert">
+      <HintPath>lib\Intermech.Expert.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.Interfaces">
+      <HintPath>lib\Intermech.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Intermech.IpsXmlViewer.Interfaces">
+      <HintPath>lib\Intermech.IpsXmlViewer.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Localization\Xml\LocalizationHolder.cs" />
+    <Compile Include="Localization\Xml\CustomDescription.cs" />
+    <Compile Include="Localization\Xml\CustomDisplayName.cs" />
+    <Compile Include="Localization\Xml\CustomCategory.cs" />
+    <Compile Include="Interfaces\XmlExchange\Consts.cs" />
+    <Compile Include="Interfaces\XmlExchange\ObjectSearchCondition.cs" />
+    <Compile Include="Interfaces\XmlExchange\XmlImportExtAction.cs" />
+    <Compile Include="Interfaces\XmlExchange\XmlExtensionPriority.cs" />
+    <Compile Include="Interfaces\XmlExchange\IExtensionsModeCache.cs" />
+    <Compile Include="Interfaces\XmlExchange\IXmlExchangeExportExtension.cs" />
+    <Compile Include="Interfaces\XmlExchange\IXmlExchangeExtension.cs" />
+    <Compile Include="Interfaces\XmlExchange\IXmlExchangeImportExtension.cs" />
+    <Compile Include="Interfaces\XmlExchange\IXmlExchangeExportTask.cs" />
+    <Compile Include="Interfaces\XmlExchange\ILogger.cs" />
+    <Compile Include="Interfaces\XmlExchange\IFindIPSObjectsService.cs" />
+    <Compile Include="Interfaces\XmlExchange\IXmlExchangeImportTask.cs" />
+    <Compile Include="Interfaces\XmlExchange\IXmlExchangeService.cs" />
+    <Compile Include="Interfaces\XmlExchange\IXmlExchangeTask.cs" />
+    <Compile Include="Interfaces\XmlExchange\XmlExchangeConsts.cs" />
+    <Compile Include="Interfaces\XmlExchange\IXmlServerPlugin.cs" />
+    <Compile Include="Interfaces\XmlExchange\XmlExportApplMode.cs" />
+    <Compile Include="Interfaces\XmlExchange\XmlExportApplFlags.cs" />
+    <Compile Include="Interfaces\XmlExchange\XmlExportAttrsMode.cs" />
+    <Compile Include="Interfaces\XmlExchange\XmlExportExtraDataMode.cs" />
+    <Compile Include="Interfaces\XmlExchange\XmlExportObjModes.cs" />
+    <Compile Include="Interfaces\XmlExchange\XmlExportTaskMode.cs" />
+    <Compile Include="Interfaces\XmlExchange\XmlExchangeExportAppl.cs" />
+    <Compile Include="Interfaces\XmlExchange\XmlExchangeExportApplicabilityList.cs" />
+    <Compile Include="Interfaces\XmlExchange\XmlExchangeExportAttributable.cs" />
+    <Compile Include="Interfaces\XmlExchange\XmlExchangeExportAttrList.cs" />
+    <Compile Include="Interfaces\XmlExchange\XmlExchangeExportDefAttrValueList.cs" />
+    <Compile Include="Interfaces\XmlExchange\XmlExchangeExportAttr.cs" />
+    <Compile Include="Interfaces\XmlExchange\XmlExchangeExportDefAttrValue.cs" />
+    <Compile Include="Interfaces\XmlExchange\XmlExchangeExportScript.cs" />
+    <Compile Include="Interfaces\XmlExchange\XmlExchangeExportScripts.cs" />
+    <Compile Include="Interfaces\XmlExchange\XmlExchangeExportItem.cs" />
+    <Compile Include="Interfaces\XmlExchange\XmlExchangeExportList`1.cs" />
+    <Compile Include="Interfaces\XmlExchange\XmlExchangeExportHelper.cs" />
+    <Compile Include="Interfaces\XmlExchange\XmlExchangeExportObj.cs" />
+    <Compile Include="Interfaces\XmlExchange\XmlExchangeExportObjList.cs" />
+    <Compile Include="Interfaces\XmlExchange\XmlExchangeExportRelList.cs" />
+    <Compile Include="Interfaces\XmlExchange\XmlExchangeExportSettings.cs" />
+    <Compile Include="Interfaces\XmlExchange\XmlExchangeExportRel.cs" />
+    <Compile Include="Interfaces\XmlExchange\XmlExchangeExportTypedItemList`1.cs" />
+    <Compile Include="Interfaces\XmlExchange\XmlExchangeExportUserItem.cs" />
+    <Compile Include="Interfaces\XmlExchange\XmlExchangeExportUserItemList`1.cs" />
+    <Compile Include="Interfaces\XmlExchange\XmlImportBase.cs" />
+    <Compile Include="Interfaces\XmlExchange\XmlExchangeExportTypedItem.cs" />
+    <Compile Include="Interfaces\XmlExchange\XmlExchangeExportTypedBase.cs" />
+    <Compile Include="Interfaces\XmlExchange\XmlScripts\XmlExportScriptCommand.cs" />
+    <Compile Include="Interfaces\XmlExchange\XmlScripts\XmlImportScriptCommand.cs" />
+    <Compile Include="Interfaces\XmlExchange\Settings\Export\Extensions\XmlExchangeExportExtension.cs" />
+    <Compile Include="Interfaces\XmlExchange\Settings\Export\Extensions\XmlExchangeExportExtensions.cs" />
+    <Compile Include="Interfaces\XmlExchange\Settings\Export\Common\XmlExportAttributeMode.cs" />
+    <Compile Include="Interfaces\XmlExchange\Settings\Export\Common\XmlExportApplDirection.cs" />
+    <Compile Include="Interfaces\XmlExchange\Settings\Export\Common\XmlExportCompressMode.cs" />
+    <Compile Include="Interfaces\XmlExchange\Settings\Export\Common\XmlExportChecksumAlgorithm.cs" />
+    <Compile Include="Interfaces\XmlExchange\Settings\Export\Common\XmlExportFindAttrMode.cs" />
+    <Compile Include="Interfaces\XmlExchange\Services\XmlExchangeTaskParams.cs" />
+    <Compile Include="Interfaces\XmlExchange\Services\XmlExchangeTaskStatus.cs" />
+    <Compile Include="Interfaces\XmlExchange\Services\Import\XmlExchangeImportTaskParams.cs" />
+    <Compile Include="Interfaces\XmlExchange\Common\XmlExportExtAction.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Interfaces\XmlExchange\Resources\CustomAttributesResources.resx" />
+    <EmbeddedResource Include="Interfaces\XmlExchange\Resources\InterfacesXmlExchangeResources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="_addRoleConfiguration.ToolTipText" xml:space="preserve">
+    <value>Создать новый объект типа "Конфигурации ролей"</value>
+  </data>
+  <data name="_deleteButtonItem.CommandName" xml:space="preserve">
+    <value>btnDelete</value>
+  </data>
+  <data name="imagesMenus.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABOIgAAAk1TRnQBSQFMAgEBCAEAAYABAAGAAQABEAEAARABAAT/ASEBEAj/AUIBTQE2BwABNgMAASgDAAFAAwABMAMAAQEBAAEgBgABMP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wA3AAHmAdMBvgH/Ac0BkQFKAf8BvgFlAQAB/wG+AWUBAAH/Ab4BZQEAAf8B0gGdAV8B/wHmAdUBwQH/MAADCAELA0ABcSQAAzoBYQFOAVgBYgHvAlcBXAHfA08BmygAAZwBjAGOAf8BhQFDASUB/wGFAUMBJQH/AYUBQwElAf8BhQFDASUB/wGFAUMBJQH/AYUBQwElAf8BhQFDASUB/wGFAUMBJQH/AYUBQwElAf8BhQFDASUB/wGFAUMBJQH/AYUBQwElAf8BlQFoAV4B/xQAAd8BwQGeAf8BvgFlAQAB/wHXAasBeAH/AegB2wHLAf8EAAHoAdoBygH/AdQBpAFrAf8BvgFlAQAB/wHeAb4BmQH/KAADCwEPAVsCWQHEA1kBxwMjATMDCwEPHAABKwF1AY8B/AEAAW0BrQH/AT8B2QH3Af8BAAGjAdIB/wEYAW0BgAH8Al4BZQHlA1UBsQMdASkYAAG+AWUBAAH/AfkB3wG5Af8BvgFlAQAB/wH+AfgB6wH/AcgBdQEjAf8ByAF1ASMB/wH+AfgB6wH/Af4B+AHrAf8B/gH4AesB/wH+AfgB6wH/Af4B+AHrAf8BvgFlAQAB/wH5Ad8BuQH/Ab4BZQEAAf8QAAHoAdoBygH/Ab4BZQEAAf8B4wHNAbQB/xQAAeEBxQGmAf8BvgFlAQAB/yQAAw8BFANaAc0BXQH2AYoB/wEuAcEBRQH/AScBtwE7Af8BQwFHAS0B+QNLAY4DAgEDEAADPAFnASsBcQGGAfwBAAFwAbAB/wGQAe8C/wEjAeAC/wEcAeIC/wEQAcsB7gH/AQIBpAHSAf8BCQF/AZYB/gFUAVoBYQHuA1UBtxAAAb4BZQEAAf8B+QHfAbkB/wG+AWUBAAX/AY8BawFIAf8BjwFrAUgF/wHIAXUBIwH/AcgBdQEjCf8BvgFlAQAB/wH5Ad8BuQH/Ab4BZQEAAf8QAAHRAZoBWwH/AdYBqQF0Af8wAAMqAUEBUQJQAZ8BXgJaAdgBWQFKAU4B8gFtAlEB9wFZAUwBSwHyAVsB8wGFAf8BagH/AZ8B/wFYAfEBgwH/AUsB5gFvAf8BPgHcAV0B/wEhAbQBMgH/A0oBixAAA1MBsAFVAbIB0QH/AQABgQGyAf8BgQHSAb8B/wEeAbkBmAH/AR0BvAGUAf8BFAG3AZMB/wEnAeAC/wEmAeIC/wEgAdAB7gH/ARMBsQHdAf8BAAGGAbYB/wJaAWEB5AgAAb4BZQEAAf8B+QHfAbkB/wG+AWUBACH/Ab4BZQEAAf8B+QHfAbkB/wG+AWUBAAH/DAAB7AHlAdwB/wG+AWUBAAH/AekB3AHNAf8wAAFZAUEBQgH1ARwBUwHQAf8BJAFtAeEB/wEkAWkB3gH/AR4BWwHUAf8BgwGjAdYB/wEgAZkBNAH/AVwB8wGHAf8BMAHDAUcB/wEdAasBKwH/ARcBngEhAf8BFwGgASAB/wEqAU8BIQH7AxwBJwgAAzUBVgFVAV0BZAHtAXAByQGYAf8BAAGBAbQB/wGHAd4BuAH/AU0B5wHAAf8BQwHgAbUB/wEpAcMBqAH/AT4B5AL/ATgB4gL/ATgB4AL/ATkB4gL/ATIBzwHwAf8BAAFgAaAB/wgAAb4BZQEAAf8B+QHfAbkB/wG+AWUBAAH/Ab4BZQEAAf8BvgFlAQAB/wG+AWUBAAH/Ab4BZQEAAf8BvgFlAQAB/wG+AWUBAAH/Ab4BZQEAAf8BvgFlAQAB/wG+AWUBAAH/AfkB3wG5Af8BvgFlAQAB/wwAAe0B5wHhAf8BvgFlAQAB/wHpAdwBzQH/HAAB1QGkAWwB/xAAAVsCWQHDAScBgQHnAf8BLQGDAfEB/wErAYMB8gH/ASIBbAHlAf8BGQFTAdAB/wGBAZAB2QH/ATwBmwEgAf8BJAGJAQUB/wHSAboBigH/AYIBRwFBAfkDGwEmAUUCRAF8A0oBiggAA1ABmgFkAY0BfwH+AQABgQEFAf8BAAGEAbcB/wGUAeYBwAH/AVcB5wG9Af8BMgHDAY0B/wFbAe0B+QH/AVYB7AL/AU8B6gL/AUsB6QL/AUkB5AH+Af8BVwHaAe0B/wEAAWIBogH/CAABvgFlAQAB/wH5Ad8BuQH/AfkB3wG5Af8B+QHfAbkB/wH5Ad8BuQH/AfkB3wG5Af8B+QHfAbkB/wH5Ad8BuQH/AfkB3wG5Af8B+QHfAbkB/wH5Ad8BuQH/AfkB3wG5Af8B+QHfAbkB/wG+AWUBAAH/BAAB3QG7AZUB/wG+AWUBAAH/AeEBxgGnAf8BvgFlAQAB/wHeAb0BmAH/Ab4BZQEAAf8B3QG7AZUB/xAAAdUBpAFsAf8BvgFlAQAB/wHVAaQBbAH/DAADMQFPAUEBZQGYAf4BMwGbAv8BIQFOAcQB/wJCAZsB/wEMAUMB0AH/ARcBHQGcAf8B4gG3AYcB/wGEAbkBWwH/Ad8BtQGOAf8BXAJZAckIAAMJAQwIAANhAeEBAAFgAQAB/wECAYMBDQH/AQABhgG5Af8BkAHcAasB/wFLAdgBngH/AWUB7AHTAf8BggH2Av8BbQH0Av8BZgHzAv8BXwHwAv8BPwHJAeMB/wGqA/8BAAFlAaUB/wgAAb4BZQEAAf8B+QHfAbkB/wG+AWUBAAH/Ab4BZQEAAf8BvgFlAQAB/wG+AWUBAAH/Ab4BZQEAAf8BvgFlAQAB/wG+AWUBAAH/Ab4BZQEAAf8BvgFlAQAB/wG+AWUBAAH/AfkB3wG5Af8BvgFlAQAB/wgAAdUBpAFsAf8BvgFlAQAB/wG+AWUBAAH/Ab4BZQEAAf8B1QGkAWwB/xAAAdUBpAFsAf8BvgFlAQAB/wG+AWUBAAH/Ab4BZQEAAf8B1QGkAWwB/wwAAToCOQFgAWECWAHpAUIBkAHsAf8BXgG1AfkB/wFeAVcBWQHsAX8BSwEdAf4BrgGbAYEB/wHOAdYBxwH/AXkBKwEfAfwDMwFSFAABJQFTAUcB+gEAAZ0BBwH/AQ4BgAEUAf8BAAFqAaoB/wHcA/8BoQP/AZwB+wL/AZQB+QL/AYwB9wL/AYUB9gL/AYAB9QL/AVABywHfAf8B0QP/AQABZwGnAf8IAAG+AWUBAAH/AfkB3wG5Af8BvgFlAQAh/wG+AWUBAAH/AfkB3wG5Af8BvgFlAQAB/wwAAdUBpAFsAf8BvgFlAQAB/wHVAaQBbAH/EAAB3QG7AZUB/wG+AWUBAAH/Ad4BvQGYAf8BvgFlAQAB/wHhAcYBpwH/Ab4BZQEAAf8B3QG7AZUB/wwAAV4CWgHYAXABwQL/AWoBvgL/AWABWAFZAesBKAFFAVcB+wFEAaoC/wFTAbgC/wFRAlABnxkAAWgBBQH/ARYBxQEnAf8BAQGPAQwB/wFPAaEBwQH/AcMB7QH1Af8BEwGXATYB/wGFAeMB7wH/AZIB8AH4Af8BnAH6Av8BlAH4Av8BWAHSAecB/wGqAfQB+QH/AdoD/wEAAWoBqgH/CAABvgFlAQAB/wH5Ad8BuQH/Ab4BZQEABf8BtAGGAV4B/wGnAXYBQgH/AacBdgFCAf8BpwF2AUIB/wGnAXYBQgH/AbQBhgFeBf8BvgFlAQAB/wH5Ad8BuQH/Ab4BZQEAAf8QAAHVAaQBbAH/HAAB6QHcAc0B/wG+AWUBAAH/Ae0B5wHhAf8QAAMxAU8BeQGAAbIB/gGJAc8C/wGBAckC/wFjAbgC/wEBAW0BowH/AYoB0AL/AZAB0wL/AWECWAHmGAABUwFgAU8B8QEhAcwBNQH/AS0B1gFKAf8BBQGXARIB/wEWAZABHwH/AQABgQEAAf8BqwHnAfAB/wGBAdQB5gH/AV4BxwHfAf8BWAHGAd8B/wFSAcIB2wH/AdMD/wHnA/8BAAFsAawB/wgAAb4BZQEAAf8B+QHfAbkB/wG+AWUBACH/Ab4BZQEAAf8B+QHfAbkB/wG+AWUBAAH/MAAB6QHcAc0B/wG+AWUBAAH/AewB5QHcAf8QAANQAZ4BAQFoAZoB/wGnAeEC/wGXAdkC/wFbAawB7AH/AQEBZAGSAf8BgQHFAfsB/wGiAdwC/wFkAlMB8RgAA1YBswEiAcYBOQH/ATYB3gFXAf8BRQHtAW8B/wFCAeYBaQH/AQABgwEKAf8BoAHZAeYB/wHQAe8B9gH/AeYC/AH/AfED/wHmA/8B3gP/AfMD/wEAAW8BrwH/CAABvgFlAQAB/wH5Ad8BuQH/Ab4BZQEABf8BtAGGAV4B/wGnAXYBQgH/AacBdgFCAf8BpwF2AUIB/wGnAXYBQgH/AbQBhgFeBf8BvgFlAQAB/wH5Ad8BuQH/Ab4BZQEAAf8wAAHWAakBdAH/AdEBmgFbAf8UAAFJAkgBhwEBAZIBxQH/AT8BlQHGAf8BaAG1AekB/wERAYEBpQH/AQEBgQG0Af8BAQGBAbIB/wEBAYEBsgH/AVwCVwHfGAADFAEbAU4BYgFMAe8BPgHlAWIB/wFMAfIBhQH/AV8B/wGjAf8BAAGEAQ0B/wNOAZgDVgG2A1kBzAEpAXMBkgH8DP8BAAGAAbEB/wgAAb4BZQEAAf8B+QHfAbkB/wG+AWUBACH/Ab4BZQEAAf8B+QHfAbkB/wG+AWUBAAH/EAABvgFlAQAB/wHhAcUBpgH/FAAB4wHNAbQB/wG+AWUBAAH/AegB2gHKAf8UAAMTARoBXAJZAckBXwJYAeMBWgFTAVQB7gNLAY4DTgGUAV4CWQHsAV8CWgHbAzcBWxwAAzMBUgEEAZcBDwH/AWkB/wGvAf8BagH/AbUB/wEAAYcBEAH/AwYBCAgAATYBYgFzAfYB7QH2AfoJ/wEAAYABsQH/CAABvgFlAQAB/wHLAZsBZgH/Ab4BZQEAAf8B/gH4AesB/wH+AfgB6wH/Af4B+AHrAf8B/gH4AesB/wH+AfgB6wH/Af4B+AHrAf8B/gH4AesB/wH+AfgB6wH/Ab4BZQEAAf8B1AGbAVgB/wG+AWUBAAH/EAAB3gG+AZkB/wG+AWUBAAH/AdQBpAFrAf8B6AHaAcoB/wQAAegB2wHLAf8B1wGrAXgB/wG+AWUBAAH/Ad8BwQGeAf9YAAFUAV0BUwHtATYBYgE2AfYBUwFkAU8B8QFVAVwBVAHqA1ABnQMEAQUIAANVAboBAAGGAbkB/wEAAYQBtwH/AQABggG1Af8DUAGdCAABnAGMAY4B/wG+AWUBAAH/Ab4BZQEAAf8BvgFlAQAB/wG+AWUBAAH/Ab4BZQEAAf8BvgFlAQAB/wG+AWUBAAH/Ab4BZQEAAf8BvgFlAQAB/wG+AWUBAAH/Ab4BZQEAAf8BvgFlAQAB/wGcAYwBjgH/FAAB5gHVAcEB/wHSAZ0BXwH/Ab4BZQEAAf8BvgFlAQAB/wG+AWUBAAH/Ac0BkQFKAf8B5gHTAb4B//8A5QADGgElA04BmQFkAloB5wFkAWsBOgH+AT4BgQErAf8BYAJYAesBUgJRAaEDHwEtfAABCQGBAQkB/wEJAYEBCQH/AQkBgQEJAf8sAAFGAUgBwgH/ARIBHAGuAf8CgQG0Af8EAAEtAS4BrQH/AR0BIAGqAf8CaQGBAf8MAAE9AjwBZwFtAjoB9wE0AZABKwH/ATIBlAErAf8BNQGPASsB/wFBAYYBKwH/AVcBgQErAf8BYwGBASsB/wFeAiEB+wNDAXgQAAEBARQBlQH/AQEBFAGVAf8kAAEBARQBlQH/AQEBFAGVAf80AAEJAYEBCQH/AU0B3QGBAf8BCQGBAQkB/ywAASsBLAGwAf8BNQGBAv8BHQE8AdMB/wEkATgBvwH/ASABVwL/AR4BZQL/ATYBOgG9Af8IAAM7AWQBXAF/AUAB/gEvAaMBNAH/AS8BnwE0Af8BXgHMAYEB/wGBAf8BmQH/AYEB/wGZAf8BgQH/AZkB/wE2AYkBKwH/AWUBgQErAf8BbQFqAToB/gNEAXkMAAEUAS0BsgH/AQABIAHvAf8BAQEUAZUB/xwAAQEBFAGVAf8BAQEQAeEB/wEEAR8BtwH/LAABCQGHAQkB/wEJAYUBCQH/AQkBgQEJAf8BUQHhAYEB/wEJAYEBCQH/AQkBgQEJAf8BCQGBAQkB/yQAAoEBwQH/ARoBLQHEAf8BNQFwAv8BLgFmAv8BKQFkAv8BGwEpAbwB/wKpAc4B/wQAAxYBHwFZAkAB9QE2AagBQgH/ATUBowFBAf8BNQGjAUAB/wGBAZsBgQL/AfgD/wH3Av8BgQH/AZkB/wErAZkBKwH/ASwBkQErAf8BZgGBASsB/wFeAiEB+wMgAS4MAAEUAS0BsgH/AQABIAHvAf8BAQEUAZUB/xQAAQEBFAGVAf8BAQEQAeEB/wEEAR8BtwH/MAABCQGNAQkB/wFnAfcBkQH/AWMB8wGNAf8BXAHsAYYB/wFRAeEBgQH/AU4B3gGBAf8BCQGBAQkB/ywAARkBKwG/Af8BNgFvAv8BJQFSAfQB/wJwAbsB/wgAA0sBjgFUAbABYgH/AToBqQFOAf8BPAGqAU4B/wE7AakBTQH/AYEBmwGBAv8B+QP/AfoC/wGBAf8BmQH/AS0BmwExAf8BKwGaASsB/wE7AYkBKwH/AWQBgQErAf8BUgJRAaEQAAEUAS0BsgH/AQABIAHvAf8BAQEUAZUB/wwAAQEBFAGVAf8BAQEQAeEB/wEEAR8BtwH/FAABQAFVAcMB/wEaATcBugH/ARYBNAG1Af8BFAErAbAB/wERAR0BqQH/AjkBtQH/BAAB3AGUAYEB/wEJAZEBCQH/AQkBjQEJAf8BCQGLAQkB/wFjAfMBjQH/AQkBgwEJAf8BCQGBAQkB/wEJAYEBCQH/BAABQAFVAcMB/wEaATcBugH/ARYBNAG1Af8BFAErAbAB/wERAR0BqQH/AjkBtQH/BAAB3AGUAYEB/wG/AWoBLwH/ASkBGAGHAf8BSAGBAv8BJAFHAdwB/wEyAWoC/wEaASsBwwH/ArUByAH/BAADWwHZAWMBvwGBAf8BXgHMAYEB/wGBAf8BmQH/AYEB/wGZAf8BXgHMAYEB/wH5AfQB+QH/Af4B9wH8Af8BgQH/AZkB/wGBAf8BmQH/AYEB/wGZAf8BgQH/AZkB/wFfAYEBKwH/AWACWAHrFAABFAEtAbIB/wEAASAB7wH/AQEBFAGVAf8EAAEBARQBlQH/AQEBEAHhAf8BBAEfAbcB/xQAASoBUwHEAf8BJAFeAdEB/wEqAW4B3QH/AS0BgQHjAf8BKQFpAdkB/wEjAVgBzgH/AQ0BMQG9Af8BMwEbAYEB/wHTAYEBKAH/AcgBgQE0Af8BxwGBATMB/wEJAY8BCQH/AWcB9wGRAf8BCQGJAQkB/wgAASoBUwHEAf8BJAFeAdEB/wEqAW4B3QH/AS0BgQHjAf8BKQFpAdkB/wEjAVgBzgH/AQ0BMQG9Af8BMwEbAYEB/wHTAYEBKAH/AcgBgQE0Af8BHAEgAbcB/wFCAYEC/wFSAVABjQH/AS8BMAGjAf8BNAGBAv8BLAEtAbcB/wQAAV8CIQH7AW0BxAGBAf8BgQGbAYEB/wH8AekB+QH/AfAB5AHsAf8B8QHrAfAB/wHxAe8B8QH/AfUB8wH0Av8B+AH8Av8B+AP/AfQC/wGBAf8BmQH/AUgBgwErAf8BPwGBASsB/xgAARQBLQGyAf8BAAEgAe8B/wEBARQBlQH/AQEBEAHhAf8BBAEfAbcB/xgAAVEBgQHMAf8BLAGBAeAB/wEzAYIB7wH/ATQBhgHzAf8BLAGBAecB/wEmAWMB1gH/AREBPgHKAf8BWQE1AYAB/wHRAYEBFwH/AcUBgQEpAf8BuAFhARMB/wEJAZMBCQH/AQkBkQEJAf8BCQGNAQkB/wgAAVEBgQHMAf8BLAGBAeAB/wEzAYIB7wH/ATQBhgHzAf8BLAGBAecB/wEmAWMB1gH/AREBPgHKAf8BWQE1AYAB/wHRAYEBFwH/AcUBgQEpAf8BiAFKAUQB/wFAATIBnQH/AbsBcAEpAf8BogFXASsB/wEzATkBugH/AYMBtQHrAf8EAAFNAikB+gGBAc8BgQH/AYEBmwGBAf8B/QHsAf0B/wHyAekB8gH/AfAB6wHwAf8B7AHrAewB/wHvAe4B7wH/AfgB8wH4Av8B+AP/AfUC/wGBAf8BmQH/ATwBjgErAf8BPQGBASsB/xwAAQEBFAGVAf8BAAEgAe8B/wEBARQBlQH/HAABgQGmAe8B/wEuAYEB5gH/ATgBjwH4Af8BKwGBAeIB/wFDAVkBsAH/ARkBPgG8Af8BCgEbAboB/wGqAWABKwH/AcoBZwEJAv8B8AGvAf8B2wGCAToB/wHSAYEBHwH/Ab0BYAEYAf8B1AGhAYoB/wgAAYEBpgHvAf8BLgGBAeYB/wE4AY8B+AH/ASsBgQHiAf8BQwFZAbAB/wEZAT4BvAH/AQoBGwG6Af8BqgFgASsB/wHKAWcBCQL/AfABrwH/AdsBggE6Af8B0gGBAR8B/wG9AWABGAH/AdQBoQGKAf8MAAFgAlwB1AGBAd4BmQH/AYEBmwGBAf8BgQGbAYEB/wGBAZsBgQH/AY4BwQGOAf8B8QHrAfEB/wHyAewB8QH/AV4BzAGBAf8BgQGbAYEB/wGBAZsBgQH/AV4BzAGBAf8BOwGUAS4B/wFkAloB5xgAAQEBFAGVAf8BDwEzAv8BAAESAcUB/wEAASAB7wH/AQEBFAGVAf8cAAGBAaYB7wH/AToBgQHkAf8BQQGeAv8BTQGwAv8BLAGBAeQB/wKBAa8B/wHkAasBjAH/AZYBbAFIAf8BVgGsAv8BOAGKAcoB/wE1AWQBgQH/AZ8BgQFdAf8QAAGBAaYB7wH/AToBgQHkAf8BQQGeAv8BTQGwAv8BLAGBAeQB/wKBAa8B/wHkAasBjAH/AZYBbAFIAf8BVgGsAv8BOAGKAcoB/wE1AWQBgQH/AZ8BgQFdAf8QAANIAYYBgQHWAY0B/wGBAdQBgQH/AVkBygGBAf8BWgHJAYEB/wGBAZsBgQH/AfIB6AHyAf8B8AHkAe0B/wGBAf8BmQH/AT8BrQFWAf8BOQGnAUsB/wEyAaMBPQH/AT0BkAEwAf8DUAGaFAABAQEUAZUB/wEPATMC/wEUAS0BsgH/BAABFAEtAbIB/wEAASAB7wH/AQEBFAGVAf8cAAFfAbMB9AH/AYEBxAL/AYEBwAL/AV0BswL/AZQBuAHTAf8EAAFEAacB/QH/AYEBxwL/AYEBwgL/AQkBbwGeAf8BFQGBAawB/xQAAV8BswH0Af8BgQHEAv8BgQHAAv8BXQGzAv8BlAG4AdMB/wQAAUQBpwH9Af8BgQHHAv8BgQHCAv8BCQFvAZ4B/wEVAYEBrAH/EAADEgEYAWQCTwHxAYwB6AGwAf8BZQHPAYEB/wFaAcsBgQH/AYEBmwGBAf8B/gHsAf4B/wH8AecB9wH/AYEB/wGZAf8BQQGvAVkB/wE8AaoBTQH/ATUBqQFDAf8BbQI6AfcDGgElEAABAQEUAZUB/wEPATMC/wEUAS0BsgH/DAABFAEtAbIB/wEAASAB7wH/AQEBFAGVAf8UAAGBAboB4QH/ATYBjQHSAf8BkAHTAv8BhAHLAv8BgQG/Av8BbAGaAccB/wGDAbIB4AH/AYEBvQL/AZoB2gL/AZIB1QL/AQ0BgQGjAf8BCQGBAakB/wGBAaUBwwH/DAABgQG6AeEB/wE2AY0B0gH/AZAB0wL/AYQBywL/AYEBvwL/AWwBmgHHAf8BgwGyAeAB/wGBAb0C/wGaAdoC/wGSAdUC/wENAYEBowH/AQkBgQGpAf8BgQGlAcMB/xAAATUCNAFVA0AB/QGJAegBrwH/AYEB1QGBAf8BTAGYAVIB/wGBAZsBgQH/AYEBmwGBAf8BXgHMAYEB/wFBAbABWgH/ATwBrwFRAf8BXQF/AUEB/gE9AjwBaBAAAQEBFAGVAf8BDwEzAv8BFAEtAbIB/xQAARQBLQGyAf8BAAEgAe8B/wEBARQBlQH/EAABWgGTAbMB/wEJAW8BmAH/AW4BswHcAf8BpAHgAv8BgQG+AfkB/wFFAYEBkgH/AYQBswHgAf8BXwGtAfEB/wGBAb4B6AH/AWUBrAHhAf8BCQGBAaUB/wEJAYEBqwH/AYEBpwHEAf8MAAFaAZMBswH/AQkBbwGYAf8BbgGzAdwB/wGkAeAC/wGBAb4B+QH/AUUBgQGSAf8BhAGzAeAB/wFfAa0B8QH/AYEBvgHoAf8BZQGsAeEB/wEJAYEBpQH/AQkBgQGrAf8BgQGnAcQB/xQAATUCNAFVAWQCTwHxAYEB2wGUAf8BgQHhAZ0B/wGBAdIBgQH/AWYBxgGBAf8BWwHAAYEB/wFPAbIBZAH/AVkCQAH1AzsBZBAAAQEBFAGVAf8BDwEzAv8BFAEtAbIB/xwAARQBLQGyAf8BAAEgAe8B/wEBARQBlQH/DAABbwG5AeEB/wEJAYQBuAH/ARABggG0Af8BTQGlAdYB/wEWAYEBrwH/AWIBjgGoAf8EAAEJAYIBsgH/AQkBiQG8Af8BCQGEAbgB/wEJAY0BwAH/ASEBgQGmAf8QAAFvAbkB4QH/AQkBhAG4Af8BEAGCAbQB/wFNAaUB1gH/ARYBgQGvAf8BYgGOAagB/wQAAQkBggGyAf8BCQGJAbwB/wEJAYQBuAH/AQkBjQHAAf8BIQGBAaYB/xwAAxIBGANIAYYBYAJcAdQBTQIpAfoBXwIhAfsDWwHZA0sBjgMWAR8UAAEEAR8BtwH/ARQBLQGyAf8kAAEUAS0BsgH/ARQBLQGyAf8QAAE+AZkBxQH/ARwBngHRAf8BEwGXAdAB/wE4AZUBwgH/CAABUAGlAckB/wENAY4BwgH/AQkBiQG9Af8BLQGMAboB/xgAAT4BmQHFAf8BHAGeAdEB/wETAZcB0AH/ATgBlQHCAf8IAAFQAaUByQH/AQ0BjgHCAf8BCQGJAb0B/wEtAYwBugH//wARAAFCAU0BPgcAAT4DAAEoAwABQAMAATADAAEBAQABAQUAAYABARYAA/+BAAj/AfgBDwH/AT8B4QH/AYABAQHwAYcB/gEPAeABHwGAAQEB4wHnAfwBAwHAAQcBgAEBAecB/wGAAQMBwAEBAYABAQHHAf8BgAEBAYABAQGAAQEBxwH3AYABAQGAAQEBgAIBAeMBgAENAYABAQGAAQEBgwHBAcABDwGAAQEBgAEBAccBgAHgAR8BgAEBAYABAQHvAeMBwAEfAYABAQGAAQEB/wHjAcABHwGAAQEBgAEBAf8B5wHAAR8BgAEBAYABAQHnAccBwAEfAcABwQGAAQEB4QEPAv8BwAHBAYABAQHwAR8O/wHwAQ8D/wHjAf8BiAHgAQcBnwHzAf8B4wH/AYABwAEDAY8B4wH/AYAB/wKAAQECxwH/AYAB/wHhAYABAQHjAY8BgQEAAYEBAAGAAQEB8QEfAQABAwIAAYABAQH4AT8BAAEDAgABgAEBAfwBfwEAAQMBAAEDAYABAQH4AT8BgAEHAYABBwGAAQEB8QEfAcEBBwHBAQcBgAEBAeMBjwGAAQMBgAEDAcABAwLHAYABAwGAAQMB4AEHAY8B4wGBAQcBgQEHAfABDwGfAfMBwwEPAcMBDwj/FgAL</value>
+  </data>
+  <data name="toolBarRules.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAAAAAAAs=</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="menuObjects.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="columnParentObjects.Caption" xml:space="preserve">
+    <value>Конфигурации ролей и назначенные им роли</value>
+  </data>
+  <data name="_roleConfigurationsTree.MinRowHeight" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="$this.Font" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5Gb250BAAAAAROYW1lBFNpemUFU3R5bGUEVW5pdAEABAQLGFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQIAAAAbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AgAAAAIAAAAGAwAAAAZUYWhvbWEAAARBBfz///8YU3lzdGVtLkRyYXdpbmcuRm9udFN0eWxlAQAAAAd2YWx1ZV9fAAgCAAAAAAAAAAX7////G1N5c3RlbS5EcmF3aW5nLkdyYXBoaWNzVW5pdAEAAAAHdmFsdWVfXwAIAgAAAAMAAAAL</value>
+  </data>
+  <data name="$this.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAC8BAACzAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;menuObjects.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuBar, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;menuObjects.Name" xml:space="preserve">
+    <value>menuObjects</value>
+  </data>
+  <data name="&gt;&gt;_saveRoleConfigurationToFileButtonItem.Name" xml:space="preserve">
+    <value>_saveRoleConfigurationToFileButtonItem</value>
+  </data>
+  <data name="_loadRoleConfigurationFromFileButtonItem.ToolTipText" xml:space="preserve">
+    <value>Загрузить настройки из файла</value>
+  </data>
+  <data name="&gt;&gt;_saveRoleConfigurationToFileButtonItem.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;columnParentObjects.Name" xml:space="preserve">
+    <value>columnParentObjects</value>
+  </data>
+  <data name="&gt;&gt;columnParentObjects.Type" xml:space="preserve">
+    <value>Infralution.Controls.VirtualTree.Column, Infralution.Controls.VirtualTree, Version=3.1.4.0, Culture=neutral, PublicKeyToken=8d2bc20ab69e4bb4</value>
+  </data>
+  <data name="_addRoleConfigurationMenuButtonItem.Text" xml:space="preserve">
+    <value>Создать конфигурацию</value>
+  </data>
+  <data name="_deleteRoleMenuButtonItem.Text" xml:space="preserve">
+    <value>Убрать из роли</value>
+  </data>
+  <data name="&gt;&gt;lbSplitter.Type" xml:space="preserve">
+    <value>Intermech.Bars.LabelItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lbSplitter.Name" xml:space="preserve">
+    <value>lbSplitter</value>
+  </data>
+  <data name="columnParentObjects.ToolTip" xml:space="preserve">
+    <value>Список объектов типа "Конфигурации ролей", а также роли, которым назначены эти объекты</value>
+  </data>
+  <data name="&gt;&gt;_deleteRoleMenuButtonItem.Name" xml:space="preserve">
+    <value>_deleteRoleMenuButtonItem</value>
+  </data>
+  <data name="&gt;&gt;_deleteRoleMenuButtonItem.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="_roleConfigurationsTree.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="_deleteRoleConfigurationMenuButtonItem.Text" xml:space="preserve">
+    <value>Удалить конфигурацию</value>
+  </data>
+  <data name="toolBarRules.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAC8BAAAYAAAACw==</value>
+  </data>
+  <data name="toolBarRules.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbSplitter.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="&gt;&gt;imagesMenus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imagesMenus.Name" xml:space="preserve">
+    <value>imagesMenus</value>
+  </data>
+  <data name="_addRoleMenuButtonItem.CommandName" xml:space="preserve">
+    <value>mnpRoleAdd</value>
+  </data>
+  <data name="&gt;&gt;_addRoleButtonItem.Name" xml:space="preserve">
+    <value>_addRoleButtonItem</value>
+  </data>
+  <data name="&gt;&gt;_addRoleButtonItem.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="_deleteRoleButtonItem.CommandName" xml:space="preserve">
+    <value>btnRoleDelete</value>
+  </data>
+  <data name="_deleteRoleConfigurationMenuButtonItem.CommandName" xml:space="preserve">
+    <value>mnpDelete</value>
+  </data>
+  <data name="_saveRoleConfigurationToFileButtonItem.ToolTipText" xml:space="preserve">
+    <value>Сохранить настройки в файл</value>
+  </data>
+  <data name="_roleConfigurationsTree.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAGAAAAAs=</value>
+  </data>
+  <data name="_addRoleConfigurationMenuButtonItem.CommandName" xml:space="preserve">
+    <value>mnpAdd</value>
+  </data>
+  <data name="&gt;&gt;_refreshMenuButtonItem.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;_refreshMenuButtonItem.Name" xml:space="preserve">
+    <value>_refreshMenuButtonItem</value>
+  </data>
+  <data name="lbSplitter.ToolTipText" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="&gt;&gt;_contextMenuBarItem.Type" xml:space="preserve">
+    <value>Intermech.Bars.ContextMenuBarItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;_contextMenuBarItem.Name" xml:space="preserve">
+    <value>_contextMenuBarItem</value>
+  </data>
+  <data name="_refreshMenuButtonItem.CommandName" xml:space="preserve">
+    <value>mnpRefresh</value>
+  </data>
+  <data name="_loadRoleConfigurationFromFileButtonItem.CommandName" xml:space="preserve">
+    <value>btnOpen</value>
+  </data>
+  <data name="&gt;&gt;_roleConfigurationsTree.Name" xml:space="preserve">
+    <value>_roleConfigurationsTree</value>
+  </data>
+  <data name="&gt;&gt;_roleConfigurationsTree.Type" xml:space="preserve">
+    <value>Intermech.VirtualTreeView.VirtualTreeView, Intermech.VirtualTreeView, Version=4.0.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;_addRoleConfigurationMenuButtonItem.Name" xml:space="preserve">
+    <value>_addRoleConfigurationMenuButtonItem</value>
+  </data>
+  <data name="&gt;&gt;_addRoleConfigurationMenuButtonItem.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;_addRoleMenuButtonItem.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;_addRoleMenuButtonItem.Name" xml:space="preserve">
+    <value>_addRoleMenuButtonItem</value>
+  </data>
+  <data name="_refreshMenuButtonItem.Text" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="_saveRoleConfigurationToFileButtonItem.CommandName" xml:space="preserve">
+    <value>btnSave</value>
+  </data>
+  <data name="&gt;&gt;_deleteButtonItem.Name" xml:space="preserve">
+    <value>_deleteButtonItem</value>
+  </data>
+  <data name="&gt;&gt;_deleteButtonItem.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;toolBarRules.Type" xml:space="preserve">
+    <value>Intermech.Bars.ToolBar, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;toolBarRules.Name" xml:space="preserve">
+    <value>toolBarRules</value>
+  </data>
+  <data name="_contextMenuBarItem.CommandName" xml:space="preserve">
+    <value>contextMenuObjects</value>
+  </data>
+  <data name="columnParentObjects.HeaderStyle.HorzAlignment" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAAB5TeXN0ZW0uRHJhd2luZy5TdHJpbmdBbGlnbm1lbnQBAAAAB3ZhbHVlX18ACAIAAAAAAAAACw==</value>
+  </data>
+  <data name="menuObjects.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="columnParentObjects.Width" type="System.Int32, mscorlib">
+    <value>299</value>
+  </data>
+  <data name="_addRoleConfiguration.CommandName" xml:space="preserve">
+    <value>btnAdd</value>
+  </data>
+  <data name="toolBarRules.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="_roleConfigurationsTree.RowHeight" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;_roleConfigurationsTree.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_refreshButtonItem.Name" xml:space="preserve">
+    <value>_refreshButtonItem</value>
+  </data>
+  <data name="&gt;&gt;_refreshButtonItem.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>RoleConfigsEditor</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_deleteRoleConfigurationMenuButtonItem.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;_deleteRoleConfigurationMenuButtonItem.Name" xml:space="preserve">
+    <value>_deleteRoleConfigurationMenuButtonItem</value>
+  </data>
+  <data name="&gt;&gt;toolBarRules.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lbSplitter.CommandName" xml:space="preserve">
+    <value>lbSplitter</value>
+  </data>
+  <data name="_addRoleButtonItem.ToolTipText" xml:space="preserve">
+    <value>Назначить указанную конфигурацию какой-либо роли</value>
+  </data>
+  <data name="_refreshButtonItem.CommandName" xml:space="preserve">
+    <value>btnObjTypeRefresh</value>
+  </data>
+  <data name="_roleConfigurationsTree.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAFAAAACw==</value>
+  </data>
+  <data name="_roleConfigurationsTree.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAC8BAACbAAAACw==</value>
+  </data>
+  <data name="columnParentObjects.MinWidth" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="&gt;&gt;toolBarRules.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_addRoleConfiguration.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;_addRoleConfiguration.Name" xml:space="preserve">
+    <value>_addRoleConfiguration</value>
+  </data>
+  <data name="_refreshButtonItem.ToolTipText" xml:space="preserve">
+    <value>Обновить список объектов</value>
+  </data>
+  <data name="_addRoleMenuButtonItem.Text" xml:space="preserve">
+    <value>Назначить роли</value>
+  </data>
+  <data name="&gt;&gt;_deleteRoleButtonItem.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;_deleteRoleButtonItem.Name" xml:space="preserve">
+    <value>_deleteRoleButtonItem</value>
+  </data>
+  <data name="&gt;&gt;_roleConfigurationsTree.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;_loadRoleConfigurationFromFileButtonItem.Name" xml:space="preserve">
+    <value>_loadRoleConfigurationFromFileButtonItem</value>
+  </data>
+  <data name="&gt;&gt;_loadRoleConfigurationFromFileButtonItem.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="_deleteRoleButtonItem.ToolTipText" xml:space="preserve">
+    <value>Убрать текущую конфигурацию из выбранной роли</value>
+  </data>
+  <data name="&gt;&gt;menuObjects.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="_deleteRoleMenuButtonItem.CommandName" xml:space="preserve">
+    <value>mnpRoleDelete</value>
+  </data>
+  <data name="_deleteButtonItem.ToolTipText" xml:space="preserve">
+    <value>Удалить указанный объект</value>
+  </data>
+  <data name="menuObjects.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAMAAAANwAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;menuObjects.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="menuObjects.Text" xml:space="preserve">
+    <value>menuBar</value>
+  </data>
+  <data name="menuObjects.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAIkAAAAgAAAACw==</value>
+  </data>
+  <data name="menuObjects.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAAAAAACw==</value>
+  </data>
+  <data name="_addRoleButtonItem.CommandName" xml:space="preserve">
+    <value>btnRoleAdd</value>
+  </data>
+</root>
