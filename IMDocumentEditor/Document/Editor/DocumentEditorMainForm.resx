@@ -1,0 +1,1075 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="miRedo.CommandName" xml:space="preserve">
+    <value>Redo</value>
+  </data>
+  <data name="&gt;&gt;dockManager.Type" xml:space="preserve">
+    <value>Intermech.Docking.DockManager, Intermech.Docking, Version=4.0.7.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dockManager.Name" xml:space="preserve">
+    <value>dockManager</value>
+  </data>
+  <data name="&gt;&gt;miPrevWindow.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;miPrevWindow.Name" xml:space="preserve">
+    <value>miPrevWindow</value>
+  </data>
+  <data name="&gt;&gt;miPaste.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;miPaste.Name" xml:space="preserve">
+    <value>miPaste</value>
+  </data>
+  <data name="&gt;&gt;miExit.Name" xml:space="preserve">
+    <value>miExit</value>
+  </data>
+  <data name="&gt;&gt;miExit.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="miOpenFile.CommandName" xml:space="preserve">
+    <value>miOpenFile</value>
+  </data>
+  <data name="miView.CommandName" xml:space="preserve">
+    <value>miView</value>
+  </data>
+  <data name="miTable.CommandName" xml:space="preserve">
+    <value>Table</value>
+  </data>
+  <data name="&gt;&gt;bottomDock.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;rightDock.Name" xml:space="preserve">
+    <value>rightDock</value>
+  </data>
+  <data name="&gt;&gt;rightDock.Type" xml:space="preserve">
+    <value>Intermech.Docking.DockContainer, Intermech.Docking, Version=4.0.7.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;rightBarDock.Type" xml:space="preserve">
+    <value>Intermech.Bars.ToolBarContainer, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;rightBarDock.Name" xml:space="preserve">
+    <value>rightBarDock</value>
+  </data>
+  <data name="miPrintPreview.Text" xml:space="preserve">
+    <value>Предварительный просмотр...</value>
+  </data>
+  <data name="miTable.Text" xml:space="preserve">
+    <value>Таблица</value>
+  </data>
+  <data name="&gt;&gt;bottomDock.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;bottomBarDock.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="miFile.CommandName" xml:space="preserve">
+    <value>miFile</value>
+  </data>
+  <data name="&gt;&gt;miOpenFile.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;miOpenFile.Name" xml:space="preserve">
+    <value>miOpenFile</value>
+  </data>
+  <data name="&gt;&gt;rightDock.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="miSaveFile.Text" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="bottomDock.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAACAAAACw==</value>
+  </data>
+  <data name="bottomDock.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAADADAAAAAAAACw==</value>
+  </data>
+  <data name="OpenDlg.Filter" xml:space="preserve">
+    <value>Все документы (*.imdx;*.spx;*.pex;*.imd;*.bln;*.rev;*.revx;*.cc;*.rep;*.cmp;*.idc;*.idcx)|*.imdx;*.spx;*.pex;*.imd;*.bln;*.rev;*.revx;*.cc;*.rep;*.cmp;*.idc;*.idcx;*.lib|Документы Интермех (*.imdx)|*.imdx|Спецификация (*.spx)|*.spx|Документы UEdit (*.imd)|*.imd|Извещения об изменениях (*.rev;*.revx)|*.rev;*.revx|Отчеты (*.rep)|*.rep|Комплекты Документов Интермех (*.idc;*.idcx)|*.idc;*.idcx|Бланки (*.bln)|*.bln|Библиотеки примитивов (*.lib)|*.lib|All files (*.*)|*.*</value>
+  </data>
+  <data name="leftBarDock.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAADAAAACw==</value>
+  </data>
+  <data name="leftBarDock.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAAAAABzAQAACw==</value>
+  </data>
+  <data name="leftBarDock.Text" xml:space="preserve">
+    <value>BarDock</value>
+  </data>
+  <data name="pageElementsToolBar.Text" xml:space="preserve">
+    <value>Элементы страницы</value>
+  </data>
+  <data name="pageElementsToolBar.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAC8AAAAWAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;pageElementsToolBar.Type" xml:space="preserve">
+    <value>Intermech.Bars.ToolBar, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="menuBarItem3.CommandName" xml:space="preserve">
+    <value>menuBarItem3</value>
+  </data>
+  <data name="&gt;&gt;pageElementsToolBar.Name" xml:space="preserve">
+    <value>pageElementsToolBar</value>
+  </data>
+  <data name="&gt;&gt;miSelect.Name" xml:space="preserve">
+    <value>miSelect</value>
+  </data>
+  <data name="&gt;&gt;miSelect.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;rightDock.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="miSaveAsFile.CommandName" xml:space="preserve">
+    <value>miSaveAsFile</value>
+  </data>
+  <data name="miSelect.Text" xml:space="preserve">
+    <value>Выбор элемента</value>
+  </data>
+  <data name="&gt;&gt;miSaveFile.Name" xml:space="preserve">
+    <value>miSaveFile</value>
+  </data>
+  <data name="&gt;&gt;miSaveFile.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pageElementsToolBar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pageElementsToolBar.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAACAAAAHAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;sbPanelPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusBarPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sbPanelPage.Name" xml:space="preserve">
+    <value>sbPanelPage</value>
+  </data>
+  <data name="&gt;&gt;miCopy.Name" xml:space="preserve">
+    <value>miCopy</value>
+  </data>
+  <data name="&gt;&gt;miCopy.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="miOpenFile.Text" xml:space="preserve">
+    <value>Открыть...</value>
+  </data>
+  <data name="$this.Icon" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>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/+jVtf/n1LP/59Ox/8yqdP//////UnaS/yqv0//ax8z/xaKl/45gb/9XPjT/RzJO9lNTU1UAAAAwAAAAEAAAAAAAAAAAAAAAAM+rdf//////zKp0//Djzv/v4sz/7+HL/+7gyf/u38f/7d7E/+zdwv/s28D/69q+/+vZu//p2Ln/6da2/+jVtf/n1LP/zKp0//////+9j13/ZFte/6eJav/ax8z/h1yW/7uQvf9iPHH/SDNP+gAAACgAAAAMAAAAAAAAAAAAAAAA0K54///////MqnT/8OTP//Djzv/v4s3/7+HM/+/hyf/u38f/7d7F/+3dwv/s28D/69q+/+vZvP/p2Ln/6da3/+jVtf/MqnT//////72PXf8AAAAwYjxx/6uBsP+/jdD/q3u5/5lmq/9iPHH/AAAAFAAAAAQAAAAAAAAAAAAAAADSsXr//////8yqdP/x5dH/8OTQ//Djzv/v4s3/7+LM/+/hy//u38j/7d/F/+3dw//s28D/69u+/+vZvP/p2Ln/6da4/8yqdP//////vY9d/wAAADAAAAAQYjxx/6Ftr/+/jdD/pnu1/4NRl/8AAAAEAAAAAAAAAAAAAAAAAAAAANS0fP//////zKp0//Hl0//x5dH/8OTQ//Djz//w483/7+LM/+/hy//u38n/7d/F/+3dxP/s3cL/69u+/+vavf/q2Lv/zKp0//////+9j13/AAAAMAAAABAAAAAAdkiI/3ZIiP+DUZf/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1bd////////MqnT/zKp0/8yqdP/MqnT/zKp0/8yqdP/MqnT/zKp0/8yqdP/MqnT/zKp0/8yqdP/MqnT/zKp0/8yqdP/MqnT//////76QXv8AAAAwAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADXuoH/////////////////////////////////////////////////////////////////////////////////////////////////v5Jf/wAAADAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANi8g///////zKp0/8yqdP/MqnT/zKp0/8yqdP/MqnT/zKp0/8yqdP/MqnT/zKp0/8yqdP/MqnT/zKp0/8yqdP/MqnT/zKp0///////Ak2H/AAAAMAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA2r6F///////MqnT/8+nZ//Po2P/y6Nb/8ufV//Lm1P/x5tP/8eXR//Dk0P/w48//8OPN/+/izP/v4Mr/7eDI/+3fxf/MqnT//////8GWY/8AAAAwAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADavoX//////8yqdP/z6dn/8+jY//Lo1v/y59X/8ubU//Hm0//x5dH/8OTQ//Djz//w483/7+LM/+/gyv/t4Mj/7d/F/8yqdP//////wZZj/wAAADAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANq+hf//////zKp0/8yqdP/MqnT/zKp0/8yqdP/MqnT/zKp0/8yqdP/MqnT/zKp0/8yqdP/MqnT/zKp0/8yqdP/MqnT/zKp0///////BlmP/AAAAJAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA28GH/////////////////////////////////////////////////////////////////////////////////////////////////8KYZP8AAAAMAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADcwoj/28GH/9q/hv/ZvoT/2LuD/9e6gf/Wt3//1LV9/9OzfP/SsXr/0a94/8+sdv/OqnT/zKdy/8ulcP/Ko27/x59r/8WcZ//DmGT/w5pm/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//////wP///8B////AP//AAAD/wAAA/8AAAP/AAAD/wAAA/8AAAP/AAAB/wAAAP8AAAA/AAAAHwAAAA8AAAAHAAAABwAAAAcAAAAHAAAABwAAAAcAAAAPAAACPwAAA/8AAAP/AAAD/wAAA/8AAAP/AAAD/wAAA/8AAA///////KAAAABAAAAAgAAAAAQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMKYZf/CmGX/wphl/8KYZf/CmGX/AAAA/8KYZf/CmGX/wphl/8KYZf/CmGX/wphl/8KYZf8AAAAAAAAAAAAAAADGnGj//////////////////////ziMuf8uXo3/dY6o///////////////////////CmGX/AAAAAAAAAAAAAAAAyKFs///////Mq3X/zKt1/8yrdf8VpND/KuT//wiWwv8dQWP/zKt1/8yrdf//////wphl/wAAAAAAAAAAAAAAAMmjbv//////zKt1/+7fyP/t3sb/VHiT/ya63v9A4ev/CJbC/x1BY//Mq3X//////8KYZf8AAAAAAAAAAAAAAADLpnH//////8yrdf/v4cr/7t/I/+3exv8sa5z/Jrre/yrk//8IlsL/HUFj///////CmGX/AAAAAAAAAAAAAAAAzalz///////Mq3X/7+LM/+/hy//u38n/7d/G/yxrnP8mut7/QOHr/wiWwv8dQWP/wphl/wAAAAAAAAAAAAAAAM+sdv//////zKt1//Djzv/v4sz/7+HL/+7gyf/u38f/LGuc/ya63v9A4ev/CJbC/x1BY/8AAAAAAAAAAAAAAADQr3n//////8yrdf/w5M//8OPO/+/izf/v4cz/7+HJ/+7fx/8sa5z/Jrre/0Dh6/8IlsL/HUFj/wAAAAAAAAAA0rJ7///////Mq3X/8eXR//Dk0P/w487/7+LN/+/izP/v4cv/7t/I/yxrnP8mut7/t8TH/1M7Sf9rVHP/AAAAANS1ff//////zKt1//Hl0//x5dH/8OTQ//Djz//w483/7+LM/+/hy//Mq3X/dWZm/+PT0/+wgbn/iV6Y/2tUc//VuID//////8yrdf/Mq3X/zKt1/8yrdf/Mq3X/zKt1/8yrdf/Mq3X/zKt1//////9rVHP/s4DC/6l+uP+JXpj/17uC////////////////////////////////////////////////////////////wphl/2tUc/+gk6n/AAAAANi9hP//////zKt1/8yrdf/Mq3X/zKt1/8yrdf/Mq3X/zKt1/8yrdf/Mq3X//////8KYZf8AAAAAAAAAAAAAAADav4b//////8yrdf/Mq3X/zKt1/8yrdf/Mq3X/zKt1/8yrdf/Mq3X/zKt1///////CmGX/AAAAAAAAAAAAAAAA28KI////////////////////////////////////////////////////////////wphl/wAAAAAAAAAAAAAAANzDif/bwoj/2sCH/9m/hf/YvIT/17uC/9a4gP/Utn7/07R9/9Kye//RsHn/z613/8qkb/8AAAAAAAAAAAAAAAAAB5xBAAecQQAHnEEAB5xBAAecQQAHnEEAB5xBAAOcQQABnEEAAJxBAACcQQABnEEAB5xBAAecQQAHnEEAB5xBCw==</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Редактор документов</value>
+  </data>
+  <data name="&gt;&gt;miView.Name" xml:space="preserve">
+    <value>miView</value>
+  </data>
+  <data name="&gt;&gt;miView.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuBarItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="miPage.Text" xml:space="preserve">
+    <value>Страница</value>
+  </data>
+  <data name="miTemplate.Text" xml:space="preserve">
+    <value>Шаблон</value>
+  </data>
+  <data name="&gt;&gt;miRedo.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;miRedo.Name" xml:space="preserve">
+    <value>miRedo</value>
+  </data>
+  <data name="&gt;&gt;pageElementsToolBar.Parent" xml:space="preserve">
+    <value>topBarDock</value>
+  </data>
+  <data name="miPrevWindow.CommandName" xml:space="preserve">
+    <value>PrevWindow</value>
+  </data>
+  <data name="menuButtonItem1.Icon" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>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</value>
+  </data>
+  <data name="menuButtonItem1.Text" xml:space="preserve">
+    <value>Вставить символ</value>
+  </data>
+  <data name="selectElementButton.CommandName" xml:space="preserve">
+    <value>selectPageElement</value>
+  </data>
+  <data name="&gt;&gt;miPrint.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;miPrint.Name" xml:space="preserve">
+    <value>miPrint</value>
+  </data>
+  <data name="miTemplate.CommandName" xml:space="preserve">
+    <value>miTemplate</value>
+  </data>
+  <data name="&gt;&gt;bottomBarDock.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="miRemove.CommandName" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="leftBarDock.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAMgAAAAs=</value>
+  </data>
+  <data name="bottomBarDock.Text" xml:space="preserve">
+    <value>BarDock</value>
+  </data>
+  <data name="bottomBarDock.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAADADAAAAAAAACw==</value>
+  </data>
+  <data name="bottomBarDock.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAACAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;miConfig.Name" xml:space="preserve">
+    <value>miConfig</value>
+  </data>
+  <data name="&gt;&gt;miConfig.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="miPrint.CommandName" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="miExit.Text" xml:space="preserve">
+    <value>Выход</value>
+  </data>
+  <data name="&gt;&gt;miUndo.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;miUndo.Name" xml:space="preserve">
+    <value>miUndo</value>
+  </data>
+  <data name="miSaveTemplateAs.Text" xml:space="preserve">
+    <value>Сохранить шаблон как...</value>
+  </data>
+  <data name="$this.ClientSize" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAADADAAClAQAACw==</value>
+  </data>
+  <data name="rightDock.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAEAAAACw==</value>
+  </data>
+  <data name="rightDock.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAAAAABdAQAACw==</value>
+  </data>
+  <data name="miPrintPreview.CommandName" xml:space="preserve">
+    <value>PrintPreview</value>
+  </data>
+  <data name="miGridSize.Text" xml:space="preserve">
+    <value>Размер сетки</value>
+  </data>
+  <data name="miRemove.Text" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="rightBarDock.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAwAwAAMgAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;leftDock.Type" xml:space="preserve">
+    <value>Intermech.Docking.DockContainer, Intermech.Docking, Version=4.0.7.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;leftDock.Name" xml:space="preserve">
+    <value>leftDock</value>
+  </data>
+  <data name="miSelect.CommandName" xml:space="preserve">
+    <value>selectPageElement</value>
+  </data>
+  <data name="miCreateFromTemplate.Text" xml:space="preserve">
+    <value>Создать по шаблону...</value>
+  </data>
+  <data name="documentContainer.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAADADAABdAQAACw==</value>
+  </data>
+  <data name="miUndo.CommandName" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="miSaveAsFile.Text" xml:space="preserve">
+    <value>Сохранить как...</value>
+  </data>
+  <data name="miNextWindow.Text" xml:space="preserve">
+    <value>Следующее окно</value>
+  </data>
+  <data name="miUndo.Text" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="miCut.CommandName" xml:space="preserve">
+    <value>Cut</value>
+  </data>
+  <data name="rightBarDock.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAAAAABzAQAACw==</value>
+  </data>
+  <data name="rightBarDock.Text" xml:space="preserve">
+    <value>BarDock</value>
+  </data>
+  <data name="rightBarDock.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAAEAAAACw==</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="sbPanelPage.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="miCopy.CommandName" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="&gt;&gt;sbPanelPageCursorPosition.Name" xml:space="preserve">
+    <value>sbPanelPageCursorPosition</value>
+  </data>
+  <data name="&gt;&gt;sbPanelPageCursorPosition.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusBarPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.AutoScaleBaseSize" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAUAAAANAAAACw==</value>
+  </data>
+  <data name="miZoom.Text" xml:space="preserve">
+    <value>Масштаб</value>
+  </data>
+  <data name="miNewFile.Text" xml:space="preserve">
+    <value>Новый</value>
+  </data>
+  <data name="&gt;&gt;miCloseAllWindows.Name" xml:space="preserve">
+    <value>miCloseAllWindows</value>
+  </data>
+  <data name="&gt;&gt;miCloseAllWindows.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;miDocumentTreeView.Name" xml:space="preserve">
+    <value>miDocumentTreeView</value>
+  </data>
+  <data name="&gt;&gt;miDocumentTreeView.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;miPrintPreview.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;miPrintPreview.Name" xml:space="preserve">
+    <value>miPrintPreview</value>
+  </data>
+  <data name="&gt;&gt;miEdit.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuBarItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;miEdit.Name" xml:space="preserve">
+    <value>miEdit</value>
+  </data>
+  <data name="&gt;&gt;miNewFile.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;miNewFile.Name" xml:space="preserve">
+    <value>miNewFile</value>
+  </data>
+  <data name="selectElementButton.Text" xml:space="preserve">
+    <value>Выбор элемента</value>
+  </data>
+  <data name="rightDock.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="miWindows.Text" xml:space="preserve">
+    <value>Окна</value>
+  </data>
+  <data name="&gt;&gt;imageList.Name" xml:space="preserve">
+    <value>imageList</value>
+  </data>
+  <data name="&gt;&gt;imageList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="documentContainer.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAMgAAAAs=</value>
+  </data>
+  <data name="miNextWindow.CommandName" xml:space="preserve">
+    <value>NextWindow</value>
+  </data>
+  <data name="miPageCoorSystem.Text" xml:space="preserve">
+    <value>Система координат</value>
+  </data>
+  <data name="menuBarItem3.Text" xml:space="preserve">
+    <value>&amp;View</value>
+  </data>
+  <data name="&gt;&gt;miNewTestDocByTemplate.Name" xml:space="preserve">
+    <value>miNewTestDocByTemplate</value>
+  </data>
+  <data name="&gt;&gt;miNewTestDocByTemplate.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="menuBarItem2.Text" xml:space="preserve">
+    <value>&amp;Edit</value>
+  </data>
+  <data name="leftDock.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="menuBarItem1.Text" xml:space="preserve">
+    <value>&amp;File</value>
+  </data>
+  <data name="topDock.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;leftDock.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;miShowTemplate.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;miShowTemplate.Name" xml:space="preserve">
+    <value>miShowTemplate</value>
+  </data>
+  <data name="&gt;&gt;miExportToWMF.Name" xml:space="preserve">
+    <value>miExportToWMF</value>
+  </data>
+  <data name="&gt;&gt;miExportToWMF.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;leftDock.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="menuBarItem2.CommandName" xml:space="preserve">
+    <value>menuBarItem2</value>
+  </data>
+  <data name="&gt;&gt;miShowDocument.Name" xml:space="preserve">
+    <value>miShowDocument</value>
+  </data>
+  <data name="&gt;&gt;miShowDocument.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="menuBarItem5.Text" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
+  <data name="miFile.Text" xml:space="preserve">
+    <value>Файл</value>
+  </data>
+  <data name="miProperties.Text" xml:space="preserve">
+    <value>Параметры элемента</value>
+  </data>
+  <data name="menuBarItem4.Text" xml:space="preserve">
+    <value>&amp;Window</value>
+  </data>
+  <data name="&gt;&gt;miTable.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuBarItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;miTable.Name" xml:space="preserve">
+    <value>miTable</value>
+  </data>
+  <data name="miProperties.CommandName" xml:space="preserve">
+    <value>Property</value>
+  </data>
+  <data name="imageList.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABYBAAAAk1TRnQBSQFMAwEBAAEMAQABDAEAARABAAEQAQAE/wEZARAI/wFCAU0BNgcAATYDAAEoAwABQAMAARADAAEBAQABGAYAAQzSAAHPARABBwG6AUsBJQGzAVIBLAGtAUsBLAGoAUQBLAGkAT0BLQGqAS4BJQYAAakBLQElAaABOAEuAaABOAEuAaABOAEuAaABOAEuAaYBMAEoAcoBCgEIkAABywEiAQ8BugFbASoBtwFYASwBsgFRASwBrQFKASwBqQFCASwBvQEcARUGAAG7ARoBFQGhATcBLQGgATgBLgGgATgBLgGgATgBLgGgATYBLAHAARQBEJAAAcgBPgEaAcQBRgEfAcoBHwEPAckBGQENAb8BLgEZAbYBNwEgAc8BBwEEBgABzQEFAQQBrQEpASABtQEgARoBwwERAQ4BwQETAQ8BrwEnASABswEiARyQAAHLATgBFwHRAQsBBAHTAQEBAAHLAR8BDwG6AUsBJQHIAR0BDwHTCAAB0wIAAcEBEwEQAaYBLwEmAcIBEgEOAdICAAHNAQYBBQG3AR4BGZYAAc4BGwELAb8BWgEoAb8BRwEhAc8BDgEHDAABywEJAQcBqgErASMBpQExASgBxgEOAQyZAAHRAQwBBQHHAUwBHwG/AWUBKwHGAT4BHAHSAQUBAgwAAdABAwECAbEBJAEcAaEBNwEtAa0BKAEhAcwBBgEFlgABzwEnAQ4BxwFlAScBwwFpASsByAE7ARkB0g4AAdICAAG2ASEBGgGgATgBLQGkATMBKQHBARMBD5YAAdABNQETAckBcQEqAccBbgErAcsBPQEXDwAB0gIAAbkBJQEaAaMBPQEtAaABNwEsAbsBGQEVlgAB0QE2ARMBzQF0ASkByQFyASsBywFFARkB0wEEAQEMAAHSAQMBAQG6AS0BGwGoAUMBLAGjAToBKwG9ARoBFJYAAdEBIwEMAc8BaQElAcwBdgEqAc0BUwEeAdIBDQEFDAABzwEKAQUBugE5ASABrQFKASwBrAE7ASgBxQETAQ2WAAHTAQUBAQHQAUQBGAHOAXUBKQHOAW4BJwHRASgBDgHTAQEHAAHSAgABywEfAQ8BugFQASgBsgFRASoBvQEsARoB0QEDAQKZAAHSAQwBBAHPAUkBGgHOAXEBKAHOAV0BIQHRASABDAHTAQMBAQHTAQMBAQHOARwBDAHCAU0BIQG7AVcBKQHBATgBGwHPAQgBBJ8AAdMBCAEDAdEBJAENAc8BSwEbAc4BWAEfAcwBVgEhAcoBVQEgAcYBUAEgAccBQAEcAcsBHwEOAdEBBwED/wD/ABsAAUIBTQE+BwABPgMAASgDAAFAAwABEAMAAQEBAAEBBQABgBcAA/8BAAL/BgABAQGABgABAQGABgABAQGABgABAQGABgACwwYAAYMBwQYAAYMBwQYAAYcBwQYAAYMBwQYAAYMBwQYAAoEGAAHAAQMGAAHgAQcGAAL/BgAC/xwACw==</value>
+  </data>
+  <data name="&gt;&gt;rightBarDock.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="bottomDock.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAjwEAAAs=</value>
+  </data>
+  <data name="statusBar.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAADADAAAWAAAACw==</value>
+  </data>
+  <data name="bottomDock.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;rightBarDock.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="selectElementButton.ToolTipText" xml:space="preserve">
+    <value>Выбор элемента</value>
+  </data>
+  <data name="miSetTemplate.CommandName" xml:space="preserve">
+    <value>miSetTemplate</value>
+  </data>
+  <data name="menuBarItem5.CommandName" xml:space="preserve">
+    <value>menuBarItem5</value>
+  </data>
+  <data name="miEdit.Text" xml:space="preserve">
+    <value>Правка</value>
+  </data>
+  <data name="&gt;&gt;miAbout.Name" xml:space="preserve">
+    <value>miAbout</value>
+  </data>
+  <data name="&gt;&gt;miAbout.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;miPageElements.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuBarItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;miPageElements.Name" xml:space="preserve">
+    <value>miPageElements</value>
+  </data>
+  <data name="&gt;&gt;bottomBarDock.Type" xml:space="preserve">
+    <value>Intermech.Bars.ToolBarContainer, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;bottomBarDock.Name" xml:space="preserve">
+    <value>bottomBarDock</value>
+  </data>
+  <data name="miZoom.CommandName" xml:space="preserve">
+    <value>miZoom</value>
+  </data>
+  <data name="&gt;&gt;bottomDock.Name" xml:space="preserve">
+    <value>bottomDock</value>
+  </data>
+  <data name="&gt;&gt;bottomDock.Type" xml:space="preserve">
+    <value>Intermech.Docking.DockContainer, Intermech.Docking, Version=4.0.7.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;miSetTemplate.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;miSetTemplate.Name" xml:space="preserve">
+    <value>miSetTemplate</value>
+  </data>
+  <data name="miAbout.CommandName" xml:space="preserve">
+    <value>miAbout</value>
+  </data>
+  <data name="miExportToWMF.Text" xml:space="preserve">
+    <value>Вывести в WMF...</value>
+  </data>
+  <data name="miCreateFromTemplate.CommandName" xml:space="preserve">
+    <value>CreateFromTemplate</value>
+  </data>
+  <data name="&gt;&gt;menuButtonItem1.Name" xml:space="preserve">
+    <value>menuButtonItem1</value>
+  </data>
+  <data name="&gt;&gt;menuButtonItem1.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="leftBarDock.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="statusBar.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="menuButtonItem1.CommandName" xml:space="preserve">
+    <value>miInSertSymbol</value>
+  </data>
+  <data name="miWindows.CommandName" xml:space="preserve">
+    <value>miWindows</value>
+  </data>
+  <data name="miShowDocument.CommandName" xml:space="preserve">
+    <value>miShowDocument</value>
+  </data>
+  <data name="&gt;&gt;miCut.Name" xml:space="preserve">
+    <value>miCut</value>
+  </data>
+  <data name="miDocumentTreeView.Text" xml:space="preserve">
+    <value>Схема документа</value>
+  </data>
+  <data name="&gt;&gt;miCut.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="sbPanelPageCursorPosition.Name" xml:space="preserve">
+    <value>sbPanelPageCursorPosition</value>
+  </data>
+  <data name="leftDock.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAMgAAAAs=</value>
+  </data>
+  <data name="sbPanelPageCursorPosition.Text" xml:space="preserve">
+    <value>0.0; 0.0</value>
+  </data>
+  <data name="miPaste.CommandName" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="&gt;&gt;miGridSize.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;miGridSize.Name" xml:space="preserve">
+    <value>miGridSize</value>
+  </data>
+  <data name="miPageElements.Text" xml:space="preserve">
+    <value>Элементы страницы</value>
+  </data>
+  <data name="&gt;&gt;topDock.Name" xml:space="preserve">
+    <value>topDock</value>
+  </data>
+  <data name="&gt;&gt;topDock.Type" xml:space="preserve">
+    <value>Intermech.Docking.DockContainer, Intermech.Docking, Version=4.0.7.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;miProperties.Name" xml:space="preserve">
+    <value>miProperties</value>
+  </data>
+  <data name="&gt;&gt;miProperties.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="miConfig.Text" xml:space="preserve">
+    <value>Параметры...</value>
+  </data>
+  <data name="miPaste.Text" xml:space="preserve">
+    <value>Вставить</value>
+  </data>
+  <data name="&gt;&gt;miCreateFromTemplate.Name" xml:space="preserve">
+    <value>miCreateFromTemplate</value>
+  </data>
+  <data name="&gt;&gt;miCreateFromTemplate.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="miCloseAllWindows.Text" xml:space="preserve">
+    <value>Закрыть все окна</value>
+  </data>
+  <data name="bottomBarDock.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="statusBar.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAjwEAAAs=</value>
+  </data>
+  <data name="&gt;&gt;miTemplate.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;miTemplate.Name" xml:space="preserve">
+    <value>miTemplate</value>
+  </data>
+  <data name="menuBar.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAACAAAAAAAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;topBarDock.Type" xml:space="preserve">
+    <value>Intermech.Bars.ToolBarContainer, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;topBarDock.Name" xml:space="preserve">
+    <value>topBarDock</value>
+  </data>
+  <data name="&gt;&gt;barManager.Name" xml:space="preserve">
+    <value>barManager</value>
+  </data>
+  <data name="&gt;&gt;barManager.Type" xml:space="preserve">
+    <value>Intermech.Bars.BarManager, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;miWindows.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuBarItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;miWindows.Name" xml:space="preserve">
+    <value>miWindows</value>
+  </data>
+  <data name="&gt;&gt;miSaveTemplateAs.Name" xml:space="preserve">
+    <value>miSaveTemplateAs</value>
+  </data>
+  <data name="&gt;&gt;miSaveTemplateAs.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="miCopy.Text" xml:space="preserve">
+    <value>Копировать</value>
+  </data>
+  <data name="&gt;&gt;miPageCoorSystem.Name" xml:space="preserve">
+    <value>miPageCoorSystem</value>
+  </data>
+  <data name="&gt;&gt;miPageCoorSystem.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;sbMessagePanel.Name" xml:space="preserve">
+    <value>sbMessagePanel</value>
+  </data>
+  <data name="&gt;&gt;topDock.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;sbMessagePanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusBarPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="miDocumentTreeView.CommandName" xml:space="preserve">
+    <value>miDocumentTreeView</value>
+  </data>
+  <data name="miRedo.Text" xml:space="preserve">
+    <value>Вернуть</value>
+  </data>
+  <data name="miAbout.Text" xml:space="preserve">
+    <value>О программе...</value>
+  </data>
+  <data name="miNewFile.CommandName" xml:space="preserve">
+    <value>miNewFile</value>
+  </data>
+  <data name="miPageCoorSystem.CommandName" xml:space="preserve">
+    <value>PageCoorSystem</value>
+  </data>
+  <data name="sbPanelPage.Text" xml:space="preserve">
+    <value>Стр. 1/1</value>
+  </data>
+  <data name="sbPanelPage.Name" xml:space="preserve">
+    <value>sbPanelPage</value>
+  </data>
+  <data name="&gt;&gt;miNextWindow.Name" xml:space="preserve">
+    <value>miNextWindow</value>
+  </data>
+  <data name="&gt;&gt;miNextWindow.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="pageElementsToolBar.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="miNewTestDocByTemplate.Text" xml:space="preserve">
+    <value>New TestDoc by template</value>
+  </data>
+  <data name="&gt;&gt;statusBar.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="topBarDock.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="miSaveTemplateAs.CommandName" xml:space="preserve">
+    <value>miSaveTemplateAs</value>
+  </data>
+  <data name="miSaveFile.CommandName" xml:space="preserve">
+    <value>miSaveFile</value>
+  </data>
+  <data name="&gt;&gt;statusBar.Name" xml:space="preserve">
+    <value>statusBar</value>
+  </data>
+  <data name="&gt;&gt;statusBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="miGridSize.CommandName" xml:space="preserve">
+    <value>GridSize</value>
+  </data>
+  <data name="miSetTemplate.Text" xml:space="preserve">
+    <value>Заменить шаблон на...</value>
+  </data>
+  <data name="topDock.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAMgAAAAs=</value>
+  </data>
+  <data name="&gt;&gt;menuBar.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="miShowTemplate.Text" xml:space="preserve">
+    <value>Шаблон Документа</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>DocumentEditorMainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statusBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;topDock.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;menuBar.Name" xml:space="preserve">
+    <value>menuBar</value>
+  </data>
+  <data name="&gt;&gt;menuBar.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuBar, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;leftBarDock.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="miCut.Text" xml:space="preserve">
+    <value>Вырезать</value>
+  </data>
+  <data name="sbMessagePanel.Width" type="System.Int32, mscorlib">
+    <value>639</value>
+  </data>
+  <data name="&gt;&gt;menuBar.Parent" xml:space="preserve">
+    <value>topBarDock</value>
+  </data>
+  <data name="sbMessagePanel.Name" xml:space="preserve">
+    <value>sbMessagePanel</value>
+  </data>
+  <data name="&gt;&gt;miRemove.Name" xml:space="preserve">
+    <value>miRemove</value>
+  </data>
+  <data name="&gt;&gt;miRemove.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;miZoom.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;miZoom.Name" xml:space="preserve">
+    <value>miZoom</value>
+  </data>
+  <data name="&gt;&gt;topBarDock.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="documentContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;miSaveAsFile.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;miSaveAsFile.Name" xml:space="preserve">
+    <value>miSaveAsFile</value>
+  </data>
+  <data name="miPageElements.CommandName" xml:space="preserve">
+    <value>miPageElements</value>
+  </data>
+  <data name="bottomBarDock.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAApQEAAAs=</value>
+  </data>
+  <data name="miExit.CommandName" xml:space="preserve">
+    <value>miExit</value>
+  </data>
+  <data name="&gt;&gt;leftBarDock.Name" xml:space="preserve">
+    <value>leftBarDock</value>
+  </data>
+  <data name="&gt;&gt;leftBarDock.Type" xml:space="preserve">
+    <value>Intermech.Bars.ToolBarContainer, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="topBarDock.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAADADAAAyAAAACw==</value>
+  </data>
+  <data name="topBarDock.Text" xml:space="preserve">
+    <value>BarDock</value>
+  </data>
+  <data name="topBarDock.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAABAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;topBarDock.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="miExportToWMF.CommandName" xml:space="preserve">
+    <value>ExportToWMF</value>
+  </data>
+  <data name="rightDock.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAwAwAAMgAAAAs=</value>
+  </data>
+  <data name="menuBar.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="topBarDock.Location" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABRTeXN0ZW0uRHJhd2luZy5Qb2ludAIAAAABeAF5AAAICAIAAAAAAAAAAAAAAAs=</value>
+  </data>
+  <data name="miNewTestDocByTemplate.CommandName" xml:space="preserve">
+    <value>NewTestDocByTemplate</value>
+  </data>
+  <data name="&gt;&gt;leftBarDock.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="miSelectAll.CommandName" xml:space="preserve">
+    <value>SelectAll</value>
+  </data>
+  <data name="&gt;&gt;OpenDlg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OpenDlg.Name" xml:space="preserve">
+    <value>OpenDlg</value>
+  </data>
+  <data name="miShowTemplate.CommandName" xml:space="preserve">
+    <value>miShowTemplate</value>
+  </data>
+  <data name="miEdit.CommandName" xml:space="preserve">
+    <value>miEdit</value>
+  </data>
+  <data name="rightBarDock.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="menuBarItem4.CommandName" xml:space="preserve">
+    <value>menuBarItem4</value>
+  </data>
+  <data name="&gt;&gt;miSelectAll.Name" xml:space="preserve">
+    <value>miSelectAll</value>
+  </data>
+  <data name="&gt;&gt;miSelectAll.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuButtonItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;miFile.Name" xml:space="preserve">
+    <value>miFile</value>
+  </data>
+  <data name="&gt;&gt;miFile.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuBarItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="leftDock.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAAAAAABdAQAACw==</value>
+  </data>
+  <data name="leftDock.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAADAAAACw==</value>
+  </data>
+  <data name="&gt;&gt;menuBarItem3.Name" xml:space="preserve">
+    <value>menuBarItem3</value>
+  </data>
+  <data name="&gt;&gt;menuBarItem3.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuBarItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="miSelectAll.Text" xml:space="preserve">
+    <value>Выделить все</value>
+  </data>
+  <data name="miPage.CommandName" xml:space="preserve">
+    <value>Page</value>
+  </data>
+  <data name="&gt;&gt;menuBarItem2.Name" xml:space="preserve">
+    <value>menuBarItem2</value>
+  </data>
+  <data name="&gt;&gt;menuBarItem2.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuBarItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="miCloseAllWindows.CommandName" xml:space="preserve">
+    <value>CloseAllWindows</value>
+  </data>
+  <data name="&gt;&gt;documentContainer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuBarItem1.Name" xml:space="preserve">
+    <value>menuBarItem1</value>
+  </data>
+  <data name="&gt;&gt;menuBarItem1.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuBarItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="miShowDocument.Text" xml:space="preserve">
+    <value>Документ</value>
+  </data>
+  <data name="&gt;&gt;documentContainer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="miConfig.CommandName" xml:space="preserve">
+    <value>Config</value>
+  </data>
+  <data name="&gt;&gt;menuBarItem5.Name" xml:space="preserve">
+    <value>menuBarItem5</value>
+  </data>
+  <data name="&gt;&gt;menuBarItem5.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuBarItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;selectElementButton.Name" xml:space="preserve">
+    <value>selectElementButton</value>
+  </data>
+  <data name="&gt;&gt;selectElementButton.Type" xml:space="preserve">
+    <value>Intermech.Bars.ButtonItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="menuBar.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAAC4DAAAcAAAACw==</value>
+  </data>
+  <data name="menuBar.Text" xml:space="preserve">
+    <value>menuBar</value>
+  </data>
+  <data name="&gt;&gt;menuBarItem4.Name" xml:space="preserve">
+    <value>menuBarItem4</value>
+  </data>
+  <data name="&gt;&gt;menuBarItem4.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuBarItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="miPrint.Text" xml:space="preserve">
+    <value>Печать...</value>
+  </data>
+  <data name="&gt;&gt;miPage.Type" xml:space="preserve">
+    <value>Intermech.Bars.MenuBarItem, Intermech.Bars, Version=4.0.3.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;miPage.Name" xml:space="preserve">
+    <value>miPage</value>
+  </data>
+  <data name="menuBarItem1.CommandName" xml:space="preserve">
+    <value>menuBarItem1</value>
+  </data>
+  <data name="topDock.Dock" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5Eb2NrU3R5bGUBAAAAB3ZhbHVlX18ACAIAAAABAAAACw==</value>
+  </data>
+  <data name="topDock.Size" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABNTeXN0ZW0uRHJhd2luZy5TaXplAgAAAAV3aWR0aAZoZWlnaHQAAAgIAgAAADADAAAAAAAACw==</value>
+  </data>
+  <data name="miPrevWindow.Text" xml:space="preserve">
+    <value>Предыдущее окно</value>
+  </data>
+  <data name="sbPanelPageCursorPosition.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="miView.Text" xml:space="preserve">
+    <value>Вид</value>
+  </data>
+  <data name="&gt;&gt;documentContainer.Name" xml:space="preserve">
+    <value>documentContainer</value>
+  </data>
+  <data name="&gt;&gt;documentContainer.Type" xml:space="preserve">
+    <value>Intermech.Docking.DocumentContainer, Intermech.Docking, Version=4.0.7.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>
