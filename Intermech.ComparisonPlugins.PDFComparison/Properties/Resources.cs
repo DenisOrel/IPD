@@ -1,8 +1,8 @@
-﻿// Decompiled with JetBrains decompiler
+﻿
 // Type: Intermech.ComparisonPlugins.PDFComparison.Properties.Resources
-// Assembly: Intermech.ComparisonPlugins.PDFComparison, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-// MVID: A8B4ECC9-43EB-48A8-B8E5-C6978FF09846
-// Assembly location: D:\IPS\Client\Intermech.ComparisonPlugins.PDFComparison.dll
+
+
+
 
 using System.CodeDom.Compiler;
 using System.ComponentModel;
@@ -12,57 +12,58 @@ using System.Globalization;
 using System.Resources;
 using System.Runtime.CompilerServices;
 
-#nullable disable
-namespace Intermech.ComparisonPlugins.PDFComparison.Properties;
 
-[GeneratedCode("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
-[DebuggerNonUserCode]
-[CompilerGenerated]
-internal class Resources
+namespace Intermech.ComparisonPlugins.PDFComparison.Properties
 {
-  private static ResourceManager resourceMan;
-  private static CultureInfo resourceCulture;
-
-  internal Resources()
-  {
-  }
-
-  [EditorBrowsable(EditorBrowsableState.Advanced)]
-  internal static ResourceManager ResourceManager
-  {
-    get
+    [GeneratedCode("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
+    [DebuggerNonUserCode]
+    [CompilerGenerated]
+    internal class Resources
     {
-      if (Intermech.ComparisonPlugins.PDFComparison.Properties.Resources.resourceMan == null)
-        Intermech.ComparisonPlugins.PDFComparison.Properties.Resources.resourceMan = new ResourceManager("Intermech.ComparisonPlugins.PDFComparison.Properties.Resources", typeof (Intermech.ComparisonPlugins.PDFComparison.Properties.Resources).Assembly);
-      return Intermech.ComparisonPlugins.PDFComparison.Properties.Resources.resourceMan;
+      private static ResourceManager resourceMan;
+      private static CultureInfo resourceCulture;
+
+      internal Resources()
+      {
+      }
+
+      [EditorBrowsable(EditorBrowsableState.Advanced)]
+      internal static ResourceManager ResourceManager
+      {
+        get
+        {
+          if (Intermech.ComparisonPlugins.PDFComparison.Properties.Resources.resourceMan == null)
+            Intermech.ComparisonPlugins.PDFComparison.Properties.Resources.resourceMan = new ResourceManager("Intermech.ComparisonPlugins.PDFComparison.Properties.Resources", typeof (Intermech.ComparisonPlugins.PDFComparison.Properties.Resources).Assembly);
+          return Intermech.ComparisonPlugins.PDFComparison.Properties.Resources.resourceMan;
+        }
+      }
+
+      [EditorBrowsable(EditorBrowsableState.Advanced)]
+      internal static CultureInfo Culture
+      {
+        get => Intermech.ComparisonPlugins.PDFComparison.Properties.Resources.resourceCulture;
+        set => Intermech.ComparisonPlugins.PDFComparison.Properties.Resources.resourceCulture = value;
+      }
+
+      internal static Bitmap negative
+      {
+        get
+        {
+          return (Bitmap) Intermech.ComparisonPlugins.PDFComparison.Properties.Resources.ResourceManager.GetObject(nameof (negative), Intermech.ComparisonPlugins.PDFComparison.Properties.Resources.resourceCulture);
+        }
+      }
+
+      internal static Bitmap positive
+      {
+        get
+        {
+          return (Bitmap) Intermech.ComparisonPlugins.PDFComparison.Properties.Resources.ResourceManager.GetObject(nameof (positive), Intermech.ComparisonPlugins.PDFComparison.Properties.Resources.resourceCulture);
+        }
+      }
+
+      internal static Bitmap reset
+      {
+        get => (Bitmap) Intermech.ComparisonPlugins.PDFComparison.Properties.Resources.ResourceManager.GetObject(nameof (reset), Intermech.ComparisonPlugins.PDFComparison.Properties.Resources.resourceCulture);
+      }
     }
-  }
-
-  [EditorBrowsable(EditorBrowsableState.Advanced)]
-  internal static CultureInfo Culture
-  {
-    get => Intermech.ComparisonPlugins.PDFComparison.Properties.Resources.resourceCulture;
-    set => Intermech.ComparisonPlugins.PDFComparison.Properties.Resources.resourceCulture = value;
-  }
-
-  internal static Bitmap negative
-  {
-    get
-    {
-      return (Bitmap) Intermech.ComparisonPlugins.PDFComparison.Properties.Resources.ResourceManager.GetObject(nameof (negative), Intermech.ComparisonPlugins.PDFComparison.Properties.Resources.resourceCulture);
-    }
-  }
-
-  internal static Bitmap positive
-  {
-    get
-    {
-      return (Bitmap) Intermech.ComparisonPlugins.PDFComparison.Properties.Resources.ResourceManager.GetObject(nameof (positive), Intermech.ComparisonPlugins.PDFComparison.Properties.Resources.resourceCulture);
-    }
-  }
-
-  internal static Bitmap reset
-  {
-    get => (Bitmap) Intermech.ComparisonPlugins.PDFComparison.Properties.Resources.ResourceManager.GetObject(nameof (reset), Intermech.ComparisonPlugins.PDFComparison.Properties.Resources.resourceCulture);
-  }
 }

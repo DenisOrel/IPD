@@ -1,32 +1,33 @@
-﻿// Decompiled with JetBrains decompiler
+﻿
 // Type: Intermech.ComparisonPlugins.PDFComparison.UI.IMainView
-// Assembly: Intermech.ComparisonPlugins.PDFComparison, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-// MVID: A8B4ECC9-43EB-48A8-B8E5-C6978FF09846
-// Assembly location: D:\IPS\Client\Intermech.ComparisonPlugins.PDFComparison.dll
+
+
+
 
 using System;
 using System.Drawing;
 
-#nullable disable
-namespace Intermech.ComparisonPlugins.PDFComparison.UI;
 
-public interface IMainView
+namespace Intermech.ComparisonPlugins.PDFComparison.UI
 {
-  event EventHandler ChangedView;
+    public interface IMainView
+    {
+      event EventHandler ChangedView;
 
-  ILayerView TopLayerView { get; }
+      ILayerView TopLayerView { get; }
 
-  ILayerView LowLayerView { get; }
+      ILayerView LowLayerView { get; }
 
-  float Angle { get; }
+      float Angle { get; }
 
-  double Zoom { get; }
+      double Zoom { get; }
 
-  Point Offset { get; }
+      Point Offset { get; }
 
-  int ViewType { get; }
+      int ViewType { get; }
 
-  void SetImage(Image image);
+      void SetImage(Image image);
 
-  void UpdateImage(Image image);
+      void UpdateImage(Image image);
+    }
 }

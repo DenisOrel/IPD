@@ -1,63 +1,64 @@
-﻿// Decompiled with JetBrains decompiler
+﻿
 // Type: Intermech.ComparisonPlugins.PDFComparison.UI.LayerPresenter
-// Assembly: Intermech.ComparisonPlugins.PDFComparison, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-// MVID: A8B4ECC9-43EB-48A8-B8E5-C6978FF09846
-// Assembly location: D:\IPS\Client\Intermech.ComparisonPlugins.PDFComparison.dll
+
+
+
 
 using Intermech.ComparisonPlugins.PDFComparison.Common;
 using System;
 using System.Drawing;
 
-#nullable disable
-namespace Intermech.ComparisonPlugins.PDFComparison.UI;
 
-public class LayerPresenter : ILayerPresenter
+namespace Intermech.ComparisonPlugins.PDFComparison.UI
 {
-  public event EventHandler PageUpdated;
+    public class LayerPresenter : ILayerPresenter
+    {
+      public event EventHandler PageUpdated;
 
-  public event EventHandler OnSelectObjectClick;
+      public event EventHandler OnSelectObjectClick;
 
-  public Image PageImage => this.pageList.CurrentPage.Image;
+      public Image PageImage => this.pageList.CurrentPage.Image;
 
-  public void LoadFile(FileDescription comparedFile) => this.pageList.LoadFile(comparedFile);
+      public void LoadFile(FileDescription comparedFile) => this.pageList.LoadFile(comparedFile);
 
-  private ILayerView view { get; }
+      private ILayerView view { get; }
 
-  private PageList pageList { get; }
+      private PageList pageList { get; }
 
-  public LayerPresenter(ILayerView view)
-  {
-    this.view = view;
-    this.pageList = new PageList();
-    this.pageList.PageUpdated += new EventHandler(this.PageList_PageUpdated);
-    view.ClickOpenButton += new EventHandler(this.View_ClickOpenButton);
-    view.ChangedPageNumber += new EventHandler(this.View_ChangedPageNumber);
-    view.ClickNextPageButton += new EventHandler(this.View_ClickNextPageButton);
-    view.ClickPrevPageButton += new EventHandler(this.View_ClickPrevPageButton);
-  }
+      public LayerPresenter(ILayerView view)
+      {
+        this.view = view;
+        this.pageList = new PageList();
+        this.pageList.PageUpdated += new EventHandler(this.PageList_PageUpdated);
+        view.ClickOpenButton += new EventHandler(this.View_ClickOpenButton);
+        view.ChangedPageNumber += new EventHandler(this.View_ChangedPageNumber);
+        view.ClickNextPageButton += new EventHandler(this.View_ClickNextPageButton);
+        view.ClickPrevPageButton += new EventHandler(this.View_ClickPrevPageButton);
+      }
 
-  private void View_ClickOpenButton(object sender, EventArgs e)
-  {
-    EventHandler selectObjectClick = this.OnSelectObjectClick;
-    if (selectObjectClick == null)
-      return;
-    selectObjectClick((object) this, EventArgs.Empty);
-  }
+      private void View_ClickOpenButton(object sender, EventArgs e)
+      {
+        EventHandler selectObjectClick = this.OnSelectObjectClick;
+        if (selectObjectClick == null)
+          return;
+        selectObjectClick((object) this, EventArgs.Empty);
+      }
 
-  private void View_ChangedPageNumber(object sender, EventArgs e)
-  {
-    this.pageList.SetPage(this.view.PageNumber);
-  }
+      private void View_ChangedPageNumber(object sender, EventArgs e)
+      {
+        this.pageList.SetPage(this.view.PageNumber);
+      }
 
-  private void View_ClickNextPageButton(object sender, EventArgs e) => this.pageList.NextPage();
+      private void View_ClickNextPageButton(object sender, EventArgs e) => this.pageList.NextPage();
 
-  private void View_ClickPrevPageButton(object sender, EventArgs e) => this.pageList.PrevPage();
+      private void View_ClickPrevPageButton(object sender, EventArgs e) => this.pageList.PrevPage();
 
-  private void PageList_PageUpdated(object sender, EventArgs e)
-  {
-    EventHandler pageUpdated = this.PageUpdated;
-    if (pageUpdated != null)
-      pageUpdated((object) null, EventArgs.Empty);
-    this.view.UpdateUI(this.pageList.FileName, this.pageList.CurrentPage.Number, this.pageList.Count);
-  }
+      private void PageList_PageUpdated(object sender, EventArgs e)
+      {
+        EventHandler pageUpdated = this.PageUpdated;
+        if (pageUpdated != null)
+          pageUpdated((object) null, EventArgs.Empty);
+        this.view.UpdateUI(this.pageList.FileName, this.pageList.CurrentPage.Number, this.pageList.Count);
+      }
+    }
 }
